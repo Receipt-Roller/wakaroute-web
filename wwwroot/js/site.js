@@ -23,10 +23,39 @@
     });
   }
 
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const learningMap = document.querySelector("[data-learning-map]");
+
+  if (learningMap) {
+    const skillRows = [...learningMap.querySelectorAll(".skill-row")];
+    const recommendation = learningMap.querySelector("[data-learning-map-message]");
+
+    skillRows.forEach((row) => {
+      row.addEventListener("click", () => {
+        skillRows.forEach((item) => {
+          const selected = item === row;
+          item.classList.toggle("focus", selected);
+          item.setAttribute("aria-pressed", String(selected));
+        });
+
+        if (recommendation) recommendation.textContent = row.dataset.recommendation ?? "";
+      });
+    });
+
+    if (!reducedMotion.matches && "IntersectionObserver" in window) {
+      learningMap.classList.add("is-awaiting-reveal");
+      const revealObserver = new IntersectionObserver((entries) => {
+        if (!entries.some((entry) => entry.isIntersecting)) return;
+        learningMap.classList.add("is-revealed");
+        revealObserver.disconnect();
+      }, { threshold: .35 });
+      revealObserver.observe(learningMap);
+    }
+  }
+
   const hero = document.querySelector("[data-hero-visual]");
   if (!hero) return;
 
-  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
   const ring = hero.querySelector("[data-progress-ring]");
   const progressNumber = hero.querySelector("[data-progress-number]");

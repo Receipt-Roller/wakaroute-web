@@ -19,6 +19,7 @@ appsettings.*.Local.json
 
 ## Secrets and deployment artifacts
 Properties/PublishProfiles/
+*.PublishSettings
 *.pubxml
 *.pubxml.user
 *.pfx

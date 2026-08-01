@@ -149,15 +149,16 @@
 
 <section class="section feature-section">
     <div class="shell feature-grid">
-        <div class="feature-visual" aria-hidden="true">
-            <div class="map-card">
+        <div class="feature-visual">
+            <div class="map-card" data-learning-map aria-label="数学の理解マップ。項目を選ぶと、次に確認する内容が変わります。">
                 <div class="map-card-head"><span>数学の理解マップ</span><b>中学2年</b></div>
-                <div class="skill-row"><span>式の計算</span><div><i style="width:92%"></i></div><b>92%</b></div>
-                <div class="skill-row"><span>連立方程式</span><div><i style="width:78%"></i></div><b>78%</b></div>
-                <div class="skill-row focus"><span>一次関数</span><div><i style="width:46%"></i></div><b>46%</b></div>
-                <div class="skill-row"><span>図形の性質</span><div><i style="width:71%"></i></div><b>71%</b></div>
-                <div class="skill-row"><span>確率</span><div><i style="width:85%"></i></div><b>85%</b></div>
-                <div class="map-message"><span>次の一歩</span><p>一次関数の「傾き」から確認しよう</p></div>
+                <p class="map-card-hint">項目を選ぶと、次の一歩が変わります</p>
+                <button class="skill-row" type="button" data-recommendation="連立方程式の文章題で、計算を使えるか確かめよう" aria-pressed="false"><span>式の計算</span><span class="skill-meter" aria-hidden="true"><i style="--skill-progress:92%"></i></span><b>92%</b></button>
+                <button class="skill-row" type="button" data-recommendation="代入法と加減法の使い分けを確認しよう" aria-pressed="false"><span>連立方程式</span><span class="skill-meter" aria-hidden="true"><i style="--skill-progress:78%"></i></span><b>78%</b></button>
+                <button class="skill-row focus" type="button" data-recommendation="一次関数の「傾き」から確認しよう" aria-pressed="true"><span>一次関数</span><span class="skill-meter" aria-hidden="true"><i style="--skill-progress:46%"></i></span><b>46%</b></button>
+                <button class="skill-row" type="button" data-recommendation="根拠を言葉にしながら、証明の流れを確認しよう" aria-pressed="false"><span>図形の性質</span><span class="skill-meter" aria-hidden="true"><i style="--skill-progress:71%"></i></span><b>71%</b></button>
+                <button class="skill-row" type="button" data-recommendation="樹形図を使って、数え漏れがないか確かめよう" aria-pressed="false"><span>確率</span><span class="skill-meter" aria-hidden="true"><i style="--skill-progress:85%"></i></span><b>85%</b></button>
+                <div class="map-message"><span>次の一歩</span><p data-learning-map-message aria-live="polite">一次関数の「傾き」から確認しよう</p></div>
             </div>
         </div>
         <div class="feature-copy">

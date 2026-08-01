@@ -1,0 +1,51 @@
+name: Build and deploy to Azure Web App
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wakaroute-production
+  cancel-in-progress: false
+
+env:
+  AZURE_WEBAPP_NAME: wpp-wakaroute
+  DOTNET_VERSION: 10.0.x
+  PUBLISH_PATH: ${{ github.workspace }}/publish
+
+jobs:
+  deploy:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: production
+      url: ${{ steps.deploy.outputs.webapp-url }}
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Restore dependencies
+        run: dotnet restore wakaroute-web.csproj
+
+      - name: Publish application
+        run: dotnet publish wakaroute-web.csproj --configuration Release --no-restore --output "${{ env.PUBLISH_PATH }}"
+
+      - name: Deploy to Azure Web App
+        id: deploy
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: ${{ env.PUBLISH_PATH }}

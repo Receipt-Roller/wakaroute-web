@@ -36,6 +36,18 @@ Releaseビルド：
 dotnet build --configuration Release
 ```
 
+## Azureへのデプロイ
+
+`.github/workflows/deploy-azure.yml`は、`main`へのpushまたはGitHub Actionsからの手動実行で、Release publishを`wpp-wakaroute` Azure Web Appへデプロイします。
+
+GitHubリポジトリに、Azure Portalから取得した発行プロファイルのXML全体を次のActions Secretとして登録してください。
+
+```text
+AZURE_WEBAPP_PUBLISH_PROFILE
+```
+
+発行プロファイルはアプリへデプロイできる認証情報です。ファイルや内容をリポジトリへコミットせず、漏えいした場合はAzure Portalで直ちに再発行してください。
+
 ## 学校カタログ
 
 学校カタログは文部科学省の学校コードCSVから再生成できます。
