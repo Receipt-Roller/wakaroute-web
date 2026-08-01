@@ -1,0 +1,119 @@
+@model SchoolSearchViewModel
+@{
+    ViewData["Title"] = "高校を探す";
+    ViewData["Description"] = "全国の高校を、学校名、地域、国公私立から検索できます。自分に合う高校を知るための最初の一歩を始めましょう。";
+}
+
+<section class="school-search-hero">
+    <div class="shell school-search-hero-grid">
+        <div>
+            <nav class="breadcrumbs" aria-label="パンくずリスト">
+                <a asp-controller="Home" asp-action="Index">ホーム</a><span aria-hidden="true">/</span><span>高校を探す</span>
+            </nav>
+            <div class="eyebrow"><span></span>SCHOOL DISCOVERY</div>
+            <h1>自分に合う高校を、<br /><em>知ることから始めよう。</em></h1>
+            <p>高校受験は、ただテストで点を取るだけではありません。通える場所、学校の種類、学びたいこと。まずは選択肢を知り、自分に合う学校を見つけていきましょう。</p>
+        </div>
+        <div class="school-count-card" aria-label="掲載している高校コード数">
+            <small>全国の現行高校コード</small>
+            <strong>@Model.Metadata.CurrentSchoolCount.ToString("N0")<span>件</span></strong>
+            <p>@Model.Metadata.AsOf.Replace("-", ".") 時点<br />文部科学省「学校コード」確定版より</p>
+            <div><span>47</span>都道府県 <i></i><span>@Model.Metadata.BranchCount</span>分校を含む</div>
+        </div>
+    </div>
+</section>
+
+<section class="school-search-section">
+    <div class="shell">
+        <form class="school-search-form" method="get" asp-controller="Schools" asp-action="Index">
+            <div class="school-keyword-field">
+                <label for="school-query">学校名・住所</label>
+                <div><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6" /><path d="m16 16 4 4" /></svg><input id="school-query" name="q" value="@Model.Query" placeholder="例：松本、高等学校名" /></div>
+            </div>
+            <div>
+                <label for="school-prefecture">都道府県</label>
+                <select id="school-prefecture" name="prefecture">
+                    <option value="" selected="@(string.IsNullOrEmpty(Model.Prefecture))">全国</option>
+                    @foreach (var option in Model.Prefectures)
+                    {
+                        <option value="@option.Value" selected="@(Model.Prefecture == option.Value)">@option.Label（@option.Count）</option>
+                    }
+                </select>
+            </div>
+            <div>
+                <label for="school-ownership">設置区分</label>
+                <select id="school-ownership" name="ownership">
+                    <option value="" selected="@(string.IsNullOrEmpty(Model.Ownership))">すべて</option>
+                    <option value="national" selected="@(Model.Ownership == "national")">国立</option>
+                    <option value="public" selected="@(Model.Ownership == "public")">公立</option>
+                    <option value="private" selected="@(Model.Ownership == "private")">私立</option>
+                </select>
+            </div>
+            <button class="button button-primary" type="submit">この条件で探す<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></button>
+        </form>
+
+        <div class="school-results-heading" aria-live="polite">
+            <div><span>SEARCH RESULT</span><h2>高校検索結果</h2></div>
+            <p><strong>@Model.Results.TotalCount.ToString("N0")</strong> 件見つかりました</p>
+        </div>
+
+        @if (Model.Results.Items.Count == 0)
+        {
+            <div class="school-empty">
+                <span aria-hidden="true">?</span>
+                <h3>条件に合う高校が見つかりませんでした</h3>
+                <p>学校名を短くするか、都道府県・設置区分を「すべて」にして、もう一度お試しください。</p>
+                <a asp-controller="Schools" asp-action="Index">条件をクリアする</a>
+            </div>
+        }
+        else
+        {
+            <div class="school-card-grid">
+                @foreach (var school in Model.Results.Items)
+                {
+                    <article class="school-card">
+                        <div class="school-card-tags"><span class="school-tag school-tag-@school.Ownership">@school.OwnershipLabel</span>@if (school.CampusType == "branch") { <span class="school-tag school-tag-branch">分校</span> }</div>
+                        <h3>@school.Name</h3>
+                        <p class="school-location"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 18s6-5.2 6-11a6 6 0 1 0-12 0c0 5.8 6 11 6 11Z" /><circle cx="10" cy="7" r="2" /></svg>@school.Address</p>
+                        <div class="school-card-meta"><span>〒@school.PostalCode</span><span>@school.Prefecture</span></div>
+                        <div class="school-card-footer"><small>ID @school.Id.Replace("wk_", string.Empty).ToUpperInvariant()</small>@if (!string.IsNullOrEmpty(school.OfficialUrl)) { <a href="@school.OfficialUrl" target="_blank" rel="noopener noreferrer">公式サイト ↗</a> } else { <span>公式サイトは確認中</span> }</div>
+                    </article>
+                }
+            </div>
+
+            @if (Model.Results.TotalPages > 1)
+            {
+                <nav class="school-pagination" aria-label="検索結果のページ送り">
+                    @if (Model.Results.Page > 1)
+                    {
+                        <a asp-action="Index" asp-route-q="@Model.Query" asp-route-prefecture="@Model.Prefecture" asp-route-ownership="@Model.Ownership" asp-route-page="@(Model.Results.Page - 1)" aria-label="前のページ">←</a>
+                    }
+                    @foreach (var pageNumber in Model.PageNumbers)
+                    {
+                        if (pageNumber == Model.Results.Page)
+                        {
+                            <span aria-current="page">@pageNumber</span>
+                        }
+                        else
+                        {
+                            <a asp-action="Index" asp-route-q="@Model.Query" asp-route-prefecture="@Model.Prefecture" asp-route-ownership="@Model.Ownership" asp-route-page="@pageNumber">@pageNumber</a>
+                        }
+                    }
+                    @if (Model.Results.Page < Model.Results.TotalPages)
+                    {
+                        <a asp-action="Index" asp-route-q="@Model.Query" asp-route-prefecture="@Model.Prefecture" asp-route-ownership="@Model.Ownership" asp-route-page="@(Model.Results.Page + 1)" aria-label="次のページ">→</a>
+                    }
+                </nav>
+            }
+        }
+
+        <aside class="school-data-note">
+            <div><span>DATA SOURCE</span><h2>掲載情報について</h2></div>
+            <div>
+                <p>文部科学省が公開する令和7年5月1日時点の確定版「学校コード」をもとに、廃止年月日のない高校コードを掲載しています。学校基本統計の4,761校とは集計方法が異なり、本一覧には分校や、統計上の学校数に含まれない現行コードが含まれます。</p>
+                <p>名称・住所等は変更される場合があります。出願など重要な判断の前には、必ず各学校や都道府県の最新情報をご確認ください。</p>
+                <a href="https://www.mext.go.jp/b_menu/toukei/mext_01087.html" target="_blank" rel="noopener noreferrer">文部科学省「学校コード」を確認する ↗</a>
+            </div>
+        </aside>
+    </div>
+</section>

@@ -1,0 +1,184 @@
+@model UnderstandingMapViewModel
+@{
+    ViewData["Title"] = $"{Model.Subject}の理解マップ";
+    ViewData["Description"] = Model.Description;
+    var firstNode = Model.Areas.First().Nodes.First();
+}
+
+<section class="map-hero">
+    <div class="shell map-hero-grid">
+        <div>
+            <nav class="breadcrumbs" aria-label="パンくずリスト">
+                <a asp-area="" asp-controller="Home" asp-action="Index">ホーム</a>
+                <span aria-hidden="true">/</span>
+                <span aria-current="page">@Model.Subject の理解マップ</span>
+            </nav>
+            <div class="eyebrow"><span></span>UNDERSTANDING MAP</div>
+            <h1>@Model.HeroTitleFirst<br />@Model.HeroTitleSecond</h1>
+            <p>@Model.Description</p>
+            <a class="button button-primary" href="#map-board">マップをひらく<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v11M6 11l4 4 4-4" /></svg></a>
+        </div>
+        <div class="map-hero-visual" aria-label="@Model.Subject の4領域がつながるイメージ">
+            <div class="map-core"><span>@Model.Subject</span><strong>@Model.NodeCount</strong><small>の理解要素</small></div>
+            @for (var index = 0; index < Model.Areas.Count; index++)
+            {
+                var area = Model.Areas[index];
+                <div class="map-satellite satellite-@index"><b>@area.Code</b><span>@area.Name</span><small>@area.Nodes.Count 要素</small></div>
+            }
+            <svg class="map-hero-lines" viewBox="0 0 500 420" aria-hidden="true">
+                <path d="M250 210 112 92M250 210 393 90M250 210 105 335M250 210 398 330" />
+            </svg>
+        </div>
+    </div>
+</section>
+
+<section class="map-principle">
+    <div class="shell map-principle-grid">
+        <span>このマップの見方</span>
+        <p><strong>学年</strong>は習う時期、<strong>線と順序</strong>は理解のつながり。苦手な問題から前の要素へ戻ると、本当のつまずきを探せます。</p>
+        <a href="#understanding-levels">「理解した」の5段階を見る →</a>
+    </div>
+</section>
+
+<section class="map-section" id="map-board">
+    <div class="shell map-shell">
+        <div class="map-heading">
+            <div>
+                <div class="eyebrow"><span></span>MIDDLE SCHOOL @(Model.SubjectId switch { "japanese" => "JAPANESE", "english" => "ENGLISH", "science" => "SCIENCE", "social-studies" => "SOCIAL STUDIES", _ => "MATHEMATICS" })</div>
+                <h2>中学@(Model.Subject)の全体マップ</h2>
+                <p>@Model.MapLead</p>
+            </div>
+            <div class="map-total"><strong>@Model.NodeCount</strong><span>理解要素</span></div>
+        </div>
+
+        <nav class="subject-switch" aria-label="科目を切り替える">
+            <a class="@(Model.SubjectId == "math" ? "is-current" : null)" asp-action="Math" aria-current="@(Model.SubjectId == "math" ? "page" : null)">数学</a>
+            <a class="@(Model.SubjectId == "japanese" ? "is-current" : null)" asp-action="Japanese" aria-current="@(Model.SubjectId == "japanese" ? "page" : null)">国語</a>
+            <a class="@(Model.SubjectId == "english" ? "is-current" : null)" asp-action="English" aria-current="@(Model.SubjectId == "english" ? "page" : null)">英語</a>
+            <a class="@(Model.SubjectId == "science" ? "is-current" : null)" asp-action="Science" aria-current="@(Model.SubjectId == "science" ? "page" : null)">理科</a>
+            <a class="@(Model.SubjectId == "social-studies" ? "is-current" : null)" asp-action="SocialStudies" aria-current="@(Model.SubjectId == "social-studies" ? "page" : null)">社会</a>
+        </nav>
+
+        <div class="map-toolbar" aria-label="理解マップの絞り込み">
+            <div class="filter-group">
+                <span>学年</span>
+                <button class="filter-chip is-active" type="button" data-grade-filter="all" aria-pressed="true">すべて</button>
+                <button class="filter-chip" type="button" data-grade-filter="1" aria-pressed="false">中1</button>
+                <button class="filter-chip" type="button" data-grade-filter="2" aria-pressed="false">中2</button>
+                <button class="filter-chip" type="button" data-grade-filter="3" aria-pressed="false">中3</button>
+            </div>
+            <div class="filter-group area-filters">
+                <span>領域</span>
+                <button class="filter-chip is-active" type="button" data-area-filter="all" aria-pressed="true">すべて</button>
+                @for (var areaIndex = 0; areaIndex < Model.Areas.Count; areaIndex++)
+                {
+                    var area = Model.Areas[areaIndex];
+                    <button class="filter-chip area-chip-@area.Id area-chip-index-@areaIndex" type="button" data-area-filter="@area.Id" aria-pressed="false">@area.Name</button>
+                }
+            </div>
+            <div class="filter-result" aria-live="polite"><strong data-visible-count>@Model.NodeCount</strong><span>件を表示</span></div>
+        </div>
+
+        <div class="understanding-board">
+            <div class="map-lanes">
+                @for (var areaIndex = 0; areaIndex < Model.Areas.Count; areaIndex++)
+                {
+                    var area = Model.Areas[areaIndex];
+                    <section class="map-lane lane-@area.Id lane-index-@areaIndex" data-map-lane="@area.Id" aria-labelledby="area-@area.Id">
+                        <header>
+                            <span>@area.Code</span>
+                            <div><h3 id="area-@area.Id">@area.Name</h3><p>@area.Description</p></div>
+                        </header>
+                        <div class="lane-path">
+                            @foreach (var gradeGroup in area.Nodes.GroupBy(node => node.Grade))
+                            {
+                                <div class="grade-group" data-grade-group="@gradeGroup.Key">
+                                    <div class="grade-marker"><span>中@(gradeGroup.Key)</span><i></i></div>
+                                    @foreach (var node in gradeGroup)
+                                    {
+                                        <button class="map-node @(node.Id == firstNode.Id ? "is-selected" : "")" type="button"
+                                                data-map-node="@node.Id" data-grade="@node.Grade" data-area="@area.Id"
+                                                aria-pressed="@(node.Id == firstNode.Id ? "true" : "false")" aria-controls="map-detail">
+                                            <span class="node-status" aria-hidden="true"></span>
+                                            <span class="node-copy"><small>中@(node.Grade)</small><strong>@node.Title</strong><em>@node.Summary</em></span>
+                                            <span class="node-arrow" aria-hidden="true">→</span>
+                                        </button>
+                                    }
+                                </div>
+                            }
+                        </div>
+                    </section>
+                }
+            </div>
+
+            <aside class="map-detail" id="map-detail" aria-live="polite">
+                <div data-detail-content></div>
+            </aside>
+        </div>
+
+        <div class="map-mobile-note">横にスクロールすると、4つの領域を見比べられます。</div>
+    </div>
+</section>
+
+<section class="levels-section" id="understanding-levels">
+    <div class="shell levels-grid">
+        <div class="levels-copy">
+            <div class="eyebrow light"><span></span>WHAT “UNDERSTAND” MEANS</div>
+            <h2>「習った」と「理解した」は、<br />同じではない。</h2>
+            <p>ワカルートでは、問題を一度正解しただけで完了にしません。入試で使えるところまで、理解の深さを段階で捉えます。</p>
+        </div>
+        <ol class="level-stairs">
+            <li><span>1</span><div><small>MEANING</small><strong>意味がわかる</strong><p>用語や考え方を、自分の言葉で説明できる。</p></div></li>
+            <li><span>2</span><div><small>BASIC</small><strong>基本を解ける</strong><p>典型的な問題を、手順の理由とともに解ける。</p></div></li>
+            <li><span>3</span><div><small>CONNECT</small><strong>根拠をつなげる</strong><p>知識・本文・資料を結び付けて考えられる。</p></div></li>
+            <li><span>4</span><div><small>APPLY</small><strong>初見で使える</strong><p>見たことのない場面でも、使う知識を選べる。</p></div></li>
+            <li><span>5</span><div><small>EXAM</small><strong>時間内に安定する</strong><p>入試形式で、速さと正確さを両立できる。</p></div></li>
+        </ol>
+    </div>
+</section>
+
+<section class="map-source-section">
+    <div class="shell map-source-card">
+        <div><span>調査・設計について</span><h2>公式の学習範囲を、<br />「理解のつながり」に再構成。</h2></div>
+        <div><p>@Model.StructureNote</p><a href="@Model.SourceUrl" target="_blank" rel="noopener noreferrer">@Model.SourceName <span>↗</span></a></div>
+    </div>
+</section>
+
+<section class="map-next-cta">
+    <div class="shell map-next-inner">
+        <p>次は、このマップにあなたの理解状態を重ねる。</p>
+        <h2>どこで止まっているかがわかれば、<br />次の一歩がわかる。</h2>
+        <a class="button button-light" asp-area="" asp-controller="Home" asp-action="Index">ワカルートについて見る<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></a>
+    </div>
+</section>
+
+<div hidden aria-hidden="true">
+    @for (var areaIndex = 0; areaIndex < Model.Areas.Count; areaIndex++)
+    {
+        var area = Model.Areas[areaIndex];
+        @foreach (var node in area.Nodes)
+        {
+            <template id="detail-@node.Id">
+                <div class="detail-heading">
+                    <span class="detail-area detail-area-@area.Id detail-index-@areaIndex">@area.Code · @area.Name</span>
+                    <small>中学@(node.Grade)年</small>
+                    <h3>@node.Title</h3>
+                    <p>@node.Summary</p>
+                </div>
+                <div class="detail-reason"><span>なぜ大切？</span><p>@node.WhyItMatters</p></div>
+                <div class="detail-list">
+                    <h4><span>✓</span>理解できたと言えること</h4>
+                    <ul>@foreach (var item in node.CanDo) { <li>@item</li> }</ul>
+                </div>
+                <div class="detail-links">
+                    <div><h4>ここまでに必要</h4>@foreach (var item in node.Prerequisites) { <span>← @item</span> }</div>
+                    <div><h4>この先につながる</h4>@foreach (var item in node.LeadsTo) { <span>@item →</span> }</div>
+                </div>
+            </template>
+        }
+    }
+</div>
+
+@section Scripts {
+    <script src="~/js/understanding-map.js" asp-append-version="true"></script>
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schemaVersion", "asOf", "sourceUrls", "identities"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "asOf": { "type": "string", "format": "date" },
+    "sourceUrls": { "type": "array", "items": { "type": "string", "format": "uri" } },
+    "identities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "mextSchoolCode", "status", "aliases"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^wk_d1[0-9]{11}$" },
+          "mextSchoolCode": { "type": "string", "pattern": "^D1[0-9]{10}[0-9X]$" },
+          "legacySchoolSurveyCode": { "type": "string" },
+          "status": { "enum": ["active", "closed"] },
+          "aliases": { "type": "array", "items": { "type": "string" } },
+          "replacedById": { "type": "string" },
+          "replacementMextSchoolCode": { "type": "string", "pattern": "^[A-Z][0-9A-Z]{12}$" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+WakaRoute Web
+Copyright 2026 RECEIPTROLLER Inc.
+
+This product includes data derived from the school-code CSV files published by
+the Ministry of Education, Culture, Sports, Science and Technology of Japan
+(MEXT).
+
+Source:
+https://www.mext.go.jp/b_menu/toukei/mext_01087.html
+
+Source date used by the current generated catalog: May 1, 2025 (final version).
+
+The MEXT website terms are compatible with the Government Standard Terms of
+Use (Version 2.0) and Creative Commons Attribution 4.0 International. The
+catalog has been filtered to high-school codes, normalized, assigned stable
+WakaRoute identifiers, and supplemented with fields intended for manual
+verification. WakaRoute is not endorsed by MEXT.
+
+MEXT website terms:
+https://www.mext.go.jp/b_menu/1351168.htm
+
+Third-party JavaScript and CSS libraries retain their respective licenses. See
+the license files distributed alongside those libraries under wwwroot/lib/.

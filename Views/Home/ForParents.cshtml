@@ -1,0 +1,141 @@
+@{
+    ViewData["Title"] = "保護者の方へ";
+    ViewData["Description"] = "高校受験を支える保護者の方へ。ワカルートで見えること、家庭での関わり方、安心して利用するための情報をご案内します。";
+}
+
+<section class="parent-hero">
+    <div class="shell parent-hero-grid">
+        <div class="parent-hero-copy">
+            <nav class="breadcrumbs" aria-label="パンくずリスト">
+                <a asp-controller="Home" asp-action="Index">ホーム</a><span aria-hidden="true">/</span><span>保護者の方へ</span>
+            </nav>
+            <div class="eyebrow"><span></span>FOR PARENTS</div>
+            <h1>「勉強した？」ではなく、<br /><em>前に進んだこと</em>を話せるように。</h1>
+            <p>高校受験は、お子さま本人だけでなく、見守るご家族にとっても迷いの多い時間です。ワカルートは、結果だけでは見えにくい理解の変化を整理し、必要な支え方をわかりやすくします。</p>
+            <div class="parent-hero-actions">
+                <a class="button button-primary" href="#what-you-see">保護者に見えること<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></a>
+                <a class="button button-quiet" href="#questions">よくある質問</a>
+            </div>
+            <p class="parent-status"><span aria-hidden="true"></span>現在、正式提供に向けて開発中です</p>
+        </div>
+
+        <div class="parent-hero-report" aria-label="保護者向け週次レポートのイメージ">
+            <div class="parent-report-top"><div><small>今週の学習レポート</small><strong>理解の変化</strong></div><span>保護者用</span></div>
+            <div class="parent-report-score"><div><b>12</b><small>できるようになった項目</small></div><span>先週から <strong>+4</strong></span></div>
+            <div class="parent-report-subject"><span>数学</span><div><i style="width:78%"></i></div><b>前進</b></div>
+            <div class="parent-report-subject"><span>英語</span><div><i style="width:61%"></i></div><b>継続</b></div>
+            <div class="parent-report-message"><span>↗</span><p><strong>一次関数が一歩前進</strong>グラフを読み取る力が安定してきました。</p></div>
+            <div class="parent-report-advice"><small>今週の見守りヒント</small><p>結果よりも、毎日少しずつ続けられたことを認めてあげましょう。</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="parent-trust-strip" aria-label="ワカルートが保護者と共有する情報">
+    <div class="shell">
+        <div><span>01</span><p><strong>理解の現在地</strong>何ができて、どこで困っているか</p></div>
+        <div><span>02</span><p><strong>今日までの成長</strong>点数だけではない小さな前進</p></div>
+        <div><span>03</span><p><strong>次に必要な学習</strong>志望校へ向けた優先順位</p></div>
+    </div>
+</section>
+
+<section class="parent-section parent-problem">
+    <div class="shell parent-problem-grid">
+        <div>
+            <div class="eyebrow"><span></span>THE REAL QUESTION</div>
+            <h2>保護者が知りたいのは、<br />勉強時間だけではありません。</h2>
+            <p>机に向かっていても、理解できているのか。塾や教材を続けていても、志望校に近づいているのか。見えないからこそ、つい声をかけすぎたり、点数だけで判断したりしてしまいます。</p>
+        </div>
+        <div class="parent-worry-list">
+            <article><span>?</span><p>いまの勉強方法を<br /><strong>続けてよいのかわからない</strong></p></article>
+            <article><span>?</span><p>苦手と言うけれど<br /><strong>何につまずいているかわからない</strong></p></article>
+            <article><span>?</span><p>応援したいのに<br /><strong>何を言えばよいかわからない</strong></p></article>
+        </div>
+    </div>
+</section>
+
+<section class="parent-section parent-visible" id="what-you-see">
+    <div class="shell">
+        <div class="parent-section-heading">
+            <div><div class="eyebrow"><span></span>WHAT YOU CAN SEE</div><h2>保護者に見える、<br />4つの大切なこと。</h2></div>
+            <p>監視するための情報ではなく、努力を認め、必要なときに支えるための情報として届けます。</p>
+        </div>
+        <div class="parent-visible-grid">
+            <article><span class="parent-card-number">01</span><div class="parent-card-icon">✓</div><h3>できるようになったこと</h3><p>今週身についた力を、単元より細かな項目で確認。小さな成長を具体的な言葉で伝えられます。</p></article>
+            <article><span class="parent-card-number">02</span><div class="parent-card-icon">⌖</div><h3>いま困っていること</h3><p>不正解の数ではなく、どの前提理解に戻る必要があるのかを整理します。</p></article>
+            <article><span class="parent-card-number">03</span><div class="parent-card-icon">↗</div><h3>志望校までの現在地</h3><p>残り時間と必要な力を照らし合わせ、何を優先しているのかを見えるようにします。</p></article>
+            <article><span class="parent-card-number">04</span><div class="parent-card-icon">♡</div><h3>家庭でできるサポート</h3><p>学習の様子に合わせて、声のかけ方や見守るポイントをわかりやすく提案します。</p></article>
+        </div>
+    </div>
+</section>
+
+<section class="parent-section parent-difference">
+    <div class="shell">
+        <div class="parent-section-heading centered-parent-heading">
+            <div class="eyebrow"><span></span>WHY WAKAROUTE?</div>
+            <h2>「問題を解く」だけで終わらず、<br />理解の順番を整えます。</h2>
+        </div>
+        <div class="parent-compare">
+            <article class="parent-compare-before">
+                <span>よくある見え方</span><h3>数学が苦手<br />点数が上がらない</h3>
+                <ul><li>どこから復習するかわからない</li><li>同じ問題集を繰り返す</li><li>勉強量の話が中心になる</li></ul>
+            </article>
+            <div class="parent-compare-arrow" aria-hidden="true">→</div>
+            <article class="parent-compare-after">
+                <span>ワカルートの見え方</span><h3>一次関数の前に<br />割合の理解を確認</h3>
+                <ul><li>つまずきの原因まで戻れる</li><li>次に学ぶ一歩が具体的</li><li>できたことを一緒に喜べる</li></ul>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="parent-section parent-role">
+    <div class="shell parent-role-grid">
+        <div class="parent-role-copy">
+            <div class="eyebrow"><span></span>YOUR ROLE</div>
+            <h2>教える人ではなく、<br />安心して戻れる場所に。</h2>
+            <p>保護者がすべての教科を教える必要はありません。学習の整理はワカルートに任せ、家庭では努力と変化に目を向ける。その役割分担を大切にします。</p>
+        </div>
+        <ol class="parent-role-list">
+            <li><span>1</span><div><strong>まず、できたことを見る</strong><p>「何点だった？」の前に、できるようになった項目を一緒に確認します。</p></div></li>
+            <li><span>2</span><div><strong>困っている理由を責めない</strong><p>つまずきは能力ではなく、理解の順番を見直すサインとして捉えます。</p></div></li>
+            <li><span>3</span><div><strong>次の一歩を小さくする</strong><p>大きな目標だけでなく、今日取り組む一つに目を向けます。</p></div></li>
+        </ol>
+    </div>
+</section>
+
+<section class="parent-section parent-safety">
+    <div class="shell">
+        <div class="parent-section-heading">
+            <div><div class="eyebrow"><span></span>SAFETY &amp; CLARITY</div><h2>安心して判断するために。</h2></div>
+            <p>まだ決まっていないことを、決まっているようには伝えません。現在の方針とサービスの状態を明確にします。</p>
+        </div>
+        <div class="parent-safety-grid">
+            <article><span>基本無料の方針</span><h3>本人の学ぶ機会を狭めない</h3><p>ワカルートの基本機能は無料で提供する方針です。有料機能を設ける場合は、対象と料金を事前に明示し、同意なく課金しません。</p></article>
+            <article><span>開発中</span><h3>できることを正直に伝える</h3><p>現在は正式提供に向けた開発段階です。画面内のレポートや学習機能には、提供予定のイメージを含みます。</p></article>
+            <article><span>個人情報</span><h3>学習情報を大切に扱う</h3><p>利用目的を明確にし、必要な範囲で情報を取得・管理します。未成年の利用では保護者の同意を大切にします。</p><a asp-controller="Home" asp-action="Privacy">プライバシーポリシーを見る →</a></article>
+            <article><span>運営会社</span><h3>責任の所在を明らかに</h3><p>株式会社レシートローラーが開発・運営しています。会社情報と問い合わせ先を公開しています。</p><a asp-controller="Home" asp-action="Company">会社概要を見る →</a></article>
+        </div>
+    </div>
+</section>
+
+<section class="parent-section parent-faq" id="questions">
+    <div class="shell parent-faq-grid">
+        <div class="parent-faq-heading"><div class="eyebrow"><span></span>FAQ</div><h2>よくある質問</h2><p>正式提供前の現時点でお伝えできる内容です。サービスの公開に合わせて更新します。</p></div>
+        <div class="parent-faq-list">
+            <details><summary>塾の代わりになりますか？<span aria-hidden="true">＋</span></summary><p>ワカルートは、つまずきの発見、学ぶ順番の整理、理解の確認を一つにつなげ、塾に頼らなくても学習を進められる状態を目指しています。一方、対面での声かけや学校ごとの個別事情など、塾や先生が適している場面もあります。必要に応じて併用できる設計を大切にします。</p></details>
+            <details><summary>保護者は毎日確認する必要がありますか？<span aria-hidden="true">＋</span></summary><p>毎日の監視を前提にはしません。週単位で成長や困りごとを短時間で確認し、必要なときだけサポートできる形を目指しています。</p></details>
+            <details><summary>子どもの行動を細かく監視するサービスですか？<span aria-hidden="true">＋</span></summary><p>目的は監視ではなく、努力と理解の変化を共有することです。本人の自主性を尊重しながら、保護者には見守りに必要な情報を整理して届けます。</p></details>
+            <details><summary>利用料金はかかりますか？<span aria-hidden="true">＋</span></summary><p>基本機能は無料で提供する方針です。正式な提供範囲や将来の有料機能については、決まり次第わかりやすくお知らせします。</p></details>
+            <details><summary>いつから利用できますか？<span aria-hidden="true">＋</span></summary><p>現在、正式提供に向けて開発中です。開始時期が決まり次第、ワカルートのWebサイトでお知らせします。</p></details>
+        </div>
+    </div>
+</section>
+
+<section class="parent-final">
+    <div class="shell parent-final-inner">
+        <p>FOR YOUR CHILD'S NEXT STEP</p>
+        <h2>比べるのは、誰かではなく、<br />昨日の自分。</h2>
+        <span>ワカルートは、保護者とお子さまが同じ方向を見て、落ち着いて高校受験に向かえるサービスを目指しています。</span>
+        <a class="button button-light" asp-controller="Home" asp-action="HighSchoolExam">まず、高校受験を知る<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></a>
+    </div>
+</section>

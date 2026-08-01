@@ -1,0 +1,200 @@
+@{
+    ViewData["Title"] = "高校受験って、なんだろう？";
+    ViewData["Description"] = "高校受験の仕組み、選抜方法、時期、5教科の学び方、最初にやることを中学生と保護者向けにわかりやすく解説します。";
+}
+
+<section class="exam-hero">
+    <div class="shell exam-hero-grid">
+        <div class="exam-hero-copy">
+            <nav class="breadcrumbs" aria-label="パンくずリスト">
+                <a asp-area="" asp-controller="Home" asp-action="Index">ホーム</a>
+                <span aria-hidden="true">/</span>
+                <span aria-current="page">高校受験とは</span>
+            </nav>
+            <div class="eyebrow"><span></span>FIRST GUIDE</div>
+            <h1>高校受験って、<br /><em>なんだろう？</em></h1>
+            <p>高校受験は、ただテストで点を取るだけではありません。自分に合う高校を知り、今の自分を知り、一歩ずつ準備していくことです。</p>
+            <div class="exam-hero-actions">
+                <a class="button button-primary" href="#first-step">最初の一歩を見る<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v11M6 11l4 4 4-4" /></svg></a>
+                <span>読む時間の目安：約8分</span>
+            </div>
+        </div>
+
+        <div class="exam-compass" aria-label="高校受験を考えるための3つの視点">
+            <div class="compass-orbit">
+                <span class="compass-point point-school"><b>01</b>高校を知る</span>
+                <span class="compass-point point-self"><b>02</b>自分を知る</span>
+                <span class="compass-point point-plan"><b>03</b>道筋をつくる</span>
+                <div class="compass-center">
+                    <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="24" /><path d="m39 25-4 10-10 4 4-10 10-4Z" /><circle cx="32" cy="32" r="3" /></svg>
+                    <strong>自分に合う<br />進路へ</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<nav class="chapter-nav" aria-label="ページ内メニュー">
+    <div class="shell chapter-nav-inner">
+        <span>このページでわかること</span>
+        <a href="#three-parts"><b>01</b>合否を決めるもの</a>
+        <a href="#schedule"><b>02</b>受験までの流れ</a>
+        <a href="#subjects"><b>03</b>5教科の学び</a>
+        <a href="#first-step"><b>04</b>最初の一歩</a>
+    </div>
+</nav>
+
+<section class="exam-section exam-opening">
+    <div class="shell narrow-shell">
+        <div class="chapter-label"><span>INTRODUCTION</span></div>
+        <h2>高校受験は、<br />未来を決める一回きりの勝負？</h2>
+        <p class="large-copy">いいえ。15歳ですべての未来を決めるものではありません。高校受験は、<strong>自分が次の3年間をどう過ごしたいか</strong>を考え、その選択肢を少しずつ広げていく機会です。</p>
+
+        <div class="message-card">
+            <div class="message-symbol" aria-hidden="true">?</div>
+            <div>
+                <span>最初から答えがなくても大丈夫</span>
+                <p>行きたい高校や将来の夢が決まっていなくても、まずは「知る」ことから始められます。調べたり、学んだりするうちに、自分が大切にしたいことが見えてきます。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="exam-section selection-section" id="three-parts">
+    <div class="shell">
+        <div class="exam-section-heading">
+            <div>
+                <span class="section-count">01</span>
+                <div class="eyebrow"><span></span>HOW YOU ARE EVALUATED</div>
+                <h2>合否は、ひとつの数字だけでは<br />決まらない。</h2>
+            </div>
+            <p>高校や受験方式によって使われるものは異なりますが、大きく分けると3つの材料があります。</p>
+        </div>
+
+        <div class="selection-grid">
+            <article class="selection-card">
+                <div class="selection-icon exam-icon"><svg viewBox="0 0 48 48"><path d="M12 7h24v34H12zM18 16h12M18 23h12M18 30h7" /><path d="m29 31 3 3 6-7" /></svg></div>
+                <span>01</span>
+                <h3>当日の学力検査</h3>
+                <p>国語・数学・英語・理科・社会などの試験です。知識だけでなく、資料を読み、考え、時間内に答える力も問われます。</p>
+                <small>一般選抜では5教科が中心</small>
+            </article>
+            <article class="selection-card report-icon-card">
+                <div class="selection-icon"><svg viewBox="0 0 48 48"><path d="M14 9h20v32H14zM19 9V6h10v3M20 18h8M20 25h8M20 32h5" /></svg></div>
+                <span>02</span>
+                <h3>調査書・内申</h3>
+                <p>中学校での各教科の評価などをまとめた資料です。定期テストだけでなく、授業や提出物を含む日々の学習がつながります。</p>
+                <small>使う学年や比重には地域差あり</small>
+            </article>
+            <article class="selection-card talk-icon-card">
+                <div class="selection-icon"><svg viewBox="0 0 48 48"><path d="M8 10h32v23H24l-9 7v-7H8z" /><path d="M16 20h16M16 26h10" /></svg></div>
+                <span>03</span>
+                <h3>面接・作文など</h3>
+                <p>志望理由、考えを伝える力、学校との相性などを見る選抜もあります。推薦・特色選抜では特に確認が必要です。</p>
+                <small>学校・学科・方式によって実施</small>
+            </article>
+        </div>
+
+        <aside class="regional-note">
+            <span class="regional-note-icon">!</span>
+            <div><strong>受験のルールは、地域や学校によって違います</strong><p>公立高校の選抜方法、内申の計算、試験日程などは都道府県ごとに異なります。私立高校も学校ごとに方式があります。最終的には、教育委員会や各高校が公開する最新の募集要項を確認しましょう。</p></div>
+        </aside>
+    </div>
+</section>
+
+<section class="exam-section choice-section">
+    <div class="shell choice-grid">
+        <div class="choice-copy">
+            <span class="section-count">02</span>
+            <div class="eyebrow light"><span></span>CHOOSING A SCHOOL</div>
+            <h2>「入れる高校」だけでなく、<br />「通いたい高校」を探そう。</h2>
+            <p>偏差値は学校を知るための情報のひとつ。でも、毎日を過ごす場所を選ぶには、それ以外にも大切なことがあります。</p>
+        </div>
+        <div class="choice-cards">
+            <div><span>学び</span><strong>授業・学科・進路</strong><small>何を学べる？ 卒業後は？</small></div>
+            <div><span>生活</span><strong>校風・行事・部活動</strong><small>どんな毎日を送りたい？</small></div>
+            <div><span>環境</span><strong>通学・費用・設備</strong><small>3年間無理なく通える？</small></div>
+            <div><span>相性</span><strong>自分が大切にしたいこと</strong><small>学校で自分らしく過ごせそう？</small></div>
+        </div>
+    </div>
+</section>
+
+<section class="exam-section timeline-section" id="schedule">
+    <div class="shell">
+        <div class="exam-section-heading timeline-heading">
+            <div>
+                <span class="section-count">03</span>
+                <div class="eyebrow"><span></span>YOUR JOURNEY</div>
+                <h2>受験までの道のりを、<br />ざっくり見てみよう。</h2>
+            </div>
+            <p>地域や学校によって時期は前後します。ここでは、中学3年生の一般的なイメージを紹介します。</p>
+        </div>
+
+        <div class="exam-timeline">
+            <article>
+                <div class="timeline-time"><b>春</b><small>4–6月</small></div>
+                <span class="timeline-dot"></span>
+                <div><h3>現在地を知る</h3><p>中1・中2の内容を振り返り、気になる高校を調べ始めます。まだ志望校を一つに絞らなくても大丈夫。</p><span>学校を知る・基礎を確認</span></div>
+            </article>
+            <article>
+                <div class="timeline-time"><b>夏</b><small>7–8月</small></div>
+                <span class="timeline-dot"></span>
+                <div><h3>土台をつくる</h3><p>まとまった時間を使って苦手の原因まで戻ります。学校説明会や見学で、実際の雰囲気にも触れます。</p><span>苦手の補強・学校見学</span></div>
+            </article>
+            <article>
+                <div class="timeline-time"><b>秋</b><small>9–11月</small></div>
+                <span class="timeline-dot"></span>
+                <div><h3>入試で使える力へ</h3><p>基礎を使った応用問題や過去問に進み、志望校との距離を確認。受験校の組み合わせも考えます。</p><span>応用・過去問・志望校選び</span></div>
+            </article>
+            <article>
+                <div class="timeline-time"><b>冬</b><small>12–3月</small></div>
+                <span class="timeline-dot"></span>
+                <div><h3>本番に備える</h3><p>出願を確認し、本番と同じ時間で練習します。新しいことを増やしすぎず、できることを安定させます。</p><span>出願・実戦練習・体調管理</span></div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="exam-section subject-section" id="subjects">
+    <div class="shell">
+        <div class="subject-heading">
+            <span class="section-count">04</span>
+            <div class="eyebrow light"><span></span>FIVE SUBJECTS</div>
+            <h2>5教科は、伸ばし方が<br />それぞれ違う。</h2>
+            <p>「覚える」だけでも、「問題を解く」だけでもありません。教科ごとに必要な力を知ると、勉強のしかたが見えてきます。</p>
+        </div>
+
+        <div class="subject-grid">
+            <article class="subject-card japanese"><span>国</span><div><h3>国語</h3><p>文章の根拠を見つけ、自分の言葉でまとめる力。</p></div><small>語彙・読解・記述</small></article>
+            <article class="subject-card math"><span>数</span><div><h3>数学</h3><p>前に学んだことを土台に、考え方を順番につなぐ力。</p></div><small>計算・概念・応用</small></article>
+            <article class="subject-card english"><span>英</span><div><h3>英語</h3><p>単語と文法を使い、速く正確に意味をつかむ力。</p></div><small>語彙・文法・4技能</small></article>
+            <article class="subject-card science"><span>理</span><div><h3>理科</h3><p>知識を、実験・グラフ・身近な現象と結びつける力。</p></div><small>知識・計算・考察</small></article>
+            <article class="subject-card social"><span>社</span><div><h3>社会</h3><p>用語だけでなく、出来事のつながりや資料を読む力。</p></div><small>知識・因果・資料</small></article>
+        </div>
+    </div>
+</section>
+
+<section class="exam-section first-step-section" id="first-step">
+    <div class="shell first-step-grid">
+        <div class="first-step-copy">
+            <span class="section-count">05</span>
+            <div class="eyebrow"><span></span>YOUR FIRST STEP</div>
+            <h2>今日からできることは、<br />たった3つ。</h2>
+            <p>完璧な計画をつくる必要はありません。小さく始めて、わかったことに合わせて道筋を変えていけば大丈夫です。</p>
+        </div>
+        <ol class="first-step-list">
+            <li><span>1</span><div><strong>気になる高校を一つ調べる</strong><p>学校のWebサイトで、学科や学校生活を眺めてみよう。</p></div></li>
+            <li><span>2</span><div><strong>今の「わからない」を一つ書く</strong><p>「数学が苦手」ではなく、最近止まった問題を思い出そう。</p></div></li>
+            <li><span>3</span><div><strong>15分だけ復習する</strong><p>できるところまで戻って、一つ理解できたら今日の前進です。</p></div></li>
+        </ol>
+    </div>
+</section>
+
+<section class="exam-final">
+    <div class="shell exam-final-inner">
+        <span class="final-route-mark" aria-hidden="true"><i></i><b></b><i></i></span>
+        <p>高校受験は、わからないことだらけで当たり前。</p>
+        <h2>だから、ひとつずつ<br />わかる道をつくろう。</h2>
+        <a class="button button-light" asp-area="" asp-controller="Home" asp-action="Index">ワカルートのしくみを見る<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></a>
+    </div>
+</section>
