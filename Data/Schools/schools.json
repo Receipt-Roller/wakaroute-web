@@ -20237,6 +20237,7 @@
     {
       "id": "wk_d113299907035",
       "name": "東京都立八王子東高等学校",
+      "nameKana": "とうきょうとりつはちおうじひがしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八王子市高倉町６８－１",
@@ -20245,6 +20246,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.metro.ed.jp/hachiojihigashi-h/",
       "tags": []
     },
     {
@@ -20393,6 +20395,7 @@
     {
       "id": "wk_d113299910085",
       "name": "東京都立国立高等学校",
+      "nameKana": "とうきょうとりつくにたちこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都国立市東４－２５－１",
@@ -20401,6 +20404,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.metro.ed.jp/kunitachi-h/",
       "tags": []
     },
     {
@@ -20666,6 +20670,7 @@
     {
       "id": "wk_d113299901068",
       "name": "東京都立小山台高等学校",
+      "nameKana": "とうきょうとりつこやまだいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都品川区小山３－３－３２",
@@ -20674,6 +20679,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.metro.ed.jp/koyamadai-h/",
       "tags": []
     },
     {
@@ -20913,6 +20919,7 @@
     {
       "id": "wk_d113299902012",
       "name": "東京都立戸山高等学校",
+      "nameKana": "とうきょうとりつとやまこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都新宿区戸山３－１９－１",
@@ -20921,6 +20928,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.metro.ed.jp/toyama-h/",
       "tags": []
     },
     {
@@ -20965,6 +20973,7 @@
     {
       "id": "wk_d113299902049",
       "name": "東京都立新宿高等学校",
+      "nameKana": "とうきょうとりつしんじゅくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都新宿区内藤町１１－４",
@@ -20973,6 +20982,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.metro.ed.jp/shinjuku-h/",
       "tags": []
     },
     {
@@ -21004,6 +21014,7 @@
     {
       "id": "wk_d113299901022",
       "name": "東京都立日比谷高等学校",
+      "nameKana": "とうきょうとりつひびやこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区永田町２－１６－１",
@@ -21012,6 +21023,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.metro.ed.jp/hibiya-h/",
       "tags": []
     },
     {
@@ -21602,6 +21614,7 @@
     {
       "id": "wk_d113299907099",
       "name": "東京都立町田高等学校",
+      "nameKana": "とうきょうとりつまちだこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都町田市中町４－２５－３",
@@ -21610,6 +21623,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.metro.ed.jp/machida-h/",
       "tags": []
     },
     {
@@ -21758,6 +21772,7 @@
     {
       "id": "wk_d113299908016",
       "name": "東京都立立川高等学校",
+      "nameKana": "とうきょうとりつたちかわこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都立川市錦町２－１３－５",
@@ -21766,6 +21781,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.metro.ed.jp/tachikawa-h/",
       "tags": []
     },
     {
@@ -22122,6 +22138,7 @@
     {
       "id": "wk_d113299903057",
       "name": "東京都立西高等学校",
+      "nameKana": "とうきょうとりつにしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都杉並区宮前４－２１－３２",
@@ -22130,6 +22147,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.metro.ed.jp/nishi-h/",
       "tags": []
     },
     {
@@ -22343,6 +22361,7 @@
     {
       "id": "wk_d113299902058",
       "name": "東京都立青山高等学校",
+      "nameKana": "とうきょうとりつあおやまこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都渋谷区神宮前２－１－８",
@@ -22351,6 +22370,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.metro.ed.jp/aoyama-h/",
       "tags": []
     },
     {
@@ -22382,6 +22402,7 @@
     {
       "id": "wk_d113299902021",
       "name": "東京都立駒場高等学校",
+      "nameKana": "とうきょうとりつこまばこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都目黒区大橋２－１８－１",
@@ -22390,6 +22411,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.metro.ed.jp/komaba-h/",
       "tags": []
     },
     {

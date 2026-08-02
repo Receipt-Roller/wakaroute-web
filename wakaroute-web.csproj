@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <Compile Remove="tools\**\*.cs" />
-    <Content Update="Data\Schools\*.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Update="Data\Schools\**\*.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>

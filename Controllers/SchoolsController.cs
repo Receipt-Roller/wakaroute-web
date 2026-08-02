@@ -20,4 +20,11 @@ public sealed class SchoolsController(ISchoolCatalog schoolCatalog) : Controller
             Ownership = ownership?.Trim() ?? string.Empty
         });
     }
+
+    [HttpGet("schools/{id}")]
+    public IActionResult Details(string id)
+    {
+        var school = schoolCatalog.GetById(id);
+        return school is null ? NotFound() : View(school);
+    }
 }

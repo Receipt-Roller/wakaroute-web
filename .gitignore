@@ -1,6 +1,10 @@
 ## .NET build output
 bin/
 obj/
+publish/
+artifacts/
+TestResults/
+coverage/
 
 ## Visual Studio / Rider / VS Code
 .vs/
@@ -25,6 +29,8 @@ Properties/PublishProfiles/
 *.pfx
 *.p12
 *.key
+*.pem
+*.snk
 secrets.json
 
 ## OS files

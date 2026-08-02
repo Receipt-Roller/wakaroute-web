@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">ワカルート アプリアイコン</title>
+  <desc id="description">深緑の背景に、学びのルートを表す黄緑色の開いた地図と白い現在地点</desc>
+
+  <!-- Full-bleed, opaque background for iOS and legacy Android icons. -->
+  <rect width="1024" height="1024" fill="#173F3A"/>
+  <circle cx="512" cy="512" r="360" fill="#24635A" opacity="0.55"/>
+
+  <!-- Essential artwork stays inside the Android adaptive-icon safe zone. -->
+  <g fill="none" stroke="#D7F06D" stroke-width="64" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 718V410c0-45 50-70 87-45l83 56c25 17 59 17 84 0l83-56c37-25 87 0 87 45v308"/>
+    <path d="m300 708 154-102c35-23 81-23 116 0l154 102"/>
+  </g>
+  <circle cx="512" cy="260" r="50" fill="#FFFFFF"/>
+</svg>

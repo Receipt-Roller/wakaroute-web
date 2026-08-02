@@ -73,10 +73,10 @@
                 {
                     <article class="school-card">
                         <div class="school-card-tags"><span class="school-tag school-tag-@school.Ownership">@school.OwnershipLabel</span>@if (school.CampusType == "branch") { <span class="school-tag school-tag-branch">分校</span> }</div>
-                        <h3>@school.Name</h3>
+                        <h3><a asp-action="Details" asp-route-id="@school.Id">@school.Name</a></h3>
                         <p class="school-location"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 18s6-5.2 6-11a6 6 0 1 0-12 0c0 5.8 6 11 6 11Z" /><circle cx="10" cy="7" r="2" /></svg>@school.Address</p>
                         <div class="school-card-meta"><span>〒@school.PostalCode</span><span>@school.Prefecture</span></div>
-                        <div class="school-card-footer"><small>ID @school.Id.Replace("wk_", string.Empty).ToUpperInvariant()</small>@if (!string.IsNullOrEmpty(school.OfficialUrl)) { <a href="@school.OfficialUrl" target="_blank" rel="noopener noreferrer">公式サイト ↗</a> } else { <span>公式サイトは確認中</span> }</div>
+                        <div class="school-card-footer"><small>ID @school.Id.Replace("wk_", string.Empty).ToUpperInvariant()</small><a asp-action="Details" asp-route-id="@school.Id">学校情報を見る →</a></div>
                     </article>
                 }
             </div>

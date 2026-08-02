@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "academicYear": 2027,
+  "schedules": [
+    {
+      "schoolId": "wk_d113299901022",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦に基づく選抜",
+      "status": "schedule-announced",
+      "statusLabel": "共通日程発表済み",
+      "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年1月18日17:00／書類提出：2027年1月8日〜1月18日",
+      "testDates": [
+        "2027年1月26日（火）",
+        "2027年1月27日（水）"
+      ],
+      "resultDate": "2027年2月2日（火）",
+      "detailsStatus": "school-details-pending",
+      "detailsStatusLabel": "学校別詳細の発表待ち",
+      "officialPublishedAt": "2026-05-28",
+      "verifiedAt": "2026-08-02",
+      "notes": [
+        "東京都教育委員会から共通日程が発表されています。",
+        "募集人員、検査内容、配点など日比谷高校固有の詳細は未発表です。",
+        "令和9年度実施要綱・同細目は2026年9月に公表予定です。"
+      ],
+      "sources": [
+        {
+          "title": "令和9年度東京都立高等学校入学者選抜の日程について",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528",
+          "publishedAt": "2026-05-28",
+          "verifiedAt": "2026-08-02"
+        },
+        {
+          "title": "日比谷高校 入試案内・転学・編入学等",
+          "url": "https://www.metro.ed.jp/hibiya-h/guide/guidance.html",
+          "verifiedAt": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901022",
+      "academicYear": 2027,
+      "selection": "general-first",
+      "selectionLabel": "学力検査に基づく選抜（第一次募集）",
+      "status": "schedule-announced",
+      "statusLabel": "共通日程発表済み",
+      "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年2月4日17:00／書類提出：2027年1月29日〜2月4日",
+      "testDates": [
+        "2027年2月21日（日）"
+      ],
+      "resultDate": "2027年3月1日（月）",
+      "detailsStatus": "school-details-pending",
+      "detailsStatusLabel": "学校別詳細の発表待ち",
+      "officialPublishedAt": "2026-05-28",
+      "verifiedAt": "2026-08-02",
+      "notes": [
+        "東京都教育委員会から共通日程が発表されています。",
+        "募集人員、検査科目、配点など日比谷高校固有の詳細は未発表です。",
+        "過年度は国語・数学・英語が日比谷高校の問題、理科・社会・英語リスニングが都立高校共通問題です。2027年度も同じとは限らないため、実施要綱公表後に更新します。"
+      ],
+      "sources": [
+        {
+          "title": "令和9年度東京都立高等学校入学者選抜の日程について",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528",
+          "publishedAt": "2026-05-28",
+          "verifiedAt": "2026-08-02"
+        },
+        {
+          "title": "日比谷高校 学力検査問題等",
+          "url": "https://www.metro.ed.jp/hibiya-h/guide/test.html",
+          "verifiedAt": "2026-08-02"
+        }
+      ]
+    }
+  ],
+  "sharedSchedules": [
+    {
+      "schoolIds": [
+        "wk_d113299903057",
+        "wk_d113299902012",
+        "wk_d113299910085",
+        "wk_d113299902058",
+        "wk_d113299907035",
+        "wk_d113299908016",
+        "wk_d113299902049",
+        "wk_d113299901068",
+        "wk_d113299902021",
+        "wk_d113299907099"
+      ],
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦に基づく選抜",
+      "status": "schedule-announced",
+      "statusLabel": "共通日程発表済み",
+      "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年1月18日17:00／書類提出：2027年1月8日〜1月18日",
+      "testDates": [
+        "2027年1月26日（火）",
+        "2027年1月27日（水）"
+      ],
+      "resultDate": "2027年2月2日（火）",
+      "detailsStatus": "school-details-pending",
+      "detailsStatusLabel": "学校別詳細の発表待ち",
+      "officialPublishedAt": "2026-05-28",
+      "verifiedAt": "2026-08-02",
+      "notes": [
+        "東京都教育委員会から共通日程が発表されています。",
+        "募集人員、検査内容、配点など学校固有の詳細は未発表です。",
+        "令和9年度実施要綱・同細目は2026年9月に公表予定です。"
+      ],
+      "sources": [
+        {
+          "title": "令和9年度東京都立高等学校入学者選抜の日程について",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528",
+          "publishedAt": "2026-05-28",
+          "verifiedAt": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "schoolIds": [
+        "wk_d113299903057",
+        "wk_d113299902012",
+        "wk_d113299910085",
+        "wk_d113299902058",
+        "wk_d113299907035",
+        "wk_d113299908016",
+        "wk_d113299902049",
+        "wk_d113299901068",
+        "wk_d113299902021",
+        "wk_d113299907099"
+      ],
+      "academicYear": 2027,
+      "selection": "general-first",
+      "selectionLabel": "学力検査に基づく選抜（第一次募集）",
+      "status": "schedule-announced",
+      "statusLabel": "共通日程発表済み",
+      "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年2月4日17:00／書類提出：2027年1月29日〜2月4日",
+      "testDates": [
+        "2027年2月21日（日）"
+      ],
+      "resultDate": "2027年3月1日（月）",
+      "detailsStatus": "school-details-pending",
+      "detailsStatusLabel": "学校別詳細の発表待ち",
+      "officialPublishedAt": "2026-05-28",
+      "verifiedAt": "2026-08-02",
+      "notes": [
+        "東京都教育委員会から共通日程が発表されています。",
+        "募集人員、検査科目、配点など学校固有の詳細は未発表です。",
+        "令和9年度実施要綱・同細目は2026年9月に公表予定です。"
+      ],
+      "sources": [
+        {
+          "title": "令和9年度東京都立高等学校入学者選抜の日程について",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528",
+          "publishedAt": "2026-05-28",
+          "verifiedAt": "2026-08-02"
+        }
+      ]
+    }
+  ]
+}

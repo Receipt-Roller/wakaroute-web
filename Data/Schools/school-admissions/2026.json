@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "academicYear": 2026,
+  "results": [
+    {
+      "schoolId": "wk_d113299901022",
+      "academicYear": 2026,
+      "selection": "general-first",
+      "selectionLabel": "一般選抜（第一次募集）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 253,
+      "applicants": 520,
+      "examinees": 420,
+      "admitted": 294,
+      "enrolled": null,
+      "note": "当初の合格発表は270人でしたが、数学学力検査問題の誤りにより24人が追加合格となったため、追加合格後の294人を掲載しています。",
+      "sources": [
+        {
+          "title": "令和8年度東京都立高等学校入学者選抜応募状況（最終応募状況）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/past/first_application/20260213_ichiji_final",
+          "publishedAt": "2026-02-13",
+          "verifiedAt": "2026-08-02"
+        },
+        {
+          "title": "令和8年度東京都立高等学校入学者選抜受検状況",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/archives/application/20260221_zenniichi",
+          "publishedAt": "2026-02-21",
+          "verifiedAt": "2026-08-02"
+        },
+        {
+          "title": "日比谷高等学校 数学学力検査問題の誤りによる追加合格について",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/information/press/2026/03/2026030305",
+          "publishedAt": "2026-03-03",
+          "verifiedAt": "2026-08-02"
+        }
+      ]
+    }
+  ]
+}

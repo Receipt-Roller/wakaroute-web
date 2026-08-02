@@ -7,4 +7,5 @@ public interface ISchoolCatalog
     SchoolCatalogMetadata Metadata { get; }
     IReadOnlyList<SchoolFilterOption> Prefectures { get; }
     SchoolSearchPage Search(string? query, string? prefecture, string? ownership, int page, int pageSize);
+    SchoolDetailsViewModel? GetById(string id);
 }

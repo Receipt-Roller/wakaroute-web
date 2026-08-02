@@ -1,0 +1,197 @@
+@model SchoolDetailsViewModel
+@{
+    ViewData["Title"] = $"{Model.School.Name}｜自分に合う高校か調べる";
+    ViewData["Description"] = $"{Model.School.Name}の学び、校風、通学、入試日程、過去の入試実績を、公式情報の出典・確認日付きで整理しています。";
+    var guide = Model.DecisionGuide;
+    var latestExamYear = Model.ExamSchedules.Count > 0 ? Model.ExamSchedules.Max(schedule => schedule.AcademicYear) : (int?)null;
+    var officialBaseUrl = Model.School.OfficialUrl?.TrimEnd('/');
+}
+
+<section class="school-detail-hero">
+    <div class="shell">
+        <nav class="breadcrumbs" aria-label="パンくずリスト">
+            <a asp-controller="Home" asp-action="Index">ホーム</a><span aria-hidden="true">/</span>
+            <a asp-controller="Schools" asp-action="Index">高校を探す</a><span aria-hidden="true">/</span><span>@Model.School.Name</span>
+        </nav>
+        <div class="school-detail-title">
+            <div>
+                <div class="school-card-tags"><span class="school-tag school-tag-@Model.School.Ownership">@Model.School.OwnershipLabel</span>@if (Model.School.CampusType == "branch") { <span class="school-tag school-tag-branch">分校</span> }@if (Model.Profile is not null) { <span class="school-tag school-tag-profile">@Model.Profile.GenderLabel</span> }</div>
+                <h1>@Model.School.Name</h1>
+                <p>@Model.School.Address　〒@Model.School.PostalCode</p>
+                @if (guide is not null) { <div class="school-info-date"><span>WakaRoute確認日</span><strong>@guide.VerifiedAt</strong></div> }
+            </div>
+            @if (!string.IsNullOrEmpty(Model.School.OfficialUrl))
+            {
+                <a class="button button-primary" href="@Model.School.OfficialUrl" target="_blank" rel="noopener noreferrer">学校公式サイトを見る ↗</a>
+            }
+        </div>
+    </div>
+</section>
+
+<main class="school-detail-main">
+    <div class="shell">
+        @if (guide is not null)
+        {
+            <section class="school-first-look" aria-labelledby="first-look-heading">
+                <div class="school-first-look-copy">
+                    <span>FIRST LOOK</span>
+                    <h2 id="first-look-heading">この学校を、<br />候補に入れる？</h2>
+                    <p>@guide.Summary</p>
+                    <small>公式情報をもとにWakaRouteが要約しています。</small>
+                </div>
+                <div class="school-decision-axes">
+                    <article>
+                        <div class="decision-axis-number">01</div><h3>通える？</h3>
+                        <p>@guide.Access.Summary</p>
+                        <ul>@foreach (var route in guide.Access.Routes) { <li>@route</li> }</ul>
+                        @if (!string.IsNullOrEmpty(officialBaseUrl)) { <a href="@(officialBaseUrl)/access/access.html" target="_blank" rel="noopener noreferrer">公式アクセスを見る ↗</a> }
+                    </article>
+                    <article>
+                        <div class="decision-axis-number">02</div><h3>学びたい？</h3>
+                        <p>幅広い教養を土台に、探究・科学・国際教育へ学びを広げます。</p>
+                        <ul>@foreach (var highlight in guide.Highlights.Take(3)) { <li>@highlight.Title</li> }</ul>
+                        <a href="#school-learning">学校の特徴を見る ↓</a>
+                    </article>
+                    <article>
+                        <div class="decision-axis-number">03</div><h3>目指せそう？</h3>
+                        @if (latestExamYear.HasValue)
+                        {
+                            <p>@latestExamYear.Value 年度入試は共通日程が発表済み。学校別の詳細は発表待ちです。</p>
+                            <div class="decision-status"><span>日程</span><strong>発表済み</strong></div>
+                            <div class="decision-status is-pending"><span>募集・検査詳細</span><strong>発表待ち</strong></div>
+                        }
+                        <a href="#school-exam">入試の見通しを見る ↓</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="school-detail-section" id="school-learning" aria-labelledby="learning-heading">
+                <div class="school-detail-heading">
+                    <div><span>SCHOOL &amp; LEARNING</span><h2 id="learning-heading">どんな学校？</h2></div>
+                    <p>学校公式情報から、候補判断に必要な特徴を整理しました。</p>
+                </div>
+                <div class="school-highlight-grid">
+                    @foreach (var highlight in guide.Highlights)
+                    {
+                        <article><span aria-hidden="true">●</span><h3>@highlight.Title</h3><p>@highlight.Description</p></article>
+                    }
+                </div>
+                <div class="school-fit-grid">
+                    <article><span>MAY FIT YOU</span><h3>こんな人は、詳しく調べてみよう</h3><ul>@foreach (var item in guide.GoodFit) { <li>@item</li> }</ul></article>
+                    <article><span>CHECK FIRST</span><h3>学校見学で確かめたいこと</h3><ul>@foreach (var item in guide.QuestionsToConsider) { <li>@item</li> }</ul></article>
+                </div>
+                <details class="source-details school-guide-sources"><summary>この要約に使った公式情報</summary><ul>@foreach (var source in guide.Sources) { <li><a href="@source.Url" target="_blank" rel="noopener noreferrer">@source.Title ↗</a><small>確認日 @source.VerifiedAt</small></li> }</ul></details>
+            </section>
+        }
+
+        <div class="school-detail-grid">
+            <div>
+                <section class="school-detail-section" id="school-exam" aria-labelledby="exam-heading">
+                    <div class="school-detail-heading">
+                        <div><span>UPCOMING EXAM</span><h2 id="exam-heading">@((latestExamYear?.ToString() ?? "次年度"))年度 入試の見通し</h2></div>
+                        <p>決まったことと、未発表のことを分けて掲載します。</p>
+                    </div>
+                    @if (Model.ExamSchedules.Count == 0)
+                    {
+                        <div class="school-detail-empty"><h3>次年度の入試情報は確認中です</h3><p>公式発表を確認できた項目から追加します。</p></div>
+                    }
+                    else
+                    {
+                        <div class="exam-schedule-list">
+                        @foreach (var exam in Model.ExamSchedules)
+                        {
+                            <article class="exam-schedule-card">
+                                <div class="exam-schedule-title"><div><span>@exam.AcademicYear 年度</span><h3>@exam.SelectionLabel</h3></div><div class="exam-statuses"><strong>@exam.StatusLabel</strong><strong class="is-pending">@exam.DetailsStatusLabel</strong></div></div>
+                                <dl>
+                                    <div><dt>出願</dt><dd>@exam.ApplicationPeriod</dd></div>
+                                    <div><dt>検査日</dt><dd>@string.Join("・", exam.TestDates)</dd></div>
+                                    <div><dt>合格発表</dt><dd>@exam.ResultDate</dd></div>
+                                </dl>
+                                <ul class="exam-notes">@foreach (var note in exam.Notes) { <li>@note</li> }</ul>
+                                <div class="exam-data-dates"><span>公式発表日 <strong>@(exam.OfficialPublishedAt ?? "記載なし")</strong></span><span>WakaRoute確認日 <strong>@exam.VerifiedAt</strong></span></div>
+                                <details class="source-details"><summary>入試の公式情報を確認する</summary><ul>@foreach (var source in exam.Sources) { <li><a href="@source.Url" target="_blank" rel="noopener noreferrer">@source.Title ↗</a><small>@if (!string.IsNullOrEmpty(source.PublishedAt)) { <text>発表 @source.PublishedAt ／ </text> }確認 @source.VerifiedAt</small></li> }</ul></details>
+                            </article>
+                        }
+                        </div>
+                    }
+                </section>
+
+                @if (guide?.VisitEvents.Count > 0)
+                {
+                    <section class="school-detail-section" aria-labelledby="visit-heading">
+                        <div class="school-detail-heading"><div><span>VISIT THE SCHOOL</span><h2 id="visit-heading">実際に見て確かめる</h2></div><p>申込み前・来校前に公式ページを再確認してください。</p></div>
+                        @foreach (var visit in guide.VisitEvents)
+                        {
+                            <article class="school-visit-card">
+                                <div><span class="visit-status visit-status-@visit.Status">@visit.StatusLabel</span><h3>@visit.Title</h3><p>@string.Join("・", visit.EventDates)<br />@visit.Time</p></div>
+                                <dl><div><dt>申込期間</dt><dd>@visit.ApplicationPeriod</dd></div><div><dt>申込方法</dt><dd>@visit.ApplicationMethod</dd></div></dl>
+                                @if (!string.IsNullOrEmpty(visit.Note)) { <p class="visit-note">@visit.Note</p> }
+                                @foreach (var source in visit.Sources) { <a class="button button-secondary" href="@source.Url" target="_blank" rel="noopener noreferrer">見学会の最新情報を公式ページで確認 ↗</a> }
+                            </article>
+                        }
+                    </section>
+                }
+
+                <section class="school-detail-section" aria-labelledby="admission-heading">
+                    <div class="school-detail-heading">
+                        <div><span>PAST ADMISSION RESULTS</span><h2 id="admission-heading">過去の入試実績</h2></div>
+                        <p>年度・選抜区分ごとの公式発表です。</p>
+                    </div>
+                    @if (Model.Admissions.Count == 0)
+                    {
+                        <div class="school-detail-empty"><h3>入試実績は確認中です</h3><p>自治体や学校の公式発表を確認できたものから追加します。</p></div>
+                    }
+                    else
+                    {
+                        @foreach (var result in Model.Admissions)
+                        {
+                            <article class="admission-card">
+                                <div class="admission-card-title"><div><strong>@result.AcademicYear 年度</strong><span>@result.SelectionLabel・@result.Department</span></div><small>@(result.AttendanceType == "full-time" ? "全日制" : result.AttendanceType)</small></div>
+                                <dl class="admission-numbers">
+                                    <div><dt>募集人員</dt><dd>@(result.Capacity?.ToString("N0") ?? "—")<small>人</small></dd></div>
+                                    <div><dt>志願者</dt><dd>@(result.Applicants?.ToString("N0") ?? "—")<small>人</small></dd></div>
+                                    <div><dt>受検者</dt><dd>@(result.Examinees?.ToString("N0") ?? "—")<small>人</small></dd></div>
+                                    <div><dt>合格者</dt><dd>@(result.Admitted?.ToString("N0") ?? "—")<small>人</small></dd></div>
+                                </dl>
+                                <div class="admission-ratios"><span>志願倍率 <strong>@(result.ApplicationRatio?.ToString("0.00") ?? "—")</strong></span><span>受検倍率 <strong>@(result.ExaminationRatio?.ToString("0.00") ?? "—")</strong></span><span>実質倍率 <strong>@(result.EffectiveRatio?.ToString("0.00") ?? "—")</strong></span></div>
+                                @if (!string.IsNullOrEmpty(result.Note)) { <p class="admission-note">@result.Note</p> }
+                                <details class="source-details"><summary>出典を確認する</summary><ul>@foreach (var source in result.Sources) { <li><a href="@source.Url" target="_blank" rel="noopener noreferrer">@source.Title ↗</a><small>確認日 @source.VerifiedAt</small></li> }</ul></details>
+                            </article>
+                        }
+                    }
+                </section>
+
+                <section class="school-detail-section" aria-labelledby="difficulty-heading">
+                    <div class="school-detail-heading"><div><span>DIFFICULTY</span><h2 id="difficulty-heading">偏差値・難易度</h2></div></div>
+                    @if (Model.DeviationScores.Count == 0)
+                    {
+                        <div class="school-data-policy"><strong>偏差値データは提供元を確認中です</strong><p>偏差値は模試の受験者集団や年度によって値が変わります。提供元・対象年度・母集団・掲載許諾を確認できた数値だけを掲載し、入試倍率から偏差値を推定することはしません。</p></div>
+                    }
+                </section>
+            </div>
+
+            <aside class="school-profile-card">
+                <span>SCHOOL PROFILE</span><h2>学校プロフィール</h2>
+                <dl>
+                    <div><dt>設置区分</dt><dd>@Model.School.OwnershipLabel</dd></div>
+                    <div><dt>共学区分</dt><dd>@(Model.Profile?.GenderLabel ?? "確認中")</dd></div>
+                    <div><dt>課程・学科</dt><dd>@if (Model.Profile?.Programs.Count > 0) { @foreach (var program in Model.Profile.Programs) { <span>@program.AttendanceTypeLabel・@program.Department@if (!string.IsNullOrEmpty(program.Course)) { <text>（@program.Course）</text> }</span> } } else { <text>確認中</text> }</dd></div>
+                    <div><dt>住所</dt><dd>@Model.School.Address</dd></div>
+                    <div><dt>学校ID</dt><dd>@Model.School.Id</dd></div>
+                    <div><dt>学校基本情報</dt><dd>@Model.School.LastVerifiedAt 確認</dd></div>
+                    @if (guide is not null) { <div><dt>学校紹介・入試情報</dt><dd>@guide.VerifiedAt 確認</dd></div> }
+                </dl>
+                <div class="school-next-actions">
+                    <h3>次に確認すること</h3>
+                    @if (!string.IsNullOrEmpty(officialBaseUrl))
+                    {
+                        <a href="@(officialBaseUrl)/guide/meeting.html" target="_blank" rel="noopener noreferrer">学校説明会・見学会 ↗</a>
+                        <a href="@(officialBaseUrl)/guide/guidance.html" target="_blank" rel="noopener noreferrer">学校の入試案内 ↗</a>
+                    }
+                    <a href="https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school" target="_blank" rel="noopener noreferrer">東京都教育委員会の入試情報 ↗</a>
+                </div>
+                <p class="school-important-note"><strong>最新情報は公式ページで確認してください。</strong>募集人員、試験日、出願条件、説明会等は変更される場合があります。出願や申込みの前には、必ず学校・教育委員会の最新情報をご確認ください。</p>
+            </aside>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "profiles": [
+    {
+      "schoolId": "wk_d113299901022",
+      "gender": "coeducational",
+      "programs": [
+        {
+          "attendanceType": "full-time",
+          "department": "普通科"
+        }
+      ],
+      "sources": [
+        {
+          "title": "東京都立日比谷高等学校 公式サイト",
+          "url": "https://www.metro.ed.jp/hibiya-h/",
+          "verifiedAt": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903057",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立西高等学校 公式サイト", "url": "https://www.metro.ed.jp/nishi-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113299902012",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立戸山高等学校 公式サイト", "url": "https://www.metro.ed.jp/toyama-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113299910085",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立国立高等学校 公式サイト", "url": "https://www.metro.ed.jp/kunitachi-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113299902058",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立青山高等学校 公式サイト", "url": "https://www.metro.ed.jp/aoyama-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113299907035",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立八王子東高等学校 公式サイト", "url": "https://www.metro.ed.jp/hachiojihigashi-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113299908016",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科" },
+        { "attendanceType": "full-time", "department": "創造理数科" }
+      ],
+      "sources": [{ "title": "東京都立立川高等学校 公式サイト", "url": "https://www.metro.ed.jp/tachikawa-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113299902049",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科（単位制）" }],
+      "sources": [{ "title": "東京都立新宿高等学校 公式サイト", "url": "https://www.metro.ed.jp/shinjuku-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113299901068",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立小山台高等学校 公式サイト", "url": "https://www.metro.ed.jp/koyamadai-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113299902021",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科" },
+        { "attendanceType": "full-time", "department": "保健体育科" }
+      ],
+      "sources": [{ "title": "東京都立駒場高等学校 公式サイト", "url": "https://www.metro.ed.jp/komaba-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113299907099",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立町田高等学校 公式サイト", "url": "https://www.metro.ed.jp/machida-h/", "verifiedAt": "2026-08-02" }]
+    }
+  ]
+}

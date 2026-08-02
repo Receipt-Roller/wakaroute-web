@@ -21,4 +21,11 @@ public sealed class SchoolApiController(ISchoolCatalog schoolCatalog) : Controll
             result.Items
         });
     }
+
+    [HttpGet("{id}")]
+    public IActionResult GetById(string id)
+    {
+        var school = schoolCatalog.GetById(id);
+        return school is null ? NotFound() : Ok(school);
+    }
 }

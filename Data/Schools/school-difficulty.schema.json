@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WakaRoute school difficulty data",
+  "type": "object",
+  "required": ["schemaVersion", "externalDeviationScores"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "externalDeviationScores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["schoolId", "academicYear", "provider", "population", "sourceUrl", "license", "verifiedAt"],
+        "properties": {
+          "schoolId": { "type": "string", "pattern": "^wk_" },
+          "value": { "type": ["number", "null"] },
+          "valueLow": { "type": ["number", "null"] },
+          "valueHigh": { "type": ["number", "null"] },
+          "license": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

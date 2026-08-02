@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WakaRoute annual school admissions",
+  "type": "object",
+  "required": ["schemaVersion", "academicYear", "results"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "academicYear": { "type": "integer", "minimum": 2000 },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["schoolId", "academicYear", "selection", "selectionLabel", "attendanceType", "department", "sources"],
+        "properties": {
+          "schoolId": { "type": "string", "pattern": "^wk_" },
+          "capacity": { "type": ["integer", "null"], "minimum": 0 },
+          "applicants": { "type": ["integer", "null"], "minimum": 0 },
+          "examinees": { "type": ["integer", "null"], "minimum": 0 },
+          "admitted": { "type": ["integer", "null"], "minimum": 0 },
+          "enrolled": { "type": ["integer", "null"], "minimum": 0 },
+          "sources": { "type": "array", "minItems": 1 }
+        }
+      }
+    }
+  }
+}

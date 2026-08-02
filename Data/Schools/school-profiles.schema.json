@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WakaRoute school profiles",
+  "type": "object",
+  "required": ["schemaVersion", "profiles"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "profiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["schoolId", "gender", "programs", "sources"],
+        "properties": {
+          "schoolId": { "type": "string", "pattern": "^wk_" },
+          "gender": { "enum": ["coeducational", "boys", "girls", "unknown"] },
+          "programs": { "type": "array" },
+          "sources": { "type": "array", "minItems": 1 }
+        }
+      }
+    }
+  }
+}
