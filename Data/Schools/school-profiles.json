@@ -83,6 +83,66 @@
       "gender": "coeducational",
       "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
       "sources": [{ "title": "東京都立町田高等学校 公式サイト", "url": "https://www.metro.ed.jp/machida-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113299901031",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立三田高等学校 公式サイト", "url": "https://www.metro.ed.jp/mita-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113299904056",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立北園高等学校 公式サイト", "url": "https://www.metro.ed.jp/kitazono-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113299904010",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立竹早高等学校 公式サイト", "url": "https://www.metro.ed.jp/takehaya-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113299906107",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立小松川高等学校 公式サイト", "url": "https://www.metro.ed.jp/komatsugawa-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113299909024",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立武蔵野北高等学校 公式サイト", "url": "https://www.metro.ed.jp/musashinokita-h/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113311800018",
+      "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "開成中学校・高等学校 公式サイト", "url": "https://kaiseigakuen.jp/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113310300024",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "慶應義塾女子高等学校 公式サイト", "url": "https://www.gshs.keio.ac.jp/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113311500084",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "中央大学杉並高等学校 公式サイト", "url": "https://chusugi.jp/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113320800019",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "明治大学付属明治高等学校・中学校 公式サイト", "url": "https://www.meiji.ac.jp/ko_chu/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113311300013",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "青山学院高等部 公式サイト", "url": "https://www.agh.aoyama.ed.jp/", "verifiedAt": "2026-08-02" }]
     }
   ]
 }

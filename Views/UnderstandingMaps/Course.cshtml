@@ -1,0 +1,94 @@
+@model CourseSectionsViewModel
+@{
+    ViewData["Title"] = $"{Model.Title}の学習ステップ";
+    ViewData["Description"] = Model.Description;
+}
+
+<section class="course-sections-hero">
+    <div class="shell course-sections-hero-inner">
+        <nav class="breadcrumbs" aria-label="パンくずリスト">
+            <a asp-area="" asp-controller="Home" asp-action="Index">ホーム</a>
+            <span aria-hidden="true">/</span>
+            <a asp-action="Math">数学の理解マップ</a>
+            <span aria-hidden="true">/</span>
+            <span aria-current="page">@Model.Title</span>
+        </nav>
+        <div class="eyebrow"><span></span>COURSE ROADMAP</div>
+        <p class="course-sections-kicker">中学数学 · 数と式</p>
+        <h1>@Model.Title</h1>
+        @if (!string.IsNullOrWhiteSpace(Model.Description))
+        {
+            <p class="course-sections-description">@Model.Description</p>
+        }
+        <div class="course-sections-summary">
+            <strong>@Model.Sections.Count</strong>
+            <span>のステップで<br />マスターする</span>
+        </div>
+    </div>
+</section>
+
+<main class="course-sections-main">
+    <div class="shell course-sections-layout">
+        <header class="course-sections-heading">
+            <div>
+                <span>LEARNING STEPS</span>
+                <h2>この順番で進めよう</h2>
+            </div>
+            <p>意味をつかむところから始めて、計算、活用、仕上げへ。前のステップを土台にしながら進みます。</p>
+        </header>
+
+        @if (Model.Sections.Count == 0)
+        {
+            <div class="course-sections-empty">セクションは準備中です。</div>
+        }
+        else
+        {
+            <ol class="course-section-list">
+                @foreach (var step in Model.Sections)
+                {
+                    <li>
+                        <div class="course-section-number">@(step.OrderIndex + 1)</div>
+                        <article>
+                            <div class="course-section-meta">
+                                <span>STEP @(step.OrderIndex + 1)</span>
+                                <span>@step.LessonCount レッスン</span>
+                            </div>
+                            <h3>@step.Title</h3>
+                            @if (!string.IsNullOrWhiteSpace(step.Summary))
+                            {
+                                <p>@step.Summary</p>
+                            }
+                            <div class="course-section-status">
+                                <i aria-hidden="true"></i>
+                                <span>@(step.LessonCount > 0 ? "レッスン公開中" : "レッスン準備中")</span>
+                            </div>
+                            @if (step.Lessons.Count > 0)
+                            {
+                                <ol class="course-lesson-list">
+                                    @foreach (var lesson in step.Lessons)
+                                    {
+                                        <li>
+                                            <a asp-action="Lesson" asp-route-courseId="@Model.CourseId" asp-route-lessonId="@lesson.Id">
+                                                <span>@(lesson.OrderIndex + 1)</span>
+                                                <div>
+                                                    <strong>@lesson.Title</strong>
+                                                    @if (!string.IsNullOrWhiteSpace(lesson.Summary))
+                                                    {
+                                                        <small>@lesson.Summary</small>
+                                                    }
+                                                </div>
+                                                <i aria-hidden="true">→</i>
+                                            </a>
+                                        </li>
+                                    }
+                                </ol>
+                            }
+                        </article>
+                    </li>
+                }
+            </ol>
+        }
+
+        <a class="course-sections-back" asp-action="Math">← 数学の理解マップに戻る</a>
+    </div>
+</main>

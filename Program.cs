@@ -1,5 +1,6 @@
 using wakaroute_web.Services.UnderstandingMaps;
 using wakaroute_web.Services.Schools;
+using wakaroute_web.Services.Manabu2;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,11 @@ builder.Services.AddSingleton<IUnderstandingMapProvider, JapaneseUnderstandingMa
 builder.Services.AddSingleton<IUnderstandingMapProvider, EnglishUnderstandingMapProvider>();
 builder.Services.AddSingleton<IUnderstandingMapProvider, ScienceUnderstandingMapProvider>();
 builder.Services.AddSingleton<IUnderstandingMapProvider, SocialStudiesUnderstandingMapProvider>();
+builder.Services.Configure<Manabu2Options>(builder.Configuration.GetSection(Manabu2Options.SectionName));
+builder.Services.AddMemoryCache();
+builder.Services.AddHttpClient(Manabu2CatalogClient.HttpClientName);
+builder.Services.AddSingleton<Manabu2CatalogClient>();
+builder.Services.AddSingleton<IUnderstandingMapCatalog, Manabu2UnderstandingMapCatalog>();
 builder.Services.AddSingleton<ISchoolCatalog, JsonSchoolCatalog>();
 
 var app = builder.Build();

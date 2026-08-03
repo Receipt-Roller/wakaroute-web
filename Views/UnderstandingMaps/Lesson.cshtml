@@ -1,0 +1,104 @@
+@model LessonDetailViewModel
+@{
+    ViewData["Title"] = Model.Title;
+    ViewData["Description"] = Model.Summary;
+    var heroImage = Model.Materials.FirstOrDefault(material => material.IsDisplayableImage);
+}
+
+<section class="lesson-hero">
+    <div class="shell lesson-hero-inner">
+        <nav class="breadcrumbs" aria-label="パンくずリスト">
+            <a asp-area="" asp-controller="Home" asp-action="Index">ホーム</a>
+            <span aria-hidden="true">/</span>
+            <a asp-action="Math">数学の理解マップ</a>
+            <span aria-hidden="true">/</span>
+            <a asp-action="Course" asp-route-courseId="@Model.CourseId">正の数・負の数</a>
+            <span aria-hidden="true">/</span>
+            <span aria-current="page">@Model.Title</span>
+        </nav>
+        <div class="lesson-hero-grid @(heroImage is not null ? "has-visual" : null)">
+            <div>
+                <div class="eyebrow"><span></span>LESSON 01</div>
+                <p class="lesson-section-name">負の数との出会い</p>
+                <h1>@Model.Title</h1>
+                @if (!string.IsNullOrWhiteSpace(Model.Summary))
+                {
+                    <p class="lesson-hero-summary">@Model.Summary</p>
+                }
+            </div>
+            @if (heroImage is not null)
+            {
+                <figure class="lesson-material-visual">
+                    <img src="@heroImage.FileUrl"
+                         alt="@heroImage.DisplayName"
+                         loading="eager"
+                         decoding="async" />
+                    @if (!string.IsNullOrWhiteSpace(heroImage.Summary))
+                    {
+                        <figcaption>@heroImage.Summary</figcaption>
+                    }
+                </figure>
+            }
+        </div>
+    </div>
+</section>
+
+<main class="lesson-main">
+    <div class="shell lesson-layout">
+        <article class="lesson-body">
+            @Html.Raw(Model.BodyHtml)
+        </article>
+        <aside class="lesson-side">
+            <span>LEARNING TIP</span>
+            <h2>声に出して説明しよう</h2>
+            <p>大切な考え方を「なぜそうなるのか」まで自分の言葉で説明すると、記号だけの暗記になりません。</p>
+            <a asp-action="Course" asp-route-courseId="@Model.CourseId">コース一覧に戻る →</a>
+        </aside>
+    </div>
+
+    @if (Model.Quiz is not null)
+    {
+        <section class="shell lesson-quiz" aria-labelledby="lesson-quiz-title">
+            <header class="lesson-quiz-heading">
+                <div>
+                    <span>UNDERSTANDING CHECK</span>
+                    @if (Model.Quiz.Id.EndsWith("-preview", StringComparison.Ordinal))
+                    {
+                        <b class="lesson-quiz-preview">LOCAL PREVIEW</b>
+                    }
+                    <h2 id="lesson-quiz-title">@Model.Quiz.Title</h2>
+                    @if (!string.IsNullOrWhiteSpace(Model.Quiz.Instructions))
+                    {
+                        <p>@Model.Quiz.Instructions</p>
+                    }
+                </div>
+                <div class="lesson-quiz-score">
+                    <strong>@Model.Quiz.PassingScorePercent%</strong>
+                    <span>合格ライン</span>
+                </div>
+            </header>
+
+            <ol class="lesson-quiz-questions">
+                @foreach (var question in Model.Quiz.Questions)
+                {
+                    <li>
+                        <fieldset>
+                            <legend><span>Q@(question.OrderIndex)</span>@question.QuestionText</legend>
+                            <div class="lesson-quiz-options">
+                                @foreach (var option in question.Options)
+                                {
+                                    <label>
+                                        <input type="radio" name="question-@question.Id" value="@option.Id" />
+                                        <span aria-hidden="true"></span>
+                                        <strong>@option.Text</strong>
+                                    </label>
+                                }
+                            </div>
+                        </fieldset>
+                    </li>
+                }
+            </ol>
+            <p class="lesson-quiz-note">まずは自分で選んでみましょう。採点・学習履歴への記録は、回答APIとの連携時に追加します。</p>
+        </section>
+    }
+</main>

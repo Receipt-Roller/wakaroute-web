@@ -345,6 +345,252 @@
         { "title": "町田高校 学校からのメッセージ", "url": "https://www.metro.ed.jp/machida-h/our_school/message.html", "verifiedAt": "2026-08-02" },
         { "title": "町田高校 アクセスマップ", "url": "https://www.metro.ed.jp/machida-h/access/access.html", "verifiedAt": "2026-08-02" }
       ]
+    },
+    {
+      "schoolId": "wk_d113299901031",
+      "summary": "『教養・探究・立志そして世界へ』を掲げ、幅広い学習を土台に、長い実績を持つ国際理解教育と生徒主体の活動を進める都立高校です。異なる文化や価値観に触れながら、進学と将来の可能性を広げたい人に向いています。",
+      "verifiedAt": "2026-08-02",
+      "highlights": [
+        { "title": "国際理解教育の三田", "description": "ユネスコスクールとして、講演会、シンポジウム、大使館訪問、英語研修、留学生との交流などに取り組みます。" },
+        { "title": "幅広い学びから応用へ", "description": "基礎知識・基礎学力を幅広く身につけ、それを土台に応用力、思考力、創造力を伸ばします。" },
+        { "title": "多文化が身近な環境", "description": "帰国生や留学生が在籍し、海外からの高校生を受け入れるなど、日常の学校生活にも異文化交流があります。" },
+        { "title": "生徒がつくる学校生活", "description": "学校行事や委員会活動で生徒の主体性を重視し、仲間と協力して達成感を得る機会があります。" }
+      ],
+      "goodFit": ["英語・海外・異文化交流への関心が強い", "幅広い教養を土台に進路を考えたい", "行事や委員会を自分たちでつくりたい", "都心の複数路線から通える学校を探している"],
+      "questionsToConsider": ["国際理解のどの活動に参加したいか", "学習・行事・国際交流を両立する生活を想像できるか", "帰宅時間帯を含めて実際の通学経路を試したか", "帰国生入試と一般入試の違いを公式案内で確認したか"],
+      "access": { "summary": "赤羽橋駅から徒歩5分。芝公園、麻布十番、三田、田町からも徒歩で通えます。", "routes": ["都営大江戸線 赤羽橋駅から徒歩5分", "都営三田線 芝公園駅から徒歩7分", "東京メトロ南北線 麻布十番駅から徒歩10分", "JR田町駅から徒歩13分"] },
+      "visitEvents": [{
+        "title": "2026年度 第8回・第9回学校見学会", "academicYear": 2026, "status": "application-check", "statusLabel": "申込状況を確認",
+        "eventDates": ["2026年8月21日（金）"], "time": "10:00／14:00開始（約90分）", "applicationPeriod": "先着受付（受付期間・空き状況は公式ページで確認）", "applicationMethod": "LoGoフォームによる事前申込み",
+        "note": "中学2・3年生と保護者1名が対象。生徒会による学校生活の説明と、生徒による校内見学を予定しています。各回185組です。",
+        "sources": [{ "title": "三田高校 学校説明会・授業公開等", "url": "https://www.metro.ed.jp/mita-h/guide/meeting.html", "verifiedAt": "2026-08-02" }]
+      }],
+      "sources": [
+        { "title": "三田高校 特色", "url": "https://www.metro.ed.jp/mita-h/our_school/feature.html", "verifiedAt": "2026-08-02" },
+        { "title": "三田高校 学校からのメッセージ", "url": "https://www.metro.ed.jp/mita-h/our_school/message.html", "verifiedAt": "2026-08-02" },
+        { "title": "三田高校 アクセスマップ", "url": "https://www.metro.ed.jp/mita-h/access/access.html", "verifiedAt": "2026-08-02" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904056",
+      "summary": "『確かな学力、タフな人間力』を掲げ、進学支援、生徒主体の行事、部活動、第二外国語を含む国際理解教育を組み合わせる進学指導推進校です。勉強だけに偏らず、幅広い経験から自分の世界を広げたい人に向いています。",
+      "verifiedAt": "2026-08-02",
+      "highlights": [
+        { "title": "進学指導推進校", "description": "習熟度別授業、豊富な選択科目、自習室、英語・数学のチューターなどで進路希望を支えます。" },
+        { "title": "4つの第二外国語", "description": "ドイツ語、フランス語、中国語、ロシア語から選び、最大3年間学べる特色ある教育があります。" },
+        { "title": "海外・地域へ広がる学び", "description": "オーストラリア語学研修、ドイツのパートナー校との交流、信州北園プロジェクトに取り組みます。" },
+        { "title": "生徒主体の行事と部活動", "description": "柊祭や体育祭などを生徒が企画・運営し、多くの生徒が部活動にも参加します。" }
+      ],
+      "goodFit": ["国公立・難関私大を視野に自主学習したい", "英語以外の言語や海外交流にも挑戦したい", "行事を生徒主体でつくる学校がよい", "勉強と部活動をどちらも続けたい"],
+      "questionsToConsider": ["45分7時間授業の生活リズムが自分に合うか", "第二外国語を何のために学びたいか", "自習室やチューターをどう活用したいか", "見学会で行事や生徒の自主性の実際を確かめたか"],
+      "access": { "summary": "新板橋、下板橋、板橋の3駅から徒歩10分以内です。", "routes": ["都営三田線 新板橋駅から徒歩6分", "東武東上線 下板橋駅から徒歩7分", "JR埼京線 板橋駅から徒歩9分"] },
+      "visitEvents": [{
+        "title": "2026年度 学校見学会", "academicYear": 2026, "status": "application-closed", "statusLabel": "申込終了",
+        "eventDates": ["2026年7月31日（金）", "2026年8月1日（土）"], "time": "複数回開催（申込回により異なる）", "applicationPeriod": "2026年7月24日12:00〜7月30日12:00", "applicationMethod": "LoGoフォームによる事前申込み",
+        "note": "中学3年生と保護者対象で、学校説明、校舎案内、希望者の部活動見学を実施しました。今後のミニ見学・秋の説明会は公式ページを確認してください。",
+        "sources": [{ "title": "北園高校 学校見学会のお知らせ", "url": "https://www.metro.ed.jp/kitazono-h/news/2026/07/newsentry_128.html", "publishedAt": "2026-07-03", "verifiedAt": "2026-08-02" }]
+      }],
+      "sources": [
+        { "title": "北園高校 特色", "url": "https://www.metro.ed.jp/kitazono-h/our_school/feature.html", "verifiedAt": "2026-08-02" },
+        { "title": "北園高校 学校からのメッセージ", "url": "https://www.metro.ed.jp/kitazono-h/our_school/message.html", "verifiedAt": "2026-08-02" },
+        { "title": "北園高校 アクセスマップ", "url": "https://www.metro.ed.jp/kitazono-h/access/access.html", "verifiedAt": "2026-08-02" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904010",
+      "summary": "1900年創立の『自主自律』を受け継ぎ、進学指導、理数研究、3年間の探究学習、行事や部活動を通してChance・Challenge・Changeを生み出す進学指導推進校です。自分の関心を研究へ育て、主体的に進路をつくりたい人に向いています。",
+      "verifiedAt": "2026-08-02",
+      "highlights": [
+        { "title": "自主自律と3C", "description": "学習、行事、部活動で主体性を大切にし、機会・挑戦・変化と成長を学校全体で支えます。" },
+        { "title": "計画的な進学指導", "description": "進学指導推進校として、大学入試の変化に対応しながら学校全体で4年制大学への進路を支えます。" },
+        { "title": "3年間の探究学習", "description": "自分の興味・関心から問いを立て、研究し、伝える学びを3年間かけて深めます。" },
+        { "title": "理数研究の強み", "description": "理数研究校としてのプログラムも活用し、探究心と将来を選択する力を育てます。" }
+      ],
+      "goodFit": ["自分の興味を探究テーマへ発展させたい", "自主性を求められる環境で成長したい", "大学進学を学校の支援とともに目指したい", "学習・行事・部活動に挑戦したい"],
+      "questionsToConsider": ["3年間かけて調べたいテーマが見つかりそうか", "自主自律を日々の行動で実践できるか", "最寄駅からの徒歩経路を実際に確かめたか", "理数研究や進学支援の具体的な参加方法を説明会で聞いたか"],
+      "access": { "summary": "茗荷谷駅から徒歩10分。後楽園・春日からも徒歩で通え、春日二丁目バス停は学校のすぐ前です。", "routes": ["丸ノ内線 茗荷谷駅から徒歩10分", "丸ノ内線・南北線 後楽園駅から徒歩12分", "三田線・大江戸線 春日駅から徒歩13分", "都バス 春日二丁目バス停からすぐ"] },
+      "visitEvents": [{
+        "title": "2026年度 夏の学校見学会", "academicYear": 2026, "status": "application-check", "statusLabel": "申込状況を確認",
+        "eventDates": ["2026年8月18日（火）", "2026年8月19日（水）", "2026年8月20日（木）"], "time": "10:00／11:30／13:30／15:00開始", "applicationPeriod": "2026年7月7日12:00〜8月16日24:00", "applicationMethod": "LoGoフォームによる事前申込み",
+        "note": "全体会後に校舎見学と個別相談ができます。各回120組。中学1・2年生対象回は定員間近との案内があるため、対象学年と空き状況を公式ページで確認してください。",
+        "sources": [{ "title": "竹早高校 夏の学校見学会申し込み案内", "url": "https://www.metro.ed.jp/takehaya-h/news/2026/07/newsentry_175.html", "publishedAt": "2026-07-06", "verifiedAt": "2026-08-02" }]
+      }],
+      "sources": [
+        { "title": "竹早高校 特色", "url": "https://www.metro.ed.jp/takehaya-h/our_school/feature.html", "verifiedAt": "2026-08-02" },
+        { "title": "竹早高校 学校からのメッセージ", "url": "https://www.metro.ed.jp/takehaya-h/our_school/message.html", "verifiedAt": "2026-08-02" },
+        { "title": "竹早高校 アクセスマップ", "url": "https://www.metro.ed.jp/takehaya-h/access/access.html", "verifiedAt": "2026-08-02" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906107",
+      "summary": "『質実剛健』を受け継ぎ、国公立大学進学に対応する授業、生徒主体の学校生活、加入率の高い部活動を組み合わせた、ハイレベルな文武両道を目指す学校です。落ち着いた環境で、学習も活動も着実に続けたい人に向いています。",
+      "verifiedAt": "2026-08-02",
+      "highlights": [
+        { "title": "ハイレベルな文武両道", "description": "学習を大切にしながら、95％以上の生徒が部活動に加入し、学校行事にも熱心に取り組みます。" },
+        { "title": "国公立大学へつながる授業", "description": "基礎力を高め、国公立大学進学に対応したカリキュラムと授業で進路実現を支えます。" },
+        { "title": "生徒主体の学びと行事", "description": "自ら考えて学ぶことと、仲間と学校行事をつくる経験を通してリーダーシップを育てます。" },
+        { "title": "落ち着いた教育環境", "description": "住宅街と緑のある校内で、伝統と品位を大切にした生活指導を行っています。" }
+      ],
+      "goodFit": ["国公立大学を視野に授業を大切にしたい", "勉強と部活動を高い水準で両立したい", "落ち着きと規律のある環境で学びたい", "江戸川区周辺から通いやすい進学校を探している"],
+      "questionsToConsider": ["部活動を続けながら日々の学習時間を確保できるか", "学校の生活指導や雰囲気が自分に合うか", "平井・東大島からの経路を実際に試したか", "学校説明会で進路指導と選抜内容を確認したか"],
+      "access": { "summary": "JR平井駅から徒歩12分。都営バスの小松川三丁目、都営新宿線の東大島からも通えます。", "routes": ["JR平井駅から徒歩12分", "都営バス 小松川3丁目から徒歩5分", "都営新宿線 東大島駅から徒歩20分"] },
+      "visitEvents": [{
+        "title": "2026年度 8月夏季学校見学会", "academicYear": 2026, "status": "application-check", "statusLabel": "8月7日受付開始",
+        "eventDates": ["2026年8月29日（土）"], "time": "10:00〜12:00／14:00〜16:00", "applicationPeriod": "2026年8月7日15:00〜8月21日12:00（先着順）", "applicationMethod": "LoGoフォームによる事前申込み",
+        "note": "中学1〜3年生と保護者対象。教員・生徒会による学校紹介、生徒による校舎案内、部活動見学、個別相談を予定。各回125組です。",
+        "sources": [{ "title": "小松川高校 8月29日夏季学校見学会", "url": "https://www.metro.ed.jp/komatsugawa-h/news/2026/07/7_18_1.html", "publishedAt": "2026-07-24", "verifiedAt": "2026-08-02" }]
+      }],
+      "sources": [
+        { "title": "小松川高校 特色", "url": "https://www.metro.ed.jp/komatsugawa-h/our_school/feature.html", "verifiedAt": "2026-08-02" },
+        { "title": "小松川高校 学校からのメッセージ", "url": "https://www.metro.ed.jp/komatsugawa-h/our_school/message.html", "verifiedAt": "2026-08-02" },
+        { "title": "小松川高校 アクセスマップ", "url": "https://www.metro.ed.jp/komatsugawa-h/access/access.html", "verifiedAt": "2026-08-02" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909024",
+      "summary": "幅広い教養を基礎に、探究・キャリア教育・国際教育を通して課題解決力と挑戦する姿勢を育てる進学校です。2年生までは教科をバランスよく学び、3年生で進路に合わせて選択を深めたい人に向いています。",
+      "verifiedAt": "2026-08-02",
+      "highlights": [
+        { "title": "広く学んでから深める", "description": "2年生までは全教科をバランスよく学び、3年生では豊富な選択科目から進路に応じて学びます。" },
+        { "title": "探究と課題解決", "description": "知的好奇心を生かして自ら課題を設定し、他者と協働しながら解決へ導く力を伸ばします。" },
+        { "title": "グローバル教育", "description": "GE-NET School Premier 20の指定を受け、国際社会を見据えた先進的な教育に取り組みます。" },
+        { "title": "自律・互敬・挑戦", "description": "心身の健康、他者への尊重、高い志を持って挑戦する姿勢を学校生活全体で育てます。" }
+      ],
+      "goodFit": ["文理を早く狭めず幅広い教養を身につけたい", "探究や課題解決型の学びに取り組みたい", "国際的な視野を広げたい", "多摩・武蔵野地域から通いやすい進学校を探している"],
+      "questionsToConsider": ["3年次の科目選択を進路に合わせて考えられそうか", "探究・国際教育で何に挑戦したいか", "駅からバスを使う通学時間と混雑を確認したか", "満席後の次回説明会日程を公式ページで確認したか"],
+      "access": { "summary": "三鷹・吉祥寺・保谷・ひばりヶ丘からバスを利用でき、西武柳沢駅からは徒歩15分です。", "routes": ["三鷹駅北口からバス約12分", "吉祥寺駅北口からバス約15分", "西武柳沢駅南口から徒歩15分またはバス約5分", "保谷駅南口からバス約15分"] },
+      "visitEvents": [{
+        "title": "2026年度 夏季学校見学会", "academicYear": 2026, "status": "application-closed", "statusLabel": "満席・申込終了",
+        "eventDates": ["2026年7月22日（水）〜7月28日（火）の指定日", "2026年8月19日（水）〜8月25日（火）の指定日"], "time": "各日10:00〜11:00", "applicationPeriod": "満席のため終了（キャンセル待ち・追加予定なし）", "applicationMethod": "LoGoフォームによる事前申込み・先着順",
+        "note": "学校紹介ビデオと在校生による校内案内、希望者の個別相談を実施。次回の学校説明会は10月24日予定で、詳細は約1か月前に公表予定です。",
+        "sources": [{ "title": "武蔵野北高校 夏季学校見学会のお知らせ", "url": "https://www.metro.ed.jp/musashinokita-h/news/2026/06/newsentry_143.html", "publishedAt": "2026-06-24", "verifiedAt": "2026-08-02" }]
+      }],
+      "sources": [
+        { "title": "武蔵野北高校 特色", "url": "https://www.metro.ed.jp/musashinokita-h/our_school/feature.html", "verifiedAt": "2026-08-02" },
+        { "title": "武蔵野北高校 学校からのメッセージ", "url": "https://www.metro.ed.jp/musashinokita-h/our_school/message.html", "verifiedAt": "2026-08-02" },
+        { "title": "武蔵野北高校 アクセスマップ", "url": "https://www.metro.ed.jp/musashinokita-h/access/access.html", "verifiedAt": "2026-08-02" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311800018",
+      "summary": "知性・自由・質実剛健を重んじ、日々の授業と基礎学力を土台に思考力・創造性を育てる男子校です。高校入学生は1年間別クラスで学び、2年生から内部進学生と混合になるため、自主性の高い環境へ段階的に入っていきます。",
+      "verifiedAt": "2026-08-02",
+      "highlights": [
+        { "title": "授業を中心にした学び", "description": "習熟度別編成を行わず、6日制・週34時間の授業で基礎学力と発展的・創造的な学びを重視します。" },
+        { "title": "高校入学生への接続", "description": "高校から入学する約100名は1年間別クラスで学び、必要な補講を経て高校2年から内部進学生と混合になります。" },
+        { "title": "自由と自律", "description": "必要最低限の校則のもと、理由を自分で考え、自律して行動することを自由の土台としています。" },
+        { "title": "生徒が動かす行事", "description": "運動会や文化祭など、多くの行事を企画・準備・当日の運営まで生徒が主体となって進めます。" }
+      ],
+      "goodFit": ["男子校で高い学習水準に挑戦したい", "指示を待たず自分で考えて学びたい", "生徒主体の大きな行事に深く関わりたい", "5教科をバランスよく鍛えたい"],
+      "questionsToConsider": ["高校入学生だけの1年目と2年目以降の変化を理解したか", "自由度の高い環境で自分を管理できるか", "始業時刻や6日制を含む生活を具体的に想像したか", "説明会の今年度日程が公開されたか公式ページで再確認したか"],
+      "access": { "summary": "西日暮里駅から徒歩2分。JR、千代田線、日暮里・舎人ライナーを利用できます。", "routes": ["JR山手線・京浜東北線 西日暮里駅から徒歩2分", "東京メトロ千代田線 西日暮里駅から徒歩2分", "日暮里・舎人ライナー 西日暮里駅から徒歩2分"] },
+      "visitEvents": [],
+      "sources": [
+        { "title": "開成学園 教育内容", "url": "https://kaiseigakuen.jp/about/contents/", "verifiedAt": "2026-08-02" },
+        { "title": "開成学園 学園長・学校長挨拶", "url": "https://kaiseigakuen.jp/about/greeting/", "verifiedAt": "2026-08-02" },
+        { "title": "開成学園 アクセス", "url": "https://kaiseigakuen.jp/about/access/", "verifiedAt": "2026-08-02" },
+        { "title": "開成学園 説明会情報", "url": "https://kaiseigakuen.jp/admission/briefing/", "verifiedAt": "2026-08-02" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310300024",
+      "summary": "『自由・開発・創造』と独立自尊を教育理念に、互いの個性を尊重する自由な環境で、自分の才能と進路を育てる慶應義塾の女子校です。大学受験のためだけに学ぶのではなく、豊富な選択科目や大学との接続を生かしたい人に向いています。",
+      "verifiedAt": "2026-08-02",
+      "highlights": [
+        { "title": "自由・開発・創造", "description": "画一的な規則で形を整えるのではなく、教員と生徒が個性を尊重し、自由な雰囲気の中で学び合います。" },
+        { "title": "慶應義塾への一貫教育", "description": "一定の条件のもと慶應義塾大学へ進学でき、大学の模擬授業・施設見学などを通じて学部や将来を考えます。" },
+        { "title": "選択を深めるカリキュラム", "description": "関心や進路に応じた多様な選択授業があり、慶應義塾大学教員による専門的な科目も設けられています。" },
+        { "title": "個性を生かす学校生活", "description": "部活動、学校行事、校外での活動を含め、それぞれが好きなことへ自発的に取り組むことを大切にします。" }
+      ],
+      "goodFit": ["女子校で互いの個性を尊重して学びたい", "自由な環境で自分の選択に責任を持ちたい", "慶應義塾大学への進学を視野に入れている", "学習・行事・校外活動を自発的に広げたい"],
+      "questionsToConsider": ["慶應義塾大学のどの学部・分野に関心があるか", "自由を自己管理と結び付けて考えられるか", "推薦・一般・帰国生の出願資格の違いを確認したか", "田町・三田・白金高輪からの通学を実際に試したか"],
+      "access": { "summary": "田町、三田、白金高輪の3方向から徒歩10分前後です。", "routes": ["JR田町駅から徒歩10分", "都営浅草線・三田線 三田駅から徒歩8分", "南北線・都営三田線 白金高輪駅から徒歩10分"] },
+      "visitEvents": [{
+        "title": "2026年度 学校説明会", "academicYear": 2026, "status": "application-check", "statusLabel": "詳細公開を確認",
+        "eventDates": ["2026年9月26日（土）"], "time": "9:30〜12:00／13:00〜15:30", "applicationPeriod": "予約詳細は8月上旬までに公式ページで公開予定", "applicationMethod": "インターネットによる事前予約",
+        "note": "校風、教育理念、学校生活、慶應義塾大学への進学を説明し、校舎見学と教員・生徒への個別相談を予定しています。",
+        "sources": [{ "title": "慶應義塾女子高等学校 学校説明会", "url": "https://www.gshs.keio.ac.jp/for-jukensei/setsumeikai.html", "verifiedAt": "2026-08-02" }]
+      }],
+      "sources": [
+        { "title": "慶應義塾女子高等学校 学校概要", "url": "https://www.gshs.keio.ac.jp/information/gakkou-gaiyou.html", "verifiedAt": "2026-08-02" },
+        { "title": "慶應義塾女子高等学校 進路情報", "url": "https://www.gshs.keio.ac.jp/information/shinro.html", "verifiedAt": "2026-08-02" },
+        { "title": "慶應義塾女子高等学校 アクセス", "url": "https://www.gshs.keio.ac.jp/information/gakkou-gaiyou.html", "verifiedAt": "2026-08-02" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311500084",
+      "summary": "中学校を持たず全員が高校から同じスタートを切る、中央大学の共学附属校です。全教科型の学び、探究、大学連携、行事やクラブを通して、大学合格だけを目的とせず、その先で学び続ける力を育てます。",
+      "verifiedAt": "2026-08-02",
+      "highlights": [
+        { "title": "全員が高校から入学", "description": "中学校を持たない高校単独校のため、内部進学生との合流ではなく、全員が同じ地点から高校生活を始めます。" },
+        { "title": "中央大学との7年間", "description": "大学教員の特別授業やキャンパスでの行事を通して、大学で何を学ぶかを高校在学中から考えます。" },
+        { "title": "探究的な視点", "description": "全教科型カリキュラム、フィールドワーク、研修旅行、社会課題への探究で、答えのない問いに向き合います。" },
+        { "title": "幅広い将来選択", "description": "卒業生の9割以上が中央大学へ進学する一方、国公立大学など外部大学を目指す道も用意されています。" }
+      ],
+      "goodFit": ["大学附属校でも幅広い教科を学びたい", "内部進学生のいない環境から始めたい", "探究やフィールドワークへ積極的に参加したい", "中央大学の多様な学部を進路候補にしている"],
+      "questionsToConsider": ["中央大学のどの学部・学問分野に関心があるか", "内部進学と外部大学受験の条件を理解したか", "駅からバスまたは徒歩の通学を試したか", "推薦・一般・帰国生それぞれの選抜方法を比較したか"],
+      "access": { "summary": "上井草駅から徒歩12分。荻窪、西荻窪、石神井公園からバスを利用できます。", "routes": ["西武新宿線 上井草駅から徒歩12分", "荻窪駅からバス『総合荻窪病院前』下車徒歩1分", "西荻窪駅からバス『今川二丁目』下車徒歩3分", "石神井公園駅からバス『中央大学杉並高校前』下車"] },
+      "visitEvents": [{
+        "title": "2026年度 学校説明会・中杉トライアル", "academicYear": 2026, "status": "application-check", "statusLabel": "受付開始日を確認",
+        "eventDates": ["2026年8月22日（土）", "2026年8月23日（日）"], "time": "8月22日 14:00〜16:00／8月23日 10:00〜12:00", "applicationPeriod": "8月22日分は8月8日18:00、8月23日分は8月9日18:00から受付予定", "applicationMethod": "miraicompassによる事前予約",
+        "note": "中学3年生と保護者対象。学校説明、質問、部活動見学等に加え、中学生は国数英から1教科の模擬授業を選べます。",
+        "sources": [{ "title": "中央大学杉並高校 オープンスクール・入試広報日程", "url": "https://chusugi.jp/exam/openday/", "verifiedAt": "2026-08-02" }]
+      }],
+      "sources": [
+        { "title": "中央大学杉並高校 中杉について", "url": "https://chusugi.jp/about/about/", "verifiedAt": "2026-08-02" },
+        { "title": "中央大学杉並高校 教育方針", "url": "https://chusugi.jp/about/policy/", "verifiedAt": "2026-08-02" },
+        { "title": "中央大学杉並高校 アクセス", "url": "https://chusugi.jp/access/", "verifiedAt": "2026-08-02" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320800019",
+      "summary": "明治大学との高大連携を生かしながら、1・2年生では文理を早く分けず幅広い基礎学力を築き、3年生で専門性と探究を深める共学の大学付属校です。大学進学の先まで見据え、学問分野を選びたい人に向いています。",
+      "verifiedAt": "2026-08-02",
+      "highlights": [
+        { "title": "幅広い基礎学力", "description": "1・2年生はほとんどの科目を必修とし、記録、説明、論述、討論を通して知識を使う力と言語能力を伸ばします。" },
+        { "title": "明治大学との高大連携", "description": "3年生の高大連携講座では、大学の学部別準備教育を受け、進学後の専門分野へ接続します。" },
+        { "title": "13科目から選ぶ探究", "description": "興味・関心に応じて探究選択を行い、大学付属校ならではの環境で問いを深めます。" },
+        { "title": "国際経験と語学", "description": "海外学習、異文化体験、国際交流、留学を支援し、英語力と世界へ踏み出す姿勢を育てます。" }
+      ],
+      "goodFit": ["明治大学への進学を視野に入れている", "文理を早く絞らず幅広く学びたい", "大学の学部とつながる探究に取り組みたい", "国際交流や留学にも挑戦したい"],
+      "questionsToConsider": ["明治大学の学部・内部推薦条件を確認したか", "高校からの入学生と内部進学生が学ぶ環境を想像できるか", "スクールバスを含む毎日の通学方法を確認したか", "2027年度入試要項が9月に公開されたら条件を再確認できるか"],
+      "access": { "summary": "原則スクールバスを利用する学校です。西調布駅から徒歩、調布・武蔵境などから路線バスでも通えます。", "routes": ["京王線 西調布駅から徒歩約18分", "調布駅から路線バス約10分、最寄り停留所から徒歩約3分", "武蔵境駅から路線バス約20分", "在校生用スクールバスは調布・飛田給・三鷹・矢野口方面から運行"] },
+      "visitEvents": [{
+        "title": "2026年度 第3回施設見学会", "academicYear": 2026, "status": "application-check", "statusLabel": "空き状況を確認",
+        "eventDates": ["2026年8月21日（金）"], "time": "8:30〜11:30予定", "applicationPeriod": "2026年7月22日9:00から先着受付", "applicationMethod": "miraicompassによる事前予約",
+        "note": "現中学生と保護者が対象の施設見学です。学校説明会や質疑応答を兼ねないため、教育・入試情報は9月19日以降の説明会も確認してください。",
+        "sources": [{ "title": "明大明治 中学受験・高校受験共通施設見学日程", "url": "https://www.meiji.ac.jp/ko_chu/admission/visit.html", "verifiedAt": "2026-08-02" }]
+      }],
+      "sources": [
+        { "title": "明大明治 高等学校の学び", "url": "https://www.meiji.ac.jp/ko_chu/feature/study.html", "verifiedAt": "2026-08-02" },
+        { "title": "明大明治 高校受験説明会等日程", "url": "https://www.meiji.ac.jp/ko_chu/admission/briefing.html", "verifiedAt": "2026-08-02" },
+        { "title": "明大明治 アクセス", "url": "https://www.meiji.ac.jp/ko_chu/about/access.html", "verifiedAt": "2026-08-02" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311300013",
+      "summary": "『地の塩、世の光』をスクールモットーに、キリスト教教育、国際交流、平和・共生学習、青山学院大学との高大連携を行う共学校です。教科だけでなく、他者と生きる姿勢や社会への関わりを考えたい人に向いています。",
+      "verifiedAt": "2026-08-02",
+      "highlights": [
+        { "title": "キリスト教教育", "description": "毎日の礼拝と週1時間の聖書の授業を土台に、一人ひとりの人格と他者へのまなざしを育てます。" },
+        { "title": "国際交流と多様性", "description": "海外校との交流、留学生の受入れ、留学支援を通して、多様な文化や価値観を共有します。" },
+        { "title": "平和・共生学習", "description": "隣人と共に生き、平和を実現するために考え、行動する学びを学校全体で進めます。" },
+        { "title": "青山学院大学との連携", "description": "大学授業の履修や学問入門講座により、進学前から専門分野と進路を考えることができます。" }
+      ],
+      "goodFit": ["キリスト教教育や毎日の礼拝に共感できる", "国際交流・平和・共生について学びたい", "青山学院大学への進学を視野に入れている", "都心のキャンパスで幅広い活動に参加したい"],
+      "questionsToConsider": ["礼拝と聖書の授業を含む学校生活が自分に合うか", "青山学院大学の内部進学条件と学部選択を理解したか", "推薦・一般・帰国生の選抜方法を比較したか", "渋谷・表参道からの通学時間と混雑を試したか"],
+      "access": { "summary": "渋谷駅と表参道駅から徒歩で通える青山キャンパス内の学校です。", "routes": ["JR・私鉄・地下鉄 渋谷駅から徒歩約12分", "東京メトロ 表参道駅B1出口から徒歩約10分"] },
+      "visitEvents": [{
+        "title": "2026年度 第2回・第3回学校説明会", "academicYear": 2026, "status": "application-check", "statusLabel": "9月1日受付開始",
+        "eventDates": ["2026年10月3日（土）", "2026年10月10日（土）"], "time": "各日10:00／12:30／14:30開始（各90分）", "applicationPeriod": "2026年9月1日20:00から受付予定", "applicationMethod": "インターネットによる事前予約",
+        "note": "中学生と保護者対象。各回同内容で、いずれか1回のみ申込みできます。最新の定員・受付状況は公式ページを確認してください。",
+        "sources": [{ "title": "青山学院高等部 学校説明会", "url": "https://www.agh.aoyama.ed.jp/admission/explanation/index.html", "verifiedAt": "2026-08-02" }]
+      }],
+      "sources": [
+        { "title": "青山学院高等部 特色ある教育", "url": "https://www.agh.aoyama.ed.jp/education/index.html", "verifiedAt": "2026-08-02" },
+        { "title": "青山学院高等部 卒業後の進路", "url": "https://www.agh.aoyama.ed.jp/introduction/after_course.html", "verifiedAt": "2026-08-02" },
+        { "title": "青山学院高等部 アクセスマップ", "url": "https://www.agh.aoyama.ed.jp/access/accessmap.html", "verifiedAt": "2026-08-02" }
+      ]
     }
   ]
 }

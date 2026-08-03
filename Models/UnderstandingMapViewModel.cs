@@ -13,6 +13,10 @@ public sealed record UnderstandingMapViewModel(
     IReadOnlyList<UnderstandingArea> Areas)
 {
     public int NodeCount => Areas.Sum(area => area.Nodes.Count);
+
+    public bool IsLiveCatalog { get; init; }
+
+    public DateTimeOffset? CatalogFetchedAt { get; init; }
 }
 
 public sealed record UnderstandingArea(
@@ -30,4 +34,9 @@ public sealed record UnderstandingNode(
     string WhyItMatters,
     IReadOnlyList<string> CanDo,
     IReadOnlyList<string> Prerequisites,
-    IReadOnlyList<string> LeadsTo);
+    IReadOnlyList<string> LeadsTo)
+{
+    public string? CourseId { get; init; }
+
+    public string? PathId { get; init; }
+}

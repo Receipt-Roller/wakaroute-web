@@ -35,6 +35,66 @@
           "verifiedAt": "2026-08-02"
         }
       ]
+    },
+    {
+      "schoolId": "wk_d113311800018", "academicYear": 2026, "selection": "general", "selectionLabel": "高等学校入学試験", "attendanceType": "full-time", "department": "普通科", "capacity": 100, "applicants": 479, "examinees": 462, "admitted": 168, "enrolled": 96,
+      "note": "学校公式の2026年度入試結果です。",
+      "sources": [{"title": "開成中学校・高等学校 入試結果", "url": "https://kaiseigakuen.jp/admission/result/", "verifiedAt": "2026-08-02"}]
+    },
+    {
+      "schoolId": "wk_d113310300024", "academicYear": 2026, "selection": "recommendation", "selectionLabel": "推薦入学試験", "attendanceType": "full-time", "department": "普通科", "capacity": 30, "applicants": 77, "examinees": 76, "admitted": 29, "enrolled": 29,
+      "note": "学校公式の2026年度入試状況です。",
+      "sources": [{"title": "慶應義塾女子高等学校 入試状況", "url": "https://www.gshs.keio.ac.jp/for-jukensei/nyushi-jokyo.html", "verifiedAt": "2026-08-02"}]
+    },
+    {
+      "schoolId": "wk_d113310300024", "academicYear": 2026, "selection": "returnee", "selectionLabel": "帰国生入学試験", "attendanceType": "full-time", "department": "普通科", "capacity": null, "applicants": 36, "examinees": 33, "admitted": 16, "enrolled": 11,
+      "note": "募集人員は若干名とされているため、定員は数値化していません。",
+      "sources": [{"title": "慶應義塾女子高等学校 入試状況", "url": "https://www.gshs.keio.ac.jp/for-jukensei/nyushi-jokyo.html", "verifiedAt": "2026-08-02"}]
+    },
+    {
+      "schoolId": "wk_d113310300024", "academicYear": 2026, "selection": "general", "selectionLabel": "一般入学試験", "attendanceType": "full-time", "department": "普通科", "capacity": 70, "applicants": 406, "examinees": 393, "admitted": 142, "enrolled": 85,
+      "note": "学校公式の2026年度入試状況です。",
+      "sources": [{"title": "慶應義塾女子高等学校 入試状況", "url": "https://www.gshs.keio.ac.jp/for-jukensei/nyushi-jokyo.html", "verifiedAt": "2026-08-02"}]
+    },
+    {
+      "schoolId": "wk_d113311500084", "academicYear": 2026, "selection": "recommendation", "selectionLabel": "推薦入学試験", "attendanceType": "full-time", "department": "普通科", "capacity": 135, "applicants": 356, "examinees": null, "admitted": 141, "enrolled": null,
+      "note": "2027年度入試情報ページに掲載された前年度結果です。受験者数は同ページで確認できないため空欄です。",
+      "sources": [{"title": "中央大学杉並高等学校 入試情報", "url": "https://chusugi.jp/exam/information/", "verifiedAt": "2026-08-02"}]
+    },
+    {
+      "schoolId": "wk_d113311500084", "academicYear": 2026, "selection": "returnee", "selectionLabel": "帰国生入学試験", "attendanceType": "full-time", "department": "普通科", "capacity": 15, "applicants": 136, "examinees": null, "admitted": 50, "enrolled": null,
+      "note": "2027年度入試情報ページに掲載された前年度結果です。受験者数は同ページで確認できないため空欄です。",
+      "sources": [{"title": "中央大学杉並高等学校 入試情報", "url": "https://chusugi.jp/exam/information/", "verifiedAt": "2026-08-02"}]
+    },
+    {
+      "schoolId": "wk_d113311500084", "academicYear": 2026, "selection": "general", "selectionLabel": "一般入学試験", "attendanceType": "full-time", "department": "普通科", "capacity": 150, "applicants": 964, "examinees": null, "admitted": 328, "enrolled": null,
+      "note": "2027年度入試情報ページに掲載された前年度結果です。受験者数は同ページで確認できないため空欄です。",
+      "sources": [{"title": "中央大学杉並高等学校 入試情報", "url": "https://chusugi.jp/exam/information/", "verifiedAt": "2026-08-02"}]
+    },
+    {
+      "schoolId": "wk_d113320800019", "academicYear": 2026, "selection": "recommendation", "selectionLabel": "推薦入学試験（指定校推薦を除く）", "attendanceType": "full-time", "department": "普通科", "capacity": null, "applicants": 90, "examinees": 90, "admitted": 33, "enrolled": null,
+      "note": "公式結果は指定校推薦を除く集計のため、募集人員は数値化していません。",
+      "sources": [{"title": "明治大学付属明治高等学校 2026年度入試結果", "url": "https://www.meiji.ac.jp/ko_chu/admission/status.html", "verifiedAt": "2026-08-02"}]
+    },
+    {
+      "schoolId": "wk_d113320800019", "academicYear": 2026, "selection": "general", "selectionLabel": "一般入学試験", "attendanceType": "full-time", "department": "普通科", "capacity": 60, "applicants": 607, "examinees": 578, "admitted": 276, "enrolled": null,
+      "note": "募集人員は男女各約30人の合計です。",
+      "sources": [{"title": "明治大学付属明治高等学校 2026年度入試結果", "url": "https://www.meiji.ac.jp/ko_chu/admission/status.html", "verifiedAt": "2026-08-02"}]
+    },
+    {
+      "schoolId": "wk_d113311300013", "academicYear": 2026, "selection": "recommendation", "selectionLabel": "推薦入学試験", "attendanceType": "full-time", "department": "普通科", "capacity": 65, "applicants": 198, "examinees": 195, "admitted": 69, "enrolled": null,
+      "note": "学校公式の2026年度入試データです。",
+      "sources": [{"title": "青山学院高等部 入試データ", "url": "https://www.agh.aoyama.ed.jp/admission/data.html", "verifiedAt": "2026-08-02"}]
+    },
+    {
+      "schoolId": "wk_d113311300013", "academicYear": 2026, "selection": "returnee", "selectionLabel": "帰国生入学試験", "attendanceType": "full-time", "department": "普通科", "capacity": 25, "applicants": 208, "examinees": 171, "admitted": 58, "enrolled": null,
+      "note": "学校公式の2026年度入試データです。",
+      "sources": [{"title": "青山学院高等部 入試データ", "url": "https://www.agh.aoyama.ed.jp/admission/data.html", "verifiedAt": "2026-08-02"}]
+    },
+    {
+      "schoolId": "wk_d113311300013", "academicYear": 2026, "selection": "general", "selectionLabel": "一般入学試験", "attendanceType": "full-time", "department": "普通科", "capacity": 70, "applicants": 934, "examinees": 772, "admitted": 209, "enrolled": null,
+      "note": "学校公式の2026年度入試データです。",
+      "sources": [{"title": "青山学院高等部 入試データ", "url": "https://www.agh.aoyama.ed.jp/admission/data.html", "verifiedAt": "2026-08-02"}]
     }
   ]
 }

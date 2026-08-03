@@ -4,7 +4,18 @@
     ViewData["Description"] = $"{Model.School.Name}の学び、校風、通学、入試日程、過去の入試実績を、公式情報の出典・確認日付きで整理しています。";
     var guide = Model.DecisionGuide;
     var latestExamYear = Model.ExamSchedules.Count > 0 ? Model.ExamSchedules.Max(schedule => schedule.AcademicYear) : (int?)null;
-    var officialBaseUrl = Model.School.OfficialUrl?.TrimEnd('/');
+    var latestExamSchedules = latestExamYear.HasValue
+        ? Model.ExamSchedules.Where(schedule => schedule.AcademicYear == latestExamYear.Value).ToArray()
+        : [];
+    var examDetailsAnnounced = latestExamSchedules.Length > 0
+        && latestExamSchedules.All(schedule => schedule.DetailsStatus == "details-announced");
+    var officialAccessUrl = guide?.Sources.FirstOrDefault(source => source.Title.Contains("アクセス", StringComparison.Ordinal))?.Url
+        ?? Model.School.OfficialUrl;
+    var officialBriefingUrl = guide?.VisitEvents.SelectMany(visit => visit.Sources).FirstOrDefault()?.Url
+        ?? guide?.Sources.FirstOrDefault(source => source.Title.Contains("説明", StringComparison.Ordinal) || source.Title.Contains("見学", StringComparison.Ordinal))?.Url
+        ?? Model.School.OfficialUrl;
+    var officialAdmissionUrl = latestExamSchedules.SelectMany(schedule => schedule.Sources).FirstOrDefault()?.Url
+        ?? Model.School.OfficialUrl;
 }
 
 <section class="school-detail-hero">
@@ -44,11 +55,11 @@
                         <div class="decision-axis-number">01</div><h3>通える？</h3>
                         <p>@guide.Access.Summary</p>
                         <ul>@foreach (var route in guide.Access.Routes) { <li>@route</li> }</ul>
-                        @if (!string.IsNullOrEmpty(officialBaseUrl)) { <a href="@(officialBaseUrl)/access/access.html" target="_blank" rel="noopener noreferrer">公式アクセスを見る ↗</a> }
+                        @if (!string.IsNullOrEmpty(officialAccessUrl)) { <a href="@officialAccessUrl" target="_blank" rel="noopener noreferrer">公式アクセスを見る ↗</a> }
                     </article>
                     <article>
                         <div class="decision-axis-number">02</div><h3>学びたい？</h3>
-                        <p>幅広い教養を土台に、探究・科学・国際教育へ学びを広げます。</p>
+                        <p>学校が大切にする学びや環境を、公式情報から確かめます。</p>
                         <ul>@foreach (var highlight in guide.Highlights.Take(3)) { <li>@highlight.Title</li> }</ul>
                         <a href="#school-learning">学校の特徴を見る ↓</a>
                     </article>
@@ -56,9 +67,14 @@
                         <div class="decision-axis-number">03</div><h3>目指せそう？</h3>
                         @if (latestExamYear.HasValue)
                         {
-                            <p>@latestExamYear.Value 年度入試は共通日程が発表済み。学校別の詳細は発表待ちです。</p>
-                            <div class="decision-status"><span>日程</span><strong>発表済み</strong></div>
-                            <div class="decision-status is-pending"><span>募集・検査詳細</span><strong>発表待ち</strong></div>
+                            <p>@latestExamYear.Value 年度入試について、公式発表済みの内容を掲載しています。</p>
+                            <div class="decision-status"><span>日程</span><strong>@latestExamSchedules[0].StatusLabel</strong></div>
+                            <div class="decision-status @(examDetailsAnnounced ? null : "is-pending")"><span>募集・検査詳細</span><strong>@(examDetailsAnnounced ? "発表済み" : "発表待ち")</strong></div>
+                        }
+                        else
+                        {
+                            <p>次年度の入試日程は公式発表を確認中です。</p>
+                            <div class="decision-status is-pending"><span>日程</span><strong>確認中</strong></div>
                         }
                         <a href="#school-exam">入試の見通しを見る ↓</a>
                     </article>
@@ -183,10 +199,13 @@
                 </dl>
                 <div class="school-next-actions">
                     <h3>次に確認すること</h3>
-                    @if (!string.IsNullOrEmpty(officialBaseUrl))
+                    @if (!string.IsNullOrEmpty(officialBriefingUrl))
                     {
-                        <a href="@(officialBaseUrl)/guide/meeting.html" target="_blank" rel="noopener noreferrer">学校説明会・見学会 ↗</a>
-                        <a href="@(officialBaseUrl)/guide/guidance.html" target="_blank" rel="noopener noreferrer">学校の入試案内 ↗</a>
+                        <a href="@officialBriefingUrl" target="_blank" rel="noopener noreferrer">学校説明会・見学会 ↗</a>
+                    }
+                    @if (!string.IsNullOrEmpty(officialAdmissionUrl))
+                    {
+                        <a href="@officialAdmissionUrl" target="_blank" rel="noopener noreferrer">学校の入試案内 ↗</a>
                     }
                     <a href="https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school" target="_blank" rel="noopener noreferrer">東京都教育委員会の入試情報 ↗</a>
                 </div>

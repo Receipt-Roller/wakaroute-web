@@ -19,11 +19,11 @@
             <a class="button button-primary" href="#map-board">マップをひらく<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v11M6 11l4 4 4-4" /></svg></a>
         </div>
         <div class="map-hero-visual" aria-label="@Model.Subject の4領域がつながるイメージ">
-            <div class="map-core"><span>@Model.Subject</span><strong>@Model.NodeCount</strong><small>の理解要素</small></div>
+            <div class="map-core"><span>@Model.Subject</span><strong>@Model.NodeCount</strong><small>のコース</small></div>
             @for (var index = 0; index < Model.Areas.Count; index++)
             {
                 var area = Model.Areas[index];
-                <div class="map-satellite satellite-@index"><b>@area.Code</b><span>@area.Name</span><small>@area.Nodes.Count 要素</small></div>
+                <div class="map-satellite satellite-@index"><b>@area.Code</b><span>@area.Name</span><small>@area.Nodes.Count コース</small></div>
             }
             <svg class="map-hero-lines" viewBox="0 0 500 420" aria-hidden="true">
                 <path d="M250 210 112 92M250 210 393 90M250 210 105 335M250 210 398 330" />
@@ -44,11 +44,17 @@
     <div class="shell map-shell">
         <div class="map-heading">
             <div>
-                <div class="eyebrow"><span></span>MIDDLE SCHOOL @(Model.SubjectId switch { "japanese" => "JAPANESE", "english" => "ENGLISH", "science" => "SCIENCE", "social-studies" => "SOCIAL STUDIES", _ => "MATHEMATICS" })</div>
+                <div class="map-catalog-line">
+                    <div class="eyebrow"><span></span>MIDDLE SCHOOL @(Model.SubjectId switch { "japanese" => "JAPANESE", "english" => "ENGLISH", "science" => "SCIENCE", "social-studies" => "SOCIAL STUDIES", _ => "MATHEMATICS" })</div>
+                    @if (Model.IsLiveCatalog)
+                    {
+                        <span class="catalog-live"><i></i>MANABU2 API</span>
+                    }
+                </div>
                 <h2>中学@(Model.Subject)の全体マップ</h2>
                 <p>@Model.MapLead</p>
             </div>
-            <div class="map-total"><strong>@Model.NodeCount</strong><span>理解要素</span></div>
+            <div class="map-total"><strong>@Model.NodeCount</strong><span>コース</span></div>
         </div>
 
         <nav class="subject-switch" aria-label="科目を切り替える">
@@ -76,7 +82,7 @@
                     <button class="filter-chip area-chip-@area.Id area-chip-index-@areaIndex" type="button" data-area-filter="@area.Id" aria-pressed="false">@area.Name</button>
                 }
             </div>
-            <div class="filter-result" aria-live="polite"><strong data-visible-count>@Model.NodeCount</strong><span>件を表示</span></div>
+            <div class="filter-result" aria-live="polite"><strong data-visible-count>@Model.NodeCount</strong><span>コースを表示</span></div>
         </div>
 
         <div class="understanding-board">
@@ -164,6 +170,13 @@
                     <small>中学@(node.Grade)年</small>
                     <h3>@node.Title</h3>
                     <p>@node.Summary</p>
+                    @if (node.CourseId is not null)
+                    {
+                        <span class="detail-course-source">MANABU2 COURSE</span>
+                        <a class="detail-course-link" asp-action="Course" asp-route-courseId="@node.CourseId">
+                            セクションを見る <span aria-hidden="true">→</span>
+                        </a>
+                    }
                 </div>
                 <div class="detail-reason"><span>なぜ大切？</span><p>@node.WhyItMatters</p></div>
                 <div class="detail-list">

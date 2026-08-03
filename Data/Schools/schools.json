@@ -18170,6 +18170,8 @@
     {
       "id": "wk_d113311500084",
       "name": "中央大学杉並高等学校",
+      "nameKana": "ちゅうおうだいがくすぎなみこうとうがっこう",
+      "officialUrl": "https://chusugi.jp/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都杉並区今川２－７－１",
@@ -19210,6 +19212,8 @@
     {
       "id": "wk_d113310300024",
       "name": "慶應義塾女子高等学校",
+      "nameKana": "けいおうぎじゅくじょしこうとうがっこう",
+      "officialUrl": "https://www.gshs.keio.ac.jp/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区三田２－１７－２３",
@@ -19626,6 +19630,8 @@
     {
       "id": "wk_d113320800019",
       "name": "明治大学付属明治高等学校",
+      "nameKana": "めいじだいがくふぞくめいじこうとうがっこう",
+      "officialUrl": "https://www.meiji.ac.jp/ko_chu/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都調布市富士見町４－２３－２５",
@@ -20029,6 +20035,8 @@
     {
       "id": "wk_d113299901031",
       "name": "東京都立三田高等学校",
+      "nameKana": "とうきょうとりつみたこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/mita-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区三田１－４－４６",
@@ -20291,6 +20299,8 @@
     {
       "id": "wk_d113299904056",
       "name": "東京都立北園高等学校",
+      "nameKana": "とうきょうとりつきたぞのこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/kitazono-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都板橋区板橋４－１４－１",
@@ -20750,6 +20760,8 @@
     {
       "id": "wk_d113299906107",
       "name": "東京都立小松川高等学校",
+      "nameKana": "とうきょうとりつこまつがわこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/komatsugawa-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江戸川区平井１－２７－１０",
@@ -21341,6 +21353,8 @@
     {
       "id": "wk_d113299909024",
       "name": "東京都立武蔵野北高等学校",
+      "nameKana": "とうきょうとりつむさしのきたこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/musashinokita-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都武蔵野市八幡町２－３－１０",
@@ -21800,6 +21814,8 @@
     {
       "id": "wk_d113299904010",
       "name": "東京都立竹早高等学校",
+      "nameKana": "とうきょうとりつたけはやこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/takehaya-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区小石川４－２－１",
@@ -23405,6 +23421,8 @@
     {
       "id": "wk_d113311800018",
       "name": "開成高等学校",
+      "nameKana": "かいせいこうとうがっこう",
+      "officialUrl": "https://kaiseigakuen.jp/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都荒川区西日暮里４－２－４",
@@ -23470,6 +23488,8 @@
     {
       "id": "wk_d113311300013",
       "name": "青山学院高等部",
+      "nameKana": "あおやまがくいんこうとうぶ",
+      "officialUrl": "https://www.agh.aoyama.ed.jp/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都渋谷区渋谷４－４－２５",

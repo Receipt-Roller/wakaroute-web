@@ -1,10 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>wakaroute_web</RootNamespace>
+    <UserSecretsId>6ee2aa15-104f-4978-9f34-203c67943e32</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
