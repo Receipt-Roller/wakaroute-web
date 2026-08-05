@@ -1,9 +1,10 @@
 {
   "schemaVersion": 1,
-  "asOf": "2025-05-01",
+  "asOf": "2026-08-04",
   "sourceUrls": [
     "https://www.mext.go.jp/content/20251226-mxt_chousa01-000011635_2.csv",
-    "https://www.mext.go.jp/content/20251226-mxt_chousa01-000011635_4.csv"
+    "https://www.mext.go.jp/content/20251226-mxt_chousa01-000011635_4.csv",
+    "https://www.toyo.ac.jp/toyodaikeihoku/introduction/history/"
   ],
   "identities": [
     {
@@ -12116,14 +12117,16 @@
       "mextSchoolCode": "D113310500095",
       "legacySchoolSurveyCode": "136037",
       "status": "active",
-      "aliases": []
+      "aliases": ["京北学園白山高等学校", "京北商業高等学校"]
     },
     {
       "id": "wk_d113310500102",
       "mextSchoolCode": "D113310500102",
       "legacySchoolSurveyCode": "136038",
-      "status": "active",
-      "aliases": []
+      "status": "closed",
+      "aliases": ["京北学園白山高等学校", "京北商業高等学校"],
+      "replacedById": "wk_d113310500095",
+      "replacementMextSchoolCode": "D113310500095"
     },
     {
       "id": "wk_d113310500111",
@@ -12571,7 +12574,7 @@
       "mextSchoolCode": "D113311200238",
       "legacySchoolSurveyCode": "136143",
       "status": "active",
-      "aliases": []
+      "aliases": ["日本学園高等学校"]
     },
     {
       "id": "wk_d113311200247",
@@ -13166,7 +13169,7 @@
       "mextSchoolCode": "D113320100098",
       "legacySchoolSurveyCode": "136306",
       "status": "active",
-      "aliases": []
+      "aliases": ["明治大学付属中野八王子高等学校"]
     },
     {
       "id": "wk_d113320100105",
@@ -13460,7 +13463,7 @@
       "mextSchoolCode": "D113322900014",
       "legacySchoolSurveyCode": "136048",
       "status": "active",
-      "aliases": []
+      "aliases": ["文華女子高等学校"]
     },
     {
       "id": "wk_d113322900023",

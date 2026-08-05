@@ -143,6 +143,2465 @@
       "gender": "coeducational",
       "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
       "sources": [{ "title": "青山学院高等部 公式サイト", "url": "https://www.agh.aoyama.ed.jp/", "verifiedAt": "2026-08-02" }]
+    },
+    {
+      "schoolId": "wk_d113110000021",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "筑波大学附属高等学校 概要", "url": "https://www.high-s.tsukuba.ac.jp/shs/gaiyou.html", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113110000067",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "お茶の水女子大学附属高等学校 スクール・ポリシー", "url": "https://www.fz.ocha.ac.jp/fk/menu/about/plan.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113110000012",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京学芸大学附属高等学校 公式サイト", "url": "https://www.gakugei-hs.setagaya.tokyo.jp/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113110000030",
+      "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "筑波大学附属駒場中・高等学校 公式サイト", "url": "https://www.komaba-s.tsukuba.ac.jp/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113110000076",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "科学・技術科" }],
+      "sources": [{ "title": "東京科学大学附属科学技術高等学校 受験生サイト", "url": "https://admissions.g.sth.isct.ac.jp/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113110000058",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "音楽科" }],
+      "sources": [{ "title": "東京藝術大学音楽学部附属音楽高等学校 学校概要", "url": "https://geiko.geidai.ac.jp/about/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113299906018",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立両国高等学校 公式サイト", "url": "https://www.metro.ed.jp/ryogoku-h/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113299905037",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立上野高等学校 公式サイト", "url": "https://www.metro.ed.jp/ueno-h/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113299903093",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立井草高等学校 公式サイト", "url": "https://www.metro.ed.jp/igusa-h/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113299901111",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "総合学科" }],
+      "sources": [{ "title": "東京都立つばさ総合高等学校 公式サイト", "url": "https://www.metro.ed.jp/tsubasasogo-h/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113299909104",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科（単位制）" }],
+      "sources": [{ "title": "東京都立国分寺高等学校 公式サイト", "url": "https://www.metro.ed.jp/kokubunji-h/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113299902183",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "国際学科", "course": "レギュラーコース" },
+        { "attendanceType": "full-time", "department": "国際学科", "course": "国際バカロレアコース" }
+      ],
+      "sources": [{ "title": "東京都立国際高等学校 公式サイト", "url": "https://kokusai-h.metro.ed.jp/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113299906090",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立城東高等学校 公式サイト", "url": "https://www.metro.ed.jp/joto-h/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113299906027",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科（単位制）" }],
+      "sources": [{ "title": "東京都立墨田川高等学校 公式サイト", "url": "https://www.metro.ed.jp/sumidagawa-h/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113299909177",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "科学技術科" }],
+      "sources": [{ "title": "東京都立多摩科学技術高等学校 公式サイト", "url": "https://www.metro.ed.jp/tamakagakugijutsu-h/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310800010",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "新クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "オーセンティッククラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "トラディショナルクラス" }
+      ],
+      "sources": [{ "title": "かえつ有明中・高等学校 カリキュラム", "url": "https://www.ariake.kaetsu.ac.jp/learning/curriculum/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311200265",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "EDGE" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "MEDICO" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "VISTA" }
+      ],
+      "sources": [{ "title": "サレジアン国際学園世田谷 公式サイト", "url": "https://salesian-setagaya.ed.jp/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311700073",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "本科コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "インターナショナルコース Standard Group" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "インターナショナルコース Advanced Group" }
+      ],
+      "sources": [{ "title": "サレジアン国際学園中学校高等学校 公式サイト", "url": "https://www.salesian.international.seibi.ac.jp/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311000034",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "文理探究コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "美術デザインコース" }
+      ],
+      "sources": [{ "title": "トキワ松学園中学校高等学校 教育内容", "url": "https://tokiwamatsu.ac.jp/education_content/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113320800028",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "ドルトン東京学園 FAQ", "url": "https://www.daltontokyo.ed.jp/faq/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113320900054",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "保育コース" }
+      ],
+      "sources": [{ "title": "フェリシア高等学校 教育の特徴", "url": "https://www.felicia.ed.jp/education/features/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311200014",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "International Science Course" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "Medical Science Technology Course" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "International Course" }
+      ],
+      "sources": [{ "title": "三田国際科学学園 クラス・コース", "url": "https://www.mita-is.ed.jp/class-course/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310100133",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "三輪田学園 教育理念", "url": "https://www.miwada.ac.jp/about/thinking/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310600021",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特別進学コースα" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特別進学コースβ" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コース" },
+        { "attendanceType": "full-time", "department": "音楽科", "course": "器楽・声楽コース" },
+        { "attendanceType": "full-time", "department": "音楽科", "course": "演奏家コース" }
+      ],
+      "sources": [{ "title": "上野学園高等学校 コース紹介", "url": "https://www.uenogakuen.ed.jp/about/course/course.html", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311200130",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "グローバル エデュケーション コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "ブロード エデュケーション コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "ブロード エデュケーション コース（セレクトクラス）" }
+      ],
+      "sources": [{ "title": "下北沢成徳高等学校 学びの特色", "url": "https://www.shimokitazawa-seitoku.ed.jp/education/manabi/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311200149",
+      "gender": "boys",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "本科コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "理数コース" }
+      ],
+      "sources": [{ "title": "世田谷学園 学園案内2027", "url": "https://www.setagayagakuen.ac.jp/digital_pamphlet/toc/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113321000024",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "中央大学附属高等学校 2027年度入試概要", "url": "https://www.hs.chuo-u.ac.jp/senior/se-exam/se-examinfo/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310500013",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "普通科", "course": "昼間定時制（3年制）" }],
+      "sources": [{ "title": "中央大学高等学校 学則", "url": "https://www.cu-hs.chuo-u.ac.jp/rules/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310800029",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科" },
+        { "attendanceType": "full-time", "department": "商業科" }
+      ],
+      "sources": [{ "title": "中央学院大学中央高等学校 学校法人案内", "url": "https://www.cguch.ed.jp/contents/school/cg.php", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310800038",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "先進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "探究コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "国際コース" }
+      ],
+      "sources": [{ "title": "中村高等学校 中村の学び", "url": "https://nakamura.ed.jp/senior/education/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310100115",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "理系コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "体育コース（硬式野球部）" }
+      ],
+      "sources": [{ "title": "二松学舎大学附属高等学校 4コース制", "url": "https://www.nishogakusha-highschool.ac.jp/guidance/course/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310500086",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "商業科", "course": "大学進学コース" },
+        { "attendanceType": "full-time", "department": "商業科", "course": "情報処理コース" },
+        { "attendanceType": "full-time", "department": "商業科", "course": "ビジネスコース" }
+      ],
+      "sources": [{ "title": "京華商業高等学校 本校の教育", "url": "https://www.keika-c.ed.jp/education/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310500077",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学クラス" }
+      ],
+      "sources": [{ "title": "京華女子高等学校 高校生カリキュラム", "url": "https://www.keika-g.ed.jp/education/s-curriculum/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310500068",
+      "gender": "boys",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "S特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学コース" }
+      ],
+      "sources": [{ "title": "京華高等学校 高校のコース制", "url": "https://www.keika.ed.jp/education/program/s-class/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311200069",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "留学コース（SA）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "スーパーグローバルコース（SG）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース（SH）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学コース（SC）" }
+      ],
+      "sources": [{ "title": "佼成学園女子中学高等学校 高校コース", "url": "https://www.girls.kosei.ac.jp/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311500039",
+      "gender": "boys",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "難関国公立コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "グローバルコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コース" }
+      ],
+      "sources": [{ "title": "佼成学園高等学校 高校の学び", "url": "https://www.kosei.ac.jp/boys/senior/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310400050",
+      "gender": "boys",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特別進学クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "大進選抜クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "大学進学クラス" }
+      ],
+      "sources": [{ "title": "保善高等学校 クラス紹介", "url": "https://hozen.ed.jp/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113312200021",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "文理進学クラス" }
+      ],
+      "sources": [
+        { "title": "修徳高等学校 特進クラス", "url": "https://www.shutoku.ac.jp/senior/tokushin/", "verifiedAt": "2026-08-04" },
+        { "title": "修徳高等学校 文理進学クラス", "url": "https://www.shutoku.ac.jp/senior/shingaku/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311500020",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "光塩女子学院 中等科・高等科 教育課程", "url": "https://www.koen-ejh.ed.jp/jh/education/curriculum/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113320100061",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "文理コース（特選・特進・進学）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合コース（リベラルアーツ・音楽・美術）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "アスリートコース" }
+      ],
+      "sources": [{ "title": "八王子学園八王子高等学校 2027年度生徒募集要項", "url": "https://www.hachioji.ed.jp/senr/exam/guideline/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113320100070",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "選抜コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コース" }
+      ],
+      "sources": [{ "title": "八王子実践高等学校 コース・進路指導", "url": "https://hachioji-jissen.ac.jp/shs/course/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311000070",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学コース" }
+      ],
+      "sources": [{ "title": "八雲学園高等学校 2027年度生徒募集要項", "url": "https://www.yakumo.ac.jp/admission/shs.html", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113312200012",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "未来探究コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "国際共生コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "理数創造コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "探究特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "探究進学コース" }
+      ],
+      "sources": [{ "title": "共栄学園高等学校 コース紹介", "url": "https://kyoei-g.ed.jp/education/senior/course/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113320100089",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特別進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "共立進学コース（高校2年次から）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "英語コース" }
+      ],
+      "sources": [{ "title": "共立女子第二高等学校 学習システム", "url": "https://www.kyoritsu-wu.ac.jp/nichukou/study/high-school/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310100044",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "国公立文系コース（高校2年次から）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "私立文系コース（高校2年次から）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "理系コース（高校2年次から）" }
+      ],
+      "sources": [
+        { "title": "共立女子中学高等学校 学びの特長", "url": "https://www.kyoritsu-wu.ac.jp/chukou/education/feature/", "verifiedAt": "2026-08-04" },
+        { "title": "共立女子中学高等学校 共立の歴史", "url": "https://www.kyoritsu-wu.ac.jp/chukou/about/history/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113321100032",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進PAXクラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "探究CREAクラス" }
+      ],
+      "sources": [
+        { "title": "創価高等学校 2027年度生徒募集概要", "url": "https://tokyo-senior.soka.ed.jp/wp-content/uploads/2026/05/2027h_gaiyo.pdf", "verifiedAt": "2026-08-04" },
+        { "title": "創価高等学校 2027年度からの新クラス", "url": "https://tokyo-senior.soka.ed.jp/topics/2026/05/14/7890/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311800027",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "国際英語コース" }
+      ],
+      "sources": [{ "title": "北豊島高等学校 高等学校の教育", "url": "https://www.kitatoshima.ed.jp/publics/index/43/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311600038",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "リベラルアーツコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特選コース（人文・理数）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "自己発信コース" }
+      ],
+      "sources": [{ "title": "十文字高等学校 高校3コース", "url": "https://js.jumonji-u.ac.jp/education/h_course/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310100080",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "研究コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "開発コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "IBコース（高校2年次から・選抜あり）" }
+      ],
+      "sources": [{ "title": "千代田高等学校 「未来をつくる」3コース", "url": "https://chiyoda.ed.jp/sh/sh-course/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113320300023",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高完全一貫（高校募集なし）" }],
+      "sources": [
+        { "title": "吉祥女子中学・高等学校 沿革", "url": "https://www.kichijo-joshi.jp/about/history/", "verifiedAt": "2026-08-04" },
+        { "title": "吉祥女子中学・高等学校 カリキュラム", "url": "https://www.kichijo-joshi.jp/education/curriculum/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320900027",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [
+        { "title": "和光高等学校 2027年度募集要項", "url": "https://wakos.wako.ed.jp/admission/application", "verifiedAt": "2026-08-04" },
+        { "title": "和光高等学校 教育方針", "url": "https://wakos.wako.ed.jp/about/policy", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310100142",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "フューチャーデザインコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "グローバルコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "サイエンスコース" }
+      ],
+      "sources": [{ "title": "和洋九段女子高等学校 高校からの3年間", "url": "https://www.wayokudan.ed.jp/education/high-school/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310900082",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "国際キャリアコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "マルチメディア表現コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "保育コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "キャリアデザインコース" }
+      ],
+      "sources": [{ "title": "品川エトワール女子高等学校 コース紹介", "url": "https://www.etoile.ed.jp/highschool/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310900037",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高一貫（通常の高校入試なし）" }],
+      "sources": [
+        { "title": "品川女子学院 Q&A", "url": "https://www.shinagawajoshigakuin.jp/faq/", "verifiedAt": "2026-08-04" },
+        { "title": "品川女子学院 カリキュラム", "url": "https://www.shinagawajoshigakuin.jp/learning/curriculum/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310900073",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "eスポーツエデュケーションコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "リベラルアーツコース" },
+        { "attendanceType": "full-time", "department": "音楽科", "course": "パフォーミングアーツコース（バレエ専攻）" },
+        { "attendanceType": "full-time", "department": "音楽科", "course": "パフォーミングアーツコース（ミュージカル専攻）" },
+        { "attendanceType": "full-time", "department": "音楽科", "course": "ミュージックコース" }
+      ],
+      "sources": [{ "title": "品川学藝高等学校 2027年度入試概要", "url": "https://shinagawa.ed.jp/bosyu/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310900019",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "難関進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "国際教養ADVANCEDコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "国際教養STANDARDコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特別進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コース" }
+      ],
+      "sources": [
+        { "title": "品川翔英中学校高等学校 高等学校教育", "url": "https://www.shinagawa-shouei.ac.jp/jhhs/senior/", "verifiedAt": "2026-08-04" },
+        { "title": "品川翔英高等学校 2026年度募集要項", "url": "https://www.shinagawa-shouei.ac.jp/jhhs/wordpress/wp-content/uploads/2025/07/20250730-6889cb32eed54.pdf", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320700010",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": null }
+      ],
+      "sources": [
+        { "title": "啓明学園中学校高等学校 高等学校の学び", "url": "https://www.keimei.ac.jp/jsh/education/senior/", "verifiedAt": "2026-08-04" },
+        { "title": "啓明学園中学校高等学校 高校入試募集要項", "url": "https://www.keimei.ac.jp/jsh/admissions/sh-requirements/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311200078",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "選抜クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学クラス" },
+        { "attendanceType": "part-time", "department": "普通科", "course": "国士舘大学進学クラス（昼間定時制）" }
+      ],
+      "sources": [
+        { "title": "国士舘高等学校 2027年度推薦入試募集要項", "url": "https://hs.kokushikan.ed.jp/att/16440_05766_010.pdf", "verifiedAt": "2026-08-04" },
+        { "title": "国士舘高等学校 2027年度一般入試募集要項", "url": "https://hs.kokushikan.ed.jp/att/16440_05767_010.pdf", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311200041",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コース" }
+      ],
+      "sources": [
+        { "title": "国本女子高等学校 高等学校カリキュラム", "url": "https://kunimoto.ac.jp/jsh/senior/curriculum/", "verifiedAt": "2026-08-04" },
+        { "title": "国本女子高等学校 2027年度生徒募集要項", "url": "https://kunimoto.ac.jp/jsh/wp-content/themes/kunimoto_jsh/images/senior/snr-2027.pdf", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113321500010",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特別進学コース" },
+        { "attendanceType": "full-time", "department": "音楽科", "course": "演奏・創作コース" },
+        { "attendanceType": "full-time", "department": "音楽科", "course": "総合音楽コース" }
+      ],
+      "sources": [
+        { "title": "国立音楽大学附属高等学校 普通科コース紹介", "url": "https://www.kunion.ed.jp/general/contents/course/", "verifiedAt": "2026-08-04" },
+        { "title": "国立音楽大学附属高等学校 音楽科コース紹介", "url": "https://www.kunion.ed.jp/music/contents/curriculum/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113312000014",
+      "gender": "unknown",
+      "programs": [],
+      "sources": [
+        { "title": "文部科学省 令和7年5月1日時点 学校コード（東日本）", "url": "https://www.mext.go.jp/content/20251226-mxt_chousa01-000011635_2.csv", "publishedAt": "2025-12-26", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113321000033",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": null }
+      ],
+      "sources": [
+        { "title": "国際基督教大学高等学校 2027年度4月入学募集要項", "url": "https://icu-h.ed.jp/admin/pdf/2027_icuhs/Apr2027-Boshuyoko.pdf", "publishedAt": "2026-07-25", "verifiedAt": "2026-08-04" },
+        { "title": "国際基督教大学高等学校 授業カリキュラム", "url": "https://icu-h.ed.jp/about_us/curriculum.html", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311500048",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "高校入学生クラス" }
+      ],
+      "sources": [
+        { "title": "國學院大學久我山中学高等学校 教育課程", "url": "https://www.kugayama-h.ed.jp/education/course/", "verifiedAt": "2026-08-04" },
+        { "title": "國學院大學久我山中学高等学校 2027年度高等学校入試要項", "url": "https://www.kugayama-h.ed.jp/nyushi/koko_nyushi/koko/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311300031",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": null }
+      ],
+      "sources": [
+        { "title": "國學院高等学校 公式サイト", "url": "https://www.kokugakuin.ed.jp/", "verifiedAt": "2026-08-04" },
+        { "title": "國學院高等学校 2027年度生徒募集要項", "url": "https://www.kokugakuin.ed.jp/admission/guideline/", "publishedAt": "2026-07-09", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311900026",
+      "gender": "boys",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "高校入学生クラス" }
+      ],
+      "sources": [
+        { "title": "城北中学校・高等学校 高校受験入学生", "url": "https://www.johoku.ac.jp/education/curriculum_shs/", "verifiedAt": "2026-08-04" },
+        { "title": "城北高等学校 高等学校入試情報", "url": "https://www.johoku.ac.jp/admission/exam_info_shs/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311600047",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "アカデミック＆クリエイティブ（AC）クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "カルチャー＆スポーツ（CS）クラス" }
+      ],
+      "sources": [
+        { "title": "城西大学附属城西高等学校 高校入試", "url": "https://josaigakuen.ac.jp/exam/high_exam/", "verifiedAt": "2026-08-04" },
+        { "title": "城西大学附属城西高等学校 2027年度高校入試簡易版", "url": "https://josaigakuen.ac.jp/wordpress/wp-content/uploads/2026/05/2027%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E9%AB%98%E6%A0%A1%E5%85%A5%E8%A9%A6%E8%A6%81%E9%A0%85%E7%B0%A1%E6%98%93%E7%89%88.pdf", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311400067",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "体育コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "トレイトコース" }
+      ],
+      "sources": [
+        { "title": "堀越高等学校 コース紹介", "url": "https://www.horikoshigakuen.ed.jp/course/", "verifiedAt": "2026-08-04" },
+        { "title": "堀越高等学校 入試関連資料", "url": "https://www.horikoshigakuen.ed.jp/?page_id=11181", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311000061",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学クラス" }
+      ],
+      "sources": [
+        { "title": "多摩大学目黒高等学校 学びの流れ", "url": "https://www.tmh.ac.jp/school-education01/", "verifiedAt": "2026-08-04" },
+        { "title": "多摩大学目黒高等学校 2027年度高校募集要項", "url": "https://www.tmh.ac.jp/admissions04/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113322400028",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": null }],
+      "sources": [
+        { "title": "多摩大学附属聖ヶ丘高等学校 高校入試", "url": "https://www.hijirigaoka.ed.jp/student/highschool-probrem.html", "verifiedAt": "2026-08-04" },
+        { "title": "多摩大学附属聖ヶ丘高等学校 カリキュラム", "url": "https://www.hijirigaoka.ed.jp/education/curriculum.html", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310100179",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "correspondence", "department": "普通科", "course": "週5日コース" },
+        { "attendanceType": "correspondence", "department": "普通科", "course": "週3日コース" },
+        { "attendanceType": "correspondence", "department": "普通科", "course": "週1日コース" },
+        { "attendanceType": "correspondence", "department": "普通科", "course": "オンラインコース" }
+      ],
+      "sources": [
+        { "title": "大原学園美空高等学校 コース紹介", "url": "https://ohs.o-hara.ac.jp/infoclass/", "verifiedAt": "2026-08-04" },
+        { "title": "大原学園美空高等学校 募集要項・学費", "url": "https://ohs.o-hara.ac.jp/admission/entry/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311400049",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（通常の高校入試なし）" }],
+      "sources": [
+        { "title": "大妻中野中学校・高等学校 完全中高一貫教育", "url": "https://www.otsumanakano.ac.jp/education/curriculum/", "verifiedAt": "2026-08-04" },
+        { "title": "大妻中野中学校・高等学校 入試Q&A", "url": "https://www.otsumanakano.ac.jp/admission/qa/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113322400019",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高一貫（通常の高校入試なし）" }],
+      "sources": [
+        { "title": "大妻多摩中学高等学校 2027年度生徒募集要項案内", "url": "https://www.otsuma-tama.ed.jp/examinee/jh-recruit/", "verifiedAt": "2026-08-04" },
+        { "title": "大妻多摩中学高等学校 カリキュラム・シラバス", "url": "https://www.otsuma-tama.ed.jp/education/curriculum/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310100017",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高一貫（通常の高校入試なし）" }],
+      "sources": [
+        { "title": "大妻中学高等学校 2027年度生徒募集要項", "url": "https://www.otsuma.ed.jp/admission/information", "verifiedAt": "2026-08-04" },
+        { "title": "大妻中学高等学校 大妻の学び", "url": "https://www.otsuma.ed.jp/education/about", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320400022",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特別進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "文理進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "情報進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進選抜コース（2年次から）" }
+      ],
+      "sources": [
+        { "title": "大成高等学校 コース紹介", "url": "https://www.taisei.ed.jp/guide/course/", "verifiedAt": "2026-08-04" },
+        { "title": "大成高等学校 2027年度募集要項", "url": "https://www.taisei.ed.jp/exam/exam-inf/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311200167",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "4フィールド選択（2年次から）" }],
+      "sources": [
+        { "title": "大東学園高等学校 学び", "url": "https://daitogakuen.ed.jp/study/", "verifiedAt": "2026-08-04" },
+        { "title": "大東学園高等学校 フィールド紹介", "url": "https://daitogakuen.ed.jp/top/field/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311900035",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特別進学クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "選抜進学クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学クラス" }
+      ],
+      "sources": [
+        { "title": "大東文化大学第一高等学校 コース案内・カリキュラム", "url": "https://www.daito.ac.jp/ichiko/academics/courses/", "verifiedAt": "2026-08-04" },
+        { "title": "大東文化大学第一高等学校 2027年度生徒募集要項", "url": "https://www.daito.ac.jp/ichiko/admission/details_40108.html", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311100024",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特選コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "選抜コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "総進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "英語コース（2年次から）" },
+        { "attendanceType": "full-time", "department": "工業科", "course": "情報技術コース" },
+        { "attendanceType": "full-time", "department": "工業科", "course": "機械技術コース" },
+        { "attendanceType": "full-time", "department": "工業科", "course": "電気技術コース" }
+      ],
+      "sources": [
+        { "title": "大森学園高等学校 学科紹介（普通科）", "url": "https://www.omori-gakuen.ed.jp/course_general", "verifiedAt": "2026-08-04" },
+        { "title": "大森学園高等学校 学科紹介（工業科）", "url": "https://www.omori-gakuen.ed.jp/course_industrial_machine", "verifiedAt": "2026-08-04" },
+        { "title": "大森学園高等学校 令和9年度募集要項", "url": "https://www.omori-gakuen.ed.jp/ad-admission", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310100151",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（外部からの高校入試なし）" }
+      ],
+      "sources": [
+        { "title": "女子学院 入学試験について", "url": "https://www.joshigakuin.ed.jp/exam/examination/", "verifiedAt": "2026-08-04" },
+        { "title": "女子学院の学び", "url": "https://www.joshigakuin.ed.jp/school/study/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311500066",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "美術重点・2年次から絵画／デザイン／工芸・立体" }
+      ],
+      "sources": [
+        { "title": "女子美術大学付属高等学校 教育課程", "url": "https://www.fuzoku.joshibi.ac.jp/education/curriculum/", "verifiedAt": "2026-08-04" },
+        { "title": "女子美術大学付属高等学校 美術教育課程", "url": "https://www.fuzoku.joshibi.ac.jp/education/curriculum/activity-curriculum/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311700046",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（通常の高校新入学募集なし）" }
+      ],
+      "sources": [
+        { "title": "女子聖学院 募集要項", "url": "https://www.joshiseigakuin.ed.jp/exam/bosyu/", "verifiedAt": "2026-08-04" },
+        { "title": "女子聖学院 教科教育", "url": "https://www.joshiseigakuin.ed.jp/education/subject/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310400023",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（公式受験案内は女子中等科入試のみ）" }],
+      "sources": [
+        { "title": "学習院女子中・高等科 カリキュラム", "url": "https://www.gakushuin.ac.jp/girl/education/curriculum.html", "verifiedAt": "2026-08-04" },
+        { "title": "学習院女子中・高等科 受験生の方へ", "url": "https://www.gakushuin.ac.jp/girl/admission/index.html", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311600010",
+      "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "男子約20名の高校募集あり" }],
+      "sources": [
+        { "title": "学習院高等科 教育内容", "url": "https://www.gakushuin.ac.jp/bsh/education/", "verifiedAt": "2026-08-04" },
+        { "title": "学習院高等科 2027年度入試要項", "url": "https://www.gakushuin.ac.jp/bsh/admission/outline.html", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310700020",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "S特コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" }
+      ],
+      "sources": [
+        { "title": "安田学園 高校3年間の流れ", "url": "https://www.yasuda.ed.jp/high_admission/flow/", "verifiedAt": "2026-08-04" },
+        { "title": "安田学園 2027年度高校入試募集要項", "url": "https://www.yasuda.ed.jp/admission/adm_s/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311700019",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "商業科", "course": "2年次から商業科目選択" }],
+      "sources": [
+        { "title": "安部学院高等学校 カリキュラム", "url": "https://www.abe-gakuin.ed.jp/curriculum", "verifiedAt": "2026-08-04" },
+        { "title": "安部学院高等学校 2027年度生徒募集要項", "url": "https://www.abe-gakuin.ed.jp/admissions", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311400058",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "順天堂大学系属理数インター高等学校 医学進学コース（共学部）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "順天堂大学系属理数インター高等学校 本科コース（共学部）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "グローバルコース（共学部）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "こども教育コース（女子部）" }
+      ],
+      "sources": [
+        { "title": "宝仙学園 2026年度高校入試募集要項", "url": "https://www.hosen.ed.jp/contents/wp-content/uploads/2025/06/bosyuyoukou_shs_20250613.pdf", "verifiedAt": "2026-08-04" },
+        { "title": "宝仙学園 女子部 卒業後の進路", "url": "https://www.hosen.ed.jp/ghs/career-ghs/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311300040",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（通常の高校新入学募集なし）" }],
+      "sources": [
+        { "title": "実践女子学園中学校高等学校 募集要項", "url": "https://hs.jissen.ac.jp/admission/application/index.html", "verifiedAt": "2026-08-04" },
+        { "title": "実践女子学園中学校高等学校 入試案内", "url": "https://hs.jissen.ac.jp/admission/index.html", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311400012",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "東大難関プレミアコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特別進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "リベラルアーツ＆サイエンスコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "文理進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "スポーツ・キャリアコース" }
+      ],
+      "sources": [
+        { "title": "実践学園高等学校 コース紹介", "url": "https://www.jissengakuen-h.ed.jp/shs/course/", "verifiedAt": "2026-08-04" },
+        { "title": "実践学園高等学校 2027年度生徒募集要項", "url": "https://www.jissengakuen-h.ed.jp/exam/exam_infomation_shs/pdf/2027sh-boshuu.pdf", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311300077",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "グローバルコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "アドバンストコースA" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "アドバンストコースB" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "アドバンストコース・インター" }
+      ],
+      "sources": [
+        { "title": "富士見丘高等学校 高校の学び・コース概要", "url": "https://www.fujimigaoka.ac.jp/high/course/", "verifiedAt": "2026-08-04" },
+        { "title": "富士見丘高等学校 2027年度生徒募集要項", "url": "https://www.fujimigaoka.ac.jp/wordpress/wp-content/uploads/2026/06/20260622-6a3892c2b61e8.pdf", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113312000032",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（通常の高校新入学募集なし）" }],
+      "sources": [
+        { "title": "富士見中学校高等学校 募集要項", "url": "https://www.fujimi.ac.jp/admissions/guidelines/", "verifiedAt": "2026-08-04" },
+        { "title": "富士見中学校高等学校 富士見の学び", "url": "https://www.fujimi.ac.jp/learning/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311500075",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "3年次に専大進学／他大受験文系／他大受験理系" }],
+      "sources": [
+        { "title": "専修大学附属高等学校 カリキュラム", "url": "https://senshu-u-h.ed.jp/study/curriculum/", "verifiedAt": "2026-08-04" },
+        { "title": "専修大学附属高等学校 募集要項", "url": "https://senshu-u-h.ed.jp/admissions/guide/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310500120",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特別選抜クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "選抜クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "デジタル教養クラス" }
+      ],
+      "sources": [
+        { "title": "小石川淑徳学園 2027年度高等学校入試要項", "url": "https://ssc1892.ed.jp/rec_hs/", "verifiedAt": "2026-08-04" },
+        { "title": "小石川淑徳学園 2027年度高校案内", "url": "https://ssc1892.ed.jp/images/pdf/2027hs.pdf", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310300131",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（通常の高校新入学募集なし）" }],
+      "sources": [
+        { "title": "山脇学園 2027年度入試募集要項", "url": "https://www.yamawaki.ed.jp/exam/guideline/", "verifiedAt": "2026-08-04" },
+        { "title": "山脇学園 カリキュラム", "url": "https://www.yamawaki.ed.jp/education/curriculum/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310600012",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "7限制" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "6限制" },
+        { "attendanceType": "full-time", "department": "運輸科", "course": "鉄道・交通分野の専門教育" }
+      ],
+      "sources": [
+        { "title": "岩倉高等学校 2026年度入学試験要項概要", "url": "https://www.tky-iwakura-h.ed.jp/contents/wp-content/uploads/2025/06/65d6453c23c72e2926828c54b15e2a9a.pdf", "verifiedAt": "2026-08-04" },
+        { "title": "岩倉高等学校 2026学校案内", "url": "https://www.tky-iwakura-h.ed.jp/contents/wp-content/uploads/2025/06/iwakura_20250613WEB_low.pdf", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311600029",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "2年次以降に文系・理系を選択" }],
+      "sources": [
+        { "title": "川村高等学校 高等学校の学び", "url": "https://www.kawamura.ac.jp/cyu-kou/high/curriculum.html", "verifiedAt": "2026-08-04" },
+        { "title": "川村高等学校 令和9年度募集要項", "url": "https://www.kawamura.ac.jp/cyu-kou/jyuken/high_boshu.html", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311600074",
+      "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "商業科", "course": "現在の新入学募集なし（卒業生証明書対象の旧校名）" }],
+      "sources": [
+        { "title": "巣鴨学園 学園案内・沿革", "url": "https://www.sugamo.ed.jp/about/", "verifiedAt": "2026-08-04" },
+        { "title": "巣鴨学園 卒業生証明書申込書", "url": "https://www.sugamo.ed.jp/assets/images/graduate/shoumeisho-madoguchi.pdf", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311600065",
+      "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "高入生クラス（2年次から文数系・理数系の混合編成）" }],
+      "sources": [
+        { "title": "巣鴨中学校・高等学校 学校案内・カリキュラム", "url": "https://sugamo.ed.jp/assets/images/entrance_students/digital_pamphlet-2024.pdf", "verifiedAt": "2026-08-04" },
+        { "title": "巣鴨高等学校 2026年度生徒募集要項", "url": "https://sugamo.ed.jp/assets/images/entrance_students/high-school-boshuu.pdf", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320100043",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "先進文理コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "文理コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "インターナショナルコース" }
+      ],
+      "sources": [
+        { "title": "工学院大学附属高等学校 コース概要", "url": "https://www.js.kogakuin.ac.jp/education/senior/course_overview.html", "verifiedAt": "2026-08-04" },
+        { "title": "工学院大学附属高等学校 2027年度入試概要", "url": "https://www.js.kogakuin.ac.jp/admissions/senior/exam.html", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320100025",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学コース" }
+      ],
+      "sources": [
+        { "title": "帝京八王子高等学校 高校受験・2027年度募集要項（予定）", "url": "https://teihachi.ed.jp/exam/hs-exam/", "verifiedAt": "2026-08-04" },
+        { "title": "帝京八王子高等学校 高等学校の学び", "url": "https://teihachi.ed.jp/education/hs/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320100034",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "高校1年 Ⅰ類・Ⅱ類" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "高校2・3年 特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "高校2・3年 難関Sコース・難関Aコース" }
+      ],
+      "sources": [
+        { "title": "帝京大学高等学校 高校教育システム", "url": "https://www.teikyo-u.ed.jp/education/highschool-edu/", "verifiedAt": "2026-08-04" },
+        { "title": "帝京大学高等学校 2027年度入学試験要項", "url": "https://www.teikyo-u.ed.jp/contents/wp-content/uploads/2026/05/5c762a78707b068b21526f780a8c21c6.pdf", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311900044",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "インターナショナルコース（2027年度は英語特化課程のみ募集）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "アスリートコース" }
+      ],
+      "sources": [
+        { "title": "帝京高等学校 2027年度入試要項", "url": "https://www.teikyo.ed.jp/exam_s/outline_s/", "verifiedAt": "2026-08-04" },
+        { "title": "帝京高等学校 学校案内2027", "url": "https://www.teikyo.ed.jp/material/pamphlet/teikyo_sh_2027/", "verifiedAt": "2026-08-04" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113321500038",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "correspondence", "department": "普通科", "course": "スタンダードコース" },
+        { "attendanceType": "correspondence", "department": "普通科", "course": "ライフデザインコース（学びの多様化学校）" },
+        { "attendanceType": "correspondence", "department": "普通科", "course": "スタンダードコース 登校プラス（東京本校）" },
+        { "attendanceType": "correspondence", "department": "普通科", "course": "オンラインプラス（各コースに追加できる学習プログラム）" }
+      ],
+      "sources": [
+        { "title": "NHK学園高等学校 学習コース", "url": "https://www.n-gaku.jp/sch/course/", "verifiedAt": "2026-08-05" },
+        { "title": "NHK学園高等学校 2027年度出願スケジュール", "url": "https://www.n-gaku.jp/sch/guidelines/application/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113312300011",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "一般教養コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学コース" },
+        { "attendanceType": "full-time", "department": "商業科", "course": "会計コース" },
+        { "attendanceType": "full-time", "department": "商業科", "course": "情報処理コース" },
+        { "attendanceType": "full-time", "department": "家政科", "course": "家政科" },
+        { "attendanceType": "full-time", "department": "衛生看護科", "course": "衛生看護科" }
+      ],
+      "sources": [
+        { "title": "愛国高等学校 令和9年度生徒募集要項", "url": "https://www.aikokugakuen.ac.jp/cms/wp-content/uploads/2026/07/%E9%AB%98%E6%A0%A1%E3%80%80%E7%94%9F%E5%BE%92%E5%8B%9F%E9%9B%86%E7%94%A8%E8%A6%81%E9%A0%85.pdf", "verifiedAt": "2026-08-05" },
+        { "title": "愛国高等学校 高等学校の学び", "url": "https://www.aikokugakuen.ac.jp/senior-high/about/index.php", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310500040",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "国際科", "course": "Honors Class" },
+        { "attendanceType": "full-time", "department": "国際科", "course": "Liberal Arts Class" }
+      ],
+      "sources": [
+        { "title": "郁文館グローバル高等学校 2つのクラス", "url": "https://www.ikubunkan.ed.jp/ghs/", "verifiedAt": "2026-08-05" },
+        { "title": "郁文館グローバル高等学校 2027年度入試生徒募集概要", "url": "https://www.ikubunkan.ed.jp/wp/wp-content/uploads/2026/06/2027%E5%B9%B4%E5%BA%A6%E5%85%A5%E8%A9%A6G%E5%8B%9F%E9%9B%86%E6%A6%82%E8%A6%81%EF%BC%88%E6%97%A5%EF%BC%89-1.pdf", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310500031",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "国立選抜クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "iP class（東大専科）" }
+      ],
+      "sources": [
+        { "title": "郁文館高等学校 4つのクラス", "url": "https://www.ikubunkan.ed.jp/hs/", "verifiedAt": "2026-08-05" },
+        { "title": "郁文館高等学校 2027年度入試生徒募集概要", "url": "https://www.ikubunkan.ed.jp/wp/wp-content/uploads/2026/06/%E9%83%81%E6%96%87%E9%A4%A8%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A12027%E5%B9%B4%E5%BA%A6%E5%85%A5%E8%A9%A6-%E7%94%9F%E5%BE%92%E5%8B%9F%E9%9B%86%E6%A6%82%E8%A6%81.pdf", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311100033",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特別進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "幼児教育専攻（総合進学コース内）" }
+      ],
+      "sources": [
+        { "title": "羽田国際高等学校 コース紹介", "url": "https://www.kanno.ac.jp/haneda/shs/course/", "verifiedAt": "2026-08-05" },
+        { "title": "羽田国際高等学校 受験生向け入学案内", "url": "https://www.kanno.ac.jp/haneda/shs/explanation/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320100105",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（通常の高校新入学募集なし）" }],
+      "sources": [
+        { "title": "穎明館中学高等学校 2027年入試要項", "url": "https://www.emk.ac.jp/info/point.html", "verifiedAt": "2026-08-05" },
+        { "title": "穎明館中学高等学校 キャリア教育", "url": "https://www.emk.ac.jp/guidance/career.html", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113312000023",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "フロンティアαコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "フロンティアコース" }
+      ],
+      "sources": [
+        { "title": "英明フロンティア高等学校 2026年度入学試験要項", "url": "https://eimei-frontier.ed.jp/entrance-examination/h_requirements/", "verifiedAt": "2026-08-05" },
+        { "title": "英明フロンティア中学校・高等学校 公式サイト", "url": "https://eimei-frontier.ed.jp/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311200032",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（通常の高校新入学募集なし）" }],
+      "sources": [
+        { "title": "鷗友学園女子中学高等学校 2027年度募集要項", "url": "https://www.ohyu.jp/admissions/yoko/", "verifiedAt": "2026-08-05" },
+        { "title": "鷗友学園女子中学高等学校 授業", "url": "https://www.ohyu.jp/education/curriculum/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311200274",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合コース（男子）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース・理数クラス（男子）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース・情報クラス（男子）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース・文系クラス（男子）" },
+        { "attendanceType": "correspondence", "department": "普通科", "course": "通学型クラス（週5日登校・共学）" },
+        { "attendanceType": "correspondence", "department": "普通科", "course": "単位制個人生（共学）" }
+      ],
+      "sources": [
+        { "title": "科学技術学園高等学校 全日制課程 2026年度募集要項", "url": "https://hs.kagiko.ed.jp/wp-content/uploads/sites/2/2025/10/KAGIKO-School-Recruitment-Guidelines2026.pdf", "verifiedAt": "2026-08-05" },
+        { "title": "科学技術学園高等学校 通信制課程 学校説明会・入試情報", "url": "https://tsushin.kagiko.ed.jp/admission/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310400014",
+      "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（通常の高校新入学募集なし）" }],
+      "sources": [
+        { "title": "海城中学高等学校 2027年度一般入試概要", "url": "https://www.kaijo.ed.jp/admission/general", "verifiedAt": "2026-08-05" },
+        { "title": "海城中学高等学校 海城の教育", "url": "https://www.kaijo.ed.jp/education", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310200016",
+      "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（通常の高校新入学募集なし）" }],
+      "sources": [
+        { "title": "開智日本橋学園中学・高等学校 コース紹介", "url": "https://kng.ed.jp/career/course/", "verifiedAt": "2026-08-05" },
+        { "title": "開智日本橋学園中学・高等学校 入試情報", "url": "https://kng.ed.jp/admission/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311300022",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "文理コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "日本文化コース（外国人生徒対象）" },
+        { "attendanceType": "full-time", "department": "外国語科", "course": "英語コース" },
+        { "attendanceType": "full-time", "department": "外国語科", "course": "ロシア語コース" },
+        { "attendanceType": "full-time", "department": "外国語科", "course": "イタリア語コース" },
+        { "attendanceType": "full-time", "department": "外国語科", "course": "スペイン語コース" },
+        { "attendanceType": "full-time", "department": "外国語科", "course": "フランス語コース" },
+        { "attendanceType": "full-time", "department": "外国語科", "course": "中国語コース" },
+        { "attendanceType": "full-time", "department": "外国語科", "course": "韓国語コース" },
+        { "attendanceType": "full-time", "department": "外国語科", "course": "タイ語コース" },
+        { "attendanceType": "full-time", "department": "外国語科", "course": "インドネシア語コース" },
+        { "attendanceType": "full-time", "department": "外国語科", "course": "ベトナム語コース" }
+      ],
+      "sources": [
+        { "title": "関東国際高等学校 学科・コース", "url": "https://www.kantokokusai.ac.jp/course/", "verifiedAt": "2026-08-05" },
+        { "title": "関東国際高等学校 2027年度入試情報", "url": "https://www.kantokokusai.ac.jp/admission/application/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113312300039",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "叡智コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "ハイパーコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "アドバンストコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "アグレッシブコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "アスリートコース（男子）" }
+      ],
+      "sources": [
+        { "title": "関東第一高等学校 コース紹介", "url": "https://www.kanto-ichiko.ac.jp/education/course/", "verifiedAt": "2026-08-05" },
+        { "title": "関東第一高等学校 2027年度入試情報", "url": "https://www.kanto-ichiko.ac.jp/entrance/examination_information/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310100035",
+      "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（通常の高校新入学募集なし）" }],
+      "sources": [
+        { "title": "暁星中学校・高等学校 入試案内", "url": "https://www.gyosei-h.ed.jp/admission/exam.html", "verifiedAt": "2026-08-05" },
+        { "title": "暁星中学校・高等学校 公式サイト", "url": "https://www.gyosei-h.ed.jp/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320900045",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "一般クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "IBクラス" }
+      ],
+      "sources": [
+        { "title": "玉川学園高等部 2027年度一般入学試験", "url": "https://www.tamagawa.jp/academy/lower_upper_d/admission/u_public.html", "verifiedAt": "2026-08-05" },
+        { "title": "玉川学園 中学部・高等部 教育について", "url": "https://www.tamagawa.jp/academy/lower_upper_d/about/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310500200",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "インターナショナルコース（AG・SG）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "本科コース（4月入学の新高校1年生のみ募集）" }
+      ],
+      "sources": [
+        { "title": "広尾学園小石川高等学校 国際生募集", "url": "https://hiroo-koishikawa.ed.jp/exam/senior-nyushi", "verifiedAt": "2026-08-05" },
+        { "title": "広尾学園小石川高等学校 3年間の教育", "url": "https://hiroo-koishikawa.ed.jp/education/senior", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310300042",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "医進・サイエンスコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "インターナショナルコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "本科コース（高校からの生徒募集なし）" }
+      ],
+      "sources": [
+        { "title": "広尾学園高等学校 医進・サイエンスコース", "url": "https://www.hiroogakuen.ed.jp/senior/ishin_science.html", "verifiedAt": "2026-08-05" },
+        { "title": "広尾学園高等学校 本科コース", "url": "https://www.hiroogakuen.ed.jp/senior/course1.html", "verifiedAt": "2026-08-05" },
+        { "title": "広尾学園高等学校 教育の特色", "url": "https://www.hiroogakuen.ed.jp/senior/index.html", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311200050",
+      "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（通常の高校新入学募集なし）" }],
+      "sources": [
+        { "title": "恵泉女学園中学・高等学校 入試情報", "url": "https://www.keisen.jp/information/", "verifiedAt": "2026-08-05" },
+        { "title": "恵泉女学園中学・高等学校 教育方針・目標", "url": "https://www.keisen.jp/education/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311200121",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "Aコース（主に成城大学進学）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "Bコース（主に他大学文系）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "理数コース（主に他大学理系）" }
+      ],
+      "sources": [
+        { "title": "成城学園中学校高等学校 カリキュラム", "url": "https://www.seijogakuen.ed.jp/chukou/education/curriculum/", "verifiedAt": "2026-08-05" },
+        { "title": "成城学園高等学校 2027年度入試情報", "url": "https://www.seijogakuen.ed.jp/chukou/admissions/exam-high/requirements/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310400041",
+      "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（2019年度から高校募集停止）" }],
+      "sources": [
+        { "title": "成城中学校・成城高等学校 成城の教育ポリシー", "url": "https://www.seijogakko.ed.jp/education/action/policy/", "verifiedAt": "2026-08-05" },
+        { "title": "成城中学校・成城高等学校 入試情報", "url": "https://www.seijogakko.ed.jp/admission/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310400032",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "5分野の専攻制度（人文・アート・社会・家政・自然科学）" }
+      ],
+      "sources": [
+        { "title": "成女高等学校 教育体系", "url": "https://www.seijo-gk.ac.jp/education/system/", "verifiedAt": "2026-08-05" },
+        { "title": "成女高等学校 学力・特進コース", "url": "https://www.seijo-gk.ac.jp/education/academic/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311700082",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース（高1）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合コース（高1）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "S-ACADEMIC 国公立クラス（高2・3）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "S-ACADEMIC 私大クラス（高2・3）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "S-ACADEMIC 探究クラス（高2・3）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "S-ACADEMIC アスリートクラス（高2・3）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "G-ACADEMIC 国公立クラス（高2・3）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "G-ACADEMIC 難関私大クラス（高2・3）" }
+      ],
+      "sources": [
+        { "title": "成立学園高等学校 コース・クラス選択", "url": "https://www.seiritsu.ac.jp/about/continuous/highschool/course/", "verifiedAt": "2026-08-05" },
+        { "title": "成立学園高等学校 2027年学校案内", "url": "https://www.seiritsu.ac.jp/examinee/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320300032",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "高3で進路別19コースから選択" }
+      ],
+      "sources": [
+        { "title": "成蹊高等学校 教育の特色", "url": "https://www.seikei.ac.jp/jsh/educationtrait/h_trait.html", "verifiedAt": "2026-08-05" },
+        { "title": "成蹊高等学校 2027進学ガイドブック", "url": "https://www.seikei.ac.jp/jsh/upload/jsh_guide2027.pdf", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113322300010",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学コース" }
+      ],
+      "sources": [
+        { "title": "拓殖大学第一高等学校 コース紹介", "url": "https://www.takuichi.ed.jp/education/course/", "verifiedAt": "2026-08-05" },
+        { "title": "拓殖大学第一高等学校 入試結果・募集要項", "url": "https://www.takuichi.ed.jp/admission/yoko/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310900028",
+      "gender": "boys",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（通常の高校新入学募集なし）" }
+      ],
+      "sources": [
+        { "title": "攻玉社 3ステージプログラム", "url": "https://kogyokusha.ed.jp/education/three-stages/", "verifiedAt": "2026-08-05" },
+        { "title": "攻玉社 受験生の方へ", "url": "https://kogyokusha.ed.jp/admission/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310500193",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "理数キャリアコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "国際教養コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "スポーツ科学コース" }
+      ],
+      "sources": [
+        { "title": "文京学院大学女子高等学校 高等学校の学び", "url": "https://www.hs.bgu.ac.jp/hs_learn/", "verifiedAt": "2026-08-05" },
+        { "title": "文京学院大学女子高等学校 高校入試", "url": "https://www.hs.bgu.ac.jp/examinee/high-school/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311500057",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "ダブルディプロマコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "イノベーションリーダーズコース" }
+      ],
+      "sources": [
+        { "title": "文化学園大学杉並高等学校 高等学校コース紹介", "url": "https://bunsugi.jp/education/course-senior/", "verifiedAt": "2026-08-05" },
+        { "title": "文化学園大学杉並高等学校 2027年度高校入試", "url": "https://bunsugi.jp/admission/exam-senior/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310900091",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "スタンダードクラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "アドバンストクラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "アルティメットクラス" }
+      ],
+      "sources": [
+        { "title": "文教大学付属高等学校 高等学校の学び", "url": "https://www.bunkyo.ac.jp/jsh/education/senior/", "verifiedAt": "2026-08-05" },
+        { "title": "文教大学付属高等学校 高等学校募集要項", "url": "https://www.bunkyo.ac.jp/jsh/admissions/senior/application.html", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113322900014",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "選抜コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "スポーツコース" }
+      ],
+      "sources": [
+        { "title": "東京文華高等学校 学びの特色", "url": "https://www.bunkagakuen.ac.jp/education/feature", "verifiedAt": "2026-08-05" },
+        { "title": "東京文華高等学校 2026年4月共学化", "url": "https://www.bunkagakuen.ac.jp/examination/transference", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311400030",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "探究進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "美術コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "フードデザインコース" }
+      ],
+      "sources": [
+        { "title": "新渡戸文化高等学校 コースとカリキュラム", "url": "https://www.nitobebunka.ed.jp/highschool/course/", "verifiedAt": "2026-08-05" },
+        { "title": "新渡戸文化高等学校 2027年度入試案内", "url": "https://www.nitobebunka.ed.jp/admission/outline/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113321300012",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "アドバンストコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合スポーツコース" }
+      ],
+      "sources": [
+        { "title": "日本体育大学桜華高等学校 コース紹介", "url": "https://ohka.ed.jp/senior/course", "verifiedAt": "2026-08-05" },
+        { "title": "日本体育大学桜華高等学校 グランドデザイン", "url": "https://ohka.ed.jp/app/uploads/2024/05/grand_design.pdf", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311100060",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "アカデミックコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "アドバンストコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "スポーツコース" }
+      ],
+      "sources": [
+        { "title": "日本体育大学荏原高等学校 学習コース", "url": "https://nittai-ebara.jp/course", "verifiedAt": "2026-08-05" },
+        { "title": "日本体育大学荏原高等学校 2027年度募集要項", "url": "https://nittai-ebara.jp/examinee/examination/application_requirements", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311200247",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特別進学（S）クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合進学（G）クラス" }
+      ],
+      "sources": [
+        { "title": "日本大学櫻丘高等学校 クラス紹介", "url": "https://www.sakura.chs.nihon-u.ac.jp/edu/class/", "verifiedAt": "2026-08-05" },
+        { "title": "日本大学櫻丘高等学校 進路実績", "url": "https://www.sakura.chs.nihon-u.ac.jp/course/results/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310700011",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科" }
+      ],
+      "sources": [
+        { "title": "日本大学第一中学・高等学校 公式note", "url": "https://nichidai1-edu.note.jp/", "verifiedAt": "2026-08-05" },
+        { "title": "日大一データブック2026 カリキュラム", "url": "https://nichidai1-edu.note.jp/n/nf173952d09ba", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320900018",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "普通クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進クラス" }
+      ],
+      "sources": [
+        { "title": "日本大学第三高等学校 2つのクラス", "url": "https://nichidai3.ed.jp/life/senior/class/", "verifiedAt": "2026-08-05" },
+        { "title": "日本大学第三高等学校 2027年度募集要項", "url": "https://nichidai3.ed.jp/exam/senior/admission/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311500100",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "人文社会コース（2年次以降）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "理工コース（2年次以降）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "医療コース（2年次以降）" }
+      ],
+      "sources": [
+        { "title": "日本大学第二高等学校 カリキュラム", "url": "https://www.nichidai2.ac.jp/highschool/curriculum/", "verifiedAt": "2026-08-05" },
+        { "title": "日本大学第二高等学校 2027年度入試概要", "url": "https://www.nichidai2.ac.jp/highschool/exam/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311900062",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "A特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "N進学コース" },
+        { "attendanceType": "full-time", "department": "理数科", "course": "理数Sコース" }
+      ],
+      "sources": [
+        { "title": "日本大学豊山女子高等学校 学校について", "url": "https://www.buzan-joshi.hs.nihon-u.ac.jp/about-us/about.html", "verifiedAt": "2026-08-05" },
+        { "title": "日本大学豊山女子高等学校 2027年度募集要項", "url": "https://www.buzan-joshi.hs.nihon-u.ac.jp/assets/pdf/senior/admission-s/guide/guide_2027.pdf", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310500184",
+      "gender": "boys",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "スポーツコース" }
+      ],
+      "sources": [
+        { "title": "日本大学豊山高等学校 進学コース", "url": "https://www.buzan.hs.nihon-u.ac.jp/shs/enter/", "verifiedAt": "2026-08-05" },
+        { "title": "日本大学豊山高等学校 2027年度募集要項", "url": "https://www.buzan.hs.nihon-u.ac.jp/pdf/shs-exam/guide/2027.pdf", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311500119",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "総進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" }
+      ],
+      "sources": [
+        { "title": "日本大学鶴ヶ丘高等学校 総進コース", "url": "https://www.tsurugaoka.hs.nihon-u.ac.jp/education/course01/", "verifiedAt": "2026-08-05" },
+        { "title": "日本大学鶴ヶ丘高等学校 特進コース", "url": "https://www.tsurugaoka.hs.nihon-u.ac.jp/education/course02/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311200229",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "キャリアデザインコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "特別進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "ダンスコース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "スポーツコース" }
+      ],
+      "sources": [
+        { "title": "二階堂高等学校 4コース制への移行", "url": "https://nikaido.ed.jp/4%E3%82%B3%E3%83%BC%E3%82%B9%E5%88%B6%E3%81%B8%E3%81%AE%E7%A7%BB%E8%A1%8C%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/", "verifiedAt": "2026-08-05" },
+        { "title": "二階堂高等学校 4つのコース編成", "url": "https://nikaido.ed.jp/academics/newcourse2024/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311200238",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科" }
+      ],
+      "sources": [
+        { "title": "明治大学付属世田谷高等学校 高等学校の教育", "url": "https://www.meijisetagaya.ed.jp/education/senior-education/", "verifiedAt": "2026-08-05" },
+        { "title": "明治大学付属世田谷高等学校 高校入試", "url": "https://www.meijisetagaya.ed.jp/exam/exam-hs/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311000025",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "文理未来コース" }
+      ],
+      "sources": [
+        { "title": "日本工業大学駒場高等学校 コース", "url": "https://nit-komaba.ed.jp/education/course/", "verifiedAt": "2026-08-05" },
+        { "title": "日本工業大学駒場高等学校 2027年度入試要項要約", "url": "https://nit-komaba.ed.jp/entrance/points/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113321400011",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科" }
+      ],
+      "sources": [
+        { "title": "早稲田実業学校 高等部の教育", "url": "https://www.wasedajg.ed.jp/senior/education-h/edu-h/", "verifiedAt": "2026-08-05" },
+        { "title": "早稲田実業学校 2027年度高等部一般入試", "url": "https://www.wasedajg.ed.jp/senior/exam-h/application-h/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113312000050",
+      "gender": "boys",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科" }
+      ],
+      "sources": [
+        { "title": "早稲田大学高等学院 学院概要", "url": "https://www.waseda.jp/school/shs/about/overview/", "verifiedAt": "2026-08-05" },
+        { "title": "早稲田大学高等学院 2027年度入学試験", "url": "https://www.waseda.jp/school/shs/prospective/admission/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310400078",
+      "gender": "boys",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "中高6年一貫（高校募集なし）" }
+      ],
+      "sources": [
+        { "title": "早稲田中学校・高等学校 教育の特色", "url": "https://www.waseda-h.ed.jp/about/mission/", "verifiedAt": "2026-08-05" },
+        { "title": "早稲田中学校・高等学校 校長挨拶", "url": "https://www.waseda-h.ed.jp/about/message/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320400031",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "文系コース（2年次以降）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "理系コース（2年次以降）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "美術コース（2年次以降）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "音楽コース（2年次以降）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "体育コース（2年次以降）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "家政コース（2年次以降）" }
+      ],
+      "sources": [
+        { "title": "明星学園高等学校 コース紹介", "url": "https://www.myojogakuen.ed.jp/high_school/educational/course/", "verifiedAt": "2026-08-05" },
+        { "title": "明星学園高等学校 2027年度募集要項", "url": "https://www.myojogakuen.ed.jp/wp-content/uploads/2026/06/2027%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320600011",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "SMGS（スーパー明星グローバルサイエンス）クラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "MGSクラス" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "本科クラス" }
+      ],
+      "sources": [
+        { "title": "明星高等学校 教育プログラム", "url": "https://www.meisei.ac.jp/hs/h/education/index.html", "verifiedAt": "2026-08-05" },
+        { "title": "明星高等学校 入試情報", "url": "https://www.meisei.ac.jp/hs/h/admission/index.html", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311400076",
+      "gender": "boys",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "文系コース（高2・高3）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "理系コース（高2・高3）" }
+      ],
+      "sources": [
+        { "title": "明治大学付属中野中学・高等学校 中学校／高等学校の学び", "url": "https://www.nakanogakuen.ac.jp/education-career/curriculum.html", "verifiedAt": "2026-08-05" },
+        { "title": "明治大学付属中野中学・高等学校 2027年度入試情報", "url": "https://www.nakanogakuen.ac.jp/exam/index.html", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320100098",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "文系コース（2年次以降）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "理系コース（2年次以降）" }
+      ],
+      "sources": [
+        { "title": "明治大学付属八王子中学・高等学校 高校教育", "url": "https://www.mnh.ed.jp/education/high-school/", "verifiedAt": "2026-08-05" },
+        { "title": "明治大学付属八王子中学・高等学校 2027年度高校募集要項", "url": "https://www.mnh.ed.jp/contents/wp-content/uploads/2026.4.pdf", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113321300021",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "推薦進学コース（高3）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "受験コース（高3）" }
+      ],
+      "sources": [
+        { "title": "明治学院東村山高等学校 進学実績・進路", "url": "https://www.meijigakuin-higashi.ed.jp/shinro/sinro/", "verifiedAt": "2026-08-05" },
+        { "title": "明治学院東村山高等学校 2027年度高校入試概要", "url": "https://www.meijigakuin-higashi.ed.jp/senior/exam/bosyu/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113311200176",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科" }
+      ],
+      "sources": [
+        { "title": "玉川聖学院 高等部の学び", "url": "https://tamasei.ed.jp/education/senior/", "verifiedAt": "2026-08-05" },
+        { "title": "玉川聖学院 教育の特色", "url": "https://tamasei.ed.jp/education/feature/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113321500029",
+      "gender": "boys",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "高校入学生（数学は高2まで分割少人数授業）" }
+      ],
+      "sources": [
+        { "title": "桐朋高等学校 高等学校カリキュラム", "url": "https://www.toho.ed.jp/education/curriculum_high/", "verifiedAt": "2026-08-05" },
+        { "title": "桐朋中学校・高等学校 教育目標", "url": "https://www.toho.ed.jp/about/goals/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113320800046",
+      "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "Cブロック自由選択制（高2・高3）" }
+      ],
+      "sources": [
+        { "title": "桐朋女子中学校・高等学校 カリキュラム", "url": "https://chuko.toho.ac.jp/guidance/curriculum/", "verifiedAt": "2026-08-05" },
+        { "title": "桐朋女子中学校・高等学校 学習", "url": "https://chuko.toho.ac.jp/school-life/study/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310100053",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "共通課程（1年次）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "文系・特進クラス（2年次以降）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "文系・進学クラス（2年次以降）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "理系・特進クラス（2年次以降）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "理系・進学クラス（2年次以降）" }
+      ],
+      "sources": [
+        { "title": "錦城学園高等学校 カリキュラム", "url": "https://www.kinjogakuen-h.ed.jp/career/curriculum/", "verifiedAt": "2026-08-05" },
+        { "title": "錦城学園高等学校 2027年度入試要項簡易版", "url": "https://www.kinjogakuen-h.ed.jp/entrance/recruiting/", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113321100014",
+      "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "特進コース" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学コース" }
+      ],
+      "sources": [
+        { "title": "錦城高等学校 教育の特色", "url": "https://www.kinjo-highschool.ed.jp/program/education.html", "verifiedAt": "2026-08-05" },
+        { "title": "錦城高等学校 2027年度入学試験NAVI", "url": "https://www.kinjo-highschool.ed.jp/kinjo-info/wp-content/uploads/2026/05/NAVI_2027.pdf", "verifiedAt": "2026-08-05" }
+      ]
+    },
+    {
+      "schoolId": "wk_d113310300122", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "コース制なし（文理融合ホームルーム）" }],
+      "sources": [{ "title": "明治学院高等学校 教育", "url": "https://www.meigaku.ed.jp/education/", "verifiedAt": "2026-08-05" }, { "title": "明治学院高等学校 2027年度生徒募集要項", "url": "https://www.meigaku.ed.jp/cms/wp-content/uploads/2026/07/27_meigaku_bosyu_1c.pdf.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113321300030", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特別進学クラス（高1）" }, { "attendanceType": "full-time", "department": "普通科", "course": "総合進学クラス（高1）" }, { "attendanceType": "full-time", "department": "普通科", "course": "国公立大進学コース（高2・高3）" }, { "attendanceType": "full-time", "department": "普通科", "course": "私立大進学コース（高2・高3）" }, { "attendanceType": "full-time", "department": "普通科", "course": "GSP（国際教育プログラム）" }],
+      "sources": [{ "title": "明法高等学校 高校カリキュラム", "url": "https://www.meiho.ed.jp/learning/hs_curriculum.html", "verifiedAt": "2026-08-05" }, { "title": "明法高等学校 GSP", "url": "https://www.meiho.ed.jp/learning/hs_gsp.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311200112", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "本科コース（中高一貫・高校一般募集なし）" }, { "attendanceType": "full-time", "department": "普通科", "course": "グローバルコース（中高一貫・高校一般募集なし）" }, { "attendanceType": "full-time", "department": "普通科", "course": "スーパーサイエンスコース（中高一貫・高校一般募集なし）" }],
+      "sources": [{ "title": "昭和女子大学附属昭和中学校・高等学校 入試概要", "url": "https://jhs.swu.ac.jp/admission/summary/", "verifiedAt": "2026-08-05" }, { "title": "昭和女子大学附属昭和中学校・高等学校 転編入学", "url": "https://jhs.swu.ac.jp/admission/transfer.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113320200015", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "英語コース" }, { "attendanceType": "full-time", "department": "普通科", "course": "選抜進学コース" }, { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コース" }, { "attendanceType": "full-time", "department": "普通科", "course": "デザインコース" }],
+      "sources": [{ "title": "昭和第一学園高等学校 教育", "url": "https://www.sdg.ed.jp/education/english.html", "verifiedAt": "2026-08-05" }, { "title": "昭和第一学園高等学校 総合進学コース", "url": "https://sdg.ed.jp/education/sougou.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113310500139", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特進コース" }, { "attendanceType": "full-time", "department": "普通科", "course": "進学コース" }],
+      "sources": [{ "title": "昭和第一高等学校 学び", "url": "https://sdh.ed.jp/learning/", "verifiedAt": "2026-08-05" }, { "title": "昭和第一高等学校 入試情報", "url": "https://www.sdh.ed.jp/exam-info/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311600056", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "鉄道科", "course": "共通履修（1年次）" }, { "attendanceType": "full-time", "department": "鉄道科", "course": "運輸サービスコース（2年次以降）" }, { "attendanceType": "full-time", "department": "鉄道科", "course": "運輸システムコース（2年次以降）" }],
+      "sources": [{ "title": "昭和鉄道高等学校 教育課程", "url": "https://showa-tetsudo.ed.jp/curriculum/", "verifiedAt": "2026-08-05" }, { "title": "昭和鉄道高等学校 2027年度入試制度概要", "url": "https://showa-tetsudo.ed.jp/showa/wp-content/uploads/2026/07/2baeca07f382c367765dd2c6d4fff830.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113320800037", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高一貫課程（高校入試なし）" }],
+      "sources": [{ "title": "晃華学園中学校高等学校 Q&A", "url": "https://jhs.kokagakuen.ac.jp/admission/question/", "verifiedAt": "2026-08-05" }, { "title": "晃華学園中学校高等学校 入学試験・転編入学試験", "url": "https://jhs.kokagakuen.ac.jp/admission/recruitment/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113310300113", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高一貫課程（高校募集なし）" }],
+      "sources": [{ "title": "普連土学園 クラス編成・カリキュラム", "url": "https://www.friends.ac.jp/education/curriculum.html", "verifiedAt": "2026-08-05" }, { "title": "普連土学園 転入試験", "url": "https://www.friends.ac.jp/examination/transfer.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113310900064", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "TGコース" }, { "attendanceType": "full-time", "department": "普通科", "course": "AGコース" }, { "attendanceType": "full-time", "department": "普通科", "course": "SGコース" }],
+      "sources": [{ "title": "朋優学院高等学校 3年間の学び", "url": "https://www.ho-yu.ed.jp/education/program/", "verifiedAt": "2026-08-05" }, { "title": "朋優学院高等学校 2027年度募集要項", "url": "https://www.ho-yu.ed.jp/wordpress/wp-content/uploads/2026/07/20260709-6a4f00f72f924.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311600136", "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高一貫課程（2021年度より高校募集停止）" }],
+      "sources": [{ "title": "本郷中学校・高等学校 本郷について", "url": "https://www.hongo.ed.jp/about/outline/", "verifiedAt": "2026-08-05" }, { "title": "本郷中学校・高等学校 スクールポリシー", "url": "https://www.hongo.ed.jp/about/school-policy/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311500011", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特別進学コース" }, { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コース" }],
+      "sources": [{ "title": "杉並学院高等学校 学習内容", "url": "https://suginami.ed.jp/education-index/", "verifiedAt": "2026-08-05" }, { "title": "杉並学院高等学校 2027年度高校募集要項", "url": "https://suginami.ed.jp/entrance_exam-requirement/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311400021", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特進コース" }, { "attendanceType": "full-time", "department": "普通科", "course": "総合選抜コース" }, { "attendanceType": "full-time", "department": "普通科", "course": "情報理数コース（2027年度新設）" }],
+      "sources": [{ "title": "東亜学園高等学校 コースの特性", "url": "https://toagakuen.ac.jp/course/", "verifiedAt": "2026-08-05" }, { "title": "東亜学園高等学校 情報理数コース体験授業会", "url": "https://toagakuen.ac.jp/news/3812/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311300068", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "一般コース（中高一貫・高校一般募集なし）" }, { "attendanceType": "full-time", "department": "普通科", "course": "国際コース（中高一貫・高校一般募集なし）" }],
+      "sources": [{ "title": "東京女学館中学校・高等学校 6年一貫教育", "url": "https://mhs.tjk.ed.jp/education/consistent/", "verifiedAt": "2026-08-05" }, { "title": "東京女学館中学校・高等学校 一般学級", "url": "https://mhs.tjk.ed.jp/education/general_class/", "verifiedAt": "2026-08-05" }, { "title": "東京女学館中学校・高等学校 高校募集に関する案内", "url": "https://mhs.tjk.ed.jp/blog/10327/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311100051", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特別進学コース" }, { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コースⅠ類" }, { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コースⅡ類" }, { "attendanceType": "full-time", "department": "普通科", "course": "総合進学コースⅢ類" }, { "attendanceType": "full-time", "department": "普通科", "course": "ビジネスコース" }, { "attendanceType": "full-time", "department": "機械科", "course": "機械システムコース" }, { "attendanceType": "full-time", "department": "電気科", "course": "電気システムコース" }, { "attendanceType": "full-time", "department": "電気科", "course": "ゲームITコース" }],
+      "sources": [{ "title": "東京実業高等学校 8コース", "url": "https://www.tojitsu.ed.jp/", "verifiedAt": "2026-08-05" }, { "title": "東京実業高等学校 学校概要", "url": "https://www.tojitsu.ed.jp/guide/outline/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311900053", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "Super Advancedコース・SAクラス" }, { "attendanceType": "full-time", "department": "普通科", "course": "Creative Learningコース・CAクラス" }, { "attendanceType": "full-time", "department": "普通科", "course": "Creative Learningコース・TKUクラス" }],
+      "sources": [{ "title": "東京家政大学附属女子高等学校 授業とカリキュラム", "url": "https://www.tokyo-kasei.ed.jp/senior/subjects", "verifiedAt": "2026-08-05" }, { "title": "東京家政大学附属女子中学校・高等学校 新コース制", "url": "https://www.tokyo-kasei.ed.jp/special2025", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113310100099", "gender": "girls",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "リベラルアーツコース（高1）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "アドバンストコース（高1）" },
+        { "attendanceType": "full-time", "department": "普通科", "course": "6進路別クラス（高2・高3）" }
+      ],
+      "sources": [{ "title": "東京家政学院高等学校 コース制とカリキュラム", "url": "https://www.kasei-gakuin.ed.jp/feature/%E6%9D%B1%E4%BA%AC%E5%AE%B6%E6%94%BF%E5%AD%A6%E9%99%A2%E9%AB%98%E6%A0%A1%20%E3%82%B3%E3%83%BC%E3%82%B9%E5%88%B6%E3%81%A8%E3%82%AB%E3%83%AA%E3%82%AD%E3%83%A5%E3%83%A9%E3%83%A0.pdf", "verifiedAt": "2026-08-05" }, { "title": "東京家政学院中学校・高等学校 法政大学系列校化のお知らせ", "url": "https://www.kasei-gakuin.ed.jp/special/special.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311700108", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特別進学コース" }, { "attendanceType": "full-time", "department": "普通科", "course": "進学選抜コース" }, { "attendanceType": "full-time", "department": "普通科", "course": "進学コース" }],
+      "sources": [{ "title": "東京成徳大学高等学校 学び", "url": "https://www.tokyoseitoku.jp/hs/", "verifiedAt": "2026-08-05" }, { "title": "東京成徳大学高等学校 入試情報", "url": "https://www.tokyoseitoku.jp/hs/admission/examination.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311500093", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "スタンダードコース" }, { "attendanceType": "full-time", "department": "普通科", "course": "イノベーションコース" }, { "attendanceType": "full-time", "department": "普通科", "course": "アドバンストコース" }],
+      "sources": [{ "title": "東京立正高等学校 3つのコース", "url": "https://www.tokyorissho.ed.jp/shs/three-course.html", "verifiedAt": "2026-08-05" }, { "title": "東京立正高等学校 2027年度募集要項", "url": "https://www.tokyorissho.ed.jp/exam/pdf/senior_bosyu2027.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113320100052", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特進コース" }, { "attendanceType": "full-time", "department": "普通科", "course": "セレクトコース（学年制）" }, { "attendanceType": "full-time", "department": "普通科", "course": "セレクトコース（単位制・2026年度新設）" }],
+      "sources": [{ "title": "東京純心女子高等学校 カリキュラム・学習指導", "url": "https://www.t-junshin.ed.jp/education/sh_curriculum/", "verifiedAt": "2026-08-05" }, { "title": "東京純心女子高等学校 2027年度高校入試情報", "url": "https://www.t-junshin.ed.jp/exam/hs/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311200201", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高一貫課程（2025年度より高校募集停止）" }],
+      "sources": [{ "title": "東京農業大学第一高等学校 受験生の方", "url": "https://www.nodai-1-h.ed.jp/examinee/", "verifiedAt": "2026-08-05" }, { "title": "東京農業大学第一高等学校 学び", "url": "https://www.nodai-1-h.ed.jp/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311200256", "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "中高一貫課程（高校一般募集なし）" }],
+      "sources": [{ "title": "東京都市大学付属中学校・高等学校 6年間の学び", "url": "https://www.tcu-jsh.ed.jp/educational-content/yearsix/", "verifiedAt": "2026-08-05" }, { "title": "東京都市大学付属中学校・高等学校 学校案内", "url": "https://www.tcu-jsh.ed.jp/assets/library/2026/04/0c1802bb-4477-4059-9cdb-499a9c006a74.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113311200210", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "S特選コース（中高一貫生）" }, { "attendanceType": "full-time", "department": "普通科", "course": "特選コース（2027年度高校募集）" }],
+      "sources": [{ "title": "東京都市大学等々力高等学校 コース・カリキュラム", "url": "https://www.tcu-todoroki.ed.jp/education/syllabus/", "verifiedAt": "2026-08-05" }, { "title": "東京都市大学等々力高等学校 2027年度高校入試概要", "url": "https://www.tcu-todoroki.ed.jp/exam/webapply/pdf/202605_h_boshu.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299901013", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "普通科", "course": "単位制・3部制（Ⅰ部・Ⅱ部・Ⅲ部）" }, { "attendanceType": "correspondence", "department": "普通科", "course": "通信制課程" }],
+      "sources": [{ "title": "東京都立一橋高等学校 学校の特色", "url": "https://www.metro.ed.jp/hitotsubashi-he/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立一橋高等学校 通信制課程 入試案内", "url": "https://www.metro.ed.jp/hitotsubashi-hc/guide/index.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299912010", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "full-time", "department": "併合科", "course": "農業科" }, { "attendanceType": "full-time", "department": "併合科", "course": "家政科" }],
+      "sources": [{ "title": "東京都立三宅高等学校 学校の特色", "url": "https://www.metro.ed.jp/miyake-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立三宅高等学校 教育課程", "url": "https://www.metro.ed.jp/miyake-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908141", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "単位制" }],
+      "sources": [{ "title": "東京都立上水高等学校 学校の特色", "url": "https://www.metro.ed.jp/josui-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立上水高等学校 教育課程", "url": "https://www.metro.ed.jp/josui-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902110", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "総合学科", "course": "Ⅰ部（午前）" }, { "attendanceType": "part-time", "department": "総合学科", "course": "Ⅱ部（午後）" }, { "attendanceType": "part-time", "department": "総合学科", "course": "Ⅲ部（夜間）" }],
+      "sources": [{ "title": "東京都立世田谷泉高等学校 学校の特色", "url": "https://www.metro.ed.jp/setagayaizumi-he/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立世田谷泉高等学校 教育課程", "url": "https://www.metro.ed.jp/setagayaizumi-he/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902129", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "総合学科", "course": "6系列" }],
+      "sources": [{ "title": "東京都立世田谷総合高等学校 学校の特色", "url": "https://www.metro.ed.jp/setagayasogo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立世田谷総合高等学校 教育課程", "url": "https://www.metro.ed.jp/setagayasogo-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903182", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "食品サイエンス科" }, { "attendanceType": "part-time", "department": "総合技術科", "course": "機械類型" }, { "attendanceType": "part-time", "department": "総合技術科", "course": "食品工業類型" }],
+      "sources": [{ "title": "東京都立中野工科高等学校（全日制）学校の特色", "url": "https://www.metro.ed.jp/nakanokoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立中野工科高等学校（定時制）学校の特色", "url": "https://www.metro.ed.jp/nakanokoka-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299909051", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立久留米西高等学校 学校の特色", "url": "https://www.metro.ed.jp/kurumenishi-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立久留米西高等学校 教育課程", "url": "https://www.metro.ed.jp/kurumenishi-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908123", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間定時制（4年制・三修制あり）" }],
+      "sources": [{ "title": "東京都立五日市高等学校（全日制）学習と特色", "url": "https://itsukaichi-h.metro.ed.jp/zen/03gakusyuu-tokusyoku.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立五日市高等学校（定時制）学校紹介", "url": "https://itsukaichi-h.metro.ed.jp/tei/01koutyo-gakkou-syoukai.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299909042", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立保谷高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/hoya-h/our_school/education.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立保谷高等学校 学校案内", "url": "https://www.metro.ed.jp/hoya-h/assets/pamphlet/pamphlet-pdffile-3694.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903128", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立光丘高等学校 学校の特色", "url": "https://www.metro.ed.jp/hikarigaoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立光丘高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/hikarigaoka-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299913019", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "full-time", "department": "園芸科" }, { "attendanceType": "full-time", "department": "家政科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間定時制（4年制・三修制あり）" }],
+      "sources": [{ "title": "東京都立八丈高等学校 学校の特色", "url": "https://www.metro.ed.jp/hachijo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立八丈高等学校 定時制Q&A", "url": "https://www.metro.ed.jp/hachijo-he/guide/qanda.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299901059", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立八潮高等学校 2026年度学校案内", "url": "https://yashio-h.metro.ed.jp/site/zen/content/200001931.pdf", "verifiedAt": "2026-08-05" }, { "title": "東京都立八潮高等学校 定時制課程閉課程のお知らせ", "url": "https://yashio-h.metro.ed.jp/site/zen/page_0000000_00053.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907044", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立八王子北高等学校 学校の特色", "url": "https://www.metro.ed.jp/hachiojikita-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立八王子北高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/hachiojikita-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907160", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "普通科", "course": "単位制・三部制（Ⅰ部・Ⅱ部・Ⅲ部、一般枠・チャレンジ枠）" }],
+      "sources": [{ "title": "東京都立八王子拓真高等学校 学校の特色", "url": "https://www.metro.ed.jp/hachiojitakushin-he/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立八王子拓真高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/hachiojitakushin-he/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907188", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "産業科", "course": "デザイン分野" }, { "attendanceType": "full-time", "department": "産業科", "course": "クラフト分野" }, { "attendanceType": "full-time", "department": "産業科", "course": "システム情報分野" }, { "attendanceType": "full-time", "department": "産業科", "course": "ビジネス情報分野" }],
+      "sources": [{ "title": "東京都立八王子桑志高等学校 学校の特色", "url": "https://www.metro.ed.jp/hachiojisoushi-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立八王子桑志高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/hachiojisoushi-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299901120", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "総合学科", "course": "単位制・三部制（Ⅰ部・Ⅱ部・Ⅲ部）／芸術・カルチャー、生活・ウェルネス、情報サイエンス" }],
+      "sources": [{ "title": "東京都立六本木高等学校 学校の特色", "url": "https://www.metro.ed.jp/roppongi-he/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立六本木高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/roppongi-he/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299901139", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "ものづくり工学科", "course": "機械・自動車・電気・情報・デザイン分野" }, { "attendanceType": "part-time", "department": "普通科", "course": "単位制（3年卒業制度あり）" }, { "attendanceType": "part-time", "department": "生産工学科", "course": "単位制（3年卒業制度あり）" }],
+      "sources": [{ "title": "東京都立六郷工科高等学校 全日制 ものづくり工学科", "url": "https://rokugokoka-h.metro.ed.jp/zen/gakusyu_monotsukuri.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立六郷工科高等学校 定時制 学科紹介", "url": "https://rokugokoka-h.metro.ed.jp/tei/teijisei_class.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299904145", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "都市防災技術科", "course": "ものづくり・整備制御・電気・電子情報類型" }, { "attendanceType": "part-time", "department": "機械科", "course": "令和8年度は第1学年募集なし" }],
+      "sources": [{ "title": "東京都立北豊島工科高等学校 全日制 学校の特色", "url": "https://www.metro.ed.jp/kitatoshimakoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立北豊島工科高等学校 定時制 学校の特色", "url": "https://www.metro.ed.jp/kitatoshimakoka-he/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都教育委員会 令和8年度定時制・通信制課程案内", "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/00_r8_admission_pt_cs", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299904127", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "ビジネスコミュニケーション科" }],
+      "sources": [{ "title": "東京都立千早高等学校 学校の特色", "url": "https://www.metro.ed.jp/chihaya-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立千早高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/chihaya-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902094", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立千歳丘高等学校 学校の特色", "url": "https://www.metro.ed.jp/chitosegaoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立千歳丘高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/chitosegaoka-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907080", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立南平高等学校 学校の特色", "url": "https://www.metro.ed.jp/minamidaira-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立南平高等学校 学校説明会・授業公開等", "url": "https://www.metro.ed.jp/minamidaira-h/guide/meeting.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906054", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間・4年制" }],
+      "sources": [{ "title": "東京都立南葛飾高等学校 全日制 学校の特色", "url": "https://www.metro.ed.jp/minamikatsushika-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立南葛飾高等学校 定時制 学校の特色", "url": "https://www.metro.ed.jp/minamikatsushika-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299904029", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立向丘高等学校 学校の特色", "url": "https://www.metro.ed.jp/mukogaoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立向丘高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/mukogaoka-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902174", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "園芸科" }, { "attendanceType": "full-time", "department": "食品科" }, { "attendanceType": "full-time", "department": "動物科" }, { "attendanceType": "part-time", "department": "園芸科", "course": "夜間・標準4年（併修・0時間目により3年卒業可能）" }],
+      "sources": [{ "title": "東京都立園芸高等学校 全日制 学校の特色", "url": "https://www.metro.ed.jp/engei-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立園芸高等学校 定時制 学校の特色", "url": "https://www.metro.ed.jp/engei-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906223", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "機械科" }, { "attendanceType": "full-time", "department": "自動車科" }, { "attendanceType": "full-time", "department": "電気科" }, { "attendanceType": "full-time", "department": "建築科" }, { "attendanceType": "part-time", "department": "総合技術科", "course": "機械・電気・建築／大工・自動車（標準4年、三修制あり）" }],
+      "sources": [{ "title": "東京都立墨田工科高等学校 全日制 学校の特色", "url": "https://www.metro.ed.jp/sumidakoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立墨田工科高等学校 定時制 学校の特色", "url": "https://www.metro.ed.jp/sumidakoka-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908150", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "機械科" }, { "attendanceType": "full-time", "department": "電気科" }, { "attendanceType": "full-time", "department": "環境化学科" }, { "attendanceType": "full-time", "department": "デュアルシステム科" }],
+      "sources": [{ "title": "東京都立多摩工科高等学校 学校の特色", "url": "https://www.metro.ed.jp/tamakoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立多摩工科高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/tamakoka-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908089", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立多摩高等学校 学校の特色", "url": "https://www.metro.ed.jp/tama-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立多摩高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/tama-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299904074", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間・4年制" }],
+      "sources": [{ "title": "東京都立大山高等学校 全日制 学校の特色", "url": "https://www.metro.ed.jp/ohyama-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立大山高等学校 定時制 学校の特色", "url": "https://www.metro.ed.jp/ohyama-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299911048", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "海洋国際科" }],
+      "sources": [{ "title": "東京都立大島海洋国際高等学校 学校の特色", "url": "https://www.metro.ed.jp/oosimakaiyokokusai-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立大島海洋国際高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/oosimakaiyokokusai-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299911011", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "full-time", "department": "農林科" }, { "attendanceType": "full-time", "department": "家政科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間・通常4年（単位認定により3年卒業可能）" }],
+      "sources": [{ "title": "東京都立大島高等学校 全日制 学校の特色", "url": "https://www.metro.ed.jp/oshima-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立大島高等学校 定時制 学校の特色", "url": "https://www.metro.ed.jp/oshima-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299901040", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間・4年制" }],
+      "sources": [{ "title": "東京都立大崎高等学校 全日制 学校の特色", "url": "https://www.metro.ed.jp/osaki-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立大崎高等学校 定時制 学校の特色", "url": "https://www.metro.ed.jp/osaki-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299901086", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間" }],
+      "sources": [{ "title": "東京都立大森高等学校 全日制 学校の特色", "url": "https://www.metro.ed.jp/omori-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立大森高等学校 定時制 学校の特色", "url": "https://www.metro.ed.jp/omori-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906161", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "総合学科", "course": "単位制・三部制（1〜3部）" }],
+      "sources": [{ "title": "東京都立大江戸高等学校 学校の特色", "url": "https://www.metro.ed.jp/oedo-he/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立大江戸高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/oedo-he/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903164", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "単位制" }],
+      "sources": [{ "title": "東京都立大泉桜高等学校 学校の特色", "url": "https://www.metro.ed.jp/oizumisakura-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立大泉桜高等学校 Q&A", "url": "https://www.metro.ed.jp/oizumisakura-h/guide/qanda.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903100", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "併設型中高一貫・高校段階の外部募集なし" }],
+      "sources": [{ "title": "東京都立大泉高等学校・附属中学校 特色", "url": "https://www.metro.ed.jp/oizumi-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都教育委員会 高校段階での生徒募集停止", "url": "https://www.kyoiku.metro.tokyo.lg.jp/information/press/2021/05/2021052705", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299901166", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "ビジネスコミュニケーション科" }],
+      "sources": [{ "title": "東京都立大田桜台高等学校 学校の特色", "url": "https://www.metro.ed.jp/otasakuradai-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立大田桜台高等学校 学校説明会・授業公開等", "url": "https://www.metro.ed.jp/otasakuradai-h/guide/meeting.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907017", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立富士森高等学校 学校の特色", "url": "https://www.metro.ed.jp/fujimori-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立富士森高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/fujimori-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903020", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "併設型中高一貫・高校段階の外部募集なし" }],
+      "sources": [{ "title": "東京都立富士高等学校・附属中学校 特色", "url": "https://www.metro.ed.jp/fuji-s/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都教育委員会 高校段階での生徒募集停止", "url": "https://www.kyoiku.metro.tokyo.lg.jp/information/press/2021/05/2021052705", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299905180", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "総合学科", "course": "単位制・三部制（1〜3部）" }],
+      "sources": [{ "title": "東京都立小台橋高等学校 特色", "url": "https://www.metro.ed.jp/odaibashi-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906125", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立小岩高等学校 特色", "url": "https://www.metro.ed.jp/koiwa-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907124", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立小川高等学校 特色", "url": "https://www.metro.ed.jp/ogawa-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299909122", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立小平南高等学校 特色", "url": "https://www.metro.ed.jp/kodairaminami-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299909088", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立小平西高等学校 特色", "url": "https://www.metro.ed.jp/kodairanishi-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立小平西高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/kodairanishi-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299909079", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "full-time", "department": "普通科", "course": "外国語コース" }],
+      "sources": [{ "title": "東京都立小平高等学校 学校の特色", "url": "https://www.metro.ed.jp/kodaira-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299914018", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立小笠原高等学校 学校の特色", "url": "https://www.metro.ed.jp/ogasawara-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299909033", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立小金井北高等学校 学校の特色", "url": "https://www.metro.ed.jp/koganeikita-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299909159", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "機械科", "course": "夜間" }, { "attendanceType": "part-time", "department": "電気・電子科", "course": "夜間" }],
+      "sources": [{ "title": "東京都立小金井工科高等学校 定時制 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/koganeikoka-he/our_school/education.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立小金井工科高等学校 定時制 学科紹介", "url": "https://www.metro.ed.jp/koganeikoka-he/our_school/course.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立小金井工科高等学校 沿革", "url": "https://www.metro.ed.jp/koganeikoka-he/our_school/symbols.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907133", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立山崎高等学校 学校の特色", "url": "https://www.metro.ed.jp/yamasaki-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299904136", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "アートクラフト科" }, { "attendanceType": "full-time", "department": "マシンクラフト科" }, { "attendanceType": "full-time", "department": "インテリア科" }, { "attendanceType": "full-time", "department": "グラフィックアーツ科" }, { "attendanceType": "full-time", "department": "デザイン科" }, { "attendanceType": "part-time", "department": "アートクラフト科", "course": "夜間・4年制" }, { "attendanceType": "part-time", "department": "マシンクラフト科", "course": "夜間・4年制" }, { "attendanceType": "part-time", "department": "インテリア科", "course": "夜間・4年制" }, { "attendanceType": "part-time", "department": "グラフィックアーツ科", "course": "夜間・4年制" }],
+      "sources": [{ "title": "東京都立工芸高等学校 全日制 特色", "url": "https://www.metro.ed.jp/kogei-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立工芸高等学校 定時制 学科紹介", "url": "https://www.metro.ed.jp/kogei-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902067", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立広尾高等学校 学習指導", "url": "https://hiroo-h.metro.ed.jp/04gakusyuu/gakusyu-shidou.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299910129", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "機械科" }, { "attendanceType": "full-time", "department": "工業技術科" }, { "attendanceType": "full-time", "department": "情報技術科" }, { "attendanceType": "full-time", "department": "電気科" }],
+      "sources": [{ "title": "東京都立府中工科高等学校 特色", "url": "https://www.metro.ed.jp/fuchukoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299910067", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立府中東高等学校 特色", "url": "https://www.metro.ed.jp/fuchuhigashi-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299910076", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立府中西高等学校 特色", "url": "https://www.metro.ed.jp/fuchunishi-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299910058", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立府中高等学校 特色", "url": "https://www.metro.ed.jp/fuchu-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299905028", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "単位制" }, { "attendanceType": "full-time", "department": "生活科学科", "course": "単位制" }],
+      "sources": [{ "title": "東京都立忍岡高等学校 特色", "url": "https://www.metro.ed.jp/shinobugaoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907115", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立成瀬高等学校 特色", "url": "https://www.metro.ed.jp/naruse-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908043", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立拝島高等学校 特色", "url": "https://www.metro.ed.jp/haijima-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299904047", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立文京高等学校 特色", "url": "https://www.metro.ed.jp/bunkyo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902138", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "普通科", "course": "単位制・1〜4部" }, { "attendanceType": "part-time", "department": "情報科", "course": "単位制・2部／4部" }, { "attendanceType": "correspondence", "department": "普通科", "course": "単位制" }],
+      "sources": [{ "title": "東京都立新宿山吹高等学校 特色", "url": "https://www.metro.ed.jp/shinjukuyamabuki-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立新宿山吹高等学校 教育課程", "url": "https://www.metro.ed.jp/shinjukuyamabuki-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299911020", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "連携型中高一貫教育" }],
+      "sources": [{ "title": "東京都立新島高等学校 特色", "url": "https://www.metro.ed.jp/niijima-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906063", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立日本橋高等学校 特色", "url": "https://www.metro.ed.jp/nihonbashi-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907071", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立日野台高等学校 特色", "url": "https://www.metro.ed.jp/hinodai-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907062", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立日野高等学校 特色", "url": "https://www.metro.ed.jp/hino-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908034", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立昭和高等学校 特色", "url": "https://www.metro.ed.jp/showa-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立昭和高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/showa-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299905126", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "総合学科", "course": "単位制・6系列" }],
+      "sources": [{ "title": "東京都立晴海総合高等学校 特色", "url": "https://www.metro.ed.jp/harumisogo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立晴海総合高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/harumisogo-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906214", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "総合技術科", "course": "夜間・4年制（機械・電気・電子類型）" }],
+      "sources": [{ "title": "東京都立本所工科高等学校 定時制 特色", "url": "https://www.metro.ed.jp/honjokoka-he/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立本所工科高等学校 定時制 類型・コース紹介", "url": "https://www.metro.ed.jp/honjokoka-he/our_school/course.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906036", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立本所高等学校 特色", "url": "https://www.metro.ed.jp/honjo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立本所高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/honjo-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903191", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "IT・環境科" }],
+      "sources": [{ "title": "東京都立杉並工科高等学校 特色", "url": "https://www.metro.ed.jp/suginamikoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立杉並工科高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/suginamikoka-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903146", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "総合学科", "course": "単位制" }],
+      "sources": [{ "title": "東京都立杉並総合高等学校 特色", "url": "https://www.metro.ed.jp/suginamisogo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立杉並総合高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/suginamisogo-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903075", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立杉並高等学校 特色", "url": "https://www.metro.ed.jp/suginami-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立杉並高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/suginami-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299909140", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "総合学科", "course": "単位制" }, { "attendanceType": "part-time", "department": "総合学科", "course": "単位制・夜間（3年／4年）" }],
+      "sources": [{ "title": "東京都立東久留米総合高等学校 全日制 特色", "url": "https://www.metro.ed.jp/higashikurumesogo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立東久留米総合高等学校 定時制 特色", "url": "https://www.metro.ed.jp/higashikurumesogo-he/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立東久留米総合高等学校 定時制 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/higashikurumesogo-he/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908070", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立東大和南高等学校 特色", "url": "https://www.metro.ed.jp/higashiyamatominami-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908052", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立東大和高等学校 特色", "url": "https://www.metro.ed.jp/higashiyamato-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立東大和高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/higashiyamato-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299909131", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立東村山西高等学校 特色", "url": "https://www.metro.ed.jp/higashimurayamanishi-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立東村山西高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/higashimurayamanishi-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299909097", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "進学応援型エンカレッジスクール" }],
+      "sources": [{ "title": "東京都立東村山高等学校 特色", "url": "https://www.metro.ed.jp/higashimurayama-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立東村山高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/higashimurayama-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906081", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立東高等学校 特色", "url": "https://www.metro.ed.jp/higashi-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立東高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/higashi-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907053", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "full-time", "department": "普通科", "course": "外国語コース" }],
+      "sources": [{ "title": "東京都立松が谷高等学校 特色", "url": "https://www.metro.ed.jp/matsugaya-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902076", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間・4年制" }],
+      "sources": [{ "title": "東京都立松原高等学校 全日制 特色", "url": "https://www.metro.ed.jp/matsubara-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立松原高等学校 定時制 学校からのメッセージ", "url": "https://www.metro.ed.jp/matsubara-he/our_school/message.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立松原高等学校 定時制 特色", "url": "https://www.metro.ed.jp/matsubara-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299904118", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "単位制" }, { "attendanceType": "part-time", "department": "普通科", "course": "単位制・夜間（原則4年、3年卒業可）" }],
+      "sources": [{ "title": "東京都立板橋有徳高等学校 全日制 特色", "url": "https://www.metro.ed.jp/itabashiyutoku-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立板橋有徳高等学校 定時制 特色", "url": "https://www.metro.ed.jp/itabashiyutoku-he/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立板橋有徳高等学校 定時制 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/itabashiyutoku-he/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299904065", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立板橋高等学校 特色", "url": "https://www.metro.ed.jp/itabashi-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立板橋高等学校 令和9年度入学生学校案内", "url": "https://www.metro.ed.jp/itabashi-h/img_sub/pamphlet/pamphlet-pdffile-645.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299904092", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "総合学科", "course": "単位制・三部制（チャレンジスクール）" }],
+      "sources": [{ "title": "東京都立桐ヶ丘高等学校 特色", "url": "https://www.metro.ed.jp/kirigaoka-he/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立桐ヶ丘高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/kirigaoka-he/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902085", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間（原則4年、3年卒業可）" }],
+      "sources": [{ "title": "東京都立桜町高等学校 全日制 特色", "url": "https://www.metro.ed.jp/sakuramachi-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立桜町高等学校 定時制 特色", "url": "https://www.metro.ed.jp/sakuramachi-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906269", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "産業科" }, { "attendanceType": "part-time", "department": "産業科", "course": "夜間・三修制／四修制" }],
+      "sources": [{ "title": "東京都立橘高等学校 全日制 特色", "url": "https://www.metro.ed.jp/tachibana-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立橘高等学校 定時制 特色", "url": "https://www.metro.ed.jp/tachibana-he/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立橘高等学校 定時制 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/tachibana-he/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903039", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立武蔵丘高等学校 特色", "url": "https://www.metro.ed.jp/musashigaoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立武蔵丘高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/musashigaoka-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908061", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立武蔵村山高等学校 特色", "url": "https://www.metro.ed.jp/musashimurayama-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立武蔵村山高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/musashimurayama-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299909015", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "併設型中高一貫校（高校段階からの募集なし）" }],
+      "sources": [{ "title": "東京都立武蔵高等学校・附属中学校 特色", "url": "https://www.metro.ed.jp/musashi-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立武蔵高等学校・附属中学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/musashi-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299910094", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立永山高等学校 特色", "url": "https://www.metro.ed.jp/nagayama-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立永山高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/nagayama-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299905064", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立江北高等学校 特色", "url": "https://www.metro.ed.jp/kohoku-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立江北高等学校 定時制課程閉課程資料", "url": "https://www.metro.ed.jp/kohoku-h/l_pdf/closed_course.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906116", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間" }],
+      "sources": [{ "title": "東京都立江戸川高等学校 全日制 特色", "url": "https://www.metro.ed.jp/edogawa-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立江戸川高等学校 定時制 特色", "url": "https://www.metro.ed.jp/edogawa-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906198", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "ビジネス科" }],
+      "sources": [{ "title": "東京都立江東商業高等学校 特色", "url": "https://www.metro.ed.jp/kotosyogyo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299905135", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "普通科", "course": "単位制・1部" }, { "attendanceType": "part-time", "department": "普通科", "course": "単位制・2部" }, { "attendanceType": "part-time", "department": "普通科", "course": "単位制・3部" }],
+      "sources": [{ "title": "東京都立浅草高等学校 特色", "url": "https://www.metro.ed.jp/asakusa-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906072", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "普通コース" }, { "attendanceType": "full-time", "department": "普通科", "course": "外国語コース" }],
+      "sources": [{ "title": "東京都立深川高等学校 特色", "url": "https://www.metro.ed.jp/fukagawa-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902101", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "単位制" }],
+      "sources": [{ "title": "東京都立深沢高等学校 特色", "url": "https://www.metro.ed.jp/fukasawa-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都教育委員会 新たな受入環境充実校について", "url": "https://www.kyoiku.metro.tokyo.lg.jp/information/press/2025/05/2025052202", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299905073", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立淵江高等学校 特色", "url": "https://www.metro.ed.jp/fuchie-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299909113", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立清瀬高等学校 特色", "url": "https://www.metro.ed.jp/kiyose-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907026", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "full-time", "department": "普通科", "course": "造形美術コース" }],
+      "sources": [{ "title": "東京都立片倉高等学校 特色", "url": "https://www.metro.ed.jp/katakura-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299910049", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立狛江高等学校 特色", "url": "https://www.metro.ed.jp/komae-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299904154", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "総合学科", "course": "単位制" }],
+      "sources": [{ "title": "東京都立王子総合高等学校 特色", "url": "https://www.metro.ed.jp/oujisogo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立王子総合高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/oujisogo-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908169", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "園芸科学科" }, { "attendanceType": "full-time", "department": "畜産科学科" }, { "attendanceType": "full-time", "department": "食品科" }, { "attendanceType": "full-time", "department": "生活デザイン科" }, { "attendanceType": "part-time", "department": "普通科・農業科", "course": "併合科・夜間（原則4年、3年卒業可）" }],
+      "sources": [{ "title": "東京都立瑞穂農芸高等学校 全日制 特色", "url": "https://www.metro.ed.jp/mizuhonogei-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立瑞穂農芸高等学校 定時制 特色", "url": "https://www.metro.ed.jp/mizuhonogei-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299901095", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立田園調布高等学校 特色", "url": "https://www.metro.ed.jp/den-enchofu-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903137", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立田柄高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/tagara-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299909168", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "機械科" }, { "attendanceType": "full-time", "department": "建築科" }, { "attendanceType": "full-time", "department": "都市工学科" }],
+      "sources": [{ "title": "東京都立田無工科高等学校 特色", "url": "https://www.metro.ed.jp/tanashikoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299909060", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立田無高等学校 特色", "url": "https://www.metro.ed.jp/tanashi-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907179", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "総合情報科" }],
+      "sources": [{ "title": "東京都立町田工科高等学校 特色", "url": "https://www.metro.ed.jp/machidakoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907142", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "総合学科", "course": "単位制" }],
+      "sources": [{ "title": "東京都立町田総合高等学校 特色", "url": "https://www.metro.ed.jp/machidasogo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299905019", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "併設型中高一貫校（高校段階からの募集なし）" }],
+      "sources": [{ "title": "都立白鷗高等学校・附属中学校 特色", "url": "https://www.metro.ed.jp/hakuo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "都立白鷗高等学校・附属中学校 入試案内", "url": "https://www.metro.ed.jp/hakuo-h/guide/guidance.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902030", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立目黒高等学校 特色", "url": "https://www.metro.ed.jp/meguro-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903084", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立石神井高等学校 特色", "url": "https://www.metro.ed.jp/shakujii-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908025", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "普通科", "course": "三部制・単位制（1部・2部・3部）" }, { "attendanceType": "correspondence", "department": "普通科", "course": "単位制" }],
+      "sources": [{ "title": "東京都立砂川高等学校 定時制 特色", "url": "https://www.metro.ed.jp/sunagawa-he/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立砂川高等学校 通信制 特色", "url": "https://www.metro.ed.jp/sunagawa-hc/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299910012", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間・原則4年" }],
+      "sources": [{ "title": "東京都立神代高等学校 全日制 特色", "url": "https://www.metro.ed.jp/jindai-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立神代高等学校 定時制 特色", "url": "https://www.metro.ed.jp/jindai-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299911039", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立神津高等学校 特色", "url": "https://www.metro.ed.jp/kouzu-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908098", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間・原則4年（外部単位により3年卒業可）" }],
+      "sources": [{ "title": "東京都立福生高等学校 全日制 特色", "url": "https://www.metro.ed.jp/fussa-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立福生高等学校 定時制 特色", "url": "https://www.metro.ed.jp/fussa-he/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908105", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "エンカレッジスクール" }],
+      "sources": [{ "title": "東京都立秋留台高等学校 特色", "url": "https://www.metro.ed.jp/akirudai-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906241", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "科学技術科" }, { "attendanceType": "full-time", "department": "創造理数科" }],
+      "sources": [{ "title": "東京都立科学技術高等学校 特色", "url": "https://www.metro.ed.jp/kagakugijyutu-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立科学技術高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/kagakugijyutu-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903155", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "総合学科", "course": "三部制・単位制（1部・2部・3部）・チャレンジスクール" }],
+      "sources": [{ "title": "東京都立稔ヶ丘高等学校 特色", "url": "https://www.metro.ed.jp/minorigaoka-he/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立稔ヶ丘高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/minorigaoka-he/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908178", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "総合学科", "course": "三部制・単位制（1部・2部・3部）・チャレンジスクール" }],
+      "sources": [{ "title": "東京都立立川緑高等学校 特色", "url": "https://www.metro.ed.jp/tachikawamidori-he/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立立川緑高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/tachikawamidori-he/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299905046", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立竹台高等学校 特色", "url": "https://www.metro.ed.jp/takenodai-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902156", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "ビジネス科" }],
+      "sources": [{ "title": "東京都立第一商業高等学校 特色", "url": "https://www.metro.ed.jp/daiichishogyo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906205", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "ビジネス科" }, { "attendanceType": "part-time", "department": "商業科", "course": "夜間・原則4年" }],
+      "sources": [{ "title": "東京都立第三商業高等学校 全日制 特色", "url": "https://www.metro.ed.jp/daisansyogyo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "令和8年度 都立高校定時制課程・通信制課程入学案内", "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/00_r8_admission_pt_cs", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299910110", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "ビジネス科" }, { "attendanceType": "part-time", "department": "商業科", "course": "夜間・原則4年" }],
+      "sources": [{ "title": "東京都立第五商業高等学校 全日制 特色", "url": "https://www.metro.ed.jp/daigosyogyo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立第五商業高等学校 定時制 Q&A", "url": "https://www.metro.ed.jp/daigosyogyo-he/guide/qanda.html", "verifiedAt": "2026-08-05" }, { "title": "令和8年度 都立高校定時制課程・通信制課程入学案内", "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/00_r8_admission_pt_cs", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903173", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "ビジネス科" }],
+      "sources": [{ "title": "東京都立第四商業高等学校 特色", "url": "https://www.metro.ed.jp/daiyonsyogyo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立第四商業高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/daiyonsyogyo-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906143", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立篠崎高等学校 特色", "url": "https://www.metro.ed.jp/shinozaki-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立篠崎高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/shinozaki-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299906152", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立紅葉川高等学校 特色", "url": "https://www.metro.ed.jp/momijigawa-h/pages/2023/04/freepage_16.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立紅葉川高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/momijigawa-h/pages/2025/04/freepage_1.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902165", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "機械・自動車科" }, { "attendanceType": "full-time", "department": "電気・情報デザイン科" }, { "attendanceType": "full-time", "department": "建築・都市工学科" }, { "attendanceType": "part-time", "department": "総合技術科", "course": "夜間・自動車／電気／建築コース" }],
+      "sources": [{ "title": "東京都立総合工科高等学校 全日制 特色", "url": "https://www.metro.ed.jp/sogokoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立総合工科高等学校 定時制 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/sogokoka-he/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902192", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "美術科" }, { "attendanceType": "full-time", "department": "舞台表現科", "course": "演劇専攻／舞踊専攻" }, { "attendanceType": "full-time", "department": "音楽科" }],
+      "sources": [{ "title": "東京都立総合芸術高等学校 特色", "url": "https://www.metro.ed.jp/sogo-geijutsu-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立総合芸術高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/sogo-geijutsu-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903208", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "キャリア技術科", "course": "機械加工技術／自動車技術／電気設備技術／電子コンピュータ技術／デザイン工芸技術系列" }],
+      "sources": [{ "title": "東京都立練馬工科高等学校 特色", "url": "https://www.metro.ed.jp/nerimakoka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立練馬工科高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/nerimakoka-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299903119", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立練馬高等学校 特色", "url": "https://www.metro.ed.jp/nerima-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立練馬高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/nerima-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299901148", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "単位制" }],
+      "sources": [{ "title": "東京都立美原高等学校 特色", "url": "https://www.metro.ed.jp/mihara-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立美原高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/mihara-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908114", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立羽村高等学校 特色", "url": "https://www.metro.ed.jp/hamura-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299907151", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "単位制" }],
+      "sources": [{ "title": "東京都立翔陽高等学校 特色", "url": "https://www.metro.ed.jp/shoyo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立翔陽高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/shoyo-h/our_school/education.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299901157", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "ビジネス科" }],
+      "sources": [{ "title": "東京都立芝商業高等学校 特色", "url": "https://www.metro.ed.jp/sibasyogyo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立芝商業高等学校 Q&A", "url": "https://www.metro.ed.jp/sibasyogyo-h/guide/qanda.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902147", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "単位制" }],
+      "sources": [{ "title": "東京都立芦花高等学校 特色", "url": "https://www.metro.ed.jp/roka-h/our_school/feature.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299910101", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "総合学科", "course": "単位制" }],
+      "sources": [{ "title": "東京都立若葉総合高等学校 特色", "url": "https://www.metro.ed.jp/wakabasogo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立若葉総合高等学校 学校からのメッセージ", "url": "https://www.metro.ed.jp/wakabasogo-h/our_school/message.html", "verifiedAt": "2026-08-05" }]
     }
   ]
 }

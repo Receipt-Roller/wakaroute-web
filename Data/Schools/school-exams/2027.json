@@ -232,6 +232,526 @@
       "verifiedAt": "2026-08-02",
       "notes": ["募集人員は70人です。"],
       "sources": [{"title": "青山学院高等部 2027年度入試日程", "url": "https://www.agh.aoyama.ed.jp/admission/schedule.html", "verifiedAt": "2026-08-02"}]
+    },
+    {
+      "schoolId": "wk_d113110000067",
+      "academicYear": 2027,
+      "selection": "general",
+      "selectionLabel": "一般入試",
+      "status": "schedule-announced",
+      "statusLabel": "概要発表済み",
+      "applicationPeriod": "2026年10月公開予定の募集要項で発表",
+      "testDates": ["2027年2月13日（土）"],
+      "resultDate": "2027年2月15日（月）",
+      "detailsStatus": "school-details-pending",
+      "detailsStatusLabel": "募集要項の発表待ち",
+      "officialPublishedAt": "2026-06-02",
+      "verifiedAt": "2026-08-05",
+      "notes": ["募集人員120人には附属中学校からの入学者（例年約60人）を含みます。", "検査は国語・社会・数学・理科・英語の5教科で、面接・実技はありません。", "推薦入試と帰国生特別枠は実施しません。"],
+      "sources": [{ "title": "お茶の水女子大学附属高校 2027年度一般入試概要", "url": "https://www.fz.ocha.ac.jp/fk/menu/guidance/d015324.html", "publishedAt": "2026-06-02", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113110000012",
+      "academicYear": 2027,
+      "selection": "general",
+      "selectionLabel": "一般中学生入試",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月4日0:00〜1月14日23:59／書類郵送：1月8日〜1月14日（消印有効）",
+      "testDates": ["2027年2月13日（土）"],
+      "resultDate": "2027年2月15日（月）17:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "officialPublishedAt": "2026-07-23",
+      "verifiedAt": "2026-08-05",
+      "notes": ["募集人員は120人です。", "国語・数学・英語・社会・理科の5教科を実施します。", "入学手続の期限を含む詳細は公式募集要項を確認してください。"],
+      "sources": [{ "title": "東京学芸大学附属高校 2027年度一般中学生募集要項", "url": "https://www.gakugei-hs.setagaya.tokyo.jp/wp/wp-content/uploads/2026/07/4c88620083e9f4c377bb8e670ed4556b.pdf", "publishedAt": "2026-07-23", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113110000012",
+      "academicYear": 2027,
+      "selection": "returnee",
+      "selectionLabel": "帰国生入試",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月4日0:00〜1月14日23:59／書類郵送：1月8日〜1月14日（消印有効）",
+      "testDates": ["2027年2月13日（土）"],
+      "resultDate": "2027年2月15日（月）17:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "officialPublishedAt": "2026-07-23",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は15人です。", "国語・数学・英語の3教科を実施します。", "出願資格の海外在留期間などは公式募集要項で確認してください。"],
+      "sources": [{ "title": "東京学芸大学附属高校 2027年度帰国生募集要項", "url": "https://www.gakugei-hs.setagaya.tokyo.jp/wp/wp-content/uploads/2026/07/f5c5c87416d45b99d2c59da4369bfd6f.pdf", "publishedAt": "2026-07-23", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113110000076",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入試（I型・II型）",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web登録：2026年11月27日〜12月2日／書類郵送：12月3日消印有効",
+      "testDates": ["2027年1月8日（金）"],
+      "resultDate": "2027年1月12日（火）",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "officialPublishedAt": "2026-07-17",
+      "verifiedAt": "2026-08-04",
+      "notes": ["I型は5分野別、II型は一括募集で、推薦全体の募集は72人以内です。", "小テスト（数学・理科第1分野）と面接を実施します。", "I型とII型は併願できません。"],
+      "sources": [{ "title": "東京科学大学附属科学技術高校 2027年度入試情報", "url": "https://admissions.g.sth.isct.ac.jp/entrance-examination", "publishedAt": "2026-07-17", "verifiedAt": "2026-08-04" }, { "title": "2027年度入試制度・日程", "url": "https://admissions.g.sth.isct.ac.jp/entrance-examination/outline", "publishedAt": "2026-06-05", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113110000076",
+      "academicYear": 2027,
+      "selection": "general",
+      "selectionLabel": "一般入試",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web登録：2027年1月13日〜1月18日／書類郵送：1月19日消印有効",
+      "testDates": ["2027年2月13日（土）"],
+      "resultDate": "2027年2月16日（火）",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "officialPublishedAt": "2026-07-17",
+      "verifiedAt": "2026-08-04",
+      "notes": ["推薦入試を含む全体の募集人員は200人です。", "国語・英語・数学の3教科を実施します。", "一般入試は分野を決めずに一括募集します。"],
+      "sources": [{ "title": "東京科学大学附属科学技術高校 2027年度入試情報", "url": "https://admissions.g.sth.isct.ac.jp/entrance-examination", "publishedAt": "2026-07-17", "verifiedAt": "2026-08-04" }, { "title": "2027年度入試制度・日程", "url": "https://admissions.g.sth.isct.ac.jp/entrance-examination/outline", "publishedAt": "2026-06-05", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113110000058",
+      "academicYear": 2027,
+      "selection": "general",
+      "selectionLabel": "一般入学者選抜",
+      "status": "schedule-announced",
+      "statusLabel": "日程発表済み",
+      "applicationPeriod": "出願書類郵送：2026年11月9日〜11月20日／調査書郵送：2026年12月21日〜2027年1月7日",
+      "testDates": ["2027年1月20日（水）〜1月24日（日）"],
+      "resultDate": "2027年1月25日（月）",
+      "detailsStatus": "school-details-pending",
+      "detailsStatusLabel": "募集要項の発表待ち",
+      "officialPublishedAt": "2026-07-10",
+      "verifiedAt": "2026-08-04",
+      "notes": ["2027年度募集要項は2026年10月19日13:00に公開予定です。", "専攻別課題、検査時間、必要書類は募集要項公開後に必ず確認してください。", "日程は公式入試ページで発表済みですが、詳細は未発表です。"],
+      "sources": [{ "title": "藝高 入学試験について", "url": "https://geiko.geidai.ac.jp/examination/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113320900054",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学試験",
+      "status": "schedule-announced",
+      "statusLabel": "日程・概要発表済み",
+      "applicationPeriod": "Web出願：2026年12月20日〜2027年1月14日／書類郵送：2027年1月15日〜1月18日",
+      "testDates": ["2027年1月22日（金）"],
+      "resultDate": "2027年1月22日（金）",
+      "detailsStatus": "school-details-pending",
+      "detailsStatusLabel": "Web版募集要項の発表待ち",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は180人です。", "個人面接を実施し、出願基準は9教科24以上と案内されています。", "正式な提出書類・手続は公開後の募集要項で確認してください。"],
+      "sources": [{ "title": "フェリシア高等学校 入試日程", "url": "https://www.felicia.ed.jp/exam/schedule/", "verifiedAt": "2026-08-04" }, { "title": "フェリシア高等学校 入試Q&A", "url": "https://www.felicia.ed.jp/exam/qa/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113320900054",
+      "academicYear": 2027,
+      "selection": "general",
+      "selectionLabel": "一般入学試験",
+      "status": "schedule-announced",
+      "statusLabel": "日程・概要発表済み",
+      "applicationPeriod": "Web出願：2026年12月20日〜2027年2月2日／書類郵送：2027年1月25日〜2月3日",
+      "testDates": ["2027年2月10日（水）"],
+      "resultDate": "2027年2月10日（水）",
+      "detailsStatus": "school-details-pending",
+      "detailsStatusLabel": "Web版募集要項の発表待ち",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は100人です。", "国語・数学・英語から1教科を選択し、単願・併願があります。", "正式な提出書類・手続は公開後の募集要項で確認してください。"],
+      "sources": [{ "title": "フェリシア高等学校 入試日程", "url": "https://www.felicia.ed.jp/exam/schedule/", "verifiedAt": "2026-08-04" }, { "title": "フェリシア高等学校 入試Q&A", "url": "https://www.felicia.ed.jp/exam/qa/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310600021",
+      "academicYear": 2027,
+      "selection": "recommendation-normal",
+      "selectionLabel": "推薦入試（普通科）",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月15日",
+      "testDates": ["2027年1月22日（金）"],
+      "resultDate": "2027年1月22日（金）17:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["推薦募集は特別進学α10人、特別進学β15人、総合進学25人です。", "A推薦・B推薦があり、条件と検査内容は公式要項で確認してください。"],
+      "sources": [{ "title": "上野学園 2027年度普通科入試", "url": "https://www.uenogakuen.ed.jp/exam/high/basicHi.html", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310600021",
+      "academicYear": 2027,
+      "selection": "general-normal",
+      "selectionLabel": "一般・併願優遇入試（普通科）",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "一般：2027年1月26日〜2月6日／併願優遇：2027年1月26日",
+      "testDates": ["2027年2月10日（水）", "2027年2月11日（木・祝）"],
+      "resultDate": "試験当日（2月10日は18:00、2月11日は17:00）",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["一般募集は特別進学α10人、特別進学β15人、総合進学25人です。", "試験日・区分ごとの出願条件と検査内容は公式要項で確認してください。"],
+      "sources": [{ "title": "上野学園 2027年度普通科入試", "url": "https://www.uenogakuen.ed.jp/exam/high/basicHi.html", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310600021",
+      "academicYear": 2027,
+      "selection": "recommendation-music",
+      "selectionLabel": "推薦入試（音楽科・器楽／声楽）",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月7日〜1月9日",
+      "testDates": ["2027年1月22日（金）"],
+      "resultDate": "2027年1月22日（金）17:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["音楽科器楽・声楽コースの募集人員は17人です。", "専攻実技などの課題・検査内容は公式要項で確認してください。"],
+      "sources": [{ "title": "上野学園 2027年度音楽科入試", "url": "https://www.uenogakuen.ed.jp/exam/high/musicHi.html", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310600021",
+      "academicYear": 2027,
+      "selection": "general-music-first",
+      "selectionLabel": "一般入試第1回（音楽科）",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月7日〜2月3日",
+      "testDates": ["2027年2月10日（水）", "2027年2月11日（木・祝）"],
+      "resultDate": "2027年2月11日（木・祝）17:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["器楽・声楽コースと演奏家コースでは検査内容が異なります。", "専攻実技の課題と検査日の割り当ては公式要項で確認してください。"],
+      "sources": [{ "title": "上野学園 2027年度音楽科入試", "url": "https://www.uenogakuen.ed.jp/exam/high/musicHi.html", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310600021",
+      "academicYear": 2027,
+      "selection": "general-music-second",
+      "selectionLabel": "一般入試第2回（音楽科）",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月7日〜2月21日",
+      "testDates": ["2027年3月2日（火）"],
+      "resultDate": "2027年3月2日（火）15:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["器楽・声楽コースと演奏家コースが対象です。", "専攻実技の課題、提出物、検査内容は公式要項で確認してください。"],
+      "sources": [{ "title": "上野学園 2027年度音楽科入試", "url": "https://www.uenogakuen.ed.jp/exam/high/musicHi.html", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311200130",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学試験",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月15日〜1月18日（消印有効）",
+      "testDates": ["2027年1月22日（金）"],
+      "resultDate": "2027年1月22日（金）16:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は100人です。", "国語・英語・数学の適性検査（各40分）、グループ面接、調査書で選考します。"],
+      "sources": [{ "title": "下北沢成徳高等学校 2027年度推薦募集要項", "url": "https://www.shimokitazawa-seitoku.ed.jp/bosyuu/yoko-suisen/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311200130",
+      "academicYear": 2027,
+      "selection": "general-first",
+      "selectionLabel": "一般入学試験 第1回",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日〜2月5日",
+      "testDates": ["2027年2月10日（水）"],
+      "resultDate": "2027年2月10日（水）18:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["一般入試全体の募集人員は100人です。", "国語・英語・数学（各50分）、グループ面接、調査書で選考します。"],
+      "sources": [{ "title": "下北沢成徳高等学校 2027年度一般募集要項", "url": "https://www.shimokitazawa-seitoku.ed.jp/bosyuu/yoko-ippan/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311200130",
+      "academicYear": 2027,
+      "selection": "general-second",
+      "selectionLabel": "一般入学試験 第2回",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日〜2月5日",
+      "testDates": ["2027年2月12日（金）"],
+      "resultDate": "2027年2月12日（金）17:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["一般入試全体の募集人員は100人です。", "国語・英語・数学（各50分）、グループ面接、調査書で選考します。"],
+      "sources": [{ "title": "下北沢成徳高等学校 2027年度一般募集要項", "url": "https://www.shimokitazawa-seitoku.ed.jp/bosyuu/yoko-ippan/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311200130",
+      "academicYear": 2027,
+      "selection": "general-third",
+      "selectionLabel": "一般入学試験 第3回",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年3月1日〜3月3日（窓口出願）",
+      "testDates": ["2027年3月4日（木）"],
+      "resultDate": "2027年3月4日（木）14:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["一般入試全体の募集人員は100人です。", "第3回は窓口出願です。検査科目・面接・提出書類を公式要項で確認してください。"],
+      "sources": [{ "title": "下北沢成徳高等学校 2027年度一般募集要項", "url": "https://www.shimokitazawa-seitoku.ed.jp/bosyuu/yoko-ippan/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113321000024",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "一般公募制推薦入試（単願）",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月15日（金）0:00〜1月17日（日）14:00（書類は最終日消印有効）",
+      "testDates": ["2027年1月22日（金）"],
+      "resultDate": "2027年1月23日（土）6:00〜1月24日（日）正午",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は男女約80人です。", "小論文、英語・数学の基礎学力試験、内申をもとに判定します。", "単願で、必修9教科に評定1・2がないことなどの出願条件があります。"],
+      "sources": [{ "title": "中央大学附属高等学校 2027年度入試概要", "url": "https://www.hs.chuo-u.ac.jp/senior/se-exam/se-examinfo/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113321000024",
+      "academicYear": 2027,
+      "selection": "general",
+      "selectionLabel": "一般入学試験",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）0:00〜2月4日（木）14:00（書類は最終日消印有効）",
+      "testDates": ["2027年2月10日（水）"],
+      "resultDate": "2027年2月11日（木・祝）6:00〜2月12日（金）正午",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は男女約120人です。", "国語・英語・数学各100点と調査書をもとに総合判定します。", "各教科の合格最低点は設けないと案内されています。"],
+      "sources": [{ "title": "中央大学附属高等学校 2027年度入試概要", "url": "https://www.hs.chuo-u.ac.jp/senior/se-exam/se-examinfo/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113321000024",
+      "academicYear": 2027,
+      "selection": "returnee",
+      "selectionLabel": "帰国生入学試験",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2026年12月8日（火）0:00〜12月13日（日）14:00／書類：12月8日〜12月15日必着",
+      "testDates": ["2027年1月8日（金）"],
+      "resultDate": "2027年1月9日（土）6:00〜1月10日（日）正午",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は男女若干名です。", "国語・英語・数学の3教科を実施します。", "2026年11月1日〜11月29日に出願資格認定を受ける必要があります。"],
+      "sources": [{ "title": "中央大学附属高等学校 2027年度入試概要", "url": "https://www.hs.chuo-u.ac.jp/senior/se-exam/se-examinfo/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310500013",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学試験",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web入力：2026年12月21日（月）〜／書類：2027年1月15日（金）必着",
+      "testDates": ["2027年1月22日（金）"],
+      "resultDate": "2027年1月22日（金）22:00頃",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は男子25人・女子25人です。", "個人面接、英語・国語・数学・理科・社会の基礎学力調査、調査書で判定します。", "9教科評定37以上、3年間の評定1・2なしなどの条件があります。"],
+      "sources": [{ "title": "中央大学高等学校 2027年度入試要項", "url": "https://www.cu-hs.chuo-u.ac.jp/examination/outline/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310500013",
+      "academicYear": 2027,
+      "selection": "general",
+      "selectionLabel": "一般入学試験",
+      "status": "schedule-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web入力：2026年12月21日（月）〜／書類：2027年1月25日（月）〜2月2日（火、消印有効）",
+      "testDates": ["2027年2月11日（木・祝）"],
+      "resultDate": "2027年2月12日（金）22:00頃",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は男女70人です。", "国語・数学・英語の筆記試験、6〜7人のグループ面接、調査書で総合判定します。", "公立高校併願者向けの一部延納制度があります。"],
+      "sources": [{ "title": "中央大学高等学校 2027年度入試要項", "url": "https://www.cu-hs.chuo-u.ac.jp/examination/outline/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311600010", "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月25日（月）0:00〜2月7日（日）23:59、書類：1月26日（火）〜2月9日（火）必着", "testDates": ["2027年2月14日（日）"], "resultDate": "2027年2月14日（日）19:00〜2月15日（月）15:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["普通科第1学年男子約20名。国語・数学・英語各60分です。", "推薦、帰国子弟、単願優先、二次募集はありません。"],
+      "sources": [{ "title": "学習院高等科 2027年度入試要項", "url": "https://www.gakushuin.ac.jp/bsh/admission/outline.html", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310700020", "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（A推薦・B推薦）", "status": "provisional", "statusLabel": "抜粋版発表済み・正式版待ち",
+      "applicationPeriod": "Web作成：2026年12月20日（日）10:00〜2027年1月14日（木）13:00、書類：1月15日（金）〜1月16日（土）必着", "testDates": ["2027年1月22日（金）"], "resultDate": "試験当日22:00〜翌日11:00 Web発表", "detailsStatus": "provisional", "detailsStatusLabel": "2027年度抜粋版（正式版は9月予定）", "verifiedAt": "2026-08-04",
+      "notes": ["S特・特進を募集し、推薦入試全体で100名です。", "国語・英語（リスニング含む）・数学の適性検査各50分と調査書で選考します。"],
+      "sources": [{ "title": "安田学園 2027年度高校生徒募集要項（抜粋）", "url": "https://www.yasuda.ed.jp/wordpress/wp-content/uploads/2026/06/20260610-6a28d8d222c9e.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310700020", "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試（併願優遇・フリー）", "status": "provisional", "statusLabel": "抜粋版発表済み・正式版待ち",
+      "applicationPeriod": "Web作成：2026年12月20日（日）10:00〜2027年1月23日（土）13:00、書類：1月26日（火）〜1月28日（木）必着", "testDates": ["2027年2月11日（木・祝）"], "resultDate": "試験当日22:00〜翌日11:00 Web発表", "detailsStatus": "provisional", "detailsStatusLabel": "2027年度抜粋版（正式版は9月予定）", "verifiedAt": "2026-08-04",
+      "notes": ["一般入試全体で100名。S特・特進を募集します。", "国語・英語（リスニング含む）・数学の学力試験各50分と調査書で選考します。"],
+      "sources": [{ "title": "安田学園 2027年度高校生徒募集要項（抜粋）", "url": "https://www.yasuda.ed.jp/wordpress/wp-content/uploads/2026/06/20260610-6a28d8d222c9e.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311700019", "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（A推薦・B推薦）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月15日（金）〜1月17日（日）16:00、書類：1月19日（火）消印有効", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）速達郵送", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["商業科女子100名。A推薦は第一志望、B推薦は都外生対象の公立高校第一志望です。", "A推薦は個人面接、B推薦は国語・数学・英語を合わせた50分の適性検査と個人面接です。"],
+      "sources": [{ "title": "安部学院高等学校 2027年度生徒募集要項", "url": "https://www.abe-gakuin.ed.jp/wp-content/themes/abe_gakuin_theme/pdf/bosyuyoko2027.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311700019", "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月25日（月）〜2月7日（日）16:00、書類：2月8日（月）消印有効", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月11日（木）速達郵送", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["商業科女子100名。第一志望と第2志望（都内生の併願優遇を含む）があります。", "国語必答と数学または英語の計2教科各45分、個人面接で選考します。"],
+      "sources": [{ "title": "安部学院高等学校 2027年度生徒募集要項", "url": "https://www.abe-gakuin.ed.jp/wp-content/themes/abe_gakuin_theme/pdf/bosyuyoko2027.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311400012", "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月15日（金）〜1月16日（土）16:00、書類：1月16日（土）消印有効", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）7:00〜12:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["普通科男女130名。特別進学、リベラルアーツ＆サイエンス、文理進学、スポーツ・キャリアを募集します。", "600字作文50分と個人面接約10分を実施します。"],
+      "sources": [{ "title": "実践学園高等学校 2027年度生徒募集要項", "url": "https://www.jissengakuen-h.ed.jp/exam/exam_infomation_shs/pdf/2027sh-boshuu.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311400012", "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月25日（月）〜2月2日（火）16:00、書類：2月2日（火）消印有効", "testDates": ["2027年2月10日（水）", "2027年2月11日（木・祝）（いずれかを選択）"], "resultDate": "2027年2月12日（金）7:00〜12:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["普通科男女140名。東大難関プレミアを含む5コースを募集します。", "国語・英語（リスニング含む）・数学各50分とグループ面接約10分を実施します。", "全コースで公立・私立の併願が可能ですが、東大難関プレミアには併願優遇がありません。"],
+      "sources": [{ "title": "実践学園高等学校 2027年度生徒募集要項", "url": "https://www.jissengakuen-h.ed.jp/exam/exam_infomation_shs/pdf/2027sh-boshuu.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311300077", "academicYear": 2027, "selection": "will-recommendation", "selectionLabel": "WILL推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月15日（金）〜1月16日（土）、調査書・推薦書：1月20日（水）必着", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）17:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["女子50名。アドバンストA・B・インターまたはグローバルコースを募集します。", "志望理由などの作文と受験生面接を実施します。", "合格者は2月10日にアドバンスト入試またはグローバル入試を受験します。"],
+      "sources": [{ "title": "富士見丘高等学校 2027年度生徒募集要項", "url": "https://www.fujimigaoka.ac.jp/wordpress/wp-content/uploads/2026/06/20260622-6a3892c2b61e8.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311300077", "academicYear": 2027, "selection": "advanced-general", "selectionLabel": "アドバンスト入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月25日（月）〜2月4日（木）、調査書：2月5日（金）必着", "testDates": ["2027年2月10日（水）", "2027年2月11日（木・祝）", "2027年2月12日（金）"], "resultDate": "各試験日19:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["女子40名。アドバンストA・B・インターを募集します。", "英語（リスニング含む）50分と、国語または数学の1科目50分で選考します。", "B・インター出願者には英語面接5分があります。検定料23,000円で複数回受験できます。"],
+      "sources": [{ "title": "富士見丘高等学校 2027年度生徒募集要項", "url": "https://www.fujimigaoka.ac.jp/wordpress/wp-content/uploads/2026/06/20260622-6a3892c2b61e8.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311300077", "academicYear": 2027, "selection": "global-general", "selectionLabel": "グローバル入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月25日（月）〜2月4日（木）、調査書：2月5日（金）必着", "testDates": ["2027年2月10日（水）", "2027年2月11日（木・祝）", "2027年2月12日（金）"], "resultDate": "各試験日19:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["女子40名。グローバルコースを募集します。", "国語・数学・英語各50分の3教科で選考します。", "検定料23,000円で複数回受験できます。"],
+      "sources": [{ "title": "富士見丘高等学校 2027年度生徒募集要項", "url": "https://www.fujimigaoka.ac.jp/wordpress/wp-content/uploads/2026/06/20260622-6a3892c2b61e8.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310500120", "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（A・B・C推薦）", "status": "overview-announced", "statusLabel": "抜粋版発表済み",
+      "applicationPeriod": "Web出願後、出願書類を郵送または窓口へ提出。期間は詳細版で確認", "testDates": ["2027年1月22日（金）"], "resultDate": "詳細版で確認", "detailsStatus": "overview-announced", "detailsStatusLabel": "抜粋版発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["女子50名。特別選抜クラスと選抜クラスを募集します。", "A推薦は作文50分・個人面接、B推薦は国語・数学・英語の適性検査、C推薦は適性検査と個人面接です。", "3教科の最高得点1科目を1.5倍にする350点満点の傾斜配点です。"],
+      "sources": [{ "title": "小石川淑徳学園 2027年度高等学校入試要項", "url": "https://ssc1892.ed.jp/rec_hs/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310500120", "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試 第1回・第2回", "status": "overview-announced", "statusLabel": "抜粋版発表済み",
+      "applicationPeriod": "Web出願後、出願書類を郵送または窓口へ提出。期間は詳細版で確認", "testDates": ["2027年2月10日（水）", "2027年2月12日（金）"], "resultDate": "詳細版で確認", "detailsStatus": "overview-announced", "detailsStatusLabel": "抜粋版発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["女子50名。推薦と合わせて特別選抜クラス40名・選抜クラス60名の募集枠です。", "国語・数学・英語を各50分で実施します。", "3教科の最高得点1科目を1.5倍にする350点満点の傾斜配点です。"],
+      "sources": [{ "title": "小石川淑徳学園 2027年度高等学校入試要項", "url": "https://ssc1892.ed.jp/rec_hs/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113320100043", "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "overview-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "2026年9月上旬公開予定の正式募集要項で確認", "testDates": ["2027年1月22日（金）"], "resultDate": "正式募集要項で確認", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項公開待ち", "verifiedAt": "2026-08-04",
+      "notes": ["先進文理・文理・インターナショナルの男女を募集します。", "書類選考、作文、面接で選考予定です。", "公式サイトは正式募集要項を2026年9月上旬に掲載予定と案内しています。"],
+      "sources": [{ "title": "工学院大学附属高等学校 2027年度入試概要", "url": "https://www.js.kogakuin.ac.jp/admissions/senior/vn7fb30000000701-att/2027_senior_admissions_recommendation_criteria.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113320100043", "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試 第1回・第2回", "status": "overview-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "2026年9月上旬公開予定の正式募集要項で確認", "testDates": ["2027年2月10日（水）", "2027年2月12日（金）"], "resultDate": "正式募集要項で確認", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項公開待ち", "verifiedAt": "2026-08-04",
+      "notes": ["先進文理・文理・インターナショナルの男女を募集します。", "国語・数学・英語、書類選考、面接で選考予定です。", "併願優遇の推薦基準は公表されていますが、出願期間等は正式要項で再確認してください。"],
+      "sources": [{ "title": "工学院大学附属高等学校 2027年度入試概要", "url": "https://www.js.kogakuin.ac.jp/admissions/senior/vn7fb30000000701-att/2027_senior_admissions_recommendation_criteria.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113320100025", "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "overview-announced", "statusLabel": "予定発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月21日（木）、書類郵送必着", "testDates": ["2027年1月22日（金）9:00"], "resultDate": "2027年1月22日（金）13:00", "detailsStatus": "overview-announced", "detailsStatusLabel": "予定発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["特進5名、進学20名の男女を募集予定です。", "作文50分（400字）と面接で選考します。", "学校長推薦・第一志望のみで、入試相談が必要です。"],
+      "sources": [{ "title": "帝京八王子高等学校 2027年度募集要項（予定）", "url": "https://teihachi.ed.jp/exam/hs-exam/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113320100025", "academicYear": 2027, "selection": "general-first", "selectionLabel": "一般入試 第1回", "status": "overview-announced", "statusLabel": "予定発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月10日（水）、書類郵送必着", "testDates": ["2027年2月11日（木・祝）9:00"], "resultDate": "2027年2月11日（木・祝）13:30", "detailsStatus": "overview-announced", "detailsStatusLabel": "予定発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["特進20名、進学50名の男女を募集予定です。", "国語・数学・英語のマークシート式学力試験を連続120分で行い、面接も実施します。", "当日の得点により進学コース出願者が特進コース合格になる場合があります。"],
+      "sources": [{ "title": "帝京八王子高等学校 2027年度募集要項（予定）", "url": "https://teihachi.ed.jp/exam/hs-exam/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113320100025", "academicYear": 2027, "selection": "general-second", "selectionLabel": "一般入試 第2回", "status": "overview-announced", "statusLabel": "予定発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月12日（金）、書類郵送必着", "testDates": ["2027年2月13日（土）9:00"], "resultDate": "2027年2月13日（土）13:00", "detailsStatus": "overview-announced", "detailsStatusLabel": "予定発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["特進5名、進学20名の男女を募集予定です。", "国語・数学・英語から2科目を選び、計100分の学力試験と面接を実施します。"],
+      "sources": [{ "title": "帝京八王子高等学校 2027年度募集要項（予定）", "url": "https://teihachi.ed.jp/exam/hs-exam/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113320100025", "academicYear": 2027, "selection": "secondary", "selectionLabel": "2次募集（予定）", "status": "overview-announced", "statusLabel": "予定発表済み",
+      "applicationPeriod": "2027年2月25日（木）〜3月4日（木）、窓口持参", "testDates": ["2027年3月5日（金）9:00"], "resultDate": "2027年3月5日（金）13:00", "detailsStatus": "overview-announced", "detailsStatusLabel": "実施有無を公式で確認", "verifiedAt": "2026-08-04",
+      "notes": ["男女若干名の募集予定です。", "国語・数学・英語から2科目を選ぶ学力試験と面接を実施予定です。"],
+      "sources": [{ "title": "帝京八王子高等学校 2027年度募集要項（予定）", "url": "https://teihachi.ed.jp/exam/hs-exam/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113320100034", "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試・併願優遇入試", "status": "details-announced", "statusLabel": "入試要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月25日（月）10:00〜2月6日（土）16:00、書類：2月6日（土）消印有効", "testDates": ["2027年2月11日（木）9:00"], "resultDate": "2027年2月12日（金）9:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別入試要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["普通科男女60名を募集します。", "国語・英語・数学を各50分で実施し、5人1組のグループ面接を行います。", "併願優遇は入試相談で基準を確認した公立中学校在籍者に当日点30点を加点します。"],
+      "sources": [{ "title": "帝京大学高等学校 2027年度入学試験要項", "url": "https://www.teikyo-u.ed.jp/contents/wp-content/uploads/2026/05/5c762a78707b068b21526f780a8c21c6.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311900044", "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "入試要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月15日（金）〜1月16日（土）12:00、書類：1月16日（土）消印有効", "testDates": ["2027年1月22日（金）8:20集合"], "resultDate": "2027年1月22日（金）14:30頃 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別入試要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["男女合計100名を募集します。", "英語40点・国語30点・数学30点の適性検査を50分で行い、グループ面接を実施します。", "出願には入試相談が必要です。"],
+      "sources": [{ "title": "帝京高等学校 2027年度入試要項", "url": "https://www.teikyo.ed.jp/exam_s/outline_s/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113311900044", "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試・併願優遇", "status": "details-announced", "statusLabel": "入試要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月25日（月）〜2月4日（木）12:00（アスリートは1月28日まで）、書類は各締切日消印有効", "testDates": ["2027年2月10日（水）8:20集合", "2027年2月11日（木）8:20集合（いずれかを選択。アスリートは11日のみ）"], "resultDate": "試験当日15:30頃 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別入試要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["男女合計100名を募集し、インターナショナルの海外留学課程は募集しません。", "国語・英語・数学各50分と面接が基本です。インターナショナルは英語・英語エッセー・日英面接の英語1科型も選べます。", "一般は入試相談不要、東京都・神奈川県の併願優遇は入試相談が必要です。"],
+      "sources": [{ "title": "帝京高等学校 2027年度入試要項", "url": "https://www.teikyo.ed.jp/exam_s/outline_s/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolId": "wk_d113310400032", "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試（一般・第一志望優遇・併願優遇）", "status": "overview-announced", "statusLabel": "入試情報発表済み",
+      "applicationPeriod": "公式募集要項PDFまたは学校説明会で確認", "testDates": ["2027年2月10日（水）", "2027年2月11日（木）"], "resultDate": "公式募集要項PDFで確認", "detailsStatus": "overview-announced", "detailsStatusLabel": "出願・発表時刻は募集要項で確認", "verifiedAt": "2026-08-05",
+      "notes": ["女子90名。第1回のみ第一志望優遇を利用できます。", "国語・数学・英語各50分の学力試験と面接で選考します。", "同じ2027年度ページの推薦試験日は『2026年1月22日(金)』と記載され、年度・曜日が整合しません。推測で補正せず、学校へ直接確認してください。"],
+      "sources": [{ "title": "成女高等学校 2027年度入試情報", "url": "https://www.seijo-gk.ac.jp/entrance/senior-exam/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113320300032", "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（単願推薦）", "status": "overview-announced", "statusLabel": "募集概要発表済み",
+      "applicationPeriod": "Web：2027年1月15日（金）9:00〜1月18日（月）13:00、書類：1月19日（火）必着", "testDates": ["2027年1月22日（金）8:10集合"], "resultDate": "2027年1月23日（土）10:00 Web・公式サイト・校内掲示", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項は2026年9月26日公開予定", "verifiedAt": "2026-08-05",
+      "notes": ["男女合わせて約25名。単願推薦です。", "国語・数学・英語（リスニング含む）各45分の適性検査、書類審査、受験生面接で選考します。"],
+      "sources": [{ "title": "成蹊高等学校 2027進学ガイドブック", "url": "https://www.seikei.ac.jp/jsh/upload/jsh_guide2027.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113320300032", "academicYear": 2027, "selection": "returnee", "selectionLabel": "帰国生入試", "status": "overview-announced", "statusLabel": "募集概要発表済み",
+      "applicationPeriod": "Web：2026年12月21日（月）9:00〜2027年1月12日（火）13:00、書類：1月13日（水）必着", "testDates": ["2027年1月22日（金）8:10集合"], "resultDate": "2027年1月23日（土）10:00 Web・公式サイト・校内掲示", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項は2026年9月26日公開予定", "verifiedAt": "2026-08-05",
+      "notes": ["男女合わせて若干名。海外在籍期間と帰国時期などの応募資格があります。", "国語（古典を除く）・数学・英語（リスニング含む）各60分、受験生面接、書類審査で選考します。"],
+      "sources": [{ "title": "成蹊高等学校 2027進学ガイドブック", "url": "https://www.seikei.ac.jp/jsh/upload/jsh_guide2027.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113320300032", "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "overview-announced", "statusLabel": "募集概要発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）9:00〜1月30日（土）13:00、書類：2月1日（月）必着。追加窓口受付は2月3日（水）正午まで", "testDates": ["2027年2月10日（水）8:10集合"], "resultDate": "2027年2月11日（木・祝）15:00 Web・公式サイト・校内掲示", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項は2026年9月26日公開予定", "verifiedAt": "2026-08-05",
+      "notes": ["男女合わせて約60名。", "国語・数学・英語（リスニング含む）各60分、受験生面接、調査書審査で選考します。"],
+      "sources": [{ "title": "成蹊高等学校 2027進学ガイドブック", "url": "https://www.seikei.ac.jp/jsh/upload/jsh_guide2027.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299902138", "academicYear": 2027, "selection": "correspondence-front", "selectionLabel": "通信制課程 前期選抜", "status": "schedule-announced", "statusLabel": "共通日程発表済み",
+      "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年2月4日17:00／書類提出：2027年1月29日〜2月4日", "testDates": ["2027年2月22日（月）"], "resultDate": "2027年3月1日（月）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "学校別詳細の発表待ち", "officialPublishedAt": "2026-05-28", "verifiedAt": "2026-08-05",
+      "notes": ["東京都教育委員会から通信制課程前期選抜の共通日程が発表されています。", "募集人員、検査内容など学校固有の詳細は未発表です。", "令和9年度実施要綱・同細目は2026年9月に公表予定です。"],
+      "sources": [{ "title": "令和9年度東京都立高等学校入学者選抜の日程について", "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528", "publishedAt": "2026-05-28", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299908025", "academicYear": 2027, "selection": "correspondence-front", "selectionLabel": "通信制課程 前期選抜", "status": "schedule-announced", "statusLabel": "共通日程発表済み",
+      "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年2月4日17:00／書類提出：2027年1月29日〜2月4日", "testDates": ["2027年2月22日（月）"], "resultDate": "2027年3月1日（月）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "学校別詳細の発表待ち", "officialPublishedAt": "2026-05-28", "verifiedAt": "2026-08-05",
+      "notes": ["第1学年相当を対象とする前期選抜の共通日程です。", "募集人員、検査内容、必要書類など砂川高校通信制固有の詳細は学校別募集要項で確認してください。", "後期選抜の日程は別途定められます。"],
+      "sources": [{ "title": "令和9年度東京都立高等学校入学者選抜の日程について", "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528", "publishedAt": "2026-05-28", "verifiedAt": "2026-08-05" }]
     }
   ],
   "sharedSchedules": [
@@ -251,7 +771,75 @@
         "wk_d113299904056",
         "wk_d113299904010",
         "wk_d113299906107",
-        "wk_d113299909024"
+        "wk_d113299909024",
+        "wk_d113299905037",
+        "wk_d113299903093",
+        "wk_d113299901111",
+        "wk_d113299909104",
+        "wk_d113299902183",
+        "wk_d113299906090",
+        "wk_d113299906027",
+        "wk_d113299909177",
+        "wk_d113299902129",
+        "wk_d113299903182",
+        "wk_d113299909051",
+        "wk_d113299908123",
+        "wk_d113299909042",
+        "wk_d113299903128",
+        "wk_d113299913019",
+      "wk_d113299901059",
+      "wk_d113299907044",
+      "wk_d113299907188",
+      "wk_d113299901139",
+      "wk_d113299904145",
+      "wk_d113299904127",
+      "wk_d113299902094",
+      "wk_d113299907080",
+      "wk_d113299906054",
+      "wk_d113299904029",
+      "wk_d113299902174",
+      "wk_d113299906223",
+      "wk_d113299908150",
+      "wk_d113299908089",
+      "wk_d113299904074",
+      "wk_d113299911048",
+      "wk_d113299911011",
+      "wk_d113299901040",
+      "wk_d113299901086",
+      "wk_d113299903164",
+      "wk_d113299901166",
+      "wk_d113299907017",
+      "wk_d113299906125",
+      "wk_d113299907124",
+      "wk_d113299909122",
+      "wk_d113299909088",
+      "wk_d113299909079",
+      "wk_d113299909033",
+      "wk_d113299907133",
+      "wk_d113299904136",
+      "wk_d113299902067",
+      "wk_d113299910129",
+      "wk_d113299910067",
+      "wk_d113299910076",
+      "wk_d113299910058",
+      "wk_d113299905028",
+      "wk_d113299907115",
+      "wk_d113299908043",
+      "wk_d113299904047",
+      "wk_d113299902138",
+      "wk_d113299906063",
+      "wk_d113299907071",
+      "wk_d113299907062",
+      "wk_d113299903146",
+      "wk_d113299903075",
+      "wk_d113299909140",
+      "wk_d113299908070",
+      "wk_d113299908052",
+      "wk_d113299909131",
+      "wk_d113299909097",
+      "wk_d113299906081",
+      "wk_d113299907053",
+      "wk_d113299902076"
       ],
       "academicYear": 2027,
       "selection": "recommendation",
@@ -298,7 +886,79 @@
         "wk_d113299904056",
         "wk_d113299904010",
         "wk_d113299906107",
-        "wk_d113299909024"
+        "wk_d113299909024",
+        "wk_d113299905037",
+        "wk_d113299903093",
+        "wk_d113299901111",
+        "wk_d113299909104",
+        "wk_d113299902183",
+        "wk_d113299906090",
+        "wk_d113299906027",
+        "wk_d113299909177",
+        "wk_d113299902110",
+        "wk_d113299902129",
+        "wk_d113299903182",
+        "wk_d113299909051",
+        "wk_d113299908123",
+        "wk_d113299909042",
+        "wk_d113299903128",
+        "wk_d113299913019",
+      "wk_d113299901059",
+      "wk_d113299907044",
+      "wk_d113299907188",
+      "wk_d113299901139",
+      "wk_d113299904145",
+      "wk_d113299904127",
+      "wk_d113299902094",
+      "wk_d113299907080",
+      "wk_d113299906054",
+      "wk_d113299904029",
+      "wk_d113299902174",
+      "wk_d113299906223",
+      "wk_d113299908150",
+      "wk_d113299908089",
+      "wk_d113299904074",
+      "wk_d113299911048",
+      "wk_d113299911011",
+      "wk_d113299901040",
+      "wk_d113299901086",
+      "wk_d113299903164",
+      "wk_d113299901166",
+      "wk_d113299907017",
+      "wk_d113299906125",
+      "wk_d113299907124",
+      "wk_d113299909122",
+      "wk_d113299909088",
+      "wk_d113299909079",
+      "wk_d113299914018",
+      "wk_d113299909033",
+      "wk_d113299909159",
+      "wk_d113299907133",
+      "wk_d113299904136",
+      "wk_d113299902067",
+      "wk_d113299910129",
+      "wk_d113299910067",
+      "wk_d113299910076",
+      "wk_d113299910058",
+      "wk_d113299905028",
+      "wk_d113299907115",
+      "wk_d113299908043",
+      "wk_d113299904047",
+      "wk_d113299902138",
+      "wk_d113299911020",
+      "wk_d113299906063",
+      "wk_d113299907071",
+      "wk_d113299907062",
+      "wk_d113299903146",
+      "wk_d113299903075",
+      "wk_d113299909140",
+      "wk_d113299908070",
+      "wk_d113299908052",
+      "wk_d113299909131",
+      "wk_d113299909097",
+      "wk_d113299906081",
+      "wk_d113299907053",
+      "wk_d113299902076"
       ],
       "academicYear": 2027,
       "selection": "general-first",
@@ -327,6 +987,1169 @@
           "verifiedAt": "2026-08-02"
         }
       ]
+    },
+    {
+      "schoolIds": ["wk_d113310800010"],
+      "academicYear": 2027,
+      "selection": "general",
+      "selectionLabel": "一般入試",
+      "status": "details-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月5日（金）必着",
+      "testDates": ["2027年2月11日（木・祝）8:30集合"],
+      "resultDate": "2027年2月11日（木・祝）18:30",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "学校別詳細発表済み",
+      "officialPublishedAt": null,
+      "verifiedAt": "2026-08-05",
+      "notes": [
+        "募集人員は10人です。",
+        "統合型筆記、グループワーク、プレゼンテーションで選考します。",
+        "入試相談・併願優遇制度はありません。出願前に最新要項を公式サイトで再確認してください。"
+      ],
+      "sources": [{
+        "title": "かえつ有明高等学校 2027年度募集要項",
+        "url": "https://www.ariake.kaetsu.ac.jp/contents/wp-content/uploads/2026/06/df1a1c1a625b143b17de9cbf00553978.pdf",
+        "verifiedAt": "2026-08-05"
+      }]
+    },
+    {
+      "schoolIds": ["wk_d113311700073"],
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入試（A推薦・B推薦）",
+      "status": "details-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月16日（土）",
+      "testDates": ["2027年1月22日（金）"],
+      "resultDate": "2027年1月23日（土）13:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "学校別詳細発表済み",
+      "officialPublishedAt": null,
+      "verifiedAt": "2026-08-05",
+      "notes": [
+        "募集人員は本科10人、インターナショナルStandard Group 10人、Advanced Group 10人です。",
+        "コース・グループにより作文、英語エッセイ、面接などの検査内容が異なります。",
+        "推薦区分ごとの応募資格、評定、欠席日数等は公式募集要項で確認してください。"
+      ],
+      "sources": [{
+        "title": "サレジアン国際学園高等学校 2027年度募集要項",
+        "url": "https://www.salesian.international.seibi.ac.jp/contents/wp-content/uploads/2026/07/97a2091ef0f7080d1422c5a995ceaf6d.pdf",
+        "verifiedAt": "2026-08-05"
+      }]
+    },
+    {
+      "schoolIds": ["wk_d113311700073"],
+      "academicYear": 2027,
+      "selection": "general",
+      "selectionLabel": "一般入試",
+      "status": "details-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月5日（金）",
+      "testDates": ["2027年2月11日（木・祝）"],
+      "resultDate": "2027年2月12日（金）13:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "学校別詳細発表済み",
+      "officialPublishedAt": null,
+      "verifiedAt": "2026-08-05",
+      "notes": [
+        "募集人員は本科10人、インターナショナルStandard Group 10人、Advanced Group 10人です。",
+        "本科・SGは英語・国語・数学、AGは英語筆記・英語エッセイ・英語および日本語面接を行います。",
+        "出願資格、試験時程、持ち物は公式募集要項で最新情報を確認してください。"
+      ],
+      "sources": [{
+        "title": "サレジアン国際学園高等学校 2027年度募集要項",
+        "url": "https://www.salesian.international.seibi.ac.jp/contents/wp-content/uploads/2026/07/97a2091ef0f7080d1422c5a995ceaf6d.pdf",
+        "verifiedAt": "2026-08-05"
+      }]
+    },
+    {
+      "schoolIds": ["wk_d113310100115"],
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入試（A・B・C推薦）",
+      "status": "details-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月16日（土、消印有効）",
+      "testDates": ["2027年1月22日（金）"],
+      "resultDate": "2027年1月22日（金）19:00 Web発表",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "学校別詳細発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は120人（特進約40人）です。", "適性検査（マークシート式）と面接を行います。", "A・B・C推薦で出願基準と併願条件が異なるため、公式資料で確認してください。"],
+      "sources": [{ "title": "二松学舎大学附属高等学校 2027年度入試概要", "url": "https://www.nishogakusha-highschool.ac.jp/media/20260722-102036-409.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113310100115"],
+      "academicYear": 2027,
+      "selection": "general-first",
+      "selectionLabel": "一般入試I・併願優遇I",
+      "status": "details-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月3日（水、消印有効）",
+      "testDates": ["2027年2月10日（水）"],
+      "resultDate": "2027年2月10日（水）19:00 Web発表",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "学校別詳細発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は80人です。", "一般Iは英語・国語・数学の筆記と面接、併願優遇Iは適性検査と面接です。", "東京都・神奈川県の併願優遇には入試相談が必要です。"],
+      "sources": [{ "title": "二松学舎大学附属高等学校 2027年度入試概要", "url": "https://www.nishogakusha-highschool.ac.jp/media/20260722-102036-409.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113310100115"],
+      "academicYear": 2027,
+      "selection": "general-second",
+      "selectionLabel": "一般入試II・併願優遇II",
+      "status": "details-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月3日（水、消印有効）",
+      "testDates": ["2027年2月12日（金）"],
+      "resultDate": "2027年2月12日（金）19:00 Web発表",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "学校別詳細発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は50人です。", "一般IIは英語・国語・数学の筆記と面接、併願優遇IIは適性検査と面接です。", "東京都・神奈川県の併願優遇には入試相談が必要です。"],
+      "sources": [{ "title": "二松学舎大学附属高等学校 2027年度入試概要", "url": "https://www.nishogakusha-highschool.ac.jp/media/20260722-102036-409.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500086"],
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入試（A・B推薦・得意技能選抜）",
+      "status": "details-announced",
+      "statusLabel": "入試日程発表済み・要項作成中",
+      "applicationPeriod": "2027年1月15日（金）〜1月20日（水）",
+      "testDates": ["2027年1月22日（金）"],
+      "resultDate": "2027年1月22日（金）",
+      "detailsStatus": "school-details-pending",
+      "detailsStatusLabel": "正式募集要項は準備中",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員はA・B推薦・得意技能選抜の合計70人です。", "適性検査（国語・英語・数学、マークシート）と面接を行います。", "正式な募集要項は確認日時点で作成中のため、出願前に更新版を確認してください。"],
+      "sources": [{ "title": "京華商業高等学校 令和9年度募集要項", "url": "https://www.keika-c.ed.jp/requirements/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500086"],
+      "academicYear": 2027,
+      "selection": "general-first",
+      "selectionLabel": "一般入試 第1回",
+      "status": "details-announced",
+      "statusLabel": "入試日程発表済み・要項作成中",
+      "applicationPeriod": "2027年1月25日（月）〜2月8日（月）",
+      "testDates": ["2027年2月10日（水）"],
+      "resultDate": "2027年2月10日（水）",
+      "detailsStatus": "school-details-pending",
+      "detailsStatusLabel": "正式募集要項は準備中",
+      "verifiedAt": "2026-08-04",
+      "notes": ["第1回・第2回合計の募集人員は80人です。", "国語・英語・数学（マークシート）と面接を行います。", "正式な募集要項は確認日時点で作成中です。"],
+      "sources": [{ "title": "京華商業高等学校 令和9年度募集要項", "url": "https://www.keika-c.ed.jp/requirements/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500086"],
+      "academicYear": 2027,
+      "selection": "general-second",
+      "selectionLabel": "一般入試 第2回",
+      "status": "details-announced",
+      "statusLabel": "入試日程発表済み・要項作成中",
+      "applicationPeriod": "2027年1月25日（月）〜2月8日（月）",
+      "testDates": ["2027年2月11日（木・祝）"],
+      "resultDate": "2027年2月11日（木・祝）",
+      "detailsStatus": "school-details-pending",
+      "detailsStatusLabel": "正式募集要項は準備中",
+      "verifiedAt": "2026-08-04",
+      "notes": ["第1回・第2回合計の募集人員は80人です。", "国語・英語・数学（マークシート）と面接を行います。", "第2回のみ第一志望優先制度があります。"],
+      "sources": [{ "title": "京華商業高等学校 令和9年度募集要項", "url": "https://www.keika-c.ed.jp/requirements/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311200069"],
+      "academicYear": 2027,
+      "selection": "returnee",
+      "selectionLabel": "高校帰国生入試（第1〜3回）",
+      "status": "details-announced",
+      "statusLabel": "帰国生入試要項発表済み",
+      "applicationPeriod": "第1回：2026年11月1日（日）〜11月16日（月）正午／第2回：12月1日（火）〜12月18日（金）正午／第3回：12月24日（木）〜2027年1月8日（金）正午",
+      "testDates": ["2026年11月21日（土）午後", "2026年12月23日（水）午後", "2027年1月13日（水）午後"],
+      "resultDate": "各回の公式要項で確認",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "帰国生入試要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["3回のうち1回だけ受験できます。", "募集コースは留学・スーパーグローバル・特進・進学で、定員は特に定めないと公表されています。", "通常の推薦・一般入試は確認日時点で2027年度要項が未発表です。"],
+      "sources": [{ "title": "佼成学園女子高等学校 2027年度高校帰国生入試", "url": "https://www.girls.kosei.ac.jp/senireturneesoutline", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500039"],
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入試",
+      "status": "schedule-announced",
+      "statusLabel": "入試日程発表済み・詳細要項待ち",
+      "applicationPeriod": "2027年度詳細募集要項で確認",
+      "testDates": ["2027年1月22日（金）"],
+      "resultDate": "2027年度詳細募集要項で確認",
+      "detailsStatus": "school-details-pending",
+      "detailsStatusLabel": "詳しい募集要項は9月頃決定予定",
+      "verifiedAt": "2026-08-04",
+      "notes": ["難関国公立・グローバル・総合進学の男子50人を募集します。", "作文（志望理由）と個人面接、書類選考を行います。"],
+      "sources": [{ "title": "佼成学園高等学校 2027年度募集要項", "url": "https://www.kosei.ac.jp/boys/s-outline/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500039"],
+      "academicYear": 2027,
+      "selection": "general-first",
+      "selectionLabel": "一般入試 第1回",
+      "status": "schedule-announced",
+      "statusLabel": "入試日程発表済み・詳細要項待ち",
+      "applicationPeriod": "2027年度詳細募集要項で確認",
+      "testDates": ["2027年2月10日（水）"],
+      "resultDate": "2027年度詳細募集要項で確認",
+      "detailsStatus": "school-details-pending",
+      "detailsStatusLabel": "詳しい募集要項は9月頃決定予定",
+      "verifiedAt": "2026-08-04",
+      "notes": ["第1回・第2回合計で男子50人を募集します。", "国語・数学・英語を各50分、各100点で実施します。"],
+      "sources": [{ "title": "佼成学園高等学校 2027年度募集要項", "url": "https://www.kosei.ac.jp/boys/s-outline/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500039"],
+      "academicYear": 2027,
+      "selection": "general-second",
+      "selectionLabel": "一般入試 第2回",
+      "status": "schedule-announced",
+      "statusLabel": "入試日程発表済み・詳細要項待ち",
+      "applicationPeriod": "2027年度詳細募集要項で確認",
+      "testDates": ["2027年2月11日（木・祝）"],
+      "resultDate": "2027年度詳細募集要項で確認",
+      "detailsStatus": "school-details-pending",
+      "detailsStatusLabel": "詳しい募集要項は9月頃決定予定",
+      "verifiedAt": "2026-08-04",
+      "notes": ["第1回・第2回合計で男子50人を募集します。", "国語・数学・英語を各50分、各100点で実施します。"],
+      "sources": [{ "title": "佼成学園高等学校 2027年度募集要項", "url": "https://www.kosei.ac.jp/boys/s-outline/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113310400050"],
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入試（単願・併願）",
+      "status": "details-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月18日（月）",
+      "testDates": ["2027年1月22日（金）"],
+      "resultDate": "2027年1月23日（土）9:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "学校別募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["単願推薦130人、埼玉・千葉・国立中生対象の併願推薦20人です。", "英語と国語または英語と数学の適性検査、面接を行います。"],
+      "sources": [{ "title": "保善高等学校 令和9年度入試", "url": "https://hozen.ed.jp/exam/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113310400050"],
+      "academicYear": 2027,
+      "selection": "general-a",
+      "selectionLabel": "一般入試A",
+      "status": "details-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月6日（土）",
+      "testDates": ["2027年2月10日（水）"],
+      "resultDate": "2027年2月11日（木・祝）9:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "学校別募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は85人です。", "国語・数学・英語を受験し、ベスト2科目で判定して面接を行います。"],
+      "sources": [{ "title": "保善高等学校 令和9年度入試", "url": "https://hozen.ed.jp/exam/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113310400050"],
+      "academicYear": 2027,
+      "selection": "general-b",
+      "selectionLabel": "一般入試B",
+      "status": "details-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月6日（土）",
+      "testDates": ["2027年2月12日（金）"],
+      "resultDate": "2027年2月13日（土）9:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "学校別募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は55人です。", "国語・数学・英語を受験し、ベスト2科目で判定して面接を行います。"],
+      "sources": [{ "title": "保善高等学校 令和9年度入試", "url": "https://hozen.ed.jp/exam/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113310400050"],
+      "academicYear": 2027,
+      "selection": "general-c",
+      "selectionLabel": "一般入試C",
+      "status": "details-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年2月15日（月）〜2月22日（月）",
+      "testDates": ["2027年2月23日（火・祝）"],
+      "resultDate": "2027年2月24日（水）9:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "学校別募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["募集人員は10人です。", "国語・数学・英語と面接を行うフリー受験入試で、既合格者の特選チャレンジにも利用されます。"],
+      "sources": [{ "title": "保善高等学校 令和9年度入試", "url": "https://hozen.ed.jp/exam/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113320100061"],
+      "academicYear": 2027,
+      "selection": "general-first",
+      "selectionLabel": "一般入試 第1回",
+      "status": "details-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）9:00〜2月4日（木）12:00",
+      "testDates": ["2027年2月10日（水）"],
+      "resultDate": "2027年2月12日（金）10:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "学校別募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["文理・総合・アスリートのコース別募集です。", "アスリートコースは第1回の第一志望のみで、対象部顧問の推薦が必要です。", "国語・数学・英語で選考します。"],
+      "sources": [{ "title": "八王子学園八王子高等学校 2027年度生徒募集要項", "url": "https://www.hachioji.ed.jp/senr/exam/guideline/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113320100061"],
+      "academicYear": 2027,
+      "selection": "general-second",
+      "selectionLabel": "一般入試 第2回",
+      "status": "details-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）9:00〜2月4日（木）12:00",
+      "testDates": ["2027年2月11日（木・祝）"],
+      "resultDate": "2027年2月12日（金）10:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "学校別募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["文理コースと総合コースのコース・クラス・類系別募集です。", "国語・数学・英語で選考します。"],
+      "sources": [{ "title": "八王子学園八王子高等学校 2027年度生徒募集要項", "url": "https://www.hachioji.ed.jp/senr/exam/guideline/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113320100061"],
+      "academicYear": 2027,
+      "selection": "secondary",
+      "selectionLabel": "二次募集",
+      "status": "details-announced",
+      "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年3月3日（水）9:00〜3月4日（木）12:00",
+      "testDates": ["2027年3月5日（金）"],
+      "resultDate": "2027年3月5日（金）15:00",
+      "detailsStatus": "details-announced",
+      "detailsStatusLabel": "学校別募集要項発表済み",
+      "verifiedAt": "2026-08-04",
+      "notes": ["文理コースの特進・進学クラスのみ若干名を募集します。", "国語・数学・英語と面接を行います。"],
+      "sources": [{ "title": "八王子学園八王子高等学校 2027年度生徒募集要項", "url": "https://www.hachioji.ed.jp/senr/exam/guideline/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311000070"], "academicYear": 2027, "selection": "recommendation-returnee", "selectionLabel": "推薦入試・帰国生入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月15日（金）9:00〜1月18日（月）16:00（郵送書類は1月18日必着）", "testDates": ["2027年1月22日（金）9:00"], "resultDate": "2027年1月22日（金）15:00〜1月23日（土）9:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["特進・進学共通で男女計20人を募集します。", "作文、受験生面接、調査書を総合して判定します。"],
+      "sources": [{ "title": "八雲学園高等学校 2027年度生徒募集要項", "url": "https://www.yakumo.ac.jp/admission/shs.html", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311000070"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）9:00〜2月3日（水）16:00（郵送書類は2月5日必着）", "testDates": ["2027年2月10日（水）9:00", "2027年2月12日（金）9:00"], "resultDate": "各入試日15:00〜2027年2月13日（土）9:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["2日程のどちらかを選択します。", "特進10人・進学20人、男女計30人を募集し、国語・英語・数学と調査書で判定します。"],
+      "sources": [{ "title": "八雲学園高等学校 2027年度生徒募集要項", "url": "https://www.yakumo.ac.jp/admission/shs.html", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113312200012"], "academicYear": 2027, "selection": "recommendation-a", "selectionLabel": "A推薦入試（単願）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "WEB出願：2027年1月15日（金）〜1月18日（月）、郵送書類は1月19日必着", "testDates": ["2027年1月22日（金）9:00"], "resultDate": "選抜日当日にWEB発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["全5コースで募集し、調査書と受験生面接で総合判断します。"],
+      "sources": [{ "title": "共栄学園高等学校 2027年度入学試験要項", "url": "https://kyoei-g.ed.jp/guide/senior/guideline/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113312200012"], "academicYear": 2027, "selection": "recommendation-b", "selectionLabel": "B推薦入試（都外生対象・併願優遇）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "WEB出願：2027年1月15日（金）〜1月18日（月）、郵送書類は1月19日必着", "testDates": ["2027年1月22日（金）9:00"], "resultDate": "選抜日当日にWEB発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["神奈川県を除く都外生対象です。", "国語・英語・数学の適性検査、受験生面接、調査書で総合判断します。"],
+      "sources": [{ "title": "共栄学園高等学校 2027年度入学試験要項", "url": "https://kyoei-g.ed.jp/guide/senior/guideline/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113312200012"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試（併願優遇）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月5日（金）（郵送書類は2月5日必着）", "testDates": ["2027年2月10日（水）9:00"], "resultDate": "選抜日当日にWEB発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["全5コースで募集し、国語・英語・数学、面接、調査書で総合判断します。"],
+      "sources": [{ "title": "共栄学園高等学校 2027年度入学試験要項", "url": "https://kyoei-g.ed.jp/guide/senior/guideline/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113312200012"], "academicYear": 2027, "selection": "challenge", "selectionLabel": "チャレンジ入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月5日（金）（郵送書類は2月5日必着）", "testDates": ["2027年2月11日（木・祝）9:00"], "resultDate": "選抜日当日にWEB発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["調査書を合否判定に使わず、国語・英語・数学と受験生面接で判断します。", "二次募集の詳細は後日発表予定です。"],
+      "sources": [{ "title": "共栄学園高等学校 2027年度入学試験要項", "url": "https://kyoei-g.ed.jp/guide/senior/guideline/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113320100089"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月15日（金）0:00〜1月17日（日）23:59", "testDates": ["2027年1月22日（金）9:00"], "resultDate": "2027年1月22日（金）14:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["特別進学20人・総合進学50人・英語10人を募集します。", "作文と受験生面接で選考します。"],
+      "sources": [{ "title": "共立女子第二高等学校 2027年度高校入試要項", "url": "https://www.kyoritsu-wu.ac.jp/nichukou/high-school-admissions/guidelines/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113320100089"], "academicYear": 2027, "selection": "general-first", "selectionLabel": "一般入試 第1回", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）0:00〜2月4日（木）23:59", "testDates": ["2027年2月10日（水）9:00"], "resultDate": "2027年2月11日（木・祝）9:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["特別進学15人・総合進学30人・英語5人を募集します。", "国語・数学・英語と受験生面接で選考します。"],
+      "sources": [{ "title": "共立女子第二高等学校 2027年度高校入試要項", "url": "https://www.kyoritsu-wu.ac.jp/nichukou/high-school-admissions/guidelines/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113320100089"], "academicYear": 2027, "selection": "general-second", "selectionLabel": "一般入試 第2回", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）0:00〜2月4日（木）23:59", "testDates": ["2027年2月12日（金）9:00"], "resultDate": "2027年2月13日（土）9:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["特別進学5人・総合進学20人・英語5人を募集します。", "国語・数学・英語と受験生面接で選考します。"],
+      "sources": [{ "title": "共立女子第二高等学校 2027年度高校入試要項", "url": "https://www.kyoritsu-wu.ac.jp/nichukou/high-school-admissions/guidelines/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113321100032"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "overview-announced", "statusLabel": "募集概要発表済み",
+      "applicationPeriod": "WEB出願・書類郵送：2027年1月15日（金）〜1月18日（月）（書類は1月18日必着）", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）17:00", "detailsStatus": "overview-announced", "detailsStatusLabel": "概要発表済み・詳細要項は2026年10月上旬予定", "verifiedAt": "2026-08-04",
+      "notes": ["普通科約60人を募集します。", "英語・数学の適性検査と受験生面接を行います。", "詳細な募集要項は2026年10月上旬に公開予定です。"],
+      "sources": [{ "title": "創価高等学校 2027年度生徒募集概要", "url": "https://tokyo-senior.soka.ed.jp/wp-content/uploads/2026/05/2027h_gaiyo.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113321100032"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "overview-announced", "statusLabel": "募集概要発表済み",
+      "applicationPeriod": "WEB出願・書類郵送：2027年1月25日（月）〜2月4日（木）（書類は2月4日必着）", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月11日（木・祝）17:00", "detailsStatus": "overview-announced", "detailsStatusLabel": "概要発表済み・詳細要項は2026年10月上旬予定", "verifiedAt": "2026-08-04",
+      "notes": ["普通科約60人を募集します。", "国語・英語・数学と受験生面接を行います。", "詳細な募集要項は2026年10月上旬に公開予定です。"],
+      "sources": [{ "title": "創価高等学校 2027年度生徒募集概要", "url": "https://tokyo-senior.soka.ed.jp/wp-content/uploads/2026/05/2027h_gaiyo.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600038"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（A推薦・B推薦）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月15日（金）0:00〜1月20日（水）12:00", "testDates": ["2027年1月22日（金）8:30集合"], "resultDate": "2027年1月23日（土）13:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["一般入試と合わせて3コース計80人を募集します。", "適性検査は国語・英語・数学各45分です。自己発信コースは面接も行います。"],
+      "sources": [{ "title": "十文字高等学校 2027年度生徒募集要項", "url": "https://js.jumonji-u.ac.jp/0530_senior_boshu2027-3.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600038"], "academicYear": 2027, "selection": "general-first", "selectionLabel": "一般入試 第1回", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）0:00〜2月8日（月）12:00", "testDates": ["2027年2月10日（水）8:30集合"], "resultDate": "2027年2月11日（木・祝）13:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["国語・英語・数学各50分です。自己発信コースは面接も行います。", "内申等の優遇を利用するには事前の個別相談が必要です。"],
+      "sources": [{ "title": "十文字高等学校 2027年度生徒募集要項", "url": "https://js.jumonji-u.ac.jp/0530_senior_boshu2027-3.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600038"], "academicYear": 2027, "selection": "general-second", "selectionLabel": "一般入試 第2回", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）0:00〜2月11日（木・祝）12:00", "testDates": ["2027年2月13日（土）8:30集合"], "resultDate": "2027年2月14日（日）13:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["国語・英語・数学各50分です。自己発信コースは面接も行います。", "複数回出願の場合も受験料は1回分です。"],
+      "sources": [{ "title": "十文字高等学校 2027年度生徒募集要項", "url": "https://js.jumonji-u.ac.jp/0530_senior_boshu2027-3.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113320900027"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "窓口：2027年1月15日（金）8:30〜13:30、郵送は1月15日必着", "testDates": ["2027年1月22日（金）8:15受付"], "resultDate": "2027年1月22日（金）20:00〜翌日12:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["男女約70人を募集します。", "作文60分と面接で選考します。", "和光高校を第一志望とし、中学校長の推薦を受けることが出願条件です。"],
+      "sources": [{ "title": "和光高等学校 2027年度募集要項", "url": "https://wakos.wako.ed.jp/admission/application", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113320900027"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "窓口：2027年1月25日（月）〜2月3日（水）8:30〜13:30（1月31日を除く）、郵送は2月3日必着", "testDates": ["2027年2月10日（水）8:15受付"], "resultDate": "2027年2月11日（木・祝）18:30〜翌日12:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["男女約70人を募集します。", "国語・数学・英語各50分と面接で選考します。", "調査書9科32以上等を条件とする併願優遇制度があります。"],
+      "sources": [{ "title": "和光高等学校 2027年度募集要項", "url": "https://wakos.wako.ed.jp/admission/application", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113310900073"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（A推薦・B推薦）", "status": "overview-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "WEB出願：2027年1月15日〜1月18日", "testDates": ["2027年1月22日（金）9:00"], "resultDate": "2027年1月23日（土）", "detailsStatus": "overview-announced", "detailsStatusLabel": "公式入試概要発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["普通科50人、音楽科50人を募集します。", "個人面接を行い、音楽科は実技試験もあります。", "B推薦は東京・神奈川以外の地域が対象です。"],
+      "sources": [{ "title": "品川学藝高等学校 2027年度入試概要", "url": "https://shinagawa.ed.jp/bosyu/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113310900073"], "academicYear": 2027, "selection": "general-first", "selectionLabel": "一般入試・併願優遇 第1回", "status": "overview-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "WEB出願：2027年1月26日〜2月5日", "testDates": ["2027年2月10日（水）9:00"], "resultDate": "2027年2月11日（木・祝）", "detailsStatus": "overview-announced", "detailsStatusLabel": "公式入試概要発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["英語＋国語または英語＋数学のマークシート式学力テスト各50分と個人面接を行います。", "音楽科は実技試験もあります。"],
+      "sources": [{ "title": "品川学藝高等学校 2027年度入試概要", "url": "https://shinagawa.ed.jp/bosyu/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113310900073"], "academicYear": 2027, "selection": "general-second", "selectionLabel": "一般入試・併願優遇 第2回", "status": "overview-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "WEB出願：2027年1月26日〜2月19日", "testDates": ["2027年2月25日（木）9:00"], "resultDate": "2027年2月25日（木）17:00頃", "detailsStatus": "overview-announced", "detailsStatusLabel": "公式入試概要発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["英語＋国語または英語＋数学のマークシート式学力テスト各50分と個人面接を行います。", "音楽科は実技試験もあります。"],
+      "sources": [{ "title": "品川学藝高等学校 2027年度入試概要", "url": "https://shinagawa.ed.jp/bosyu/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311200078"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入学試験", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願・書類必着：2027年1月15日（金）〜1月18日（月）", "testDates": ["2027年1月22日（金）8:40集合"], "resultDate": "2027年1月22日（金）13:00〜1月25日（月）23:59", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["全日制普通科（選抜・進学）男女130人、昼間定時制普通科（国士舘大学進学）男女43人を募集します。", "英語30点・数学40点・国語30点の適性検査（計60分）と個人面接を行います。", "推薦基準を満たし、個別相談等で入試担当者との確認を済ませる必要があります。"],
+      "sources": [{ "title": "国士舘高等学校 2027年度推薦入試募集要項", "url": "https://hs.kokushikan.ed.jp/att/16440_05766_010.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311200078"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入学試験", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願・書類必着：2027年1月25日（月）〜2月5日（金）", "testDates": ["2027年2月10日（水）8:40集合", "2027年2月11日（木）8:40集合（いずれかを選択）"], "resultDate": "2027年2月12日（金）10:00〜3月2日（火）23:59", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["全日制普通科（選抜・進学）男女130人、昼間定時制普通科（国士舘大学進学）男女43人を募集します。", "国語・数学・英語を各50分で実施します。", "全日制進学クラス合格者のうち試験高得点者を選抜クラス合格とします。"],
+      "sources": [{ "title": "国士舘高等学校 2027年度一般入試募集要項", "url": "https://hs.kokushikan.ed.jp/att/16440_05767_010.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311200041"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（A推薦・B推薦）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web事前登録：2026年12月20日（日）〜／出願：2027年1月15日（金）〜1月17日（日）12:00", "testDates": ["2027年1月22日（金）午前"], "resultDate": "2027年1月22日（金）17:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["総合進学コース75人を募集します。", "課題作文50分と、受験生のみのグループ面接15〜20分で選考します。", "A推薦は単願、B推薦は東京・神奈川の公立中学校を除く中学校の生徒が対象です。"],
+      "sources": [{ "title": "国本女子高等学校 2027年度生徒募集要項", "url": "https://kunimoto.ac.jp/jsh/wp-content/themes/kunimoto_jsh/images/senior/snr-2027.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311200041"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試（併願優遇・オープン）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web事前登録：2026年12月20日（日）〜／出願：2027年1月25日（月）〜2月5日（金）12:00", "testDates": ["2027年2月10日（水）午前", "2027年2月12日（金）午前（いずれかを選択）"], "resultDate": "受験日の20:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["総合進学コース75人を募集します。", "国語・数学・英語（リスニングあり）を各50分で実施し、得点上位2科を合否判定に使います。", "検定資格による得点加点制度があります。"],
+      "sources": [{ "title": "国本女子高等学校 2027年度生徒募集要項", "url": "https://kunimoto.ac.jp/jsh/wp-content/themes/kunimoto_jsh/images/senior/snr-2027.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113321000033"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試（国際生徒枠を含む）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Webエントリー：2026年12月21日（月）〜2027年1月26日（火）／書類郵送必着：2027年1月26日（火）〜2月2日（火）", "testDates": ["2027年2月10日（水）9:00着席"], "resultDate": "2027年2月12日（金）10:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["第一学年80人（国際生徒枠若干名を含む）を募集します。", "英語・国語・数学を各70分で実施します。", "一般入試は学力試験300点に中3調査書点90点を加えた390点満点で審査します。"],
+      "sources": [{ "title": "国際基督教大学高等学校 2027年度4月入学募集要項", "url": "https://icu-h.ed.jp/admin/pdf/2027_icuhs/Apr2027-Boshuyoko.pdf", "publishedAt": "2026-07-25", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500048"], "academicYear": 2027, "selection": "returnee", "selectionLabel": "高校帰国生入試", "status": "details-announced", "statusLabel": "入試要項発表済み",
+      "applicationPeriod": "Web入力・書類郵送必着：2026年12月1日（火）〜12月18日（金）", "testDates": ["2027年1月10日（日）"], "resultDate": "2027年1月10日（日）16:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別入試要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["男女若干名を募集します。", "国語・英語・数学と本人・保護者別面接を行います。"],
+      "sources": [{ "title": "國學院大學久我山中学高等学校 2027年度高等学校入試要項", "url": "https://www.kugayama-h.ed.jp/nyushi/koko_nyushi/koko/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500048"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "高校推薦入試", "status": "details-announced", "statusLabel": "入試要項発表済み",
+      "applicationPeriod": "Web入力・書類郵送必着：2027年1月15日（金）〜1月18日（月）", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）14:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別入試要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["男女合計50人を募集します。", "書類審査と受験生面接で選考します。", "5教科評定22以上、英検準2級以上などの出願条件があります。"],
+      "sources": [{ "title": "國學院大學久我山中学高等学校 2027年度高等学校入試要項", "url": "https://www.kugayama-h.ed.jp/nyushi/koko_nyushi/koko/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500048"], "academicYear": 2027, "selection": "general", "selectionLabel": "高校一般入試", "status": "details-announced", "statusLabel": "入試要項発表済み",
+      "applicationPeriod": "Web入力・書類郵送必着：2027年1月25日（月）〜2月8日（月）", "testDates": ["2027年2月12日（金）"], "resultDate": "2027年2月12日（金）17:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別入試要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["男子約60人、女子約35人を募集します。", "国語・英語・数学で選考します。"],
+      "sources": [{ "title": "國學院大學久我山中学高等学校 2027年度高等学校入試要項", "url": "https://www.kugayama-h.ed.jp/nyushi/koko_nyushi/koko/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311300031"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "出願情報入力：2027年1月9日（土）〜／書類窓口受付：1月18日（月）9:00〜13:00", "testDates": ["2027年1月22日（金）"], "resultDate": "募集要項詳細で確認", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["試験科目・合格発表時刻は公式募集要項詳細で確認してください。"],
+      "sources": [{ "title": "國學院高等学校 2027年度生徒募集要項", "url": "https://www.kokugakuin.ed.jp/admission/guideline/", "publishedAt": "2026-07-09", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311300031"], "academicYear": 2027, "selection": "general-first", "selectionLabel": "一般第1回入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "出願情報入力：2027年1月9日（土）〜／書類郵送必着：1月25日（月）〜2月5日（金）", "testDates": ["2027年2月10日（水）"], "resultDate": "募集要項詳細で確認", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["国語・数学・英語の3教科型です。"],
+      "sources": [{ "title": "國學院高等学校 2027年度生徒募集要項", "url": "https://www.kokugakuin.ed.jp/admission/guideline/", "publishedAt": "2026-07-09", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311300031"], "academicYear": 2027, "selection": "general-second", "selectionLabel": "一般第2回入試（3教科型・5教科型）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "出願情報入力：2027年1月9日（土）〜／書類郵送必着：1月25日（月）〜2月5日（金）", "testDates": ["2027年2月12日（金）"], "resultDate": "募集要項詳細で確認", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["出願時に3教科型（国数英）または5教科型（国数英社理）を選択します。"],
+      "sources": [{ "title": "國學院高等学校 2027年度生徒募集要項", "url": "https://www.kokugakuin.ed.jp/admission/guideline/", "publishedAt": "2026-07-09", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311300031"], "academicYear": 2027, "selection": "general-third", "selectionLabel": "一般第3回入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "出願情報入力：2027年1月9日（土）〜／郵送：1月25日（月）〜2月15日（月）必着、窓口：2月16日（火）9:00〜12:00", "testDates": ["2027年2月18日（木）"], "resultDate": "募集要項詳細で確認", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["最新の試験科目・合格発表時刻は公式募集要項詳細で確認してください。"],
+      "sources": [{ "title": "國學院高等学校 2027年度生徒募集要項", "url": "https://www.kokugakuin.ed.jp/admission/guideline/", "publishedAt": "2026-07-09", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600047"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "概要発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月16日（土）、Web登録後に書類郵送必着", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）", "detailsStatus": "details-announced", "detailsStatusLabel": "簡易版発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["ACクラス男女65人、CSクラス男女10人を募集します。", "A推薦I・II、B推薦、C推薦、スポーツスカラがあり、区分により適性検査または面接を実施します。"],
+      "sources": [{ "title": "城西大学附属城西高等学校 2027年度高校入試簡易版", "url": "https://josaigakuen.ac.jp/wordpress/wp-content/uploads/2026/05/2027%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E9%AB%98%E6%A0%A1%E5%85%A5%E8%A9%A6%E8%A6%81%E9%A0%85%E7%B0%A1%E6%98%93%E7%89%88.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600047"], "academicYear": 2027, "selection": "general-first", "selectionLabel": "一般入試 第1回", "status": "details-announced", "statusLabel": "概要発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月5日（金）、Web登録後に書類郵送必着", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月10日（水）", "detailsStatus": "details-announced", "detailsStatusLabel": "簡易版発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["ACクラス男女35人を募集します。", "国語・数学・英語各50分100点とグループ面接を実施し、併願優遇制度があります。"],
+      "sources": [{ "title": "城西大学附属城西高等学校 2027年度高校入試簡易版", "url": "https://josaigakuen.ac.jp/wordpress/wp-content/uploads/2026/05/2027%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E9%AB%98%E6%A0%A1%E5%85%A5%E8%A9%A6%E8%A6%81%E9%A0%85%E7%B0%A1%E6%98%93%E7%89%88.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600047"], "academicYear": 2027, "selection": "general-second", "selectionLabel": "一般入試 第2回", "status": "details-announced", "statusLabel": "概要発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月5日（金）、Web登録後に書類郵送必着", "testDates": ["2027年2月12日（金）"], "resultDate": "2027年2月12日（金）", "detailsStatus": "details-announced", "detailsStatusLabel": "簡易版発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["ACクラス男女35人、CSクラス男女30人を募集します。", "国語・数学・英語各50分100点とグループ面接を実施し、第1回との両日受験もできます。"],
+      "sources": [{ "title": "城西大学附属城西高等学校 2027年度高校入試簡易版", "url": "https://josaigakuen.ac.jp/wordpress/wp-content/uploads/2026/05/2027%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E9%AB%98%E6%A0%A1%E5%85%A5%E8%A9%A6%E8%A6%81%E9%A0%85%E7%B0%A1%E6%98%93%E7%89%88.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600047"], "academicYear": 2027, "selection": "secondary", "selectionLabel": "二次入試", "status": "details-announced", "statusLabel": "概要発表済み",
+      "applicationPeriod": "2027年2月16日（火）〜3月3日（水）、Web登録後に書類郵送必着", "testDates": ["2027年3月5日（金）"], "resultDate": "2027年3月5日（金）", "detailsStatus": "details-announced", "detailsStatusLabel": "簡易版発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["ACクラス男女若干名を募集します。", "国語・数学・英語各50分100点とグループ面接を実施し、第一志望者のみ受験できます。"],
+      "sources": [{ "title": "城西大学附属城西高等学校 2027年度高校入試簡易版", "url": "https://josaigakuen.ac.jp/wordpress/wp-content/uploads/2026/05/2027%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E9%AB%98%E6%A0%A1%E5%85%A5%E8%A9%A6%E8%A6%81%E9%A0%85%E7%B0%A1%E6%98%93%E7%89%88.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311000061"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願。受付期間は募集要項PDFで確認", "testDates": ["2027年1月22日（金）8:30集合"], "resultDate": "2027年1月23日（土）9:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["普通科男女30人を募集します。", "作文と面接を実施し、入学手続は2027年1月26日（火）12:00までです。"],
+      "sources": [{ "title": "多摩大学目黒高等学校 2027年度高校募集要項", "url": "https://www.tmh.ac.jp/admissions04/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311000061"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願。受付期間は募集要項PDFで確認", "testDates": ["2027年2月10日（水）8:30集合", "2027年2月11日（木）8:30集合（いずれかを選択）"], "resultDate": "2027年2月12日（金）9:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["普通科男女120人（併願優遇受験生を含む）を募集します。", "午前に国語・数学・英語、午後に面接を実施します。"],
+      "sources": [{ "title": "多摩大学目黒高等学校 2027年度高校募集要項", "url": "https://www.tmh.ac.jp/admissions04/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113320400022"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月16日（土）", "testDates": ["2027年1月22日（金）9:00"], "resultDate": "2027年1月23日（土）10:00〜11:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["普通科特別進学コース10人、文理進学コース115人を募集します。", "教員2人・受験生1人の面接を実施します。", "合格発表は直接手渡し方式です。"],
+      "sources": [{ "title": "大成高等学校 2027年度募集要項", "url": "https://www.taisei.ed.jp/exam/exam-inf/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113320400022"], "academicYear": 2027, "selection": "general-first", "selectionLabel": "一般入試 第1回", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月3日（水）", "testDates": ["2027年2月10日（水）9:00"], "resultDate": "2027年2月12日（金）10:00〜12:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["普通科特別進学コース70人、文理進学コース140人を募集します。", "午前に国語・数学・英語各50分、午後に面接を実施します。", "合格発表は直接手渡し方式です。"],
+      "sources": [{ "title": "大成高等学校 2027年度募集要項", "url": "https://www.taisei.ed.jp/exam/exam-inf/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113320400022"], "academicYear": 2027, "selection": "general-second", "selectionLabel": "一般入試 第2回", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月3日（水）", "testDates": ["2027年2月12日（金）9:00"], "resultDate": "2027年2月15日（月）10:00〜11:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["普通科特別進学コース10人、文理進学コース60人を募集します。", "午前に国語・数学・英語各50分、午後に面接を実施します。", "合格発表は直接手渡し方式です。"],
+      "sources": [{ "title": "大成高等学校 2027年度募集要項", "url": "https://www.taisei.ed.jp/exam/exam-inf/", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311900035"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願2026年12月20日（日）〜2027年1月17日（日）15:00、書類郵送2027年1月15日（金）〜1月17日（日）消印有効", "testDates": ["2027年1月22日（金）8:35集合"], "resultDate": "2027年1月23日（土）10:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["特別進学クラス20人、選抜進学・進学クラス合計155人を募集します。", "英語・国語・数学の適性検査各50分と、入試区分に応じた面接を実施します。", "推薦区分により単願・併願、出身地域、提出書類の条件が異なります。"],
+      "sources": [{ "title": "大東文化大学第一高等学校 2027年度生徒募集要項", "url": "https://assets.daito.ac.jp/articles/1416/d91364c9-2337-42b6-a251-5d6194bf9c29.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311900035"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願2026年12月20日（日）〜2027年2月4日（木）15:00、書類郵送2027年1月25日（月）〜2月4日（木）消印有効", "testDates": ["2027年2月10日（水）8:35集合", "2027年2月11日（木・祝）8:35集合（いずれかを選択）"], "resultDate": "2月10日受験は2027年2月11日（木・祝）10:00、2月11日受験は2月12日（金）10:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["特別進学クラス15人、選抜進学・進学クラス合計160人を募集します。", "英語・国語・数学各50分と、個別またはグループ面接を実施します。", "第一志望・併願および優遇・プラス・オープンで条件が異なり、個別相談が必要な区分があります。"],
+      "sources": [{ "title": "大東文化大学第一高等学校 2027年度生徒募集要項", "url": "https://assets.daito.ac.jp/articles/1416/d91364c9-2337-42b6-a251-5d6194bf9c29.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311900035"], "academicYear": 2027, "selection": "secondary-first", "selectionLabel": "二次募集①", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願2027年2月12日（金）〜2月24日（水）15:00、書類は2月24日（水）消印有効", "testDates": ["2027年2月27日（土）8:35集合"], "resultDate": "2027年2月27日（土）16:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["特別進学・選抜進学・進学クラスで若干名を募集します。", "英語・国語・数学各50分と個別面接を実施します。"],
+      "sources": [{ "title": "大東文化大学第一高等学校 2027年度生徒募集要項", "url": "https://assets.daito.ac.jp/articles/1416/d91364c9-2337-42b6-a251-5d6194bf9c29.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311900035"], "academicYear": 2027, "selection": "secondary-second", "selectionLabel": "二次募集②", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願2027年2月28日（日）〜3月5日（金）15:00、書類は3月5日（金）消印有効", "testDates": ["2027年3月8日（月）8:35集合"], "resultDate": "2027年3月8日（月）16:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["特別進学・選抜進学・進学クラスで若干名を募集します。", "英語・国語・数学各50分と個別面接を実施します。"],
+      "sources": [{ "title": "大東文化大学第一高等学校 2027年度生徒募集要項", "url": "https://assets.daito.ac.jp/articles/1416/d91364c9-2337-42b6-a251-5d6194bf9c29.pdf", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311100024"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月16日（土）", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["普通科は特選20人・選抜40人・総進80人、工業科は男子40人の募集枠が掲載されています。", "推薦入試は面接を実施します。推薦区分と内申基準は募集要項で確認が必要です。"],
+      "sources": [{ "title": "大森学園高等学校 令和9年度募集要項", "url": "https://www.omori-gakuen.ed.jp/ad-admission", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311100024"], "academicYear": 2027, "selection": "general-first", "selectionLabel": "一般入試 第1回", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月5日（金）", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月11日（木）Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["英語・国語・数学の筆記試験と面接を実施します。", "専願優遇・併願優遇は第1回・第2回に適用され、個別相談を含む条件確認が必要です。"],
+      "sources": [{ "title": "大森学園高等学校 令和9年度募集要項", "url": "https://www.omori-gakuen.ed.jp/ad-admission", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311100024"], "academicYear": 2027, "selection": "general-second", "selectionLabel": "一般入試 第2回", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月5日（金）", "testDates": ["2027年2月12日（金）"], "resultDate": "2027年2月13日（土）Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["英語・国語・数学の筆記試験と面接を実施します。", "専願優遇・併願優遇は第1回・第2回に適用されます。"],
+      "sources": [{ "title": "大森学園高等学校 令和9年度募集要項", "url": "https://www.omori-gakuen.ed.jp/ad-admission", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113311100024"], "academicYear": 2027, "selection": "general-third", "selectionLabel": "一般入試 第3回", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年2月12日（金）〜2月15日（月）", "testDates": ["2027年2月16日（火）"], "resultDate": "2027年2月17日（水）Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-04",
+      "notes": ["英語・国語・数学の筆記試験と面接を実施します。", "第3回は専願優遇・併願優遇制度の対象外です。"],
+      "sources": [{ "title": "大森学園高等学校 令和9年度募集要項", "url": "https://www.omori-gakuen.ed.jp/ad-admission", "verifiedAt": "2026-08-04" }]
+    },
+    {
+      "schoolIds": ["wk_d113321500038"], "academicYear": 2027, "selection": "new-recommendation", "selectionLabel": "新入学（推薦）", "status": "details-announced", "statusLabel": "出願日程発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月24日（日）必着", "testDates": [], "resultDate": "選考・結果通知の詳細は募集要項で確認", "detailsStatus": "details-announced", "detailsStatusLabel": "出願日程発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["スタンダードコース・ライフデザインコースの新入学推薦日程です。", "選考方法、面接日、結果通知日は公式募集要項で確認してください。"],
+      "sources": [{ "title": "NHK学園高等学校 2027年度出願スケジュール", "url": "https://www.n-gaku.jp/sch/guidelines/application/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113321500038"], "academicYear": 2027, "selection": "new-general", "selectionLabel": "新入学（一般）", "status": "details-announced", "statusLabel": "出願日程発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜4月30日（金）必着", "testDates": [], "resultDate": "選考・結果通知の詳細は募集要項で確認", "detailsStatus": "details-announced", "detailsStatusLabel": "出願日程発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["スタンダードコース・ライフデザインコースの4月新入学一般日程です。", "後期新入学は2027年8月1日〜9月30日必着です。", "選考方法、面接日、結果通知日は公式募集要項で確認してください。"],
+      "sources": [{ "title": "NHK学園高等学校 2027年度出願スケジュール", "url": "https://www.n-gaku.jp/sch/guidelines/application/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113312300011"], "academicYear": 2027, "selection": "recommendation-a", "selectionLabel": "A推薦入学試験", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web入力・受験料支払：2026年12月20日（日）9:00〜2027年1月16日（土）23:59／書類：1月19日（火）必着", "testDates": ["2027年1月22日（金）8:30着席"], "resultDate": "2027年1月23日（土）9:00〜1月25日（月）15:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["全日制女子。普通科80人、商業科40人、家政科40人、衛生看護科20人の推薦枠です。", "書類審査、作文、保護者同伴面接を行い、家政科・衛生看護科は適性検査もあります。"],
+      "sources": [{ "title": "愛国高等学校 令和9年度生徒募集要項", "url": "https://www.aikokugakuen.ac.jp/cms/wp-content/uploads/2026/07/%E9%AB%98%E6%A0%A1%E3%80%80%E7%94%9F%E5%BE%92%E5%8B%9F%E9%9B%86%E7%94%A8%E8%A6%81%E9%A0%85.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113312300011"], "academicYear": 2027, "selection": "recommendation-b-c", "selectionLabel": "B・C推薦入学試験", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web入力・受験料支払：2026年12月20日（日）9:00〜2027年1月16日（土）23:59／書類：1月19日（火）必着", "testDates": ["2027年1月23日（土）8:30着席"], "resultDate": "2027年1月24日（日）9:00〜1月25日（月）15:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["B・C推薦は千葉県・埼玉県内の中学校在籍者のみ出願できます。", "国語・英語・数学の基礎学力試験、作文、保護者同伴面接を行い、家政科・衛生看護科は適性検査もあります。"],
+      "sources": [{ "title": "愛国高等学校 令和9年度生徒募集要項", "url": "https://www.aikokugakuen.ac.jp/cms/wp-content/uploads/2026/07/%E9%AB%98%E6%A0%A1%E3%80%80%E7%94%9F%E5%BE%92%E5%8B%9F%E9%9B%86%E7%94%A8%E8%A6%81%E9%A0%85.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113312300011"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入学試験（併願優遇）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web入力・受験料支払：2026年12月20日（日）9:00〜2027年1月28日（木）23:59／書類：1月30日（土）必着", "testDates": ["2027年2月10日（水）8:30着席"], "resultDate": "2027年2月11日（木・祝）9:00〜2月12日（金）15:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別募集要項発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["全日制女子。普通科80人、商業科40人、家政科40人、衛生看護科20人の一般枠です。", "国語・英語・数学、作文、保護者同伴面接を行い、家政科・衛生看護科は適性検査もあります。"],
+      "sources": [{ "title": "愛国高等学校 令和9年度生徒募集要項", "url": "https://www.aikokugakuen.ac.jp/cms/wp-content/uploads/2026/07/%E9%AB%98%E6%A0%A1%E3%80%80%E7%94%9F%E5%BE%92%E5%8B%9F%E9%9B%86%E7%94%A8%E8%A6%81%E9%A0%85.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500040"], "academicYear": 2027, "selection": "returnee", "selectionLabel": "帰国生オープン", "status": "overview-announced", "statusLabel": "募集概要発表済み（予定）",
+      "applicationPeriod": "正式募集要項で確認", "testDates": ["2026年12月中旬予定"], "resultDate": "試験翌日", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式要項は2026年10月上旬予定", "verifiedAt": "2026-08-05",
+      "notes": ["English・Mathematicsを英語で出題する90分の適性検査と英語面接を予定しています。", "日程は予定であり、確定情報は正式募集要項で確認してください。"],
+      "sources": [{ "title": "郁文館グローバル高等学校 2027年度入試生徒募集概要", "url": "https://www.ikubunkan.ed.jp/wp/wp-content/uploads/2026/06/2027%E5%B9%B4%E5%BA%A6%E5%85%A5%E8%A9%A6G%E5%8B%9F%E9%9B%86%E6%A6%82%E8%A6%81%EF%BC%88%E6%97%A5%EF%BC%89-1.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500040"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（単願・都外生併願）", "status": "overview-announced", "statusLabel": "募集概要発表済み（予定）",
+      "applicationPeriod": "正式募集要項で確認", "testDates": ["2027年1月22日（金）予定"], "resultDate": "試験翌日", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式要項は2026年10月上旬予定", "verifiedAt": "2026-08-05",
+      "notes": ["国語・英語・数学の適性検査と、日本語・英語の面接を予定しています。", "都外生併願推薦は神奈川県生を除きます。"],
+      "sources": [{ "title": "郁文館グローバル高等学校 2027年度入試生徒募集概要", "url": "https://www.ikubunkan.ed.jp/wp/wp-content/uploads/2026/06/2027%E5%B9%B4%E5%BA%A6%E5%85%A5%E8%A9%A6G%E5%8B%9F%E9%9B%86%E6%A6%82%E8%A6%81%EF%BC%88%E6%97%A5%EF%BC%89-1.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500040"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試（併願優遇・オープン）", "status": "overview-announced", "statusLabel": "募集概要発表済み（予定）",
+      "applicationPeriod": "正式募集要項で確認", "testDates": ["2027年2月10日（水）予定"], "resultDate": "2027年2月13日（土）予定", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式要項は2026年10月上旬予定", "verifiedAt": "2026-08-05",
+      "notes": ["国語・英語・数学の学力考査と、日本語・英語の面接を予定しています。", "オープン試験には英語資格優遇制度があります。"],
+      "sources": [{ "title": "郁文館グローバル高等学校 2027年度入試生徒募集概要", "url": "https://www.ikubunkan.ed.jp/wp/wp-content/uploads/2026/06/2027%E5%B9%B4%E5%BA%A6%E5%85%A5%E8%A9%A6G%E5%8B%9F%E9%9B%86%E6%A6%82%E8%A6%81%EF%BC%88%E6%97%A5%EF%BC%89-1.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500040"], "academicYear": 2027, "selection": "international-open", "selectionLabel": "インターナショナルオープン", "status": "overview-announced", "statusLabel": "募集概要発表済み（予定）",
+      "applicationPeriod": "正式募集要項で確認", "testDates": ["2027年2月11日（木・祝）予定"], "resultDate": "2027年2月13日（土）予定", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式要項は2026年10月上旬予定", "verifiedAt": "2026-08-05",
+      "notes": ["English・Mathematicsを英語で出題する90分の適性検査と英語面接を予定しています。", "英語資格得点保証制度があります。"],
+      "sources": [{ "title": "郁文館グローバル高等学校 2027年度入試生徒募集概要", "url": "https://www.ikubunkan.ed.jp/wp/wp-content/uploads/2026/06/2027%E5%B9%B4%E5%BA%A6%E5%85%A5%E8%A9%A6G%E5%8B%9F%E9%9B%86%E6%A6%82%E8%A6%81%EF%BC%88%E6%97%A5%EF%BC%89-1.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500031"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦試験（単願・都外生併願）", "status": "overview-announced", "statusLabel": "募集概要発表済み（予定）",
+      "applicationPeriod": "正式募集要項で確認", "testDates": ["2027年1月22日（金）予定"], "resultDate": "試験翌日", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式要項は2026年10月上旬予定", "verifiedAt": "2026-08-05",
+      "notes": ["全クラス合計100人、うち推薦50人の募集予定です。", "国語・英語・数学の適性検査と個人面接を予定しています。"],
+      "sources": [{ "title": "郁文館高等学校 2027年度入試生徒募集概要", "url": "https://www.ikubunkan.ed.jp/wp/wp-content/uploads/2026/06/%E9%83%81%E6%96%87%E9%A4%A8%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A12027%E5%B9%B4%E5%BA%A6%E5%85%A5%E8%A9%A6-%E7%94%9F%E5%BE%92%E5%8B%9F%E9%9B%86%E6%A6%82%E8%A6%81.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500031"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般試験（併願優遇・一般）", "status": "overview-announced", "statusLabel": "募集概要発表済み（予定）",
+      "applicationPeriod": "正式募集要項で確認", "testDates": ["2027年2月10日（水）予定"], "resultDate": "2027年2月13日（土）予定", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式要項は2026年10月上旬予定", "verifiedAt": "2026-08-05",
+      "notes": ["国語・英語・数学の学力考査と個人面接を予定しています。", "進学・特進クラスを対象とし、出願区分により判定クラスが異なります。"],
+      "sources": [{ "title": "郁文館高等学校 2027年度入試生徒募集概要", "url": "https://www.ikubunkan.ed.jp/wp/wp-content/uploads/2026/06/%E9%83%81%E6%96%87%E9%A4%A8%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A12027%E5%B9%B4%E5%BA%A6%E5%85%A5%E8%A9%A6-%E7%94%9F%E5%BE%92%E5%8B%9F%E9%9B%86%E6%A6%82%E8%A6%81.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500031"], "academicYear": 2027, "selection": "ip-national", "selectionLabel": "東大・国立選抜（iP class）試験", "status": "overview-announced", "statusLabel": "募集概要発表済み（予定）",
+      "applicationPeriod": "正式募集要項で確認", "testDates": ["2027年2月10日（水）予定"], "resultDate": "2027年2月13日（土）予定", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式要項は2026年10月上旬予定", "verifiedAt": "2026-08-05",
+      "notes": ["併願優遇・一般の区分があり、国語・英語・数学と個人面接を予定しています。", "試験結果により国立選抜特待またはiP classへの繰上合格があります。"],
+      "sources": [{ "title": "郁文館高等学校 2027年度入試生徒募集概要", "url": "https://www.ikubunkan.ed.jp/wp/wp-content/uploads/2026/06/%E9%83%81%E6%96%87%E9%A4%A8%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A12027%E5%B9%B4%E5%BA%A6%E5%85%A5%E8%A9%A6-%E7%94%9F%E5%BE%92%E5%8B%9F%E9%9B%86%E6%A6%82%E8%A6%81.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500031"], "academicYear": 2027, "selection": "metropolitan-self-made", "selectionLabel": "都立併願自校作成型試験", "status": "overview-announced", "statusLabel": "募集概要発表済み（予定）",
+      "applicationPeriod": "正式募集要項で確認", "testDates": ["2027年2月11日（木・祝）予定"], "resultDate": "2027年2月13日（土）予定", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式要項は2026年10月上旬予定", "verifiedAt": "2026-08-05",
+      "notes": ["国語・数学・英語の学力考査と個人面接を予定しています。", "国立選抜・特進を判定し、試験結果による繰上合格制度があります。"],
+      "sources": [{ "title": "郁文館高等学校 2027年度入試生徒募集概要", "url": "https://www.ikubunkan.ed.jp/wp/wp-content/uploads/2026/06/%E9%83%81%E6%96%87%E9%A4%A8%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A12027%E5%B9%B4%E5%BA%A6%E5%85%A5%E8%A9%A6-%E7%94%9F%E5%BE%92%E5%8B%9F%E9%9B%86%E6%A6%82%E8%A6%81.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311300022"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "schedule-announced", "statusLabel": "日程発表済み",
+      "applicationPeriod": "2026年12月20日（日）〜2027年1月15日（金）", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）", "detailsStatus": "details-announced", "detailsStatusLabel": "募集概要発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["普通科文理コース120名、外国語科合計240名を含む全体360名の募集概要です。", "出願資格・提出書類・試験内容は公式募集要項で確認してください。"],
+      "sources": [{ "title": "関東国際高等学校 2027年度入試情報", "url": "https://www.kantokokusai.ac.jp/admission/application/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311300022"], "academicYear": 2027, "selection": "general-concurrent", "selectionLabel": "一般・併願優遇入試", "status": "schedule-announced", "statusLabel": "日程発表済み",
+      "applicationPeriod": "2026年12月20日（日）〜2027年1月28日（木）（2月19日実施分は2月17日（水）まで）", "testDates": ["2027年2月10日（水）", "2027年2月12日（金）", "2027年2月19日（金）"], "resultDate": "各試験日", "detailsStatus": "details-announced", "detailsStatusLabel": "募集概要発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["実施回により対象区分が異なるため、希望する学科・コースと出願区分を公式ページで確認してください。", "日本文化コースは外国人生徒対象の入試です。"],
+      "sources": [{ "title": "関東国際高等学校 2027年度入試情報", "url": "https://www.kantokokusai.ac.jp/admission/application/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311300022"], "academicYear": 2027, "selection": "returnee", "selectionLabel": "帰国生入試", "status": "schedule-announced", "statusLabel": "日程発表済み",
+      "applicationPeriod": "2026年12月20日（日）〜2027年1月15日（金）", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）", "detailsStatus": "details-announced", "detailsStatusLabel": "募集概要発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["帰国生としての出願資格と必要書類は公式募集要項で確認してください。"],
+      "sources": [{ "title": "関東国際高等学校 2027年度入試情報", "url": "https://www.kantokokusai.ac.jp/admission/application/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311300022"], "academicYear": 2027, "selection": "international-student", "selectionLabel": "外国人生徒入試", "status": "schedule-announced", "statusLabel": "日程発表済み",
+      "applicationPeriod": "2026年12月20日（日）〜2027年2月17日（水）", "testDates": ["2027年2月19日（金）"], "resultDate": "2027年2月19日（金）", "detailsStatus": "details-announced", "detailsStatusLabel": "募集概要発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["普通科日本文化コースを含む外国人生徒対象入試です。", "在留資格、日本語力、提出書類等の出願条件は公式募集要項で確認してください。"],
+      "sources": [{ "title": "関東国際高等学校 2027年度入試情報", "url": "https://www.kantokokusai.ac.jp/admission/application/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113320900045"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入学試験（一般クラス・IBクラス）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月6日（水）〜2月4日（木）、書類郵送：1月25日（月）〜2月4日（木）消印有効（窓口は2月5日（金））", "testDates": ["2027年2月11日（木・祝）"], "resultDate": "2027年2月12日（金）10:00〜15:00", "detailsStatus": "details-announced", "detailsStatusLabel": "募集要項発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["一般クラス約80名、IBクラス約10名の男女募集です。", "一般は国語・英語・数学と受験生面接、IBは一部英語による試験と受験生・保護者面接を行います。", "IBクラスは英検2級または同等以上の英語力が出願要件です。"],
+      "sources": [{ "title": "玉川学園高等部 2027年度一般入学試験", "url": "https://www.tamagawa.jp/academy/lower_upper_d/admission/u_public.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311200121"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "Web願書：2027年1月15日（金）〜1月17日（日）13:00、書類：1月18日（月）16:00必着", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）10:00", "detailsStatus": "details-announced", "detailsStatusLabel": "入試概要発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["男女合わせて約20名募集です。", "作文、グループ面接、個人面接を行います。", "出願書類の詳細は2026年10月以降に公式出願サイトで確認してください。"],
+      "sources": [{ "title": "成城学園高等学校 2027年度推薦入試", "url": "https://www.seijogakuen.ed.jp/chukou/admissions/exam-high/requirements/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311200121"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "Web願書：2027年1月27日（水）〜2月5日（金）13:00、書類：2月6日（土）13:00必着", "testDates": ["2027年2月12日（金）"], "resultDate": "2027年2月13日（土）15:00", "detailsStatus": "details-announced", "detailsStatusLabel": "入試概要発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["男女合わせて約40名募集です。", "午前に学力試験、午後に約10分の個人面接を行います。", "学力試験の科目・提出書類は公式募集要項で確認してください。"],
+      "sources": [{ "title": "成城学園高等学校 2027年度一般入試", "url": "https://www.seijogakuen.ed.jp/chukou/admissions/exam-high/requirements/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500057"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "overview-announced", "statusLabel": "募集概要発表済み",
+      "applicationPeriod": "2027年1月15日（金）9:00〜1月17日（日）23:59", "testDates": ["2027年1月22日（金）8:30集合"], "resultDate": "2027年1月23日（土）10:00 Web発表", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項は2026年9月発表予定", "verifiedAt": "2026-08-05",
+      "notes": ["進学・特進各30名、ダブルディプロマ・イノベーションリーダーズ各10名の男女募集予定です。", "進学・特進は作文と面接、DDは英語筆記・口頭試問と面接、ILはプロジェクト審査です。", "2026年5月時点の抜粋で、今後変更される場合があります。"],
+      "sources": [{ "title": "文化学園大学杉並高等学校 2027年度高校募集要項（抜粋）", "url": "https://bunsugi.jp/contents2017/wp-content/uploads/2026/03/7ceb097023ebe7b0f24174cf459a8ff7.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500057"], "academicYear": 2027, "selection": "general-1", "selectionLabel": "一般入試 第1回・併願優遇", "status": "overview-announced", "statusLabel": "募集概要発表済み",
+      "applicationPeriod": "2027年1月25日（月）9:00〜2月6日（土）23:59", "testDates": ["2027年2月10日（水）8:30集合"], "resultDate": "2027年2月11日（木・祝）10:00 Web発表", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項は2026年9月発表予定", "verifiedAt": "2026-08-05",
+      "notes": ["4コース合計80名の男女募集予定です。進学コースには併願優遇入試がありません。", "進学・特進は国語・数学・英語と面接。DDは国語・数学・英語筆記・口頭試問と面接。ILは3科・面接・プロジェクト審査です。", "2026年5月時点の抜粋で、今後変更される場合があります。"],
+      "sources": [{ "title": "文化学園大学杉並高等学校 2027年度高校募集要項（抜粋）", "url": "https://bunsugi.jp/contents2017/wp-content/uploads/2026/03/7ceb097023ebe7b0f24174cf459a8ff7.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500057"], "academicYear": 2027, "selection": "general-2", "selectionLabel": "一般入試 第2回・併願優遇", "status": "overview-announced", "statusLabel": "募集概要発表済み",
+      "applicationPeriod": "2027年1月25日（月）9:00〜2月11日（木・祝）15:00", "testDates": ["2027年2月12日（金）8:30集合"], "resultDate": "2027年2月13日（土）10:00 Web発表", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項は2026年9月発表予定", "verifiedAt": "2026-08-05",
+      "notes": ["4コース合計80名の男女募集予定です。進学コースには併願優遇入試がありません。", "選考方法は第1回と同じで、コースにより3科・面接、英語口頭試問、プロジェクト審査を組み合わせます。", "2026年5月時点の抜粋で、今後変更される場合があります。"],
+      "sources": [{ "title": "文化学園大学杉並高等学校 2027年度高校募集要項（抜粋）", "url": "https://bunsugi.jp/contents2017/wp-content/uploads/2026/03/7ceb097023ebe7b0f24174cf459a8ff7.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311400030"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（単願推薦）", "status": "overview-announced", "statusLabel": "暫定募集要項発表済み",
+      "applicationPeriod": "入力開始：2026年12月20日（日）9:00、出願：2027年1月15日（金）9:00〜1月20日（水）13:00", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）16:00 Web発表", "detailsStatus": "overview-announced", "detailsStatusLabel": "暫定版・正式版の更新を要確認", "verifiedAt": "2026-08-05",
+      "notes": ["探究進学・美術・フードデザインの全コースで、一般入試と合わせて50名募集です。", "面接を重視し、調査書と合わせて選考します。", "在籍中学校からの入試相談が必要です。"],
+      "sources": [{ "title": "新渡戸文化高等学校 2027年度入試 生徒募集要項抜粋版（暫定）", "url": "https://www.nitobebunka.ed.jp/wphon/wp-content/uploads/2026/07/IMG_0881.jpeg", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311400030"], "academicYear": 2027, "selection": "general-1", "selectionLabel": "一般入試 I（優遇・一般）", "status": "overview-announced", "statusLabel": "暫定募集要項発表済み",
+      "applicationPeriod": "入力開始：2026年12月20日（日）9:00、出願：2027年1月15日（金）9:00〜2月9日（火）16:00", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月10日（水）17:00 Web発表", "detailsStatus": "overview-announced", "detailsStatusLabel": "暫定版・正式版の更新を要確認", "verifiedAt": "2026-08-05",
+      "notes": ["単願優遇・併願優遇は面接重視で学力試験はありません。", "第一志望優遇・一般選抜は学力試験、面接、調査書で選考し、得点に20点を加点します。", "探究進学は3教科、その他のコースは国語・数学・英語の高得点2教科で判定します。"],
+      "sources": [{ "title": "新渡戸文化高等学校 2027年度入試 生徒募集要項抜粋版（暫定）", "url": "https://www.nitobebunka.ed.jp/wphon/wp-content/uploads/2026/07/IMG_0881.jpeg", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311400030"], "academicYear": 2027, "selection": "general-2", "selectionLabel": "一般入試 II（第一志望優遇・一般）", "status": "overview-announced", "statusLabel": "暫定募集要項発表済み",
+      "applicationPeriod": "入力開始：2026年12月20日（日）9:00、出願：2027年1月15日（金）9:00〜2月12日（金）7:00", "testDates": ["2027年2月12日（金）"], "resultDate": "2027年2月12日（金）17:00 Web発表", "detailsStatus": "overview-announced", "detailsStatusLabel": "暫定版・正式版の更新を要確認", "verifiedAt": "2026-08-05",
+      "notes": ["第一志望優遇と一般選抜を実施します。", "学力試験、面接、調査書で選考し、第一志望優遇は得点に20点を加点します。", "探究進学は3教科、その他のコースは国語・数学・英語の高得点2教科で判定します。"],
+      "sources": [{ "title": "新渡戸文化高等学校 2027年度入試 生徒募集要項抜粋版（暫定）", "url": "https://www.nitobebunka.ed.jp/wphon/wp-content/uploads/2026/07/IMG_0881.jpeg", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311100060"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web出願：2027年1月15日（金）9:00〜1月18日（月）15:00／書類：1月19日（火）必着", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）10:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["3コース合計160名募集です。", "アカデミックは国語・英語・数学の適性検査と面接、アドバンスト・スポーツは作文と面接です。"],
+      "sources": [{ "title": "日本体育大学荏原高等学校 2027年度募集要項", "url": "https://nittai-ebara.jp/examinee/examination/application_requirements", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311100060"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web出願：2027年1月25日（月）9:00〜2月3日（水）15:00／書類：2月4日（木）必着", "testDates": ["2027年2月10日（水）", "2027年2月11日（木・祝）"], "resultDate": "2027年2月12日（金）16:30", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["3コース合計160名募集です。", "試験日は入試区分により2月10日または11日です。", "全コースで国語・英語・数学の学力検査と面接を行います。"],
+      "sources": [{ "title": "日本体育大学荏原高等学校 2027年度募集要項", "url": "https://nittai-ebara.jp/examinee/examination/application_requirements", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113320900018"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "受験料：2026年12月20日（日）0:00〜2027年1月16日（土）23:59／出願：2027年1月15日（金）0:00〜1月16日（土）23:59（書類1月19日必着）", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）13:00〜1月24日（日）12:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["普通科65名（男女）募集です。", "作文と面接で選考します。", "推薦合格者もクラス編成・特待生判定の参考として2月10日の一般入試を受験します。"],
+      "sources": [{ "title": "日本大学第三高等学校 2027年度生徒募集要項", "url": "https://nichidai3.ed.jp/pdf/exam/senior/r9_entrance_requirements_list_s.pdf?v=260727", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113320900018"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試（A志願・B志願）", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "受験料：2026年12月20日（日）0:00〜2027年1月31日（日）23:59／出願：2027年1月25日（月）0:00〜1月31日（日）23:59（書類2月2日必着）", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月11日（木・祝）13:00〜2月13日（土）12:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["普通科85名（男女）募集です。", "国語・数学・英語と面接で選考します。", "A志願は第一志望、B志願は公立高校等との併願で、B優遇制度があります。"],
+      "sources": [{ "title": "日本大学第三高等学校 2027年度生徒募集要項", "url": "https://nichidai3.ed.jp/pdf/exam/senior/r9_entrance_requirements_list_s.pdf?v=260727", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500100"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "overview-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "詳細は2026年9月中旬公開予定の募集要項で確認", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）以降 Web発表", "detailsStatus": "overview-announced", "detailsStatusLabel": "募集要項の公開待ち", "verifiedAt": "2026-08-05",
+      "notes": ["普通科男女100名募集です。", "600字作文と約10分の面接を行います。", "出願資格・評定基準と出願期間は正式募集要項で必ず確認してください。"],
+      "sources": [{ "title": "日本大学第二高等学校 2027年度入試概要", "url": "https://www.nichidai2.ac.jp/highschool/exam/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500100"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試（A志願・B志願）", "status": "overview-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "詳細は2026年9月中旬公開予定の募集要項で確認", "testDates": ["2027年2月11日（木・祝）"], "resultDate": "2027年2月12日（金）以降 Web発表", "detailsStatus": "overview-announced", "detailsStatusLabel": "募集要項の公開待ち", "verifiedAt": "2026-08-05",
+      "notes": ["普通科男女100名募集です。", "国語・英語・数学の3教科で、英語はリスニングを含みます。", "A志願・B志願の条件と出願期間は正式募集要項で確認してください。"],
+      "sources": [{ "title": "日本大学第二高等学校 2027年度入試概要", "url": "https://www.nichidai2.ac.jp/highschool/exam/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311900062"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（A推薦・B推薦・部活動推薦）", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web準備後、2027年1月15日（金）〜1月18日（月）に推薦書・調査書等を郵送", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）14:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["普通科100名・理数科40名を推薦・一般の合計で募集します。", "普通科は国語・数学・英語各35点、理数科は数学を2倍する適性検査です。", "A推薦は第一志望、B推薦は東京都・神奈川県以外の併願者が対象です。"],
+      "sources": [{ "title": "日本大学豊山女子高等学校 2027年度募集要項", "url": "https://www.buzan-joshi.hs.nihon-u.ac.jp/assets/pdf/senior/admission-s/guide/guide_2027.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311900062"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月5日（金）にWeb出願・調査書郵送", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月10日（水）19:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["普通科100名・理数科40名を推薦・一般の合計で募集します。", "国語・英語・数学各100点で、理数科は数学を2倍して判定します。", "第一志望優遇・併願優遇は事前相談が必要です。"],
+      "sources": [{ "title": "日本大学豊山女子高等学校 2027年度募集要項", "url": "https://www.buzan-joshi.hs.nihon-u.ac.jp/assets/pdf/senior/admission-s/guide/guide_2027.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500184"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（推薦・特別推薦）", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "2027年1月15日（金）9:00〜15:00に窓口出願", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）7:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["全日制普通科男子120名募集です。", "推薦・特別推薦（学業）は国語・英語・数学合わせて70分の適性検査、特別推薦（スポーツ）は実技を行います。"],
+      "sources": [{ "title": "日本大学豊山高等学校 2027年度募集要項", "url": "https://www.buzan.hs.nihon-u.ac.jp/pdf/shs-exam/guide/2027.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500184"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月10日（水）12:00（調査書は2月7日必着または窓口提出）", "testDates": ["2027年2月12日（金）"], "resultDate": "2027年2月13日（土）7:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["全日制普通科男子120名を推薦合格者・併設中学校進学者を除いて募集します。", "国語・英語・数学各50分で、英語はリスニングを含みます。", "スポーツコース志願者は実技があります。"],
+      "sources": [{ "title": "日本大学豊山高等学校 2027年度募集要項", "url": "https://www.buzan.hs.nihon-u.ac.jp/pdf/shs-exam/guide/2027.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311000025"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（A推薦・B推薦）", "status": "overview-announced", "statusLabel": "入試要項要約発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月17日（日）郵送（1月17日消印有効）", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）23:00頃 Web発表", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式要項は2026年10月以降配布予定", "verifiedAt": "2026-08-05",
+      "notes": ["特進17名、総合進学・文理未来合計52名を推薦で募集する概要です。", "国語・英語・数学各50分の適性検査を行います。"],
+      "sources": [{ "title": "日本工業大学駒場高等学校 2027年度入試要項要約", "url": "https://nit-komaba.ed.jp/wp/wp-content/uploads/2026/06/2027-nyushi-koukou.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311000025"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試・併願優遇・チャレンジ入試", "status": "overview-announced", "statusLabel": "入試要項要約発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月5日（金）郵送（2月5日消印有効）", "testDates": ["2027年2月10日（水） ①", "2027年2月12日（金） ②・チャレンジ"], "resultDate": "各試験日の公式発表時刻を正式要項で確認", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式要項は2026年10月以降配布予定", "verifiedAt": "2026-08-05",
+      "notes": ["特進18名、総合進学・文理未来合計53名を一般で募集する概要です。", "国語・英語・数学各50分。一般①・②は個人面接があり、併願優遇は面接を行いません。"],
+      "sources": [{ "title": "日本工業大学駒場高等学校 2027年度入試要項要約", "url": "https://nit-komaba.ed.jp/wp/wp-content/uploads/2026/06/2027-nyushi-koukou.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113321400011"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（スポーツ・文化分野）", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2026年12月20日〜2027年1月10日、書類：1月15日〜16日必着（活動資格相談は2026年12月15日〜17日）", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）18:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["スポーツ・文化分野は男女合計約45名。別に指定中学校推薦10名があります。", "書類審査・面接・調査書等で選考します。活動資格相談が必要です。"],
+      "sources": [{ "title": "早稲田実業学校 2027年度高等部推薦入試", "url": "https://www.wasedajg.ed.jp/senior/exam-h/application-r/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113321400011"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2026年12月20日〜2027年1月25日、書類：1月25日〜27日消印有効", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月12日（金）13:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["男子約45名、女子約45名を募集します。", "国語100点60分、英語100点70分、数学100点60分で、面接はありません。"],
+      "sources": [{ "title": "早稲田実業学校 2027年度高等部一般入試", "url": "https://www.wasedajg.ed.jp/senior/exam-h/application-h/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113312000050"], "academicYear": 2027, "selection": "self-recommendation", "selectionLabel": "自己推薦入学試験", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2026年12月20日〜2027年1月14日、書類：1月15日〜16日消印有効", "testDates": ["2027年1月22日（金） 面接"], "resultDate": "2027年1月23日（土）", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["男子約100名を募集します。", "出願書類による第一次選考後、対象者全員に面接を行います。"],
+      "sources": [{ "title": "早稲田大学高等学院 2027年度入学試験", "url": "https://www.waseda.jp/school/shs/prospective/admission/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113312000050"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入学試験", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2026年12月20日〜2027年1月25日、書類：1月25日〜30日消印有効", "testDates": ["2027年2月11日（木・祝）"], "resultDate": "2027年2月15日（月）", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["帰国生約18名を含む男子260名を募集します。", "英語・国語・数学・小論文で選考します。試験会場は早稲田大学早稲田キャンパスです。"],
+      "sources": [{ "title": "早稲田大学高等学院 2027年度入学試験", "url": "https://www.waseda.jp/school/shs/prospective/admission/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113320400031"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web出願・受験票印刷：2027年1月15日（金）、書類：1月16日（土）〜1月19日（火）必着", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）10:00〜12:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["普通科男女60名募集です。", "8:45集合、9:00から個人面接を行います。"],
+      "sources": [{ "title": "明星学園高等学校 2027年度募集要項", "url": "https://www.myojogakuen.ed.jp/wp-content/uploads/2026/06/2027%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113320400031"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試・併願優遇入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）〜2月4日（木）、書類：1月26日（火）〜2月5日（金）必着", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月12日（金）10:00〜12:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["一般入試と併願優遇入試を合わせて普通科男女60名募集です。", "国語・英語・数学各50分と個人面接を行います。"],
+      "sources": [{ "title": "明星学園高等学校 2027年度募集要項", "url": "https://www.myojogakuen.ed.jp/wp-content/uploads/2026/06/2027%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311400076"], "academicYear": 2027, "selection": "recommendation-i", "selectionLabel": "推薦入試 I型", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2027年1月15日（金）、書類：1月18日（月）必着", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）9:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["男子約30名募集です。", "国語・数学・英語各40分70点と面接で選考します。"],
+      "sources": [{ "title": "明治大学付属中野高等学校 2027年度高校入試", "url": "https://www.nakanogakuen.ac.jp/exam/index.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311400076"], "academicYear": 2027, "selection": "recommendation-ii", "selectionLabel": "推薦入試 II型（スポーツ）", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "2027年1月15日（金）9:00〜10:00に窓口出願", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）9:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["男子約30名募集です。", "作文45分と面接で選考します。競技・出願資格の詳細は公式要項を確認してください。"],
+      "sources": [{ "title": "明治大学付属中野高等学校 2027年度高校入試", "url": "https://www.nakanogakuen.ac.jp/exam/index.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311400076"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）〜2月5日（金）、書類：2月8日（月）必着", "testDates": ["2027年2月12日（金）"], "resultDate": "2027年2月13日（土）9:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["男子約105名募集です。", "国語・数学・英語各50分100点で選考し、面接はありません。"],
+      "sources": [{ "title": "明治大学付属中野高等学校 2027年度高校入試", "url": "https://www.nakanogakuen.ac.jp/exam/index.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113320100098"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入学試験", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2027年1月10日（日）9:00〜1月18日（月）12:00、書類：1月15日（金）9:00〜1月19日（火）12:00必着", "testDates": ["2027年1月23日（土）"], "resultDate": "2027年1月24日（日）9:00〜1月25日（月）12:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["男女約80名募集です。", "書類審査、国語・英語・数学各30分100点の適性検査、調査書点、グループ面接で選考します。"],
+      "sources": [{ "title": "明治大学付属八王子高等学校 2027年度入学試験要項", "url": "https://www.mnh.ed.jp/contents/wp-content/uploads/2026.4.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113320100098"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入学試験", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2027年1月10日（日）9:00〜2月2日（火）12:00、書類：1月25日（月）9:00〜2月3日（水）12:00必着", "testDates": ["2027年2月11日（木・祝）"], "resultDate": "2027年2月12日（金）9:00〜2月13日（土）12:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["男女約80名募集で、スポーツ・文化・芸術の単願優遇合格者20名以内を含みます。", "国語・英語・数学各50分100点で選考し、面接はありません。"],
+      "sources": [{ "title": "明治大学付属八王子高等学校 2027年度入学試験要項", "url": "https://www.mnh.ed.jp/contents/wp-content/uploads/2026.4.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113321300021"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "overview-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "正式募集要項で確認（2026年9月公開予定）", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項の公開待ち", "verifiedAt": "2026-08-05",
+      "notes": ["スポーツ推薦約10名を含む男女約50名募集で、男女比を考慮します。", "書類審査、作文、面接で選考する概要です。出願期間などは正式募集要項で確認してください。"],
+      "sources": [{ "title": "明治学院東村山高等学校 2027年度入試概要", "url": "https://www.meijigakuin-higashi.ed.jp/senior/exam/bosyu/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113321300021"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "overview-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "正式募集要項で確認（2026年9月公開予定）", "testDates": ["2027年2月11日（木・祝）"], "resultDate": "2027年2月12日（金）", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項の公開待ち", "verifiedAt": "2026-08-05",
+      "notes": ["男女約70名募集で、男女比を考慮します。", "国語・英語・数学、調査書45点、本人面接で選考する概要です。出願期間などは正式募集要項で確認してください。"],
+      "sources": [{ "title": "明治学院東村山高等学校 2027年度入試概要", "url": "https://www.meijigakuin-higashi.ed.jp/senior/exam/bosyu/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113320800046"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "schedule-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "書類は2027年1月18日（月）必着", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項を公式で確認", "verifiedAt": "2026-08-05",
+      "notes": ["女子約25名募集です。", "書類審査と面接で選考する概要です。出願方法・時刻などは公式の募集要項で確認してください。"],
+      "sources": [{ "title": "桐朋女子高等学校 2027年度高校入試", "url": "https://chuko.toho.ac.jp/applicants/exam-high/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113320800046"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "schedule-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）8:00〜2月2日（火）23:59", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月10日（水）", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項を公式で確認", "verifiedAt": "2026-08-05",
+      "notes": ["女子約40名募集です。", "英語・国語・数学と面接で選考する概要です。提出書類などは公式の募集要項で確認してください。"],
+      "sources": [{ "title": "桐朋女子高等学校 2027年度高校入試", "url": "https://chuko.toho.ac.jp/applicants/exam-high/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310100053"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試 A・B", "status": "overview-announced", "statusLabel": "入試要項簡易版発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月19日（火）必着", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）10:00 Web発表", "detailsStatus": "overview-announced", "detailsStatusLabel": "詳細版は2026年10月公開予定", "verifiedAt": "2026-08-05",
+      "notes": ["男女合計120名募集です。", "A推薦は作文・面接、B推薦は適性検査・面接で選考する簡易版概要です。"],
+      "sources": [{ "title": "錦城学園高等学校 2027年度入試要項簡易版", "url": "https://www.kinjogakuen-h.ed.jp/entrance/recruiting/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310100053"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "overview-announced", "statusLabel": "入試要項簡易版発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜1月30日（土）必着", "testDates": ["2027年2月10日（水）", "2027年2月11日（木・祝）から選択"], "resultDate": "受験日が2月10日は2月11日、2月11日は2月12日の各10:00 Web発表", "detailsStatus": "overview-announced", "detailsStatusLabel": "詳細版は2026年10月公開予定", "verifiedAt": "2026-08-05",
+      "notes": ["男女合計120名募集です。", "国語・数学・英語と面接で選考する簡易版概要です。"],
+      "sources": [{ "title": "錦城学園高等学校 2027年度入試要項簡易版", "url": "https://www.kinjogakuen-h.ed.jp/entrance/recruiting/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113321100014"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2027年1月15日（金）0:00〜1月16日（土）19:00、書類：1月16日（土）消印有効", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）10:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["進学コース男女130名募集です。", "推薦書・調査書・作文・面接で選考します。特進コース希望者は推薦合格後の第1回一般試験で特進のみ受験できます。"],
+      "sources": [{ "title": "錦城高等学校 2027年度入学試験NAVI", "url": "https://www.kinjo-highschool.ed.jp/kinjo-info/wp-content/uploads/2026/05/NAVI_2027.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113321100014"], "academicYear": 2027, "selection": "general-1", "selectionLabel": "第1回一般入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）0:00〜2月3日（水）19:00、書類：2月3日（水）消印有効", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月11日（木・祝）10:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["第1回・第2回一般合計で男女320名募集です。第1回は特進・進学コースを募集します。", "国語・数学・英語各100点と調査書で選考します。"],
+      "sources": [{ "title": "錦城高等学校 2027年度入学試験NAVI", "url": "https://www.kinjo-highschool.ed.jp/kinjo-info/wp-content/uploads/2026/05/NAVI_2027.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113321100014"], "academicYear": 2027, "selection": "general-2", "selectionLabel": "第2回一般入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）0:00〜2月3日（水）19:00、書類：2月3日（水）消印有効", "testDates": ["2027年2月12日（金）"], "resultDate": "2027年2月13日（土）10:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["第1回・第2回一般合計で男女320名募集です。第2回は特進コースのみ募集します。", "国語・数学・英語各100点と調査書で選考します。"],
+      "sources": [{ "title": "錦城高等学校 2027年度入学試験NAVI", "url": "https://www.kinjo-highschool.ed.jp/kinjo-info/wp-content/uploads/2026/05/NAVI_2027.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310300122"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web・受験料：2027年1月15日（金）〜1月16日（土）12:00、書類：1月16日（土）消印有効", "testDates": ["2027年1月26日（火）8:20集合"], "resultDate": "2027年1月26日（火）14:00〜14:15 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["男子60名・女子60名、合計120名募集です。", "出願書類と面接で選考します。入学手続後の基礎力確認テストは選考試験ではありません。"],
+      "sources": [{ "title": "明治学院高等学校 2027年度生徒募集要項", "url": "https://www.meigaku.ed.jp/cms/wp-content/uploads/2026/07/27_meigaku_bosyu_1c.pdf.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310300122"], "academicYear": 2027, "selection": "general-1", "selectionLabel": "第1回一般入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web・受験料：2027年1月25日（月）〜1月29日（金）12:00、書類：1月29日（金）消印有効", "testDates": ["2027年2月10日（水）8:20集合"], "resultDate": "2027年2月11日（木・祝）14:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["男子75名・女子75名、合計150名募集です。", "国語・数学・英語各50分100点、面接、調査書で選考します。"],
+      "sources": [{ "title": "明治学院高等学校 2027年度生徒募集要項", "url": "https://www.meigaku.ed.jp/cms/wp-content/uploads/2026/07/27_meigaku_bosyu_1c.pdf.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310300122"], "academicYear": 2027, "selection": "general-2", "selectionLabel": "第2回一般入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web・受験料：2027年2月1日（月）〜2月5日（金）12:00、書類：2月5日（金）消印有効", "testDates": ["2027年2月19日（金）8:20集合"], "resultDate": "2027年2月20日（土）14:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["男子30名・女子30名、合計60名募集です。", "国語・数学・英語各50分100点、面接、調査書で選考します。"],
+      "sources": [{ "title": "明治学院高等学校 2027年度生徒募集要項", "url": "https://www.meigaku.ed.jp/cms/wp-content/uploads/2026/07/27_meigaku_bosyu_1c.pdf.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500139"], "academicYear": 2027, "selection": "recommendation-i", "selectionLabel": "推薦入試 I", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2027年1月15日（金）〜1月18日（月）", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["推薦・一般を通した募集人員は特進20名、進学120名です。", "作文、面接、出願書類で選考します。"],
+      "sources": [{ "title": "昭和第一高等学校 2027年度推薦入試", "url": "https://www.sdh.ed.jp/exam-info/recommendation.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500139"], "academicYear": 2027, "selection": "recommendation-ii", "selectionLabel": "推薦入試 II（東京都・神奈川県以外）", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2027年1月15日（金）〜1月18日（月）", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["東京都・神奈川県以外の中学校在籍者を対象とする方式です。募集人員は推薦入試 I と共通です。", "英語・国語・数学から1科目の適性検査、面接、出願書類で選考します。"],
+      "sources": [{ "title": "昭和第一高等学校 2027年度推薦入試", "url": "https://www.sdh.ed.jp/exam-info/recommendation.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500139"], "academicYear": 2027, "selection": "concurrent-priority", "selectionLabel": "併願優遇入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）〜1月27日（水）", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月11日（木・祝）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["募集人員は一般入試と共通で、特進20名・進学120名です。", "英語・国語・数学から1科目、面接、出願書類で選考します。"],
+      "sources": [{ "title": "昭和第一高等学校 2027年度推薦・併願優遇入試", "url": "https://www.sdh.ed.jp/exam-info/recommendation.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500139"], "academicYear": 2027, "selection": "general-1", "selectionLabel": "一般入試 I", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）〜2月8日（月）", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月11日（木・祝）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["一般入試全体の募集人員は特進20名・進学120名です。", "英語・国語・数学、面接、出願書類で選考します。"],
+      "sources": [{ "title": "昭和第一高等学校 2027年度一般入試", "url": "https://www.sdh.ed.jp/exam-info/general.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500139"], "academicYear": 2027, "selection": "general-2", "selectionLabel": "一般入試 II", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）〜2月16日（火）", "testDates": ["2027年2月18日（木）"], "resultDate": "2027年2月19日（金）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["一般入試全体の募集人員は特進20名・進学120名です。", "英語・国語・数学、面接、出願書類で選考します。"],
+      "sources": [{ "title": "昭和第一高等学校 2027年度一般入試", "url": "https://www.sdh.ed.jp/exam-info/general.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500139"], "academicYear": 2027, "selection": "general-3", "selectionLabel": "一般入試 III", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）〜3月6日（土）", "testDates": ["2027年3月9日（火）"], "resultDate": "2027年3月9日（火）15:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["一般入試全体の募集人員は特進20名・進学120名です。", "英語・国語・数学、面接、出願書類で選考します。"],
+      "sources": [{ "title": "昭和第一高等学校 2027年度一般入試", "url": "https://www.sdh.ed.jp/exam-info/general.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600056"], "academicYear": 2027, "selection": "recommendation-a", "selectionLabel": "A推薦入試（単願）", "status": "overview-announced", "statusLabel": "入試制度概要発表済み",
+      "applicationPeriod": "Web：2026年12月20日（日）〜2027年1月16日（土）、書類：1月15日（金）〜1月19日（火）必着", "testDates": ["2027年1月22日（金）9:00〜"], "resultDate": "2027年1月23日（土）9:00〜", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項は準備中", "verifiedAt": "2026-08-05",
+      "notes": ["A・B・C推薦を合わせて鉄道科男女100名募集の概要です。", "英語・数学・国語各40分の適性検査、個人面接、調査書で選考します。A推薦は第一志望者対象です。"],
+      "sources": [{ "title": "昭和鉄道高等学校 2027年度入試制度概要", "url": "https://showa-tetsudo.ed.jp/showa/wp-content/uploads/2026/07/2baeca07f382c367765dd2c6d4fff830.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600056"], "academicYear": 2027, "selection": "recommendation-b", "selectionLabel": "B併願入試（都外・神奈川県除く）", "status": "overview-announced", "statusLabel": "入試制度概要発表済み",
+      "applicationPeriod": "Web：2026年12月20日（日）〜2027年1月16日（土）、書類：1月15日（金）〜1月19日（火）必着", "testDates": ["2027年1月22日（金）9:00〜"], "resultDate": "2027年1月23日（土）9:00〜", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項は準備中", "verifiedAt": "2026-08-05",
+      "notes": ["A・B・C推薦を合わせて鉄道科男女100名募集の概要です。", "東京都・神奈川県を除く都外生対象で、英語・数学・国語各40分の適性検査、個人面接、調査書で選考します。"],
+      "sources": [{ "title": "昭和鉄道高等学校 2027年度入試制度概要", "url": "https://showa-tetsudo.ed.jp/showa/wp-content/uploads/2026/07/2baeca07f382c367765dd2c6d4fff830.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600056"], "academicYear": 2027, "selection": "recommendation-c", "selectionLabel": "C推薦入試（単願）", "status": "overview-announced", "statusLabel": "入試制度概要発表済み",
+      "applicationPeriod": "Web：2026年12月20日（日）〜2027年1月16日（土）、書類：1月15日（金）〜1月19日（火）必着", "testDates": ["2027年1月22日（金）9:00〜"], "resultDate": "2027年1月23日（土）9:00〜", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項は準備中", "verifiedAt": "2026-08-05",
+      "notes": ["A・B・C推薦を合わせて鉄道科男女100名募集の概要です。", "内申目安を設けず、英語・数学・国語各40分の適性検査、個人面接、調査書を重視する第一志望者向け方式です。"],
+      "sources": [{ "title": "昭和鉄道高等学校 2027年度入試制度概要", "url": "https://showa-tetsudo.ed.jp/showa/wp-content/uploads/2026/07/2baeca07f382c367765dd2c6d4fff830.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600056"], "academicYear": 2027, "selection": "concurrent-priority", "selectionLabel": "2月併願優遇入試", "status": "overview-announced", "statusLabel": "入試制度概要発表済み",
+      "applicationPeriod": "Web：2026年12月20日（日）〜2027年2月2日（火）、書類：1月25日（月）〜2月4日（木）必着", "testDates": ["2027年2月10日（水）9:00〜"], "resultDate": "2027年2月11日（木・祝）9:00〜", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項は準備中", "verifiedAt": "2026-08-05",
+      "notes": ["2月併願優遇・一般を合わせて鉄道科男女100名募集の概要です。", "英語・数学・国語各50分の学力検査、個人面接、調査書で選考します。"],
+      "sources": [{ "title": "昭和鉄道高等学校 2027年度入試制度概要", "url": "https://showa-tetsudo.ed.jp/showa/wp-content/uploads/2026/07/2baeca07f382c367765dd2c6d4fff830.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600056"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "overview-announced", "statusLabel": "入試制度概要発表済み",
+      "applicationPeriod": "Web：2026年12月20日（日）〜2027年2月2日（火）、書類：1月25日（月）〜2月4日（木）必着", "testDates": ["2027年2月10日（水）9:00〜"], "resultDate": "2027年2月11日（木・祝）9:00〜", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項は準備中", "verifiedAt": "2026-08-05",
+      "notes": ["2月併願優遇・一般を合わせて鉄道科男女100名募集の概要です。", "英語・数学・国語各50分の学力検査、個人面接、調査書で選考します。"],
+      "sources": [{ "title": "昭和鉄道高等学校 2027年度入試制度概要", "url": "https://showa-tetsudo.ed.jp/showa/wp-content/uploads/2026/07/2baeca07f382c367765dd2c6d4fff830.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310900064"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月18日（月）、推薦書は1月18日（月）必着", "testDates": ["2027年1月22日（金）8:30集合"], "resultDate": "2027年1月22日（金）11:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["AGコース40名、SGコース60名、男女計100名募集です。TGコースの推薦募集はありません。", "個人面接で選考し、合格者は2月12日の実力テストを受験します。"],
+      "sources": [{ "title": "朋優学院高等学校 2027年度募集要項", "url": "https://www.ho-yu.ed.jp/wordpress/wp-content/uploads/2026/07/20260709-6a4f00f72f924.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310900064"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試（併願優遇・オープン）", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜1月30日（土）、調査書は1月30日（土）必着", "testDates": ["2027年2月10日（水）・12日（金）・13日（土）から選択（複数日可）"], "resultDate": "2027年2月14日（日）10:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["TGコース25名、AGコース130名、SGコース140名、男女計295名募集です。", "TG志望は5科目型、AG・SG志望は3科目型を選択します。5科目型は国数英理社、3科目型は国数英です。"],
+      "sources": [{ "title": "朋優学院高等学校 2027年度募集要項", "url": "https://www.ho-yu.ed.jp/wordpress/wp-content/uploads/2026/07/20260709-6a4f00f72f924.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500011"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月16日（土）消印有効", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["特別進学・総合進学コース合計120名募集です。", "作文50分、個人面接、調査書・推薦書で選考します。希望者は2月10日の3科チャレンジ試験を受験できます。"],
+      "sources": [{ "title": "杉並学院高等学校 2027年度高校募集要項", "url": "https://suginami.ed.jp/entrance_exam-requirement/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500011"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜1月28日（木）消印有効", "testDates": ["2027年2月10日（水）または2月11日（木・祝）"], "resultDate": "2027年2月12日（金）", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["特別進学・総合進学コース合計280名募集です。", "英語・国語・数学各50分、個人面接、調査書で選考します。"],
+      "sources": [{ "title": "杉並学院高等学校 2027年度高校募集要項", "url": "https://suginami.ed.jp/entrance_exam-requirement/", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310100099"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "overview-announced", "statusLabel": "募集概要発表済み",
+      "applicationPeriod": "正式募集要項で確認", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）19:00", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項で確認", "verifiedAt": "2026-08-05",
+      "notes": ["女子60名募集の概要です。", "国語・数学・英語の適性検査を合わせて90分・150点で実施します。"],
+      "sources": [{ "title": "東京家政学院高等学校 2027年度高校入試概要", "url": "https://www.kasei-gakuin.ed.jp/entrance/nyushi_h.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113310100099"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "overview-announced", "statusLabel": "募集概要発表済み",
+      "applicationPeriod": "正式募集要項で確認", "testDates": ["2027年2月11日（木・祝）"], "resultDate": "2027年2月12日（金）9:00", "detailsStatus": "overview-announced", "detailsStatusLabel": "正式募集要項で確認", "verifiedAt": "2026-08-05",
+      "notes": ["女子60名募集の概要です。", "国語・数学・英語を各50分・100点で実施します。"],
+      "sources": [{ "title": "東京家政学院高等学校 2027年度高校入試概要", "url": "https://www.kasei-gakuin.ed.jp/entrance/nyushi_h.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500093"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "入力：2027年1月10日（日）〜1月15日（金）、書類：1月16日（土）必着", "testDates": ["2027年1月22日（金）9:00〜"], "resultDate": "2027年1月22日（金）13:00〜1月24日（日）23:59", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["スタンダード75名、イノベーション15名、アドバンスト15名募集です。", "個人面接で選考し、合格者は2月12日の奨学生判定試験を受験します。"],
+      "sources": [{ "title": "東京立正高等学校 2027年度募集要項", "url": "https://www.tokyorissho.ed.jp/exam/pdf/senior_bosyu2027.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311500093"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試（併願優遇を含む）", "status": "schedule-announced", "statusLabel": "学校別詳細発表済み",
+      "applicationPeriod": "入力：2027年1月10日（日）〜2月2日（火）、書類：2月3日（水）必着", "testDates": ["2027年2月10日（水）または2月12日（金）9:00〜"], "resultDate": "受験日当日19:00から2日後23:59まで", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["スタンダード70名、イノベーション20名、アドバンスト30名募集です。", "国語・英語・数学各50分と個人面接で選考します。"],
+      "sources": [{ "title": "東京立正高等学校 2027年度募集要項", "url": "https://www.tokyorissho.ed.jp/exam/pdf/senior_bosyu2027.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113320100052"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "overview-announced", "statusLabel": "募集要項ダイジェスト発表済み",
+      "applicationPeriod": "正式募集要項で確認", "testDates": ["2027年1月22日（金）"], "resultDate": "正式募集要項で確認", "detailsStatus": "overview-announced", "detailsStatusLabel": "ダイジェスト発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["特進コース・セレクトコースが対象です。", "書類審査、600字作文、面接で選考します。第一志望者向けです。"],
+      "sources": [{ "title": "東京純心女子高等学校 2027年度募集要項ダイジェスト", "url": "https://www.t-junshin.ed.jp/content/files/2027/2027_h_exam_digest.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113320100052"], "academicYear": 2027, "selection": "concurrent-advantage", "selectionLabel": "併願優遇入試", "status": "overview-announced", "statusLabel": "募集要項ダイジェスト発表済み",
+      "applicationPeriod": "正式募集要項で確認", "testDates": ["2027年2月10日（水）または2月11日（木・祝）"], "resultDate": "正式募集要項で確認", "detailsStatus": "overview-announced", "detailsStatusLabel": "ダイジェスト発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["特進コース・セレクトコースが対象です。", "書類審査と国語・数学・英語の筆記試験で選考します。"],
+      "sources": [{ "title": "東京純心女子高等学校 2027年度募集要項ダイジェスト", "url": "https://www.t-junshin.ed.jp/content/files/2027/2027_h_exam_digest.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113320100052"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "overview-announced", "statusLabel": "募集要項ダイジェスト発表済み",
+      "applicationPeriod": "正式募集要項で確認", "testDates": ["2027年2月10日（水）または2月11日（木・祝）"], "resultDate": "正式募集要項で確認", "detailsStatus": "overview-announced", "detailsStatusLabel": "ダイジェスト発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["出願基準はありません。", "国語・数学・英語の筆記試験で選考し、第一志望者には合計15点を加点します。"],
+      "sources": [{ "title": "東京純心女子高等学校 2027年度募集要項ダイジェスト", "url": "https://www.t-junshin.ed.jp/content/files/2027/2027_h_exam_digest.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311000034"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月18日（月）16:00（書類は1月18日消印有効）", "testDates": ["2027年1月22日（金）8:30集合"], "resultDate": "2027年1月22日（金）16:30", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["文理探究コースと美術デザインコースを合わせて女子50人募集です。", "文理探究は作文と面接、美術デザインは作品提出・審査と面接で選考します。", "合格者は2月10日の学力調査試験を受験します。"],
+      "sources": [{ "title": "トキワ松学園高等学校 2027年度生徒募集要項", "url": "https://tokiwamatsu.ac.jp/wp-content/themes/tokiwa2020/images/pdf/2027snr.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311000034"], "academicYear": 2027, "selection": "concurrent-advantage", "selectionLabel": "併願優遇入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜1月27日（水）16:00（書類は1月27日消印有効）", "testDates": ["2027年2月10日（水）8:30集合", "2027年2月11日（木・祝）8:30集合（いずれか一方）"], "resultDate": "受験日当日19:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["一般入試と合わせて女子50人募集です。", "文理探究は国語・英語・数学と面接、美術デザインは国語・英語・美術実技と面接で選考します。", "第1回・第2回のどちらか一方のみ受験できます。"],
+      "sources": [{ "title": "トキワ松学園高等学校 2027年度生徒募集要項", "url": "https://tokiwamatsu.ac.jp/wp-content/themes/tokiwa2020/images/pdf/2027snr.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113311000034"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月6日（土）（書類は2月6日消印有効）", "testDates": ["2027年2月10日（水）8:30集合", "2027年2月11日（木・祝）8:30集合（いずれか一方）"], "resultDate": "受験日当日19:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-05",
+      "notes": ["併願優遇入試と合わせて女子50人募集です。", "文理探究は国語・英語・数学と面接、美術デザインは国語・英語・美術実技と面接で選考します。", "第1回・第2回のどちらか一方のみ受験できます。"],
+      "sources": [{ "title": "トキワ松学園高等学校 2027年度生徒募集要項", "url": "https://tokiwamatsu.ac.jp/wp-content/themes/tokiwa2020/images/pdf/2027snr.pdf", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113299908034", "wk_d113299905126", "wk_d113299906036", "wk_d113299903191", "wk_d113299904118", "wk_d113299904065", "wk_d113299902085", "wk_d113299906269", "wk_d113299903039", "wk_d113299908061", "wk_d113299910094", "wk_d113299905064", "wk_d113299906116", "wk_d113299906198", "wk_d113299906072", "wk_d113299902101", "wk_d113299905073", "wk_d113299909113", "wk_d113299907026", "wk_d113299910049", "wk_d113299904154", "wk_d113299908169", "wk_d113299901095", "wk_d113299903137", "wk_d113299909168", "wk_d113299909060", "wk_d113299907179", "wk_d113299907142", "wk_d113299902030", "wk_d113299903084", "wk_d113299910012", "wk_d113299908098", "wk_d113299908105", "wk_d113299906241", "wk_d113299905046", "wk_d113299902156", "wk_d113299906205", "wk_d113299910110", "wk_d113299903173", "wk_d113299906143", "wk_d113299906152", "wk_d113299902165", "wk_d113299902192", "wk_d113299903208", "wk_d113299903119", "wk_d113299901148", "wk_d113299908114", "wk_d113299907151", "wk_d113299901157", "wk_d113299902147", "wk_d113299910101"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦に基づく選抜", "status": "schedule-announced", "statusLabel": "共通日程発表済み",
+      "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年1月18日17:00／書類提出：2027年1月8日〜1月18日", "testDates": ["2027年1月26日（火）", "2027年1月27日（水）"], "resultDate": "2027年2月2日（火）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "学校別詳細の発表待ち", "officialPublishedAt": "2026-05-28", "verifiedAt": "2026-08-05",
+      "notes": ["東京都教育委員会から共通日程が発表されています。", "募集人員、検査内容、配点など各校固有の詳細は、学校別募集要項で確認してください。", "令和9年度実施要綱・同細目は2026年9月に公表予定です。"],
+      "sources": [{ "title": "令和9年度東京都立高等学校入学者選抜の日程について", "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528", "publishedAt": "2026-05-28", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113299908034", "wk_d113299905126", "wk_d113299906214", "wk_d113299906036", "wk_d113299903191", "wk_d113299904118", "wk_d113299904065", "wk_d113299904092", "wk_d113299902085", "wk_d113299906269", "wk_d113299903039", "wk_d113299908061", "wk_d113299910094", "wk_d113299905064", "wk_d113299906116", "wk_d113299906198", "wk_d113299905135", "wk_d113299906072", "wk_d113299902101", "wk_d113299905073", "wk_d113299909113", "wk_d113299907026", "wk_d113299910049", "wk_d113299904154", "wk_d113299908169", "wk_d113299901095", "wk_d113299903137", "wk_d113299909168", "wk_d113299909060", "wk_d113299907179", "wk_d113299907142", "wk_d113299902030", "wk_d113299903084", "wk_d113299908025", "wk_d113299910012", "wk_d113299911039", "wk_d113299908098", "wk_d113299908105", "wk_d113299906241", "wk_d113299903155", "wk_d113299908178", "wk_d113299905046", "wk_d113299902156", "wk_d113299906205", "wk_d113299910110", "wk_d113299903173", "wk_d113299906143", "wk_d113299906152", "wk_d113299902165", "wk_d113299902192", "wk_d113299903208", "wk_d113299903119", "wk_d113299901148", "wk_d113299908114", "wk_d113299907151", "wk_d113299901157", "wk_d113299902147", "wk_d113299910101"], "academicYear": 2027, "selection": "general-first", "selectionLabel": "学力検査に基づく選抜（第一次募集）", "status": "schedule-announced", "statusLabel": "共通日程発表済み",
+      "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年2月4日17:00／書類提出：2027年1月29日〜2月4日", "testDates": ["2027年2月21日（日）"], "resultDate": "2027年3月1日（月）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "学校別詳細の発表待ち", "officialPublishedAt": "2026-05-28", "verifiedAt": "2026-08-05",
+      "notes": ["東京都教育委員会から共通日程が発表されています。", "募集人員、検査科目、配点など各校固有の詳細は、学校別募集要項で確認してください。", "令和9年度実施要綱・同細目は2026年9月に公表予定です。"],
+      "sources": [{ "title": "令和9年度東京都立高等学校入学者選抜の日程について", "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528", "publishedAt": "2026-05-28", "verifiedAt": "2026-08-05" }]
     }
   ]
 }

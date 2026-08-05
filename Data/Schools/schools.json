@@ -1,9 +1,10 @@
 {
   "schemaVersion": 1,
-  "asOf": "2025-05-01",
+  "asOf": "2026-08-04",
   "sourceUrls": [
     "https://www.mext.go.jp/content/20251226-mxt_chousa01-000011635_2.csv",
-    "https://www.mext.go.jp/content/20251226-mxt_chousa01-000011635_4.csv"
+    "https://www.mext.go.jp/content/20251226-mxt_chousa01-000011635_4.csv",
+    "https://www.toyo.ac.jp/toyodaikeihoku/introduction/history/"
   ],
   "schools": [
     {
@@ -16,8 +17,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "じっせんじょしがくえんこうとうがっこう",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://hs.jissen.ac.jp/",
+      "tags": ["女子校", "普通科", "全日制", "中高一貫", "通常の高校募集なし", "探究学習", "渋谷"]
     },
     {
       "id": "wk_d101320200171",
@@ -29,8 +32,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "じっせんがくえんこうとうがっこう",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.jissengakuen-h.ed.jp/",
+      "tags": ["共学", "普通科", "全日制", "高校募集あり", "5コース", "グローバル教育", "中野坂上"]
     },
     {
       "id": "wk_d101320200162",
@@ -42,8 +47,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "ふじみがおかこうとうがっこう",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.fujimigaoka.ac.jp/",
+      "tags": ["女子校", "普通科", "全日制", "高校募集あり", "英語教育", "グローバル教育", "笹塚"]
     },
     {
       "id": "wk_d101320200108",
@@ -55,8 +62,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "ふじみこうとうがっこう",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.fujimi.ac.jp/",
+      "tags": ["女子校", "普通科", "全日制", "中高一貫", "通常の高校募集なし", "探究学習", "中村橋"]
     },
     {
       "id": "wk_d101320200117",
@@ -68,8 +77,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "せんしゅうだいがくふぞくこうとうがっこう",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://senshu-u-h.ed.jp/",
+      "tags": ["共学", "普通科", "全日制", "高校募集あり", "大学附属", "高大連携", "杉並"]
     },
     {
       "id": "wk_d101320200144",
@@ -172,8 +183,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつおおしまかいようこくさいこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/oosimakaiyokokusai-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "海洋国際科", "全寮制", "乗船実習", "海洋教育", "伊豆大島"]
     },
     {
       "id": "wk_d101247000016",
@@ -185,8 +198,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつおおしまこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/oshima-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "農林科", "家政科", "離島留学", "伊豆大島"]
     },
     {
       "id": "wk_d101239500018",
@@ -198,8 +213,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつおおさきこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/osaki-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "特進クラス", "土曜講習", "戸越公園"]
     },
     {
       "id": "wk_d101233700019",
@@ -211,8 +228,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつおおもりこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/omori-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "少人数授業", "習熟度別授業", "池上"]
     },
     {
       "id": "wk_d101222200017",
@@ -224,8 +243,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつおおえどこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/oedo-he/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "定時制", "総合学科", "三部制", "単位制", "チャレンジスクール", "学び直し"]
     },
     {
       "id": "wk_d101236200017",
@@ -237,8 +258,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/hamura-h/",
+      "nameKana": "とうきょうとりつはむらこうとうがっこう",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "習熟度別授業", "進路指導", "地域連携"]
     },
     {
       "id": "wk_d101263300010",
@@ -250,8 +273,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/shoyo-h/",
+      "nameKana": "とうきょうとりつしょうようこうとうがっこう",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "単位制", "選択科目", "進学指導", "国際教育"]
     },
     {
       "id": "wk_d101246000018",
@@ -263,8 +288,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/sibasyogyo-h/",
+      "nameKana": "とうきょうとりつしばしょうぎょうこうとうがっこう",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "ビジネス科", "資格取得", "就職支援", "地域連携"]
     },
     {
       "id": "wk_d101245700013",
@@ -276,8 +303,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/roka-h/",
+      "nameKana": "とうきょうとりつろかこうとうがっこう",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "単位制", "選択科目", "進学指導", "ICT教育"]
     },
     {
       "id": "wk_d101223600039",
@@ -289,8 +318,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/wakabasogo-h/",
+      "nameKana": "とうきょうとりつわかばそうごうこうとうがっこう",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "総合学科", "単位制", "選択科目", "キャリア教育", "探究学習"]
     },
     {
       "id": "wk_d101246800010",
@@ -18013,6 +18044,7 @@
     },
     {
       "id": "wk_d113110000067",
+      "nameKana": "おちゃのみずじょしだいがくふぞくこうとうがっこう",
       "name": "お茶の水女子大学附属高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -18021,12 +18053,14 @@
       "ownership": "national",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.fz.ocha.ac.jp/fk/",
+      "tags": ["国立", "女子校", "全日制", "普通科", "高校募集あり", "SSH", "探究学習", "高大連携"]
     },
     {
       "id": "wk_d113310800010",
       "name": "かえつ有明高等学校",
+      "nameKana": "かえつありあけこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江東区東雲２－１６－１",
@@ -18034,12 +18068,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.ariake.kaetsu.ac.jp/",
+      "tags": ["私立", "共学校", "全日制", "普通科", "高校募集あり", "探究学習", "対話型学習", "PBL"]
     },
     {
       "id": "wk_d113311200265",
       "name": "サレジアン国際学園世田谷高等学校",
+      "nameKana": "されじあんこくさいがくえんせたがやこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区大蔵２－８－１",
@@ -18047,12 +18083,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://salesian-setagaya.ed.jp/",
+      "tags": ["私立", "共学校", "全日制", "普通科", "通常の高校募集なし", "中高一貫", "PBL", "カトリック"]
     },
     {
       "id": "wk_d113311700073",
       "name": "サレジアン国際学園高等学校",
+      "nameKana": "されじあんこくさいがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都北区赤羽台４－２－１４",
@@ -18060,12 +18098,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.salesian.international.seibi.ac.jp/",
+      "tags": ["私立", "共学校", "全日制", "普通科", "高校募集あり", "PBL", "国際教育", "カトリック"]
     },
     {
       "id": "wk_d113311000034",
       "name": "トキワ松学園高等学校",
+      "nameKana": "ときわまつがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都目黒区碑文谷４－１７－１６",
@@ -18073,12 +18113,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://tokiwamatsu.ac.jp/",
+      "tags": ["私立", "女子校", "全日制", "普通科", "高校募集あり", "探究学習", "国際教育", "美術デザイン"]
     },
     {
       "id": "wk_d113320800028",
       "name": "ドルトン東京学園高等部",
+      "nameKana": "どるとんとうきょうがくえんこうとうぶ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都調布市入間町二丁目２８番２０号",
@@ -18086,12 +18128,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.daltontokyo.ed.jp/",
       "tags": []
     },
     {
       "id": "wk_d113320900054",
       "name": "フェリシア高等学校",
+      "nameKana": "ふぇりしあこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都町田市三輪町１２２",
@@ -18099,12 +18143,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.felicia.ed.jp/",
       "tags": []
     },
     {
       "id": "wk_d113311200014",
       "name": "三田国際科学学園高等学校",
+      "nameKana": "みたこくさいかがくがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区用賀２－１６－１",
@@ -18112,12 +18158,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.mita-is.ed.jp/",
       "tags": []
     },
     {
       "id": "wk_d113310100133",
       "name": "三輪田学園高等学校",
+      "nameKana": "みわだがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区九段北３－３－１５",
@@ -18125,12 +18173,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.miwada.ac.jp/",
       "tags": []
     },
     {
       "id": "wk_d113310600021",
       "name": "上野学園高等学校",
+      "nameKana": "うえのがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都台東区東上野４－２４－１２",
@@ -18138,12 +18188,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.uenogakuen.ed.jp/",
       "tags": []
     },
     {
       "id": "wk_d113311200130",
       "name": "下北沢成徳高等学校",
+      "nameKana": "しもきたざわせいとくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区代田６－１２－３９",
@@ -18151,12 +18203,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.shimokitazawa-seitoku.ed.jp/",
       "tags": []
     },
     {
       "id": "wk_d113311200149",
       "name": "世田谷学園高等学校",
+      "nameKana": "せたがやがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区三宿１－１６－３１",
@@ -18164,7 +18218,8 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.setagayagakuen.ac.jp/",
       "tags": []
     },
     {
@@ -18185,6 +18240,7 @@
     {
       "id": "wk_d113321000024",
       "name": "中央大学附属高等学校",
+      "nameKana": "ちゅうおうだいがくふぞくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都小金井市貫井北町３－２２－１",
@@ -18192,12 +18248,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.hs.chuo-u.ac.jp/",
       "tags": []
     },
     {
       "id": "wk_d113310500013",
       "name": "中央大学高等学校",
+      "nameKana": "ちゅうおうだいがくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区春日１－１３－２７",
@@ -18205,12 +18263,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.cu-hs.chuo-u.ac.jp/",
       "tags": []
     },
     {
       "id": "wk_d113310800029",
       "name": "中央学院大学中央高等学校",
+      "nameKana": "ちゅうおうがくいんだいがくちゅうおうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江東区亀戸７－６５－１２",
@@ -18218,12 +18278,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.cguch.ed.jp/",
       "tags": []
     },
     {
       "id": "wk_d113310800038",
       "name": "中村高等学校",
+      "nameKana": "なかむらこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江東区清澄２－３－１５",
@@ -18231,12 +18293,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://nakamura.ed.jp/",
       "tags": []
     },
     {
       "id": "wk_d113310100115",
       "name": "二松学舎大学附属高等学校",
+      "nameKana": "にしょうがくしゃだいがくふぞくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区九段南２－１－３２",
@@ -18244,25 +18308,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
-    },
-    {
-      "id": "wk_d113310500102",
-      "name": "京北学園白山高等学校",
-      "prefectureCode": "13",
-      "prefecture": "東京都",
-      "address": "東京都文京区白山２－３６－５",
-      "postalCode": "112-0001",
-      "ownership": "private",
-      "campusType": "main",
-      "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.nishogakusha-highschool.ac.jp/",
       "tags": []
     },
     {
       "id": "wk_d113310500086",
       "name": "京華商業高等学校",
+      "nameKana": "けいかしょうぎょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区白山５－６－６",
@@ -18270,12 +18323,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.keika-c.ed.jp/",
       "tags": []
     },
     {
       "id": "wk_d113310500077",
       "name": "京華女子高等学校",
+      "nameKana": "けいかじょしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区白山５－６－６",
@@ -18283,12 +18338,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.keika-g.ed.jp/",
       "tags": []
     },
     {
       "id": "wk_d113310500068",
       "name": "京華高等学校",
+      "nameKana": "けいかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区白山５－６－６",
@@ -18296,12 +18353,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.keika.ed.jp/",
       "tags": []
     },
     {
       "id": "wk_d113311200069",
       "name": "佼成学園女子高等学校",
+      "nameKana": "こうせいがくえんじょしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区給田２－１－１",
@@ -18309,12 +18368,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.girls.kosei.ac.jp/",
       "tags": []
     },
     {
       "id": "wk_d113311500039",
       "name": "佼成学園高等学校",
+      "nameKana": "こうせいがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都杉並区和田２－６－２９",
@@ -18322,12 +18383,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.kosei.ac.jp/boys/",
       "tags": []
     },
     {
       "id": "wk_d113310400050",
       "name": "保善高等学校",
+      "nameKana": "ほぜんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都新宿区大久保３－６－２",
@@ -18335,12 +18398,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://hozen.ed.jp/",
       "tags": []
     },
     {
       "id": "wk_d113312200021",
       "name": "修徳高等学校",
+      "nameKana": "しゅうとくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都葛飾区青戸８－１０－１",
@@ -18348,12 +18413,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.shutoku.ac.jp/",
       "tags": []
     },
     {
       "id": "wk_d113311500020",
       "name": "光塩女子学院高等科",
+      "nameKana": "こうえんじょしがくいんこうとうか",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都杉並区高円寺南２－３３－２８",
@@ -18361,12 +18428,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.koen-ejh.ed.jp/jh/",
       "tags": []
     },
     {
       "id": "wk_d113320100061",
       "name": "八王子学園八王子高等学校",
+      "nameKana": "はちおうじがくえんはちおうじこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八王子市台町４－３５－１",
@@ -18374,12 +18443,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.hachioji.ed.jp/senr/",
       "tags": []
     },
     {
       "id": "wk_d113320100070",
       "name": "八王子実践高等学校",
+      "nameKana": "はちおうじじっせんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八王子市台町１－６－１５",
@@ -18387,12 +18458,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://hachioji-jissen.ac.jp/shs/",
       "tags": []
     },
     {
       "id": "wk_d113311000070",
       "name": "八雲学園高等学校",
+      "nameKana": "やくもがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都目黒区八雲２－１４－１",
@@ -18400,12 +18473,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.yakumo.ac.jp/",
       "tags": []
     },
     {
       "id": "wk_d113312200012",
       "name": "共栄学園高等学校",
+      "nameKana": "きょうえいがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都葛飾区お花茶屋２－６－１",
@@ -18413,12 +18488,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://kyoei-g.ed.jp/",
       "tags": []
     },
     {
       "id": "wk_d113320100089",
       "name": "共立女子第二高等学校",
+      "nameKana": "きょうりつじょしだいにこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八王子市元八王子町１－７１０",
@@ -18426,12 +18503,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.kyoritsu-wu.ac.jp/nichukou/",
       "tags": []
     },
     {
       "id": "wk_d113310100044",
       "name": "共立女子高等学校",
+      "nameKana": "きょうりつじょしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区一ツ橋２－２－１",
@@ -18439,141 +18518,163 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.kyoritsu-wu.ac.jp/chukou/",
       "tags": []
     },
     {
       "id": "wk_d113321100032",
+      "nameKana": "そうかこうとうがっこう",
       "name": "創価高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都小平市たかの台２－１",
       "postalCode": "187-0024",
+      "officialUrl": "https://tokyo-senior.soka.ed.jp/",
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113311800027",
+      "nameKana": "きたとしまこうとうがっこう",
       "name": "北豊島高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都荒川区東尾久６－３４－２４",
       "postalCode": "116-8555",
+      "officialUrl": "https://www.kitatoshima.ed.jp/",
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113311600038",
+      "nameKana": "じゅうもんじこうとうがっこう",
       "name": "十文字高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区北大塚１－１０－３３",
       "postalCode": "170-0004",
+      "officialUrl": "https://js.jumonji-u.ac.jp/",
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113310100080",
+      "nameKana": "ちよだこうとうがっこう",
       "name": "千代田高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区四番町１１",
       "postalCode": "102-0081",
+      "officialUrl": "https://chiyoda.ed.jp/",
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113320300023",
+      "nameKana": "きちじょうじょしこうとうがっこう",
       "name": "吉祥女子高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都武蔵野市吉祥寺東町４－１２－２０",
       "postalCode": "180-0002",
+      "officialUrl": "https://www.kichijo-joshi.jp/",
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113320900027",
+      "nameKana": "わこうこうとうがっこう",
       "name": "和光高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都町田市真光寺町１２９１",
       "postalCode": "195-0051",
+      "officialUrl": "https://wakos.wako.ed.jp/",
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113310100142",
+      "nameKana": "わようくだんじょしこうとうがっこう",
       "name": "和洋九段女子高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区九段北１－１２－１２",
       "postalCode": "102-0073",
+      "officialUrl": "https://www.wayokudan.ed.jp/",
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113310900082",
+      "nameKana": "しながわえとわーるじょしこうとうがっこう",
       "name": "品川エトワール女子高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都品川区南品川５－１２－４",
       "postalCode": "140-0004",
+      "officialUrl": "https://www.etoile.ed.jp/highschool/",
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113310900037",
+      "nameKana": "しながわじょしがくいんこうとうぶ",
       "name": "品川女子学院高等部",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都品川区北品川３－３－１２",
       "postalCode": "140-8707",
+      "officialUrl": "https://www.shinagawajoshigakuin.jp/",
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113310900073",
+      "nameKana": "しながわがくげいこうとうがっこう",
       "name": "品川学藝高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都品川区豊町２－１６－１２",
       "postalCode": "142-0042",
+      "officialUrl": "https://shinagawa.ed.jp/",
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113310900019",
+      "nameKana": "しながわしょうえいこうとうがっこう",
       "name": "品川翔英高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -18582,11 +18683,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.shinagawa-shouei.ac.jp/jhhs/",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113320700010",
+      "nameKana": "けいめいがくえんこうとうがっこう",
       "name": "啓明学園高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -18595,11 +18698,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.keimei.ac.jp/jsh/",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113311200078",
+      "nameKana": "こくしかんこうとうがっこう",
       "name": "国士舘高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -18608,11 +18713,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://hs.kokushikan.ed.jp/",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113311200041",
+      "nameKana": "くにもとじょしこうとうがっこう",
       "name": "国本女子高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -18621,11 +18728,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://kunimoto.ac.jp/jsh/",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113321500010",
+      "nameKana": "くにたちおんがくだいがくふぞくこうとうがっこう",
       "name": "国立音楽大学附属高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -18634,11 +18743,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.kunion.ed.jp/",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113312000014",
+      "nameKana": "こっかこうとうがっこう",
       "name": "国華高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -18647,11 +18758,12 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113321000033",
+      "nameKana": "こくさいきりすときょうだいがくこうとうがっこう",
       "name": "国際基督教大学高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -18660,11 +18772,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://icu-h.ed.jp/",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113311500048",
+      "nameKana": "こくがくいんだいがくくがやまこうとうがっこう",
       "name": "國學院大學久我山高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -18673,11 +18787,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.kugayama-h.ed.jp/",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113311300031",
+      "nameKana": "こくがくいんこうとうがっこう",
       "name": "國學院高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -18686,11 +18802,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.kokugakuin.ed.jp/",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113311900026",
+      "nameKana": "じょうほくこうとうがっこう",
       "name": "城北高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -18699,12 +18817,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "officialUrl": "https://www.johoku.ac.jp/",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113311600047",
       "name": "城西大学附属城西高等学校",
+      "nameKana": "じょうさいだいがくふぞくじょうさいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区千早１－１０－２６",
@@ -18712,12 +18832,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://josaigakuen.ac.jp/",
+      "tags": ["共学", "普通科", "全日制", "ACクラス", "CSクラス"]
     },
     {
       "id": "wk_d113311400067",
       "name": "堀越高等学校",
+      "nameKana": "ほりこしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都中野区中央２－５６－２",
@@ -18725,12 +18847,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.horikoshigakuen.ed.jp/",
+      "tags": ["共学", "普通科", "全日制", "総合コース", "体育コース", "トレイトコース"]
     },
     {
       "id": "wk_d113311000061",
       "name": "多摩大学目黒高等学校",
+      "nameKana": "たまだいがくめぐろこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都目黒区下目黒４－１０－２４",
@@ -18738,12 +18862,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.tmh.ac.jp/",
+      "tags": ["共学", "普通科", "全日制", "特進クラス", "進学クラス"]
     },
     {
       "id": "wk_d113322400028",
       "name": "多摩大学附属聖ケ丘高等学校",
+      "nameKana": "たまだいがくふぞくひじりがおかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都多摩市聖ヶ丘４－１－１",
@@ -18751,12 +18877,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.hijirigaoka.ed.jp/",
+      "tags": ["共学", "普通科", "全日制", "少人数教育", "高校募集あり"]
     },
     {
       "id": "wk_d113310100179",
       "name": "大原学園美空高等学校",
+      "nameKana": "おおはらがくえんみそらこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区神田神保町２－４２",
@@ -18764,12 +18892,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://ohs.o-hara.ac.jp/",
+      "tags": ["共学", "普通科", "通信制", "週5日", "週3日", "週1日", "オンライン"]
     },
     {
       "id": "wk_d113311400049",
       "name": "大妻中野高等学校",
+      "nameKana": "おおつまなかのこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都中野区上高田２－３－７",
@@ -18777,12 +18907,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.otsumanakano.ac.jp/",
+      "tags": ["女子校", "普通科", "全日制", "完全中高一貫", "高校募集なし", "グローバル教育"]
     },
     {
       "id": "wk_d113322400019",
       "name": "大妻多摩高等学校",
+      "nameKana": "おおつまたまこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都多摩市唐木田２－７－１",
@@ -18790,12 +18922,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.otsuma-tama.ed.jp/",
+      "tags": ["女子校", "普通科", "全日制", "中高一貫", "高校募集なし", "探究"]
     },
     {
       "id": "wk_d113310100017",
       "name": "大妻高等学校",
+      "nameKana": "おおつまこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区三番町１２",
@@ -18803,12 +18937,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.otsuma.ed.jp/",
+      "tags": ["女子校", "普通科", "全日制", "中高一貫", "高校募集なし", "グローバル教育"]
     },
     {
       "id": "wk_d113320400022",
       "name": "大成高等学校",
+      "nameKana": "たいせいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都三鷹市上連雀６－７－５",
@@ -18816,12 +18952,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.taisei.ed.jp/",
+      "tags": ["共学", "普通科", "全日制", "特別進学", "文理進学", "情報進学"]
     },
     {
       "id": "wk_d113311200167",
       "name": "大東学園高等学校",
+      "nameKana": "だいとうがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区船橋７－２２－１",
@@ -18829,12 +18967,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://daitogakuen.ed.jp/top/",
+      "tags": ["共学", "普通科", "全日制", "少人数授業", "探究", "フィールド制"]
     },
     {
       "id": "wk_d113311900035",
       "name": "大東文化大学第一高等学校",
+      "nameKana": "だいとうぶんかだいがくだいいちこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都板橋区高島平１－９－１",
@@ -18842,12 +18982,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.daito.ac.jp/ichiko/",
+      "tags": ["共学", "普通科", "全日制", "大学付属", "国際教育", "3クラス制"]
     },
     {
       "id": "wk_d113311100024",
       "name": "大森学園高等学校",
+      "nameKana": "おおもりがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都大田区大森西３－２－１２",
@@ -18855,12 +18997,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.omori-gakuen.ed.jp/",
+      "tags": ["共学", "普通科", "全日制", "工業科", "資格取得", "ICT教育"]
     },
     {
       "id": "wk_d113310100151",
       "name": "女子学院高等学校",
+      "nameKana": "じょしがくいんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区一番町２２－１０",
@@ -18868,12 +19012,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.joshigakuin.ed.jp/",
+      "tags": ["女子校", "普通科", "全日制", "完全中高一貫", "高校募集なし", "キリスト教", "自主自立"]
     },
     {
       "id": "wk_d113311500066",
       "name": "女子美術大学付属高等学校",
+      "nameKana": "じょしびじゅつだいがくふぞくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都杉並区和田１－４９－８",
@@ -18881,12 +19027,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.fuzoku.joshibi.ac.jp/",
+      "tags": ["女子校", "普通科", "全日制", "大学付属", "美術教育", "高校募集あり"]
     },
     {
       "id": "wk_d113311700046",
       "name": "女子聖学院高等学校",
+      "nameKana": "じょしせいがくいんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都北区中里３－１２－２",
@@ -18894,12 +19042,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.joshiseigakuin.ed.jp/",
+      "tags": ["女子校", "普通科", "全日制", "中高一貫", "通常の高校募集なし", "キリスト教", "探究"]
     },
     {
       "id": "wk_d113310400023",
       "name": "学習院女子高等科",
+      "nameKana": "がくしゅういんじょしこうとうか",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都新宿区戸山３－２０－１",
@@ -18907,12 +19057,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.gakushuin.ac.jp/girl/",
+      "tags": ["女子校", "普通科", "全日制", "中高一貫", "通常の高校募集なし", "本物に触れる学び", "表現力"]
     },
     {
       "id": "wk_d113311600010",
       "name": "学習院高等科",
+      "nameKana": "がくしゅういんこうとうか",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区目白１－５－１",
@@ -18920,12 +19072,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.gakushuin.ac.jp/bsh/",
+      "tags": ["男子校", "普通科", "全日制", "中高一貫", "高校募集あり", "選択科目", "国際交流"]
     },
     {
       "id": "wk_d113310700020",
       "name": "安田学園高等学校",
+      "nameKana": "やすだがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都墨田区横網２－２－２５",
@@ -18933,12 +19087,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.yasuda.ed.jp/",
+      "tags": ["共学", "普通科", "全日制", "高校募集あり", "S特コース", "特進コース", "探究", "ICT"]
     },
     {
       "id": "wk_d113311700019",
       "name": "安部学院高等学校",
+      "nameKana": "あべがくいんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都北区栄町３５－４",
@@ -18946,12 +19102,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.abe-gakuin.ed.jp/",
+      "tags": ["女子校", "商業科", "全日制", "高校募集あり", "簿記", "資格取得", "進学・就職"]
     },
     {
       "id": "wk_d113311400058",
       "name": "宝仙学園高等学校",
+      "nameKana": "ほうせんがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都中野区中央２－２８－３",
@@ -18959,8 +19117,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.hosen.ed.jp/",
+      "tags": ["共学部・女子部", "普通科", "全日制", "高校募集あり", "順天堂大学系属理数インター", "こども教育コース", "校舎別"]
     },
     {
       "id": "wk_d113311300040",
@@ -19030,6 +19189,7 @@
     {
       "id": "wk_d113310500120",
       "name": "小石川淑徳学園高等学校",
+      "nameKana": "こいしかわしゅくとくがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区小石川３－１４－３",
@@ -19037,12 +19197,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://ssc1892.ed.jp/",
+      "tags": ["高校募集あり", "女子校", "普通科", "特別選抜クラス", "選抜クラス"]
     },
     {
       "id": "wk_d113310300131",
       "name": "山脇学園高等学校",
+      "nameKana": "やまわきがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区赤坂４－１０－３６",
@@ -19050,12 +19212,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.yamawaki.ed.jp/",
+      "tags": ["通常の高校募集なし", "女子校", "中高6年一貫", "SSH"]
     },
     {
       "id": "wk_d113310600012",
       "name": "岩倉高等学校",
+      "nameKana": "いわくらこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都台東区上野７－８－８",
@@ -19063,12 +19227,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.tky-iwakura-h.ed.jp/",
+      "tags": ["高校募集あり", "共学校", "普通科", "運輸科", "鉄道教育"]
     },
     {
       "id": "wk_d113311600029",
       "name": "川村高等学校",
+      "nameKana": "かわむらこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区目白２－２２－３",
@@ -19076,12 +19242,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.kawamura.ac.jp/cyu-kou/",
+      "tags": ["高校募集あり", "女子校", "普通科", "目白駅徒歩1分"]
     },
     {
       "id": "wk_d113311600074",
       "name": "巣鴨商業高等学校",
+      "nameKana": "すがもしょうぎょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区上池袋１－２１－１",
@@ -19089,12 +19257,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.sugamo.ed.jp/",
+      "tags": ["旧校名・卒業生証明書対象", "現在の新入学募集なし", "商業科", "男子校"]
     },
     {
       "id": "wk_d113311600065",
       "name": "巣鴨高等学校",
+      "nameKana": "すがもこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区上池袋１－２１－１",
@@ -19102,12 +19272,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.sugamo.ed.jp/",
+      "tags": ["高校募集あり", "男子校", "普通科", "中高一貫", "3科・5科選択"]
     },
     {
       "id": "wk_d113320100043",
       "name": "工学院大学附属高等学校",
+      "nameKana": "こうがくいんだいがくふぞくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八王子市中野町２６４７－２",
@@ -19115,12 +19287,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.js.kogakuin.ac.jp/",
+      "tags": ["高校募集あり", "共学校", "普通科", "大学附属", "探究・ICT・国際教育"]
     },
     {
       "id": "wk_d113320100025",
       "name": "帝京八王子高等学校",
+      "nameKana": "ていきょうはちおうじこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八王子市上川町３７６６",
@@ -19128,12 +19302,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://teihachi.ed.jp/",
+      "tags": ["高校募集あり", "共学校", "普通科", "特進コース", "進学コース"]
     },
     {
       "id": "wk_d113320100034",
       "name": "帝京大学高等学校",
+      "nameKana": "ていきょうだいがくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八王子市越野３２２",
@@ -19141,12 +19317,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.teikyo-u.ed.jp/",
+      "tags": ["高校募集あり", "共学校", "普通科", "進学校", "習熟度別編成"]
     },
     {
       "id": "wk_d113311900044",
       "name": "帝京高等学校",
+      "nameKana": "ていきょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都板橋区稲荷台２７－１",
@@ -19154,12 +19332,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.teikyo.ed.jp/",
+      "tags": ["高校募集あり", "共学校", "普通科", "特進・進学", "インターナショナル", "アスリート"]
     },
     {
       "id": "wk_d113310500200",
       "name": "広尾学園小石川高等学校",
+      "nameKana": "ひろおがくえんこいしかわこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区本駒込２－２９－１",
@@ -19167,12 +19347,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://hiroo-koishikawa.ed.jp/",
+      "tags": ["共学", "普通科", "高校募集あり", "国際生募集", "インターナショナルコース"]
     },
     {
       "id": "wk_d113310300042",
       "name": "広尾学園高等学校",
+      "nameKana": "ひろおがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区南麻布５－１－１４",
@@ -19180,12 +19362,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.hiroogakuen.ed.jp/",
+      "tags": ["共学", "普通科", "高校募集あり", "医進・サイエンス", "インターナショナル"]
     },
     {
       "id": "wk_d113311200050",
       "name": "恵泉女学園高等学校",
+      "nameKana": "けいせんじょがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区船橋５－８－１",
@@ -19193,12 +19377,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.keisen.jp/",
+      "tags": ["女子校", "中高一貫", "通常の高校募集なし", "キリスト教", "園芸"]
     },
     {
       "id": "wk_d113312300011",
       "name": "愛国高等学校",
+      "nameKana": "あいこくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江戸川区西小岩５－７－１",
@@ -19206,8 +19392,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.aikokugakuen.ac.jp/senior-high/",
+      "tags": ["高校募集あり", "女子校", "全日制", "普通科", "商業科", "家政科", "衛生看護科"]
     },
     {
       "id": "wk_d113310300024",
@@ -19227,6 +19414,7 @@
     {
       "id": "wk_d113311200121",
       "name": "成城学園高等学校",
+      "nameKana": "せいじょうがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区成城６－１－２０",
@@ -19234,12 +19422,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.seijogakuen.ed.jp/chukou/",
+      "tags": ["共学", "普通科", "高校募集あり", "大学附属", "コース制"]
     },
     {
       "id": "wk_d113310400041",
       "name": "成城高等学校",
+      "nameKana": "せいじょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都新宿区原町３－８７",
@@ -19247,12 +19437,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.seijogakko.ed.jp/",
+      "tags": ["男子校", "中高一貫", "通常の高校募集なし", "探究", "体験学習"]
     },
     {
       "id": "wk_d113310400032",
       "name": "成女高等学校",
+      "nameKana": "せいじょこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都新宿区富久町７－３０",
@@ -19260,12 +19452,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.seijo-gk.ac.jp/",
+      "tags": ["女子校", "普通科", "高校募集あり", "キャリア教育", "探究", "専攻制度"]
     },
     {
       "id": "wk_d113311700082",
       "name": "成立学園高等学校",
+      "nameKana": "せいりつがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都北区東十条６－９－１３",
@@ -19273,12 +19467,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.seiritsu.ac.jp/",
+      "tags": ["共学", "普通科", "高校募集あり", "コース制", "探究", "文武両立"]
     },
     {
       "id": "wk_d113320300032",
       "name": "成蹊高等学校",
+      "nameKana": "せいけいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都武蔵野市吉祥寺北町３－１０－１３",
@@ -19286,12 +19482,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.seikei.ac.jp/jsh/",
+      "tags": ["共学", "普通科", "高校募集あり", "大学附属", "体験学習", "帰国生入試"]
     },
     {
       "id": "wk_d113322300010",
       "name": "拓殖大学第一高等学校",
+      "nameKana": "たくしょくだいがくだいいちこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都武蔵村山市大南４－６４－５",
@@ -19299,12 +19497,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.takuichi.ed.jp/",
+      "tags": ["共学", "普通科", "高校募集あり", "大学附属", "特進コース", "進学コース"]
     },
     {
       "id": "wk_d113310900028",
       "name": "攻玉社高等学校",
+      "nameKana": "こうぎょくしゃこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都品川区西五反田５－１４－２",
@@ -19312,12 +19512,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://kogyokusha.ed.jp/",
+      "tags": ["男子校", "中高一貫", "通常の高校募集なし", "進学校", "国際学級"]
     },
     {
       "id": "wk_d113310500193",
       "name": "文京学院大学女子高等学校",
+      "nameKana": "ぶんきょうがくいんだいがくじょしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区本駒込６－１８－３",
@@ -19325,12 +19527,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.hs.bgu.ac.jp/",
+      "tags": ["高校募集あり", "女子校", "普通科", "理数教育", "国際教育", "スポーツ科学"]
     },
     {
       "id": "wk_d113311500057",
       "name": "文化学園大学杉並高等学校",
+      "nameKana": "ぶんかがくえんだいがくすぎなみこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都杉並区阿佐谷南３－４８－１６",
@@ -19338,12 +19542,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://bunsugi.jp/",
+      "tags": ["高校募集あり", "共学", "普通科", "ダブルディプロマ", "STEAM教育", "PBL"]
     },
     {
       "id": "wk_d113310900091",
       "name": "文教大学付属高等学校",
+      "nameKana": "ぶんきょうだいがくふぞくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都品川区旗の台３－２－１７",
@@ -19351,12 +19557,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.bunkyo.ac.jp/jsh/",
+      "tags": ["高校募集あり", "共学", "普通科", "大学付属校", "探究学習", "放課後学習支援"]
     },
     {
       "id": "wk_d113322900014",
-      "name": "文華女子高等学校",
+      "name": "東京文華高等学校",
+      "nameKana": "とうきょうぶんかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都西東京市西原町４－５－８５",
@@ -19364,12 +19572,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.bunkagakuen.ac.jp/",
+      "tags": ["高校募集あり", "共学", "普通科", "選抜コース", "進学コース", "スポーツコース", "2026年校名変更"]
     },
     {
       "id": "wk_d113311400030",
       "name": "新渡戸文化高等学校",
+      "nameKana": "にとべぶんかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都中野区本町６－３８－１",
@@ -19377,8 +19587,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.nitobebunka.ed.jp/",
+      "tags": ["高校募集あり", "共学", "普通科", "探究学習", "美術", "フードデザイン", "PBL"]
     },
     {
       "id": "wk_d113321300012",
@@ -19390,8 +19601,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "にほんたいいくだいがくおうかこうとうがっこう",
+      "officialUrl": "https://ohka.ed.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["女子校", "普通科", "大学付属", "スポーツ", "ダンス"]
     },
     {
       "id": "wk_d113311100060",
@@ -19403,8 +19616,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "にほんたいいくだいがくえばらこうとうがっこう",
+      "officialUrl": "https://nittai-ebara.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "普通科", "大学付属", "スポーツ", "アカデミック"]
     },
     {
       "id": "wk_d113311200247",
@@ -19416,8 +19631,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "にほんだいがくさくらがおかこうとうがっこう",
+      "officialUrl": "https://www.sakura.chs.nihon-u.ac.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "普通科", "大学付属", "特別進学", "高大連携"]
     },
     {
       "id": "wk_d113310700011",
@@ -19429,8 +19646,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "にほんだいがくだいいちこうとうがっこう",
+      "officialUrl": "https://nichidai1-edu.note.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "普通科", "大学付属", "高大連携", "両国"]
     },
     {
       "id": "wk_d113320900018",
@@ -19442,8 +19661,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "にほんだいがくだいさんこうとうがっこう",
+      "officialUrl": "https://nichidai3.ed.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "普通科", "大学付属", "特進", "部活動"]
     },
     {
       "id": "wk_d113311500100",
@@ -19455,8 +19676,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "にほんだいがくだいにこうとうがっこう",
+      "officialUrl": "https://www.nichidai2.ac.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "普通科", "大学付属", "高2コース選択", "部活動"]
     },
     {
       "id": "wk_d113311900062",
@@ -19468,8 +19691,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "にほんだいがくぶざんじょしこうとうがっこう",
+      "officialUrl": "https://www.buzan-joshi.hs.nihon-u.ac.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["女子校", "普通科", "理数科", "大学付属", "特進"]
     },
     {
       "id": "wk_d113310500184",
@@ -19481,8 +19706,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "にほんだいがくぶざんこうとうがっこう",
+      "officialUrl": "https://www.buzan.hs.nihon-u.ac.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["男子校", "普通科", "大学付属", "特進", "スポーツ"]
     },
     {
       "id": "wk_d113311500119",
@@ -19494,8 +19721,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "にほんだいがくつるがおかこうとうがっこう",
+      "officialUrl": "https://www.tsurugaoka.hs.nihon-u.ac.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "普通科", "大学付属", "特進", "部活動"]
     },
     {
       "id": "wk_d113311200229",
@@ -19507,12 +19736,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "にほんじょしたいいくだいがくふぞくにかいどうこうとうがっこう",
+      "officialUrl": "https://nikaido.ed.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["女子校", "普通科", "大学付属", "ダンス", "スポーツ"]
     },
     {
       "id": "wk_d113311200238",
-      "name": "日本学園高等学校",
+      "name": "明治大学付属世田谷高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区松原２－７－３４",
@@ -19520,8 +19751,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "めいじだいがくふぞくせたがやこうとうがっこう",
+      "officialUrl": "https://www.meijisetagaya.ed.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "普通科", "大学付属", "2026年校名変更", "旧校名：日本学園高等学校"]
     },
     {
       "id": "wk_d113311000025",
@@ -19533,8 +19766,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "にほんこうぎょうだいがくこまばこうとうがっこう",
+      "officialUrl": "https://nit-komaba.ed.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "普通科", "3コース", "大学付属"]
     },
     {
       "id": "wk_d113321400011",
@@ -19546,8 +19781,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "わせだだいがくけいぞくわせだじつぎょうがっこうこうとうぶ",
+      "officialUrl": "https://www.wasedajg.ed.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "普通科", "大学系属", "高校募集あり"]
     },
     {
       "id": "wk_d113312000050",
@@ -19559,8 +19796,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "わせだだいがくこうとうがくいん",
+      "officialUrl": "https://www.waseda.jp/school/shs/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["男子校", "普通科", "大学付属", "高校募集あり"]
     },
     {
       "id": "wk_d113310400078",
@@ -19572,8 +19811,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "わせだこうとうがっこう",
+      "officialUrl": "https://www.waseda-h.ed.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["男子校", "普通科", "大学系属", "中高一貫", "高校募集なし"]
     },
     {
       "id": "wk_d113320400031",
@@ -19585,8 +19826,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "みょうじょうがくえんこうとうがっこう",
+      "officialUrl": "https://www.myojogakuen.ed.jp/high_school/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "普通科", "6コース", "選択授業", "服装自由"]
     },
     {
       "id": "wk_d113320600011",
@@ -19598,8 +19841,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "めいせいこうとうがっこう",
+      "officialUrl": "https://www.meisei.ac.jp/hs/h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "普通科", "SMGS", "MGS", "本科", "大学連携"]
     },
     {
       "id": "wk_d113311400076",
@@ -19611,8 +19856,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "めいじだいがくふぞくなかのこうとうがっこう",
+      "officialUrl": "https://www.nakanogakuen.ac.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["男子校", "普通科", "大学付属", "文武両道", "高校募集あり"]
     },
     {
       "id": "wk_d113320100098",
@@ -19624,8 +19871,10 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "めいじだいがくふぞくはちおうじこうとうがっこう",
+      "officialUrl": "https://www.mnh.ed.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "普通科", "大学付属", "文系・理系", "スクールバス"]
     },
     {
       "id": "wk_d113320800019",
@@ -19652,12 +19901,15 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "めいじがくいんひがしむらやまこうとうがっこう",
+      "officialUrl": "https://www.meijigakuin-higashi.ed.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "普通科", "大学系列", "キリスト教教育", "推薦・受験コース"]
     },
     {
       "id": "wk_d113310300122",
       "name": "明治学院高等学校",
+      "nameKana": "めいじがくいんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区白金台１－２－３７",
@@ -19665,12 +19917,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.meigaku.ed.jp/",
+      "tags": ["共学", "全日制", "普通科", "高校単独校", "キリスト教教育", "明治学院大学系列", "高校募集あり"]
     },
     {
       "id": "wk_d113321300030",
       "name": "明法高等学校",
+      "nameKana": "めいほうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都東村山市富士見町２－４－１２",
@@ -19678,12 +19932,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.meiho.ed.jp/",
+      "tags": ["共学", "全日制", "普通科", "高校募集あり", "特別進学", "総合進学", "GSP", "国際教育"]
     },
     {
       "id": "wk_d113311200112",
       "name": "昭和女子大学附属昭和高等学校",
+      "nameKana": "しょうわじょしだいがくふぞくしょうわこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区太子堂１－７－５７",
@@ -19691,12 +19947,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://jhs.swu.ac.jp/",
+      "tags": ["女子校", "全日制", "普通科", "中高一貫", "高校一般募集なし", "本科", "グローバル", "スーパーサイエンス"]
     },
     {
       "id": "wk_d113320200015",
       "name": "昭和第一学園高等学校",
+      "nameKana": "しょうわだいいちがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都立川市栄町２－４５－８",
@@ -19704,12 +19962,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.sdg.ed.jp/",
+      "tags": ["共学", "全日制", "普通科", "高校募集あり", "英語コース", "選抜進学", "総合進学", "デザイン"]
     },
     {
       "id": "wk_d113310500139",
       "name": "昭和第一高等学校",
+      "nameKana": "しょうわだいいちこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区本郷１－２－１５",
@@ -19717,51 +19977,59 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.sdh.ed.jp/",
+      "tags": ["共学", "全日制", "普通科", "高校募集あり", "特進コース", "進学コース", "駅近"]
     },
     {
       "id": "wk_d113311600056",
       "name": "昭和鉄道高等学校",
+      "nameKana": "しょうわてつどうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区池袋本町２－１０－１",
       "postalCode": "170-0011",
       "ownership": "private",
+      "officialUrl": "https://showa-tetsudo.ed.jp/",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "全日制", "鉄道科", "高校募集あり", "運輸サービス", "運輸システム", "キャリア教育", "鉄道実習"]
     },
     {
       "id": "wk_d113320800037",
       "name": "晃華学園高等学校",
+      "nameKana": "こうかがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都調布市佐須町５－２８－１",
       "postalCode": "182-8550",
       "ownership": "private",
+      "officialUrl": "https://jhs.kokagakuen.ac.jp/",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["女子校", "全日制", "普通科", "中高一貫", "高校募集なし", "カトリック教育", "探究", "国際理解教育"]
     },
     {
       "id": "wk_d113310300113",
       "name": "普連土学園高等学校",
+      "nameKana": "ふれんどがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区三田４－１４－１６",
       "postalCode": "108-0073",
       "ownership": "private",
+      "officialUrl": "https://www.friends.ac.jp/",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["女子校", "全日制", "普通科", "中高一貫", "高校募集なし", "キリスト教教育", "少人数教育", "国際教育"]
     },
     {
       "id": "wk_d113310100035",
       "name": "暁星高等学校",
+      "nameKana": "ぎょうせいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区富士見１－２－５",
@@ -19769,37 +20037,43 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.gyosei-h.ed.jp/",
+      "tags": ["男子校", "中高一貫", "通常の高校募集なし", "カトリック"]
     },
     {
       "id": "wk_d113310900064",
       "name": "朋優学院高等学校",
+      "nameKana": "ほうゆうがくいんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都品川区西大井６－１－２３",
       "postalCode": "140-8608",
       "ownership": "private",
+      "officialUrl": "https://www.ho-yu.ed.jp/",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学", "全日制", "普通科", "高校単独校", "高校募集あり", "TGコース", "AGコース", "SGコース", "大学進学"]
     },
     {
       "id": "wk_d113311600136",
       "name": "本郷高等学校",
+      "nameKana": "ほんごうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区駒込４－１１－１",
       "postalCode": "170-0003",
       "ownership": "private",
+      "officialUrl": "https://www.hongo.ed.jp/",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["男子校", "全日制", "普通科", "中高一貫", "高校募集なし", "文武両道", "自学自習", "探究"]
     },
     {
       "id": "wk_d113311500011",
+      "nameKana": "すぎなみがくいんこうとうがっこう",
       "name": "杉並学院高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -19808,11 +20082,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://suginami.ed.jp/",
+      "tags": ["共学", "普通科", "全日制", "高校募集あり", "特別進学コース", "総合進学コース", "高円寺", "阿佐ケ谷"]
     },
     {
       "id": "wk_d113311400021",
+      "nameKana": "とうあがくえんこうとうがっこう",
       "name": "東亜学園高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -19821,11 +20097,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://toagakuen.ac.jp/",
+      "tags": ["共学", "普通科", "全日制", "高校募集あり", "特進コース", "総合選抜コース", "情報理数コース", "新井薬師前"]
     },
     {
       "id": "wk_d113311300068",
+      "nameKana": "とうきょうじょがっかんこうとうがっこう",
       "name": "東京女学館高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -19834,11 +20112,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://mhs.tjk.ed.jp/",
+      "tags": ["女子校", "普通科", "全日制", "中高一貫", "通常の高校募集なし", "国際コース", "グローバル教育", "広尾"]
     },
     {
       "id": "wk_d113110000012",
+      "nameKana": "とうきょうがくげいだいがくふぞくこうとうがっこう",
       "name": "東京学芸大学附属高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -19847,11 +20127,13 @@
       "ownership": "national",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.gakugei-hs.setagaya.tokyo.jp/",
       "tags": []
     },
     {
       "id": "wk_d113311100051",
+      "nameKana": "とうきょうじつぎょうこうとうがっこう",
       "name": "東京実業高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -19860,11 +20142,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.tojitsu.ed.jp/",
+      "tags": ["共学", "普通科", "機械科", "電気科", "全日制", "高校募集あり", "8コース", "キャリア教育", "蒲田"]
     },
     {
       "id": "wk_d113311900053",
+      "nameKana": "とうきょうかせいだいがくふぞくじょしこうとうがっこう",
       "name": "東京家政大学附属女子高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -19873,12 +20157,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.tokyo-kasei.ed.jp/",
+      "tags": ["女子校", "普通科", "全日制", "高校募集あり", "大学附属", "Super Advancedコース", "Creative Learningコース", "十条"]
     },
     {
       "id": "wk_d113310100099",
       "name": "東京家政学院高等学校",
+      "nameKana": "とうきょうかせいがくいんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区三番町２２",
@@ -19886,24 +20172,28 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.kasei-gakuin.ed.jp/",
+      "tags": ["女子校", "普通科", "全日制", "高校募集あり", "2027年校名変更予定", "法政大学系列校予定", "市ヶ谷"]
     },
     {
       "id": "wk_d113311700108",
       "name": "東京成徳大学高等学校",
+      "nameKana": "とうきょうせいとくだいがくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
-      "address": "東京都北区豊島８－２６－９",
-      "postalCode": "114-8526",
+      "address": "東京都北区王子６－７－１４",
+      "postalCode": "114-0002",
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.tokyoseitoku.jp/hs/",
+      "tags": ["共学校", "普通科", "全日制", "高校募集あり", "3コース", "海外留学", "王子"]
     },
     {
       "id": "wk_d113110000076",
+      "nameKana": "とうきょうかがくだいがくふぞくかがくぎじゅつこうとうがっこう",
       "name": "東京科学大学附属科学技術高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -19912,12 +20202,14 @@
       "ownership": "national",
       "campusType": "main",
       "openedOn": "2025/5/1",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.g.sth.isct.ac.jp/",
       "tags": []
     },
     {
       "id": "wk_d113311500093",
       "name": "東京立正高等学校",
+      "nameKana": "とうきょうりっしょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都杉並区堀ノ内２－４１－１５",
@@ -19925,12 +20217,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.tokyorissho.ed.jp/",
+      "tags": ["共学校", "普通科", "全日制", "高校募集あり", "3コース", "SDGs", "新高円寺"]
     },
     {
       "id": "wk_d113320100052",
       "name": "東京純心女子高等学校",
+      "nameKana": "とうきょうじゅんしんじょしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八王子市滝山町２－６００",
@@ -19938,12 +20232,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.t-junshin.ed.jp/",
+      "tags": ["女子校", "普通科", "全日制", "高校募集あり", "カトリック", "3コース", "八王子"]
     },
     {
       "id": "wk_d113110000058",
       "name": "東京芸術大学音楽学部附属音楽高等学校",
+      "nameKana": "とうきょうげいじゅつだいがくおんがくがくぶふぞくおんがくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都台東区上野公園１２－８",
@@ -19957,6 +20253,7 @@
     {
       "id": "wk_d113311200201",
       "name": "東京農業大学第一高等学校",
+      "nameKana": "とうきょうのうぎょうだいがくだいいちこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区桜３－３３－１",
@@ -19964,73 +20261,84 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.nodai-1-h.ed.jp/",
+      "tags": ["共学校", "普通科", "全日制", "中高一貫", "高校募集停止", "東京農業大学連携", "経堂"]
     },
     {
       "id": "wk_d113311200256",
       "name": "東京都市大学付属高等学校",
+      "nameKana": "とうきょうとしだいがくふぞくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区成城１－１３－１",
       "postalCode": "157-8560",
+      "officialUrl": "https://www.tcu-jsh.ed.jp/",
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["男子校", "普通科", "全日制", "中高一貫", "高校一般募集なし", "東京都市大学系列", "理科実験", "成城"]
     },
     {
       "id": "wk_d113311200210",
       "name": "東京都市大学等々力高等学校",
+      "nameKana": "とうきょうとしだいがくとどろきこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区等々力８－１０－１",
       "postalCode": "158-0082",
+      "officialUrl": "https://www.tcu-todoroki.ed.jp/",
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["共学校", "普通科", "全日制", "中高一貫", "高校募集あり", "東京都市大学系列", "特選コース", "等々力"]
     },
     {
       "id": "wk_d113299901111",
       "name": "東京都立つばさ総合高等学校",
+      "nameKana": "とうきょうとりつつばさそうごうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都大田区本羽田３－１１－５",
       "postalCode": "144-8533",
+      "officialUrl": "https://www.metro.ed.jp/tsubasasogo-h/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113299901013",
       "name": "東京都立一橋高等学校",
+      "nameKana": "とうきょうとりつひとつばしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区東神田１－１２－１３",
       "postalCode": "101-0031",
+      "officialUrl": "https://www.metro.ed.jp/hitotsubashi-he/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "普通科", "定時制", "通信制", "単位制", "3部制", "多様性推進校", "東神田"]
     },
     {
       "id": "wk_d113299912010",
       "name": "東京都立三宅高等学校",
+      "nameKana": "とうきょうとりつみやけこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都三宅島三宅村坪田４５８６",
       "postalCode": "100-1211",
+      "officialUrl": "https://www.metro.ed.jp/miyake-h/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "併合科", "農業科", "家政科", "三宅島", "少人数教育", "体験学習"]
     },
     {
       "id": "wk_d113299901031",
@@ -20050,188 +20358,217 @@
     {
       "id": "wk_d113299908141",
       "name": "東京都立上水高等学校",
+      "nameKana": "とうきょうとりつじょうすいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都武蔵村山市大南４－６２－１",
       "postalCode": "208-0013",
+      "officialUrl": "https://www.metro.ed.jp/josui-h/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "普通科", "全日制", "単位制", "国際交流", "表現教育", "玉川上水"]
     },
     {
       "id": "wk_d113299905037",
       "name": "東京都立上野高等学校",
+      "nameKana": "とうきょうとりつうえのこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都台東区上野公園１０－１４",
       "postalCode": "110-8717",
+      "officialUrl": "https://www.metro.ed.jp/ueno-h/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113299902110",
       "name": "東京都立世田谷泉高等学校",
+      "nameKana": "とうきょうとりつせたがやいずみこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区北烏山９－２２－１",
       "postalCode": "157-0061",
+      "officialUrl": "https://www.metro.ed.jp/setagayaizumi-he/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "定時制", "総合学科", "単位制", "3部制", "チャレンジスクール", "少人数", "学び直し"]
     },
     {
       "id": "wk_d113299902129",
       "name": "東京都立世田谷総合高等学校",
+      "nameKana": "とうきょうとりつせたがやそうごうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区岡本２－９－１",
       "postalCode": "157-0076",
+      "officialUrl": "https://www.metro.ed.jp/setagayasogo-h/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "総合学科", "選択科目", "キャリア教育", "探究", "二子玉川"]
     },
     {
       "id": "wk_d113299906018",
       "name": "東京都立両国高等学校",
+      "nameKana": "とうきょうとりつりょうごくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都墨田区江東橋１－７－１４",
       "postalCode": "130-0022",
+      "officialUrl": "https://www.metro.ed.jp/ryogoku-h/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113299903182",
       "name": "東京都立中野工科高等学校",
+      "nameKana": "とうきょうとりつなかのこうかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都中野区野方３－５－５",
       "postalCode": "165-0027",
+      "officialUrl": "https://www.metro.ed.jp/nakanokoka-h/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "工科", "食品サイエンス科", "総合技術科", "エンカレッジスクール", "ものづくり", "野方"]
     },
     {
       "id": "wk_d113299909051",
       "name": "東京都立久留米西高等学校",
+      "nameKana": "とうきょうとりつくるめにしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都東久留米市野火止２－１－４４",
       "postalCode": "203-0041",
+      "officialUrl": "https://www.metro.ed.jp/kurumenishi-h/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "少人数授業", "習熟度別授業", "選択科目", "資格取得", "清瀬"]
     },
     {
       "id": "wk_d113299908123",
       "name": "東京都立五日市高等学校",
+      "nameKana": "とうきょうとりついつかいちこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都あきる野市五日市８９４",
       "postalCode": "190-0164",
+      "officialUrl": "https://itsukaichi-h.metro.ed.jp/zen/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "地域探究", "学び直し", "資格取得", "武蔵五日市"]
     },
     {
       "id": "wk_d113299903093",
       "name": "東京都立井草高等学校",
+      "nameKana": "とうきょうとりついぐさこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都練馬区上石神井２－２－４３",
       "postalCode": "177-0044",
+      "officialUrl": "https://www.metro.ed.jp/igusa-h/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "tags": []
     },
     {
       "id": "wk_d113299909042",
       "name": "東京都立保谷高等学校",
+      "nameKana": "とうきょうとりつほうやこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都西東京市住吉町５－８－２３",
       "postalCode": "202-0005",
+      "officialUrl": "https://www.metro.ed.jp/hoya-h/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "文武両道", "探究", "進路指導", "グローバル教育", "保谷"]
     },
     {
       "id": "wk_d113299903128",
       "name": "東京都立光丘高等学校",
+      "nameKana": "とうきょうとりつひかりがおかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都練馬区旭町２－１－３５",
       "postalCode": "179-0071",
+      "officialUrl": "https://www.metro.ed.jp/hikarigaoka-h/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "DXハイスクール", "スキルアップ推進校", "少人数授業", "習熟度別授業", "光が丘"]
     },
     {
       "id": "wk_d113299913019",
       "name": "東京都立八丈高等学校",
+      "nameKana": "とうきょうとりつはちじょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八丈島八丈町大賀郷３０２０",
       "postalCode": "100-1401",
+      "officialUrl": "https://www.metro.ed.jp/hachijo-h/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "園芸科", "家政科", "八丈学", "海洋文化", "島留学"]
     },
     {
       "id": "wk_d113299901059",
       "name": "東京都立八潮高等学校",
+      "nameKana": "とうきょうとりつやしおこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都品川区東品川３－２７－２２",
       "postalCode": "140-0002",
+      "officialUrl": "https://yashio-h.metro.ed.jp/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "習熟度別授業", "少人数授業", "進学ゼミ", "キャリア探究", "品川シーサイド"]
     },
     {
       "id": "wk_d113299907044",
       "name": "東京都立八王子北高等学校",
+      "nameKana": "とうきょうとりつはちおうじきたこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八王子市楢原町６０１",
       "postalCode": "193-0803",
+      "officialUrl": "https://www.metro.ed.jp/hachiojikita-h/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "ハチ北ゼミ", "地域探究", "国際理解", "習熟度別授業", "八王子"]
     },
     {
       "id": "wk_d113299907160",
       "name": "東京都立八王子拓真高等学校",
+      "nameKana": "とうきょうとりつはちおうじたくしんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八王子市台町３－２５－１",
@@ -20239,8 +20576,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/hachiojitakushin-he/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "定時制", "普通科", "単位制", "三部制", "チャレンジ枠", "学び直し", "少人数", "西八王子"]
     },
     {
       "id": "wk_d113299907035",
@@ -20253,13 +20591,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "officialUrl": "https://www.metro.ed.jp/hachiojihigashi-h/",
       "tags": []
     },
     {
       "id": "wk_d113299907188",
       "name": "東京都立八王子桑志高等学校",
+      "nameKana": "とうきょうとりつはちおうじそうしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八王子市千人町４－８－１",
@@ -20267,12 +20606,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/hachiojisoushi-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "産業科", "デザイン", "クラフト", "システム情報", "ビジネス情報", "資格取得", "西八王子"]
     },
     {
       "id": "wk_d113299901120",
       "name": "東京都立六本木高等学校",
+      "nameKana": "とうきょうとりつろっぽんぎこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区六本木６－１６－３６",
@@ -20280,12 +20621,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/roppongi-he/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "定時制", "総合学科", "単位制", "三部制", "チャレンジスクール", "選択科目", "ユネスコスクール", "六本木"]
     },
     {
       "id": "wk_d113299901139",
       "name": "東京都立六郷工科高等学校",
+      "nameKana": "とうきょうとりつろくごうこうかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都大田区東六郷２－１８－２",
@@ -20293,8 +20636,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://rokugokoka-h.metro.ed.jp/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "ものづくり工学科", "普通科", "生産工学科", "単位制", "デュアルシステム", "雑色"]
     },
     {
       "id": "wk_d113299904056",
@@ -20314,6 +20658,7 @@
     {
       "id": "wk_d113299904145",
       "name": "東京都立北豊島工科高等学校",
+      "nameKana": "とうきょうとりつきたとしまこうかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都板橋区富士見町２８－１",
@@ -20321,8 +20666,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/kitatoshimakoka-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "都市防災技術科", "機械科", "防災", "資格取得", "デュアルシステム", "板橋本町"]
     },
     {
       "id": "wk_d113299904127",
@@ -20334,8 +20680,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつちはやこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/chihaya-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "ビジネスコミュニケーション科", "英語教育", "ビジネス教育", "PBL", "資格取得", "国際交流", "千川"]
     },
     {
       "id": "wk_d113299902094",
@@ -20347,8 +20695,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつちとせがおかこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/chitosegaoka-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "少人数授業", "習熟度別授業", "ICT活用", "進路指導", "防災教育", "千歳船橋"]
     },
     {
       "id": "wk_d113299907080",
@@ -20360,8 +20710,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつみなみだいらこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/minamidaira-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "大学進学", "自学自習", "習熟度別授業", "土曜授業なし", "ノーチャイム", "自然環境", "南平"]
     },
     {
       "id": "wk_d113299906054",
@@ -20373,8 +20725,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつみなみかつしかこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/minamikatsushika-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "多文化共生", "日本語支援", "在京外国人生徒対象入試", "少人数授業", "京成立石"]
     },
     {
       "id": "wk_d113299904029",
@@ -20386,12 +20740,15 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつむこうがおかこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/mukogaoka-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "少人数授業", "習熟度別授業", "BYOD", "主体的な学び", "講習", "大学進学", "本駒込"]
     },
     {
       "id": "wk_d113299909104",
       "name": "東京都立国分寺高等学校",
+      "nameKana": "とうきょうとりつこくぶんじこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都国分寺市新町３－２－５",
@@ -20399,7 +20756,8 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.metro.ed.jp/kokubunji-h/",
       "tags": []
     },
     {
@@ -20413,13 +20771,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "officialUrl": "https://www.metro.ed.jp/kunitachi-h/",
       "tags": []
     },
     {
       "id": "wk_d113299902183",
       "name": "東京都立国際高等学校",
+      "nameKana": "とうきょうとりつこくさいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都目黒区駒場２－１９－５９",
@@ -20427,7 +20786,8 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://kokusai-h.metro.ed.jp/",
       "tags": []
     },
     {
@@ -20440,12 +20800,15 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつえんげいこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/engei-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "園芸科", "食品科", "動物科", "農業教育", "資格取得", "体験学習", "等々力"]
     },
     {
       "id": "wk_d113299906090",
       "name": "東京都立城東高等学校",
+      "nameKana": "とうきょうとりつじょうとうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江東区大島３－２２－１",
@@ -20453,12 +20816,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.metro.ed.jp/joto-h/",
       "tags": []
     },
     {
       "id": "wk_d113299906027",
       "name": "東京都立墨田川高等学校",
+      "nameKana": "とうきょうとりつすみだがわこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都墨田区東向島３－３４－１４",
@@ -20466,7 +20831,8 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.metro.ed.jp/sumidagawa-h/",
       "tags": []
     },
     {
@@ -20479,8 +20845,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつすみだこうかこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/sumidakoka-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "機械科", "自動車科", "電気科", "建築科", "資格取得", "就職", "菊川"]
     },
     {
       "id": "wk_d113299908150",
@@ -20492,12 +20860,15 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつたまこうかこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/tamakoka-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "機械科", "電気科", "環境化学科", "デュアルシステム科", "インターンシップ", "資格取得", "就職", "拝島"]
     },
     {
       "id": "wk_d113299909177",
       "name": "東京都立多摩科学技術高等学校",
+      "nameKana": "とうきょうとりつたまかがくぎじゅつこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都小金井市本町６－８－９",
@@ -20505,7 +20876,8 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.metro.ed.jp/tamakagakugijutsu-h/",
       "tags": []
     },
     {
@@ -20518,8 +20890,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつたまこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/tama-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "学力向上研究校", "校内寺子屋", "ICT活用", "キャリア教育", "資格取得", "青梅"]
     },
     {
       "id": "wk_d113299904074",
@@ -20531,12 +20905,15 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "nameKana": "とうきょうとりつおおやまこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/ohyama-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "総合型選抜", "山高ゼミ", "習熟度別授業", "探究学習", "小竹向原"]
     },
     {
       "id": "wk_d113299911048",
       "name": "東京都立大島海洋国際高等学校",
+      "nameKana": "トウキョウトリツオオシマカイヨウコクサイコウトウガッコウ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都大島町差木地字下原",
@@ -20544,12 +20921,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/oosimakaiyokokusai-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "海洋国際科", "全寮制", "実習船", "伊豆大島"]
     },
     {
       "id": "wk_d113299911011",
       "name": "東京都立大島高等学校",
+      "nameKana": "トウキョウトリツオオシマコウトウガッコウ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都大島町元町字八重の水１２７",
@@ -20557,12 +20936,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/oshima-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "農林科", "家政科", "伊豆大島"]
     },
     {
       "id": "wk_d113299901040",
       "name": "東京都立大崎高等学校",
+      "nameKana": "トウキョウトリツオオサキコウトウガッコウ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都品川区豊町２－１－７",
@@ -20570,12 +20951,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/osaki-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "特進クラス", "土曜講習", "戸越公園"]
     },
     {
       "id": "wk_d113299901086",
       "name": "東京都立大森高等学校",
+      "nameKana": "トウキョウトリツオオモリコウトウガッコウ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都大田区西蒲田２－２－１",
@@ -20583,12 +20966,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/omori-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "少人数授業", "習熟度別授業", "西蒲田"]
     },
     {
       "id": "wk_d113299906161",
       "name": "東京都立大江戸高等学校",
+      "nameKana": "トウキョウトリツオオエドコウトウガッコウ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江東区千石３－２－１１",
@@ -20596,12 +20981,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/oedo-he/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "定時制", "単位制", "三部制", "総合学科", "チャレンジスクール", "情報ビジネス", "生活福祉", "伝統文化"]
     },
     {
       "id": "wk_d113299903164",
       "name": "東京都立大泉桜高等学校",
+      "nameKana": "トウキョウトリツオオイズミサクラコウトウガッコウ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都練馬区大泉町３－５－７",
@@ -20609,12 +20996,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/oizumisakura-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "単位制", "美術", "福祉", "キャリア教育"]
     },
     {
       "id": "wk_d113299903100",
       "name": "東京都立大泉高等学校",
+      "nameKana": "トウキョウトリツオオイズミコウトウガッコウ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都練馬区東大泉５－３－１",
@@ -20622,12 +21011,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/oizumi-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "中高一貫", "高校募集停止", "探究", "国際理解教育"]
     },
     {
       "id": "wk_d113299901166",
       "name": "東京都立大田桜台高等学校",
+      "nameKana": "トウキョウトリツオオタサクラダイコウトウガッコウ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都大田区中馬込３－１１－１０",
@@ -20635,12 +21026,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/otasakuradai-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "ビジネスコミュニケーション科", "英語", "ビジネス", "資格取得", "キャリア教育"]
     },
     {
       "id": "wk_d113299907017",
       "name": "東京都立富士森高等学校",
+      "nameKana": "トウキョウトリツフジモリコウトウガッコウ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八王子市長房町４２０－２",
@@ -20648,12 +21041,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/fujimori-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "土曜授業", "習熟度別授業", "進路指導", "部活動"]
     },
     {
       "id": "wk_d113299903020",
       "name": "東京都立富士高等学校",
+      "nameKana": "トウキョウトリツフジコウトウガッコウ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都中野区弥生町５－２１－１",
@@ -20661,12 +21056,15 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/fuji-s/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "中高一貫", "高校募集停止", "SSH", "富士未来学"]
     },
     {
       "id": "wk_d113299905180",
       "name": "東京都立小台橋高等学校",
+      "nameKana": "とうきょうとりつおだいばしこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/odaibashi-he/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都足立区小台２－１－３１",
@@ -20674,8 +21072,8 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2022/5/1",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "総合学科", "定時制", "単位制", "三部制", "チャレンジスクール", "学び直し"]
     },
     {
       "id": "wk_d113299901068",
@@ -20688,13 +21086,15 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "officialUrl": "https://www.metro.ed.jp/koyamadai-h/",
       "tags": []
     },
     {
       "id": "wk_d113299906125",
       "name": "東京都立小岩高等学校",
+      "nameKana": "とうきょうとりつこいわこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/koiwa-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江戸川区本一色３－１０－１",
@@ -20702,12 +21102,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "普通科", "全日制", "朝学習", "習熟度別授業", "学校行事", "部活動"]
     },
     {
       "id": "wk_d113299907124",
       "name": "東京都立小川高等学校",
+      "nameKana": "とうきょうとりつおがわこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/ogawa-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都町田市小川２－１００２－１",
@@ -20715,12 +21117,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "普通科", "全日制", "進学指導研究校", "国際交流", "学校行事", "成瀬駅"]
     },
     {
       "id": "wk_d113299909122",
       "name": "東京都立小平南高等学校",
+      "nameKana": "とうきょうとりつこだいらみなみこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/kodairaminami-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都小平市上水本町６－２１－１",
@@ -20728,12 +21132,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "普通科", "全日制", "土曜授業", "習熟度別授業", "健脚大会", "進路指導"]
     },
     {
       "id": "wk_d113299909088",
       "name": "東京都立小平西高等学校",
+      "nameKana": "とうきょうとりつこだいらにしこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/kodairanishi-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都小平市小川町１－５０２－９５",
@@ -20741,12 +21147,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "普通科", "全日制", "少人数授業", "自習室", "キャリア教育", "玉川上水"]
     },
     {
       "id": "wk_d113299909079",
       "name": "東京都立小平高等学校",
+      "nameKana": "とうきょうとりつこだいらこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/kodaira-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都小平市仲町１１２",
@@ -20754,8 +21162,8 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "普通科", "外国語コース", "全日制", "国際理解教育", "海外交流", "部活動"]
     },
     {
       "id": "wk_d113299906107",
@@ -20775,6 +21183,8 @@
     {
       "id": "wk_d113299914018",
       "name": "東京都立小笠原高等学校",
+      "nameKana": "とうきょうとりつおがさわらこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/ogasawara-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都小笠原村父島字清瀬",
@@ -20782,12 +21192,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "普通科", "全日制", "離島", "世界自然遺産", "少人数教育", "環境教育"]
     },
     {
       "id": "wk_d113299909033",
       "name": "東京都立小金井北高等学校",
+      "nameKana": "とうきょうとりつこがねいきたこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/koganeikita-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都小金井市緑町４－１－１",
@@ -20795,12 +21207,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "普通科", "全日制", "進学指導推進校", "英語教育", "理数研究", "高大連携"]
     },
     {
       "id": "wk_d113299909159",
       "name": "東京都立小金井工科高等学校",
+      "nameKana": "とうきょうとりつこがねいこうかこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/koganeikoka-he/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都小金井市本町６－８－９",
@@ -20808,12 +21222,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "工業科", "定時制", "夜間", "機械科", "電気・電子科", "資格取得"]
     },
     {
       "id": "wk_d113299907133",
       "name": "東京都立山崎高等学校",
+      "nameKana": "とうきょうとりつやまさきこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/yamasaki-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都町田市山崎町１４５３－１",
@@ -20821,12 +21237,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "普通科", "全日制", "ユネスコスクール", "探究学習", "国際交流", "地域連携"]
     },
     {
       "id": "wk_d113299904136",
       "name": "東京都立工芸高等学校",
+      "nameKana": "とうきょうとりつこうげいこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/kogei-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区本郷１－３－９",
@@ -20834,12 +21252,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "工業科", "全日制", "定時制", "工芸", "デザイン", "ものづくり", "資格取得"]
     },
     {
       "id": "wk_d113299902067",
       "name": "東京都立広尾高等学校",
+      "nameKana": "とうきょうとりつひろおこうとうがっこう",
+      "officialUrl": "https://hiroo-h.metro.ed.jp/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都渋谷区東４－１４－１４",
@@ -20847,12 +21267,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "普通科", "全日制", "少人数授業", "習熟度別授業", "進学指導", "高大連携"]
     },
     {
       "id": "wk_d113299910129",
       "name": "東京都立府中工科高等学校",
+      "nameKana": "とうきょうとりつふちゅうこうかこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/fuchukoka-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都府中市若松町２－１９－１",
@@ -20860,12 +21282,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "工業科", "全日制", "機械科", "工業技術科", "情報技術科", "電気科", "資格取得", "P-TECH"]
     },
     {
       "id": "wk_d113299910067",
       "name": "東京都立府中東高等学校",
+      "nameKana": "とうきょうとりつふちゅうひがしこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/fuchuhigashi-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都府中市押立町４－２１",
@@ -20873,12 +21297,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "普通科", "全日制", "少人数授業", "習熟度別授業", "部活動充実校", "進学指導"]
     },
     {
       "id": "wk_d113299910076",
       "name": "東京都立府中西高等学校",
+      "nameKana": "とうきょうとりつふちゅうにしこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/fuchunishi-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都府中市日新町４－６－７",
@@ -20886,12 +21312,13 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "普通科", "全日制", "在京外国人生徒募集", "多文化共生", "少人数授業", "部活動"]
     },
     {
       "id": "wk_d113299910058",
       "name": "東京都立府中高等学校",
+      "nameKana": "とうきょうとりつふちゅうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都府中市栄町３－３－１",
@@ -20899,12 +21326,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/fuchu-h/",
+      "tags": ["都立", "共学校", "普通科", "全日制", "進学", "少人数授業", "土曜授業", "部活動"]
     },
     {
       "id": "wk_d113299905028",
       "name": "東京都立忍岡高等学校",
+      "nameKana": "とうきょうとりつしのぶがおかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都台東区浅草橋５－１－２４",
@@ -20912,12 +21341,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/shinobugaoka-h/",
+      "tags": ["都立", "共学校", "普通科", "生活科学科", "全日制", "単位制", "専門学科", "資格取得"]
     },
     {
       "id": "wk_d113299907115",
       "name": "東京都立成瀬高等学校",
+      "nameKana": "とうきょうとりつなるせこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都町田市成瀬７－４－１",
@@ -20925,8 +21356,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/naruse-h/",
+      "tags": ["都立", "共学校", "普通科", "全日制", "進学", "理数研究", "国際交流", "探究"]
     },
     {
       "id": "wk_d113299902012",
@@ -20939,13 +21371,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "officialUrl": "https://www.metro.ed.jp/toyama-h/",
       "tags": []
     },
     {
       "id": "wk_d113299908043",
       "name": "東京都立拝島高等学校",
+      "nameKana": "とうきょうとりつはいじまこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都昭島市拝島町４－１３－１",
@@ -20953,12 +21386,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/haijima-h/",
+      "tags": ["都立", "共学校", "普通科", "全日制", "少人数授業", "習熟度別", "地域連携", "部活動"]
     },
     {
       "id": "wk_d113299904047",
       "name": "東京都立文京高等学校",
+      "nameKana": "とうきょうとりつぶんきょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区西巣鴨１－１－５",
@@ -20966,12 +21401,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/bunkyo-h/",
+      "tags": ["都立", "共学校", "普通科", "全日制", "進学", "自学自習", "部活動", "学校行事"]
     },
     {
       "id": "wk_d113299902138",
       "name": "東京都立新宿山吹高等学校",
+      "nameKana": "とうきょうとりつしんじゅくやまぶきこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都新宿区山吹町８１",
@@ -20979,8 +21416,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/shinjukuyamabuki-h/",
+      "tags": ["都立", "共学校", "定時制", "通信制", "普通科", "情報科", "単位制", "無学年制"]
     },
     {
       "id": "wk_d113299902049",
@@ -20993,13 +21431,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "officialUrl": "https://www.metro.ed.jp/shinjuku-h/",
       "tags": []
     },
     {
       "id": "wk_d113299911020",
       "name": "東京都立新島高等学校",
+      "nameKana": "とうきょうとりつにいじまこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都新島村本村４－１０－１",
@@ -21007,12 +21446,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/niijima-h/",
+      "tags": ["都立", "共学校", "普通科", "全日制", "島しょ", "少人数授業", "中高一貫教育", "地域連携"]
     },
     {
       "id": "wk_d113299906063",
       "name": "東京都立日本橋高等学校",
+      "nameKana": "とうきょうとりつにほんばしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都墨田区八広１－２８－２１",
@@ -21020,8 +21461,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/nihonbashi-h/",
+      "tags": ["都立", "共学校", "普通科", "全日制", "キャリア教育", "探究", "検定", "地域連携"]
     },
     {
       "id": "wk_d113299901022",
@@ -21034,13 +21476,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "officialUrl": "https://www.metro.ed.jp/hibiya-h/",
       "tags": []
     },
     {
       "id": "wk_d113299907071",
       "name": "東京都立日野台高等学校",
+      "nameKana": "とうきょうとりつひのだいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都日野市大坂上４－１６－１",
@@ -21048,12 +21491,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/hinodai-h/",
+      "tags": ["都立", "共学校", "普通科", "全日制", "進学指導推進校", "土曜授業", "探究", "国際交流"]
     },
     {
       "id": "wk_d113299907062",
       "name": "東京都立日野高等学校",
+      "nameKana": "とうきょうとりつひのこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都日野市石田１－１９０－１",
@@ -21061,12 +21506,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/hino-h/",
+      "tags": ["都立", "共学校", "普通科", "全日制", "DXハイスクール", "習熟度別", "部活動", "新校舎"]
     },
     {
       "id": "wk_d113299908034",
       "name": "東京都立昭和高等学校",
+      "nameKana": "とうきょうとりつしょうわこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都昭島市東町２－３－２１",
@@ -21074,12 +21521,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/showa-h/",
+      "tags": ["都立", "共学校", "普通科", "全日制", "進学指導推進校", "習熟度別", "国際交流", "部活動"]
     },
     {
       "id": "wk_d113299905126",
       "name": "東京都立晴海総合高等学校",
+      "nameKana": "とうきょうとりつはるみそうごうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都中央区晴海１－２－１",
@@ -21087,12 +21536,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/harumisogo-h/",
+      "tags": ["都立", "共学校", "総合学科", "全日制", "単位制", "選択科目", "課題研究", "国際交流"]
     },
     {
       "id": "wk_d113299906214",
       "name": "東京都立本所工科高等学校",
+      "nameKana": "とうきょうとりつほんじょこうかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都葛飾区南水元４－２１－１",
@@ -21100,12 +21551,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/honjokoka-he/",
+      "tags": ["都立", "共学校", "総合技術科", "定時制", "夜間", "4年制", "資格取得", "給食"]
     },
     {
       "id": "wk_d113299906036",
       "name": "東京都立本所高等学校",
+      "nameKana": "とうきょうとりつほんじょこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都墨田区向島３－３７－２５",
@@ -21113,12 +21566,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/honjo-h/",
+      "tags": ["都立", "共学校", "普通科", "全日制", "探究", "英語教育", "国際交流", "部活動"]
     },
     {
       "id": "wk_d113299903191",
       "name": "東京都立杉並工科高等学校",
+      "nameKana": "とうきょうとりつすぎなみこうかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都杉並区上井草４－１３－３１",
@@ -21126,12 +21581,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/suginamikoka-h/",
+      "tags": ["都立", "共学校", "IT・環境科", "全日制", "工科", "課題解決型学習", "大学進学", "体験入学"]
     },
     {
       "id": "wk_d113299903146",
       "name": "東京都立杉並総合高等学校",
+      "nameKana": "とうきょうとりつすぎなみそうごうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都杉並区下高井戸５－１７－１",
@@ -21139,12 +21596,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/suginamisogo-h/",
+      "tags": ["都立", "共学校", "全日制", "総合学科", "単位制", "国際理解教育", "第二外国語", "課題研究"]
     },
     {
       "id": "wk_d113299903075",
       "name": "東京都立杉並高等学校",
+      "nameKana": "とうきょうとりつすぎなみこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都杉並区成田西４－１５－１５",
@@ -21152,12 +21611,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/suginami-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "英語教育", "国際理解教育", "GTEC", "学校説明会"]
     },
     {
       "id": "wk_d113299909140",
       "name": "東京都立東久留米総合高等学校",
+      "nameKana": "とうきょうとりつひがしくるめそうごうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都東久留米市幸町５－８－４６",
@@ -21165,12 +21626,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/higashikurumesogo-h/",
+      "tags": ["都立", "共学校", "総合学科", "単位制", "全日制", "定時制", "夜間", "課題研究", "少人数授業"]
     },
     {
       "id": "wk_d113299908070",
       "name": "東京都立東大和南高等学校",
+      "nameKana": "とうきょうとりつひがしやまとみなみこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都東大和市桜ヶ丘３－４４－８",
@@ -21178,12 +21641,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/higashiyamatominami-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "国際理解教育", "進学指導", "部活動", "学校説明会"]
     },
     {
       "id": "wk_d113299908052",
       "name": "東京都立東大和高等学校",
+      "nameKana": "とうきょうとりつひがしやまとこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都東大和市中央３－９４５",
@@ -21191,8 +21656,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/higashiyamato-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "スポーツ推進", "部活動", "地域連携", "学校見学会"]
     },
     {
       "id": "wk_d113299909131",
@@ -21204,8 +21670,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつひがしむらやまにしこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/higashimurayamanishi-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "探究", "習熟度別", "少人数授業", "進路選択"]
     },
     {
       "id": "wk_d113299909097",
@@ -21217,8 +21685,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつひがしむらやまこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/higashimurayama-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "進学応援型エンカレッジスクール", "学び直し", "少人数授業", "体験学習"]
     },
     {
       "id": "wk_d113299906081",
@@ -21230,8 +21700,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつひがしこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/higashi-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "特別進学クラス", "ICT学習", "国際交流", "英検"]
     },
     {
       "id": "wk_d113299907053",
@@ -21243,8 +21715,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつまつがやこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/matsugaya-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "外国語コース", "英語教育", "海外語学研修", "文武両道"]
     },
     {
       "id": "wk_d113299902076",
@@ -21256,8 +21730,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつまつばらこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/matsubara-h/",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "夜間", "学び直し", "地域連携", "日本語支援"]
     },
     {
       "id": "wk_d113299904118",
@@ -21269,8 +21745,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりついたばしゆうとくこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/itabashiyutoku-h/",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "単位制", "夜間", "少人数", "国際理解"]
     },
     {
       "id": "wk_d113299904065",
@@ -21282,8 +21760,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりついたばしこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/itabashi-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "特別進学クラス", "少人数", "習熟度別", "部活動"]
     },
     {
       "id": "wk_d113299904092",
@@ -21295,8 +21775,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつきりがおかこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/kirigaoka-he/",
+      "tags": ["都立", "共学校", "定時制", "総合学科", "単位制", "三部制", "チャレンジスクール", "学び直し", "相談支援"]
     },
     {
       "id": "wk_d113299902085",
@@ -21308,8 +21790,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつさくらまちこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/sakuramachi-h/",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "夜間", "習熟度別", "国際交流", "学び直し"]
     },
     {
       "id": "wk_d113299906269",
@@ -21321,8 +21805,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつたちばなこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/tachibana-h/",
+      "tags": ["都立", "共学校", "全日制", "定時制", "産業科", "ものつくり", "ビジネス", "IT", "資格取得", "インターンシップ"]
     },
     {
       "id": "wk_d113299903039",
@@ -21334,8 +21820,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつむさしがおかこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/musashigaoka-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "進学指導研究校", "習熟度別授業", "自学自習", "部活動"]
     },
     {
       "id": "wk_d113299908061",
@@ -21347,8 +21835,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつむさしむらやまこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/musashimurayama-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "地域連携", "習熟度別授業", "選択科目", "探究"]
     },
     {
       "id": "wk_d113299909024",
@@ -21375,8 +21865,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつむさしこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/musashi-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "中高一貫", "高校募集なし", "地球学", "探究", "国際理解"]
     },
     {
       "id": "wk_d113299910094",
@@ -21388,8 +21880,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつながやまこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/nagayama-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "少人数授業", "習熟度別授業", "補習", "選択科目", "部活動"]
     },
     {
       "id": "wk_d113299905064",
@@ -21401,8 +21895,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつこうほくこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/kohoku-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "進学指導推進校", "英語教育", "特別進学クラス", "自習室", "土曜授業"]
     },
     {
       "id": "wk_d113299906116",
@@ -21414,8 +21910,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつえどがわこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/edogawa-h/",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "進学指導推進校", "部活動"]
     },
     {
       "id": "wk_d113299906198",
@@ -21427,8 +21925,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつこうとうしょうぎょうこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/kotosyogyo-h/",
+      "tags": ["都立", "共学校", "全日制", "ビジネス科", "資格取得", "キャリア教育"]
     },
     {
       "id": "wk_d113299905135",
@@ -21440,8 +21940,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつあさくさこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/asakusa-he/",
+      "tags": ["都立", "共学校", "定時制", "普通科", "単位制", "三部制", "学び直し"]
     },
     {
       "id": "wk_d113299906072",
@@ -21453,8 +21955,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつふかがわこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/fukagawa-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "外国語コース", "国際交流", "英語教育"]
     },
     {
       "id": "wk_d113299902101",
@@ -21466,8 +21970,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつふかさわこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/fukasawa-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "単位制", "少人数教育", "受入環境充実校"]
     },
     {
       "id": "wk_d113299905073",
@@ -21479,8 +21985,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつふちえこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/fuchie-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "探究学習", "国際交流"]
     },
     {
       "id": "wk_d113299909113",
@@ -21492,8 +22000,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつきよせこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/kiyose-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "進路指導", "部活動", "国際交流"]
     },
     {
       "id": "wk_d113299907026",
@@ -21505,8 +22015,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつかたくらこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/katakura-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "造形美術コース", "美術教育", "部活動"]
     },
     {
       "id": "wk_d113299910049",
@@ -21518,8 +22030,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつこまえこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/komae-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "国際理解教育", "文武両道", "英語教育"]
     },
     {
       "id": "wk_d113299904154",
@@ -21531,8 +22045,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつおうじそうごうこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/oujisogo-h/",
+      "tags": ["都立", "共学校", "全日制", "総合学科", "単位制", "選択科目", "キャリア教育"]
     },
     {
       "id": "wk_d113299908169",
@@ -21544,8 +22060,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつみずほのうげいこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/mizuhonogei-h/",
+      "tags": ["都立", "共学校", "全日制", "定時制", "農業科", "家庭科", "専門高校", "実習"]
     },
     {
       "id": "wk_d113299901095",
@@ -21557,8 +22075,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつでんえんちょうふこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/den-enchofu-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "アドバンストクラス", "英語教育", "理数教育"]
     },
     {
       "id": "wk_d113299903137",
@@ -21570,8 +22090,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつたがらこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/tagara-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "多文化共生", "国際理解教育"]
     },
     {
       "id": "wk_d113299909168",
@@ -21583,8 +22105,10 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつたなしこうかこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/tanashikoka-h/",
+      "tags": ["都立", "共学校", "全日制", "工業科", "機械科", "建築科", "都市工学科", "資格取得", "デュアルシステム"]
     },
     {
       "id": "wk_d113299909060",
@@ -21596,12 +22120,15 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "nameKana": "とうきょうとりつたなしこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/tanashi-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "少人数授業", "進路指導", "部活動"]
     },
     {
       "id": "wk_d113299907179",
       "name": "東京都立町田工科高等学校",
+      "nameKana": "とうきょうとりつまちだこうかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都町田市忠生１－２０－２",
@@ -21609,21 +22136,24 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/machidakoka-h/",
+      "tags": ["都立", "共学校", "全日制", "総合情報科", "工科高校", "IT人材育成"]
     },
     {
       "id": "wk_d113299907142",
       "name": "東京都立町田総合高等学校",
+      "nameKana": "とうきょうとりつまちだそうごうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
-      "address": "東京都町田市木曽町字１８－２２７６",
-      "postalCode": "194-0033",
+      "address": "東京都町田市木曽西３－５－１",
+      "postalCode": "194-0037",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/machidasogo-h/",
+      "tags": ["都立", "共学校", "全日制", "総合学科", "単位制", "キャリア教育", "探究"]
     },
     {
       "id": "wk_d113299907099",
@@ -21636,13 +22166,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "officialUrl": "https://www.metro.ed.jp/machida-h/",
       "tags": []
     },
     {
       "id": "wk_d113299905019",
-      "name": "東京都立白鴎高等学校",
+      "name": "東京都立白鷗高等学校",
+      "nameKana": "とうきょうとりつはくおうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都台東区元浅草１－６－２２",
@@ -21650,12 +22181,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/hakuo-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "併設型中高一貫校", "高校募集なし", "国際理解", "伝統文化"]
     },
     {
       "id": "wk_d113299902030",
       "name": "東京都立目黒高等学校",
+      "nameKana": "とうきょうとりつめぐろこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都目黒区祐天寺２－７－１５",
@@ -21663,12 +22196,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/meguro-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "進学指導", "理数教育", "生徒主体"]
     },
     {
       "id": "wk_d113299903084",
       "name": "東京都立石神井高等学校",
+      "nameKana": "とうきょうとりつしゃくじいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都練馬区関町北４－３２－４８",
@@ -21676,12 +22211,15 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.metro.ed.jp/shakujii-h/",
+      "tags": ["都立", "共学校", "全日制", "普通科", "進学指導研究校", "土曜授業", "文武二道"]
     },
     {
       "id": "wk_d113299908025",
       "name": "東京都立砂川高等学校",
+      "nameKana": "とうきょうとりつすながわこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/sunagawa-he/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都立川市泉町９３５番地４",
@@ -21689,12 +22227,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-05",
       "tags": []
     },
     {
       "id": "wk_d113299910012",
       "name": "東京都立神代高等学校",
+      "nameKana": "とうきょうとりつじんだいこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/jindai-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都調布市若葉町１－４６－１",
@@ -21702,12 +22242,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-05",
       "tags": []
     },
     {
       "id": "wk_d113299911039",
       "name": "東京都立神津高等学校",
+      "nameKana": "とうきょうとりつこうづこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/kouzu-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都神津島村１６２０",
@@ -21715,12 +22257,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-05",
       "tags": []
     },
     {
       "id": "wk_d113299908098",
       "name": "東京都立福生高等学校",
+      "nameKana": "とうきょうとりつふっさこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/fussa-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都福生市北田園２－１１－３",
@@ -21728,12 +22272,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-05",
       "tags": []
     },
     {
       "id": "wk_d113299908105",
       "name": "東京都立秋留台高等学校",
+      "nameKana": "とうきょうとりつあきるだいこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/akirudai-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都あきる野市平沢１５３－４",
@@ -21741,12 +22287,13 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-05",
       "tags": []
     },
     {
       "id": "wk_d113299906241",
       "name": "東京都立科学技術高等学校",
+      "nameKana": "とうきょうとりつかがくぎじゅつこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江東区大島１－２－３１",
@@ -21754,12 +22301,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/kagakugijyutu-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "科学技術科", "創造理数科", "SSH", "課題研究", "理系進学"]
     },
     {
       "id": "wk_d113299903155",
       "name": "東京都立稔ヶ丘高等学校",
+      "nameKana": "とうきょうとりつみのりがおかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都中野区上鷺宮５－１１－１",
@@ -21767,12 +22316,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/minorigaoka-he/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "定時制", "総合学科", "単位制", "三部制", "チャレンジスクール", "学び直し", "相談支援"]
     },
     {
       "id": "wk_d113299908178",
       "name": "東京都立立川緑高等学校",
+      "nameKana": "とうきょうとりつたちかわみどりこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都立川市錦町６－３－１",
@@ -21780,8 +22331,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2025/5/1",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/tachikawamidori-he/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "定時制", "総合学科", "単位制", "三部制", "チャレンジスクール", "少人数授業", "相談支援"]
     },
     {
       "id": "wk_d113299908016",
@@ -21794,13 +22346,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
       "officialUrl": "https://www.metro.ed.jp/tachikawa-h/",
       "tags": []
     },
     {
       "id": "wk_d113299905046",
       "name": "東京都立竹台高等学校",
+      "nameKana": "とうきょうとりつたけのだいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都荒川区東日暮里５－１４－１",
@@ -21808,8 +22361,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/takenodai-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "少人数授業", "習熟度別授業", "国際理解", "資格取得", "地域連携"]
     },
     {
       "id": "wk_d113299904010",
@@ -21829,6 +22383,7 @@
     {
       "id": "wk_d113299902156",
       "name": "東京都立第一商業高等学校",
+      "nameKana": "とうきょうとりつだいいちしょうぎょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都渋谷区鉢山町８－１",
@@ -21836,12 +22391,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/daiichishogyo-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "ビジネス科", "商業高校", "資格取得", "企業連携", "地域連携", "代官山"]
     },
     {
       "id": "wk_d113299906205",
       "name": "東京都立第三商業高等学校",
+      "nameKana": "とうきょうとりつだいさんしょうぎょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江東区越中島３－３－１",
@@ -21849,12 +22406,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/daisansyogyo-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "ビジネス科", "商業科", "資格取得", "実学教育", "地域連携"]
     },
     {
       "id": "wk_d113299910110",
       "name": "東京都立第五商業高等学校",
+      "nameKana": "とうきょうとりつだいごしょうぎょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都国立市中３－４－１",
@@ -21862,12 +22421,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/daigosyogyo-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "ビジネス科", "商業科", "資格取得", "キャリア教育", "国際理解"]
     },
     {
       "id": "wk_d113299903173",
       "name": "東京都立第四商業高等学校",
+      "nameKana": "とうきょうとりつだいよんしょうぎょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都練馬区貫井３－４５－１９",
@@ -21875,12 +22436,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/daiyonsyogyo-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "ビジネス科", "商業高校", "資格取得", "実学教育", "企業連携"]
     },
     {
       "id": "wk_d113299906143",
       "name": "東京都立篠崎高等学校",
+      "nameKana": "とうきょうとりつしのざきこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江戸川区東篠崎１－１０－１",
@@ -21888,12 +22451,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/shinozaki-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "探究学習", "大学連携", "地域連携", "基礎学力"]
     },
     {
       "id": "wk_d113299906152",
       "name": "東京都立紅葉川高等学校",
+      "nameKana": "とうきょうとりつもみじがわこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江戸川区臨海町２－１－１",
@@ -21901,12 +22466,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/momijigawa-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "大学進学", "英語教育", "文武両道", "国際交流"]
     },
     {
       "id": "wk_d113299902165",
       "name": "東京都立総合工科高等学校",
+      "nameKana": "とうきょうとりつそうごうこうかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区成城９－２５－１",
@@ -21914,12 +22481,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/sogokoka-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "定時制", "工科高校", "機械・自動車科", "電気・情報デザイン科", "建築・都市工学科", "資格取得", "大学進学"]
     },
     {
       "id": "wk_d113299902192",
       "name": "東京都立総合芸術高等学校",
+      "nameKana": "とうきょうとりつそうごうげいじゅつこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都新宿区富久町２２－１",
@@ -21927,12 +22496,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/sogo-geijutsu-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "芸術高校", "美術科", "舞台表現科", "音楽科", "実技教育", "少人数授業"]
     },
     {
       "id": "wk_d113299903208",
       "name": "東京都立練馬工科高等学校",
+      "nameKana": "とうきょうとりつねりまこうかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都練馬区早宮２－９－１８",
@@ -21940,12 +22511,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/nerimakoka-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "キャリア技術科", "工科高校", "エンカレッジスクール", "学び直し", "資格取得", "就職支援"]
     },
     {
       "id": "wk_d113299903119",
       "name": "東京都立練馬高等学校",
+      "nameKana": "とうきょうとりつねりまこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都練馬区春日町４－２８－２５",
@@ -21953,12 +22526,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/nerima-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "習熟度別授業", "キャリア教育", "文武両道", "資格取得"]
     },
     {
       "id": "wk_d113299901148",
       "name": "東京都立美原高等学校",
+      "nameKana": "とうきょうとりつみはらこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都大田区大森東１－３３－１",
@@ -21966,8 +22541,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/mihara-h/",
+      "lastVerifiedAt": "2026-08-05",
+      "tags": ["都立", "共学校", "全日制", "普通科", "単位制", "選択科目", "習熟度別授業", "キャリア教育", "部活動"]
     },
     {
       "id": "wk_d113299908114",
@@ -22628,6 +23204,7 @@
     {
       "id": "wk_d113320800046",
       "name": "桐朋女子高等学校",
+      "nameKana": "とうほうじょしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都調布市若葉町１－４１－１",
@@ -22635,12 +23212,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://chuko.toho.ac.jp/",
+      "tags": ["女子校", "全日制", "普通科", "高校募集あり", "自由選択制", "Learning by Doing"]
     },
     {
       "id": "wk_d113321500029",
       "name": "桐朋高等学校",
+      "nameKana": "とうほうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都国立市中３－１－１０",
@@ -22648,8 +23227,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.toho.ed.jp/",
+      "tags": ["男子校", "全日制", "普通科", "高校募集あり", "自主性", "選択科目"]
     },
     {
       "id": "wk_d113311700028",
@@ -22784,6 +23364,7 @@
     {
       "id": "wk_d113310400014",
       "name": "海城高等学校",
+      "nameKana": "かいじょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都新宿区大久保３－６－１",
@@ -22791,8 +23372,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.kaijo.ed.jp/",
+      "tags": ["通常の高校募集なし", "男子校", "普通科", "中高一貫校"]
     },
     {
       "id": "wk_d113311600083",
@@ -22875,6 +23457,7 @@
     {
       "id": "wk_d113320900045",
       "name": "玉川学園高等部",
+      "nameKana": "たまがわがくえんこうとうぶ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都町田市玉川学園６－１－１",
@@ -22882,12 +23465,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.tamagawa.jp/academy/lower_upper_d/",
+      "tags": ["共学", "普通科", "IB", "高校募集あり"]
     },
     {
       "id": "wk_d113311200176",
       "name": "玉川聖学院高等部",
+      "nameKana": "たまがわせいがくいんこうとうぶ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区奥沢７－１１－２２",
@@ -22895,8 +23480,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://tamasei.ed.jp/",
+      "tags": ["女子校", "全日制", "普通科", "高校募集あり", "キリスト教教育", "人間学", "国際教育"]
     },
     {
       "id": "wk_d113311200185",
@@ -23005,6 +23591,7 @@
     {
       "id": "wk_d113311200274",
       "name": "科学技術学園高等学校",
+      "nameKana": "かがくぎじゅつがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区成城１－１１－１",
@@ -23012,12 +23599,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://hs.kagiko.ed.jp/",
+      "tags": ["高校募集あり", "全日制", "通信制", "普通科", "全日制は男子"]
     },
     {
       "id": "wk_d113320100105",
       "name": "穎明館高等学校",
+      "nameKana": "えいめいかんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八王子市館町２６００",
@@ -23025,8 +23614,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.emk.ac.jp/",
+      "tags": ["通常の高校募集なし", "共学校", "普通科", "中高一貫校"]
     },
     {
       "id": "wk_d113320200024",
@@ -23095,6 +23685,7 @@
     },
     {
       "id": "wk_d113110000030",
+      "nameKana": "つくばだいがくふぞくこまばこうとうがっこう",
       "name": "筑波大学附属駒場高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -23103,11 +23694,13 @@
       "ownership": "national",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.komaba-s.tsukuba.ac.jp/",
       "tags": []
     },
     {
       "id": "wk_d113110000021",
+      "nameKana": "つくばだいがくふぞくこうとうがっこう",
       "name": "筑波大学附属高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -23116,12 +23709,14 @@
       "ownership": "national",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-04",
+      "officialUrl": "https://www.high-s.tsukuba.ac.jp/shs/wp/",
       "tags": []
     },
     {
       "id": "wk_d113311100033",
       "name": "羽田国際高等学校",
+      "nameKana": "はねだこくさいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都大田区本羽田１－４－１",
@@ -23129,8 +23724,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.kanno.ac.jp/haneda/shs/",
+      "tags": ["高校募集あり", "共学", "全日制", "普通科", "探究学習", "国際教育", "幼児教育"]
     },
     {
       "id": "wk_d113311200158",
@@ -23265,6 +23861,7 @@
     {
       "id": "wk_d113312000023",
       "name": "英明フロンティア高等学校",
+      "nameKana": "えいめいふろんてぃあこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都練馬区関町北４－１６－１１",
@@ -23272,8 +23869,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://eimei-frontier.ed.jp/",
+      "tags": ["高校募集あり", "共学校", "普通科", "フロンティアαコース", "フロンティアコース"]
     },
     {
       "id": "wk_d113320300041",
@@ -23369,6 +23967,7 @@
     {
       "id": "wk_d113310500040",
       "name": "郁文館グローバル高等学校",
+      "nameKana": "いくぶんかんぐろーばるこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区向丘２－１９－１",
@@ -23376,12 +23975,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.ikubunkan.ed.jp/ghs/",
+      "tags": ["高校募集あり", "共学", "全日制", "国際科", "英語教育", "海外大学進学"]
     },
     {
       "id": "wk_d113310500031",
       "name": "郁文館高等学校",
+      "nameKana": "いくぶんかんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区向丘２－１９－１",
@@ -23389,12 +23990,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.ikubunkan.ed.jp/hs/",
+      "tags": ["高校募集あり", "共学", "全日制", "普通科", "探究学習", "大学進学"]
     },
     {
       "id": "wk_d113310100053",
       "name": "錦城学園高等学校",
+      "nameKana": "きんじょうがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区神田錦町３－１",
@@ -23402,12 +24005,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.kinjogakuen-h.ed.jp/",
+      "tags": ["共学", "全日制", "普通科", "高校募集あり", "特進クラス", "進学クラス", "都心アクセス"]
     },
     {
       "id": "wk_d113321100014",
       "name": "錦城高等学校",
+      "nameKana": "きんじょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都小平市大沼町５－３－７",
@@ -23415,8 +24020,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.kinjo-highschool.ed.jp/",
+      "tags": ["共学", "全日制", "普通科", "高校単独校", "特進コース", "進学コース", "大学進学"]
     },
     {
       "id": "wk_d113311800018",
@@ -23436,6 +24042,7 @@
     {
       "id": "wk_d113310200016",
       "name": "開智日本橋学園高等学校",
+      "nameKana": "かいちにほんばしがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都中央区日本橋馬喰町２－７－６",
@@ -23443,12 +24050,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://kng.ed.jp/",
+      "tags": ["共学", "中高一貫", "通常の高校募集なし", "国際バカロレア"]
     },
     {
       "id": "wk_d113311300022",
       "name": "関東国際高等学校",
+      "nameKana": "かんとうこくさいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都渋谷区本町３－２－２",
@@ -23456,12 +24065,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.kantokokusai.ac.jp/",
+      "tags": ["共学", "普通科", "外国語科", "高校募集あり"]
     },
     {
       "id": "wk_d113312300039",
       "name": "関東第一高等学校",
+      "nameKana": "かんとうだいいちこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江戸川区松島２－１０－１１",
@@ -23469,8 +24080,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.kanto-ichiko.ac.jp/",
+      "tags": ["共学", "普通科", "高校募集あり", "コース制"]
     },
     {
       "id": "wk_d113310100124",
@@ -23646,6 +24258,7 @@
     {
       "id": "wk_d113311200032",
       "name": "鴎友学園女子高等学校",
+      "nameKana": "おうゆうがくえんじょしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区宮坂１－５－３０",
@@ -23653,8 +24266,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.ohyu.jp/",
+      "tags": ["通常の高校募集なし", "女子校", "普通科", "中高一貫校"]
     },
     {
       "id": "wk_d113310100062",
@@ -23685,6 +24299,7 @@
     {
       "id": "wk_d113321500038",
       "name": "ＮＨＫ学園高等学校",
+      "nameKana": "えぬえいちけいがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都国立市富士見台２－３６－２",
@@ -23692,8 +24307,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-05",
+      "officialUrl": "https://www.n-gaku.jp/sch/",
+      "tags": ["高校募集あり", "共学", "通信制", "普通科", "全国スクーリング", "オンライン学習"]
     },
     {
       "id": "wk_d114320700019",
