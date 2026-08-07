@@ -148,6 +148,9 @@ button { color: inherit; }
 .primary-nav > a:hover::after { transform: scaleX(1); }
 
 .nav-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   padding: 11px 20px;
   color: var(--white);
   background: var(--green);
@@ -155,6 +158,7 @@ button { color: inherit; }
   transition: transform .2s ease, background .2s ease;
 }
 .nav-cta:hover { background: var(--green-mid); transform: translateY(-2px); }
+.nav-app-icon { width: 24px; height: 24px; border-radius: 7px; box-shadow: 0 2px 7px rgba(0,0,0,.2); }
 .menu-toggle { display: none; }
 
 .hero {
@@ -448,7 +452,14 @@ button { color: inherit; }
 .brand-footer { color: white; }
 .brand-footer .brand-mark circle { fill: var(--lime); }
 .footer-grid p { margin: 10px 0 0 46px; font-size: 11px; }
-.footer-repository-link { display: inline-flex; align-items: center; gap: 9px; margin: 20px 0 0 46px; color: #d9e6e2; font-size: 10px; font-weight: 700; }
+.footer-app-store-link { display: flex; align-items: center; gap: 11px; width: fit-content; margin: 20px 0 0 46px; padding: 9px 12px 9px 9px; color: white; background: rgba(255,255,255,.075); border: 1px solid rgba(255,255,255,.13); border-radius: 13px; transition: transform .2s ease, background .2s ease; }
+.footer-app-store-link:hover { background: rgba(255,255,255,.13); transform: translateY(-2px); }
+.footer-app-store-link > img { width: 42px; height: 42px; border-radius: 11px; box-shadow: 0 4px 12px rgba(0,0,0,.24); }
+.footer-app-store-link > span:not(.sr-only) { display: grid; gap: 2px; }
+.footer-app-store-link small { color: #a9bdb8; font-size: 8px; font-weight: 700; letter-spacing: .04em; }
+.footer-app-store-link strong { font-size: 11px; }
+.footer-app-store-link svg { width: 16px; margin-left: 5px; fill: none; stroke: var(--lime); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.footer-repository-link { display: inline-flex; align-items: center; gap: 9px; margin: 14px 0 0 46px; color: #d9e6e2; font-size: 10px; font-weight: 700; }
 .footer-repository-link:hover { color: white; }
 .footer-repository-link svg { width: 20px; height: 20px; fill: currentColor; }
 .footer-links { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 26px; font-size: 11px; }
@@ -1333,6 +1344,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--lime-strong); o
   .weekly-ring { width: 90px; height: 90px; }
   .footer-grid { grid-template-columns: 1fr; gap: 35px; }
   .footer-links { justify-content: flex-start; gap: 18px 25px; }
+  .footer-app-store-link { margin-left: 0; }
   .footer-repository-link { margin-left: 0; }
   .footer-grid p { margin-left: 0; }
   .platform-note { align-items: flex-start; flex-direction: column; padding: 22px; }
