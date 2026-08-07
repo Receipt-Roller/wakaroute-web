@@ -5,6 +5,10 @@
     var heroImage = Model.Materials.FirstOrDefault(material => material.IsDisplayableImage);
 }
 
+@section Styles {
+    <link rel="stylesheet" href="~/lib/katex/katex.min.css" asp-append-version="true" />
+}
+
 <section class="lesson-hero">
     <div class="shell lesson-hero-inner">
         <nav class="breadcrumbs" aria-label="パンくずリスト">
@@ -43,7 +47,7 @@
     </div>
 </section>
 
-<main class="lesson-main">
+<main class="lesson-main" data-math-content>
     <div class="shell lesson-layout">
         <article class="lesson-body">
             @Html.Raw(Model.BodyHtml)
@@ -102,3 +106,9 @@
         </section>
     }
 </main>
+
+@section Scripts {
+    <script src="~/lib/katex/katex.min.js" asp-append-version="true"></script>
+    <script src="~/lib/katex/contrib/auto-render.min.js" asp-append-version="true"></script>
+    <script src="~/js/lesson-math.js" asp-append-version="true"></script>
+}

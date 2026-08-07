@@ -1181,6 +1181,8 @@ button { color: inherit; }
 .lesson-body blockquote { margin: 24px 0; padding: 20px 23px; color: #3f5e57; background: #f1f8e7; border-left: 5px solid var(--lime-strong); border-radius: 0 12px 12px 0; }
 .lesson-body blockquote p { margin: 0; }
 .lesson-body pre { overflow-x: auto; margin: 22px 0; padding: 22px 25px; color: #eaf5f1; background: var(--green); border-radius: 13px; font-size: 12px; line-height: 1.8; }
+.lesson-main .katex { color: inherit; }
+.lesson-main .katex-display { overflow-x: auto; overflow-y: hidden; padding-block: 6px; }
 .lesson-body table { width: 100%; margin: 24px 0; border-collapse: separate; border-spacing: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 12px; font-size: 10px; }
 .lesson-body th { color: white; background: var(--green); font-weight: 700; }
 .lesson-body th,.lesson-body td { padding: 12px 14px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: left; }
