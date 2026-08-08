@@ -1217,8 +1217,10 @@ button { color: inherit; }
 .lesson-quiz-score span { margin-top: 2px; font-size: 7px; font-weight: 700; }
 .lesson-quiz-questions { display: grid; gap: 16px; margin: 30px 0 0; padding: 0; list-style: none; }
 .lesson-quiz-questions fieldset { margin: 0; padding: 25px; background: white; border: 1px solid var(--line); border-radius: 15px; }
-.lesson-quiz-questions legend { display: flex; align-items: center; gap: 12px; padding: 0; color: var(--ink); font-size: 13px; font-weight: 800; }
-.lesson-quiz-questions legend > span { width: 34px; height: 34px; display: grid; place-items: center; flex: 0 0 auto; color: white; background: var(--green-mid); border-radius: 50%; font-size: 9px; }
+.lesson-quiz-questions legend { display: flex; align-items: flex-start; gap: 12px; padding: 0; color: var(--ink); font-size: 13px; font-weight: 800; }
+.lesson-quiz-question-number { width: 34px; height: 34px; display: grid; place-items: center; flex: 0 0 auto; margin-top: 1px; color: white; background: var(--green-mid); border-radius: 50%; font-size: 9px; }
+.lesson-quiz-question-text { min-width: 0; flex: 1; line-height: 1.8; }
+.lesson-quiz-question-text .katex-display { margin-block: 8px; }
 .lesson-quiz-options { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 18px; }
 .lesson-quiz-options label { display: grid; grid-template-columns: 19px 1fr; align-items: center; gap: 10px; padding: 13px 14px; color: #50635e; background: var(--mint-light); border: 1px solid transparent; border-radius: 9px; cursor: pointer; }
 .lesson-quiz-options label:hover { border-color: #abc9c0; }

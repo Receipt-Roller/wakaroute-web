@@ -87,7 +87,10 @@
                 {
                     <li>
                         <fieldset>
-                            <legend><span>Q@(question.OrderIndex)</span>@question.QuestionText</legend>
+                            <legend>
+                                <span class="lesson-quiz-question-number">Q@(question.OrderIndex)</span>
+                                <span class="lesson-quiz-question-text">@question.QuestionText</span>
+                            </legend>
                             <div class="lesson-quiz-options">
                                 @foreach (var option in question.Options)
                                 {
