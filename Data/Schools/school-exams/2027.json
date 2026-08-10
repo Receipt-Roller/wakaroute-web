@@ -2150,6 +2150,24 @@
       "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年2月4日17:00／書類提出：2027年1月29日〜2月4日", "testDates": ["2027年2月21日（日）"], "resultDate": "2027年3月1日（月）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "学校別詳細の発表待ち", "officialPublishedAt": "2026-05-28", "verifiedAt": "2026-08-05",
       "notes": ["東京都教育委員会から共通日程が発表されています。", "募集人員、検査科目、配点など各校固有の詳細は、学校別募集要項で確認してください。", "令和9年度実施要綱・同細目は2026年9月に公表予定です。"],
       "sources": [{ "title": "令和9年度東京都立高等学校入学者選抜の日程について", "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528", "publishedAt": "2026-05-28", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolIds": ["wk_d113299906170", "wk_d113299906045", "wk_d113299901102", "wk_d113299905153", "wk_d113299910021"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦に基づく選抜", "status": "schedule-announced", "statusLabel": "共通日程発表済み",
+      "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年1月18日17:00／書類提出：2027年1月8日〜1月18日", "testDates": ["2027年1月26日（火）", "2027年1月27日（水）"], "resultDate": "2027年2月2日（火）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "学校別詳細の発表待ち", "officialPublishedAt": "2026-05-28", "verifiedAt": "2026-08-10",
+      "notes": ["東京都教育委員会から共通日程が発表されています。", "募集人員、検査内容、配点など各校固有の詳細は、学校別募集要項で確認してください。", "令和9年度実施要綱・同細目は2026年9月に公表予定です。"],
+      "sources": [{ "title": "令和9年度東京都立高等学校入学者選抜の日程について", "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528", "publishedAt": "2026-05-28", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113299906170", "wk_d113299906045", "wk_d113299905153", "wk_d113299910021"], "academicYear": 2027, "selection": "general-first", "selectionLabel": "学力検査に基づく選抜（第一次募集）", "status": "schedule-announced", "statusLabel": "共通日程発表済み",
+      "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年2月4日17:00／書類提出：2027年1月29日〜2月4日", "testDates": ["2027年2月21日（日）"], "resultDate": "2027年3月1日（月）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "学校別詳細の発表待ち", "officialPublishedAt": "2026-05-28", "verifiedAt": "2026-08-10",
+      "notes": ["東京都教育委員会から共通日程が発表されています。", "募集人員、検査科目、配点など各校固有の詳細は、学校別募集要項で確認してください。", "令和9年度実施要綱・同細目は2026年9月に公表予定です。"],
+      "sources": [{ "title": "令和9年度東京都立高等学校入学者選抜の日程について", "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528", "publishedAt": "2026-05-28", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113299901102"], "academicYear": 2027, "selection": "general-first", "selectionLabel": "第一次募集（エンカレッジスクール）", "status": "schedule-announced", "statusLabel": "共通日程発表済み",
+      "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年2月4日17:00／書類提出：2027年1月29日〜2月4日", "testDates": ["2027年2月21日（日）"], "resultDate": "2027年3月1日（月）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "学校別詳細の発表待ち", "officialPublishedAt": "2026-05-28", "verifiedAt": "2026-08-10",
+      "notes": ["東京都教育委員会から第一次募集の共通日程が発表されています。", "蒲田高校はエンカレッジスクールのため、通常の学力検査は実施しません。検査内容・配点は学校別募集要項で確認してください。", "令和9年度実施要綱・同細目は2026年9月に公表予定です。"],
+      "sources": [{ "title": "令和9年度東京都立高等学校入学者選抜の日程について", "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528", "publishedAt": "2026-05-28", "verifiedAt": "2026-08-10" }, { "title": "蒲田高校 特色", "url": "https://www.metro.ed.jp/kamata-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

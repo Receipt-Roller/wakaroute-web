@@ -22688,6 +22688,8 @@
     {
       "id": "wk_d113299906170",
       "name": "東京都立葛飾総合高等学校",
+      "nameKana": "とうきょうとりつかつしかそうごうこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/katsushikasogo-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都葛飾区南水元４－２１－１",
@@ -22695,12 +22697,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
       "id": "wk_d113299906045",
       "name": "東京都立葛飾野高等学校",
+      "nameKana": "とうきょうとりつかつしかのこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/katsushikano-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都葛飾区亀有１－７－１",
@@ -22708,12 +22712,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
       "id": "wk_d113299901102",
       "name": "東京都立蒲田高等学校",
+      "nameKana": "とうきょうとりつかまたこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/kamata-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都大田区蒲田本町１－１－３０",
@@ -22721,12 +22727,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
       "id": "wk_d113299905153",
       "name": "東京都立蔵前工科高等学校",
+      "nameKana": "とうきょうとりつくらまえこうかこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/kuramaekoka-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都台東区蔵前１－３－５７",
@@ -22734,7 +22742,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
@@ -22755,6 +22763,8 @@
     {
       "id": "wk_d113299910021",
       "name": "東京都立調布北高等学校",
+      "nameKana": "とうきょうとりつちょうふきたこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/chofukita-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都調布市深大寺北町５－３９－１",
@@ -22762,7 +22772,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {

@@ -2627,6 +2627,31 @@
       "schoolId": "wk_d113299906189", "gender": "coeducational",
       "programs": [{ "attendanceType": "full-time", "department": "ビジネス科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間・令和8年度募集停止" }, { "attendanceType": "part-time", "department": "商業科", "course": "夜間・令和8年度募集停止" }],
       "sources": [{ "title": "東京都立葛飾商業高等学校 全日制 特色", "url": "https://www.metro.ed.jp/katsushikasyogyo-h/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立葛飾商業高等学校 定時制 特色", "url": "https://www.metro.ed.jp/katsushikasyogyo-he/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立葛飾商業高等学校 定時制 学校説明会", "url": "https://www.metro.ed.jp/katsushikasyogyo-he/guide/meeting.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299906170", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "総合学科", "course": "単位制・グローバル／スポーツ・ライフ／デザイン・アート／データサイエンス系列" }],
+      "sources": [{ "title": "東京都立葛飾総合高等学校 特色", "url": "https://www.metro.ed.jp/katsushikasogo-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299906045", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立葛飾野高等学校 特色", "url": "https://www.metro.ed.jp/katsushikano-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299901102", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "エンカレッジスクール" }],
+      "sources": [{ "title": "東京都立蒲田高等学校 特色", "url": "https://www.metro.ed.jp/kamata-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299905153", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "機械科", "course": "2年次から機械／ロボティクスコース" }, { "attendanceType": "full-time", "department": "電気科" }, { "attendanceType": "full-time", "department": "建築科" }, { "attendanceType": "full-time", "department": "設備工業科" }, { "attendanceType": "part-time", "department": "建築工学科", "course": "夜間・令和8年度募集停止" }],
+      "sources": [{ "title": "東京都立蔵前工科高等学校 全日制 特色", "url": "https://www.metro.ed.jp/kuramaekoka-h/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立蔵前工科高等学校 定時制 特色", "url": "https://www.metro.ed.jp/kuramaekoka-he/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都教育委員会 令和8年度募集停止校", "url": "https://www.kyoiku.metro.tokyo.lg.jp/information/press/2025/10/2025102301", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299910021", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立調布北高等学校 特色", "url": "https://www.metro.ed.jp/chofukita-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
     }
   ]
 }
