@@ -2718,6 +2718,31 @@
       "schoolId": "wk_d113299907106", "gender": "coeducational",
       "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "full-time", "department": "体育科" }, { "attendanceType": "full-time", "department": "福祉科" }],
       "sources": [{ "title": "東京都立野津田高等学校 特色", "url": "https://www.metro.ed.jp/nozuta-h/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立野津田高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/nozuta-h/our_school/education.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299901077", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立雪谷高等学校 特色", "url": "https://www.metro.ed.jp/yukigaya-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299905108", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立青井高等学校 特色", "url": "https://www.metro.ed.jp/aoi-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299908132", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "総合学科", "course": "単位制" }, { "attendanceType": "part-time", "department": "総合学科", "course": "単位制・3年卒業または4年卒業" }],
+      "sources": [{ "title": "東京都立青梅総合高等学校 全日制 特色", "url": "https://www.metro.ed.jp/omesogo-h/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立青梅総合高等学校 定時制 特色", "url": "https://www.metro.ed.jp/ome-sogo-he/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299904109", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "単位制" }, { "attendanceType": "part-time", "department": "普通科", "course": "単位制・3修制あり" }],
+      "sources": [{ "title": "東京都立飛鳥高等学校 全日制 特色", "url": "https://www.metro.ed.jp/asuka-h/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立飛鳥高等学校 定時制 特色", "url": "https://www.metro.ed.jp/asuka-he/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299904083", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立高島高等学校 特色", "url": "https://www.metro.ed.jp/takashima-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

@@ -22964,6 +22964,7 @@
     {
       "id": "wk_d113299901077",
       "name": "東京都立雪谷高等学校",
+      "nameKana": "とうきょうとりつゆきがやこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都大田区久が原１－１４－１",
@@ -22971,12 +22972,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/yukigaya-h/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["都立", "共学校", "全日制", "普通科", "文武両立", "進学指導", "部活動", "ICT教育"]
     },
     {
       "id": "wk_d113299905108",
       "name": "東京都立青井高等学校",
+      "nameKana": "とうきょうとりつあおいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都足立区青井１－７－３５",
@@ -22984,8 +22987,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/aoi-h/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["都立", "共学校", "全日制", "普通科", "基礎学力", "習熟度別授業", "キャリア教育", "アドバンストクラス"]
     },
     {
       "id": "wk_d113299902058",
@@ -23005,6 +23009,7 @@
     {
       "id": "wk_d113299908132",
       "name": "東京都立青梅総合高等学校",
+      "nameKana": "とうきょうとりつおうめそうごうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都青梅市勝沼１－６０－１",
@@ -23012,12 +23017,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/omesogo-h/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["都立", "共学校", "全日制", "定時制", "総合学科", "単位制", "選択科目", "キャリア教育", "農業体験", "国際理解"]
     },
     {
       "id": "wk_d113299904109",
       "name": "東京都立飛鳥高等学校",
+      "nameKana": "とうきょうとりつあすかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都北区王子６－８－８",
@@ -23025,8 +23032,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/asuka-h/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["都立", "共学校", "全日制", "定時制", "普通科", "単位制", "国際理解教育", "少人数授業", "日本語教育", "3修制"]
     },
     {
       "id": "wk_d113299902021",
@@ -23046,6 +23054,7 @@
     {
       "id": "wk_d113299904083",
       "name": "東京都立高島高等学校",
+      "nameKana": "とうきょうとりつたかしまこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都板橋区高島平３－７－１",
@@ -23053,8 +23062,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/takashima-h/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["都立", "共学校", "全日制", "普通科", "文武両道", "大学進学", "キャリア教育", "朝学習", "ICT教育"]
     },
     {
       "id": "wk_d113299903011",
