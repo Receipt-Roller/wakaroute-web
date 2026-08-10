@@ -24254,6 +24254,8 @@
     {
       "id": "wk_d113310100124",
       "name": "雙葉高等学校",
+      "nameKana": "ふたばこうとうがっこう",
+      "officialUrl": "https://www.futabagakuen-jh.ed.jp/jsh/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区六番町１４－１",
@@ -24261,8 +24263,8 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["女子校", "普通科", "高校募集なし", "完全中高一貫", "カトリック"]
     },
     {
       "id": "wk_d113311300013",
@@ -24282,6 +24284,8 @@
     {
       "id": "wk_d113310900046",
       "name": "青稜高等学校",
+      "nameKana": "せいりょうこうとうがっこう",
+      "officialUrl": "https://www.seiryo-js.ed.jp/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都品川区二葉１－６－６",
@@ -24289,12 +24293,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["共学", "普通科", "高校募集あり", "中高一貫", "週6日制"]
     },
     {
       "id": "wk_d113311700037",
-      "name": "順天高等学校",
+      "name": "北里大学附属順天高等学校",
+      "nameKana": "きたさとだいがくふぞくじゅんてんこうとうがっこう",
+      "officialUrl": "https://www.junten.ed.jp/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都北区王子本町１－１７－１３",
@@ -24302,12 +24308,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["共学", "普通科", "高校募集あり", "3類型", "北里大学附属"]
     },
     {
       "id": "wk_d113310300051",
       "name": "頌栄女子学院高等学校",
+      "nameKana": "しょうえいじょしがくいんこうとうがっこう",
+      "officialUrl": "https://www.shoei.ed.jp/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区白金台２－２６－５",
@@ -24315,12 +24323,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["女子校", "普通科", "高校募集なし", "完全中高一貫", "キリスト教"]
     },
     {
       "id": "wk_d113310900055",
       "name": "香蘭女学校高等科",
+      "nameKana": "こうらんじょがっこうこうとうか",
+      "officialUrl": "https://www.koran.ed.jp/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都品川区旗の台６－２２－２１",
@@ -24328,8 +24338,8 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["女子校", "普通科", "高校募集なし", "中高一貫", "キリスト教", "立教大学連携"]
     },
     {
       "id": "wk_d113311200096",

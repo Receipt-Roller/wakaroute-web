@@ -2548,6 +2548,24 @@
       "applicationPeriod": "Web・書類：2027年1月25日（月）〜1月31日（日）15:00必着", "testDates": ["第1回：2027年2月10日（水）8:30集合", "第2回：2027年2月12日（金）8:30集合"], "resultDate": "各試験日の翌日10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
       "notes": ["探究20人、文理20人、総合40人を募集します。", "国語・数学・英語各50分（英語はリスニングを含む）と面接・調査書で選考します。", "一般入試は2月10日・12日または両日を選択でき、2回受験時の書類、上位コース判定、併願優遇条件を公式要項で確認してください。"],
       "sources": [{ "title": "足立学園高等学校 2027年度生徒募集要項", "url": "https://www.adachigakuen-jh.ed.jp/wp-content/themes/adachi2024/pdf/2027_high_web.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311700037"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "schedule-announced", "statusLabel": "生徒募集概要（暫定版）発表済み",
+      "applicationPeriod": "Web入力：2026年12月20日（日）〜2027年1月17日（日）／書類：2027年1月15日（金）〜1月19日（火）", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）12:00", "detailsStatus": "school-details-pending", "detailsStatusLabel": "確定版募集要項の発表待ち", "verifiedAt": "2026-08-10",
+      "notes": ["理数選抜・英語選抜・特進選抜を各10人、合計30人募集する暫定概要です。", "確認日時点では確定版募集要項が未発表です。", "日程・条件が変更される可能性があるため、出願前に公式ページで確定版を確認してください。"],
+      "sources": [{ "title": "北里大学附属順天高等学校 2027年度推薦入試 生徒募集概要（暫定版）", "url": "https://www.junten.ed.jp/contents/wp-content/uploads/2026/07/0ab7cb3d59dfea9030add4bdaf5f55ab.pdf", "verifiedAt": "2026-08-10" }, { "title": "北里大学附属順天中学校・高等学校 募集要項", "url": "https://www.junten.ed.jp/admission/yoko/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311700037"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試 第1回・第2回", "status": "schedule-announced", "statusLabel": "生徒募集概要（暫定版）発表済み",
+      "applicationPeriod": "Web入力：2026年12月20日（日）〜2027年2月4日（木）／書類：2027年1月25日（月）〜2月5日（金）", "testDates": ["第1回：2027年2月10日（水）", "第2回：2027年2月11日（木・祝）"], "resultDate": "2027年2月12日（金）12:00", "detailsStatus": "school-details-pending", "detailsStatusLabel": "確定版募集要項の発表待ち", "verifiedAt": "2026-08-10",
+      "notes": ["理数選抜15人、英語選抜15人、特進選抜30人の合計60人を募集する暫定概要です。", "国語・数学・英語の3教科と面接を予定しています。", "日程・条件が変更される可能性があるため、出願前に公式ページで確定版を確認してください。"],
+      "sources": [{ "title": "北里大学附属順天高等学校 2027年度一般入試 生徒募集概要（暫定版）", "url": "https://www.junten.ed.jp/contents/wp-content/uploads/2026/07/6aa42a44a20c1d71150f4a2237601b5e.pdf", "verifiedAt": "2026-08-10" }, { "title": "北里大学附属順天中学校・高等学校 募集要項", "url": "https://www.junten.ed.jp/admission/yoko/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311700037"], "academicYear": 2027, "selection": "returnee", "selectionLabel": "帰国生入試 第1回・第2回（Global方式）", "status": "schedule-announced", "statusLabel": "生徒募集概要（暫定版）発表済み",
+      "applicationPeriod": "第1回：2026年11月1日（日）〜11月19日（木）／第2回：2027年1月10日（日）〜1月19日（火）。事前面談あり", "testDates": ["第1回：2026年11月22日（日）", "第2回：2027年1月22日（金）"], "resultDate": "第1回：2026年11月22日（日）18:00／第2回：2027年1月23日（土）12:00", "detailsStatus": "school-details-pending", "detailsStatusLabel": "確定版募集要項の発表待ち", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員は若干名です。", "出願には事前面談が必要と案内されています。対象資格、提出書類、選考方法を確定版で確認してください。", "確認日時点の資料は暫定版で、日程・条件が変更される可能性があります。"],
+      "sources": [{ "title": "北里大学附属順天高等学校 2027年度帰国生入試 生徒募集概要（暫定版）", "url": "https://www.junten.ed.jp/contents/wp-content/uploads/2026/07/f9c4eff197b2bba3bc0d3dcd018e0ee5.pdf", "verifiedAt": "2026-08-10" }, { "title": "北里大学附属順天中学校・高等学校 募集要項", "url": "https://www.junten.ed.jp/admission/yoko/", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

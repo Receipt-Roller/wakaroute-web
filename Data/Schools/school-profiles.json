@@ -3049,6 +3049,31 @@
       "schoolId": "wk_d113310500022", "gender": "girls",
       "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（高校募集なし。高2・高3は文系／理系）" }],
       "sources": [{ "title": "跡見学園中学校高等学校 学習指導と進学支援", "url": "https://www.atomi.ac.jp/jh/education/program/", "verifiedAt": "2026-08-10" }, { "title": "跡見学園中学校高等学校 入学試験要項", "url": "https://www.atomi.ac.jp/jh/entranceguide/outline/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310100124", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（高校外部募集なし。高校では選択科目を多数設置）" }],
+      "sources": [{ "title": "雙葉中学校・高等学校 受験生Q&A", "url": "https://www.futabagakuen-jh.ed.jp/jsh/admissions/faq/", "verifiedAt": "2026-08-10" }, { "title": "雙葉中学校・高等学校 教育課程", "url": "https://www.futabagakuen-jh.ed.jp/jsh/education/curriculum/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310900046", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "普通科（高校募集あり。確認日時点の公式掲載ではコース名称なし）" }],
+      "sources": [{ "title": "青稜中学校・高等学校 学習", "url": "https://www.seiryo-js.ed.jp/sixyears", "verifiedAt": "2026-08-10" }, { "title": "青稜中学校・高等学校 2026年度入試結果", "url": "https://www.seiryo-js.ed.jp/exam-results", "verifiedAt": "2026-08-10" }, { "title": "青稜中学校・高等学校 募集要項", "url": "https://www.seiryo-js.ed.jp/requirements", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311700037", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "理数選抜類型／英語選抜類型／特進選抜類型（高校入学者対象）" }],
+      "sources": [{ "title": "北里大学附属順天高等学校 高校（融合教育）", "url": "https://www.junten.ed.jp/top/ruikei/", "verifiedAt": "2026-08-10" }, { "title": "北里大学附属順天高等学校 2027年度一般入試概要（暫定版）", "url": "https://www.junten.ed.jp/contents/wp-content/uploads/2026/07/6aa42a44a20c1d71150f4a2237601b5e.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310300051", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（1994年から高校募集なし。高2からコース制）" }],
+      "sources": [{ "title": "頌栄女子学院について", "url": "https://www.shoei.ed.jp/about/", "verifiedAt": "2026-08-10" }, { "title": "頌栄女子学院 教育内容", "url": "https://www.shoei.ed.jp/education/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310900055", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（高等科の一般募集なし。高2から文系・理系）" }],
+      "sources": [{ "title": "香蘭女学校 受験生の方へ", "url": "https://www.koran.ed.jp/admission/", "verifiedAt": "2026-08-10" }, { "title": "香蘭女学校 2027学校案内", "url": "https://www.koran.ed.jp/wp/wp-content/uploads/2026/05/kouran_2027_SP.pdf", "verifiedAt": "2026-08-10" }]
     }
   ]
 }
