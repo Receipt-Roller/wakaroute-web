@@ -2652,6 +2652,31 @@
       "schoolId": "wk_d113299910021", "gender": "coeducational",
       "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
       "sources": [{ "title": "東京都立調布北高等学校 特色", "url": "https://www.metro.ed.jp/chofukita-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299910030", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立調布南高等学校 特色", "url": "https://www.metro.ed.jp/chofuminami-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299903066", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立豊多摩高等学校 特色", "url": "https://www.metro.ed.jp/toyotama-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299904038", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間・45分4時限・原則4年" }],
+      "sources": [{ "title": "東京都立豊島高等学校 全日制 特色", "url": "https://www.metro.ed.jp/toshima-h/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立豊島高等学校 定時制 特色", "url": "https://www.metro.ed.jp/toshima-he/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299904163", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "保育・栄養科", "course": "幼児教育・保育系／栄養・健康系" }, { "attendanceType": "full-time", "department": "調理科" }, { "attendanceType": "full-time", "department": "介護福祉科" }],
+      "sources": [{ "title": "東京都立赤羽北桜高等学校 特色", "url": "https://www.metro.ed.jp/akabanehokuo-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299905171", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "総合技術科", "course": "2年次から機械／電気システム／制御システム／情報コミュニケーションコース" }],
+      "sources": [{ "title": "東京都立足立工科高等学校 特色", "url": "https://www.metro.ed.jp/adachikoka-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

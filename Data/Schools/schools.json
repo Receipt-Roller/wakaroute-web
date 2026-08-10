@@ -22778,6 +22778,8 @@
     {
       "id": "wk_d113299910030",
       "name": "東京都立調布南高等学校",
+      "nameKana": "とうきょうとりつちょうふみなみこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/chofuminami-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都調布市多摩川６－２－１",
@@ -22785,12 +22787,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
       "id": "wk_d113299903066",
       "name": "東京都立豊多摩高等学校",
+      "nameKana": "とうきょうとりつとよたまこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/toyotama-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都杉並区成田西２－６－１８",
@@ -22798,12 +22802,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
       "id": "wk_d113299904038",
       "name": "東京都立豊島高等学校",
+      "nameKana": "とうきょうとりつとしまこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/toshima-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区千早４－９－２１",
@@ -22811,12 +22817,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
       "id": "wk_d113299904163",
       "name": "東京都立赤羽北桜高等学校",
+      "nameKana": "とうきょうとりつあかばねほくおうこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/akabanehokuo-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都北区西が丘３－１４－２０",
@@ -22824,12 +22832,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2021/5/27",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
       "id": "wk_d113299905171",
       "name": "東京都立足立工科高等学校",
+      "nameKana": "とうきょうとりつあだちこうかこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/adachikoka-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都足立区西新井４－３０－１",
@@ -22837,7 +22847,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
