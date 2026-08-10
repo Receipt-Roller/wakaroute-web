@@ -2322,6 +2322,24 @@
       "applicationPeriod": "Web登録：2027年1月7日（木）〜／書類：1月27日（水）必着", "testDates": ["2027年2月11日（木）または2月13日（土）から選択"], "resultDate": "2月11日受験は2月13日（土）10:00、2月13日受験は2月15日（月）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
       "notes": ["併願IIの募集人員は併願Iとの合計でSコース10人、Iコース10人、Aコース70人、一般入試は若干名です。", "調査書と英語・国語・数学各50分の筆記で選考し、面接はありません。", "一般入試はAコースで出願し、希望によりS・Iコースの判定も行います。"],
       "sources": [{ "title": "桜丘高等学校 2027年度入試募集要項抜粋", "url": "https://sakuragaoka.ac.jp/examinee/admission.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113320900036"], "academicYear": 2027, "selection": "overseas-returnee", "selectionLabel": "海外帰国生特別入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web願書：2026年9月25日（金）9:00〜10月21日（水）12:00／書類：9月25日〜10月31日必着", "testDates": ["2026年11月20日（金）8:30集合"], "resultDate": "2026年11月21日（土）10:00〜11月22日（日）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "officialPublishedAt": "2026-05-10", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員は国公立・特別進学・進学コースを合わせて10人です。", "英語・国語・数学の要素を含む30分の口頭試問、調査書、各種資格で総合判断します。", "国内生向け推薦・併願優遇・オープン入試の2027年度要項は確認日時点で未発表です。前年要項と混同しないでください。"],
+      "sources": [{ "title": "桜美林高等学校 2027年度海外帰国生特別入試", "url": "https://www.obirin.ed.jp/admission/high_guideline/", "publishedAt": "2026-05-10", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113310100071"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（A推薦・B推薦）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月18日（月）23:59", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["普通科男子125人を募集します。", "A推薦は単願、B推薦は東京都・神奈川県以外を対象とし、書類審査と個人面接で選考します。", "出願基準やスポーツクラスの条件は令和9年度生徒募集要項で確認してください。"],
+      "sources": [{ "title": "正則学園高等学校 令和9年度入試案内", "url": "https://www.seisokugakuen.ac.jp/exam/admission/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113310100071"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月5日（金）23:59", "testDates": ["2027年2月11日（木・祝）"], "resultDate": "2027年2月12日（金）", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["普通科男子125人を募集します。", "学科試験と個人面接を実施します。試験教科・配点は令和9年度生徒募集要項で確認してください。", "併願優遇・一般受験の条件と必要書類を出願前に確認してください。"],
+      "sources": [{ "title": "正則学園高等学校 令和9年度入試案内", "url": "https://www.seisokugakuen.ac.jp/exam/admission/", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

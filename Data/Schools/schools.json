@@ -23324,6 +23324,7 @@
     {
       "id": "wk_d113320900036",
       "name": "桜美林高等学校",
+      "nameKana": "おうびりんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都町田市常盤町３７５８",
@@ -23331,12 +23332,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.obirin.ed.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "全日制", "普通科", "国公立コース", "特別進学コース", "進学コース", "キリスト教教育", "国際理解教育", "大学附属校"]
     },
     {
       "id": "wk_d113310500059",
       "name": "桜蔭高等学校",
+      "nameKana": "おういんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区本郷１－５－２５",
@@ -23344,12 +23347,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.oin.ed.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "女子校", "全日制", "普通科", "中高一貫校", "高校募集なし", "礼法", "キャリア教育"]
     },
     {
       "id": "wk_d113310100071",
       "name": "正則学園高等学校",
+      "nameKana": "せいそくがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区神田錦町３－１",
@@ -23357,12 +23362,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.seisokugakuen.ac.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "男子校", "全日制", "普通科", "進学クラス", "特別選抜クラス", "スポーツクラス", "少人数教育"]
     },
     {
       "id": "wk_d113310300060",
       "name": "正則高等学校",
+      "nameKana": "せいそくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区芝公園３－１－３６",
@@ -23370,12 +23377,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://seisoku.ed.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "全日制", "普通科", "コース制なし", "選択授業", "放課後学習支援", "体験学習"]
     },
     {
       "id": "wk_d113322900023",
       "name": "武蔵野大学高等学校",
+      "nameKana": "むさしのだいがくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都西東京市新町１－１－２０",
@@ -23383,8 +23392,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.musashino-u.ed.jp/highschool/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "全日制", "普通科", "ハイグレード", "PBLインターナショナル", "本科", "探究学習", "大学附属校"]
     },
     {
       "id": "wk_d113311700117",

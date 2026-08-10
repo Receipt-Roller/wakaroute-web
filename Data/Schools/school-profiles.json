@@ -2818,6 +2818,31 @@
       "schoolId": "wk_d113311700028", "gender": "coeducational",
       "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "スーパーアカデミック／インターナショナルリベラルアーツ／アカデミック／グローバルスタディーズ／キャリアデザイン" }],
       "sources": [{ "title": "桜丘高等学校 コース紹介", "url": "https://sakuragaoka.ac.jp/senior/course.html", "verifiedAt": "2026-08-10" }, { "title": "桜丘高等学校 2027年度入試募集要項抜粋", "url": "https://sakuragaoka.ac.jp/examinee/admission.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113320900036", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "国公立コース／特別進学コース／進学コース" }],
+      "sources": [{ "title": "桜美林高等学校 高等学校カリキュラム", "url": "https://www.obirin.ed.jp/education/high_curriculum/", "verifiedAt": "2026-08-10" }, { "title": "桜美林高等学校 2027年度海外帰国生特別入試", "url": "https://www.obirin.ed.jp/admission/high_guideline/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310500059", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "併設型中高一貫・高校募集なし" }],
+      "sources": [{ "title": "桜蔭学園 教育課程", "url": "https://www.oin.ed.jp/education/curriculum/", "verifiedAt": "2026-08-10" }, { "title": "桜蔭学園 令和8年度募集要項（中学校入試）", "url": "https://www.oin.ed.jp/admission/summary/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310100071", "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "進学クラス／特別選抜クラス／スポーツクラス" }],
+      "sources": [{ "title": "正則学園高等学校 コース・クラス概要", "url": "https://www.seisokugakuen.ac.jp/about/course/", "verifiedAt": "2026-08-10" }, { "title": "正則学園高等学校 令和9年度入試案内", "url": "https://www.seisokugakuen.ac.jp/exam/admission/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310300060", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "コース制なし・2〜3年次に選択授業" }],
+      "sources": [{ "title": "正則高等学校 正則教育の全体図", "url": "https://seisoku.ed.jp/education/overview/", "verifiedAt": "2026-08-10" }, { "title": "正則高等学校 学習指導", "url": "https://seisoku.ed.jp/education/curriculum-guidance/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113322900023", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "ハイグレード／PBLインターナショナル／本科" }],
+      "sources": [{ "title": "武蔵野大学高等学校 コース紹介", "url": "https://www.musashino-u.ed.jp/highschool/course/", "verifiedAt": "2026-08-10" }, { "title": "武蔵野大学高等学校 入試情報", "url": "https://www.musashino-u.ed.jp/highschool/admissions/", "verifiedAt": "2026-08-10" }]
     }
   ]
 }
