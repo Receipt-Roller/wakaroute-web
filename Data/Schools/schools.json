@@ -22574,6 +22574,7 @@
     {
       "id": "wk_d113299902147",
       "name": "東京都立芦花高等学校",
+      "nameKana": "とうきょうとりつろかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区粕谷３－８－１",
@@ -22581,12 +22582,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/roka-h/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["都立", "共学校", "全日制", "普通科", "単位制", "選択科目", "進学指導", "ICT教育"]
     },
     {
       "id": "wk_d113299910101",
       "name": "東京都立若葉総合高等学校",
+      "nameKana": "とうきょうとりつわかばそうごうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都稲城市坂浜１４３４－３",
@@ -22594,8 +22597,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/wakabasogo-h/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["都立", "共学校", "全日制", "総合学科", "単位制", "選択科目", "キャリア教育", "探究学習"]
     },
     {
       "id": "wk_d113299905162",
@@ -22915,6 +22919,7 @@
     {
       "id": "wk_d113299906250",
       "name": "東京都立農産高等学校",
+      "nameKana": "とうきょうとりつのうさんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都葛飾区西亀有１－２８－１",
@@ -22922,12 +22927,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/nosan-h/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["都立", "共学校", "全日制", "定時制", "園芸デザイン科", "食品科", "農産科", "農業教育", "実習"]
     },
     {
       "id": "wk_d113299903217",
       "name": "東京都立農芸高等学校",
+      "nameKana": "とうきょうとりつのうげいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都杉並区今川３－２５－１",
@@ -22935,12 +22942,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/nogei-h/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["都立", "共学校", "全日制", "定時制", "園芸科学科", "食品科学科", "緑地環境科", "農芸科", "農業教育", "環境教育"]
     },
     {
       "id": "wk_d113299907106",
       "name": "東京都立野津田高等学校",
+      "nameKana": "とうきょうとりつのづたこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都町田市野津田町２００１",
@@ -22948,8 +22957,9 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/nozuta-h/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["都立", "共学校", "全日制", "普通科", "体育科", "福祉科", "習熟度別授業", "専門教育"]
     },
     {
       "id": "wk_d113299901077",

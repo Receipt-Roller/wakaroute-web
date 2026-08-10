@@ -2703,6 +2703,21 @@
       "schoolId": "wk_d113299910138", "gender": "coeducational",
       "programs": [{ "attendanceType": "full-time", "department": "都市園芸科" }, { "attendanceType": "full-time", "department": "緑地計画科" }, { "attendanceType": "full-time", "department": "食品科学科" }, { "attendanceType": "full-time", "department": "服飾科" }, { "attendanceType": "full-time", "department": "食物科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間・4年制" }, { "attendanceType": "part-time", "department": "食品化学科", "course": "夜間・4年制" }],
       "sources": [{ "title": "東京都立農業高等学校 全日制 特色", "url": "https://www.metro.ed.jp/nogyo-h/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立農業高等学校 定時制 特色", "url": "https://www.metro.ed.jp/nogyo-he/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299906250", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "園芸デザイン科" }, { "attendanceType": "full-time", "department": "食品科" }, { "attendanceType": "part-time", "department": "農産科", "course": "夜間・原則4年・3修制あり" }],
+      "sources": [{ "title": "東京都立農産高等学校 全日制 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/nosan-h/our_school/education.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立農産高等学校 全日制 特色", "url": "https://www.metro.ed.jp/nosan-h/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立農産高等学校 定時制 特色", "url": "https://www.metro.ed.jp/nosan-he/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299903217", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "園芸科学科" }, { "attendanceType": "full-time", "department": "食品科学科" }, { "attendanceType": "full-time", "department": "緑地環境科" }, { "attendanceType": "part-time", "department": "農芸科", "course": "夜間・4年制" }],
+      "sources": [{ "title": "東京都立農芸高等学校 全日制 特色", "url": "https://www.metro.ed.jp/nogei-h/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立農芸高等学校 全日制 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/nogei-h/our_school/education.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立農芸高等学校 定時制 特色", "url": "https://www.metro.ed.jp/nogei-he/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299907106", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "full-time", "department": "体育科" }, { "attendanceType": "full-time", "department": "福祉科" }],
+      "sources": [{ "title": "東京都立野津田高等学校 特色", "url": "https://www.metro.ed.jp/nozuta-h/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立野津田高等学校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/nozuta-h/our_school/education.html", "verifiedAt": "2026-08-10" }]
     }
   ]
 }
