@@ -23399,6 +23399,7 @@
     {
       "id": "wk_d113311700117",
       "name": "武蔵野高等学校",
+      "nameKana": "むさしのこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都北区西ヶ原４－５６－２０",
@@ -23406,12 +23407,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.musashino.ac.jp/mjhs/",
+      "tags": ["私立", "共学", "全日制", "普通科", "特進ステージ", "進学ステージ", "高校募集"]
     },
     {
       "id": "wk_d113312000041",
       "name": "武蔵高等学校",
+      "nameKana": "むさしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都練馬区豊玉上１－２６－１",
@@ -23419,12 +23422,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.musashi.ed.jp/",
+      "tags": ["私立", "男子校", "全日制", "普通科", "完全中高一貫", "高校募集なし"]
     },
     {
       "id": "wk_d113312300020",
       "name": "江戸川女子高等学校",
+      "nameKana": "えどがわじょしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江戸川区東小岩５－２２－１",
@@ -23432,12 +23437,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.edojo.jp/",
+      "tags": ["私立", "女子校", "全日制", "普通科", "国際英語科", "高校募集"]
     },
     {
       "id": "wk_d113320400013",
       "name": "法政大学高等学校",
+      "nameKana": "ほうせいだいがくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都三鷹市牟礼４－３－１",
@@ -23445,8 +23452,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.hosei.ed.jp/",
+      "tags": ["私立", "共学", "全日制", "普通科", "大学付属", "高校募集"]
     },
     {
       "id": "wk_d113310400014",
@@ -23466,6 +23474,7 @@
     {
       "id": "wk_d113311600083",
       "name": "淑徳巣鴨高等学校",
+      "nameKana": "しゅくとくすがもこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区西巣鴨２－２２－１６",
@@ -23473,8 +23482,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.shukusu.ed.jp/",
+      "tags": ["私立", "共学", "全日制", "普通科", "選抜コース", "特進コース", "高校募集"]
     },
     {
       "id": "wk_d113311900017",

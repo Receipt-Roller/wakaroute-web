@@ -2843,6 +2843,31 @@
       "schoolId": "wk_d113322900023", "gender": "coeducational",
       "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "ハイグレード／PBLインターナショナル／本科" }],
       "sources": [{ "title": "武蔵野大学高等学校 コース紹介", "url": "https://www.musashino-u.ed.jp/highschool/course/", "verifiedAt": "2026-08-10" }, { "title": "武蔵野大学高等学校 入試情報", "url": "https://www.musashino-u.ed.jp/highschool/admissions/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311700117", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特進ステージ／進学ステージ" }],
+      "sources": [{ "title": "武蔵野中学高等学校 高等学校の教育", "url": "https://www.musashino.ac.jp/mjhs/education/high/", "verifiedAt": "2026-08-10" }, { "title": "武蔵野中学高等学校 学校概要", "url": "https://www.musashino.ac.jp/mjhs/about/profile/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113312000041", "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（高校募集なし）" }],
+      "sources": [{ "title": "武蔵高等学校中学校 入試情報", "url": "https://www.musashi.ed.jp/admission/index.html", "verifiedAt": "2026-08-10" }, { "title": "武蔵高等学校中学校 授業紹介", "url": "https://www.musashi.ed.jp/education/curriculum/index.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113312300020", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "II類／III類" }, { "attendanceType": "full-time", "department": "国際英語科" }],
+      "sources": [{ "title": "江戸川女子高等学校 教育課程", "url": "https://www.edojo.jp/senior/curriculum", "verifiedAt": "2026-08-10" }, { "title": "江戸川女子中学校・高等学校 学校案内", "url": "https://www.edojo.jp/guidance", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113320400013", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "法政大学中学高等学校 本校がめざす教育", "url": "https://www.hosei.ed.jp/school/aim.html", "verifiedAt": "2026-08-10" }, { "title": "法政大学高等学校 2027年度入試要項", "url": "https://www.hosei.ed.jp/exam/high/index.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311600083", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "選抜コース（アルティメット／プレミアム／選抜）・特進コース" }],
+      "sources": [{ "title": "淑徳巣鴨高等学校 コース案内", "url": "https://www.shukusu.ed.jp/hs/course.html", "verifiedAt": "2026-08-10" }, { "title": "淑徳巣鴨高等学校 2027年度入試要項", "url": "https://my.ebook5.net/shukusu/ihHJCY/", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

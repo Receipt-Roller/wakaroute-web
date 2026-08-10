@@ -2340,6 +2340,30 @@
       "applicationPeriod": "2027年1月25日（月）〜2月5日（金）23:59", "testDates": ["2027年2月11日（木・祝）"], "resultDate": "2027年2月12日（金）", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
       "notes": ["普通科男子125人を募集します。", "学科試験と個人面接を実施します。試験教科・配点は令和9年度生徒募集要項で確認してください。", "併願優遇・一般受験の条件と必要書類を出願前に確認してください。"],
       "sources": [{ "title": "正則学園高等学校 令和9年度入試案内", "url": "https://www.seisokugakuen.ac.jp/exam/admission/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113320400013"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2027年1月15日（金）0:00〜17:00／書類：1月15日〜18日17:00必着", "testDates": ["2027年1月22日（金）8:30集合"], "resultDate": "2027年1月22日（金）当日Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "officialPublishedAt": "2026-06-09", "verifiedAt": "2026-08-10",
+      "notes": ["普通科男女46人を募集します。", "書類審査、国語・数学・英語各40分の適性検査、15分の個人面接で選考します。", "第一志望、学校長推薦、9教科評定合計38以上かつ2以下なし等の出願条件があります。"],
+      "sources": [{ "title": "法政大学高等学校 2027年度推薦入試要項", "url": "https://www.hosei.ed.jp/exam/high/s_suisen.html", "publishedAt": "2026-06-09", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113320400013"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）0:00〜1月31日（日）17:00／書類：1月25日〜2月1日17:00必着", "testDates": ["2027年2月10日（水）8:30集合"], "resultDate": "2027年2月10日（水）当日Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "officialPublishedAt": "2026-06-09", "verifiedAt": "2026-08-10",
+      "notes": ["普通科男女46人を募集します。", "国語50分100点、数学50分100点、英語60分150点の筆記試験です。", "調査書評定や推薦入試受験に応じた加算点があります。"],
+      "sources": [{ "title": "法政大学高等学校 2027年度一般入試要項", "url": "https://www.hosei.ed.jp/exam/high/s_general.html", "publishedAt": "2026-06-09", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600083"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（A推薦・B推薦）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2027年1月15日（金）0:00〜1月16日（土）23:59／書類：1月15日〜17日に郵便局窓口から発送", "testDates": ["2027年1月22日（金）8:30集合"], "resultDate": "2027年1月23日（土）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["一般入試と合わせ、普通科男女235人（選抜コース155人、特進コース80人）を募集します。", "国語・数学・英語各50分100点のマークシート方式基礎力検査と調査書で選考し、面接はありません。", "A推薦は単願推薦I・II、B推薦は併願推薦です。出願地域・内申条件を要項で確認してください。"],
+      "sources": [{ "title": "淑徳巣鴨高等学校 2027年度入試要項", "url": "https://my.ebook5.net/shukusu/ihHJCY/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600083"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）0:00〜2月2日（火）23:59／書類：1月25日〜2月3日に郵便局窓口から発送", "testDates": ["2027年2月13日（土）8:30集合"], "resultDate": "2027年2月15日（月）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["推薦入試と合わせ、普通科男女235人（選抜コース155人、特進コース80人）を募集します。", "国語・数学・英語各50分100点のマークシート方式学力試験で、英語はリスニング20点分を含みます。面接はありません。", "プレミアムクラスは英語を1.5倍の150点とし、3科350点で判定します。"],
+      "sources": [{ "title": "淑徳巣鴨高等学校 2027年度入試要項", "url": "https://my.ebook5.net/shukusu/ihHJCY/", "verifiedAt": "2026-08-10" }]
     }
   ]
 }
