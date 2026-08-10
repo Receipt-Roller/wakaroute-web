@@ -2793,6 +2793,31 @@
       "schoolId": "wk_d113311300086", "gender": "coeducational",
       "programs": [{ "attendanceType": "correspondence", "department": "普通科", "course": "広域通信制・単位制・2学期制" }],
       "sources": [{ "title": "東海大学付属望星高等学校 2027年度募集要項", "url": "https://www.bosei.tokai.ed.jp/wordpress/wp-content/uploads/2026/07/20260701-6a44ca61805cc.pdf", "verifiedAt": "2026-08-10" }, { "title": "東海大学付属望星高等学校 広域通信制・単位制・2学期制", "url": "https://www.bosei.tokai.ed.jp/feature/system/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310300097", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東海大学付属高輪台高等学校 2027年度高等学校入試情報", "url": "https://www.takanawadai.tokai.ed.jp/admission/senior/", "verifiedAt": "2026-08-10" }, { "title": "東海大学付属高輪台高等学校 教育の特色", "url": "https://www.takanawadai.tokai.ed.jp/future/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113322800015", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "医学・難関大コース／特進PBLコース／進学コース" }],
+      "sources": [{ "title": "東海大学菅生高等学校 2027年度生徒募集要項", "url": "https://tokaisugao.ac.jp/wp/wp-content/uploads/2026/07/14168afd5b13f018e15015dd034eecd8.pdf", "verifiedAt": "2026-08-10" }, { "title": "東海大学菅生高等学校 コース紹介", "url": "https://tokaisugao.ac.jp/course/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310500157", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "音楽科", "course": "声楽／ピアノ／木管・金管・弦・打楽器／作曲（2025年度から生徒募集停止）" }],
+      "sources": [{ "title": "東邦高等学校 教育課程", "url": "https://www.toho-music.ac.jp/highschool/curriculum/", "verifiedAt": "2026-08-10" }, { "title": "東邦中学校及び東邦高等学校の生徒募集停止について", "url": "https://www.toho-music.ac.jp/highschool/news/2024073001.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311200103", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "1年次一般コース／2年次から文系コース・理系コース" }],
+      "sources": [{ "title": "松蔭中学高等学校 よくあるご質問", "url": "https://www.shoin.ed.jp/entrance/question/", "verifiedAt": "2026-08-10" }, { "title": "松蔭中学高等学校 令和8年度一般入試要項", "url": "https://www.shoin.ed.jp/entrance/exam_ippan/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311700028", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "スーパーアカデミック／インターナショナルリベラルアーツ／アカデミック／グローバルスタディーズ／キャリアデザイン" }],
+      "sources": [{ "title": "桜丘高等学校 コース紹介", "url": "https://sakuragaoka.ac.jp/senior/course.html", "verifiedAt": "2026-08-10" }, { "title": "桜丘高等学校 2027年度入試募集要項抜粋", "url": "https://sakuragaoka.ac.jp/examinee/admission.html", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

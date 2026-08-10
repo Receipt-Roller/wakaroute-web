@@ -2268,6 +2268,60 @@
       "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年2月4日17:00／書類提出：2027年1月29日〜2月4日", "testDates": ["2027年2月21日（日）"], "resultDate": "2027年3月1日（月）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "学校別詳細の発表待ち", "officialPublishedAt": "2026-05-28", "verifiedAt": "2026-08-10",
       "notes": ["東京都教育委員会から共通日程が発表されています。", "募集人員、検査科目、配点など鷺宮高校固有の詳細は、学校別募集要項で確認してください。", "令和9年度実施要綱・同細目は2026年9月に公表予定です。"],
       "sources": [{ "title": "令和9年度東京都立高等学校入学者選抜の日程について", "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528", "publishedAt": "2026-05-28", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113310300097"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入学試験", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月15日（金）／書類郵送：1月15日〜1月18日必着", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "officialPublishedAt": "2026-07-17", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員は男女170人です。", "作文、グループ面接、調査書による総合得点方式です。", "本校第一志望など出願資格と推薦基準は公式募集要項を確認してください。"],
+      "sources": [{ "title": "東海大学付属高輪台高等学校 2027年度高等学校入試情報", "url": "https://www.takanawadai.tokai.ed.jp/admission/senior/", "publishedAt": "2026-07-17", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113310300097"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入学試験", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月25日（月）〜2月5日（金）／書類郵送：1月25日〜2月6日消印有効", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月11日（木・祝）Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "officialPublishedAt": "2026-07-17", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員は男女170人です。", "国語・数学・英語（英語リスニングを含む）とグループ面接を行います。筆記は国語の一部記述を除きマークシート方式です。", "試験、調査書による総合得点方式です。"],
+      "sources": [{ "title": "東海大学付属高輪台高等学校 2027年度高等学校入試情報", "url": "https://www.takanawadai.tokai.ed.jp/admission/senior/", "publishedAt": "2026-07-17", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113322800015"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入学試験（A1・A2・同窓生・C推薦）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月19日（火）", "testDates": ["2027年1月22日（金）8:40集合"], "resultDate": "2027年1月23日（土）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "officialPublishedAt": "2026-07-01", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員は医学・難関大コース10人、進学コース130人です。", "推薦形式により面接のみ、または数学・英語各30分の適性検査と個人面接を行います。", "公式の教育案内には特進PBLコースがありますが、2027年度募集人数表には掲載されていません。所属方法は学校へ確認してください。"],
+      "sources": [{ "title": "東海大学菅生高等学校 2027年度生徒募集要項", "url": "https://tokaisugao.ac.jp/wp/wp-content/uploads/2026/07/14168afd5b13f018e15015dd034eecd8.pdf", "publishedAt": "2026-07-01", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113322800015"], "academicYear": 2027, "selection": "general-first", "selectionLabel": "一般入学試験 第1回", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月5日（金）", "testDates": ["2027年2月10日（水）8:40集合"], "resultDate": "2027年2月12日（金）13:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "officialPublishedAt": "2026-07-01", "verifiedAt": "2026-08-10",
+      "notes": ["第1〜3回全体の募集人員は医学・難関大コース10人、進学コース130人です。", "国語・数学・英語各50分と集団面接を行います。", "第1回には単願・同窓生・併願優遇と一般受験があり、優遇には入試相談が必要です。"],
+      "sources": [{ "title": "東海大学菅生高等学校 2027年度生徒募集要項", "url": "https://tokaisugao.ac.jp/wp/wp-content/uploads/2026/07/14168afd5b13f018e15015dd034eecd8.pdf", "publishedAt": "2026-07-01", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113322800015"], "academicYear": 2027, "selection": "general-second", "selectionLabel": "一般入学試験 第2回", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月5日（金）", "testDates": ["2027年2月11日（木・祝）8:40集合"], "resultDate": "2027年2月12日（金）13:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "officialPublishedAt": "2026-07-01", "verifiedAt": "2026-08-10",
+      "notes": ["第1〜3回全体の募集人員は医学・難関大コース10人、進学コース130人です。", "国語・数学・英語各50分と集団面接を行います。", "第2回は併願優遇または一般受験で、優遇には入試相談が必要です。"],
+      "sources": [{ "title": "東海大学菅生高等学校 2027年度生徒募集要項", "url": "https://tokaisugao.ac.jp/wp/wp-content/uploads/2026/07/14168afd5b13f018e15015dd034eecd8.pdf", "publishedAt": "2026-07-01", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113322800015"], "academicYear": 2027, "selection": "general-third", "selectionLabel": "一般入学試験 第3回", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月12日（金）", "testDates": ["2027年2月15日（月）8:40集合"], "resultDate": "2027年2月16日（火）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "officialPublishedAt": "2026-07-01", "verifiedAt": "2026-08-10",
+      "notes": ["第1〜3回全体の募集人員は医学・難関大コース10人、進学コース130人です。", "国語・数学・英語各50分と集団面接を行います。", "第3回は一般受験（フリー）です。"],
+      "sources": [{ "title": "東海大学菅生高等学校 2027年度生徒募集要項", "url": "https://tokaisugao.ac.jp/wp/wp-content/uploads/2026/07/14168afd5b13f018e15015dd034eecd8.pdf", "publishedAt": "2026-07-01", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311700028"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "単願推薦", "status": "details-announced", "statusLabel": "募集要項抜粋発表済み",
+      "applicationPeriod": "Web登録：2027年1月7日（木）〜／書類：1月16日（土）必着", "testDates": ["2027年1月23日（土）"], "resultDate": "2027年1月25日（月）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員はSコース10人、Iコース10人、Aコース70人です。", "調査書と英語・国語・数学各50分の適性検査で選考し、面接はありません。", "内申重視型・試験重視型、コースチャレンジ、特待判定の条件は公式募集要項を確認してください。"],
+      "sources": [{ "title": "桜丘高等学校 2027年度入試募集要項抜粋", "url": "https://sakuragaoka.ac.jp/examinee/admission.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311700028"], "academicYear": 2027, "selection": "concurrent-first", "selectionLabel": "併願I（埼玉・千葉生対象）", "status": "details-announced", "statusLabel": "募集要項抜粋発表済み",
+      "applicationPeriod": "Web登録：2027年1月7日（木）〜／書類：1月16日（土）必着", "testDates": ["2027年1月23日（土）"], "resultDate": "2027年1月25日（月）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員は併願IIとの合計でSコース10人、Iコース10人、Aコース70人です。", "調査書と英語・国語・数学各50分の適性検査で選考し、面接はありません。", "対象地域、内申基準、コースチャレンジを公式ページで確認してください。"],
+      "sources": [{ "title": "桜丘高等学校 2027年度入試募集要項抜粋", "url": "https://sakuragaoka.ac.jp/examinee/admission.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311700028"], "academicYear": 2027, "selection": "concurrent-second-general", "selectionLabel": "併願II・一般入試", "status": "details-announced", "statusLabel": "募集要項抜粋発表済み",
+      "applicationPeriod": "Web登録：2027年1月7日（木）〜／書類：1月27日（水）必着", "testDates": ["2027年2月11日（木）または2月13日（土）から選択"], "resultDate": "2月11日受験は2月13日（土）10:00、2月13日受験は2月15日（月）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["併願IIの募集人員は併願Iとの合計でSコース10人、Iコース10人、Aコース70人、一般入試は若干名です。", "調査書と英語・国語・数学各50分の筆記で選考し、面接はありません。", "一般入試はAコースで出願し、希望によりS・Iコースの判定も行います。"],
+      "sources": [{ "title": "桜丘高等学校 2027年度入試募集要項抜粋", "url": "https://sakuragaoka.ac.jp/examinee/admission.html", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

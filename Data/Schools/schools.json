@@ -23219,6 +23219,7 @@
     {
       "id": "wk_d113310300097",
       "name": "東海大学付属高輪台高等学校",
+      "nameKana": "とうかいだいがくふぞくたかなわだいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区高輪２－２－１６",
@@ -23226,12 +23227,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.takanawadai.tokai.ed.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "全日制", "普通科", "東海大学付属", "SSH", "高大連携", "海外研修"]
     },
     {
       "id": "wk_d113322800015",
       "name": "東海大学菅生高等学校",
+      "nameKana": "とうかいだいがくすがおこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都あきる野市菅生１８１７",
@@ -23239,12 +23242,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://tokaisugao.ac.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "全日制", "普通科", "医学・難関大コース", "特進PBLコース", "進学コース", "東海大学付属", "スクールバス"]
     },
     {
       "id": "wk_d113310500157",
       "name": "東邦音楽大学附属東邦高等学校",
+      "nameKana": "とうほうおんがくだいがくふぞくとうほうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区大塚４－４６－９",
@@ -23252,12 +23257,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.toho-music.ac.jp/highschool/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "全日制", "音楽科", "東邦音楽大学附属", "実技個人レッスン", "生徒募集停止"]
     },
     {
       "id": "wk_d113311200103",
       "name": "松蔭大学附属松蔭高等学校",
+      "nameKana": "しょういんだいがくふぞくしょういんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区北沢１－１６－１０",
@@ -23265,8 +23272,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.shoin.ed.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "全日制", "普通科", "松蔭大学附属", "文系コース", "理系コース", "全員クラブ加入"]
     },
     {
       "id": "wk_d113320800046",
@@ -23301,6 +23309,7 @@
     {
       "id": "wk_d113311700028",
       "name": "桜丘高等学校",
+      "nameKana": "さくらがおかこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都北区滝野川１－５１－１２",
@@ -23308,8 +23317,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://sakuragaoka.ac.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "全日制", "普通科", "5コース制", "探究学習", "英語教育", "ICT教育", "ユネスコスクール"]
     },
     {
       "id": "wk_d113320900036",
