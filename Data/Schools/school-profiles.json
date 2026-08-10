@@ -3024,6 +3024,31 @@
       "schoolId": "wk_d113311600127", "gender": "coeducational",
       "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特進コース／選抜コース／進学コース" }],
       "sources": [{ "title": "豊南高等学校 3つのコース", "url": "https://hs.honan.ed.jp/education/course/", "verifiedAt": "2026-08-10" }, { "title": "豊南高等学校 生徒募集要項", "url": "https://hs.honan.ed.jp/honan-info/recruitment", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311600109", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "スーパー特進類型／特別進学類型／選抜進学類型／普通進学類型" }],
+      "sources": [{ "title": "豊島学院高等学校 4つの類型", "url": "https://toshima-gakuin.ed.jp/4-types/", "verifiedAt": "2026-08-10" }, { "title": "豊島学院高等学校 2027年度入試制度概要", "url": "https://toshima-gakuin.ed.jp/toshima/wp-content/uploads/fd17c3d6bae74ab702c67dc36b0a2316.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311600118", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（2022年度から高校募集なし。高2で文系・理系）" }],
+      "sources": [{ "title": "豊島岡女子学園中学校・高等学校 高校カリキュラム", "url": "https://www.toshimagaoka.ed.jp/education/curriculum_h/", "verifiedAt": "2026-08-10" }, { "title": "豊島岡女子学園中学校・高等学校 生徒募集要項", "url": "https://www.toshimagaoka.ed.jp/admission/guideline/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310500148", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特別進学コース／総合進学コース／幼児教育・保育系進学コース" }],
+      "sources": [{ "title": "貞静学園高等学校 3コース教育", "url": "https://teiseigakuen.ac.jp/senior/", "verifiedAt": "2026-08-10" }, { "title": "貞静学園高等学校 令和9年度募集要項", "url": "https://teiseigakuen.ac.jp/admissions/senior-requirements/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113312100013", "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "探究コース／文理コース／総合コース" }],
+      "sources": [{ "title": "足立学園高等学校 2027年度生徒募集要項", "url": "https://www.adachigakuen-jh.ed.jp/wp-content/themes/adachi2024/pdf/2027_high_web.pdf", "verifiedAt": "2026-08-10" }, { "title": "足立学園高等学校 教育3年間", "url": "https://www.adachigakuen-jh.ed.jp/adachi-education/high-2.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310500022", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（高校募集なし。高2・高3は文系／理系）" }],
+      "sources": [{ "title": "跡見学園中学校高等学校 学習指導と進学支援", "url": "https://www.atomi.ac.jp/jh/education/program/", "verifiedAt": "2026-08-10" }, { "title": "跡見学園中学校高等学校 入学試験要項", "url": "https://www.atomi.ac.jp/jh/entranceguide/outline/", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

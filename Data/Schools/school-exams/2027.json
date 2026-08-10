@@ -2512,6 +2512,42 @@
       "applicationPeriod": "Web：2027年1月25日（月）〜2月5日（金）13:00", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月10日（水）20:00〜2月11日（木・祝）12:00 Web発表", "detailsStatus": "school-details-pending", "detailsStatusLabel": "正式募集要項の発表待ち", "verifiedAt": "2026-08-10",
       "notes": ["普通科25人を募集します。", "国語60分、数学60分・150点、英語60分（リスニングを含む）と面接で選考します。", "正式な募集要項は2026年10月下旬公開予定です。出願資格・提出書類は公開後に確認してください。"],
       "sources": [{ "title": "芝浦工業大学附属高等学校 2027年度高校入試概要", "url": "https://www.fzk.shibaura-it.ac.jp/admission/high/outline/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600109"], "academicYear": 2027, "selection": "recommendation-january-combined", "selectionLabel": "推薦入試・1月併願", "status": "schedule-announced", "statusLabel": "入試制度概要（予定）発表済み",
+      "applicationPeriod": "Web入力：2026年12月20日（日）〜2027年1月16日（土）23:59／書類：1月15日（金）〜1月19日（火）必着", "testDates": ["2027年1月22日（金）9:00"], "resultDate": "2027年1月23日（土）9:00", "detailsStatus": "school-details-pending", "detailsStatusLabel": "正式募集要項の発表待ち", "verifiedAt": "2026-08-10",
+      "notes": ["推薦入試・1月併願を合わせ、スーパー特進15人、特別進学40人、選抜進学60人、普通進学60人を募集予定です。", "推薦は単願、1月併願は東京・神奈川を除く中学校卒業見込み者が対象です。", "確認日時点の資料は『入試制度概要（予定）』で、正式な2027年度募集要項は準備中です。選考方法・提出書類を公開後に再確認してください。"],
+      "sources": [{ "title": "豊島学院高等学校 2027年度入試制度概要（予定）", "url": "https://toshima-gakuin.ed.jp/toshima/wp-content/uploads/fd17c3d6bae74ab702c67dc36b0a2316.pdf", "verifiedAt": "2026-08-10" }, { "title": "豊島学院高等学校 出願について", "url": "https://toshima-gakuin.ed.jp/admission/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600109"], "academicYear": 2027, "selection": "general-february-combined", "selectionLabel": "2月併願優遇・一般入試", "status": "schedule-announced", "statusLabel": "入試制度概要（予定）発表済み",
+      "applicationPeriod": "Web入力：2026年12月20日（日）〜2027年2月2日（火）23:59／書類：2027年1月25日（月）〜2月4日（木）必着", "testDates": ["2027年2月10日（水）9:00"], "resultDate": "2027年2月11日（木・祝）9:00", "detailsStatus": "school-details-pending", "detailsStatusLabel": "正式募集要項の発表待ち", "verifiedAt": "2026-08-10",
+      "notes": ["2月併願優遇・一般入試を合わせ、スーパー特進15人、特別進学40人、選抜進学60人、普通進学60人を募集予定です。", "一般入試は単願・併願、2月併願優遇は公立・私立との併願が可能と案内されています。", "確認日時点の資料は『入試制度概要（予定）』です。正式募集要項で選考方法・提出書類・延納条件を確認してください。"],
+      "sources": [{ "title": "豊島学院高等学校 2027年度入試制度概要（予定）", "url": "https://toshima-gakuin.ed.jp/toshima/wp-content/uploads/fd17c3d6bae74ab702c67dc36b0a2316.pdf", "verifiedAt": "2026-08-10" }, { "title": "豊島学院高等学校 出願について", "url": "https://toshima-gakuin.ed.jp/admission/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500148"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（A推薦・B推薦）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2027年1月15日（金）9:00〜1月16日（土）23:59／書類：1月16日（土）消印有効または持参", "testDates": ["2027年1月22日（金）8:20集合"], "resultDate": "2027年1月23日（土）9:00〜23:59 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["特別進学15人、総合進学60人、幼児教育・保育系進学50人を募集します。", "A推薦は国語・数学・英語の適性検査、B推薦は同3教科の学科試験を各45分で行い、いずれも受験生本人の面接があります。", "推薦受験者は学校説明会への参加と個別相談が必要です。成績基準、欠席日数、加点条件を公式要項で確認してください。"],
+      "sources": [{ "title": "貞静学園高等学校 令和9年度募集要項", "url": "https://teiseigakuen.ac.jp/admissions/senior-requirements/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113310500148"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試・併願優遇・第一志望優遇", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "第1回一般：Web 2027年1月25日（月）〜2月5日（金）23:59／第2回一般：1月25日（月）〜2月11日（木・祝）23:59。優遇区分は別締切", "testDates": ["第1回：2027年2月10日（水）8:20集合", "第2回：2027年2月12日（金）8:20集合"], "resultDate": "第1回：2027年2月11日（木・祝）10:00〜2月12日（金）11:00／第2回：2月12日（金）15:30〜16:30", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["特別進学15人、総合進学60人、幼児教育・保育系進学50人を募集します。", "国語・数学・英語各45分と受験生本人の面接で選考します。", "併願優遇・第一志望優遇は事前の学校説明会参加と個別相談、成績条件があります。区分ごとの出願締切を公式要項で確認してください。"],
+      "sources": [{ "title": "貞静学園高等学校 令和9年度募集要項", "url": "https://teiseigakuen.ac.jp/admissions/senior-requirements/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113312100013"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（A推薦・B推薦・スポーツ推薦・志自己推薦）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web・書類：2027年1月15日（金）〜1月18日（月）15:00必着", "testDates": ["2027年1月22日（金）8:30集合"], "resultDate": "2027年1月23日（土）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["探究20人、文理20人、総合40人を募集します。", "A・B推薦は国語・数学・英語各50分の適性検査と面接・調査書、志自己推薦は適性検査・エントリーシート・面接・調査書で選考します。", "区分ごとに対象地域、内申、欠席、入試相談、提出書類が異なります。公式要項を確認してください。"],
+      "sources": [{ "title": "足立学園高等学校 2027年度生徒募集要項", "url": "https://www.adachigakuen-jh.ed.jp/wp-content/themes/adachi2024/pdf/2027_high_web.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113312100013"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試 第1回・第2回・併願優遇・成績特待", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web・書類：2027年1月25日（月）〜1月31日（日）15:00必着", "testDates": ["第1回：2027年2月10日（水）8:30集合", "第2回：2027年2月12日（金）8:30集合"], "resultDate": "各試験日の翌日10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["探究20人、文理20人、総合40人を募集します。", "国語・数学・英語各50分（英語はリスニングを含む）と面接・調査書で選考します。", "一般入試は2月10日・12日または両日を選択でき、2回受験時の書類、上位コース判定、併願優遇条件を公式要項で確認してください。"],
+      "sources": [{ "title": "足立学園高等学校 2027年度生徒募集要項", "url": "https://www.adachigakuen-jh.ed.jp/wp-content/themes/adachi2024/pdf/2027_high_web.pdf", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

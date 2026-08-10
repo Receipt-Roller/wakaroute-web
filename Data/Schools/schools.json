@@ -24059,6 +24059,7 @@
     {
       "id": "wk_d113311600109",
       "name": "豊島学院高等学校",
+      "nameKana": "としまがくいんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区池袋本町２－１０－１",
@@ -24066,12 +24067,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://toshima-gakuin.ed.jp/",
+      "tags": ["私立", "共学", "全日制", "普通科", "高校募集あり", "スーパー特進類型", "特別進学類型", "選抜進学類型", "普通進学類型"]
     },
     {
       "id": "wk_d113311600118",
       "name": "豊島岡女子学園高等学校",
+      "nameKana": "としまがおかじょしがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区東池袋１－２５－２２",
@@ -24079,12 +24082,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.toshimagaoka.ed.jp/",
+      "tags": ["私立", "女子校", "全日制", "普通科", "完全中高一貫", "高校募集なし", "SSH", "探究学習"]
     },
     {
       "id": "wk_d113310500148",
       "name": "貞静学園高等学校",
+      "nameKana": "ていせいがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区大塚１－２－１０",
@@ -24092,12 +24097,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://teiseigakuen.ac.jp/senior/",
+      "tags": ["私立", "共学", "全日制", "普通科", "高校募集あり", "特別進学コース", "総合進学コース", "幼児教育・保育系進学コース"]
     },
     {
       "id": "wk_d113312100013",
       "name": "足立学園高等学校",
+      "nameKana": "あだちがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都足立区千住旭町４０－２４",
@@ -24105,12 +24112,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.adachigakuen-jh.ed.jp/",
+      "tags": ["私立", "男子校", "全日制", "普通科", "高校募集あり", "探究コース", "文理コース", "総合コース", "グローバル教育"]
     },
     {
       "id": "wk_d113310500022",
       "name": "跡見学園高等学校",
+      "nameKana": "あとみがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区大塚１－５－９",
@@ -24118,8 +24127,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.atomi.ac.jp/jh/",
+      "tags": ["私立", "女子校", "全日制", "普通科", "完全中高一貫", "高校募集なし", "習熟度別授業", "探究学習"]
     },
     {
       "id": "wk_d113310500040",
