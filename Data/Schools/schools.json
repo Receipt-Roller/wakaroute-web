@@ -22613,6 +22613,8 @@
     {
       "id": "wk_d113299905162",
       "name": "東京都立荒川工科高等学校",
+      "nameKana": "とうきょうとりつあらかわこうかこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/arakawakoka-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都荒川区南千住６－４２－１",
@@ -22620,12 +22622,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
       "id": "wk_d113299903048",
       "name": "東京都立荻窪高等学校",
+      "nameKana": "とうきょうとりつおぎくぼこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/ogikubo-he/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都杉並区荻窪５－７－２０",
@@ -22633,12 +22637,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
       "id": "wk_d113299906134",
       "name": "東京都立葛西南高等学校",
+      "nameKana": "とうきょうとりつかさいみなみこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/kasaiminami-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江戸川区南葛西１－１１－１",
@@ -22646,12 +22652,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
       "id": "wk_d113299906232",
       "name": "東京都立葛西工科高等学校",
+      "nameKana": "とうきょうとりつかさいこうかこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/kasaikoka-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江戸川区一之江７－６８－１",
@@ -22659,12 +22667,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
       "id": "wk_d113299906189",
       "name": "東京都立葛飾商業高等学校",
+      "nameKana": "とうきょうとりつかつしかしょうぎょうこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/katsushikasyogyo-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都葛飾区新宿３－１４－１",
@@ -22672,7 +22682,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {

@@ -2602,6 +2602,31 @@
       "schoolId": "wk_d113299910101", "gender": "coeducational",
       "programs": [{ "attendanceType": "full-time", "department": "総合学科", "course": "単位制" }],
       "sources": [{ "title": "東京都立若葉総合高等学校 特色", "url": "https://www.metro.ed.jp/wakabasogo-h/our_school/feature.html", "verifiedAt": "2026-08-05" }, { "title": "東京都立若葉総合高等学校 学校からのメッセージ", "url": "https://www.metro.ed.jp/wakabasogo-h/our_school/message.html", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113299905162", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "電気科" }, { "attendanceType": "full-time", "department": "電子科" }, { "attendanceType": "full-time", "department": "情報技術科" }, { "attendanceType": "part-time", "department": "電気・電子科", "course": "夜間・原則4年" }],
+      "sources": [{ "title": "東京都立荒川工科高等学校 全日制 特色", "url": "https://www.metro.ed.jp/arakawakoka-h/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立荒川工科高等学校 定時制 特色", "url": "https://www.metro.ed.jp/arakawakoka-he/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299903048", "gender": "coeducational",
+      "programs": [{ "attendanceType": "part-time", "department": "普通科", "course": "三部制・単位制（1部・2部・3部）" }],
+      "sources": [{ "title": "東京都立荻窪高等学校 特色", "url": "https://www.metro.ed.jp/ogikubo-he/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299906134", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間・原則4年" }],
+      "sources": [{ "title": "東京都立葛西南高等学校 全日制 特色", "url": "https://www.metro.ed.jp/kasaiminami-h/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立葛西南高等学校 定時制 特色", "url": "https://www.metro.ed.jp/kasaiminami-he/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299906232", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "機械科" }, { "attendanceType": "full-time", "department": "電子科" }, { "attendanceType": "full-time", "department": "建築科" }, { "attendanceType": "full-time", "department": "デュアルシステム科" }],
+      "sources": [{ "title": "東京都立葛西工科高等学校 特色", "url": "https://www.metro.ed.jp/kasaikoka-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299906189", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "ビジネス科" }, { "attendanceType": "part-time", "department": "普通科", "course": "夜間・令和8年度募集停止" }, { "attendanceType": "part-time", "department": "商業科", "course": "夜間・令和8年度募集停止" }],
+      "sources": [{ "title": "東京都立葛飾商業高等学校 全日制 特色", "url": "https://www.metro.ed.jp/katsushikasyogyo-h/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立葛飾商業高等学校 定時制 特色", "url": "https://www.metro.ed.jp/katsushikasyogyo-he/our_school/feature.html", "verifiedAt": "2026-08-10" }, { "title": "東京都立葛飾商業高等学校 定時制 学校説明会", "url": "https://www.metro.ed.jp/katsushikasyogyo-he/guide/meeting.html", "verifiedAt": "2026-08-10" }]
     }
   ]
 }
