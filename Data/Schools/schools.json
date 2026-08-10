@@ -22853,6 +22853,8 @@
     {
       "id": "wk_d113299905117",
       "name": "東京都立足立新田高等学校",
+      "nameKana": "とうきょうとりつあだちしんでんこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/adachishinden-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都足立区新田２－１０－１６",
@@ -22866,6 +22868,8 @@
     {
       "id": "wk_d113299905091",
       "name": "東京都立足立東高等学校",
+      "nameKana": "とうきょうとりつあだちひがしこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/adachihigashi-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都足立区大谷田２－３－５",
@@ -22879,6 +22883,8 @@
     {
       "id": "wk_d113299905082",
       "name": "東京都立足立西高等学校",
+      "nameKana": "とうきょうとりつあだちにしこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/adachinishi-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都足立区江北５－７－１",
@@ -22886,12 +22892,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
       "id": "wk_d113299905055",
       "name": "東京都立足立高等学校",
+      "nameKana": "とうきょうとりつあだちこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/adachi-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都足立区中央本町１－３－９",
@@ -22899,12 +22907,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
       "id": "wk_d113299910138",
       "name": "東京都立農業高等学校",
+      "nameKana": "とうきょうとりつのうぎょうこうとうがっこう",
+      "officialUrl": "https://www.metro.ed.jp/nogyo-h/",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都府中市寿町１－１０－２",
@@ -22912,7 +22922,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "tags": []
     },
     {
@@ -22991,7 +23001,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "officialUrl": "https://www.metro.ed.jp/aoyama-h/",
       "tags": []
     },
@@ -23032,7 +23042,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-08-10",
       "officialUrl": "https://www.metro.ed.jp/komaba-h/",
       "tags": []
     },
