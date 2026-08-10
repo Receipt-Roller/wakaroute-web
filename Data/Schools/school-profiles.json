@@ -3074,6 +3074,51 @@
       "schoolId": "wk_d113310900055", "gender": "girls",
       "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（高等科の一般募集なし。高2から文系・理系）" }],
       "sources": [{ "title": "香蘭女学校 受験生の方へ", "url": "https://www.koran.ed.jp/admission/", "verifiedAt": "2026-08-10" }, { "title": "香蘭女学校 2027学校案内", "url": "https://www.koran.ed.jp/wp/wp-content/uploads/2026/05/kouran_2027_SP.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311200096", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特別進学コース／国際コース／進学コース" }, { "attendanceType": "full-time", "department": "食物調理科", "course": "卒業時に調理師免許取得を目指す専門学科" }],
+      "sources": [{ "title": "駒場学園高等学校 沿革", "url": "https://www.komabagakuen.ac.jp/about/history.html", "verifiedAt": "2026-08-10" }, { "title": "駒場学園高等学校 食物調理科", "url": "https://www.komabagakuen.ac.jp/exam/course/food.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311200023", "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（高校からの募集なし）" }],
+      "sources": [{ "title": "駒場東邦中学校・高等学校 教育", "url": "https://www.komabajh.toho-u.ac.jp/education/index.html", "verifiedAt": "2026-08-10" }, { "title": "東京都 令和8年度都内私立高等学校入学者選抜実施要項", "url": "https://www.seikatubunka.metro.tokyo.lg.jp/documents/d/seikatubunka/251008_shigaku_hs00_2425", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113322500018", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "進学クラス／特進クラス／英語クラス" }],
+      "sources": [{ "title": "駒沢学園女子高等学校 カリキュラム", "url": "https://www.komajo.ac.jp/jsh/senior/curriculum.html", "verifiedAt": "2026-08-10" }, { "title": "駒沢学園女子高等学校 2027年度生徒募集要項（簡易版）", "url": "https://www.komajo.ac.jp/jsh/senior/pdf/summary2027_sh_kaniban.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311200087", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "普通科（高校募集あり。確認日時点の公式掲載ではコース名称なし）" }],
+      "sources": [{ "title": "駒澤大学高等学校 教育の特色", "url": "https://www.komazawa.net/about/feature/", "verifiedAt": "2026-08-10" }, { "title": "駒澤大学高等学校 入学試験", "url": "https://www.komazawa.net/admission/examination/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310500111", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特S・Sコース／国際教養コース／理系先進コース" }],
+      "sources": [{ "title": "駒込高等学校 高校コース紹介", "url": "https://www.komagome.ed.jp/high-school/course.php", "verifiedAt": "2026-08-10" }, { "title": "駒込中学校・高等学校 入試イベント", "url": "https://komagome.ed.jp/examinee/guidance.php", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311700055", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特選（GMARCHチャレンジ）／進学（チャレンジ）／スペシャリスト・ハイブリッド／スペシャリスト・オリジナル" }, { "attendanceType": "part-time", "department": "普通科", "course": "定時制課程（2027年度募集要項は確認日時点で準備中）" }],
+      "sources": [{ "title": "駿台学園高等学校 全日制コース", "url": "https://www.sundaigakuen.ac.jp/senior_education/course/", "verifiedAt": "2026-08-10" }, { "title": "駿台学園高等学校 定時制入試", "url": "https://www.sundaigakuen.ac.jp/exam/senior_pt_exam/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310300088", "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（2014年度から高校募集なし）" }],
+      "sources": [{ "title": "高輪中学高等学校 Q&A", "url": "https://www.takanawa.ed.jp/qa/", "verifiedAt": "2026-08-10" }, { "title": "高輪中学高等学校 学び", "url": "https://www.takanawa.ed.jp/education/learning/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310100062", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "東洋大学グローバルコース（高校入学生）" }],
+      "sources": [{ "title": "麹町学園女子高等学校 高校入試", "url": "https://www.kojimachi.ed.jp/enter/exam_h/", "verifiedAt": "2026-08-10" }, { "title": "麹町学園女子中学校高等学校", "url": "https://www.kojimachi.ed.jp/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310300015", "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（高校からの募集なし）" }],
+      "sources": [{ "title": "麻布中学校・高等学校 教育", "url": "https://www.azabu-jh.ed.jp/education/", "verifiedAt": "2026-08-10" }, { "title": "東京都 令和8年度都内私立高等学校入学者選抜実施要項", "url": "https://www.seikatubunka.metro.tokyo.lg.jp/documents/d/seikatubunka/251008_shigaku_hs00_2425", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

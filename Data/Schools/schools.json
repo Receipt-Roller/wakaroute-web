@@ -24344,6 +24344,7 @@
     {
       "id": "wk_d113311200096",
       "name": "駒場学園高等学校",
+      "nameKana": "こまばがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区代沢１－２３－８",
@@ -24351,12 +24352,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.komabagakuen.ac.jp/",
+      "tags": ["共学", "全日制", "普通科", "食物調理科", "高校募集あり", "調理師免許"]
     },
     {
       "id": "wk_d113311200023",
       "name": "駒場東邦高等学校",
+      "nameKana": "こまばとうほうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区池尻４－５－１",
@@ -24364,12 +24367,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.komabajh.toho-u.ac.jp/",
+      "tags": ["男子校", "全日制", "普通科", "高校募集なし", "完全中高一貫", "東邦大学系属"]
     },
     {
       "id": "wk_d113322500018",
       "name": "駒沢学園女子高等学校",
+      "nameKana": "こまざわがくえんじょしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都稲城市坂浜２３８",
@@ -24377,12 +24382,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.komajo.ac.jp/jsh/",
+      "tags": ["女子校", "全日制", "普通科", "高校募集あり", "3クラス", "仏教"]
     },
     {
       "id": "wk_d113311200087",
       "name": "駒澤大学高等学校",
+      "nameKana": "こまざわだいがくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区上用賀１－１７－１２",
@@ -24390,12 +24397,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.komazawa.net/",
+      "tags": ["共学", "全日制", "普通科", "高校募集あり", "駒澤大学附属", "仏教"]
     },
     {
       "id": "wk_d113310500111",
       "name": "駒込高等学校",
+      "nameKana": "こまごめこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区千駄木５－６－２５",
@@ -24403,12 +24412,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.komagome.ed.jp/",
+      "tags": ["共学", "全日制", "普通科", "高校募集あり", "3コース", "STEAM"]
     },
     {
       "id": "wk_d113311700055",
       "name": "駿台学園高等学校",
+      "nameKana": "すんだいがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都北区王子６－１－１０",
@@ -24416,12 +24427,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.sundaigakuen.ac.jp/",
+      "tags": ["共学", "全日制", "定時制", "普通科", "高校募集あり", "4コース"]
     },
     {
       "id": "wk_d113310300088",
       "name": "高輪高等学校",
+      "nameKana": "たかなわこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区高輪２－１－３２",
@@ -24429,8 +24442,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.takanawa.ed.jp/",
+      "tags": ["男子校", "全日制", "普通科", "高校募集なし", "完全中高一貫", "週6日制"]
     },
     {
       "id": "wk_d113311200032",
@@ -24450,6 +24464,7 @@
     {
       "id": "wk_d113310100062",
       "name": "麹町学園女子高等学校",
+      "nameKana": "こうじまちがくえんじょしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区麹町３－８",
@@ -24457,12 +24472,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.kojimachi.ed.jp/",
+      "tags": ["女子校", "全日制", "普通科", "高校募集あり", "東洋大学グローバルコース", "高大連携"]
     },
     {
       "id": "wk_d113310300015",
       "name": "麻布高等学校",
+      "nameKana": "あざぶこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区元麻布２－３－２９",
@@ -24470,8 +24487,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.azabu-jh.ed.jp/",
+      "tags": ["男子校", "全日制", "普通科", "高校募集なし", "完全中高一貫", "自由闊達"]
     },
     {
       "id": "wk_d113321500038",

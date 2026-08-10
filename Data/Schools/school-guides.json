@@ -134,7 +134,7 @@
       "goodFit": ["文系・理系を早く絞らず幅広く学びたい", "研究テーマを深く掘り下げ、発表や論文に挑戦したい", "医学・科学技術への強い関心がある", "自由な校風の中で自主的に行動したい"],
       "questionsToConsider": ["幅広い教養教育と探究を両立したいか", "夜まで使える自習室や講習をどう活用したいか", "自由な環境で自分の生活を管理できるか", "SSH・チームメディカルの具体的な活動を公式説明で確認したか"],
       "access": { "summary": "西早稲田駅から徒歩1分。高田馬場駅からも徒歩12分で通えます。", "routes": ["副都心線 西早稲田駅 3番出口から徒歩1分", "高田馬場駅から徒歩12分", "大江戸線 東新宿駅から徒歩13分"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "夏の学校見学会", "academicYear": 2026, "status": "registration-closed", "statusLabel": "2026年度日程発表済み・受付終了", "eventDates": ["2026年7月20日（月・祝）・21日（火）・24日（金）・25日（土）"], "applicationMethod": "東京都電子申請（各日3回・事前申込）", "note": "確認日時点では募集予定数に達し受付終了です。秋以降の説明会は学校公式サイトで最新情報を確認してください。", "sources": [{ "title": "東京都立戸山高等学校 令和8年度夏の学校見学会", "url": "https://www.metro.ed.jp/toyama-h/pages/2026/06/freepage_26_2_1.html", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "戸山高校 特色", "url": "https://www.metro.ed.jp/toyama-h/our_school/feature.html", "verifiedAt": "2026-08-02" },
         { "title": "戸山高校 教育目標・カリキュラム", "url": "https://www.metro.ed.jp/toyama-h/our_school/education.html", "verifiedAt": "2026-08-02" },
@@ -484,7 +484,7 @@
       "goodFit": ["男子校で高い学習水準に挑戦したい", "指示を待たず自分で考えて学びたい", "生徒主体の大きな行事に深く関わりたい", "5教科をバランスよく鍛えたい"],
       "questionsToConsider": ["高校入学生だけの1年目と2年目以降の変化を理解したか", "自由度の高い環境で自分を管理できるか", "始業時刻や6日制を含む生活を具体的に想像したか", "説明会の今年度日程が公開されたか公式ページで再確認したか"],
       "access": { "summary": "西日暮里駅から徒歩2分。JR、千代田線、日暮里・舎人ライナーを利用できます。", "routes": ["JR山手線・京浜東北線 西日暮里駅から徒歩2分", "東京メトロ千代田線 西日暮里駅から徒歩2分", "日暮里・舎人ライナー 西日暮里駅から徒歩2分"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "高等学校説明会", "academicYear": 2026, "status": "schedule-pending", "statusLabel": "通常説明会の日程発表待ち", "eventDates": ["2026年7月19日（日）海外在住小中学生向け説明会", "通常の2026年度高校説明会は確認日時点で今後案内予定"], "applicationMethod": "公式ページから事前予約", "note": "海外在住者向け説明会以外の2026年度高校説明会は確認日時点で未発表です。前年日程を今年度の日程として扱わず、公式ページを再確認してください。", "sources": [{ "title": "開成中学校・高等学校 説明会情報", "url": "https://kaiseigakuen.jp/admission/briefing/", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "開成学園 教育内容", "url": "https://kaiseigakuen.jp/about/contents/", "verifiedAt": "2026-08-02" },
         { "title": "開成学園 学園長・学校長挨拶", "url": "https://kaiseigakuen.jp/about/greeting/", "verifiedAt": "2026-08-02" },
@@ -656,7 +656,7 @@
       "goodFit": ["文理を早く決めず教養を広げたい", "フィールドワークや探究が好き", "自分の考えを発表・議論したい", "国際交流や自主的な活動に関心がある"],
       "questionsToConsider": ["高校入学生と附属中学生が共に学ぶ環境を理解したか", "一般と帰国生の募集区分を確認したか", "学校行事と学習を主体的に両立できそうか", "通学時間と放課後の活動時間を試算したか"],
       "access": { "summary": "学芸大学駅・三軒茶屋駅から徒歩、または渋谷・三軒茶屋方面からバスで通えます。", "routes": ["東急東横線 学芸大学駅から徒歩15分", "東急田園都市線 三軒茶屋駅から徒歩20分", "東急バス 学芸大学附属高校停留所から徒歩1分"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "学校説明会・公開行事", "academicYear": 2026, "status": "schedule-check", "statusLabel": "公式サイトで最新日程を確認", "eventDates": ["2026年度の高校受験生向け日程は公式サイトで随時案内"], "applicationMethod": "公式サイトの案内に従って申込", "note": "確認日時点で学校別の全日程を確定できないため、前年情報を転用していません。対象、予約要否、開催状況を来校前に公式サイトで確認してください。", "sources": [{ "title": "東京学芸大学附属高等学校 公式サイト", "url": "https://www.gakugei-hs.setagaya.tokyo.jp/", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "東京学芸大学附属高校 教育方針", "url": "https://www.gakugei-hs.setagaya.tokyo.jp/policy/", "verifiedAt": "2026-08-04" },
         { "title": "東京学芸大学附属高校 進路情報", "url": "https://www.gakugei-hs.setagaya.tokyo.jp/career/", "verifiedAt": "2026-08-04" },
@@ -751,7 +751,7 @@
       "goodFit": ["現在小学生で附属中学校受検を検討している", "6年間の中高一貫教育を希望している", "探究と大学進学を長期的に考えたい"],
       "questionsToConsider": ["高校受験では出願できないことを理解したか", "中学生の場合は別の高校募集校を探しているか", "小学生の場合は附属中学校の募集要項を確認したか", "学校行事の対象学年を公式案内で確認したか"],
       "access": { "summary": "錦糸町駅から徒歩約5分。菊川駅・住吉駅からも徒歩で通えます。", "routes": ["JR総武線・東京メトロ半蔵門線 錦糸町駅から徒歩約5分", "都営新宿線 菊川駅から徒歩約10分", "都営新宿線・半蔵門線 住吉駅から徒歩約10分"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "学校見学会・体験授業（附属中受検向け）", "academicYear": 2026, "status": "not-high-school-admission", "statusLabel": "高校募集なし・対象を確認", "eventDates": ["2026年8月5日（水）体験授業・ミニ見学会等を公式サイトで案内"], "applicationMethod": "公式サイトの受検生向け案内から申込", "note": "高校段階の募集は停止しています。公開行事は附属中学校受検を検討する家庭向けであり、高校受験の出願説明会ではありません。", "sources": [{ "title": "東京都立両国高等学校・附属中学校 受検生の方へ", "url": "https://www.metro.ed.jp/ryogoku-h/news/news-05/index.html", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "東京都教育委員会 高校段階の生徒募集停止", "url": "https://www.kyoiku.metro.tokyo.lg.jp/information/press/2021/10/2021101401", "verifiedAt": "2026-08-04" },
         { "title": "両国高校 2027学校案内", "url": "https://www.metro.ed.jp/ryogoku-h/assets/pamphlet/pamphlet-pdffile-496.pdf", "verifiedAt": "2026-08-04" },
@@ -796,7 +796,7 @@
       "goodFit": ["自由な校風の中で自己管理できる", "大学進学と学校生活を両立したい", "海外交流や異文化理解に関心がある", "行事や部活動に主体的に参加したい"],
       "questionsToConsider": ["自由な校風で自分を律して学習できるか", "国際交流で挑戦したいことがあるか", "校舎改築・改修の最新予定を確認したか", "今後公開される2026年度説明会日程を確認できるか"],
       "access": { "summary": "上井草駅・上石神井駅から徒歩で通えます。荻窪方面からはバスも利用できます。", "routes": ["西武新宿線 上井草駅から徒歩約8分", "西武新宿線 上石神井駅から徒歩約10分", "西武バス 井草高校停留所から徒歩約1分"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "学校見学会・学校説明会", "academicYear": 2026, "status": "schedule-check", "statusLabel": "2026年度日程を公式ページで確認", "eventDates": ["学校見学会・授業公開・説明会を公式ページで随時案内"], "applicationMethod": "公式ページの電子申請フォームから予約", "note": "確認日時点で2026年度の全日程を確定できないため、前年日程は掲載していません。最新の日時、対象、受付状況を公式ページで確認してください。", "sources": [{ "title": "東京都立井草高等学校 学校説明会・授業公開等", "url": "https://www.metro.ed.jp/igusa-h/guide/meeting.html", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "井草高校 本校の特色", "url": "https://www.metro.ed.jp/igusa-h/our_school/feature.html", "verifiedAt": "2026-08-04" },
         { "title": "井草高校 学校からのメッセージ", "url": "https://www.metro.ed.jp/igusa-h/our_school/message.html", "verifiedAt": "2026-08-04" },
@@ -1113,7 +1113,7 @@
       "goodFit": ["現在小学生で中学校受験を検討している", "英語を学ぶだけでなく英語で教科を学びたい", "科学研究や探究に継続して取り組みたい", "対話と発表の多い授業を望む"],
       "questionsToConsider": ["高校募集停止を理解し、現在中学生なら別の募集校を探しているか", "ISC・MSTC・ICの違いを確認したか", "中学受験向けイベントと高校受験情報を混同していないか", "転編入の可否は学校へ個別に確認したか"],
       "access": { "summary": "用賀駅から徒歩約5分。成城学園前方面からはバスも利用できます。", "routes": ["東急田園都市線 用賀駅東口から徒歩約5分", "成城学園前駅から用賀駅行きバス、用賀下車徒歩約3分"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "学校説明会・公開行事（中学受験向け）", "academicYear": 2026, "status": "not-high-school-admission", "statusLabel": "高校募集停止・対象を確認", "eventDates": ["2026年度の説明会・公開行事は公式サイトで案内"], "applicationMethod": "公式サイトから事前予約", "note": "高校募集は停止されています。参加前に中学校受験向けの行事であることを確認し、高校受験の出願説明会と混同しないでください。", "sources": [{ "title": "三田国際科学学園 一般入試", "url": "https://www.mita-is.ed.jp/admissions/regular/", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "三田国際科学学園 一般入試", "url": "https://www.mita-is.ed.jp/admissions/regular/", "verifiedAt": "2026-08-04" },
         { "title": "三田国際科学学園 クラス・コース", "url": "https://www.mita-is.ed.jp/class-course/", "verifiedAt": "2026-08-04" },
@@ -1133,7 +1133,7 @@
       "goodFit": ["現在小学生で中学校受験を考えている", "女子校で6年間じっくり成長したい", "対話しながら考えを深めたい", "英語・探究・ICTを横断して学びたい"],
       "questionsToConsider": ["高校1年一般募集を確認できないことを理解したか", "現在中学生なら別の高校募集校を探しているか", "公開イベントが中学受験向けであることを確認したか", "転編入募集の有無は学校へ個別に確認したか"],
       "access": { "summary": "市ケ谷・飯田橋の各駅から徒歩10分以内。九段下駅からも徒歩で通えます。", "routes": ["JR市ケ谷駅から徒歩約7分", "JR飯田橋駅から徒歩約8分", "地下鉄市ケ谷駅A4出口から徒歩約6分", "地下鉄九段下駅から徒歩約15分"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "学校説明会（中学受験向け）", "academicYear": 2026, "status": "not-high-school-admission", "statusLabel": "高校一般募集未確認・中学受験向け", "eventDates": ["2026年8月17日（月）〜22日（土）生徒主催学校説明会Week", "2026年9月19日（土）第3回学校説明会", "2026年10月17日（土）・11月21日（土）入試説明会"], "applicationMethod": "公式ページから事前予約", "note": "掲載行事は中学校受験を検討する小学生向けです。高校1年の一般募集は確認できません。", "sources": [{ "title": "三輪田学園 学校説明会", "url": "https://www.miwada.ac.jp/exam/guidance/", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "三輪田学園 2027年度募集要項", "url": "https://www.miwada.ac.jp/exam/summary/", "verifiedAt": "2026-08-04" },
         { "title": "三輪田学園 教育理念", "url": "https://www.miwada.ac.jp/about/thinking/", "verifiedAt": "2026-08-04" },
@@ -1203,7 +1203,7 @@
       "goodFit": ["現在小学生で男子中学校受験を検討している", "6年間の一貫教育を希望している", "理数・STEAMや探究を深めたい", "禅の精神と国際教育に関心がある"],
       "questionsToConsider": ["高校からの外部募集がないことを理解したか", "現在中学生なら別の高校募集校を探しているか", "本科と理数コースの6年間の違いを確認したか", "転編入の可否は学校へ個別に確認したか"],
       "access": { "summary": "三軒茶屋駅から徒歩約10分。池ノ上・下北沢方面や三宿バス停からも通えます。", "routes": ["東急田園都市線・世田谷線 三軒茶屋駅から徒歩約10分", "京王井の頭線 池ノ上駅から徒歩約20分", "小田急線・京王井の頭線 下北沢駅から徒歩約25分", "三宿バス停から徒歩約5分"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "学校説明会・公開行事（中学受験向け）", "academicYear": 2026, "status": "not-high-school-admission", "statusLabel": "高校募集なし・対象を確認", "eventDates": ["2026年度の日程は公式サイトで随時案内"], "applicationMethod": "公式サイトの入試情報から申込", "note": "高校からの外部募集はありません。説明会・公開行事は中学校受験を検討する家庭向けです。", "sources": [{ "title": "世田谷学園 入試要項", "url": "https://www.setagayagakuen.ac.jp/admission/requirements/", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "世田谷学園 入試要項", "url": "https://www.setagayagakuen.ac.jp/admission/requirements/", "verifiedAt": "2026-08-04" },
         { "title": "世田谷学園 公式サイト", "url": "https://www.setagayagakuen.ac.jp/", "verifiedAt": "2026-08-04" },
@@ -1675,7 +1675,7 @@
       "goodFit": ["中学受験から6年間の一貫教育を検討している", "礼法や国際教育を含む女子教育に関心がある", "都心の学校へ通いたい", "内部進学と外部大学受験の両方を考えたい"],
       "questionsToConsider": ["高校受験での外部募集がないことを理解したか", "検討する場合は中学入試情報を確認したか", "高2以降の3コースと進路支援を比較したか", "共立女子大学への進学制度と外部大学受験条件を確認したか"],
       "access": { "summary": "神保町駅から徒歩約3分、竹橋駅から徒歩約5分の都心キャンパスです。", "routes": ["東京メトロ半蔵門線・都営三田線・新宿線 神保町駅から徒歩約3分", "東京メトロ東西線 竹橋駅から徒歩約5分"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "学校説明会・オープンキャンパス（中学受験向け）", "academicYear": 2026, "status": "not-high-school-admission", "statusLabel": "高校募集なし・中学受験向け", "eventDates": ["2026年9月12日（土）・19日（土）・20日（日）秋の学校説明会", "2026年10月3日（土）秋の学校説明会", "2026年10月24日（土）・25日（日）共立祭"], "applicationMethod": "すべて公式ページからWeb予約", "note": "2006年から高校募集を停止しています。行事は中学校受験を検討する家庭向けです。", "sources": [{ "title": "共立女子中学高等学校 学校説明会・オープンキャンパス", "url": "https://www.kyoritsu-wu.ac.jp/chukou/admission/opencampus/", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "共立女子中学高等学校 共立の歴史", "url": "https://www.kyoritsu-wu.ac.jp/chukou/about/history/", "verifiedAt": "2026-08-04" },
         { "title": "共立女子中学高等学校 学びの特長", "url": "https://www.kyoritsu-wu.ac.jp/chukou/education/feature/", "verifiedAt": "2026-08-04" },
@@ -1793,7 +1793,7 @@
       "goodFit": ["小学生の段階で中学受験を検討している", "女子校の中高6年一貫教育を希望する", "文系・理系・芸術系から進路を選びたい", "知的探究や発表型の学びを重視したい"],
       "questionsToConsider": ["高校受験では入学できないことを理解しているか", "現在中学生なら別の高校募集校を探しているか", "小学生なら2027年度中学募集要項を確認したか", "中高6年間の学習進度と校風が合うか確認したか"],
       "access": { "summary": "JR中央・総武線、地下鉄東西線直通の西荻窪駅から徒歩約8分です。", "routes": ["JR中央線・総武線・地下鉄東西線直通 西荻窪駅から徒歩約8分", "西武新宿線 上石神井駅からバス約15分、地蔵坂上下車徒歩約8分"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "学校説明会・公開行事（中学受験向け）", "academicYear": 2026, "status": "not-high-school-admission", "statusLabel": "高校募集なし・対象を確認", "eventDates": ["2026年度の日程は公式サイトで随時案内"], "applicationMethod": "公式サイトから事前予約", "note": "2007年から高校募集を停止しています。説明会は中学校受験を検討する家庭向けで、高校受験の出願説明会ではありません。", "sources": [{ "title": "吉祥女子中学・高等学校 公式サイト", "url": "https://www.kichijo-joshi.jp/", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "吉祥女子中学・高等学校 沿革", "url": "https://www.kichijo-joshi.jp/about/history/", "verifiedAt": "2026-08-04" },
         { "title": "吉祥女子中学・高等学校 カリキュラム", "url": "https://www.kichijo-joshi.jp/education/curriculum/", "verifiedAt": "2026-08-04" },
@@ -1891,7 +1891,7 @@
       "goodFit": ["小学生の段階で中学受験を検討している", "女子校の6年間一貫教育を希望する", "起業体験や社会課題型の探究に関心がある", "北品川・品川から通いやすい学校を探している"],
       "questionsToConsider": ["通常の高校受験では入学できないことを理解しているか", "現在中学生なら別の高校募集校を探しているか", "小学生なら2027年度中等部募集要項を確認したか", "転居等による転編入は学校へ直接条件を確認したか"],
       "access": { "summary": "京急本線北品川駅から徒歩約2分、品川駅高輪口から徒歩約12分です。", "routes": ["京急本線 北品川駅から徒歩約2分", "JR・京急線 品川駅高輪口から徒歩約12分", "大井町駅東口からバス約10分、北品川下車すぐ"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "学校説明会・公開行事（中学受験向け）", "academicYear": 2026, "status": "not-high-school-admission", "statusLabel": "通常の高校入試なし・対象を確認", "eventDates": ["2026年度の日程は公式サイトで随時案内"], "applicationMethod": "公式サイトから事前予約", "note": "通常の高校入試は実施していません。説明会・公開行事は中等部受験を検討する家庭向けです。", "sources": [{ "title": "品川女子学院 公式サイト", "url": "https://www.shinagawajoshigakuin.jp/", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "品川女子学院 Q&A", "url": "https://www.shinagawajoshigakuin.jp/faq/", "verifiedAt": "2026-08-04" },
         { "title": "品川女子学院 カリキュラム", "url": "https://www.shinagawajoshigakuin.jp/learning/curriculum/", "verifiedAt": "2026-08-04" },
@@ -2083,7 +2083,7 @@
       "goodFit": ["過去の学校名や学校コードを調べている", "現行校ではなく学校史料として確認している"],
       "questionsToConsider": ["現在の高校受験の出願候補から除外したか", "同名校や類似名の別校と取り違えていないか", "学校の現況を行政の一次情報で確認したか"],
       "access": { "summary": "東京都練馬区までは学校コード資料で確認できますが、校地と最寄り駅は確認できません。", "routes": ["所在地詳細・交通経路は未確認"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "高校学校説明会・個別相談", "academicYear": 2026, "status": "schedule-check", "statusLabel": "公式サイトで最新日程を確認", "eventDates": ["2027年度入試向け説明会・相談会を公式サイトで案内"], "applicationMethod": "公式サイトから予約", "note": "確認日時点で全日程を確定できないため、前年日程は掲載していません。高校入学生向けの日程・対象・予約受付を公式ページで確認してください。", "sources": [{ "title": "多摩大学目黒高等学校 入試情報", "url": "https://www.tmh.ac.jp/admissions04/", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "文部科学省 令和7年5月1日時点 学校コード（東日本）", "url": "https://www.mext.go.jp/content/20251226-mxt_chousa01-000011635_2.csv", "publishedAt": "2025-12-26", "verifiedAt": "2026-08-10" },
         { "title": "東京都知事が認可している私立高等学校（全日制）の一覧（令和8年4月1日現在）", "url": "https://www.seikatubunka.metro.tokyo.lg.jp/shigaku/kankeisya/ninka/0000000140", "publishedAt": "2026-04-01", "verifiedAt": "2026-08-10" }
@@ -2259,7 +2259,7 @@
       "goodFit": ["大学進学を見据えて校内で学習習慣を整えたい", "部活動と受験勉強を効率よく両立したい", "対話型授業やICT活用に関心がある", "海外研修や留学を選択肢に入れたい"],
       "questionsToConsider": ["特進・進学の目標とクラス編成方法を確認したか", "校内学習支援をどのように利用するか想像できるか", "海外プログラムの費用と参加条件を確認したか", "推薦・一般の出願条件と特待生制度を確認したか"],
       "access": { "summary": "目黒駅西口から徒歩12分。元競馬場バス停から徒歩1分、中目黒駅からスクールバスもあります。", "routes": ["JR・東急・東京メトロ・都営地下鉄 目黒駅西口から徒歩12分", "目黒駅から路線バス、元競馬場下車徒歩1分", "東急東横線・東京メトロ日比谷線 中目黒駅からスクールバス"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "高校説明会・見学", "academicYear": 2026, "status": "schedule-pending", "statusLabel": "2027年度要項・日程の発表待ち", "eventDates": ["確認日時点で2027年度高校募集向け日程を確認できません"], "applicationMethod": "公式サイトの高校受験生向け案内を確認", "note": "高校募集は小規模です。前年日程を今年度として扱わず、2027年度要項と説明会日程が公開された後に確認してください。", "sources": [{ "title": "多摩大学附属聖ヶ丘高等学校 高校受験生向け情報", "url": "https://www.hijirigaoka.ed.jp/student/highschool-past.html", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "多摩大学目黒高等学校 学びの流れ", "url": "https://www.tmh.ac.jp/school-education01/", "verifiedAt": "2026-08-04" },
         { "title": "多摩大学目黒高等学校 校内での学び", "url": "https://www.tmh.ac.jp/school-education02/", "verifiedAt": "2026-08-04" },
@@ -2281,7 +2281,7 @@
       "goodFit": ["少人数で先生に相談しやすい環境を求めている", "実験・体験・探究を通して理解を深めたい", "中高一貫生と合流する環境に適応できる", "多摩市周辺から公共交通で通学できる"],
       "questionsToConsider": ["高校入学生の人数と入学後の合流支援を確認したか", "一般オープン入試の3教科と面接に備えられるか", "スクールバスは運行されないため通学経路を確認したか", "2027年度要項の公開後に日程・定員を再確認したか"],
       "access": { "summary": "京王・小田急永山駅または聖蹟桜ヶ丘駅から京王バスで多摩大学下車。2026年度要項ではスクールバスなしと案内されています。", "routes": ["京王永山駅・小田急永山駅から京王バス約12分、多摩大学下車", "京王線 聖蹟桜ヶ丘駅から京王バス約16分、多摩大学下車"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "学校説明会・個別相談", "academicYear": 2026, "status": "schedule-check", "statusLabel": "2027年度日程を公式サイトで確認", "eventDates": ["2027年度入試向け説明会・相談会は公式サイトで随時案内"], "applicationMethod": "公式サイトから予約", "note": "普通科と運輸科で確認したい内容が異なります。前年日程は転用せず、希望学科に対応する最新の説明会・個別相談を公式サイトで確認してください。", "sources": [{ "title": "岩倉高等学校 公式サイト", "url": "https://www.tky-iwakura-h.ed.jp/", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "多摩大学附属聖ヶ丘高等学校 聖ヶ丘の教育", "url": "https://www.hijirigaoka.ed.jp/education/basis.html", "verifiedAt": "2026-08-04" },
         { "title": "多摩大学附属聖ヶ丘高等学校 カリキュラム", "url": "https://www.hijirigaoka.ed.jp/education/curriculum.html", "verifiedAt": "2026-08-04" },
@@ -2937,7 +2937,7 @@
       "goodFit": ["鉄道・交通業界につながる専門学習をしたい", "普通科で大学進学を目指したい", "学習と部活動の配分を選びたい", "上野駅を使って通学したい"],
       "questionsToConsider": ["普通科7限制・6限制・運輸科のどれが目標に合うか", "運輸科の実習内容と卒業後の進路を確認したか", "2027年度の募集人数・推薦基準を公開後に確認したか", "西東京グラウンドを使う部活動の移動を確認したか"],
       "access": { "summary": "JR上野駅入谷口から徒歩約1分。東京メトロ上野駅、京成上野駅、上野御徒町駅も利用できます。", "routes": ["JR各線 上野駅入谷口から徒歩約1分", "東京メトロ銀座線・日比谷線 上野駅から徒歩圏", "京成線 京成上野駅から徒歩圏", "都営大江戸線 上野御徒町駅から徒歩圏"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "見学会・説明会", "academicYear": 2026, "status": "not-confirmed", "statusLabel": "現行校・募集を確認できず", "eventDates": ["2026年8月10日時点で実施情報を確認できません"], "applicationMethod": "申込先未確認", "note": "東京都の現行認可一覧、学校公式サイト、現在の募集を確認できないため、見学先として案内しません。行政の一次情報で現況を再確認してください。", "sources": [{ "title": "東京都知事が認可している私立高等学校（全日制）の一覧（令和8年4月1日現在）", "url": "https://www.seikatubunka.metro.tokyo.lg.jp/shigaku/kankeisya/ninka/0000000140", "publishedAt": "2026-04-01", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "岩倉高等学校 2026年度入学試験要項概要", "url": "https://www.tky-iwakura-h.ed.jp/contents/wp-content/uploads/2025/06/65d6453c23c72e2926828c54b15e2a9a.pdf", "verifiedAt": "2026-08-04" },
         { "title": "岩倉高等学校 2026学校案内", "url": "https://www.tky-iwakura-h.ed.jp/contents/wp-content/uploads/2025/06/iwakura_20250613WEB_low.pdf", "verifiedAt": "2026-08-04" }
@@ -2982,7 +2982,7 @@
       "goodFit": ["巣鴨商業高等学校の卒業証明書を申請したい", "旧校名と現行の巣鴨高等学校の違いを確認したい"],
       "questionsToConsider": ["新入学先として探している場合は現行の巣鴨高等学校ページを見たか", "卒業生の証明書申請は公式書式を確認したか", "同じ所在地・学校法人でも別レコードであることを理解したか"],
       "access": { "summary": "所在地は現在の巣鴨学園と同じですが、新入学者向けの見学先としてではなく、旧校名の確認・卒業生手続のための情報です。", "routes": ["卒業生手続は巣鴨学園公式サイトの証明書案内を確認"] },
-      "visitEvents": [],
+      "visitEvents": [{ "title": "新入学者向け見学会・説明会", "academicYear": 2026, "status": "not-active-school", "statusLabel": "旧校名・現在の新入学募集なし", "eventDates": ["巣鴨商業高等学校名義の現行説明会は確認できません"], "applicationMethod": "新入学の申込先なし", "note": "このレコードは卒業生証明書で確認できる旧校名です。現行の巣鴨高等学校とは別レコードであり、新入学先として案内しません。", "sources": [{ "title": "巣鴨学園 学園案内・沿革", "url": "https://www.sugamo.ed.jp/about/", "verifiedAt": "2026-08-10" }, { "title": "巣鴨学園 卒業生証明書申込書", "url": "https://www.sugamo.ed.jp/assets/images/graduate/shoumeisho-madoguchi.pdf", "verifiedAt": "2026-08-10" }] }],
       "sources": [
         { "title": "巣鴨学園 学園案内・沿革", "url": "https://www.sugamo.ed.jp/about/", "verifiedAt": "2026-08-04" },
         { "title": "巣鴨学園 卒業生証明書申込書", "url": "https://www.sugamo.ed.jp/assets/images/graduate/shoumeisho-madoguchi.pdf", "verifiedAt": "2026-08-04" },
@@ -6520,6 +6520,78 @@
       "access": { "summary": "東急大井町線・池上線旗の台駅から徒歩約4分、荏原町駅から約5分です。", "routes": ["東急大井町線・池上線 旗の台駅南口から徒歩約4分", "東急大井町線 荏原町駅から徒歩約5分"] },
       "visitEvents": [{ "title": "学校説明会・ヒルダ祭等（中学受験向け）", "academicYear": 2026, "status": "not-high-school-admission", "statusLabel": "高校募集なし・対象を確認", "eventDates": ["2026年9月12日（土）ミニ説明会・第2回学校説明会", "2026年10月3日（土）・4日（日）ヒルダ祭", "2026年11月23日（月・祝）バザー", "2027年2月20日（土）校内見学会"], "applicationMethod": "公式ページから事前予約または開催案内を確認", "note": "行事は中学校受験を検討する小学生と保護者向けです。対象学年・予約要否・受付状況は公式ページで確認してください。", "sources": [{ "title": "香蘭女学校中等科・高等科 入試情報", "url": "https://www.koran.ed.jp/admission/", "verifiedAt": "2026-08-10" }] }],
       "sources": [{ "title": "香蘭女学校 教育の特色", "url": "https://www.koran.ed.jp/education/feature/", "verifiedAt": "2026-08-10" }, { "title": "香蘭女学校 高大連携", "url": "https://www.koran.ed.jp/education/partnership/", "verifiedAt": "2026-08-10" }, { "title": "香蘭女学校 アクセス", "url": "https://www.koran.ed.jp/access/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311200096", "summary": "世田谷区代沢にある私立の全日制・共学校です。普通科は特別進学・国際・進学の3コース、食物調理科は卒業時の調理師免許取得を目指します。大学進学中心の普通科と、調理の専門実習を積む食物調理科では学校生活と進路像が大きく異なるため、希望学科を先に決めて見学したい学校です。", "verifiedAt": "2026-08-10",
+      "highlights": [{ "title": "普通科3コース", "description": "特別進学・国際・進学から目標と学び方に合うコースを選びます。" }, { "title": "食物調理科", "description": "専門家の実習指導を受け、卒業時に調理師免許取得を目指します。" }, { "title": "普通科・食物調理科とも高校募集", "description": "推薦・一般入試があり、学科別の募集人数と選考を確認できます。" }, { "title": "複数駅から徒歩圏", "description": "池ノ上・駒場東大前・池尻大橋から徒歩約10分です。" }],
+      "goodFit": ["普通科の大学進学コースを比較したい", "調理実習を積み調理師免許を取得したい", "学科の専門性と学校行事を両立したい", "世田谷・渋谷方面へ通学しやすい"], "questionsToConsider": ["普通科3コースと食物調理科のどれが進路に合うか", "コース変更や学科変更の条件を確認したか", "食物調理科の実習時間・費用・衛生管理を確認したか", "最新の募集要項と個別相談条件を確認したか"],
+      "access": { "summary": "池ノ上駅・駒場東大前駅・池尻大橋駅から徒歩約10分です。下北沢駅からも歩けます。", "routes": ["京王井の頭線 池ノ上駅から徒歩約10分", "京王井の頭線 駒場東大前駅から徒歩約10分", "東急田園都市線 池尻大橋駅北口から徒歩約10分", "小田急線・京王井の頭線 下北沢駅南口から徒歩約15分", "バス 代沢一丁目・駒場学園高校前下車"] },
+      "visitEvents": [{ "title": "学校説明会・食物調理科体験", "academicYear": 2026, "status": "reservation-open-schedule", "statusLabel": "日程発表済み・予約制", "eventDates": ["2026年10月3日（土）普通科・食物調理科説明会", "2026年10月24日（土）・11月14日（土）・11月21日（土）・11月28日（土）食物調理科体験", "2026年12月5日（土）普通科・食物調理科説明会"], "applicationMethod": "各回おおむね2週間前から公式ページで予約", "note": "普通科説明会と食物調理科の体験・説明は内容が異なります。希望学科に合う回を選び、受付状況を公式ページで確認してください。", "sources": [{ "title": "駒場学園高等学校 入試イベント", "url": "https://www.komabagakuen.ac.jp/exam/information/", "verifiedAt": "2026-08-10" }] }],
+      "sources": [{ "title": "駒場学園高等学校 沿革", "url": "https://www.komabagakuen.ac.jp/about/history.html", "verifiedAt": "2026-08-10" }, { "title": "駒場学園高等学校 食物調理科", "url": "https://www.komabagakuen.ac.jp/exam/course/food.html", "verifiedAt": "2026-08-10" }, { "title": "駒場学園高等学校 アクセス", "url": "https://www.komabagakuen.ac.jp/access.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311200023", "summary": "世田谷区池尻にある私立の全日制普通科・男子中高一貫校です。6年間を通した学習設計の中で、英語・数学・理科の分割・少人数授業や高学年の進路別学習を進めます。高校からの募集はないため、高校受験の出願先ではなく、中学受験から続く教育内容を知るために掲載しています。", "verifiedAt": "2026-08-10",
+      "highlights": [{ "title": "高校募集なし", "description": "高校から入学する一般的な入試は実施していません。" }, { "title": "男子の完全中高一貫", "description": "中学入学から6年間を見通した教育課程です。" }, { "title": "少人数・分割授業", "description": "英語・数学・理科で理解度や内容に応じた授業を行います。" }, { "title": "駒場東大前・池尻大橋から約10分", "description": "京王井の頭線と田園都市線を利用できます。" }],
+      "goodFit": ["中学受験から男子校の一貫教育を検討している", "理数・英語を段階的に深く学びたい", "6年間で大学進学に向けた力を育てたい", "世田谷・渋谷方面へ通学しやすい"], "questionsToConsider": ["高校募集がないことを理解したか", "高校受験ではなく中学受験で検討する学校と確認したか", "6年間の学習量と学校生活が本人に合うか", "説明会が中学受験向けであることを確認したか"],
+      "access": { "summary": "駒場東大前駅西口・池尻大橋駅北口から徒歩約10分です。", "routes": ["京王井の頭線 駒場東大前駅西口から徒歩約10分", "東急田園都市線 池尻大橋駅北口から徒歩約10分", "バス 駒場停留所から徒歩約5分", "バス 大橋停留所から徒歩約7分"] },
+      "visitEvents": [{ "title": "学校説明会（中学受験向け）", "academicYear": 2026, "status": "not-high-school-admission", "statusLabel": "高校募集なし・中学受験向け", "eventDates": ["2026年10月11日（日）学校説明会", "2026年10月17日（土）学校説明会", "2026年10月18日（日）学校説明会"], "applicationMethod": "2026年8月1日から公式ページで予約", "note": "説明会は中学校入試を検討する家庭向けです。高校一般入試はありません。", "sources": [{ "title": "駒場東邦中学校・高等学校 学校説明会", "url": "https://www.komabajh.toho-u.ac.jp/news/2026/20260729komasetsu.html", "verifiedAt": "2026-08-10" }] }],
+      "sources": [{ "title": "駒場東邦中学校・高等学校 教育", "url": "https://www.komabajh.toho-u.ac.jp/education/index.html", "verifiedAt": "2026-08-10" }, { "title": "駒場東邦中学校・高等学校 アクセス", "url": "https://www.komabajh.toho-u.ac.jp/access.html", "verifiedAt": "2026-08-10" }, { "title": "東京都 令和8年度都内私立高等学校入学者選抜実施要項", "url": "https://www.seikatubunka.metro.tokyo.lg.jp/documents/d/seikatubunka/251008_shigaku_hs00_2425", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113322500018", "summary": "稲城市坂浜にある私立の全日制普通科・女子校です。仏教に基づく人間教育を土台に、進学・特進・英語の3クラス、探究学習Komajo Quest、ICT・AI、放課後学習支援を組み合わせます。クラスごとの進路目標と通学手段を、説明会や体験で具体的に比べたい学校です。", "verifiedAt": "2026-08-10",
+      "highlights": [{ "title": "3つのクラス", "description": "進学・特進・英語から目標と得意分野に合う学びを選びます。" }, { "title": "Komajo Quest", "description": "自分の将来と社会課題を結びつけて探究します。" }, { "title": "ICT・AIと放課後支援", "description": "授業のデジタル活用と放課後の学習環境を整えています。" }, { "title": "駅からバス利用", "description": "稲城・新百合ヶ丘から路線バス、複数駅からスクールバスを利用できます。" }],
+      "goodFit": ["女子校で進路別クラスを選びたい", "英語・探究・ICTを組み合わせて学びたい", "放課後の学習支援を活用したい", "稲城・新百合ヶ丘方面からバス通学できる"], "questionsToConsider": ["3クラスの授業・進路目標・変更条件を比較したか", "仏教教育や学校行事が本人に合うか", "バスの時刻・混雑・通学時間を実際に確認したか", "2027年度正式募集要項が9月上旬に公開されたか再確認したか"],
+      "access": { "summary": "京王相模原線稲城駅からバス約7分、小田急線新百合ヶ丘駅から約20分です。スクールバスもあります。", "routes": ["京王相模原線 稲城駅から路線バス約7分", "小田急線 新百合ヶ丘駅から路線バス約20分", "東急田園都市線 あざみ野駅からスクールバス約35分", "JR南武線 稲城長沼駅からスクールバス約14分"] },
+      "visitEvents": [{ "title": "学校説明会・入試体験・見学", "academicYear": 2026, "status": "reservation-required", "statusLabel": "日程発表済み・予約制", "eventDates": ["2026年9月5日（土）・10月17日（土）・11月7日（土）学校説明会", "2026年11月21日（土）入試説明・体験", "2026年11月28日（土）入試説明会", "2026年12月5日（土）面接シミュレーション・個別相談"], "applicationMethod": "各回1か月前を目安に公式予約サイトで受付", "note": "学校見学日も設定されています。内容・対象・スクールバス運行は公式ページで確認してください。", "sources": [{ "title": "駒沢学園女子高等学校 入試イベント", "url": "https://www.komajo.ac.jp/jsh/schedule/schedule_sh.html", "verifiedAt": "2026-08-10" }] }],
+      "sources": [{ "title": "駒沢学園女子高等学校 カリキュラム", "url": "https://www.komajo.ac.jp/jsh/senior/curriculum.html", "verifiedAt": "2026-08-10" }, { "title": "駒沢学園女子高等学校 探究学習", "url": "https://www.komajo.ac.jp/jsh/senior/tankyu.html", "verifiedAt": "2026-08-10" }, { "title": "駒沢学園 アクセス", "url": "https://www.komajo.ac.jp/jsh/access/index.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311200087", "summary": "世田谷区上用賀にある駒澤大学附属の私立全日制普通科・共学校です。仏教の教えに基づく人間教育と大学進学に向けた学習を両立し、駒澤大学への内部推薦と他大学受験の進路を考えられます。附属校としての進学制度、外部受験との両立、日々の通学を確認して選びたい学校です。", "verifiedAt": "2026-08-10",
+      "highlights": [{ "title": "駒澤大学の附属校", "description": "内部推薦制度を進路の選択肢にできます。" }, { "title": "仏教に基づく人間教育", "description": "禅の精神を学校生活と教育の土台にしています。" }, { "title": "内部進学と他大学受験", "description": "本人の希望に応じて進路を検討します。" }, { "title": "用賀・桜新町から徒歩約13分", "description": "田園都市線の2駅とバスを利用できます。" }],
+      "goodFit": ["駒澤大学への内部進学を選択肢にしたい", "附属校で大学受験にも備えたい", "仏教教育と学校生活に関心がある", "世田谷・田園都市線方面へ通学しやすい"], "questionsToConsider": ["内部推薦の条件と学部選択の仕組みを確認したか", "他大学受験時の支援と内部推薦との関係を確認したか", "仏教行事や教育方針が本人に合うか", "入試区分ごとの出願条件・試験日を確認したか"],
+      "access": { "summary": "桜新町駅・用賀駅から徒歩約13分です。千歳船橋駅方面からバスも利用できます。", "routes": ["東急田園都市線 桜新町駅から徒歩約13分", "東急田園都市線 用賀駅から徒歩約13分", "小田急線 千歳船橋駅からバス、覆馬場下車徒歩約1分"] },
+      "visitEvents": [{ "title": "学校説明会・文化祭", "academicYear": 2026, "status": "reservation-required", "statusLabel": "日程発表済み・説明会は予約制", "eventDates": ["2026年10月3日（土）・4日（日）文化祭", "2026年10月24日（土）・11月7日（土）・11月28日（土）・12月5日（土）学校説明会", "2026年11月15日（日）駒澤大学会場学校説明会"], "applicationMethod": "学校説明会は各回約1か月前から公式ページで予約", "note": "開催時間、対象学年、個別相談の有無は回ごとに異なります。公式ページで確認してください。", "sources": [{ "title": "駒澤大学高等学校 学校説明会", "url": "https://www.komazawa.net/admission/briefing/", "verifiedAt": "2026-08-10" }] }],
+      "sources": [{ "title": "駒澤大学高等学校 教育の特色", "url": "https://www.komazawa.net/about/feature/", "verifiedAt": "2026-08-10" }, { "title": "駒澤大学高等学校 アクセス", "url": "https://www.komazawa.net/access/", "verifiedAt": "2026-08-10" }, { "title": "駒澤大学高等学校 入学試験", "url": "https://www.komazawa.net/admission/examination/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310500111", "summary": "文京区千駄木にある私立の全日制普通科・共学校です。特S・S、国際教養、理系先進の3コースを置き、大学進学、英語・国際理解、STEAM・理系探究の重点が異なります。本人の得意分野と進路に合うコース、放課後の学習、都心での通学を説明会で比べたい学校です。", "verifiedAt": "2026-08-10",
+      "highlights": [{ "title": "特色の異なる3コース", "description": "特S・S、国際教養、理系先進から進路と関心に合わせます。" }, { "title": "国際・英語教育", "description": "国際教養コースで英語運用と異文化理解を深めます。" }, { "title": "STEAM・理系先進", "description": "理系分野を探究と実践につなげる学びがあります。" }, { "title": "3駅から徒歩圏", "description": "本駒込・千駄木・白山を利用できます。" }],
+      "goodFit": ["大学進学・国際・理系からコースを選びたい", "英語や海外につながる学びに関心がある", "STEAMや理系探究を深めたい", "文京区・東京メトロ沿線へ通学しやすい"], "questionsToConsider": ["3コースの授業・進路・選抜基準を比較したか", "入学後のコース変更条件を確認したか", "講習・行事・部活動との時間配分が本人に合うか", "2027年度の正式募集要項が公開されたか再確認したか"],
+      "access": { "summary": "本駒込駅から徒歩約5分、千駄木駅・白山駅から約7分です。", "routes": ["東京メトロ南北線 本駒込駅から徒歩約5分", "東京メトロ千代田線 千駄木駅から徒歩約7分", "都営三田線 白山駅から徒歩約7分", "都営バス 駒込千駄木町下車"] },
+      "visitEvents": [{ "title": "高校学校説明会・個別相談", "academicYear": 2026, "status": "reservation-required", "statusLabel": "2027年度入試向け日程発表済み", "eventDates": ["2026年8月11日（火・祝）学校説明会", "2026年9月12日（土）・10月24日（土）・11月21日（土）・12月5日（土）学校説明会"], "applicationMethod": "各回おおむね1か月前から公式ページで予約", "note": "個別相談の日程もあります。コース、出願条件、相談対象を公式ページで確認してください。", "sources": [{ "title": "駒込中学校・高等学校 入試イベント", "url": "https://komagome.ed.jp/examinee/guidance.php", "verifiedAt": "2026-08-10" }] }],
+      "sources": [{ "title": "駒込高等学校 高校コース紹介", "url": "https://www.komagome.ed.jp/high-school/course.php", "verifiedAt": "2026-08-10" }, { "title": "駒込中学校・高等学校 アクセス", "url": "https://www.komagome.ed.jp/access.php", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311700055", "summary": "北区王子にある私立の普通科・共学校で、全日制と定時制があります。全日制は特選、進学、スペシャリスト・ハイブリッド、スペシャリスト・オリジナルの4コースです。大学進学中心の学びと、得意分野・部活動を生かす学びの違い、課程、コースごとの入試を確認して選びたい学校です。", "verifiedAt": "2026-08-10",
+      "highlights": [{ "title": "全日制4コース", "description": "大学進学系2コースとスペシャリスト系2コースがあります。" }, { "title": "得意分野を生かす選択", "description": "学力・進路・活動の目標に応じたコース設計です。" }, { "title": "定時制課程も設置", "description": "全日制とは募集要項・学校生活が異なるため、別に確認が必要です。" }, { "title": "王子神谷駅から徒歩約7分", "description": "王子駅や都電、バスも利用できます。" }],
+      "goodFit": ["大学進学と得意分野のどちらを軸にするか選びたい", "部活動や専門的な活動を学校生活に生かしたい", "全日制・定時制の違いを比較したい", "北区・王子方面へ通学しやすい"], "questionsToConsider": ["4コースの授業・進路・活動条件を比較したか", "スペシャリスト系の事前相談条件を確認したか", "全日制と定時制の時間割・修業年限・募集要項を混同していないか", "複数回入試の出願期間と延納条件を確認したか"],
+      "access": { "summary": "王子神谷駅から徒歩約7分、王子駅から徒歩約10分です。", "routes": ["東京メトロ南北線 王子神谷駅2番出口から徒歩約7分", "東京メトロ南北線 王子駅4番出口から徒歩約8分", "JR京浜東北線 王子駅北口から徒歩約10分", "東京さくらトラム 王子駅前から徒歩約10分", "バス 王子三丁目下車徒歩約1分"] },
+      "visitEvents": [{ "title": "全日制学校説明会", "academicYear": 2026, "status": "reservation-required", "statusLabel": "日程発表済み・予約制", "eventDates": ["2026年8月29日（土）・9月12日（土）・10月3日（土）・10月24日（土）学校説明会", "2026年11月7日（土）・11月21日（土）・11月28日（土）・11月29日（日）学校説明会", "2026年12月5日（土）学校説明会"], "applicationMethod": "公式ページから予約", "note": "全日制向けの日程です。定時制は個別相談を案内しており、最新の募集要項・相談方法を別途確認してください。", "sources": [{ "title": "駿台学園高等学校 全日制入試", "url": "https://www.sundaigakuen.ac.jp/exam/senior_exam/", "verifiedAt": "2026-08-10" }, { "title": "駿台学園高等学校 定時制入試", "url": "https://www.sundaigakuen.ac.jp/exam/senior_pt_exam/", "verifiedAt": "2026-08-10" }] }],
+      "sources": [{ "title": "駿台学園高等学校 全日制コース", "url": "https://www.sundaigakuen.ac.jp/senior_education/course/", "verifiedAt": "2026-08-10" }, { "title": "駿台学園高等学校 アクセス", "url": "https://www.sundaigakuen.ac.jp/access/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310300088", "summary": "港区高輪にある私立の全日制普通科・男子中高一貫校です。週6日制の6年間で基礎から大学受験演習へ進み、高校3年では進路に応じた授業を組みます。2014年度から高校募集を停止しているため、高校受験の出願先ではなく、中学受験から続く学びを知るために掲載しています。", "verifiedAt": "2026-08-10",
+      "highlights": [{ "title": "2014年度から高校募集なし", "description": "高校から入学する一般的な入試は実施していません。" }, { "title": "男子の完全中高一貫", "description": "6年間の教育課程で段階的に学力と自主性を育てます。" }, { "title": "週6日制", "description": "高校2年までに主要課程を進め、高校3年で受験演習を行います。" }, { "title": "泉岳寺駅から徒歩約3分", "description": "白金高輪・高輪ゲートウェイからも徒歩圏です。" }],
+      "goodFit": ["中学受験から男子校の一貫教育を検討している", "週6日で着実に学習を積みたい", "高3の進路別演習まで見通したい", "港区・都営浅草線方面へ通学しやすい"], "questionsToConsider": ["高校募集がないことを理解したか", "高校受験ではなく中学受験で検討する学校と確認したか", "週6日の生活リズムが本人に合うか", "説明会が中学受験向けであることを確認したか"],
+      "access": { "summary": "泉岳寺駅A2出口から徒歩約3分、白金高輪駅から約5分、高輪ゲートウェイ駅から約6分です。", "routes": ["都営浅草線・京急線 泉岳寺駅A2出口から徒歩約3分", "東京メトロ南北線・都営三田線 白金高輪駅1番出口から徒歩約5分", "JR 高輪ゲートウェイ駅から徒歩約6分"] },
+      "visitEvents": [{ "title": "学校説明会・高学祭（中学受験向け）", "academicYear": 2026, "status": "not-high-school-admission", "statusLabel": "高校募集なし・中学受験向け", "eventDates": ["2026年9月26日（土）・27日（日）高学祭", "2026年10月4日（日）・11月3日（火・祝）・12月5日（土）学校説明会", "2027年1月9日（土）学校説明会"], "applicationMethod": "説明会は公式ページから予約。高学祭は確認日時点で予約不要の案内", "note": "受験生向け説明会は中学校入試を検討する家庭向けです。高校一般入試はありません。", "sources": [{ "title": "高輪中学高等学校 入試イベント", "url": "https://www.takanawa.ed.jp/exam/events/", "verifiedAt": "2026-08-10" }] }],
+      "sources": [{ "title": "高輪中学高等学校 Q&A", "url": "https://www.takanawa.ed.jp/qa/", "verifiedAt": "2026-08-10" }, { "title": "高輪中学高等学校 学び", "url": "https://www.takanawa.ed.jp/education/learning/", "verifiedAt": "2026-08-10" }, { "title": "高輪中学高等学校 アクセス", "url": "https://www.takanawa.ed.jp/access/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310100062", "summary": "千代田区麹町にある私立の全日制普通科・女子校です。高校入学生は東洋大学グローバルコースで、英語4技能、探究、東洋大学との高大連携を生かして学びます。東洋大学への進学制度だけでなく他大学進学も含め、コースの到達目標と都心での学校生活を確認したい学校です。", "verifiedAt": "2026-08-10",
+      "highlights": [{ "title": "東洋大学グローバルコース", "description": "高校入学生向けに英語・探究・高大連携を組み合わせます。" }, { "title": "東洋大学との連携", "description": "大学の学びに触れながら進路を考えます。" }, { "title": "英語4技能と探究", "description": "知識だけでなく発信・協働につなげる学びを重視します。" }, { "title": "麹町駅から徒歩約1分", "description": "半蔵門・市ケ谷・四ツ谷も利用できる都心の立地です。" }],
+      "goodFit": ["女子校で英語・国際教育を深めたい", "東洋大学への進学を選択肢にしたい", "探究やプレゼンテーションに取り組みたい", "千代田区・複数路線から通学しやすい"], "questionsToConsider": ["東洋大学への推薦・進学条件を確認したか", "他大学受験との両立方法を確認したか", "英語学習量と本人の現在地が合うか", "2027年度募集要項が公開されたか再確認したか"],
+      "access": { "summary": "麹町駅から徒歩約1分、半蔵門駅から約2分です。市ケ谷・四ツ谷駅からも徒歩約10分です。", "routes": ["東京メトロ有楽町線 麹町駅から徒歩約1分", "東京メトロ半蔵門線 半蔵門駅から徒歩約2分", "JR・都営新宿線・東京メトロ 市ケ谷駅から徒歩約10分", "JR・東京メトロ 四ツ谷駅から徒歩約10分"] },
+      "visitEvents": [{ "title": "高校説明会・個別相談・学園祭", "academicYear": 2026, "status": "reservation-check", "statusLabel": "日程発表済み・予約要否を確認", "eventDates": ["2026年9月5日（土）学校説明会", "2026年9月26日（土）・27日（日）学園祭", "2026年10月4日（日）東洋大学会場説明会", "2026年11月3日（火・祝）入試説明会", "2026年11月14日（土）・21日（土）・28日（土）個別相談会"], "applicationMethod": "公式ページから予約。個別見学は電話で相談", "note": "説明会ごとにテーマと会場が異なります。対象、予約開始、個別相談の条件を公式ページで確認してください。", "sources": [{ "title": "麹町学園女子高等学校 説明会", "url": "https://www.kojimachi.ed.jp/enter/briefing_h/", "verifiedAt": "2026-08-10" }] }],
+      "sources": [{ "title": "麹町学園女子高等学校 高校入試", "url": "https://www.kojimachi.ed.jp/enter/exam_h/", "verifiedAt": "2026-08-10" }, { "title": "麹町学園女子中学校高等学校 アクセス", "url": "https://www.kojimachi.ed.jp/access/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310300015", "summary": "港区元麻布にある私立の全日制普通科・男子中高一貫校です。自由闊達・自主自立を重んじ、教科学習に加えて高校1・2年の教養総合で多様なテーマを探究します。高校からの募集はないため、高校受験の出願先ではなく、中学受験から続く6年間の教育を知るために掲載しています。", "verifiedAt": "2026-08-10",
+      "highlights": [{ "title": "高校募集なし", "description": "高校から入学する一般的な入試は実施していません。" }, { "title": "自由闊達・自主自立", "description": "生徒が自ら考え行動することを重視します。" }, { "title": "教養総合", "description": "高校1・2年で約30の選択テーマから教科横断的に学びます。" }, { "title": "広尾駅から徒歩約10分", "description": "麻布十番駅や路線バスも利用できます。" }],
+      "goodFit": ["中学受験から男子校の一貫教育を検討している", "自由な校風の中で自律して学びたい", "教科外のテーマを深く探究したい", "港区・日比谷線方面へ通学しやすい"], "questionsToConsider": ["高校募集がないことを理解したか", "高校受験ではなく中学受験で検討する学校と確認したか", "自主性を求める校風が本人に合うか", "学校行事・見学が中学受験向けであることを確認したか"],
+      "access": { "summary": "広尾駅1番出口から徒歩約10分です。麻布十番駅からも徒歩圏です。", "routes": ["東京メトロ日比谷線 広尾駅1番出口から徒歩約10分", "都営大江戸線 麻布十番駅から徒歩約12分", "東京メトロ南北線 麻布十番駅から徒歩約15分", "都営バス 愛育クリニック前・仙台坂上下車"] },
+      "visitEvents": [{ "title": "学校見学会（中学受験向け）", "academicYear": 2026, "status": "not-high-school-admission", "statusLabel": "高校募集なし・中学受験向け", "eventDates": ["2026年10月10日（土）学校見学会"], "applicationMethod": "公式ページから事前申込", "note": "見学会は中学校入試を検討する家庭向けです。高校一般入試はありません。対象・受付期間を公式ページで確認してください。", "sources": [{ "title": "麻布中学校・高等学校 2026年度学校見学会", "url": "https://www.azabu-jh.ed.jp/news/2026/info2047.html", "verifiedAt": "2026-08-10" }] }],
+      "sources": [{ "title": "麻布中学校・高等学校 教育", "url": "https://www.azabu-jh.ed.jp/education/", "verifiedAt": "2026-08-10" }, { "title": "麻布中学校・高等学校 教養総合", "url": "https://www.azabu-jh.ed.jp/education/subject/liberalarts/", "verifiedAt": "2026-08-10" }, { "title": "麻布中学校・高等学校 アクセス", "url": "https://www.azabu-jh.ed.jp/access/", "verifiedAt": "2026-08-10" }, { "title": "東京都 令和8年度都内私立高等学校入学者選抜実施要項", "url": "https://www.seikatubunka.metro.tokyo.lg.jp/documents/d/seikatubunka/251008_shigaku_hs00_2425", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

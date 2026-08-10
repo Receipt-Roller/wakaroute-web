@@ -2566,6 +2566,60 @@
       "applicationPeriod": "第1回：2026年11月1日（日）〜11月19日（木）／第2回：2027年1月10日（日）〜1月19日（火）。事前面談あり", "testDates": ["第1回：2026年11月22日（日）", "第2回：2027年1月22日（金）"], "resultDate": "第1回：2026年11月22日（日）18:00／第2回：2027年1月23日（土）12:00", "detailsStatus": "school-details-pending", "detailsStatusLabel": "確定版募集要項の発表待ち", "verifiedAt": "2026-08-10",
       "notes": ["募集人員は若干名です。", "出願には事前面談が必要と案内されています。対象資格、提出書類、選考方法を確定版で確認してください。", "確認日時点の資料は暫定版で、日程・条件が変更される可能性があります。"],
       "sources": [{ "title": "北里大学附属順天高等学校 2027年度帰国生入試 生徒募集概要（暫定版）", "url": "https://www.junten.ed.jp/contents/wp-content/uploads/2026/07/f9c4eff197b2bba3bc0d3dcd018e0ee5.pdf", "verifiedAt": "2026-08-10" }, { "title": "北里大学附属順天中学校・高等学校 募集要項", "url": "https://www.junten.ed.jp/admission/yoko/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113322500018"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "schedule-announced", "statusLabel": "生徒募集要項（簡易版）発表済み",
+      "applicationPeriod": "確認日時点の簡易版には未掲載", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "正式募集要項の発表待ち", "verifiedAt": "2026-08-10",
+      "notes": ["募集定員120人。個人面接を行い、調査書・中学校長の推薦書・面接で総合判定します。", "確認日時点の資料は簡易版で、正式募集要項は2026年9月上旬発行予定と案内されています。", "出願期間、提出書類、推薦基準の詳細は正式版で確認してください。"],
+      "sources": [{ "title": "駒沢学園女子高等学校 2027年度生徒募集要項（簡易版）", "url": "https://www.komajo.ac.jp/jsh/senior/pdf/summary2027_sh_kaniban.pdf", "verifiedAt": "2026-08-10" }, { "title": "駒沢学園女子高等学校 生徒募集要項", "url": "https://www.komajo.ac.jp/jsh/senior/summary.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113322500018"], "academicYear": 2027, "selection": "general-first", "selectionLabel": "一般入試 第1回", "status": "schedule-announced", "statusLabel": "生徒募集要項（簡易版）発表済み",
+      "applicationPeriod": "確認日時点の簡易版には未掲載", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月11日（木・祝）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "正式募集要項の発表待ち", "verifiedAt": "2026-08-10",
+      "notes": ["募集定員100人。国語・英語・数学の学力試験と調査書で選考します。", "確認日時点の資料は簡易版で、正式募集要項は2026年9月上旬発行予定と案内されています。", "出願期間、優遇制度、提出書類は正式版で確認してください。"],
+      "sources": [{ "title": "駒沢学園女子高等学校 2027年度生徒募集要項（簡易版）", "url": "https://www.komajo.ac.jp/jsh/senior/pdf/summary2027_sh_kaniban.pdf", "verifiedAt": "2026-08-10" }, { "title": "駒沢学園女子高等学校 生徒募集要項", "url": "https://www.komajo.ac.jp/jsh/senior/summary.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113322500018"], "academicYear": 2027, "selection": "general-second", "selectionLabel": "一般入試 第2回", "status": "schedule-announced", "statusLabel": "生徒募集要項（簡易版）発表済み",
+      "applicationPeriod": "確認日時点の簡易版には未掲載", "testDates": ["2027年2月12日（金）"], "resultDate": "2027年2月12日（金）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "正式募集要項の発表待ち", "verifiedAt": "2026-08-10",
+      "notes": ["募集定員20人。国語・英語・数学の学力試験と調査書で選考します。", "確認日時点の資料は簡易版で、正式募集要項は2026年9月上旬発行予定と案内されています。", "第2回受験時の延納条件などを正式版で確認してください。"],
+      "sources": [{ "title": "駒沢学園女子高等学校 2027年度生徒募集要項（簡易版）", "url": "https://www.komajo.ac.jp/jsh/senior/pdf/summary2027_sh_kaniban.pdf", "verifiedAt": "2026-08-10" }, { "title": "駒沢学園女子高等学校 生徒募集要項", "url": "https://www.komajo.ac.jp/jsh/senior/summary.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311200087"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "入試日程・出願期間発表済み",
+      "applicationPeriod": "受験票印刷：2027年1月14日（木）〜1月16日（土）／出願受付：1月15日（金）〜1月18日（月）", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）9:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員250人。", "推薦区分ごとに適性検査または作文と面接を行います。", "推薦基準、提出書類、受付時刻は公式ページの区分別案内で確認してください。"],
+      "sources": [{ "title": "駒澤大学高等学校 入学試験", "url": "https://www.komazawa.net/admission/examination/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311200087"], "academicYear": 2027, "selection": "general-combined", "selectionLabel": "一般入試・チャレンジ・併願区分", "status": "details-announced", "statusLabel": "入試日程・出願期間発表済み",
+      "applicationPeriod": "受験票印刷・出願受付：2027年1月25日（月）〜2月5日（金）", "testDates": ["2027年2月10日（水）", "2027年2月13日（土）"], "resultDate": "2月10日実施分：2027年2月11日（木・祝）／2月13日実施分：2月14日（日）", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["一般入試の募集人員250人。", "2月10日と13日で一般、チャレンジ、再受験、第一志望・併願などの区分が分かれ、選考方法も異なります。", "自分の受験区分、試験科目、面接の有無を公式ページで確認してください。"],
+      "sources": [{ "title": "駒澤大学高等学校 入学試験", "url": "https://www.komazawa.net/admission/examination/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311700055"], "academicYear": 2027, "selection": "recommendation-academic", "selectionLabel": "推薦入試 特選・進学コース", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web登録：2026年12月20日（日）10:00〜2027年1月16日（土）12:00／書類：1月15日（金）〜1月16日（土）消印有効", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）17:00〜17:30", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["特選・進学コース合計110人。", "国語・数学・英語各100点の適性検査で選考します。", "推薦A・併願推薦Bで資格条件と入学手続期限が異なります。公式要項を確認してください。"],
+      "sources": [{ "title": "駿台学園高等学校 2027年度生徒募集要項", "url": "https://www.sundaigakuen.ac.jp/wp/wp-content/uploads/2026/07/b767dc4f658b154b5a5a4c164809f015.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311700055"], "academicYear": 2027, "selection": "general-academic", "selectionLabel": "一般・併願優遇入試 特選・進学コース", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "第1回：Web 2026年12月20日〜2027年1月29日12:00、書類1月25日〜29日／第2回：Web〜2月5日12:00、書類〜2月5日／第3回：Web〜2月13日12:00、書類〜2月13日", "testDates": ["第1回：2027年2月10日（水）", "第2回：2027年2月11日（木・祝）", "第3回：2027年2月16日（火）"], "resultDate": "各試験日17:00〜17:30", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["特選・進学コース合計130人。", "国語・数学・英語各100点と面接で選考します。併願優遇は3教科で面接なしです。", "複数回出願時の受験料・調査書、スライド合格、延納条件を公式要項で確認してください。"],
+      "sources": [{ "title": "駿台学園高等学校 2027年度生徒募集要項", "url": "https://www.sundaigakuen.ac.jp/wp/wp-content/uploads/2026/07/b767dc4f658b154b5a5a4c164809f015.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311700055"], "academicYear": 2027, "selection": "recommendation-specialist", "selectionLabel": "推薦入試 スペシャリスト系", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web登録：2026年12月20日（日）10:00〜2027年1月16日（土）12:00／書類：1月15日（金）〜1月16日（土）消印有効", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）17:00〜17:30", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["スペシャリスト・ハイブリッド／オリジナル合計40人。", "国語・数学・英語各100点の適性検査で選考します。", "受験には部活動顧問との個別相談が必要です。"],
+      "sources": [{ "title": "駿台学園高等学校 2027年度生徒募集要項", "url": "https://www.sundaigakuen.ac.jp/wp/wp-content/uploads/2026/07/b767dc4f658b154b5a5a4c164809f015.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311700055"], "academicYear": 2027, "selection": "general-specialist", "selectionLabel": "一般入試 スペシャリスト系", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web登録：2026年12月20日（日）10:00〜2027年1月29日（金）12:00／書類：1月25日（月）〜1月29日（金）消印有効", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月10日（水）17:00〜17:30", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["スペシャリスト・ハイブリッド／オリジナル合計20人。", "国語・数学・英語各100点と面接で選考します。", "受験には部活動顧問との個別相談が必要です。"],
+      "sources": [{ "title": "駿台学園高等学校 2027年度生徒募集要項", "url": "https://www.sundaigakuen.ac.jp/wp/wp-content/uploads/2026/07/b767dc4f658b154b5a5a4c164809f015.pdf", "verifiedAt": "2026-08-10" }]
     }
   ]
 }
