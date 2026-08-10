@@ -23069,6 +23069,7 @@
     {
       "id": "wk_d113299903011",
       "name": "東京都立鷺宮高等学校",
+      "nameKana": "とうきょうとりつさぎのみやこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都中野区若宮３－４６－８",
@@ -23076,12 +23077,14 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.metro.ed.jp/saginomiya-h/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["都立", "共学校", "全日制", "普通科", "4C", "進学指導", "土曜授業", "国際理解教育", "部活動"]
     },
     {
       "id": "wk_d113321000015",
       "name": "東京電機大学高等学校",
+      "nameKana": "とうきょうでんきだいがくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都小金井市梶野町４－８－１",
@@ -23089,12 +23092,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.dendai.ed.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "全日制", "普通科", "理科教育", "情報教育", "探究学習", "大学連携", "学習支援", "国際教育"]
     },
     {
       "id": "wk_d113311600092",
       "name": "東京音楽大学付属高等学校",
+      "nameKana": "とうきょうおんがくだいがくふぞくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区南池袋三丁目４番５号",
@@ -23102,12 +23107,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://hs.tokyo-ondai.ac.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "全日制", "音楽科", "専門教育", "大学連携", "個人レッスン", "アンサンブル", "探究学習"]
     },
     {
       "id": "wk_d113311100042",
       "name": "東京高等学校",
+      "nameKana": "とうきょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都大田区鵜の木２－３９－１",
@@ -23115,12 +23122,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://1872.tokyo-hs.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "全日制", "普通科", "文武両道", "5つの系統", "進学指導", "部活動", "学習支援"]
     },
     {
       "id": "wk_d113322100012",
       "name": "東星学園高等学校",
+      "nameKana": "とうせいがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都清瀬市梅園３－１４－４７",
@@ -23128,8 +23137,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.tosei.ed.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "全日制", "普通科", "カトリック教育", "少人数教育", "体験学習", "英語教育", "高大連携"]
     },
     {
       "id": "wk_d113310500095",

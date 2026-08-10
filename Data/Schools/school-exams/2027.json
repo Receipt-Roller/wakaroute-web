@@ -752,6 +752,30 @@
       "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年2月4日17:00／書類提出：2027年1月29日〜2月4日", "testDates": ["2027年2月22日（月）"], "resultDate": "2027年3月1日（月）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "学校別詳細の発表待ち", "officialPublishedAt": "2026-05-28", "verifiedAt": "2026-08-05",
       "notes": ["第1学年相当を対象とする前期選抜の共通日程です。", "募集人員、検査内容、必要書類など砂川高校通信制固有の詳細は学校別募集要項で確認してください。", "後期選抜の日程は別途定められます。"],
       "sources": [{ "title": "令和9年度東京都立高等学校入学者選抜の日程について", "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528", "publishedAt": "2026-05-28", "verifiedAt": "2026-08-05" }]
+    },
+    {
+      "schoolId": "wk_d113321000015", "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "schedule-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月15日（金）9:00〜1月16日（土）23:00／書類提出：1月18日（月）必着", "testDates": ["2027年1月22日（金）9:30"], "resultDate": "2027年1月22日（金）15:00", "detailsStatus": "details-announced", "detailsStatusLabel": "募集要項発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員は約30人です。", "作文と個人面接を実施します。", "出願資格・推薦基準・提出書類は公式募集要項を確認してください。"],
+      "sources": [{ "title": "東京電機大学高等学校 2027年度入試要項", "url": "https://www.dendai.ed.jp/admission/high_admission/guide.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113321000015", "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "schedule-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web出願：2027年1月25日（月）9:00〜2月5日（金）23:00／書類提出：2月6日（土）必着", "testDates": ["2027年2月10日（水）8:30"], "resultDate": "2027年2月11日（木・祝）13:00", "detailsStatus": "details-announced", "detailsStatusLabel": "募集要項発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員は約80人です。", "国語・英語・数学と個人面接を実施します。", "併願優遇を含む出願条件・提出書類は公式募集要項を確認してください。"],
+      "sources": [{ "title": "東京電機大学高等学校 2027年度入試要項", "url": "https://www.dendai.ed.jp/admission/high_admission/guide.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311600092", "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入学試験", "status": "schedule-announced", "statusLabel": "日程・試験科目発表済み",
+      "applicationPeriod": "2027年1月15日（金）〜1月17日（日）", "testDates": ["2027年1月22日（金）〜1月23日（土）"], "resultDate": "2027年1月24日（日）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "募集要項の発表待ち", "officialPublishedAt": "2026-06-16", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員は男女35人です。", "作文、面接、専攻別実技を実施します。", "2027年度募集要項と出願書類は後日発表予定のため、公開後に必ず再確認してください。"],
+      "sources": [{ "title": "東京音楽大学付属高等学校 2027年度入学試験日程", "url": "https://hs.tokyo-ondai.ac.jp/admission/", "publishedAt": "2026-06-16", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311600092", "academicYear": 2027, "selection": "general", "selectionLabel": "一般入学試験", "status": "schedule-announced", "statusLabel": "日程・試験科目発表済み",
+      "applicationPeriod": "2027年1月25日（月）〜2月4日（木）", "testDates": ["2027年2月10日（水）〜2月11日（木・祝）"], "resultDate": "2027年2月12日（金）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "募集要項の発表待ち", "officialPublishedAt": "2026-06-16", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員は男女35人です。", "声楽・器楽・作曲は英語・国語・楽典・聴音・コールユーブンゲン・面接・専攻別実技などを実施し、コースにより試験科目が異なります。", "2027年度募集要項と出願書類は後日発表予定のため、公開後に必ず再確認してください。"],
+      "sources": [{ "title": "東京音楽大学付属高等学校 2027年度入学試験日程", "url": "https://hs.tokyo-ondai.ac.jp/admission/", "publishedAt": "2026-06-16", "verifiedAt": "2026-08-10" }]
     }
   ],
   "sharedSchedules": [
@@ -2221,6 +2245,18 @@
       "schoolIds": ["wk_d113299901077", "wk_d113299905108", "wk_d113299908132", "wk_d113299904109", "wk_d113299904083"], "academicYear": 2027, "selection": "general-first", "selectionLabel": "学力検査に基づく選抜（第一次募集）", "status": "schedule-announced", "statusLabel": "共通日程発表済み",
       "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年2月4日17:00／書類提出：2027年1月29日〜2月4日", "testDates": ["2027年2月21日（日）"], "resultDate": "2027年3月1日（月）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "学校別詳細の発表待ち", "officialPublishedAt": "2026-05-28", "verifiedAt": "2026-08-10",
       "notes": ["東京都教育委員会から共通日程が発表されています。", "募集人員、検査科目、配点など各校固有の詳細は、学校別募集要項で確認してください。", "令和9年度実施要綱・同細目は2026年9月に公表予定です。"],
+      "sources": [{ "title": "令和9年度東京都立高等学校入学者選抜の日程について", "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528", "publishedAt": "2026-05-28", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113299903011"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦に基づく選抜", "status": "schedule-announced", "statusLabel": "共通日程発表済み",
+      "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年1月18日17:00／書類提出：2027年1月8日〜1月18日", "testDates": ["2027年1月26日（火）", "2027年1月27日（水）"], "resultDate": "2027年2月2日（火）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "学校別詳細の発表待ち", "officialPublishedAt": "2026-05-28", "verifiedAt": "2026-08-10",
+      "notes": ["東京都教育委員会から共通日程が発表されています。", "募集人員、検査内容、配点など鷺宮高校固有の詳細は、学校別募集要項で確認してください。", "令和9年度実施要綱・同細目は2026年9月に公表予定です。"],
+      "sources": [{ "title": "令和9年度東京都立高等学校入学者選抜の日程について", "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528", "publishedAt": "2026-05-28", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113299903011"], "academicYear": 2027, "selection": "general-first", "selectionLabel": "学力検査に基づく選抜（第一次募集）", "status": "schedule-announced", "statusLabel": "共通日程発表済み",
+      "applicationPeriod": "志願者情報入力：2026年12月18日〜2027年2月4日17:00／書類提出：2027年1月29日〜2月4日", "testDates": ["2027年2月21日（日）"], "resultDate": "2027年3月1日（月）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "学校別詳細の発表待ち", "officialPublishedAt": "2026-05-28", "verifiedAt": "2026-08-10",
+      "notes": ["東京都教育委員会から共通日程が発表されています。", "募集人員、検査科目、配点など鷺宮高校固有の詳細は、学校別募集要項で確認してください。", "令和9年度実施要綱・同細目は2026年9月に公表予定です。"],
       "sources": [{ "title": "令和9年度東京都立高等学校入学者選抜の日程について", "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/exam/nyuusenn_9_20260528", "publishedAt": "2026-05-28", "verifiedAt": "2026-08-10" }]
     }
   ]

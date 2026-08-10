@@ -2743,6 +2743,31 @@
       "schoolId": "wk_d113299904083", "gender": "coeducational",
       "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
       "sources": [{ "title": "東京都立高島高等学校 特色", "url": "https://www.metro.ed.jp/takashima-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113299903011", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京都立鷺宮高等学校 特色", "url": "https://www.metro.ed.jp/saginomiya-h/our_school/feature.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113321000015", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東京電機大学高等学校 授業の特色", "url": "https://www.dendai.ed.jp/education/lesson/", "verifiedAt": "2026-08-10" }, { "title": "東京電機大学高等学校 2027年度入試要項", "url": "https://www.dendai.ed.jp/admission/high_admission/guide.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311600092", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "音楽科", "course": "声楽／鍵盤楽器／弦楽器／管・打楽器／作曲／音楽総合／セルフデザイン" }],
+      "sources": [{ "title": "東京音楽大学付属高等学校 専攻・コース", "url": "https://hs.tokyo-ondai.ac.jp/education/", "verifiedAt": "2026-08-10" }, { "title": "東京音楽大学付属高等学校 2027年度入試日程", "url": "https://hs.tokyo-ondai.ac.jp/admission/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311100042", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "2年次から文系Ⅰ類・文系Ⅱ類・文系Ⅲ類・理系Ⅰ類・理系Ⅱ類" }],
+      "sources": [{ "title": "東京高等学校 カリキュラム紹介", "url": "https://1872.tokyo-hs.jp/?page_id=1669", "verifiedAt": "2026-08-10" }, { "title": "東京高等学校 公式サイト", "url": "https://1872.tokyo-hs.jp/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113322100012", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科" }],
+      "sources": [{ "title": "東星学園中学校・高等学校 教科学習", "url": "https://www.tosei.ed.jp/jhschool/jh-schoollife/jh-life/", "verifiedAt": "2026-08-10" }, { "title": "2026年度東星学園高等学校生徒募集要項", "url": "https://www.tosei.ed.jp/contents/wp-content/uploads/2025/08/76affe7269c060edd243642e2eff65b1.pdf", "verifiedAt": "2026-08-10" }]
     }
   ]
 }
