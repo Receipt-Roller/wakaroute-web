@@ -1,10 +1,40 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-04",
+  "asOf": "2026-08-11",
   "sourceUrls": [
     "https://www.mext.go.jp/content/20251226-mxt_chousa01-000011635_2.csv",
     "https://www.mext.go.jp/content/20251226-mxt_chousa01-000011635_4.csv",
-    "https://www.toyo.ac.jp/toyodaikeihoku/introduction/history/"
+    "https://www.toyo.ac.jp/toyodaikeihoku/introduction/history/",
+    "https://www.pref.tottori.lg.jp/87667.htm",
+    "https://www.pref.tottori.lg.jp/item/505773.htm",
+    "https://www.pref.fukui.lg.jp/doc/koukou/sixyoukai.html",
+    "https://www.pref.fukui.lg.jp/doc/daishi/siritugakkou/koutougakkou.html",
+    "https://www.pref.tokushima.lg.jp/ippannokata/kyoiku/gakkokyoiku/5021002/",
+    "https://www.mext.go.jp/b_menu/toukei/mext_01087.html",
+    "https://www.mext.go.jp/content/20260529-mxt_chousa01-000011635_4.csv",
+    "https://www.pref.yamanashi.jp/koukoukyo/182_224.html",
+    "https://www.pref.kagawa.lg.jp/kenkyoui/kokokyoiku/syokai/school/highschool.html",
+    "https://www.pref.kochi.lg.jp/doc/kochi-highschoolguide/",
+    "https://www.pref.kochi.lg.jp/doc/2021072800280/",
+    "https://www.pref.saga.lg.jp/kyouiku/kiji003119670/index.html",
+    "https://www.saga-ed.jp/school-link/link4/",
+    "https://www.pref.wakayama.lg.jp/prefg/500100/gakkouichiran/gakkouichiran.html",
+    "https://www.pref.wakayama.lg.jp/prefg/022100/gakkou/shigaku_1koukou.html",
+    "https://www.pref.wakayama.lg.jp/prefg/500200/d00215131_d/fil/saihen_koumeitou.pdf",
+    "https://www1.pref.shimane.lg.jp/gakkokikaku/school/index.data/p1-p122zen-page.pdf",
+    "https://www.pref.shimane.lg.jp/education/kyoiku/iinkai/kihon/kenritsugakkou.html",
+    "https://www1.pref.shimane.lg.jp/education/kyoiku/shiritu/shiritu/index.data/R8siritugakkoumeibo.pdf",
+    "https://www.pref.toyama.jp/300203/kurashi/kyouiku/gakkou/shisetsu/kenritsugakkou_ichiran.html",
+    "https://www.pref.toyama.jp/1119/kurashi/kyouiku/gakkou/shisetsu/kj00012881/kj00012881-004-01.html",
+    "https://www.pref.akita.lg.jp/pages/archive/49957",
+    "https://www.pref.akita.lg.jp/pages/archive/93860",
+    "https://www.pref.akita.lg.jp/pages/archive/95840",
+    "https://www.pref.akita.lg.jp/uploads/public/archive_0000084802_00/%EF%BC%B2%EF%BC%96%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E6%A1%88%E5%86%85%E9%9B%86%EF%BC%88%E7%9C%8C%E5%8C%97%E5%9C%B0%E5%8C%BA%E5%85%AC%E7%AB%8B%EF%BC%89.pdf",
+    "https://www.pref.akita.lg.jp/uploads/public/archive_0000084802_00/%EF%BC%B2%EF%BC%96%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E6%A1%88%E5%86%85%E9%9B%86%EF%BC%88%E4%B8%AD%E5%A4%AE%E5%9C%B0%E5%8C%BA%E5%85%AC%E7%AB%8B%EF%BC%89.pdf",
+    "https://www.pref.akita.lg.jp/uploads/public/archive_0000084802_00/%EF%BC%B2%EF%BC%96%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E6%A1%88%E5%86%85%E9%9B%86%EF%BC%88%E7%9C%8C%E5%8D%97%E5%9C%B0%E5%8C%BA%E5%85%AC%E7%AB%8B%EF%BC%89.pdf",
+    "https://www.pref.akita.lg.jp/uploads/public/archive_0000093860_00/20260227_1%E6%AC%A1%E5%8B%9F%E9%9B%86%E3%80%80%E5%BF%97%E9%A1%98%E8%80%85%E6%95%B0%EF%BC%88%E6%9C%80%E7%B5%82%E5%BF%97%E9%A1%98%EF%BC%89%EF%BC%88%E5%85%AC%E2%80%95%EF%BC%92%EF%BC%89.pdf",
+    "https://www.pref.akita.lg.jp/uploads/public/archive_0000093860_00/20260313_%EF%BC%91%E6%AC%A1%E5%8B%9F%E9%9B%86%E3%80%80%E5%90%88%E6%A0%BC%E8%80%85%E6%95%B0%EF%BC%88%E5%85%AC%E3%83%BC%EF%BC%92%EF%BC%89.pdf",
+    "https://www.pref.akita.lg.jp/uploads/public/archive_0000095840_00/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4%E7%AC%AC%EF%BC%91%E5%9B%9E%E8%B3%87%E6%96%99.pdf"
   ],
   "identities": [
     {
@@ -4234,7 +4264,9 @@
       "mextSchoolCode": "D105320159016",
       "legacySchoolSurveyCode": "055901",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "聖霊女子短期大学付属高等学校"
+      ]
     },
     {
       "id": "wk_d105320159025",
@@ -12117,14 +12149,20 @@
       "mextSchoolCode": "D113310500095",
       "legacySchoolSurveyCode": "136037",
       "status": "active",
-      "aliases": ["京北学園白山高等学校", "京北商業高等学校"]
+      "aliases": [
+        "京北学園白山高等学校",
+        "京北商業高等学校"
+      ]
     },
     {
       "id": "wk_d113310500102",
       "mextSchoolCode": "D113310500102",
       "legacySchoolSurveyCode": "136038",
       "status": "closed",
-      "aliases": ["京北学園白山高等学校", "京北商業高等学校"],
+      "aliases": [
+        "京北学園白山高等学校",
+        "京北商業高等学校"
+      ],
       "replacedById": "wk_d113310500095",
       "replacementMextSchoolCode": "D113310500095"
     },
@@ -12574,7 +12612,9 @@
       "mextSchoolCode": "D113311200238",
       "legacySchoolSurveyCode": "136143",
       "status": "active",
-      "aliases": ["日本学園高等学校"]
+      "aliases": [
+        "日本学園高等学校"
+      ]
     },
     {
       "id": "wk_d113311200247",
@@ -13169,7 +13209,9 @@
       "mextSchoolCode": "D113320100098",
       "legacySchoolSurveyCode": "136306",
       "status": "active",
-      "aliases": ["明治大学付属中野八王子高等学校"]
+      "aliases": [
+        "明治大学付属中野八王子高等学校"
+      ]
     },
     {
       "id": "wk_d113320100105",
@@ -13463,7 +13505,9 @@
       "mextSchoolCode": "D113322900014",
       "legacySchoolSurveyCode": "136048",
       "status": "active",
-      "aliases": ["文華女子高等学校"]
+      "aliases": [
+        "文華女子高等学校"
+      ]
     },
     {
       "id": "wk_d113322900023",
@@ -16131,7 +16175,11 @@
       "mextSchoolCode": "D116220950025",
       "legacySchoolSurveyCode": "165810",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "富山県立石動高等学校小矢部園芸高等学校",
+        "富山県立小矢部園芸高等学校",
+        "小矢部園芸高等学校"
+      ]
     },
     {
       "id": "wk_d116220950034",
@@ -27035,14 +27083,20 @@
       "mextSchoolCode": "D130210000288",
       "legacySchoolSurveyCode": "305542",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "和歌山県立新宮高等学校",
+        "和歌山県立新宮高等学校新宮校舎"
+      ]
     },
     {
       "id": "wk_d130210000297",
       "mextSchoolCode": "D130210000297",
       "legacySchoolSurveyCode": "305543",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "和歌山県立新翔高等学校",
+        "和歌山県立新宮高等学校新翔校舎"
+      ]
     },
     {
       "id": "wk_d130210000304",
@@ -30437,7 +30491,9 @@
       "mextSchoolCode": "D137320200026",
       "legacySchoolSurveyCode": "376441",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "香川県藤井高等学校"
+      ]
     },
     {
       "id": "wk_d137320200035",
@@ -30465,7 +30521,9 @@
       "mextSchoolCode": "D137320600013",
       "legacySchoolSurveyCode": "376481",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "藤井学園寒川高等学校"
+      ]
     },
     {
       "id": "wk_d137320800011",
@@ -32663,7 +32721,9 @@
       "mextSchoolCode": "D141290000296",
       "legacySchoolSurveyCode": "416050",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "佐賀県立鹿島高等学校"
+      ]
     },
     {
       "id": "wk_d141290000303",
@@ -32677,7 +32737,9 @@
       "mextSchoolCode": "D141290000312",
       "legacySchoolSurveyCode": "416052",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "佐賀県立嬉野高等学校"
+      ]
     },
     {
       "id": "wk_d141290000321",
@@ -32691,7 +32753,9 @@
       "mextSchoolCode": "D141290000330",
       "legacySchoolSurveyCode": "416054",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "佐賀県立白石高等学校"
+      ]
     },
     {
       "id": "wk_d141290000349",
@@ -35767,6 +35831,12 @@
       "id": "wk_d147330800018",
       "mextSchoolCode": "D147330800018",
       "legacySchoolSurveyCode": "475591",
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "id": "wk_d136320100046",
+      "mextSchoolCode": "D136320100046",
       "status": "active",
       "aliases": []
     }
