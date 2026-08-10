@@ -23774,6 +23774,7 @@
     {
       "id": "wk_d113311500128",
       "name": "立教女学院高等学校",
+      "nameKana": "りっきょうじょがくいんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都杉並区久我山４－２９－６０",
@@ -23781,12 +23782,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://hs.rikkyojogakuin.ac.jp/",
+      "tags": ["私立", "女子校", "全日制", "普通科", "完全中高一貫", "高校募集なし", "キリスト教教育", "立教大学推薦"]
     },
     {
       "id": "wk_d113311600145",
       "name": "立教池袋高等学校",
+      "nameKana": "りっきょういけぶくろこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区西池袋５－１６－５",
@@ -23794,12 +23797,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://ikebukuro.rikkyo.ac.jp/",
+      "tags": ["私立", "男子校", "全日制", "普通科", "高校募集あり", "キリスト教教育", "立教大学推薦", "高大連携"]
     },
     {
       "id": "wk_d113311100015",
       "name": "立正大学付属立正高等学校",
+      "nameKana": "りっしょうだいがくふぞくりっしょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都大田区西馬込１－５－１",
@@ -23807,8 +23812,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.rissho-hs.ac.jp/",
+      "tags": ["私立", "共学", "全日制", "普通科", "高校募集あり", "進学クラス", "特進クラス", "探究学習"]
     },
     {
       "id": "wk_d113110000030",
@@ -23858,6 +23864,7 @@
     {
       "id": "wk_d113311200158",
       "name": "聖ドミニコ学園高等学校",
+      "nameKana": "せいどみにこがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区岡本１－１０－１",
@@ -23865,12 +23872,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.dominic.ed.jp/highschool/",
+      "tags": ["私立", "女子校", "全日制", "普通科", "中高一貫", "高校一般募集なし", "カトリック教育", "アカデミックコース", "インターナショナルコース"]
     },
     {
       "id": "wk_d113320100016",
       "name": "聖パウロ学園高等学校",
+      "nameKana": "せいぱうろがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都八王子市下恩方町２７２７",
@@ -23878,8 +23887,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.st-paul.ed.jp/",
+      "tags": ["私立", "共学", "全日制", "通信制", "普通科", "高校募集あり", "カトリック教育", "探究学習"]
     },
     {
       "id": "wk_d113311700064",

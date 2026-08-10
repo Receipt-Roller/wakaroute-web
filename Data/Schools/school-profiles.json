@@ -2946,6 +2946,34 @@
       "schoolId": "wk_d113310700039", "gender": "coeducational",
       "programs": [{ "attendanceType": "correspondence", "department": "普通科", "course": "平日コース（特進クラス／進学クラス／普通クラス）・土曜コース" }],
       "sources": [{ "title": "立志舎高等学校 入学案内・募集要項", "url": "https://www.risshisha.ed.jp/admission", "verifiedAt": "2026-08-10" }, { "title": "立志舎高等学校 平日コース", "url": "https://www.risshisha.ed.jp/weekday_course/", "verifiedAt": "2026-08-10" }, { "title": "立志舎高等学校 土曜コース", "url": "https://www.risshisha.ed.jp/saturday_course/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311500128", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（高校募集なし。高2・高3は理系／文I／文II）" }],
+      "sources": [{ "title": "立教女学院中学校・高等学校 高等学校カリキュラム", "url": "https://hs.rikkyojogakuin.ac.jp/education/curriculum/h-curriculum/", "verifiedAt": "2026-08-10" }, { "title": "立教女学院中学校・高等学校 入学試験概要", "url": "https://hs.rikkyojogakuin.ac.jp/admission/summary/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311600145", "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "コース制なし・高3に自由選択講座" }],
+      "sources": [{ "title": "立教池袋中学校・高等学校 カリキュラム", "url": "https://ikebukuro.rikkyo.ac.jp/education/curriculum.html", "verifiedAt": "2026-08-10" }, { "title": "立教池袋中学校・高等学校 高等学校入試", "url": "https://ikebukuro.rikkyo.ac.jp/admissions/senior.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311100015", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "進学クラス／特進クラス" }],
+      "sources": [{ "title": "立正大学付属立正中学校・高等学校 高校3年間の進学指導", "url": "https://www.rissho-hs.ac.jp/learning/high/", "verifiedAt": "2026-08-10" }, { "title": "立正大学付属立正高等学校 令和9年度入試要項", "url": "https://www.rissho-hs.ac.jp/exam/summary_high/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311200158", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "アカデミックコース／インターナショナルコース（高校一般募集なし）" }],
+      "sources": [{ "title": "聖ドミニコ学園中学高等学校 アカデミックコース", "url": "https://www.dominic.ed.jp/highschool/education/course/academic/", "verifiedAt": "2026-08-10" }, { "title": "聖ドミニコ学園中学高等学校 募集要項", "url": "https://www.dominic.ed.jp/highschool/entrance/outline/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113320100016", "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "グローバルクラス／セレクティブクラス" },
+        { "attendanceType": "correspondence", "department": "普通科", "course": "エンカレッジコース（週3日～5日登校／隔週／放送視聴）" }
+      ],
+      "sources": [{ "title": "聖パウロ学園高等学校 全日制クラス編成", "url": "https://www.st-paul.ed.jp/zennichi/school-info/class-organization/", "verifiedAt": "2026-08-10" }, { "title": "聖パウロ学園高等学校 通信制コースの特徴", "url": "https://www.st-paul.ed.jp/tsushin/school-info/feature/", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

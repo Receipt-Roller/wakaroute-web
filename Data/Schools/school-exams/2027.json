@@ -2436,6 +2436,24 @@
       "applicationPeriod": "Web締切：併願優遇2027年2月5日（金）12:00／一般2月6日（土）12:00。書類：併願優遇1月25日〜2月5日、一般1月25日〜2月6日に郵送", "testDates": ["2027年2月10日（水）8:30集合"], "resultDate": "併願優遇：2027年2月10日（水）14:00／一般：同日16:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
       "notes": ["グローバル25人、アドバンスト25人、キャリアデザイン50人の合計100人を募集します。", "併願優遇は推薦入試と同じコース別1科目と個人面接、一般入試は国語・数学・英語各50分と個人面接です。", "合格者のうち希望者を対象に、2月11日（木・祝）に全コース共通の特待生選抜を実施します。", "募集要項は8月時点の内容です。変更・追加がないか出願前に確認してください。"],
       "sources": [{ "title": "神田女学園高等学校 2027年度生徒募集要項", "url": "https://www.kandajogakuen.ed.jp/wordpress/wp-content/uploads/2026/07/20260731-6a6c1e5a96154.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311600145"], "academicYear": 2027, "selection": "general", "selectionLabel": "高校入試（第一志望受験・オープン受験）", "status": "schedule-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）9:00〜2月12日（金）12:00／郵送：1月25日〜2月11日必着／窓口：2月12日9:00〜12:00", "testDates": ["2027年2月13日（土）8:50〜11:00"], "resultDate": "2027年2月14日（日）9:00〜15:00 Web発表", "detailsStatus": "school-details-pending", "detailsStatusLabel": "正式募集要項の発表待ち", "verifiedAt": "2026-08-10",
+      "notes": ["普通科男子若干名を募集します。", "作文、個人面接、書類審査で選考します。", "第一志望受験は事前の入試相談で認定された者、オープン受験は中学校卒業見込み・卒業者等が対象です。", "公式ページでは正式な入試要項を2026年9月初旬に掲載予定としているため、出願書類や試験時間の詳細は公開後に再確認してください。"],
+      "sources": [{ "title": "立教池袋中学校・高等学校 2027年度高校入試概要", "url": "https://ikebukuro.rikkyo.ac.jp/admissions/senior.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311100015"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（進学クラス・特進クラス）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web入力・支払：2026年12月20日（日）9:00〜2027年1月18日（月）23:59／郵送：1月20日（水）17:00必着", "testDates": ["2027年1月22日（金）8:30集合"], "resultDate": "2027年1月22日（金）14:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["進学・特進クラスを合わせて男女100人を募集します。", "作文50分・600字と個人面接で選考します。", "第一志望、欠席日数、評定等の条件があります。進学・特進で内申基準と加点項目が異なります。", "推薦入試の入学手続者は2月13日にクラス編成等の参考試験を受け、特進希望者の判定にも用いられます。"],
+      "sources": [{ "title": "立正大学付属立正高等学校 令和9年度推薦入試募集要項", "url": "https://www.rissho-hs.ac.jp/exam/summary_high/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311100015"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試 第1回・第2回", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "第1回：Web〜2027年2月6日（土）23:59、郵送2月8日（月）17:00必着／第2回：Web・郵送2月12日（金）17:00まで", "testDates": ["第1回：2027年2月10日（水）8:30集合", "第2回：2027年2月13日（土）8:30集合"], "resultDate": "各試験日の18:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員は第1回男女70人、第2回男女30人です。", "国語・数学・英語、国語・社会・英語、理科・数学・英語のいずれか3教科と個人面接で選考します。英語はリスニングを含みます。", "特進クラスは入試成績で決定します。併願優遇は評定・欠席等の条件があるため中学校と確認してください。"],
+      "sources": [{ "title": "立正大学付属立正高等学校 令和9年度一般入試募集要項", "url": "https://www.rissho-hs.ac.jp/exam/summary_high/", "verifiedAt": "2026-08-10" }]
     }
   ]
 }
