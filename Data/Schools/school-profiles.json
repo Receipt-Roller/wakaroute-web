@@ -2918,6 +2918,34 @@
       "schoolId": "wk_d113310400069", "gender": "coeducational",
       "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特進コース／総合コース／グローバルサイエンスコース／グローバルコミュニケーションコース" }],
       "sources": [{ "title": "目白研心高等学校 コース", "url": "https://mk.mejiro.ac.jp/study_career/high_school/course/", "verifiedAt": "2026-08-10" }, { "title": "目白研心高等学校 2027年度入試要項（簡易版）", "url": "https://mk.mejiro.ac.jp/pdf/s_youkou_2026.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311000052", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "スーパープレミアムコース／プレミアムコース／アドバンスコース／スタンダードキャリアコース" }],
+      "sources": [{ "title": "目黒学院高等学校 コース紹介", "url": "https://www.meguro.ac.jp/high/school/course/", "verifiedAt": "2026-08-10" }, { "title": "目黒学院高等学校 入試情報", "url": "https://www.meguro.ac.jp/high/examinee/nyushi/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311000043", "gender": "coeducational",
+      "programs": [
+        { "attendanceType": "full-time", "department": "普通科", "course": "進学コース（選抜クラス／N進学クラス）" },
+        { "attendanceType": "correspondence", "department": "普通科", "course": "アドバンスクラス／スタンダードクラス／芸能スポーツプロフェッショナルクラス" }
+      ],
+      "sources": [{ "title": "目黒日本大学高等学校 全日制コース", "url": "https://www.meguro-nichidai.ed.jp/senior/education/course/", "verifiedAt": "2026-08-10" }, { "title": "目黒日本大学高等学校 通信制クラス", "url": "https://www.meguro-nichidai.ed.jp/tsushin/education/course/", "verifiedAt": "2026-08-10" }, { "title": "目黒日本大学高等学校 2027年度全日制募集要項", "url": "https://www.meguro-nichidai.ed.jp/senior/pdf/2027guideline.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310100026", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "グローバルコース／アドバンストコース／キャリアデザインコース" }],
+      "sources": [{ "title": "神田女学園高等学校 2027年度生徒募集要項", "url": "https://www.kandajogakuen.ed.jp/wordpress/wp-content/uploads/2026/07/20260731-6a6c1e5a96154.pdf", "verifiedAt": "2026-08-10" }, { "title": "神田女学園高等学校 進路・キャリア教育", "url": "https://www.kandajogakuen.ed.jp/career/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113320200024", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特別進学コース／総合コース（入学後のコース変更不可）" }],
+      "sources": [{ "title": "立川女子高等学校 コース紹介", "url": "https://www.tachikawa-joshi.ac.jp/career_guidance/course/", "verifiedAt": "2026-08-10" }, { "title": "立川女子高等学校 募集要項", "url": "https://www.tachikawa-joshi.ac.jp/examinee/guidance/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310700039", "gender": "coeducational",
+      "programs": [{ "attendanceType": "correspondence", "department": "普通科", "course": "平日コース（特進クラス／進学クラス／普通クラス）・土曜コース" }],
+      "sources": [{ "title": "立志舎高等学校 入学案内・募集要項", "url": "https://www.risshisha.ed.jp/admission", "verifiedAt": "2026-08-10" }, { "title": "立志舎高等学校 平日コース", "url": "https://www.risshisha.ed.jp/weekday_course/", "verifiedAt": "2026-08-10" }, { "title": "立志舎高等学校 土曜コース", "url": "https://www.risshisha.ed.jp/saturday_course/", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

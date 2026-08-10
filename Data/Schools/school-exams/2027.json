@@ -2412,6 +2412,30 @@
       "applicationPeriod": "Web・書類：2027年1月25日（月）0:00〜2月3日（水）消印有効（郵送のみ）", "testDates": ["第1回：2027年2月10日（水）", "第2回：2027年2月11日（木・祝）"], "resultDate": "各試験日の19:00", "detailsStatus": "school-details-pending", "detailsStatusLabel": "正式募集要項の発表待ち", "officialPublishedAt": "2026-05-26", "verifiedAt": "2026-08-10",
       "notes": ["普通科100人を募集します。", "国語・英語・数学を各50分・各100点で実施し、併願優遇なしの受験者には面接があります。", "グローバルコミュニケーションコース希望者は英検準2級以上が必要です。", "確認日時点では簡易版です。正式要項は9月中旬頃公開予定のため、確定条件を再確認してください。"],
       "sources": [{ "title": "目白研心高等学校 2027年度入試要項（簡易版）", "url": "https://mk.mejiro.ac.jp/pdf/s_youkou_2026.pdf", "publishedAt": "2026-05-26", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311000043"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2026年12月20日（日）〜2027年1月16日（土）／書類：1月15日（金）〜16日（土）消印有効", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["全日制普通科122人を募集します。", "国語・数学・英語各50分の適性検査と個人面接を実施します。面接結果は合否ではなくクラス編成の参考に使用されます。", "全日制課程の募集要項です。通信制課程の入試日程とは異なります。"],
+      "sources": [{ "title": "目黒日本大学高等学校 2027年度全日制募集要項", "url": "https://www.meguro-nichidai.ed.jp/senior/pdf/2027guideline.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311000043"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2026年12月20日（日）〜2027年2月4日（木）／書類：2027年1月25日（月）〜2月4日（木）必着", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月11日（木・祝）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["全日制普通科123人を募集します。", "国語・数学・英語を各50分で実施し、面接はありません。", "全日制課程の募集要項です。通信制課程の入試日程とは異なります。"],
+      "sources": [{ "title": "目黒日本大学高等学校 2027年度全日制募集要項", "url": "https://www.meguro-nichidai.ed.jp/senior/pdf/2027guideline.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113310100026"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（単願推薦・併願推薦）", "status": "details-announced", "statusLabel": "募集要項（8月時点版）発表済み",
+      "applicationPeriod": "Web入力・支払：2026年12月20日（日）〜／受験票発番・印刷：2027年1月15日（金）〜／締切：1月17日（日）12:00／書類：1月17日消印有効", "testDates": ["2027年1月22日（金）8:30集合"], "resultDate": "2027年1月22日（金）14:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["グローバル25人、アドバンスト25人、キャリアデザイン50人の合計100人を募集します。", "グローバルは英語、アドバンストは国語・数学・英語から1科目、キャリアデザインは国語を各50分で実施し、受験生のみ個人面接があります。", "募集要項は8月時点の内容で、社会情勢等により変更・追加の可能性があります。出願前に最新版を確認してください。"],
+      "sources": [{ "title": "神田女学園高等学校 2027年度生徒募集要項", "url": "https://www.kandajogakuen.ed.jp/wordpress/wp-content/uploads/2026/07/20260731-6a6c1e5a96154.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113310100026"], "academicYear": 2027, "selection": "general", "selectionLabel": "併願優遇・一般入試", "status": "details-announced", "statusLabel": "募集要項（8月時点版）発表済み",
+      "applicationPeriod": "Web締切：併願優遇2027年2月5日（金）12:00／一般2月6日（土）12:00。書類：併願優遇1月25日〜2月5日、一般1月25日〜2月6日に郵送", "testDates": ["2027年2月10日（水）8:30集合"], "resultDate": "併願優遇：2027年2月10日（水）14:00／一般：同日16:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["グローバル25人、アドバンスト25人、キャリアデザイン50人の合計100人を募集します。", "併願優遇は推薦入試と同じコース別1科目と個人面接、一般入試は国語・数学・英語各50分と個人面接です。", "合格者のうち希望者を対象に、2月11日（木・祝）に全コース共通の特待生選抜を実施します。", "募集要項は8月時点の内容です。変更・追加がないか出願前に確認してください。"],
+      "sources": [{ "title": "神田女学園高等学校 2027年度生徒募集要項", "url": "https://www.kandajogakuen.ed.jp/wordpress/wp-content/uploads/2026/07/20260731-6a6c1e5a96154.pdf", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

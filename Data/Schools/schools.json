@@ -23669,6 +23669,7 @@
     {
       "id": "wk_d113311000052",
       "name": "目黒学院高等学校",
+      "nameKana": "めぐろがくいんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都目黒区中目黒１－１－５０",
@@ -23676,12 +23677,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.meguro.ac.jp/high/",
+      "tags": ["私立", "共学", "全日制", "普通科", "4コース", "高校募集あり"]
     },
     {
       "id": "wk_d113311000043",
       "name": "目黒日本大学高等学校",
+      "nameKana": "めぐろにほんだいがくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都目黒区目黒１－６－１５",
@@ -23689,12 +23692,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.meguro-nichidai.ed.jp/",
+      "tags": ["私立", "共学", "全日制", "通信制", "普通科", "日本大学付属", "高校募集あり"]
     },
     {
       "id": "wk_d113310100026",
       "name": "神田女学園高等学校",
+      "nameKana": "かんだじょがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区神田猿楽町２－３－６",
@@ -23702,8 +23707,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.kandajogakuen.ed.jp/",
+      "tags": ["私立", "女子校", "全日制", "普通科", "3コース", "高校募集あり"]
     },
     {
       "id": "wk_d113311200274",
@@ -23738,6 +23744,7 @@
     {
       "id": "wk_d113320200024",
       "name": "立川女子高等学校",
+      "nameKana": "たちかわじょしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都立川市高松町３－１２－１",
@@ -23745,12 +23752,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.tachikawa-joshi.ac.jp/",
+      "tags": ["私立", "女子校", "全日制", "普通科", "特別進学コース", "総合コース", "高校募集あり"]
     },
     {
       "id": "wk_d113310700039",
       "name": "立志舎高等学校",
+      "nameKana": "りっししゃこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都墨田区太平２－９－６",
@@ -23758,8 +23767,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.risshisha.ed.jp/",
+      "tags": ["私立", "共学", "通信制", "普通科", "平日コース", "土曜コース", "高校募集あり"]
     },
     {
       "id": "wk_d113311500128",
