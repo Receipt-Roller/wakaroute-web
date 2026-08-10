@@ -2974,6 +2974,56 @@
         { "attendanceType": "correspondence", "department": "普通科", "course": "エンカレッジコース（週3日～5日登校／隔週／放送視聴）" }
       ],
       "sources": [{ "title": "聖パウロ学園高等学校 全日制クラス編成", "url": "https://www.st-paul.ed.jp/zennichi/school-info/class-organization/", "verifiedAt": "2026-08-10" }, { "title": "聖パウロ学園高等学校 通信制コースの特徴", "url": "https://www.st-paul.ed.jp/tsushin/school-info/feature/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311700064", "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "Global Innovation Class（GIC、高校募集）" }],
+      "sources": [{ "title": "聖学院高等学校 高校入試", "url": "https://www.seigakuin.ed.jp/exam/senior/", "verifiedAt": "2026-08-10" }, { "title": "聖学院高等学校 2027年度GIC募集要項", "url": "https://www.seigakuin.ed.jp/wordpress/wp-content/uploads/2026/05/20260520-6a0cfb2fbc753.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113320300014", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "難関国公立型／文理進学型／データサイエンスコース" }],
+      "sources": [{ "title": "聖徳学園高等学校 教育内容", "url": "https://jsh.shotoku.ed.jp/educational_content/", "verifiedAt": "2026-08-10" }, { "title": "聖徳学園高等学校 2027年度入試要項", "url": "https://jsh.shotoku.ed.jp/assets/library/2026/06/78d9b42c03ce587f57569f1b9cd9f199.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310300079", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "4-4-4制の一貫教育（通常の高校募集なし）" }],
+      "sources": [{ "title": "聖心女子学院 初等科・中等科・高等科 4-4-4制", "url": "https://www.tky-sacred-heart.ed.jp/06_444.html", "verifiedAt": "2026-08-10" }, { "title": "聖心女子学院 入学・転編入案内", "url": "https://www.tky-sacred-heart.ed.jp/04_nyugaku.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311000016", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "PG／AD／AC（PGS・PGA・PGT・PGI・ILA国際教養・STEAM理数・HS文理共創）" }],
+      "sources": [{ "title": "自由ヶ丘学園高等学校 コース紹介", "url": "https://www.jiyugaoka.ed.jp/exam/course/", "verifiedAt": "2026-08-10" }, { "title": "自由ヶ丘学園高等学校 2027年度募集要項", "url": "https://www.jiyugaoka.ed.jp/wp-content/themes/jiyugaoka/images/jiyugaoka-bosyuyoko2027.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113322200011", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "単位制・コース制なし（自分で時間割を設計）" }],
+      "sources": [{ "title": "自由学園 中等部・高等部", "url": "https://jiyu.school/", "verifiedAt": "2026-08-10" }, { "title": "自由学園高等部 2027年度募集要項", "url": "https://www.jiyu.ac.jp/nyushi/2027_sh.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310300104", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "国際コース／本科コース" }],
+      "sources": [{ "title": "芝国際高等学校 高校の学び", "url": "https://www.shiba-kokusai.ed.jp/shs/", "verifiedAt": "2026-08-10" }, { "title": "芝国際高等学校 2027年度生徒募集要項", "url": "https://www.shiba-kokusai.ed.jp/dl_pamphlet/pdf/info_shs2027.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310800047", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "コース制なし（高校入学生向けSTEAM型カリキュラム）" }],
+      "sources": [{ "title": "芝浦工業大学附属高等学校 STEAM型カリキュラム", "url": "https://www.fzk.shibaura-it.ac.jp/high/steam_curriculum/", "verifiedAt": "2026-08-10" }, { "title": "芝浦工業大学附属高等学校 2027年度募集概要", "url": "https://www.fzk.shibaura-it.ac.jp/admission/high/outline/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310300033", "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（高校募集なし。高2から文系・理系）" }],
+      "sources": [{ "title": "芝中学校・芝高等学校 学園紹介", "url": "https://www.shiba.ac.jp/introduction/", "verifiedAt": "2026-08-10" }, { "title": "芝中学校・芝高等学校 全ての教科が主要教科", "url": "https://www.shiba.ac.jp/learning/subject/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113320300041", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "2027年4月から吉祥寺湧水高等学校（共学、湧水リベラルアーツ／協働的・個別最適な学び）" }],
+      "sources": [{ "title": "吉祥寺湧水中学校・高等学校 学びの全体像", "url": "https://kichijoji-yusui.ac.jp/learning/", "verifiedAt": "2026-08-10" }, { "title": "吉祥寺湧水中学校・高等学校 2027年度入学案内", "url": "https://kichijoji-yusui.ac.jp/admission/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311600127", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特進コース／選抜コース／進学コース" }],
+      "sources": [{ "title": "豊南高等学校 3つのコース", "url": "https://hs.honan.ed.jp/education/course/", "verifiedAt": "2026-08-10" }, { "title": "豊南高等学校 生徒募集要項", "url": "https://hs.honan.ed.jp/honan-info/recruitment", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

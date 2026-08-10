@@ -23894,6 +23894,7 @@
     {
       "id": "wk_d113311700064",
       "name": "聖学院高等学校",
+      "nameKana": "せいがくいんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都北区中里３－１２－１",
@@ -23901,12 +23902,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.seigakuin.ed.jp/",
+      "tags": ["私立", "男子校", "全日制", "普通科", "高校募集あり", "GIC", "グローバル教育", "STEAM教育"]
     },
     {
       "id": "wk_d113320300014",
       "name": "聖徳学園高等学校",
+      "nameKana": "しょうとくがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都武蔵野市境南町２－１１－８",
@@ -23914,12 +23917,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://jsh.shotoku.ed.jp/",
+      "tags": ["私立", "共学", "全日制", "普通科", "高校募集あり", "データサイエンス", "STEAM教育", "グローバル教育"]
     },
     {
       "id": "wk_d113310300079",
       "name": "聖心女子学院高等科",
+      "nameKana": "せいしんじょがくいんこうとうか",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区白金４－１１－１",
@@ -23927,12 +23932,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.tky-sacred-heart.ed.jp/",
+      "tags": ["私立", "女子校", "全日制", "普通科", "高校募集なし", "中高一貫", "カトリック教育", "4-4-4制"]
     },
     {
       "id": "wk_d113311000016",
       "name": "自由ヶ丘学園高等学校",
+      "nameKana": "じゆうがおかがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都目黒区自由が丘２－２１－１",
@@ -23940,12 +23947,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.jiyugaoka.ed.jp/",
+      "tags": ["私立", "共学", "全日制", "普通科", "高校募集あり", "7専攻", "国際教養", "STEAM教育"]
     },
     {
       "id": "wk_d113322200011",
       "name": "自由学園高等部",
+      "nameKana": "じゆうがくえんこうとうぶ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都東久留米市学園町１－８－１５",
@@ -23953,12 +23962,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://jiyu.school/",
+      "tags": ["私立", "共学", "全日制", "普通科", "高校募集あり", "単位制", "探究学習", "寮あり"]
     },
     {
       "id": "wk_d113310300104",
       "name": "芝国際高等学校",
+      "nameKana": "しばこくさいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区芝４－１－３０",
@@ -23966,12 +23977,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.shiba-kokusai.ed.jp/",
+      "tags": ["私立", "共学", "全日制", "普通科", "高校募集あり", "国際コース", "本科コース", "STEAM教育", "グローバル教育"]
     },
     {
       "id": "wk_d113310800047",
       "name": "芝浦工業大学附属高等学校",
+      "nameKana": "しばうらこうぎょうだいがくふぞくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都江東区豊洲６－２－７",
@@ -23979,12 +23992,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.fzk.shibaura-it.ac.jp/",
+      "tags": ["私立", "共学", "全日制", "普通科", "高校募集あり", "STEAM教育", "高大連携", "理工系教育"]
     },
     {
       "id": "wk_d113310300033",
       "name": "芝高等学校",
+      "nameKana": "しばこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区芝公園３－５－３７",
@@ -23992,8 +24007,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.shiba.ac.jp/",
+      "tags": ["私立", "男子校", "全日制", "普通科", "高校募集なし", "完全中高一貫", "探究学習", "体験学習"]
     },
     {
       "id": "wk_d113312000023",
@@ -24013,6 +24029,7 @@
     {
       "id": "wk_d113320300041",
       "name": "藤村女子高等学校",
+      "nameKana": "ふじむらじょしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都武蔵野市吉祥寺本町２－１６－３",
@@ -24020,12 +24037,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://kichijoji-yusui.ac.jp/",
+      "tags": ["私立", "共学", "全日制", "普通科", "高校募集あり", "2027年校名変更", "吉祥寺湧水高等学校", "探究学習", "デジタル教育", "アート教育"]
     },
     {
       "id": "wk_d113311600127",
       "name": "豊南高等学校",
+      "nameKana": "ほうなんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都豊島区高松３－６－７",
@@ -24033,8 +24052,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://hs.honan.ed.jp/",
+      "tags": ["私立", "共学", "全日制", "普通科", "高校募集あり", "特進コース", "選抜コース", "進学コース", "4ターム制"]
     },
     {
       "id": "wk_d113311600109",

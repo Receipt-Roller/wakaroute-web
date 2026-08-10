@@ -2454,6 +2454,64 @@
       "applicationPeriod": "第1回：Web〜2027年2月6日（土）23:59、郵送2月8日（月）17:00必着／第2回：Web・郵送2月12日（金）17:00まで", "testDates": ["第1回：2027年2月10日（水）8:30集合", "第2回：2027年2月13日（土）8:30集合"], "resultDate": "各試験日の18:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
       "notes": ["募集人員は第1回男女70人、第2回男女30人です。", "国語・数学・英語、国語・社会・英語、理科・数学・英語のいずれか3教科と個人面接で選考します。英語はリスニングを含みます。", "特進クラスは入試成績で決定します。併願優遇は評定・欠席等の条件があるため中学校と確認してください。"],
       "sources": [{ "title": "立正大学付属立正高等学校 令和9年度一般入試募集要項", "url": "https://www.rissho-hs.ac.jp/exam/summary_high/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311700064"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "GIC推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2027年1月16日（土）9:00〜1月20日（水）16:00", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）12:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["Global Innovation Classの男子10人を募集します。", "英語60分、思考力90分、面接約20分で選考します。", "英語授業への接続として英検準2級程度が推奨されています。"], "sources": [{ "title": "聖学院高等学校 2027年度GIC募集要項", "url": "https://www.seigakuin.ed.jp/wordpress/wp-content/uploads/2026/05/20260520-6a0cfb2fbc753.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311700064"], "academicYear": 2027, "selection": "general", "selectionLabel": "GIC一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）9:00〜2月7日（日）16:00", "testDates": ["2027年2月11日（木・祝）"], "resultDate": "2027年2月11日（木・祝）20:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["Global Innovation Classの男子5人と併願優遇若干名を募集します。", "英語60分、思考力90分、面接で選考します。", "出願区分ごとの条件と提出書類は募集要項で確認してください。"], "sources": [{ "title": "聖学院高等学校 2027年度GIC募集要項", "url": "https://www.seigakuin.ed.jp/wordpress/wp-content/uploads/2026/05/20260520-6a0cfb2fbc753.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113320300014"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2027年1月15日（金）9:00〜1月16日（土）15:00", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）10:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["難関国公立型・文理進学型は合計30人、データサイエンスは推薦・一般合計25人を募集します。", "選考方法は型・コースと推薦区分で異なります。", "データサイエンスは作文、面接、提出物等を用いる独自選考です。"], "sources": [{ "title": "聖徳学園高等学校 2027年度入試要項", "url": "https://jsh.shotoku.ed.jp/assets/library/2026/06/78d9b42c03ce587f57569f1b9cd9f199.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113320300014"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）9:00〜2月3日（水）15:00", "testDates": ["2027年2月10日（水）", "2027年2月11日（木・祝）"], "resultDate": "各試験日の翌日10:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["難関国公立型・文理進学型は合計75人、データサイエンスは推薦・一般合計25人を募集します。", "通常型は国語・数学・英語、データサイエンスは作文・動画課題・討論・発表・面接等、方式により選考が異なります。", "希望する型・方式の試験日と提出物を公式要項で確認してください。"], "sources": [{ "title": "聖徳学園高等学校 2027年度入試要項", "url": "https://jsh.shotoku.ed.jp/assets/library/2026/06/78d9b42c03ce587f57569f1b9cd9f199.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311000016"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試 第1・第2", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web・郵送：2027年1月15日（金）〜1月18日（月）消印有効", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["推薦と一般を合わせて270人、推薦は135人を募集します。", "推薦第1は作文と面接、第2は英語・国語・数学の適性検査と面接です。", "コース・専攻ごとの出願基準を公式募集要項で確認してください。"], "sources": [{ "title": "自由ヶ丘学園高等学校 2027年度募集要項", "url": "https://www.jiyugaoka.ed.jp/wp-content/themes/jiyugaoka/images/jiyugaoka-bosyuyoko2027.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311000016"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試・併願優遇", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "専願：2027年1月25日（月）〜1月29日（金）／併願優遇・一般：1月25日（月）〜2月5日（金）", "testDates": ["2027年2月10日（水）", "2027年2月12日（金）"], "resultDate": "各試験日の翌日Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["一般募集は135人です。", "英語・国語・数学と面接で選考し、受験区分により2月10日または12日に実施します。", "コース・専攻と単願・併願区分に対応する試験日を公式募集要項で確認してください。"], "sources": [{ "title": "自由ヶ丘学園高等学校 2027年度募集要項", "url": "https://www.jiyugaoka.ed.jp/wp-content/themes/jiyugaoka/images/jiyugaoka-bosyuyoko2027.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113322200011"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2027年1月15日（金）9:00〜1月19日（火）、書類提出あり", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月23日（土）14:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["外部募集は推薦30人です。", "適性試験、本人面接、保護者面接で選考します。", "出願前に校内イベント参加と個別相談が必要で、ポートフォリオも提出します。"], "sources": [{ "title": "自由学園高等部 2027年度募集要項", "url": "https://www.jiyu.ac.jp/nyushi/2027_sh.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113322200011"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）9:00〜2月6日（土）、書類提出あり", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月11日（木・祝）14:00", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["外部募集は一般30人です。", "国語・数学・英語、グループアセスメント、本人面接、保護者面接で選考します。", "出願前に校内イベント参加と個別相談が必要で、ポートフォリオも提出します。"], "sources": [{ "title": "自由学園高等部 2027年度募集要項", "url": "https://www.jiyu.ac.jp/nyushi/2027_sh.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113310300104"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）〜2月5日（金）", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月11日（木・祝）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["国際コースは若干名、本科コースは20人を募集します。", "国際コースは英語・国語・数学（数学は英語出題）と英語・日本語面接、本科コースは英語・国語・数学で選考します。", "帰国生入試は別日程です。出願前に公式要項の対象条件と提出書類を確認してください。"],
+      "sources": [{ "title": "芝国際高等学校 2027年度高校募集要項", "url": "https://www.shiba-kokusai.ed.jp/dl_pamphlet/pdf/info_shs2027.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113310800047"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試・女子理工系推薦入試", "status": "schedule-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "Web：2027年1月15日（金）〜1月19日（火）13:00", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）20:00〜1月23日（土）12:00 Web発表", "detailsStatus": "school-details-pending", "detailsStatusLabel": "正式募集要項の発表待ち", "verifiedAt": "2026-08-10",
+      "notes": ["推薦入試と女子理工系推薦入試を合わせて25人を募集します。", "推薦入試は数学・作文・面接、女子理工系推薦入試は数学・面接で選考します。", "正式な募集要項は2026年10月下旬公開予定です。出願資格・提出書類は公開後に確認してください。"],
+      "sources": [{ "title": "芝浦工業大学附属高等学校 2027年度高校入試概要", "url": "https://www.fzk.shibaura-it.ac.jp/admission/high/outline/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113310800047"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試", "status": "schedule-announced", "statusLabel": "入試概要発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）〜2月5日（金）13:00", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月10日（水）20:00〜2月11日（木・祝）12:00 Web発表", "detailsStatus": "school-details-pending", "detailsStatusLabel": "正式募集要項の発表待ち", "verifiedAt": "2026-08-10",
+      "notes": ["普通科25人を募集します。", "国語60分、数学60分・150点、英語60分（リスニングを含む）と面接で選考します。", "正式な募集要項は2026年10月下旬公開予定です。出願資格・提出書類は公開後に確認してください。"],
+      "sources": [{ "title": "芝浦工業大学附属高等学校 2027年度高校入試概要", "url": "https://www.fzk.shibaura-it.ac.jp/admission/high/outline/", "verifiedAt": "2026-08-10" }]
     }
   ]
 }
