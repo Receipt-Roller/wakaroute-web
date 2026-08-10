@@ -23144,6 +23144,7 @@
     {
       "id": "wk_d113310500095",
       "name": "東洋大学京北高等学校",
+      "nameKana": "とうようだいがくけいほくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区白山２－３６－５",
@@ -23151,12 +23152,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.toyo.ac.jp/toyodaikeihoku/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "全日制", "普通科", "哲学教育", "東洋大学附属", "高大連携", "探究学習", "進学指導"]
     },
     {
       "id": "wk_d113310500166",
       "name": "東洋女子高等学校",
+      "nameKana": "とうようじょしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区千石３－２９－８",
@@ -23164,12 +23167,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.toyojoshi.ac.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "女子校", "全日制", "普通科", "特別進学", "総合進学", "探究学習", "グローバル教育", "学習支援"]
     },
     {
       "id": "wk_d113310300140",
       "name": "東洋英和女学院高等部",
+      "nameKana": "とうようえいわじょがくいんこうとうぶ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都港区六本木５－１４－４０",
@@ -23177,12 +23182,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.toyoeiwa.ac.jp/chu-ko/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "女子校", "全日制", "普通科", "完全中高一貫", "高校募集なし", "キリスト教教育", "英語教育", "国際教育"]
     },
     {
       "id": "wk_d113310100106",
       "name": "東洋高等学校",
+      "nameKana": "とうようこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区神田三崎町１－４－１６",
@@ -23190,12 +23197,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.toyo.ed.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "全日制", "普通科", "特進選抜", "特進", "探究学習", "英語教育", "学習支援"]
     },
     {
       "id": "wk_d113311300086",
       "name": "東海大学付属望星高等学校",
+      "nameKana": "とうかいだいがくふぞくぼうせいこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都渋谷区富ヶ谷２－１０－７",
@@ -23203,8 +23212,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.bosei.tokai.ed.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["私立", "共学校", "通信制", "普通科", "広域通信制", "単位制", "2学期制", "東海大学付属", "学習支援"]
     },
     {
       "id": "wk_d113310300097",
