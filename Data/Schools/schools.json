@@ -18758,8 +18758,8 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-04",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["現況要確認", "公式サイト未確認", "高校募集未確認"]
     },
     {
       "id": "wk_d113321000033",
@@ -19123,6 +19123,7 @@
     },
     {
       "id": "wk_d113311300040",
+      "nameKana": "じっせんじょしがくえんこうとうがっこう",
       "name": "実践女子学園高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -19131,11 +19132,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://hs.jissen.ac.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["女子校", "普通科", "全日制", "中高一貫", "通常の高校募集なし"]
     },
     {
       "id": "wk_d113311400012",
+      "nameKana": "じっせんがくえんこうとうがっこう",
       "name": "実践学園高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -19144,11 +19147,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.jissengakuen-h.ed.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["共学", "普通科", "全日制", "高校募集あり", "5コース"]
     },
     {
       "id": "wk_d113311300077",
+      "nameKana": "ふじみがおかこうとうがっこう",
       "name": "富士見丘高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -19157,11 +19162,13 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.fujimigaoka.ac.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["女子校", "普通科", "全日制", "高校募集あり", "グローバル教育"]
     },
     {
       "id": "wk_d113312000032",
+      "nameKana": "ふじみこうとうがっこう",
       "name": "富士見高等学校",
       "prefectureCode": "13",
       "prefecture": "東京都",
@@ -19170,8 +19177,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "officialUrl": "https://www.fujimi.ac.jp/",
+      "lastVerifiedAt": "2026-08-10",
+      "tags": ["女子校", "普通科", "全日制", "中高一貫", "通常の高校募集なし"]
     },
     {
       "id": "wk_d113311500075",

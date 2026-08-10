@@ -694,7 +694,8 @@
       "gender": "unknown",
       "programs": [],
       "sources": [
-        { "title": "文部科学省 令和7年5月1日時点 学校コード（東日本）", "url": "https://www.mext.go.jp/content/20251226-mxt_chousa01-000011635_2.csv", "publishedAt": "2025-12-26", "verifiedAt": "2026-08-04" }
+        { "title": "文部科学省 令和7年5月1日時点 学校コード（東日本）", "url": "https://www.mext.go.jp/content/20251226-mxt_chousa01-000011635_2.csv", "publishedAt": "2025-12-26", "verifiedAt": "2026-08-10" },
+        { "title": "東京都知事が認可している私立高等学校（全日制）の一覧（令和8年4月1日現在）", "url": "https://www.seikatubunka.metro.tokyo.lg.jp/shigaku/kankeisya/ninka/0000000140", "publishedAt": "2026-04-01", "verifiedAt": "2026-08-10" }
       ]
     },
     {
