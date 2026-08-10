@@ -23489,6 +23489,7 @@
     {
       "id": "wk_d113311900017",
       "name": "淑徳高等学校",
+      "nameKana": "しゅくとくこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都板橋区前野町５－１４－１",
@@ -23496,12 +23497,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.shukutoku.ed.jp/",
+      "tags": ["私立", "共学", "全日制", "普通科", "スーパー特進コース", "特進選抜コース", "留学コース", "高校募集"]
     },
     {
       "id": "wk_d113311300059",
       "name": "渋谷教育学園渋谷高等学校",
+      "nameKana": "しぶやきょういくがくえんしぶやこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都渋谷区渋谷１－２１－１８",
@@ -23509,12 +23512,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.shibushibu.jp/",
+      "tags": ["私立", "共学", "全日制", "普通科", "完全中高一貫", "高校募集なし"]
     },
     {
       "id": "wk_d113312100022",
       "name": "潤徳女子高等学校",
+      "nameKana": "じゅんとくじょしこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都足立区千住２－１１",
@@ -23522,12 +23527,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.juntoku.ac.jp/",
+      "tags": ["私立", "女子", "全日制", "普通科", "進学コース", "特進コース", "美術コース", "高校募集"]
     },
     {
       "id": "wk_d113311700091",
       "name": "瀧野川女子学園高等学校",
+      "nameKana": "たきのがわじょしがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都北区上中里１－２７－７",
@@ -23535,12 +23542,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.takinogawa.ed.jp/",
+      "tags": ["私立", "女子", "全日制", "普通科", "進学コース", "特進コース", "特進選抜クラス", "高校募集"]
     },
     {
       "id": "wk_d113310500175",
       "name": "獨協高等学校",
+      "nameKana": "どっきょうこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都文京区関口３－８－１",
@@ -23548,8 +23557,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.dokkyo.ed.jp/",
+      "tags": ["私立", "男子", "全日制", "普通科", "完全中高一貫", "高校募集なし"]
     },
     {
       "id": "wk_d113320900045",
@@ -23584,6 +23594,7 @@
     {
       "id": "wk_d113311200185",
       "name": "田園調布学園高等部",
+      "nameKana": "でんえんちょうふがくえんこうとうぶ",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区東玉川２－２１－８",
@@ -23591,12 +23602,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.chofu.ed.jp/",
+      "tags": ["私立", "女子", "全日制", "普通科", "完全中高一貫", "高校募集なし"]
     },
     {
       "id": "wk_d113311200194",
       "name": "田園調布雙葉高等学校",
+      "nameKana": "でんえんちょうふふたばこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都世田谷区玉川田園調布１－２０－９",
@@ -23604,12 +23617,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://www.denenchofufutaba.ed.jp/",
+      "tags": ["私立", "女子", "全日制", "普通科", "カトリック", "一貫教育", "高校一般募集なし"]
     },
     {
       "id": "wk_d113321100023",
       "name": "白梅学園高等学校",
+      "nameKana": "しらうめがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都小平市小川町１－８３０",
@@ -23617,12 +23632,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://highwww.shiraume.ac.jp/",
+      "tags": ["私立", "女子", "全日制", "普通科", "特別選抜コース", "選抜コース", "進学コース", "高校募集"]
     },
     {
       "id": "wk_d113310100160",
       "name": "白百合学園高等学校",
+      "nameKana": "しらゆりがくえんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都千代田区九段北２－４－１",
@@ -23630,12 +23647,14 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://shirayuri.ed.jp/",
+      "tags": ["私立", "女子", "全日制", "普通科", "カトリック", "併設型中高一貫", "高校募集なし"]
     },
     {
       "id": "wk_d113310400069",
       "name": "目白研心高等学校",
+      "nameKana": "めじろけんしんこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
       "address": "東京都新宿区中落合４－３１－１",
@@ -23643,8 +23662,9 @@
       "ownership": "private",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
-      "tags": []
+      "lastVerifiedAt": "2026-08-10",
+      "officialUrl": "https://mk.mejiro.ac.jp/",
+      "tags": ["私立", "共学", "全日制", "普通科", "特進コース", "総合コース", "グローバルサイエンスコース", "グローバルコミュニケーションコース", "高校募集"]
     },
     {
       "id": "wk_d113311000052",

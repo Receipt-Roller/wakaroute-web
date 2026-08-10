@@ -2868,6 +2868,56 @@
       "schoolId": "wk_d113311600083", "gender": "coeducational",
       "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "選抜コース（アルティメット／プレミアム／選抜）・特進コース" }],
       "sources": [{ "title": "淑徳巣鴨高等学校 コース案内", "url": "https://www.shukusu.ed.jp/hs/course.html", "verifiedAt": "2026-08-10" }, { "title": "淑徳巣鴨高等学校 2027年度入試要項", "url": "https://my.ebook5.net/shukusu/ihHJCY/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311900017", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "スーパー特進コース／特進選抜コース／留学コース" }],
+      "sources": [{ "title": "淑徳高等学校 コース紹介", "url": "https://www.shukutoku.ed.jp/highschool/course", "verifiedAt": "2026-08-10" }, { "title": "淑徳高等学校 2027年入試要項（案）", "url": "https://www.shukutoku.ed.jp/information/215", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311300059", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（高校募集なし）" }],
+      "sources": [{ "title": "渋谷教育学園渋谷中学高等学校 2027年度募集要項", "url": "https://www.shibushibu.jp/admission/detail.html", "verifiedAt": "2026-08-10" }, { "title": "渋谷教育学園渋谷中学高等学校 6年間の学習計画", "url": "https://www.shibushibu.jp/education/study.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113312100022", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "進学コース／特進コース／美術コース" }],
+      "sources": [{ "title": "潤徳女子高等学校 コース紹介", "url": "https://www.juntoku.ac.jp/education/course.html", "verifiedAt": "2026-08-10" }, { "title": "潤徳女子高等学校 2027年度生徒募集要項", "url": "https://www.juntoku.ac.jp/jt2025/wp-content/uploads/2026/07/2027boshu-yoko.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311700091", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "進学コース／特進コース／特進選抜クラス" }],
+      "sources": [{ "title": "瀧野川女子学園高等学校 高校カリキュラム", "url": "https://www.takinogawa.ed.jp/s_curriculum.html", "verifiedAt": "2026-08-10" }, { "title": "瀧野川女子学園高等学校 2027年度募集要項", "url": "https://www.takinogawa.ed.jp/pdf/2027s_admissions.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310500175", "gender": "boys",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（高校募集なし）" }],
+      "sources": [{ "title": "獨協中学・高等学校 教育方針", "url": "https://www.dokkyo.ed.jp/education/educational_policy", "verifiedAt": "2026-08-10" }, { "title": "獨協中学校 2027年度生徒募集要項", "url": "https://www.dokkyo.ed.jp/admissions/student_recruitment", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311200185", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "完全中高一貫（高校募集なし）" }],
+      "sources": [{ "title": "田園調布学園 6年間の流れ・カリキュラム", "url": "https://www.chofu.ed.jp/education/curriculum/", "verifiedAt": "2026-08-10" }, { "title": "田園調布学園 2027年度募集要項（中等部入試）", "url": "https://www.chofu.ed.jp/exam/guide/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113311200194", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "一貫教育（高校一般募集なし）" }],
+      "sources": [{ "title": "田園調布雙葉中学高等学校 教科・教育課程", "url": "https://www.denenchofufutaba.ed.jp/juniorandsenior/education/curriculum.html", "verifiedAt": "2026-08-10" }, { "title": "田園調布雙葉学園 受験をお考えの方", "url": "https://www.denenchofufutaba.ed.jp/admissions/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113321100023", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特別選抜コース（特選国公立系／特選文理系）・選抜コース（選抜文理系）・進学コース（保育・教育系／進学文理系）" }],
+      "sources": [{ "title": "白梅学園高等学校 コースガイド", "url": "https://highwww.shiraume.ac.jp/course/course-guide/", "verifiedAt": "2026-08-10" }, { "title": "白梅学園高等学校 募集要項", "url": "https://highwww.shiraume.ac.jp/admissions/recruiting/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310100160", "gender": "girls",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "併設型中高一貫（高校募集なし）" }],
+      "sources": [{ "title": "白百合学園中学高等学校 学園概要", "url": "https://shirayuri.ed.jp/outline.html", "verifiedAt": "2026-08-10" }, { "title": "白百合学園中学高等学校 募集要項", "url": "https://shirayuri.ed.jp/top.html", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolId": "wk_d113310400069", "gender": "coeducational",
+      "programs": [{ "attendanceType": "full-time", "department": "普通科", "course": "特進コース／総合コース／グローバルサイエンスコース／グローバルコミュニケーションコース" }],
+      "sources": [{ "title": "目白研心高等学校 コース", "url": "https://mk.mejiro.ac.jp/study_career/high_school/course/", "verifiedAt": "2026-08-10" }, { "title": "目白研心高等学校 2027年度入試要項（簡易版）", "url": "https://mk.mejiro.ac.jp/pdf/s_youkou_2026.pdf", "verifiedAt": "2026-08-10" }]
     }
   ]
 }

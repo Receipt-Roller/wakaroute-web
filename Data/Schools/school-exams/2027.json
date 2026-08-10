@@ -2364,6 +2364,54 @@
       "applicationPeriod": "Web：2027年1月25日（月）0:00〜2月2日（火）23:59／書類：1月25日〜2月3日に郵便局窓口から発送", "testDates": ["2027年2月13日（土）8:30集合"], "resultDate": "2027年2月15日（月）10:00 Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
       "notes": ["推薦入試と合わせ、普通科男女235人（選抜コース155人、特進コース80人）を募集します。", "国語・数学・英語各50分100点のマークシート方式学力試験で、英語はリスニング20点分を含みます。面接はありません。", "プレミアムクラスは英語を1.5倍の150点とし、3科350点で判定します。"],
       "sources": [{ "title": "淑徳巣鴨高等学校 2027年度入試要項", "url": "https://my.ebook5.net/shukusu/ihHJCY/", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311900017"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（単願・併願）", "status": "schedule-announced", "statusLabel": "入試要項（案）発表済み",
+      "applicationPeriod": "正式な募集要項で発表予定", "testDates": ["2027年1月22日（金）", "併願推薦は2027年1月24日（日）も選択可"], "resultDate": "1月22日受験は1月23日（土）、1月24日受験は1月25日（月）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "正式募集要項の発表待ち", "officialPublishedAt": "2026-04-07", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員案はスーパー特進20人、特進選抜50人、留学20人です。留学コースは単願のみです。", "英語（リスニングを含む）・国語・数学の適性検査と面接を予定しています。", "確認日時点では入試要項（案）です。出願期間・確定条件は8月下旬予定の正式冊子で確認してください。"],
+      "sources": [{ "title": "淑徳高等学校 2027年入試要項（案）", "url": "https://www.shukutoku.ed.jp/information/215", "publishedAt": "2026-04-07", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311900017"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試（単願・併願・優遇）", "status": "schedule-announced", "statusLabel": "入試要項（案）発表済み",
+      "applicationPeriod": "正式な募集要項で発表予定", "testDates": ["2027年2月11日（木・祝）", "2027年2月14日（日）"], "resultDate": "2月11日受験は2月12日（金）、2月14日受験は2月15日（月）", "detailsStatus": "school-details-pending", "detailsStatusLabel": "正式募集要項の発表待ち", "officialPublishedAt": "2026-04-07", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員案はスーパー特進20人、特進選抜70人、留学コースは若干名です。留学コースは単願のみです。", "英語（リスニングを含む）・国語・数学と面接を予定しています。", "確認日時点では入試要項（案）です。出願期間・確定条件は8月下旬予定の正式冊子で確認してください。"],
+      "sources": [{ "title": "淑徳高等学校 2027年入試要項（案）", "url": "https://www.shukutoku.ed.jp/information/215", "publishedAt": "2026-04-07", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113312100022"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（A推薦・B推薦）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web登録：2026年12月20日（日）〜2027年1月18日（月）15:00／書類：1月15日（金）〜18日（月）", "testDates": ["A推薦：2027年1月23日（土）", "B推薦：2027年1月22日（金）または23日（土）"], "resultDate": "2027年1月24日（日）Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員は進学コース72人、特進コース10人、美術コース40人です。", "推薦区分とコースにより適性検査、作文、実技、面接等の選考内容が異なります。", "出願資格・内申基準・提出書類は公式募集要項で確認してください。"],
+      "sources": [{ "title": "潤徳女子高等学校 2027年度生徒募集要項", "url": "https://www.juntoku.ac.jp/jt2025/wp-content/uploads/2026/07/2027boshu-yoko.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113312100022"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試・併願優遇", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web登録：2026年12月20日（日）〜2027年1月29日（金）15:00／書類：1月25日（月）〜29日（金）", "testDates": ["2027年2月10日（水）", "2027年2月11日（木・祝）"], "resultDate": "2027年2月12日（金）Web発表", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["募集人員は進学コース73人、特進コース10人、美術コース40人です。", "受験区分とコースにより国語・数学・英語、美術実技、面接等の選考内容が異なります。", "コースごとの試験科目と併願優遇条件を公式募集要項で確認してください。"],
+      "sources": [{ "title": "潤徳女子高等学校 2027年度生徒募集要項", "url": "https://www.juntoku.ac.jp/jt2025/wp-content/uploads/2026/07/2027boshu-yoko.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311700091"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（単願A・併願B）", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2027年1月15日（金）9:00〜1月20日（水）16:00", "testDates": ["単願A：2027年1月22日（金）", "併願B：2027年1月22日（金）または23日（土）"], "resultDate": "1月22日受験は1月23日（土）、1月23日受験は1月25日（月）", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["進学・特進・特進選抜クラスを合わせて女子135人を募集します。", "3教科の基礎力適性検査（合計50分）と個人面接で選考します。", "推薦区分、対象地域、内申基準は公式募集要項で確認してください。"],
+      "sources": [{ "title": "瀧野川女子学園高等学校 2027年度募集要項", "url": "https://www.takinogawa.ed.jp/pdf/2027s_admissions.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113311700091"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試・併願優遇", "status": "details-announced", "statusLabel": "募集要項発表済み",
+      "applicationPeriod": "Web：2027年1月25日（月）9:00〜2月8日（月）16:00", "testDates": ["2027年2月10日（水）"], "resultDate": "2027年2月12日（金）", "detailsStatus": "details-announced", "detailsStatusLabel": "学校別詳細発表済み", "verifiedAt": "2026-08-10",
+      "notes": ["進学・特進・特進選抜クラスを合わせて女子135人を募集します。", "国語・数学・英語を各50分で実施し、進学コースは高得点2教科で判定します。個人面接も行います。", "併願優遇の地域・内申条件と必要書類は公式募集要項で確認してください。"],
+      "sources": [{ "title": "瀧野川女子学園高等学校 2027年度募集要項", "url": "https://www.takinogawa.ed.jp/pdf/2027s_admissions.pdf", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113310400069"], "academicYear": 2027, "selection": "recommendation", "selectionLabel": "推薦入試（単願推薦・併願推薦）", "status": "schedule-announced", "statusLabel": "入試要項（簡易版）発表済み",
+      "applicationPeriod": "Web・書類：2027年1月15日（金）0:00〜1月19日（火）消印有効（郵送のみ）", "testDates": ["2027年1月22日（金）"], "resultDate": "2027年1月22日（金）15:00", "detailsStatus": "school-details-pending", "detailsStatusLabel": "正式募集要項の発表待ち", "officialPublishedAt": "2026-05-26", "verifiedAt": "2026-08-10",
+      "notes": ["普通科100人を募集します。", "作文50分・800字と面接で選考します。併願推薦は千葉・埼玉県生が対象です。", "グローバルコミュニケーションコース希望者は英検準2級以上が必要です。", "確認日時点では簡易版です。正式要項は9月中旬頃公開予定のため、確定条件を再確認してください。"],
+      "sources": [{ "title": "目白研心高等学校 2027年度入試要項（簡易版）", "url": "https://mk.mejiro.ac.jp/pdf/s_youkou_2026.pdf", "publishedAt": "2026-05-26", "verifiedAt": "2026-08-10" }]
+    },
+    {
+      "schoolIds": ["wk_d113310400069"], "academicYear": 2027, "selection": "general", "selectionLabel": "一般入試 第1回・第2回", "status": "schedule-announced", "statusLabel": "入試要項（簡易版）発表済み",
+      "applicationPeriod": "Web・書類：2027年1月25日（月）0:00〜2月3日（水）消印有効（郵送のみ）", "testDates": ["第1回：2027年2月10日（水）", "第2回：2027年2月11日（木・祝）"], "resultDate": "各試験日の19:00", "detailsStatus": "school-details-pending", "detailsStatusLabel": "正式募集要項の発表待ち", "officialPublishedAt": "2026-05-26", "verifiedAt": "2026-08-10",
+      "notes": ["普通科100人を募集します。", "国語・英語・数学を各50分・各100点で実施し、併願優遇なしの受験者には面接があります。", "グローバルコミュニケーションコース希望者は英検準2級以上が必要です。", "確認日時点では簡易版です。正式要項は9月中旬頃公開予定のため、確定条件を再確認してください。"],
+      "sources": [{ "title": "目白研心高等学校 2027年度入試要項（簡易版）", "url": "https://mk.mejiro.ac.jp/pdf/s_youkou_2026.pdf", "publishedAt": "2026-05-26", "verifiedAt": "2026-08-10" }]
     }
   ]
 }
