@@ -164,1953 +164,2507 @@
       "mextSchoolCode": "D101210100013",
       "legacySchoolSurveyCode": "015512",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌西"
+      ]
     },
     {
       "id": "wk_d101210100022",
       "mextSchoolCode": "D101210100022",
       "legacySchoolSurveyCode": "015513",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌南"
+      ]
     },
     {
       "id": "wk_d101210100031",
       "mextSchoolCode": "D101210100031",
       "legacySchoolSurveyCode": "015694",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "市立札幌旭丘"
+      ]
     },
     {
       "id": "wk_d101210100040",
       "mextSchoolCode": "D101210100040",
       "legacySchoolSurveyCode": "015999",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "市立札幌大通"
+      ]
     },
     {
       "id": "wk_d101210200012",
       "mextSchoolCode": "D101210200012",
       "legacySchoolSurveyCode": "015514",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌北"
+      ]
     },
     {
       "id": "wk_d101210200021",
       "mextSchoolCode": "D101210200021",
       "legacySchoolSurveyCode": "015518",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌工業"
+      ]
     },
     {
       "id": "wk_d101210200030",
       "mextSchoolCode": "D101210200030",
       "legacySchoolSurveyCode": "015684",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌北陵"
+      ]
     },
     {
       "id": "wk_d101210200049",
       "mextSchoolCode": "D101210200049",
       "legacySchoolSurveyCode": "015968",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌英藍"
+      ]
     },
     {
       "id": "wk_d101210200058",
       "mextSchoolCode": "D101210200058",
       "legacySchoolSurveyCode": "015981",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌国際情報"
+      ]
     },
     {
       "id": "wk_d101210200067",
       "mextSchoolCode": "D101210200067",
       "legacySchoolSurveyCode": "015520",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "有朋"
+      ]
     },
     {
       "id": "wk_d101210200076",
       "mextSchoolCode": "D101210200076",
       "legacySchoolSurveyCode": "015919",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "市立札幌新川"
+      ]
     },
     {
       "id": "wk_d101210300011",
       "mextSchoolCode": "D101210300011",
       "legacySchoolSurveyCode": "015692",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌丘珠"
+      ]
     },
     {
       "id": "wk_d101210300020",
       "mextSchoolCode": "D101210300020",
       "legacySchoolSurveyCode": "015693",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌東陵"
+      ]
     },
     {
       "id": "wk_d101210300039",
       "mextSchoolCode": "D101210300039",
       "legacySchoolSurveyCode": "015956",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌東豊"
+      ]
     },
     {
       "id": "wk_d101210400010",
       "mextSchoolCode": "D101210400010",
       "legacySchoolSurveyCode": "015511",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌東"
+      ]
     },
     {
       "id": "wk_d101210400029",
       "mextSchoolCode": "D101210400029",
       "legacySchoolSurveyCode": "015793",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌白石"
+      ]
     },
     {
       "id": "wk_d101210400038",
       "mextSchoolCode": "D101210400038",
       "legacySchoolSurveyCode": "015982",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌白陵"
+      ]
     },
     {
       "id": "wk_d101210500019",
       "mextSchoolCode": "D101210500019",
       "legacySchoolSurveyCode": "015515",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌月寒"
+      ]
     },
     {
       "id": "wk_d101210500028",
       "mextSchoolCode": "D101210500028",
       "legacySchoolSurveyCode": "015948",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "市立札幌平岸"
+      ]
     },
     {
       "id": "wk_d101210600018",
       "mextSchoolCode": "D101210600018",
       "legacySchoolSurveyCode": "015945",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌南陵"
+      ]
     },
     {
       "id": "wk_d101210600027",
       "mextSchoolCode": "D101210600027",
       "legacySchoolSurveyCode": "015696",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "市立札幌啓北商業"
+      ]
     },
     {
       "id": "wk_d101210600036",
       "mextSchoolCode": "D101210600036",
       "legacySchoolSurveyCode": "015787",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "市立札幌藻岩"
+      ]
     },
     {
       "id": "wk_d101210700017",
       "mextSchoolCode": "D101210700017",
       "legacySchoolSurveyCode": "015792",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌西陵"
+      ]
     },
     {
       "id": "wk_d101210700026",
       "mextSchoolCode": "D101210700026",
       "legacySchoolSurveyCode": "015519",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌琴似工業"
+      ]
     },
     {
       "id": "wk_d101210800016",
       "mextSchoolCode": "D101210800016",
       "legacySchoolSurveyCode": "015516",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌啓成"
+      ]
     },
     {
       "id": "wk_d101210800025",
       "mextSchoolCode": "D101210800025",
       "legacySchoolSurveyCode": "015517",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌東商業"
+      ]
     },
     {
       "id": "wk_d101210800034",
       "mextSchoolCode": "D101210800034",
       "legacySchoolSurveyCode": "015953",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌厚別"
+      ]
     },
     {
       "id": "wk_d101210900015",
       "mextSchoolCode": "D101210900015",
       "legacySchoolSurveyCode": "015691",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌手稲"
+      ]
     },
     {
       "id": "wk_d101210900024",
       "mextSchoolCode": "D101210900024",
       "legacySchoolSurveyCode": "015955",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌あすかぜ"
+      ]
     },
     {
       "id": "wk_d101210900033",
       "mextSchoolCode": "D101210900033",
       "legacySchoolSurveyCode": "015966",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌稲雲"
+      ]
     },
     {
       "id": "wk_d101211000012",
       "mextSchoolCode": "D101211000012",
       "legacySchoolSurveyCode": "015952",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌真栄"
+      ]
     },
     {
       "id": "wk_d101211000021",
       "mextSchoolCode": "D101211000021",
       "legacySchoolSurveyCode": "015969",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌平岡"
+      ]
     },
     {
       "id": "wk_d101211000030",
       "mextSchoolCode": "D101211000030",
       "legacySchoolSurveyCode": "015791",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "市立札幌清田"
+      ]
     },
     {
       "id": "wk_d101220200011",
       "mextSchoolCode": "D101220200011",
       "legacySchoolSurveyCode": "015521",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "函館中部"
+      ]
     },
     {
       "id": "wk_d101220200020",
       "mextSchoolCode": "D101220200020",
       "legacySchoolSurveyCode": "015522",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "函館西"
+      ]
     },
     {
       "id": "wk_d101220200039",
       "mextSchoolCode": "D101220200039",
       "legacySchoolSurveyCode": "015523",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "函館商業"
+      ]
     },
     {
       "id": "wk_d101220200048",
       "mextSchoolCode": "D101220200048",
       "legacySchoolSurveyCode": "015524",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "函館工業"
+      ]
     },
     {
       "id": "wk_d101220200057",
       "mextSchoolCode": "D101220200057",
       "legacySchoolSurveyCode": "015605",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "南茅部"
+      ]
     },
     {
       "id": "wk_d101220200066",
       "mextSchoolCode": "D101220200066",
       "legacySchoolSurveyCode": "015961",
       "status": "closed",
-      "aliases": [],
-      "replacedById": "wk_d101220200020",
-      "replacementMextSchoolCode": "D101220200020"
+      "aliases": [
+        "函館稜北"
+      ]
     },
     {
       "id": "wk_d101220200075",
       "mextSchoolCode": "D101220200075",
       "legacySchoolSurveyCode": "015995",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "市立函館"
+      ]
     },
     {
       "id": "wk_d101220300010",
       "mextSchoolCode": "D101220300010",
       "legacySchoolSurveyCode": "015525",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "小樽潮陵"
+      ]
     },
     {
       "id": "wk_d101220300029",
       "mextSchoolCode": "D101220300029",
       "legacySchoolSurveyCode": "015526",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "小樽桜陽"
+      ]
     },
     {
       "id": "wk_d101220300038",
       "mextSchoolCode": "D101220300038",
       "legacySchoolSurveyCode": "015528",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "小樽未来創造"
+      ]
     },
     {
       "id": "wk_d101220300047",
       "mextSchoolCode": "D101220300047",
       "legacySchoolSurveyCode": "015529",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "小樽水産"
+      ]
     },
     {
       "id": "wk_d101220400019",
       "mextSchoolCode": "D101220400019",
       "legacySchoolSurveyCode": "015530",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "旭川東"
+      ]
     },
     {
       "id": "wk_d101220400028",
       "mextSchoolCode": "D101220400028",
       "legacySchoolSurveyCode": "015531",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "旭川西"
+      ]
     },
     {
       "id": "wk_d101220400037",
       "mextSchoolCode": "D101220400037",
       "legacySchoolSurveyCode": "015532",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "旭川北"
+      ]
     },
     {
       "id": "wk_d101220400046",
       "mextSchoolCode": "D101220400046",
       "legacySchoolSurveyCode": "015533",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "旭川商業"
+      ]
     },
     {
       "id": "wk_d101220400055",
       "mextSchoolCode": "D101220400055",
       "legacySchoolSurveyCode": "015534",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "旭川工業"
+      ]
     },
     {
       "id": "wk_d101220400064",
       "mextSchoolCode": "D101220400064",
       "legacySchoolSurveyCode": "015535",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "旭川農業"
+      ]
     },
     {
       "id": "wk_d101220400073",
       "mextSchoolCode": "D101220400073",
       "legacySchoolSurveyCode": "015789",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "旭川南"
+      ]
     },
     {
       "id": "wk_d101220400082",
       "mextSchoolCode": "D101220400082",
       "legacySchoolSurveyCode": "015963",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "旭川永嶺"
+      ]
     },
     {
       "id": "wk_d101220500018",
       "mextSchoolCode": "D101220500018",
       "legacySchoolSurveyCode": "015536",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "室蘭栄"
+      ]
     },
     {
       "id": "wk_d101220500027",
       "mextSchoolCode": "D101220500027",
       "legacySchoolSurveyCode": "015537",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "室蘭清水丘"
+      ]
     },
     {
       "id": "wk_d101220500036",
       "mextSchoolCode": "D101220500036",
       "legacySchoolSurveyCode": "015540",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "室蘭工業"
+      ]
     },
     {
       "id": "wk_d101220500045",
       "mextSchoolCode": "D101220500045",
       "legacySchoolSurveyCode": "015993",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "室蘭東翔"
+      ]
     },
     {
       "id": "wk_d101220600017",
       "mextSchoolCode": "D101220600017",
       "legacySchoolSurveyCode": "015541",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "釧路湖陵"
+      ]
     },
     {
       "id": "wk_d101220600026",
       "mextSchoolCode": "D101220600026",
       "legacySchoolSurveyCode": "015542",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "釧路江南"
+      ]
     },
     {
       "id": "wk_d101220600035",
       "mextSchoolCode": "D101220600035",
       "legacySchoolSurveyCode": "015543",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "釧路商業"
+      ]
     },
     {
       "id": "wk_d101220600044",
       "mextSchoolCode": "D101220600044",
       "legacySchoolSurveyCode": "015544",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "釧路工業"
+      ]
     },
     {
       "id": "wk_d101220600053",
       "mextSchoolCode": "D101220600053",
       "legacySchoolSurveyCode": "015679",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "阿寒"
+      ]
     },
     {
       "id": "wk_d101220600062",
       "mextSchoolCode": "D101220600062",
       "legacySchoolSurveyCode": "015704",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "釧路北陽"
+      ]
     },
     {
       "id": "wk_d101220600071",
       "mextSchoolCode": "D101220600071",
       "legacySchoolSurveyCode": "015998",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "釧路明輝"
+      ]
     },
     {
       "id": "wk_d101220700016",
       "mextSchoolCode": "D101220700016",
       "legacySchoolSurveyCode": "015545",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "帯広柏葉"
+      ]
     },
     {
       "id": "wk_d101220700025",
       "mextSchoolCode": "D101220700025",
       "legacySchoolSurveyCode": "015546",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "帯広三条"
+      ]
     },
     {
       "id": "wk_d101220700034",
       "mextSchoolCode": "D101220700034",
       "legacySchoolSurveyCode": "015547",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "帯広工業"
+      ]
     },
     {
       "id": "wk_d101220700043",
       "mextSchoolCode": "D101220700043",
       "legacySchoolSurveyCode": "015548",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "帯広農業"
+      ]
     },
     {
       "id": "wk_d101220700052",
       "mextSchoolCode": "D101220700052",
       "legacySchoolSurveyCode": "015706",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "帯広南商業"
+      ]
     },
     {
       "id": "wk_d101220700061",
       "mextSchoolCode": "D101220700061",
       "legacySchoolSurveyCode": "015947",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "帯広緑陽"
+      ]
     },
     {
       "id": "wk_d101220800015",
       "mextSchoolCode": "D101220800015",
       "legacySchoolSurveyCode": "015549",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北見北斗"
+      ]
     },
     {
       "id": "wk_d101220800024",
       "mextSchoolCode": "D101220800024",
       "legacySchoolSurveyCode": "015550",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北見柏陽"
+      ]
     },
     {
       "id": "wk_d101220800033",
       "mextSchoolCode": "D101220800033",
       "legacySchoolSurveyCode": "015551",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北見工業"
+      ]
     },
     {
       "id": "wk_d101220800042",
       "mextSchoolCode": "D101220800042",
       "legacySchoolSurveyCode": "015647",
-      "status": "active",
-      "aliases": []
+      "status": "closed",
+      "aliases": [
+        "留辺蘂"
+      ]
     },
     {
       "id": "wk_d101220800051",
       "mextSchoolCode": "D101220800051",
       "legacySchoolSurveyCode": "015649",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "常呂"
+      ]
     },
     {
       "id": "wk_d101220800060",
       "mextSchoolCode": "D101220800060",
       "legacySchoolSurveyCode": "015941",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北見商業"
+      ]
     },
     {
       "id": "wk_d101220800079",
       "mextSchoolCode": "D101220800079",
       "legacySchoolSurveyCode": "015965",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北見緑陵"
+      ]
     },
     {
       "id": "wk_d101220900014",
       "mextSchoolCode": "D101220900014",
       "legacySchoolSurveyCode": "015978",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "夕張"
+      ]
     },
     {
       "id": "wk_d101221000011",
       "mextSchoolCode": "D101221000011",
       "legacySchoolSurveyCode": "015556",
       "status": "closed",
-      "aliases": []
+      "aliases": [
+        "岩見沢東"
+      ]
     },
     {
       "id": "wk_d101221000020",
       "mextSchoolCode": "D101221000020",
       "legacySchoolSurveyCode": "015557",
       "status": "closed",
-      "aliases": []
+      "aliases": [
+        "岩見沢西"
+      ]
     },
     {
       "id": "wk_d101221000039",
       "mextSchoolCode": "D101221000039",
       "legacySchoolSurveyCode": "015558",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "岩見沢農業"
+      ]
     },
     {
       "id": "wk_d101221000048",
       "mextSchoolCode": "D101221000048",
       "legacySchoolSurveyCode": "015790",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "岩見沢緑陵"
+      ]
     },
     {
       "id": "wk_d101221000057",
       "mextSchoolCode": "D101221000057",
+      "legacySchoolSurveyCode": "",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "岩見沢東"
+      ]
     },
     {
       "id": "wk_d101221100010",
       "mextSchoolCode": "D101221100010",
       "legacySchoolSurveyCode": "015559",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "網走南ケ丘"
+      ]
     },
     {
       "id": "wk_d101221100029",
       "mextSchoolCode": "D101221100029",
       "legacySchoolSurveyCode": "015560",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "網走桂陽"
+      ]
     },
     {
       "id": "wk_d101221200019",
       "mextSchoolCode": "D101221200019",
       "legacySchoolSurveyCode": "015561",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "留萌"
+      ]
     },
     {
       "id": "wk_d101221300018",
       "mextSchoolCode": "D101221300018",
       "legacySchoolSurveyCode": "015563",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "苫小牧東"
+      ]
     },
     {
       "id": "wk_d101221300027",
       "mextSchoolCode": "D101221300027",
       "legacySchoolSurveyCode": "015564",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "苫小牧西"
+      ]
     },
     {
       "id": "wk_d101221300036",
       "mextSchoolCode": "D101221300036",
       "legacySchoolSurveyCode": "015565",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "苫小牧工業"
+      ]
     },
     {
       "id": "wk_d101221300045",
       "mextSchoolCode": "D101221300045",
       "legacySchoolSurveyCode": "015912",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "苫小牧南"
+      ]
     },
     {
       "id": "wk_d101221300054",
       "mextSchoolCode": "D101221300054",
       "legacySchoolSurveyCode": "015976",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "苫小牧総合経済"
+      ]
     },
     {
       "id": "wk_d101221400017",
       "mextSchoolCode": "D101221400017",
       "legacySchoolSurveyCode": "015566",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "稚内"
+      ]
     },
     {
       "id": "wk_d101221500016",
       "mextSchoolCode": "D101221500016",
       "legacySchoolSurveyCode": "015570",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "美唄聖華"
+      ]
     },
     {
       "id": "wk_d101221500025",
       "mextSchoolCode": "D101221500025",
       "legacySchoolSurveyCode": "015985",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "美唄尚栄"
+      ]
     },
     {
       "id": "wk_d101221600015",
       "mextSchoolCode": "D101221600015",
       "legacySchoolSurveyCode": "015572",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "芦別"
+      ]
     },
     {
       "id": "wk_d101221700014",
       "mextSchoolCode": "D101221700014",
       "legacySchoolSurveyCode": "015575",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "江別"
+      ]
     },
     {
       "id": "wk_d101221700023",
       "mextSchoolCode": "D101221700023",
       "legacySchoolSurveyCode": "015576",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "野幌"
+      ]
     },
     {
       "id": "wk_d101221700032",
       "mextSchoolCode": "D101221700032",
       "legacySchoolSurveyCode": "015967",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "大麻"
+      ]
     },
     {
       "id": "wk_d101221900012",
       "mextSchoolCode": "D101221900012",
       "legacySchoolSurveyCode": "015997",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "紋別"
+      ]
     },
     {
       "id": "wk_d101222000019",
       "mextSchoolCode": "D101222000019",
       "legacySchoolSurveyCode": "015711",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "士別東"
+      ]
     },
     {
       "id": "wk_d101222000028",
       "mextSchoolCode": "D101222000028",
       "legacySchoolSurveyCode": "015996",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "士別翔雲"
+      ]
     },
     {
       "id": "wk_d101222100018",
       "mextSchoolCode": "D101222100018",
       "legacySchoolSurveyCode": "015583",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "名寄"
+      ]
     },
     {
       "id": "wk_d101222100027",
       "mextSchoolCode": "D101222100027",
       "legacySchoolSurveyCode": "016000",
       "status": "closed",
-      "aliases": [],
-      "replacedById": "wk_d101222100018",
-      "replacementMextSchoolCode": "D101222100018"
+      "aliases": [
+        "名寄産業"
+      ]
     },
     {
       "id": "wk_d101222200017",
       "mextSchoolCode": "D101222200017",
       "legacySchoolSurveyCode": "016004",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "三笠"
+      ]
     },
     {
       "id": "wk_d101222300016",
       "mextSchoolCode": "D101222300016",
       "legacySchoolSurveyCode": "015586",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "根室"
+      ]
     },
     {
       "id": "wk_d101222400015",
       "mextSchoolCode": "D101222400015",
       "legacySchoolSurveyCode": "015587",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "千歳"
+      ]
     },
     {
       "id": "wk_d101222400024",
       "mextSchoolCode": "D101222400024",
       "legacySchoolSurveyCode": "015686",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "千歳北陽"
+      ]
     },
     {
       "id": "wk_d101222500014",
       "mextSchoolCode": "D101222500014",
       "legacySchoolSurveyCode": "015588",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "滝川"
+      ]
     },
     {
       "id": "wk_d101222500023",
       "mextSchoolCode": "D101222500023",
       "legacySchoolSurveyCode": "015589",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "滝川工業"
+      ]
     },
     {
       "id": "wk_d101222500032",
       "mextSchoolCode": "D101222500032",
       "legacySchoolSurveyCode": "015788",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "滝川西"
+      ]
     },
     {
       "id": "wk_d101222600013",
       "mextSchoolCode": "D101222600013",
       "legacySchoolSurveyCode": "015989",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "砂川"
+      ]
     },
     {
       "id": "wk_d101222800011",
       "mextSchoolCode": "D101222800011",
       "legacySchoolSurveyCode": "015594",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "深川西"
+      ]
     },
     {
       "id": "wk_d101222800020",
       "mextSchoolCode": "D101222800020",
       "legacySchoolSurveyCode": "015991",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "深川東"
+      ]
     },
     {
       "id": "wk_d101222900010",
       "mextSchoolCode": "D101222900010",
       "legacySchoolSurveyCode": "015596",
       "status": "closed",
-      "aliases": []
+      "aliases": [
+        "富良野"
+      ]
     },
     {
       "id": "wk_d101222900029",
       "mextSchoolCode": "D101222900029",
       "legacySchoolSurveyCode": "015986",
       "status": "closed",
-      "aliases": []
+      "aliases": [
+        "富良野緑峰"
+      ]
     },
     {
       "id": "wk_d101222900038",
       "mextSchoolCode": "D101222900038",
+      "legacySchoolSurveyCode": "",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "富良野"
+      ]
     },
     {
       "id": "wk_d101223000017",
       "mextSchoolCode": "D101223000017",
       "legacySchoolSurveyCode": "015992",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "登別青嶺"
+      ]
     },
     {
       "id": "wk_d101223100016",
       "mextSchoolCode": "D101223100016",
       "legacySchoolSurveyCode": "015599",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "恵庭南"
+      ]
     },
     {
       "id": "wk_d101223100025",
       "mextSchoolCode": "D101223100025",
       "legacySchoolSurveyCode": "015903",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "恵庭北"
+      ]
     },
     {
       "id": "wk_d101223300014",
       "mextSchoolCode": "D101223300014",
       "legacySchoolSurveyCode": "015656",
       "status": "closed",
-      "aliases": [],
-      "replacedById": "wk_d101223300032",
-      "replacementMextSchoolCode": "D101223300032"
+      "aliases": [
+        "伊達"
+      ]
     },
     {
       "id": "wk_d101223300023",
       "mextSchoolCode": "D101223300023",
       "legacySchoolSurveyCode": "015957",
       "status": "closed",
-      "aliases": []
+      "aliases": [
+        "伊達緑丘"
+      ]
     },
     {
       "id": "wk_d101223300032",
       "mextSchoolCode": "D101223300032",
       "legacySchoolSurveyCode": "016066",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "伊達開来"
+      ]
     },
     {
       "id": "wk_d101223400013",
       "mextSchoolCode": "D101223400013",
       "legacySchoolSurveyCode": "015913",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北広島"
+      ]
     },
     {
       "id": "wk_d101223400022",
       "mextSchoolCode": "D101223400022",
       "legacySchoolSurveyCode": "015960",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北広島西"
+      ]
     },
     {
       "id": "wk_d101223500012",
       "mextSchoolCode": "D101223500012",
       "legacySchoolSurveyCode": "015914",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "石狩翔陽"
+      ]
     },
     {
       "id": "wk_d101223500021",
       "mextSchoolCode": "D101223500021",
       "legacySchoolSurveyCode": "015959",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "石狩南"
+      ]
     },
     {
       "id": "wk_d101223600011",
       "mextSchoolCode": "D101223600011",
       "legacySchoolSurveyCode": "015603",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "函館水産"
+      ]
     },
     {
       "id": "wk_d101223600020",
       "mextSchoolCode": "D101223600020",
       "legacySchoolSurveyCode": "015604",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "大野農業"
+      ]
     },
     {
       "id": "wk_d101223600039",
       "mextSchoolCode": "D101223600039",
       "legacySchoolSurveyCode": "015687",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "上磯"
+      ]
     },
     {
       "id": "wk_d101230300019",
       "mextSchoolCode": "D101230300019",
       "legacySchoolSurveyCode": "015598",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "当別"
+      ]
     },
     {
       "id": "wk_d101233100015",
       "mextSchoolCode": "D101233100015",
       "legacySchoolSurveyCode": "015600",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "松前"
+      ]
     },
     {
       "id": "wk_d101233200014",
       "mextSchoolCode": "D101233200014",
       "legacySchoolSurveyCode": "015601",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福島商業"
+      ]
     },
     {
       "id": "wk_d101233300013",
       "mextSchoolCode": "D101233300013",
       "legacySchoolSurveyCode": "015717",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "知内"
+      ]
     },
     {
       "id": "wk_d101233700019",
       "mextSchoolCode": "D101233700019",
       "legacySchoolSurveyCode": "015962",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "七飯"
+      ]
     },
     {
       "id": "wk_d101234500019",
       "mextSchoolCode": "D101234500019",
       "legacySchoolSurveyCode": "015606",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "森"
+      ]
     },
     {
       "id": "wk_d101234600018",
       "mextSchoolCode": "D101234600018",
       "legacySchoolSurveyCode": "015607",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "八雲"
+      ]
     },
     {
       "id": "wk_d101234700017",
       "mextSchoolCode": "D101234700017",
       "legacySchoolSurveyCode": "015608",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "長万部"
+      ]
     },
     {
       "id": "wk_d101236100018",
       "mextSchoolCode": "D101236100018",
       "legacySchoolSurveyCode": "015609",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "江差"
+      ]
     },
     {
       "id": "wk_d101236200017",
       "mextSchoolCode": "D101236200017",
       "legacySchoolSurveyCode": "015951",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "上ノ国"
+      ]
     },
     {
       "id": "wk_d101236700012",
       "mextSchoolCode": "D101236700012",
       "legacySchoolSurveyCode": "015910",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "奥尻"
+      ]
     },
     {
       "id": "wk_d101237100016",
       "mextSchoolCode": "D101237100016",
       "legacySchoolSurveyCode": "015685",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "檜山北"
+      ]
     },
     {
       "id": "wk_d101239200011",
       "mextSchoolCode": "D101239200011",
       "legacySchoolSurveyCode": "015612",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "寿都"
+      ]
     },
     {
       "id": "wk_d101239400019",
       "mextSchoolCode": "D101239400019",
       "legacySchoolSurveyCode": "015613",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "蘭越"
+      ]
     },
     {
       "id": "wk_d101239500018",
       "mextSchoolCode": "D101239500018",
       "legacySchoolSurveyCode": "015726",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "ニセコ"
+      ]
+    },
+    {
+      "id": "wk_d101239500027",
+      "mextSchoolCode": "D101239500027",
+      "legacySchoolSurveyCode": "",
+      "status": "active",
+      "aliases": [
+        "ニセコ国際"
+      ]
     },
     {
       "id": "wk_d101239600017",
       "mextSchoolCode": "D101239600017",
       "legacySchoolSurveyCode": "015727",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "真狩"
+      ]
     },
     {
       "id": "wk_d101239700016",
       "mextSchoolCode": "D101239700016",
       "legacySchoolSurveyCode": "015728",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "留寿都"
+      ]
     },
     {
       "id": "wk_d101240000011",
       "mextSchoolCode": "D101240000011",
       "legacySchoolSurveyCode": "015615",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "倶知安"
+      ]
     },
     {
       "id": "wk_d101240000020",
       "mextSchoolCode": "D101240000020",
       "legacySchoolSurveyCode": "015616",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "倶知安農業"
+      ]
     },
     {
       "id": "wk_d101240200019",
       "mextSchoolCode": "D101240200019",
       "legacySchoolSurveyCode": "015617",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "岩内"
+      ]
     },
     {
       "id": "wk_d101240800013",
       "mextSchoolCode": "D101240800013",
       "legacySchoolSurveyCode": "016003",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "余市紅志"
+      ]
     },
     {
       "id": "wk_d101242300014",
       "mextSchoolCode": "D101242300014",
       "legacySchoolSurveyCode": "015734",
       "status": "closed",
-      "aliases": []
+      "aliases": [
+        "南幌"
+      ]
     },
     {
       "id": "wk_d101242400013",
       "mextSchoolCode": "D101242400013",
       "legacySchoolSurveyCode": "015620",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "奈井江商業"
+      ]
     },
     {
       "id": "wk_d101242800019",
       "mextSchoolCode": "D101242800019",
       "legacySchoolSurveyCode": "015623",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "長沼"
+      ]
     },
     {
       "id": "wk_d101242900018",
       "mextSchoolCode": "D101242900018",
       "legacySchoolSurveyCode": "015624",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "栗山"
+      ]
     },
     {
       "id": "wk_d101243000015",
       "mextSchoolCode": "D101243000015",
       "legacySchoolSurveyCode": "015625",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "月形"
+      ]
     },
     {
       "id": "wk_d101243200013",
       "mextSchoolCode": "D101243200013",
       "legacySchoolSurveyCode": "015688",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "新十津川農業"
+      ]
     },
     {
       "id": "wk_d101245200018",
       "mextSchoolCode": "D101245200018",
       "legacySchoolSurveyCode": "015741",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "鷹栖"
+      ]
     },
     {
       "id": "wk_d101245700013",
       "mextSchoolCode": "D101245700013",
       "legacySchoolSurveyCode": "015628",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "上川"
+      ]
     },
     {
       "id": "wk_d101245800012",
       "mextSchoolCode": "D101245800012",
       "legacySchoolSurveyCode": "015743",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "東川"
+      ]
     },
     {
       "id": "wk_d101245900011",
       "mextSchoolCode": "D101245900011",
       "legacySchoolSurveyCode": "015629",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "美瑛"
+      ]
     },
     {
       "id": "wk_d101246000018",
       "mextSchoolCode": "D101246000018",
       "legacySchoolSurveyCode": "015744",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "上富良野"
+      ]
     },
     {
       "id": "wk_d101246200016",
       "mextSchoolCode": "D101246200016",
       "legacySchoolSurveyCode": "015745",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "南富良野"
+      ]
     },
     {
       "id": "wk_d101246500013",
       "mextSchoolCode": "D101246500013",
       "legacySchoolSurveyCode": "015746",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "剣淵"
+      ]
     },
     {
       "id": "wk_d101246800010",
       "mextSchoolCode": "D101246800010",
       "legacySchoolSurveyCode": "015632",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "下川商業"
+      ]
     },
     {
       "id": "wk_d101246900019",
       "mextSchoolCode": "D101246900019",
       "legacySchoolSurveyCode": "015633",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "美深"
+      ]
     },
     {
       "id": "wk_d101247000016",
       "mextSchoolCode": "D101247000016",
       "legacySchoolSurveyCode": "015747",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "おといねっぷ美術工芸"
+      ]
     },
     {
       "id": "wk_d101247200014",
       "mextSchoolCode": "D101247200014",
       "legacySchoolSurveyCode": "015740",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "幌加内"
+      ]
     },
     {
       "id": "wk_d101248300011",
       "mextSchoolCode": "D101248300011",
       "legacySchoolSurveyCode": "015635",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "苫前商業"
+      ]
     },
     {
       "id": "wk_d101248400010",
       "mextSchoolCode": "D101248400010",
       "legacySchoolSurveyCode": "015636",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "羽幌"
+      ]
     },
     {
       "id": "wk_d101248400029",
       "mextSchoolCode": "D101248400029",
       "legacySchoolSurveyCode": "015751",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "天売"
+      ]
     },
     {
       "id": "wk_d101248600018",
       "mextSchoolCode": "D101248600018",
       "legacySchoolSurveyCode": "015690",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "遠別農業"
+      ]
     },
     {
       "id": "wk_d101248700017",
       "mextSchoolCode": "D101248700017",
       "legacySchoolSurveyCode": "015637",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "天塩"
+      ]
     },
     {
       "id": "wk_d101251200016",
       "mextSchoolCode": "D101251200016",
       "legacySchoolSurveyCode": "015638",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "浜頓別"
+      ]
     },
     {
       "id": "wk_d101251400014",
       "mextSchoolCode": "D101251400014",
       "legacySchoolSurveyCode": "015639",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "枝幸"
+      ]
     },
     {
       "id": "wk_d101251600012",
       "mextSchoolCode": "D101251600012",
       "legacySchoolSurveyCode": "015640",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "豊富"
+      ]
     },
     {
       "id": "wk_d101251700011",
       "mextSchoolCode": "D101251700011",
       "legacySchoolSurveyCode": "015949",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "礼文"
+      ]
     },
     {
       "id": "wk_d101251800010",
       "mextSchoolCode": "D101251800010",
       "legacySchoolSurveyCode": "015641",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "利尻"
+      ]
     },
     {
       "id": "wk_d101254300019",
       "mextSchoolCode": "D101254300019",
       "legacySchoolSurveyCode": "015642",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "美幌"
+      ]
     },
     {
       "id": "wk_d101254400018",
       "mextSchoolCode": "D101254400018",
       "legacySchoolSurveyCode": "015643",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "津別"
+      ]
     },
     {
       "id": "wk_d101254500017",
       "mextSchoolCode": "D101254500017",
       "legacySchoolSurveyCode": "015644",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "斜里"
+      ]
     },
     {
       "id": "wk_d101254600016",
       "mextSchoolCode": "D101254600016",
       "legacySchoolSurveyCode": "015758",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "清里"
+      ]
     },
     {
       "id": "wk_d101254900013",
       "mextSchoolCode": "D101254900013",
       "legacySchoolSurveyCode": "015759",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "訓子府"
+      ]
     },
     {
       "id": "wk_d101255000019",
       "mextSchoolCode": "D101255000019",
       "legacySchoolSurveyCode": "015646",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "置戸"
+      ]
     },
     {
       "id": "wk_d101255200017",
       "mextSchoolCode": "D101255200017",
       "legacySchoolSurveyCode": "015648",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "佐呂間"
+      ]
     },
     {
       "id": "wk_d101255500014",
       "mextSchoolCode": "D101255500014",
       "legacySchoolSurveyCode": "015650",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "遠軽"
+      ]
     },
     {
       "id": "wk_d101255900010",
       "mextSchoolCode": "D101255900010",
       "legacySchoolSurveyCode": "015651",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "湧別"
+      ]
     },
     {
       "id": "wk_d101256100016",
       "mextSchoolCode": "D101256100016",
       "legacySchoolSurveyCode": "015653",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "興部"
+      ]
     },
     {
       "id": "wk_d101256300014",
       "mextSchoolCode": "D101256300014",
       "legacySchoolSurveyCode": "015654",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "雄武"
+      ]
     },
     {
       "id": "wk_d101256400013",
       "mextSchoolCode": "D101256400013",
       "legacySchoolSurveyCode": "015756",
       "status": "closed",
-      "aliases": [],
-      "replacedById": "wk_d101256400031",
-      "replacementMextSchoolCode": "D101256400031"
+      "aliases": [
+        "東藻琴"
+      ]
     },
     {
       "id": "wk_d101256400022",
       "mextSchoolCode": "D101256400022",
       "legacySchoolSurveyCode": "015757",
       "status": "closed",
-      "aliases": [],
-      "replacedById": "wk_d101256400031",
-      "replacementMextSchoolCode": "D101256400031"
+      "aliases": [
+        "女満別"
+      ]
     },
     {
       "id": "wk_d101256400031",
       "mextSchoolCode": "D101256400031",
       "legacySchoolSurveyCode": "016067",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "大空"
+      ]
     },
     {
       "id": "wk_d101257500010",
       "mextSchoolCode": "D101257500010",
       "legacySchoolSurveyCode": "015764",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "壮瞥"
+      ]
     },
     {
       "id": "wk_d101257800017",
       "mextSchoolCode": "D101257800017",
       "legacySchoolSurveyCode": "015970",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "白老東"
+      ]
     },
     {
       "id": "wk_d101258100012",
       "mextSchoolCode": "D101258100012",
       "legacySchoolSurveyCode": "015766",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "厚真"
+      ]
     },
     {
       "id": "wk_d101258400019",
       "mextSchoolCode": "D101258400019",
       "legacySchoolSurveyCode": "015655",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "虻田"
+      ]
     },
     {
       "id": "wk_d101258500018",
       "mextSchoolCode": "D101258500018",
       "legacySchoolSurveyCode": "015658",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "追分"
+      ]
     },
     {
       "id": "wk_d101258600017",
       "mextSchoolCode": "D101258600017",
       "legacySchoolSurveyCode": "015659",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "穂別"
+      ]
     },
     {
       "id": "wk_d101258600026",
       "mextSchoolCode": "D101258600026",
       "legacySchoolSurveyCode": "015767",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "鵡川"
+      ]
     },
     {
       "id": "wk_d101260100018",
       "mextSchoolCode": "D101260100018",
       "legacySchoolSurveyCode": "015660",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "富川"
+      ]
     },
     {
       "id": "wk_d101260100027",
       "mextSchoolCode": "D101260100027",
       "legacySchoolSurveyCode": "015768",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "日高"
+      ]
     },
     {
       "id": "wk_d101260200017",
       "mextSchoolCode": "D101260200017",
       "legacySchoolSurveyCode": "015769",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "平取"
+      ]
     },
     {
       "id": "wk_d101260700012",
       "mextSchoolCode": "D101260700012",
       "legacySchoolSurveyCode": "015662",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "浦河"
+      ]
     },
     {
       "id": "wk_d101260900010",
       "mextSchoolCode": "D101260900010",
       "legacySchoolSurveyCode": "015773",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "えりも"
+      ]
     },
     {
       "id": "wk_d101261000017",
       "mextSchoolCode": "D101261000017",
       "legacySchoolSurveyCode": "015661",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "静内"
+      ]
     },
     {
       "id": "wk_d101261000026",
       "mextSchoolCode": "D101261000026",
       "legacySchoolSurveyCode": "015917",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "静内農業"
+      ]
     },
     {
       "id": "wk_d101263100012",
       "mextSchoolCode": "D101263100012",
       "legacySchoolSurveyCode": "015904",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "音更"
+      ]
     },
     {
       "id": "wk_d101263200011",
       "mextSchoolCode": "D101263200011",
       "legacySchoolSurveyCode": "015775",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "士幌"
+      ]
     },
     {
       "id": "wk_d101263300010",
       "mextSchoolCode": "D101263300010",
       "legacySchoolSurveyCode": "015664",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "上士幌"
+      ]
     },
     {
       "id": "wk_d101263400019",
       "mextSchoolCode": "D101263400019",
       "legacySchoolSurveyCode": "015776",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "鹿追"
+      ]
     },
     {
       "id": "wk_d101263600017",
       "mextSchoolCode": "D101263600017",
       "legacySchoolSurveyCode": "015666",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "清水"
+      ]
     },
     {
       "id": "wk_d101263700016",
       "mextSchoolCode": "D101263700016",
       "legacySchoolSurveyCode": "015667",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "芽室"
+      ]
     },
     {
       "id": "wk_d101263900014",
       "mextSchoolCode": "D101263900014",
       "legacySchoolSurveyCode": "015779",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "更別農業"
+      ]
     },
     {
       "id": "wk_d101264100010",
       "mextSchoolCode": "D101264100010",
       "legacySchoolSurveyCode": "015668",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "大樹"
+      ]
     },
     {
       "id": "wk_d101264200019",
       "mextSchoolCode": "D101264200019",
       "legacySchoolSurveyCode": "015669",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "広尾"
+      ]
     },
     {
       "id": "wk_d101264300018",
       "mextSchoolCode": "D101264300018",
       "legacySchoolSurveyCode": "016005",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "幕別清陵"
+      ]
     },
     {
       "id": "wk_d101264300027",
       "mextSchoolCode": "D101264300027",
       "legacySchoolSurveyCode": "015670",
       "status": "closed",
-      "aliases": [],
-      "replacedById": "wk_d101264300018",
-      "replacementMextSchoolCode": "D101264300018"
+      "aliases": [
+        "幕別"
+      ]
     },
     {
       "id": "wk_d101264400017",
       "mextSchoolCode": "D101264400017",
       "legacySchoolSurveyCode": "015671",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "池田"
+      ]
     },
     {
       "id": "wk_d101264600015",
       "mextSchoolCode": "D101264600015",
       "legacySchoolSurveyCode": "015672",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "本別"
+      ]
     },
     {
       "id": "wk_d101264700014",
       "mextSchoolCode": "D101264700014",
       "legacySchoolSurveyCode": "015673",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "足寄"
+      ]
     },
     {
       "id": "wk_d101266100015",
       "mextSchoolCode": "D101266100015",
       "legacySchoolSurveyCode": "015916",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "釧路東"
+      ]
     },
     {
       "id": "wk_d101266200014",
       "mextSchoolCode": "D101266200014",
       "legacySchoolSurveyCode": "016001",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "厚岸翔洋"
+      ]
     },
     {
       "id": "wk_d101266300013",
       "mextSchoolCode": "D101266300013",
       "legacySchoolSurveyCode": "015781",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "霧多布"
+      ]
     },
     {
       "id": "wk_d101266400012",
       "mextSchoolCode": "D101266400012",
       "legacySchoolSurveyCode": "015677",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "標茶"
+      ]
     },
     {
       "id": "wk_d101266500011",
       "mextSchoolCode": "D101266500011",
       "legacySchoolSurveyCode": "015678",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "弟子屈"
+      ]
     },
     {
       "id": "wk_d101266800018",
       "mextSchoolCode": "D101266800018",
       "legacySchoolSurveyCode": "015680",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "白糠"
+      ]
     },
     {
       "id": "wk_d101269100019",
       "mextSchoolCode": "D101269100019",
       "legacySchoolSurveyCode": "015782",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "別海"
+      ]
     },
     {
       "id": "wk_d101269200018",
       "mextSchoolCode": "D101269200018",
       "legacySchoolSurveyCode": "015681",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "中標津"
+      ]
     },
     {
       "id": "wk_d101269200027",
       "mextSchoolCode": "D101269200027",
       "legacySchoolSurveyCode": "015783",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "中標津農業"
+      ]
     },
     {
       "id": "wk_d101269300017",
       "mextSchoolCode": "D101269300017",
       "legacySchoolSurveyCode": "015682",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "標津"
+      ]
     },
     {
       "id": "wk_d101269400016",
       "mextSchoolCode": "D101269400016",
       "legacySchoolSurveyCode": "015683",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "羅臼"
+      ]
     },
     {
       "id": "wk_d101310100100",
       "mextSchoolCode": "D101310100100",
       "legacySchoolSurveyCode": "015797",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北星学園女子"
+      ]
     },
     {
       "id": "wk_d101310100119",
       "mextSchoolCode": "D101310100119",
       "legacySchoolSurveyCode": "015801",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌静修"
+      ]
     },
     {
       "id": "wk_d101310100128",
       "mextSchoolCode": "D101310100128",
       "legacySchoolSurveyCode": "015809",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌龍谷学園"
+      ]
     },
     {
       "id": "wk_d101310100137",
       "mextSchoolCode": "D101310100137",
       "legacySchoolSurveyCode": "015810",
       "status": "closed",
-      "aliases": []
+      "aliases": [
+        "札幌聖心女子学院"
+      ]
     },
     {
       "id": "wk_d101310200109",
       "mextSchoolCode": "D101310200109",
       "legacySchoolSurveyCode": "015796",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "藤女子"
+      ]
     },
     {
       "id": "wk_d101310200118",
       "mextSchoolCode": "D101310200118",
       "legacySchoolSurveyCode": "015812",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌創成"
+      ]
     },
     {
       "id": "wk_d101310300108",
       "mextSchoolCode": "D101310300108",
       "legacySchoolSurveyCode": "015800",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌大谷"
+      ]
     },
     {
       "id": "wk_d101310300117",
       "mextSchoolCode": "D101310300117",
       "legacySchoolSurveyCode": "015802",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌北斗"
+      ]
     },
     {
       "id": "wk_d101310300126",
       "mextSchoolCode": "D101310300126",
       "legacySchoolSurveyCode": "015803",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌光星"
+      ]
     },
     {
       "id": "wk_d101310500106",
       "mextSchoolCode": "D101310500106",
       "legacySchoolSurveyCode": "015794",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北海"
+      ]
     },
     {
       "id": "wk_d101310500115",
       "mextSchoolCode": "D101310500115",
       "legacySchoolSurveyCode": "015795",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北海学園札幌"
+      ]
     },
     {
       "id": "wk_d101310500124",
       "mextSchoolCode": "D101310500124",
       "legacySchoolSurveyCode": "015799",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "科学大学"
+      ]
     },
     {
       "id": "wk_d101310500133",
       "mextSchoolCode": "D101310500133",
       "legacySchoolSurveyCode": "015807",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌第一"
+      ]
     },
     {
       "id": "wk_d101310500204",
       "mextSchoolCode": "D101310500204",
       "legacySchoolSurveyCode": "015990",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "池上学院"
+      ]
     },
     {
       "id": "wk_d101310600105",
       "mextSchoolCode": "D101310600105",
       "legacySchoolSurveyCode": "015806",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌新陽"
+      ]
     },
     {
       "id": "wk_d101310600114",
       "mextSchoolCode": "D101310600114",
       "legacySchoolSurveyCode": "015808",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "文教大学附属"
+      ]
     },
     {
       "id": "wk_d101310600123",
       "mextSchoolCode": "D101310600123",
       "legacySchoolSurveyCode": "015811",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "東海大学付属札幌"
+      ]
     },
     {
       "id": "wk_d101310700104",
       "mextSchoolCode": "D101310700104",
       "legacySchoolSurveyCode": "015805",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌山の手"
+      ]
     },
     {
       "id": "wk_d101310800103",
       "mextSchoolCode": "D101310800103",
       "legacySchoolSurveyCode": "015798",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北星学園大学附属"
+      ]
     },
     {
       "id": "wk_d101310800201",
       "mextSchoolCode": "D101310800201",
       "legacySchoolSurveyCode": "015987",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "星槎国際"
+      ]
     },
     {
       "id": "wk_d101311000109",
       "mextSchoolCode": "D101311000109",
       "legacySchoolSurveyCode": "015975",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北嶺"
+      ]
     },
     {
       "id": "wk_d101320200108",
       "mextSchoolCode": "D101320200108",
       "legacySchoolSurveyCode": "015813",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "函館大学付属有斗"
+      ]
     },
     {
       "id": "wk_d101320200117",
       "mextSchoolCode": "D101320200117",
       "legacySchoolSurveyCode": "015814",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "函館大学付属柏稜"
+      ]
     },
     {
       "id": "wk_d101320200126",
       "mextSchoolCode": "D101320200126",
       "legacySchoolSurveyCode": "015815",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "遺愛女子"
+      ]
     },
     {
       "id": "wk_d101320200135",
       "mextSchoolCode": "D101320200135",
       "legacySchoolSurveyCode": "015816",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "函館白百合学園"
+      ]
     },
     {
       "id": "wk_d101320200144",
       "mextSchoolCode": "D101320200144",
       "legacySchoolSurveyCode": "015817",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "函館大谷"
+      ]
     },
     {
       "id": "wk_d101320200153",
       "mextSchoolCode": "D101320200153",
       "legacySchoolSurveyCode": "015818",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "清尚学院"
+      ]
     },
     {
       "id": "wk_d101320200162",
       "mextSchoolCode": "D101320200162",
       "legacySchoolSurveyCode": "015819",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "函館大妻"
+      ]
     },
     {
       "id": "wk_d101320200171",
       "mextSchoolCode": "D101320200171",
       "legacySchoolSurveyCode": "015820",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "函館ラ・サール"
+      ]
     },
     {
       "id": "wk_d101320300107",
       "mextSchoolCode": "D101320300107",
       "legacySchoolSurveyCode": "015821",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北照"
+      ]
     },
     {
       "id": "wk_d101320300116",
       "mextSchoolCode": "D101320300116",
       "legacySchoolSurveyCode": "015822",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "小樽双葉"
+      ]
     },
     {
       "id": "wk_d101320300125",
       "mextSchoolCode": "D101320300125",
       "legacySchoolSurveyCode": "015823",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "小樽明峰"
+      ]
     },
     {
       "id": "wk_d101320400106",
       "mextSchoolCode": "D101320400106",
       "legacySchoolSurveyCode": "015824",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "旭川志峯"
+      ]
     },
     {
       "id": "wk_d101320400115",
       "mextSchoolCode": "D101320400115",
       "legacySchoolSurveyCode": "015826",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "旭川実業"
+      ]
     },
     {
       "id": "wk_d101320400124",
       "mextSchoolCode": "D101320400124",
       "legacySchoolSurveyCode": "015827",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "旭川龍谷"
+      ]
     },
     {
       "id": "wk_d101320400133",
       "mextSchoolCode": "D101320400133",
       "legacySchoolSurveyCode": "015828",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "旭川藤星"
+      ]
     },
     {
       "id": "wk_d101320400142",
       "mextSchoolCode": "D101320400142",
       "legacySchoolSurveyCode": "015983",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "旭川明成"
+      ]
     },
     {
       "id": "wk_d101320500105",
       "mextSchoolCode": "D101320500105",
       "legacySchoolSurveyCode": "015829",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "大谷室蘭"
+      ]
     },
     {
       "id": "wk_d101320500114",
       "mextSchoolCode": "D101320500114",
       "legacySchoolSurveyCode": "015830",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "海星学院"
+      ]
     },
     {
       "id": "wk_d101320600104",
       "mextSchoolCode": "D101320600104",
       "legacySchoolSurveyCode": "015832",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "武修館"
+      ]
     },
     {
       "id": "wk_d101320700103",
       "mextSchoolCode": "D101320700103",
       "legacySchoolSurveyCode": "015833",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "帯広大谷"
+      ]
     },
     {
       "id": "wk_d101320700112",
       "mextSchoolCode": "D101320700112",
       "legacySchoolSurveyCode": "015835",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "帯広北"
+      ]
     },
     {
       "id": "wk_d101320800102",
       "mextSchoolCode": "D101320800102",
       "legacySchoolSurveyCode": "015836",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北見藤"
+      ]
     },
     {
       "id": "wk_d101321300105",
       "mextSchoolCode": "D101321300105",
       "legacySchoolSurveyCode": "015842",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "苫小牧中央"
+      ]
     },
     {
       "id": "wk_d101321300114",
       "mextSchoolCode": "D101321300114",
       "legacySchoolSurveyCode": "015843",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "駒澤大学附属苫小牧"
+      ]
     },
     {
       "id": "wk_d101321400104",
       "mextSchoolCode": "D101321400104",
       "legacySchoolSurveyCode": "015844",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "稚内大谷"
+      ]
     },
     {
       "id": "wk_d101321700101",
       "mextSchoolCode": "D101321700101",
       "legacySchoolSurveyCode": "015804",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "立命館慶祥"
+      ]
     },
     {
       "id": "wk_d101321700110",
       "mextSchoolCode": "D101321700110",
       "legacySchoolSurveyCode": "015977",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "酪農学園大学附属とわの森三愛"
+      ]
     },
     {
       "id": "wk_d101322400031",
       "mextSchoolCode": "D101322400031",
+      "legacySchoolSurveyCode": "",
       "status": "active",
       "aliases": []
     },
@@ -2119,58 +2673,72 @@
       "mextSchoolCode": "D101322800108",
       "legacySchoolSurveyCode": "015980",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "クラーク記念国際"
+      ]
     },
     {
       "id": "wk_d101323400100",
       "mextSchoolCode": "D101323400100",
       "legacySchoolSurveyCode": "015971",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "札幌日本大学"
+      ]
     },
     {
       "id": "wk_d101340700012",
       "mextSchoolCode": "D101340700012",
       "legacySchoolSurveyCode": "015994",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "芸術"
+      ]
     },
     {
       "id": "wk_d101340800100",
       "mextSchoolCode": "D101340800100",
       "legacySchoolSurveyCode": "015850",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北星学園余市"
+      ]
     },
     {
       "id": "wk_d101346400101",
       "mextSchoolCode": "D101346400101",
       "legacySchoolSurveyCode": "016002",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "教育学園三和"
+      ]
     },
     {
       "id": "wk_d101357800104",
       "mextSchoolCode": "D101357800104",
       "legacySchoolSurveyCode": "015853",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "栄"
+      ]
     },
     {
       "id": "wk_d101363700103",
       "mextSchoolCode": "D101363700103",
       "legacySchoolSurveyCode": "015834",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "白樺学園"
+      ]
     },
     {
       "id": "wk_d101364300105",
       "mextSchoolCode": "D101364300105",
       "legacySchoolSurveyCode": "015854",
       "status": "closed",
-      "aliases": [],
-      "replacedById": "wk_d101264300018",
-      "replacementMextSchoolCode": "D101264300018"
+      "aliases": [
+        "江陵"
+      ]
     },
     {
       "id": "wk_d102210000013",
@@ -34117,1168 +34685,1503 @@
       "mextSchoolCode": "D140210000017",
       "legacySchoolSurveyCode": "405626",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "門司大翔館"
+      ]
     },
     {
       "id": "wk_d140210000026",
       "mextSchoolCode": "D140210000026",
       "legacySchoolSurveyCode": "405630",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "門司学園"
+      ]
     },
     {
       "id": "wk_d140210000035",
       "mextSchoolCode": "D140210000035",
       "legacySchoolSurveyCode": "405532",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "若松"
+      ]
     },
     {
       "id": "wk_d140210000044",
       "mextSchoolCode": "D140210000044",
       "legacySchoolSurveyCode": "405533",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "若松商業"
+      ]
     },
     {
       "id": "wk_d140210000053",
       "mextSchoolCode": "D140210000053",
       "legacySchoolSurveyCode": "405529",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "戸畑"
+      ]
     },
     {
       "id": "wk_d140210000062",
       "mextSchoolCode": "D140210000062",
       "legacySchoolSurveyCode": "405530",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "ひびき"
+      ]
     },
     {
       "id": "wk_d140210000071",
       "mextSchoolCode": "D140210000071",
       "legacySchoolSurveyCode": "405531",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "戸畑工業"
+      ]
     },
     {
       "id": "wk_d140210000080",
       "mextSchoolCode": "D140210000080",
       "legacySchoolSurveyCode": "405707",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北九州市立"
+      ]
     },
     {
       "id": "wk_d140210000099",
       "mextSchoolCode": "D140210000099",
       "legacySchoolSurveyCode": "405525",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "小倉"
+      ]
     },
     {
       "id": "wk_d140210000106",
       "mextSchoolCode": "D140210000106",
       "legacySchoolSurveyCode": "405526",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "小倉工業"
+      ]
     },
     {
       "id": "wk_d140210000115",
       "mextSchoolCode": "D140210000115",
       "legacySchoolSurveyCode": "405527",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "小倉西"
+      ]
     },
     {
       "id": "wk_d140210000124",
       "mextSchoolCode": "D140210000124",
       "legacySchoolSurveyCode": "405523",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "小倉南"
+      ]
     },
     {
       "id": "wk_d140210000133",
       "mextSchoolCode": "D140210000133",
       "legacySchoolSurveyCode": "405524",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "小倉商業"
+      ]
     },
     {
       "id": "wk_d140210000142",
       "mextSchoolCode": "D140210000142",
       "legacySchoolSurveyCode": "405528",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北九州"
+      ]
     },
     {
       "id": "wk_d140210000151",
       "mextSchoolCode": "D140210000151",
       "legacySchoolSurveyCode": "405608",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "小倉東"
+      ]
     },
     {
       "id": "wk_d140210000160",
       "mextSchoolCode": "D140210000160",
       "legacySchoolSurveyCode": "405534",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "八幡"
+      ]
     },
     {
       "id": "wk_d140210000179",
       "mextSchoolCode": "D140210000179",
       "legacySchoolSurveyCode": "405535",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "八幡中央"
+      ]
     },
     {
       "id": "wk_d140210000188",
       "mextSchoolCode": "D140210000188",
       "legacySchoolSurveyCode": "405536",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "八幡工業"
+      ]
     },
     {
       "id": "wk_d140210000197",
       "mextSchoolCode": "D140210000197",
       "legacySchoolSurveyCode": "405537",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "八幡南"
+      ]
     },
     {
       "id": "wk_d140210000204",
       "mextSchoolCode": "D140210000204",
       "legacySchoolSurveyCode": "405538",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "東筑"
+      ]
     },
     {
       "id": "wk_d140210000213",
       "mextSchoolCode": "D140210000213",
       "legacySchoolSurveyCode": "405539",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "折尾"
+      ]
     },
     {
       "id": "wk_d140210000222",
       "mextSchoolCode": "D140210000222",
       "legacySchoolSurveyCode": "405606",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "北筑"
+      ]
     },
     {
       "id": "wk_d140213000011",
       "mextSchoolCode": "D140213000011",
       "legacySchoolSurveyCode": "405545",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "香椎"
+      ]
     },
     {
       "id": "wk_d140213000020",
       "mextSchoolCode": "D140213000020",
       "legacySchoolSurveyCode": "405546",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "香椎工業"
+      ]
     },
     {
       "id": "wk_d140213000039",
       "mextSchoolCode": "D140213000039",
       "legacySchoolSurveyCode": "405617",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "香住丘"
+      ]
     },
     {
       "id": "wk_d140213000048",
       "mextSchoolCode": "D140213000048",
       "legacySchoolSurveyCode": "405547",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡"
+      ]
     },
     {
       "id": "wk_d140213000057",
       "mextSchoolCode": "D140213000057",
       "legacySchoolSurveyCode": "405621",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "博多青松"
+      ]
     },
     {
       "id": "wk_d140213000066",
       "mextSchoolCode": "D140213000066",
       "legacySchoolSurveyCode": "405549",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡中央"
+      ]
     },
     {
       "id": "wk_d140213000075",
       "mextSchoolCode": "D140213000075",
       "legacySchoolSurveyCode": "405548",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "筑紫丘"
+      ]
     },
     {
       "id": "wk_d140213000084",
       "mextSchoolCode": "D140213000084",
       "legacySchoolSurveyCode": "405614",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "柏陵"
+      ]
     },
     {
       "id": "wk_d140213000093",
       "mextSchoolCode": "D140213000093",
       "legacySchoolSurveyCode": "405701",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福翔"
+      ]
     },
     {
       "id": "wk_d140213000100",
       "mextSchoolCode": "D140213000100",
       "legacySchoolSurveyCode": "405611",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "筑前"
+      ]
     },
     {
       "id": "wk_d140213000119",
       "mextSchoolCode": "D140213000119",
       "legacySchoolSurveyCode": "405615",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "玄洋"
+      ]
     },
     {
       "id": "wk_d140213000128",
       "mextSchoolCode": "D140213000128",
       "legacySchoolSurveyCode": "405703",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡女子"
+      ]
     },
     {
       "id": "wk_d140213000137",
       "mextSchoolCode": "D140213000137",
       "legacySchoolSurveyCode": "405704",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡西陵"
+      ]
     },
     {
       "id": "wk_d140213000146",
       "mextSchoolCode": "D140213000146",
       "legacySchoolSurveyCode": "405550",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "城南"
+      ]
     },
     {
       "id": "wk_d140213000155",
       "mextSchoolCode": "D140213000155",
       "legacySchoolSurveyCode": "405702",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "博多工業"
+      ]
     },
     {
       "id": "wk_d140213000164",
       "mextSchoolCode": "D140213000164",
       "legacySchoolSurveyCode": "405551",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "修猷館"
+      ]
     },
     {
       "id": "wk_d140213000173",
       "mextSchoolCode": "D140213000173",
       "legacySchoolSurveyCode": "405552",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡工業"
+      ]
     },
     {
       "id": "wk_d140213000182",
       "mextSchoolCode": "D140213000182",
       "legacySchoolSurveyCode": "405553",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡講倫館"
+      ]
     },
     {
       "id": "wk_d140213000191",
       "mextSchoolCode": "D140213000191",
       "legacySchoolSurveyCode": "405619",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "早良"
+      ]
     },
     {
       "id": "wk_d140220200014",
       "mextSchoolCode": "D140220200014",
       "legacySchoolSurveyCode": "405567",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "三池"
+      ]
     },
     {
       "id": "wk_d140220200023",
       "mextSchoolCode": "D140220200023",
       "legacySchoolSurveyCode": "405568",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "三池工業"
+      ]
     },
     {
       "id": "wk_d140220200032",
       "mextSchoolCode": "D140220200032",
       "legacySchoolSurveyCode": "405571",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "大牟田北"
+      ]
     },
     {
       "id": "wk_d140220200041",
       "mextSchoolCode": "D140220200041",
       "legacySchoolSurveyCode": "405622",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "ありあけ新世"
+      ]
     },
     {
       "id": "wk_d140220300013",
       "mextSchoolCode": "D140220300013",
       "legacySchoolSurveyCode": "405559",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "久留米筑水"
+      ]
     },
     {
       "id": "wk_d140220300022",
       "mextSchoolCode": "D140220300022",
       "legacySchoolSurveyCode": "405560",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "明善"
+      ]
     },
     {
       "id": "wk_d140220300031",
       "mextSchoolCode": "D140220300031",
       "legacySchoolSurveyCode": "405561",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "久留米"
+      ]
     },
     {
       "id": "wk_d140220300040",
       "mextSchoolCode": "D140220300040",
       "legacySchoolSurveyCode": "405562",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "三潴"
+      ]
     },
     {
       "id": "wk_d140220300059",
       "mextSchoolCode": "D140220300059",
       "legacySchoolSurveyCode": "405578",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "浮羽工業"
+      ]
     },
     {
       "id": "wk_d140220300068",
       "mextSchoolCode": "D140220300068",
       "legacySchoolSurveyCode": "405711",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "南筑"
+      ]
     },
     {
       "id": "wk_d140220300077",
       "mextSchoolCode": "D140220300077",
       "legacySchoolSurveyCode": "405712",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "久留米商業"
+      ]
     },
     {
       "id": "wk_d140220300086",
       "mextSchoolCode": "D140220300086",
       "legacySchoolSurveyCode": "405723",
-      "status": "active",
-      "aliases": []
+      "status": "closed",
+      "aliases": [
+        "福岡県公立三井中央"
+      ]
     },
     {
       "id": "wk_d140220400012",
       "mextSchoolCode": "D140220400012",
       "legacySchoolSurveyCode": "405597",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "鞍手"
+      ]
     },
     {
       "id": "wk_d140220400021",
       "mextSchoolCode": "D140220400021",
       "legacySchoolSurveyCode": "405598",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "直方"
+      ]
     },
     {
       "id": "wk_d140220400030",
       "mextSchoolCode": "D140220400030",
       "legacySchoolSurveyCode": "405599",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "筑豊"
+      ]
     },
     {
       "id": "wk_d140220500011",
       "mextSchoolCode": "D140220500011",
       "legacySchoolSurveyCode": "405594",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "嘉穂"
+      ]
     },
     {
       "id": "wk_d140220500020",
       "mextSchoolCode": "D140220500020",
       "legacySchoolSurveyCode": "405595",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "嘉穂東"
+      ]
     },
     {
       "id": "wk_d140220600010",
       "mextSchoolCode": "D140220600010",
       "legacySchoolSurveyCode": "405587",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "東鷹"
+      ]
     },
     {
       "id": "wk_d140220600029",
       "mextSchoolCode": "D140220600029",
       "legacySchoolSurveyCode": "405589",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "西田川"
+      ]
     },
     {
       "id": "wk_d140220600038",
       "mextSchoolCode": "D140220600038",
       "legacySchoolSurveyCode": "405628",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "田川科学技術"
+      ]
     },
     {
       "id": "wk_d140220700019",
       "mextSchoolCode": "D140220700019",
       "legacySchoolSurveyCode": "405565",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "伝習館"
+      ]
     },
     {
       "id": "wk_d140221000014",
       "mextSchoolCode": "D140221000014",
       "legacySchoolSurveyCode": "405575",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福島"
+      ]
     },
     {
       "id": "wk_d140221000023",
       "mextSchoolCode": "D140221000023",
       "legacySchoolSurveyCode": "405576",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "八女農業"
+      ]
     },
     {
       "id": "wk_d140221100013",
       "mextSchoolCode": "D140221100013",
       "legacySchoolSurveyCode": "405573",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "八女"
+      ]
     },
     {
       "id": "wk_d140221100022",
       "mextSchoolCode": "D140221100022",
       "legacySchoolSurveyCode": "405574",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "八女工業"
+      ]
     },
     {
       "id": "wk_d140221200012",
       "mextSchoolCode": "D140221200012",
       "legacySchoolSurveyCode": "405623",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "大川樟風"
+      ]
     },
     {
       "id": "wk_d140221300011",
       "mextSchoolCode": "D140221300011",
       "legacySchoolSurveyCode": "405517",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "京都"
+      ]
     },
     {
       "id": "wk_d140221300020",
       "mextSchoolCode": "D140221300020",
       "legacySchoolSurveyCode": "405518",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "行橋"
+      ]
     },
     {
       "id": "wk_d140221400010",
       "mextSchoolCode": "D140221400010",
       "legacySchoolSurveyCode": "405624",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "青豊"
+      ]
     },
     {
       "id": "wk_d140221500019",
       "mextSchoolCode": "D140221500019",
       "legacySchoolSurveyCode": "405612",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "中間"
+      ]
     },
     {
       "id": "wk_d140221600018",
       "mextSchoolCode": "D140221600018",
       "legacySchoolSurveyCode": "405558",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "三井"
+      ]
     },
     {
       "id": "wk_d140221600027",
       "mextSchoolCode": "D140221600027",
       "legacySchoolSurveyCode": "405616",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "小郡"
+      ]
     },
     {
       "id": "wk_d140221700017",
       "mextSchoolCode": "D140221700017",
       "legacySchoolSurveyCode": "405604",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "筑紫"
+      ]
     },
     {
       "id": "wk_d140221700026",
       "mextSchoolCode": "D140221700026",
       "legacySchoolSurveyCode": "405610",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "武蔵台"
+      ]
     },
     {
       "id": "wk_d140221800016",
       "mextSchoolCode": "D140221800016",
       "legacySchoolSurveyCode": "405607",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "春日"
+      ]
     },
     {
       "id": "wk_d140221900015",
       "mextSchoolCode": "D140221900015",
       "legacySchoolSurveyCode": "405555",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "筑紫中央"
+      ]
     },
     {
       "id": "wk_d140222000012",
       "mextSchoolCode": "D140222000012",
       "legacySchoolSurveyCode": "405541",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "宗像"
+      ]
     },
     {
       "id": "wk_d140222100011",
       "mextSchoolCode": "D140222100011",
       "legacySchoolSurveyCode": "405554",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡農業"
+      ]
     },
     {
       "id": "wk_d140222100020",
       "mextSchoolCode": "D140222100020",
       "legacySchoolSurveyCode": "405618",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "太宰府"
+      ]
     },
     {
       "id": "wk_d140222300019",
       "mextSchoolCode": "D140222300019",
       "legacySchoolSurveyCode": "405620",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "玄界"
+      ]
     },
     {
       "id": "wk_d140222300028",
       "mextSchoolCode": "D140222300028",
       "legacySchoolSurveyCode": "405721",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "古賀竟成館"
+      ]
     },
     {
       "id": "wk_d140222400018",
       "mextSchoolCode": "D140222400018",
       "legacySchoolSurveyCode": "405542",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "水産"
+      ]
     },
     {
       "id": "wk_d140222400027",
       "mextSchoolCode": "D140222400027",
       "legacySchoolSurveyCode": "405609",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "光陵"
+      ]
     },
     {
       "id": "wk_d140222500017",
       "mextSchoolCode": "D140222500017",
       "legacySchoolSurveyCode": "405627",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "浮羽究真館"
+      ]
     },
     {
       "id": "wk_d140222600016",
       "mextSchoolCode": "D140222600016",
       "legacySchoolSurveyCode": "405625",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "鞍手竜徳"
+      ]
     },
     {
       "id": "wk_d140222700015",
       "mextSchoolCode": "D140222700015",
       "legacySchoolSurveyCode": "405593",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "稲築志耕館"
+      ]
     },
     {
       "id": "wk_d140222700024",
       "mextSchoolCode": "D140222700024",
       "legacySchoolSurveyCode": "405804",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "嘉穂総合大隈城山校"
+      ]
     },
     {
       "id": "wk_d140222800014",
       "mextSchoolCode": "D140222800014",
       "legacySchoolSurveyCode": "405581",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "朝倉"
+      ]
     },
     {
       "id": "wk_d140222800023",
       "mextSchoolCode": "D140222800023",
       "legacySchoolSurveyCode": "405582",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "朝倉東"
+      ]
     },
     {
       "id": "wk_d140222800032",
       "mextSchoolCode": "D140222800032",
       "legacySchoolSurveyCode": "405631",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "朝倉光陽"
+      ]
     },
     {
       "id": "wk_d140222900013",
       "mextSchoolCode": "D140222900013",
       "legacySchoolSurveyCode": "405566",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "山門"
+      ]
     },
     {
       "id": "wk_d140223000010",
       "mextSchoolCode": "D140223000010",
       "legacySchoolSurveyCode": "405556",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "糸島"
+      ]
     },
     {
       "id": "wk_d140223000029",
       "mextSchoolCode": "D140223000029",
       "legacySchoolSurveyCode": "405557",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "糸島農業"
+      ]
     },
     {
       "id": "wk_d140234100016",
       "mextSchoolCode": "D140234100016",
       "legacySchoolSurveyCode": "405544",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "宇美商業"
+      ]
     },
     {
       "id": "wk_d140234400013",
       "mextSchoolCode": "D140234400013",
       "legacySchoolSurveyCode": "405613",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "須恵"
+      ]
     },
     {
       "id": "wk_d140234500012",
       "mextSchoolCode": "D140234500012",
       "legacySchoolSurveyCode": "405605",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "新宮"
+      ]
     },
     {
       "id": "wk_d140234900018",
       "mextSchoolCode": "D140234900018",
       "legacySchoolSurveyCode": "405543",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡魁誠"
+      ]
     },
     {
       "id": "wk_d140238400014",
       "mextSchoolCode": "D140238400014",
       "legacySchoolSurveyCode": "405540",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "遠賀"
+      ]
     },
     {
       "id": "wk_d140240200012",
       "mextSchoolCode": "D140240200012",
       "legacySchoolSurveyCode": "405805",
       "status": "closed",
-      "aliases": []
+      "aliases": [
+        "鞍手高等学校鞍手町立豊翔館"
+      ]
     },
     {
       "id": "wk_d140242100019",
       "mextSchoolCode": "D140242100019",
       "legacySchoolSurveyCode": "405629",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "嘉穂総合"
+      ]
     },
     {
       "id": "wk_d140260100011",
       "mextSchoolCode": "D140260100011",
       "legacySchoolSurveyCode": "405585",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "田川"
+      ]
     },
     {
       "id": "wk_d140262100017",
       "mextSchoolCode": "D140262100017",
       "legacySchoolSurveyCode": "405516",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "苅田工業"
+      ]
     },
     {
       "id": "wk_d140262500013",
       "mextSchoolCode": "D140262500013",
       "legacySchoolSurveyCode": "405515",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "育徳館"
+      ]
     },
     {
       "id": "wk_d140264700017",
       "mextSchoolCode": "D140264700017",
       "legacySchoolSurveyCode": "405514",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "築上西"
+      ]
     },
     {
       "id": "wk_d140310000015",
       "mextSchoolCode": "D140310000015",
       "legacySchoolSurveyCode": "406020",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "豊国学園"
+      ]
     },
     {
       "id": "wk_d140310000024",
       "mextSchoolCode": "D140310000024",
       "legacySchoolSurveyCode": "406021",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "敬愛"
+      ]
     },
     {
       "id": "wk_d140310000033",
       "mextSchoolCode": "D140310000033",
       "legacySchoolSurveyCode": "406029",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "高稜"
+      ]
     },
     {
       "id": "wk_d140310000042",
       "mextSchoolCode": "D140310000042",
       "legacySchoolSurveyCode": "406030",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "明治学園"
+      ]
     },
     {
       "id": "wk_d140310000051",
       "mextSchoolCode": "D140310000051",
       "legacySchoolSurveyCode": "406024",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "西南女学院"
+      ]
     },
     {
       "id": "wk_d140310000060",
       "mextSchoolCode": "D140310000060",
       "legacySchoolSurveyCode": "406025",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "美萩野女子"
+      ]
     },
     {
       "id": "wk_d140310000079",
       "mextSchoolCode": "D140310000079",
       "legacySchoolSurveyCode": "406026",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "東筑紫学園"
+      ]
     },
     {
       "id": "wk_d140310000088",
       "mextSchoolCode": "D140310000088",
       "legacySchoolSurveyCode": "406027",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "真颯館"
+      ]
     },
     {
       "id": "wk_d140310000097",
       "mextSchoolCode": "D140310000097",
       "legacySchoolSurveyCode": "406028",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "慶成"
+      ]
     },
     {
       "id": "wk_d140310000104",
       "mextSchoolCode": "D140310000104",
       "legacySchoolSurveyCode": "406023",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "常磐"
+      ]
     },
     {
       "id": "wk_d140310000113",
       "mextSchoolCode": "D140310000113",
       "legacySchoolSurveyCode": "406035",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "九州国際大学付属"
+      ]
     },
     {
       "id": "wk_d140310000122",
       "mextSchoolCode": "D140310000122",
       "legacySchoolSurveyCode": "406032",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "折尾愛真"
+      ]
     },
     {
       "id": "wk_d140310000131",
       "mextSchoolCode": "D140310000131",
       "legacySchoolSurveyCode": "406059",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "星琳"
+      ]
     },
     {
       "id": "wk_d140310000140",
       "mextSchoolCode": "D140310000140",
       "legacySchoolSurveyCode": "406066",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "自由ケ丘"
+      ]
     },
     {
       "id": "wk_d140310000159",
       "mextSchoolCode": "D140310000159",
       "legacySchoolSurveyCode": "406067",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "仰星学園"
+      ]
     },
     {
       "id": "wk_d140313000019",
       "mextSchoolCode": "D140313000019",
       "legacySchoolSurveyCode": "406011",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "博多"
+      ]
     },
     {
       "id": "wk_d140313000028",
       "mextSchoolCode": "D140313000028",
       "legacySchoolSurveyCode": "406012",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "博多女子"
+      ]
     },
     {
       "id": "wk_d140313000037",
       "mextSchoolCode": "D140313000037",
       "legacySchoolSurveyCode": "406017",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "立花"
+      ]
     },
     {
       "id": "wk_d140313000046",
       "mextSchoolCode": "D140313000046",
       "legacySchoolSurveyCode": "406053",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡工業大学附属城東"
+      ]
     },
     {
       "id": "wk_d140313000055",
       "mextSchoolCode": "D140313000055",
       "legacySchoolSurveyCode": "406057",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "九州産業大学付属九州"
+      ]
     },
     {
       "id": "wk_d140313000064",
       "mextSchoolCode": "D140313000064",
       "legacySchoolSurveyCode": "406007",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "精華女子"
+      ]
     },
     {
       "id": "wk_d140313000073",
       "mextSchoolCode": "D140313000073",
       "legacySchoolSurveyCode": "406010",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "東福岡"
+      ]
     },
     {
       "id": "wk_d140313000082",
       "mextSchoolCode": "D140313000082",
       "legacySchoolSurveyCode": "406015",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "沖学園"
+      ]
     },
     {
       "id": "wk_d140313000091",
       "mextSchoolCode": "D140313000091",
       "legacySchoolSurveyCode": "406002",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "上智福岡"
+      ]
     },
     {
       "id": "wk_d140313000108",
       "mextSchoolCode": "D140313000108",
       "legacySchoolSurveyCode": "406003",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "筑紫女学園"
+      ]
     },
     {
       "id": "wk_d140313000117",
       "mextSchoolCode": "D140313000117",
       "legacySchoolSurveyCode": "406004",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡大学附属若葉"
+      ]
     },
     {
       "id": "wk_d140313000126",
       "mextSchoolCode": "D140313000126",
       "legacySchoolSurveyCode": "406006",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡雙葉"
+      ]
     },
     {
       "id": "wk_d140313000135",
       "mextSchoolCode": "D140313000135",
       "legacySchoolSurveyCode": "406009",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡大学附属大濠"
+      ]
     },
     {
       "id": "wk_d140313000144",
       "mextSchoolCode": "D140313000144",
       "legacySchoolSurveyCode": "406069",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "つくば開成福岡"
+      ]
     },
     {
       "id": "wk_d140313000153",
       "mextSchoolCode": "D140313000153",
       "legacySchoolSurveyCode": "406005",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡女学院"
+      ]
     },
     {
       "id": "wk_d140313000162",
       "mextSchoolCode": "D140313000162",
       "legacySchoolSurveyCode": "406013",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡第一"
+      ]
     },
     {
       "id": "wk_d140313000171",
       "mextSchoolCode": "D140313000171",
       "legacySchoolSurveyCode": "406014",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "純真"
+      ]
     },
     {
       "id": "wk_d140313000180",
       "mextSchoolCode": "D140313000180",
       "legacySchoolSurveyCode": "406019",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "第一薬科大学付属"
+      ]
     },
     {
       "id": "wk_d140313000199",
       "mextSchoolCode": "D140313000199",
       "legacySchoolSurveyCode": "406058",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡海星女子学院"
+      ]
     },
     {
       "id": "wk_d140313000206",
       "mextSchoolCode": "D140313000206",
       "legacySchoolSurveyCode": "406018",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡舞鶴"
+      ]
     },
     {
       "id": "wk_d140313000215",
       "mextSchoolCode": "D140313000215",
       "legacySchoolSurveyCode": "406065",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "中村学園三陽"
+      ]
     },
     {
       "id": "wk_d140313000224",
       "mextSchoolCode": "D140313000224",
       "legacySchoolSurveyCode": "406016",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "中村学園"
+      ]
     },
     {
       "id": "wk_d140313000233",
       "mextSchoolCode": "D140313000233",
       "legacySchoolSurveyCode": "406001",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "西南学院"
+      ]
     },
     {
       "id": "wk_d140313000242",
       "mextSchoolCode": "D140313000242",
+      "legacySchoolSurveyCode": "",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡芸術"
+      ]
     },
     {
       "id": "wk_d140320200012",
       "mextSchoolCode": "D140320200012",
       "legacySchoolSurveyCode": "406046",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "大牟田"
+      ]
     },
     {
       "id": "wk_d140320200021",
       "mextSchoolCode": "D140320200021",
       "legacySchoolSurveyCode": "406047",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "誠修"
+      ]
     },
     {
       "id": "wk_d140320200030",
       "mextSchoolCode": "D140320200030",
       "legacySchoolSurveyCode": "406048",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "明光学園"
+      ]
     },
     {
       "id": "wk_d140320300011",
       "mextSchoolCode": "D140320300011",
       "legacySchoolSurveyCode": "406041",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "久留米学園"
+      ]
     },
     {
       "id": "wk_d140320300020",
       "mextSchoolCode": "D140320300020",
       "legacySchoolSurveyCode": "406042",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "久留米大学附設"
+      ]
     },
     {
       "id": "wk_d140320300039",
       "mextSchoolCode": "D140320300039",
       "legacySchoolSurveyCode": "406043",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "久留米信愛"
+      ]
     },
     {
       "id": "wk_d140320300048",
       "mextSchoolCode": "D140320300048",
       "legacySchoolSurveyCode": "406045",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "祐誠"
+      ]
     },
     {
       "id": "wk_d140320400010",
       "mextSchoolCode": "D140320400010",
       "legacySchoolSurveyCode": "406036",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "大和青藍"
+      ]
     },
     {
       "id": "wk_d140320500019",
       "mextSchoolCode": "D140320500019",
       "legacySchoolSurveyCode": "406040",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "近畿大学附属福岡"
+      ]
     },
     {
       "id": "wk_d140320500028",
       "mextSchoolCode": "D140320500028",
       "legacySchoolSurveyCode": "406061",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "飯塚"
+      ]
     },
     {
       "id": "wk_d140320600018",
       "mextSchoolCode": "D140320600018",
       "legacySchoolSurveyCode": "406056",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福智"
+      ]
     },
     {
       "id": "wk_d140320700017",
       "mextSchoolCode": "D140320700017",
       "legacySchoolSurveyCode": "406049",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "柳川"
+      ]
     },
     {
       "id": "wk_d140320700026",
       "mextSchoolCode": "D140320700026",
       "legacySchoolSurveyCode": "406050",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡キャリアi"
+      ]
     },
     {
       "id": "wk_d140321000012",
       "mextSchoolCode": "D140321000012",
       "legacySchoolSurveyCode": "406051",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "八女学院"
+      ]
     },
     {
       "id": "wk_d140321000021",
       "mextSchoolCode": "D140321000021",
       "legacySchoolSurveyCode": "406052",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "西日本短期大学附属"
+      ]
     },
     {
       "id": "wk_d140321500017",
       "mextSchoolCode": "D140321500017",
       "legacySchoolSurveyCode": "406063",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "希望が丘"
+      ]
     },
     {
       "id": "wk_d140321700015",
       "mextSchoolCode": "D140321700015",
       "legacySchoolSurveyCode": "406055",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "九州産業大学付属九州産業"
+      ]
     },
     {
       "id": "wk_d140321700024",
       "mextSchoolCode": "D140321700024",
       "legacySchoolSurveyCode": "406062",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡常葉"
+      ]
     },
     {
       "id": "wk_d140322000010",
       "mextSchoolCode": "D140322000010",
       "legacySchoolSurveyCode": "406064",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "東海大学付属福岡"
+      ]
     },
     {
       "id": "wk_d140322100019",
       "mextSchoolCode": "D140322100019",
       "legacySchoolSurveyCode": "406008",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "筑陽学園"
+      ]
     },
     {
       "id": "wk_d140322100028",
       "mextSchoolCode": "D140322100028",
       "legacySchoolSurveyCode": "406054",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "筑紫台"
+      ]
     },
     {
       "id": "wk_d140323100017",
       "mextSchoolCode": "D140323100017",
       "legacySchoolSurveyCode": "405722",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "福岡女子商業"
+      ]
     },
     {
       "id": "wk_d140360500015",
       "mextSchoolCode": "D140360500015",
       "legacySchoolSurveyCode": "406068",
       "status": "active",
-      "aliases": []
+      "aliases": [
+        "川崎特区明蓬館"
+      ]
     },
     {
       "id": "wk_d141290000018",
