@@ -207,7 +207,11 @@ public sealed class JsonSchoolCatalog : ISchoolCatalog
 
         EnsureUnique(schools.Schools.Select(school => school.Id), "school ID");
         EnsureUnique(identities.Identities.Select(identity => identity.Id), "identity ID");
-        EnsureUnique(identities.Identities.Select(identity => identity.MextSchoolCode), "MEXT school code");
+        EnsureUnique(
+            identities.Identities
+                .Select(identity => identity.MextSchoolCode)
+                .Where(code => !string.IsNullOrWhiteSpace(code)),
+            "MEXT school code");
 
         var currentIds = schools.Schools.Select(school => school.Id).ToHashSet(StringComparer.Ordinal);
         var activeIds = identities.Identities.Where(identity => identity.Status == "active").Select(identity => identity.Id).ToHashSet(StringComparer.Ordinal);

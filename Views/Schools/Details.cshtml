@@ -14,8 +14,9 @@
     var officialBriefingUrl = guide?.VisitEvents.SelectMany(visit => visit.Sources).FirstOrDefault()?.Url
         ?? guide?.Sources.FirstOrDefault(source => source.Title.Contains("説明", StringComparison.Ordinal) || source.Title.Contains("見学", StringComparison.Ordinal))?.Url
         ?? Model.School.OfficialUrl;
-    var officialAdmissionUrl = latestExamSchedules.SelectMany(schedule => schedule.Sources).FirstOrDefault()?.Url
-        ?? Model.School.OfficialUrl;
+    var officialEducationAuthorityUrl = latestExamSchedules
+        .SelectMany(schedule => schedule.Sources)
+        .FirstOrDefault()?.Url;
 }
 
 <section class="school-detail-hero">
@@ -26,7 +27,7 @@
         </nav>
         <div class="school-detail-title">
             <div>
-                <div class="school-card-tags"><span class="school-tag school-tag-@Model.School.Ownership">@Model.School.OwnershipLabel</span>@if (Model.School.CampusType == "branch") { <span class="school-tag school-tag-branch">分校</span> }@if (Model.Profile is not null) { <span class="school-tag school-tag-profile">@Model.Profile.GenderLabel</span> }</div>
+                <div class="school-card-tags"><span class="school-tag school-tag-@Model.School.Ownership">@Model.School.OwnershipLabel</span>@if (Model.School.CampusType == "branch") { <span class="school-tag school-tag-branch">分校</span> }@if (Model.School.Tags.Contains("募集停止中")) { <span class="school-tag school-tag-branch">募集停止中</span> }@if (Model.Profile is not null) { <span class="school-tag school-tag-profile">@Model.Profile.GenderLabel</span> }</div>
                 <h1>@Model.School.Name</h1>
                 <p>@Model.School.Address　〒@Model.School.PostalCode</p>
                 @if (guide is not null) { <div class="school-info-date"><span>WakaRoute確認日</span><strong>@guide.VerifiedAt</strong></div> }
@@ -104,7 +105,7 @@
             <div>
                 <section class="school-detail-section" id="school-exam" aria-labelledby="exam-heading">
                     <div class="school-detail-heading">
-                        <div><span>UPCOMING EXAM</span><h2 id="exam-heading">@((latestExamYear?.ToString() ?? "次年度"))年度 入試の見通し</h2></div>
+                        <div><span>UPCOMING EXAM</span><h2 id="exam-heading">@(latestExamYear.HasValue ? $"{latestExamYear.Value}年度" : "次年度") 入試の見通し</h2></div>
                         <p>決まったことと、未発表のことを分けて掲載します。</p>
                     </div>
                     @if (Model.ExamSchedules.Count == 0)
@@ -162,7 +163,7 @@
                         @foreach (var result in Model.Admissions)
                         {
                             <article class="admission-card">
-                                <div class="admission-card-title"><div><strong>@result.AcademicYear 年度</strong><span>@result.SelectionLabel・@result.Department</span></div><small>@(result.AttendanceType == "full-time" ? "全日制" : result.AttendanceType)</small></div>
+                                <div class="admission-card-title"><div><strong>@result.AcademicYear 年度</strong><span>@result.SelectionLabel・@result.Department</span></div><small>@result.AttendanceTypeLabel</small></div>
                                 <dl class="admission-numbers">
                                     <div><dt>募集人員</dt><dd>@(result.Capacity?.ToString("N0") ?? "—")<small>人</small></dd></div>
                                     <div><dt>志願者</dt><dd>@(result.Applicants?.ToString("N0") ?? "—")<small>人</small></dd></div>
@@ -203,11 +204,14 @@
                     {
                         <a href="@officialBriefingUrl" target="_blank" rel="noopener noreferrer">学校説明会・見学会 ↗</a>
                     }
-                    @if (!string.IsNullOrEmpty(officialAdmissionUrl))
+                    @if (!string.IsNullOrEmpty(Model.School.OfficialUrl))
                     {
-                        <a href="@officialAdmissionUrl" target="_blank" rel="noopener noreferrer">学校の入試案内 ↗</a>
+                        <a href="@Model.School.OfficialUrl" target="_blank" rel="noopener noreferrer">学校の入試・募集情報 ↗</a>
                     }
-                    <a href="https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school" target="_blank" rel="noopener noreferrer">東京都教育委員会の入試情報 ↗</a>
+                    @if (!string.IsNullOrEmpty(officialEducationAuthorityUrl))
+                    {
+                        <a href="@officialEducationAuthorityUrl" target="_blank" rel="noopener noreferrer">@Model.School.Prefecture の入試情報 ↗</a>
+                    }
                 </div>
                 <p class="school-important-note"><strong>最新情報は公式ページで確認してください。</strong>募集人員、試験日、出願条件、説明会等は変更される場合があります。出願や申込みの前には、必ず学校・教育委員会の最新情報をご確認ください。</p>
             </aside>

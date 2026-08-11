@@ -96,6 +96,14 @@ public sealed record SchoolAdmissionResult(
     string? Note,
     IReadOnlyList<SchoolDataSource> Sources)
 {
+    public string AttendanceTypeLabel => AttendanceType switch
+    {
+        "full-time" => "全日制",
+        "part-time" => "定時制",
+        "correspondence" => "通信制",
+        _ => "課程未確認"
+    };
+
     public decimal? ApplicationRatio => Ratio(Applicants, Capacity);
     public decimal? ExaminationRatio => Ratio(Examinees, Capacity);
     public decimal? EffectiveRatio => Ratio(Examinees, Admitted);
