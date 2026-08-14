@@ -32,10 +32,14 @@
                 <p>@Model.School.Address　〒@Model.School.PostalCode</p>
                 @if (guide is not null) { <div class="school-info-date"><span>WakaRoute確認日</span><strong>@guide.VerifiedAt</strong></div> }
             </div>
-            @if (!string.IsNullOrEmpty(Model.School.OfficialUrl))
-            {
-                <a class="button button-primary" href="@Model.School.OfficialUrl" target="_blank" rel="noopener noreferrer">学校公式サイトを見る ↗</a>
-            }
+            <div class="school-detail-actions">
+                <partial name="_SchoolChoiceButtons" model="Model.School" />
+                <a class="button button-secondary" asp-action="Commute" asp-route-ids="@Model.School.Id">この学校への通学を確認</a>
+                @if (!string.IsNullOrEmpty(Model.School.OfficialUrl))
+                {
+                    <a class="button button-primary" href="@Model.School.OfficialUrl" target="_blank" rel="noopener noreferrer">学校公式サイトを見る ↗</a>
+                }
+            </div>
         </div>
     </div>
 </section>
@@ -56,6 +60,10 @@
                         <div class="decision-axis-number">01</div><h3>通える？</h3>
                         <p>@guide.Access.Summary</p>
                         <ul>@foreach (var route in guide.Access.Routes) { <li>@route</li> }</ul>
+                        @if (Model.School.AccessInfo?.NearestStations.Count > 0)
+                        {
+                            <div class="school-structured-access"><strong>位置データから近い駅</strong>@foreach (var station in Model.School.AccessInfo.NearestStations) { <span><b>@station.Name 駅</b><small>@station.LinesSummary・@station.DistanceLabel</small></span> }<em>直線距離の目安です。入口・道路・坂道を含む徒歩距離ではありません。</em></div>
+                        }
                         @if (!string.IsNullOrEmpty(officialAccessUrl)) { <a href="@officialAccessUrl" target="_blank" rel="noopener noreferrer">公式アクセスを見る ↗</a> }
                     </article>
                     <article>
@@ -98,6 +106,34 @@
                     <article><span>CHECK FIRST</span><h3>学校見学で確かめたいこと</h3><ul>@foreach (var item in guide.QuestionsToConsider) { <li>@item</li> }</ul></article>
                 </div>
                 <details class="source-details school-guide-sources"><summary>この要約に使った公式情報</summary><ul>@foreach (var source in guide.Sources) { <li><a href="@source.Url" target="_blank" rel="noopener noreferrer">@source.Title ↗</a><small>確認日 @source.VerifiedAt</small></li> }</ul></details>
+            </section>
+        }
+
+        @if (Model.SchoolLife is { } schoolLife)
+        {
+            var sportsClubs = schoolLife.Clubs.Where(club => club.Category == "sports").ToArray();
+            var cultureClubs = schoolLife.Clubs.Where(club => club.Category == "culture").ToArray();
+            <section class="school-detail-section school-life-section" id="school-life" aria-labelledby="school-life-heading">
+                <div class="school-detail-heading">
+                    <div><span>SCHOOL LIFE</span><h2 id="school-life-heading">部活と学校生活</h2></div>
+                    <p>毎日の過ごし方を想像できるよう、公式情報で確認できたことと未確認のことを分けています。</p>
+                </div>
+                <div class="school-life-overview">
+                    <article><span>UNIFORM</span><div><strong>制服</strong><em>@schoolLife.Uniform.StatusLabel</em></div><p>@schoolLife.Uniform.Summary</p></article>
+                    <article><span>RULES</span><div><strong>学校生活のきまり</strong><em>公式資料あり</em></div><p>@schoolLife.RulesSummary</p></article>
+                    <article class="@(schoolLife.Lunch.Status == "unknown" ? "is-unconfirmed" : null)"><span>LUNCH</span><div><strong>昼食・購買</strong><em>@schoolLife.Lunch.StatusLabel</em></div><p>@schoolLife.Lunch.Summary</p></article>
+                </div>
+                <div class="school-life-events">
+                    <div><span>EVENTS</span><h3>主な学校行事</h3><p>年度により時期・内容が変わる場合があります。</p></div>
+                    <ul>@foreach (var schoolEvent in schoolLife.Events) { <li><strong>@schoolEvent.Name</strong><span>@schoolEvent.Season</span></li> }</ul>
+                </div>
+                <div class="school-club-heading"><div><span>CLUB ACTIVITIES</span><h3>@schoolLife.Clubs.Count の部活動</h3></div><p>活動日は公式ページ掲載内容の要約です。大会前や年度によって変わる場合があります。</p></div>
+                <div class="school-club-columns">
+                    <section aria-labelledby="sports-clubs-heading"><h4 id="sports-clubs-heading">運動系 <span>@sportsClubs.Length</span></h4><div>@foreach (var club in sportsClubs) { <details class="school-club-card"><summary><strong>@club.Name</strong><span>@club.ActivityDays</span></summary><dl><div><dt>活動日</dt><dd>@club.ActivityDays</dd></div><div><dt>活動場所</dt><dd>@(club.ActivityPlace ?? "未確認")</dd></div><div><dt>男女区分</dt><dd>@club.GenderLabel</dd></div><div><dt>初心者参加・実績・推薦</dt><dd>未確認</dd></div></dl></details> }</div></section>
+                    <section aria-labelledby="culture-clubs-heading"><h4 id="culture-clubs-heading">文化系 <span>@cultureClubs.Length</span></h4><div>@foreach (var club in cultureClubs) { <details class="school-club-card"><summary><strong>@club.Name</strong><span>@club.ActivityDays</span></summary><dl><div><dt>活動日</dt><dd>@club.ActivityDays</dd></div><div><dt>活動場所</dt><dd>@(club.ActivityPlace ?? "未確認")</dd></div><div><dt>男女区分</dt><dd>@club.GenderLabel</dd></div><div><dt>初心者参加・実績・推薦</dt><dd>未確認</dd></div></dl></details> }</div></section>
+                </div>
+                <div class="school-life-verification"><strong>@schoolLife.VerifiedAt 確認</strong><p>入部条件、活動頻度、費用、初心者参加、施設、実績、推薦制度は変更または未掲載の場合があります。学校見学・部活動体験で最新情報を確認してください。</p></div>
+                <details class="source-details"><summary>学校生活の公式情報を確認する</summary><ul>@foreach (var source in schoolLife.Sources) { <li><a href="@source.Url" target="_blank" rel="noopener noreferrer">@source.Title ↗</a><small>@if (!string.IsNullOrEmpty(source.PublishedAt)) { <text>発表 @source.PublishedAt ／ </text> }確認 @source.VerifiedAt</small></li> }</ul></details>
             </section>
         }
 
@@ -194,6 +230,7 @@
                     <div><dt>共学区分</dt><dd>@(Model.Profile?.GenderLabel ?? "確認中")</dd></div>
                     <div><dt>課程・学科</dt><dd>@if (Model.Profile?.Programs.Count > 0) { @foreach (var program in Model.Profile.Programs) { <span>@program.AttendanceTypeLabel・@program.Department@if (!string.IsNullOrEmpty(program.Course)) { <text>（@program.Course）</text> }</span> } } else { <text>確認中</text> }</dd></div>
                     <div><dt>住所</dt><dd>@Model.School.Address</dd></div>
+                    @if (Model.School.Latitude.HasValue && Model.School.Longitude.HasValue) { <div><dt>位置データ</dt><dd>@Model.School.Latitude.Value.ToString("0.000000"), @Model.School.Longitude.Value.ToString("0.000000")</dd></div> }
                     <div><dt>学校ID</dt><dd>@Model.School.Id</dd></div>
                     <div><dt>学校基本情報</dt><dd>@Model.School.LastVerifiedAt 確認</dd></div>
                     @if (guide is not null) { <div><dt>学校紹介・入試情報</dt><dd>@guide.VerifiedAt 確認</dd></div> }
@@ -214,7 +251,14 @@
                     }
                 </div>
                 <p class="school-important-note"><strong>最新情報は公式ページで確認してください。</strong>募集人員、試験日、出願条件、説明会等は変更される場合があります。出願や申込みの前には、必ず学校・教育委員会の最新情報をご確認ください。</p>
+                @if (Model.School.AccessInfo is { } accessInfo) { <p class="school-access-attribution">位置：<a href="@accessInfo.CoordinateSourceUrl" target="_blank" rel="noopener noreferrer">国土交通省 国土数値情報（学校）@accessInfo.CoordinateDataYear 年度 ↗</a><br />駅：<a href="@accessInfo.StationSourceUrl" target="_blank" rel="noopener noreferrer">国土交通省 国土数値情報（鉄道）@accessInfo.StationDataYear 年度 ↗</a><br />WakaRouteが学校コードで結合し直線距離を算出。</p> }
             </aside>
         </div>
     </div>
 </main>
+
+<partial name="_SchoolCompareTray" />
+
+@section Scripts {
+    <script src="~/js/school-shortlist.js" asp-append-version="true"></script>
+}

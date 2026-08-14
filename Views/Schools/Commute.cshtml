@@ -1,0 +1,83 @@
+@model SchoolCommuteViewModel
+@{
+    ViewData["Title"] = "候補校への通学条件を確認する";
+    ViewData["Description"] = "自宅の正確な住所を登録せず、最寄り駅から候補校までの通学時間・乗換・徒歩・交通費を端末内に記録して比較できます。";
+    var schoolIds = string.Join(',', Model.Schools.Select(item => item.School.Id));
+}
+
+<section class="school-tools-hero commute-hero">
+    <div class="shell">
+        <nav class="breadcrumbs" aria-label="パンくずリスト"><a asp-controller="Home" asp-action="Index">ホーム</a><span aria-hidden="true">/</span><a asp-action="Index">高校を探す</a><span aria-hidden="true">/</span><span>通学条件を確認</span></nav>
+        <div class="eyebrow"><span></span>COMMUTE CHECK</div>
+        <h1>毎日通えるかを、<br />候補に残す前に確かめよう。</h1>
+        <p>正確な自宅住所ではなく、最寄り駅や大まかな出発地から調べられます。経路検索で確認した値を記録し、無理のない通学上限で候補校を見直しましょう。</p>
+    </div>
+</section>
+
+<main class="school-tools-main commute-main" data-school-commute-page data-school-ids="@schoolIds">
+    <div class="shell">
+        <aside class="commute-privacy-note">
+            <span aria-hidden="true">○</span>
+            <div><strong>入力内容はこのブラウザの端末内だけに保存</strong><p>自宅の番地や氏名は入力しないでください。WakaRouteのサーバーには、出発地や通学メモを送信しません。</p></div>
+        </aside>
+
+        @if (Model.Schools.Count == 0)
+        {
+            <div class="school-tools-empty"><span aria-hidden="true">＋</span><h2>通学を確認する候補校を選びましょう</h2><p>比較候補またはお気に入りから、最大5校まで通学条件を確認できます。</p><a class="button button-primary" asp-action="Saved">お気に入りを見る</a></div>
+        }
+        else
+        {
+            <section class="commute-settings" aria-labelledby="commute-settings-heading">
+                <div class="commute-settings-heading"><div><span>YOUR START</span><h2 id="commute-settings-heading">出発地と通学上限</h2></div><small>正確な住所は不要です</small></div>
+                <div class="commute-settings-grid">
+                    <label class="commute-field commute-origin-field"><span>自宅の最寄り駅・大まかな出発地</span><input type="text" maxlength="80" autocomplete="off" placeholder="例：三鷹駅、横浜市港北区" data-commute-origin /><small>外部の経路検索を開くときだけURLへ含まれます。</small></label>
+                    <label class="commute-field"><span>片道時間の上限</span><select data-commute-max-minutes><option value="">指定なし</option><option value="30">30分以内</option><option value="45">45分以内</option><option value="60">60分以内</option><option value="75">75分以内</option><option value="90">90分以内</option></select></label>
+                    <label class="commute-field"><span>乗換回数の上限</span><select data-commute-max-transfers><option value="">指定なし</option><option value="0">乗換なし</option><option value="1">1回まで</option><option value="2">2回まで</option><option value="3">3回まで</option></select></label>
+                </div>
+                <p class="commute-filter-status" data-commute-filter-status aria-live="polite"></p>
+            </section>
+
+            <div class="commute-school-list">
+                @foreach (var item in Model.Schools)
+                {
+                    var school = item.School;
+                    var destination = school.Latitude.HasValue && school.Longitude.HasValue ? $"{school.Latitude.Value},{school.Longitude.Value}" : $"{school.Address} {school.Name}";
+                    var mapUrl = $"https://www.google.com/maps/search/?api=1&query={Uri.EscapeDataString(destination)}";
+                    <article class="commute-school-card" data-commute-school data-school-id="@school.Id" data-school-name="@school.Name" data-school-destination="@destination">
+                        <header>
+                            <div><div class="school-card-tags"><span class="school-tag school-tag-@school.Ownership">@school.OwnershipLabel</span><span class="school-tag school-tag-profile">@school.GenderLabel</span></div><h2><a asp-action="Details" asp-route-id="@school.Id">@school.Name</a></h2><p>@school.Address</p></div>
+                            <div class="commute-result" data-commute-result><strong>未確認</strong><span>経路を調べて記録</span></div>
+                        </header>
+                        <div class="commute-route-actions">
+                            <a class="button button-primary" href="#" target="_blank" rel="noopener noreferrer" data-commute-directions>出発地から経路を調べる ↗</a>
+                            <a class="button button-secondary" href="@mapUrl" target="_blank" rel="noopener noreferrer">学校周辺の地図を見る ↗</a>
+                        </div>
+                        @if (school.AccessInfo?.NearestStations.Count > 0)
+                        {
+                            <div class="commute-station-list"><strong>位置データから近い駅</strong><div>@foreach (var station in school.AccessInfo.NearestStations) { <span><b>@station.Name 駅</b><small>@station.LinesSummary<br />@station.DistanceLabel</small></span> }</div><p>直線距離の目安です。実際の徒歩経路・所要時間は経路検索と学校公式アクセスで確認してください。</p></div>
+                        }
+                        @if (item.DecisionGuide is not null)
+                        {
+                            <div class="commute-access-copy"><strong>現在掲載しているアクセス情報</strong><p>@item.DecisionGuide.Access.Summary</p><ul>@foreach (var route in item.DecisionGuide.Access.Routes) { <li>@route</li> }</ul></div>
+                        }
+                        <fieldset class="commute-record-fields">
+                            <legend>経路検索で確認した結果を記録</legend>
+                            <label><span>片道</span><span class="commute-number-input"><input type="number" min="1" max="300" inputmode="numeric" data-commute-minutes /><small>分</small></span></label>
+                            <label><span>乗換</span><span class="commute-number-input"><input type="number" min="0" max="9" inputmode="numeric" data-commute-transfers /><small>回</small></span></label>
+                            <label><span>徒歩</span><span class="commute-number-input"><input type="number" min="0" max="120" inputmode="numeric" data-commute-walk /><small>分</small></span></label>
+                            <label><span>片道交通費</span><span class="commute-number-input"><input type="number" min="0" max="10000" step="10" inputmode="numeric" data-commute-fare /><small>円</small></span></label>
+                            <label class="commute-record-note"><span>確認メモ</span><input type="text" maxlength="120" placeholder="例：朝7:30発、バスの本数を再確認" data-commute-note /></label>
+                        </fieldset>
+                        <footer><span data-commute-saved-status>まだ記録していません</span><button type="button" data-commute-clear>この学校の記録を消す</button></footer>
+                    </article>
+                }
+            </div>
+
+            <aside class="commute-method-note"><div><span>HOW TO CHECK</span><h2>一度だけで決めず、平日の朝で確認</h2></div><ol><li><strong>登校時刻に合わせる</strong><span>8時台に学校へ着く経路で調べます。</span></li><li><strong>駅から学校まで歩く</strong><span>坂道、混雑、バスの待ち時間も確かめます。</span></li><li><strong>費用と遅延時も考える</strong><span>定期代や別経路を保護者と確認します。</span></li></ol></aside>
+        }
+    </div>
+</main>
+
+@section Scripts {
+    <script src="~/js/school-commute.js" asp-append-version="true"></script>
+}

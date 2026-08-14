@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schemaVersion", "asOf", "coordinateSource", "stationSource", "method", "statistics", "schools", "unmatchedSchoolIds"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "asOf": { "type": "string", "format": "date" },
+    "coordinateSource": { "$ref": "#/$defs/source" },
+    "stationSource": { "$ref": "#/$defs/source" },
+    "method": { "type": "string", "minLength": 1 },
+    "statistics": {
+      "type": "object",
+      "required": ["currentSchoolCount", "matchedSchoolCount", "unmatchedSchoolCount", "stationGroupCount"],
+      "properties": {
+        "currentSchoolCount": { "type": "integer", "minimum": 0 },
+        "matchedSchoolCount": { "type": "integer", "minimum": 0 },
+        "unmatchedSchoolCount": { "type": "integer", "minimum": 0 },
+        "stationGroupCount": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "schools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["schoolId", "latitude", "longitude", "coordinateMatchedBy", "nearestStations"],
+        "properties": {
+          "schoolId": { "type": "string", "pattern": "^wk_[a-z0-9_]+$" },
+          "latitude": { "type": "number", "minimum": 20, "maximum": 50 },
+          "longitude": { "type": "number", "minimum": 120, "maximum": 155 },
+          "coordinateMatchedBy": { "enum": ["mext-school-code", "existing-coordinate"] },
+          "coordinateMatchedName": { "type": ["string", "null"] },
+          "nearestStations": {
+            "type": "array",
+            "maxItems": 3,
+            "items": {
+              "type": "object",
+              "required": ["groupCode", "name", "latitude", "longitude", "distanceMeters", "distanceKind", "lines", "operators"],
+              "properties": {
+                "groupCode": { "type": "string" },
+                "name": { "type": "string", "minLength": 1 },
+                "latitude": { "type": "number" },
+                "longitude": { "type": "number" },
+                "distanceMeters": { "type": "integer", "minimum": 0 },
+                "distanceKind": { "const": "straight-line" },
+                "lines": { "type": "array", "items": { "type": "string" } },
+                "operators": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          }
+        }
+      }
+    },
+    "unmatchedSchoolIds": { "type": "array", "items": { "type": "string", "pattern": "^wk_[a-z0-9_]+$" } }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["title", "url", "downloadUrl", "dataYear", "license"],
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "downloadUrl": { "type": "string", "format": "uri" },
+        "dataYear": { "type": "integer" },
+        "license": { "type": "string" }
+      }
+    }
+  }
+}

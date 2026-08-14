@@ -25,6 +25,25 @@ by MEXT.
 MEXT website terms:
 https://www.mext.go.jp/b_menu/1351168.htm
 
+This product also includes processed geospatial data derived from the National
+Land Numerical Information Download Service published by the Ministry of Land,
+Infrastructure, Transport and Tourism of Japan (MLIT):
+
+- School data, fiscal year 2021:
+  https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P29-v2_0.html
+- Railway data, fiscal year 2025 (CC BY 4.0):
+  https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2025.html
+
+WakaRoute joins school locations by MEXT school code and calculates straight-
+line distances to railway-station group representative points. These processed
+distances are not walking distances, routes, or travel times. The source data
+may contain spatial error and time lag; WakaRoute does not imply endorsement by
+MLIT. Reusers must preserve this attribution, the processing notice, and the
+applicable source-data terms.
+
+MLIT National Land Numerical Information terms:
+https://nlftp.mlit.go.jp/ksj/other/agreement.html
+
 School profiles, decision guides, admissions, and exam schedules may cite
 official school or education-board pages in per-record `sources` fields.
 WakaRoute-authored summaries and structured annotations are original

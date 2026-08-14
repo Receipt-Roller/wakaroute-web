@@ -1,0 +1,359 @@
+{
+  "courseTitle": "正の数・負の数",
+  "audience": "中学1年生・高校受験基礎",
+  "learningModes": ["conceptual understanding", "procedure and fluency", "integrated application"],
+  "sections": [
+    {
+      "title": "負の数との出会い",
+      "lessons": [
+        {
+          "title": "0より小さい数はどこにある？",
+          "role": "concept",
+          "primarySkillId": "signed-number.need-negative",
+          "positionInSection": 1,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["number.zero-as-baseline"],
+          "handsOffSkillIds": ["signed-number.classify"],
+          "inScope": ["基準より小さい量を負の数で表す理由を説明する"],
+          "outOfScope": ["正負の数の大小比較", "正負の数の計算"],
+          "estimatedMinutes": 6,
+          "misconceptionIds": ["signed-number.negative-means-nothing", "signed-number.minus-is-operation-only"]
+        },
+        {
+          "title": "正の数・負の数・0を見分けよう",
+          "role": "basic",
+          "primarySkillId": "signed-number.classify",
+          "positionInSection": 2,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["signed-number.classify"],
+          "handsOffSkillIds": ["signed-number.opposite-direction"],
+          "inScope": ["符号を見て正の数・負の数・0を分類する", "正の符号を省略できることを理解する"],
+          "outOfScope": ["大小比較", "絶対値"],
+          "estimatedMinutes": 6,
+          "misconceptionIds": ["signed-number.zero-is-positive", "signed-number.unsigned-is-not-positive"]
+        },
+        {
+          "title": "反対向きの量を符号で表そう",
+          "role": "application",
+          "primarySkillId": "signed-number.opposite-direction",
+          "positionInSection": 3,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["signed-number.opposite-direction"],
+          "handsOffSkillIds": ["number-line.place-signed-number"],
+          "inScope": ["一つの基準と正の向きを決めて反対向きの量を符号で表す"],
+          "outOfScope": ["変化量の計算", "加法・減法"],
+          "estimatedMinutes": 7,
+          "misconceptionIds": ["signed-number.sign-without-baseline", "signed-number.direction-switch"]
+        }
+      ]
+    },
+    {
+      "title": "数直線と数の大小",
+      "lessons": [
+        {
+          "title": "数直線に正負の数を置こう",
+          "role": "concept",
+          "primarySkillId": "number-line.place-signed-number",
+          "positionInSection": 1,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["number-line.place-signed-number"],
+          "handsOffSkillIds": ["absolute-value.distance-from-zero"],
+          "inScope": ["向きと単位を確かめて正負の数を数直線上へ置く"],
+          "outOfScope": ["加法を移動で表す"],
+          "estimatedMinutes": 6,
+          "misconceptionIds": ["number-line.negative-order-reversed", "number-line.ignore-scale"]
+        },
+        {
+          "title": "絶対値は0からの距離",
+          "role": "concept",
+          "primarySkillId": "absolute-value.distance-from-zero",
+          "positionInSection": 2,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["absolute-value.distance-from-zero"],
+          "handsOffSkillIds": ["signed-number.compare"],
+          "inScope": ["絶対値を0からの距離として説明し求める"],
+          "outOfScope": ["絶対値記号を含む方程式"],
+          "estimatedMinutes": 6,
+          "misconceptionIds": ["absolute-value.keep-negative-sign", "absolute-value.means-opposite"]
+        },
+        {
+          "title": "正負の数の大小を比べよう",
+          "role": "basic",
+          "primarySkillId": "signed-number.compare",
+          "positionInSection": 3,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["signed-number.compare"],
+          "handsOffSkillIds": ["signed-addition.model-on-line"],
+          "inScope": ["数直線の左右を根拠に正負の数の大小を比較する"],
+          "outOfScope": ["加法・減法"],
+          "estimatedMinutes": 7,
+          "misconceptionIds": ["signed-number.compare-absolute-only", "signed-number.more-digits-means-larger"]
+        }
+      ]
+    },
+    {
+      "title": "正負の数の加法",
+      "lessons": [
+        {
+          "title": "数直線でたし算を考えよう",
+          "role": "concept",
+          "primarySkillId": "signed-addition.model-on-line",
+          "positionInSection": 1,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["signed-addition.model-on-line"],
+          "handsOffSkillIds": ["signed-addition.same-sign"],
+          "inScope": ["加える数の符号を移動方向として数直線で表す"],
+          "outOfScope": ["加法の交換法則・結合法則", "減法"],
+          "estimatedMinutes": 7,
+          "misconceptionIds": ["signed-addition.start-at-zero", "signed-addition.direction-from-first-sign"]
+        },
+        {
+          "title": "同じ符号の数をたそう",
+          "role": "procedure",
+          "primarySkillId": "signed-addition.same-sign",
+          "positionInSection": 2,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["signed-addition.same-sign"],
+          "handsOffSkillIds": ["signed-addition.different-sign"],
+          "inScope": ["同符号の加法で絶対値を加え共通の符号を付ける"],
+          "outOfScope": ["異符号の加法", "減法"],
+          "estimatedMinutes": 7,
+          "misconceptionIds": ["signed-addition.drop-common-sign", "signed-addition.subtract-same-sign"]
+        },
+        {
+          "title": "異なる符号の数をたそう",
+          "role": "procedure",
+          "primarySkillId": "signed-addition.different-sign",
+          "positionInSection": 3,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["signed-addition.different-sign"],
+          "handsOffSkillIds": ["signed-subtraction.convert-to-addition"],
+          "inScope": ["異符号の加法で絶対値の差と結果の符号を判断する"],
+          "outOfScope": ["減法を加法へ直す"],
+          "estimatedMinutes": 8,
+          "misconceptionIds": ["signed-addition.always-add-absolute-values", "signed-addition.sign-of-first-number"]
+        }
+      ]
+    },
+    {
+      "title": "正負の数の減法",
+      "lessons": [
+        {
+          "title": "引き算をたし算に変えよう",
+          "role": "concept",
+          "primarySkillId": "signed-subtraction.convert-to-addition",
+          "positionInSection": 1,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["signed-subtraction.convert-to-addition"],
+          "handsOffSkillIds": ["signed-subtraction.calculate"],
+          "inScope": ["数直線と反対の数を使い減法を加法へ直す理由を説明する"],
+          "outOfScope": ["加減混合式の括弧を外す"],
+          "estimatedMinutes": 8,
+          "misconceptionIds": ["signed-subtraction.change-first-sign", "signed-subtraction.change-operation-only"]
+        },
+        {
+          "title": "正負の数の減法を計算しよう",
+          "role": "procedure",
+          "primarySkillId": "signed-subtraction.calculate",
+          "positionInSection": 2,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["signed-subtraction.calculate"],
+          "handsOffSkillIds": ["signed-add-subtract.remove-parentheses"],
+          "inScope": ["減法を加法へ直して正確に計算する"],
+          "outOfScope": ["複数項の加減混合"],
+          "estimatedMinutes": 7,
+          "misconceptionIds": ["signed-subtraction.double-negative-unchanged", "signed-subtraction.skip-conversion"]
+        },
+        {
+          "title": "かっこを外して計算しよう",
+          "role": "practice",
+          "primarySkillId": "signed-add-subtract.remove-parentheses",
+          "positionInSection": 3,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["signed-add-subtract.remove-parentheses"],
+          "handsOffSkillIds": ["signed-multiplication.explain-sign-rule"],
+          "inScope": ["加法・減法が混じる式を符号付きの和へ直して計算する"],
+          "outOfScope": ["乗法・除法を含む四則混合"],
+          "estimatedMinutes": 8,
+          "misconceptionIds": ["signed-expression.remove-parentheses-without-changing-sign", "signed-expression.reorder-without-sign"]
+        }
+      ]
+    },
+    {
+      "title": "正負の数の乗法・除法",
+      "lessons": [
+        {
+          "title": "符号の決まりはなぜそうなる？",
+          "role": "concept",
+          "primarySkillId": "signed-multiplication.explain-sign-rule",
+          "positionInSection": 1,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": ["signed-add-subtract.remove-parentheses"],
+          "handsOffSkillIds": ["signed-multiplication.explain-sign-rule"],
+          "inScope": ["変化の向きや規則性から乗法の符号規則を説明する"],
+          "outOfScope": ["複数因数の積", "除法と逆数"],
+          "estimatedMinutes": 8,
+          "misconceptionIds": ["signed-multiplication.sign-rule-is-arbitrary", "signed-multiplication.negative-times-negative-negative"]
+        },
+        {
+          "title": "正負の数のかけ算",
+          "role": "procedure",
+          "primarySkillId": "signed-multiplication.calculate",
+          "positionInSection": 2,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": ["signed-multiplication.explain-sign-rule"],
+          "handsOffSkillIds": ["signed-multiplication.calculate"],
+          "inScope": ["符号と絶対値を分けて二数・複数因数の積を求める"],
+          "outOfScope": ["累乗", "四則混合"],
+          "estimatedMinutes": 8,
+          "misconceptionIds": ["signed-multiplication.count-positive-factors", "signed-multiplication.multiply-sign-as-number"]
+        },
+        {
+          "title": "正負の数のわり算",
+          "role": "procedure",
+          "primarySkillId": "signed-division.calculate",
+          "positionInSection": 3,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": ["signed-multiplication.calculate"],
+          "handsOffSkillIds": ["signed-division.calculate"],
+          "inScope": ["除法の符号を判断し整数・小数の商を求める", "0で割れない理由を説明する"],
+          "outOfScope": ["分数除法を逆数の乗法へ直す", "分数を含む四則混合"],
+          "estimatedMinutes": 8,
+          "misconceptionIds": ["signed-division.use-addition-sign-rule", "division.divide-by-zero"]
+        },
+        {
+          "title": "分数のわり算を逆数のかけ算に直そう",
+          "role": "procedure",
+          "primarySkillId": "signed-division.reciprocal",
+          "positionInSection": 4,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": ["signed-division.calculate"],
+          "handsOffSkillIds": ["signed-division.reciprocal"],
+          "inScope": ["割る数の逆数を掛ける形へ直して符号付き分数を計算する"],
+          "outOfScope": ["分数を含む四則混合"],
+          "estimatedMinutes": 8,
+          "misconceptionIds": ["reciprocal.flip-sign", "division.flip-dividend"]
+        }
+      ]
+    },
+    {
+      "title": "四則混合と数の集合",
+      "lessons": [
+        {
+          "title": "累乗を正しく読もう",
+          "role": "concept",
+          "primarySkillId": "power.read-signed-base",
+          "positionInSection": 1,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["signed-division.reciprocal"],
+          "handsOffSkillIds": ["mixed-calculation.order"],
+          "inScope": ["底と指数を読み分け、負号と括弧を含む累乗を計算する"],
+          "outOfScope": ["指数法則"],
+          "estimatedMinutes": 7,
+          "misconceptionIds": ["power.negative-sign-inside-base", "power.multiply-base-by-exponent"]
+        },
+        {
+          "title": "計算の順序を身につけよう",
+          "role": "procedure",
+          "primarySkillId": "mixed-calculation.order",
+          "positionInSection": 2,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["mixed-calculation.order"],
+          "handsOffSkillIds": ["number-set.classify"],
+          "inScope": ["括弧・累乗・乗除・加減の優先順位を使って計算する"],
+          "outOfScope": ["文字式"],
+          "estimatedMinutes": 9,
+          "misconceptionIds": ["mixed-calculation.left-to-right-only", "mixed-calculation.ignore-parentheses"]
+        },
+        {
+          "title": "自然数・整数・数の広がり",
+          "role": "concept",
+          "primarySkillId": "number-set.classify",
+          "positionInSection": 3,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["number-set.classify"],
+          "handsOffSkillIds": ["signed-application.baseline-difference"],
+          "inScope": ["自然数・整数・小数・分数の包含関係を分類する"],
+          "outOfScope": ["有理数・無理数の厳密な定義"],
+          "estimatedMinutes": 6,
+          "misconceptionIds": ["number-set.zero-is-natural-always", "number-set.negative-not-integer"]
+        }
+      ]
+    },
+    {
+      "title": "正負の数の利用",
+      "lessons": [
+        {
+          "title": "基準との差を正負の数で表そう",
+          "role": "application",
+          "primarySkillId": "signed-application.baseline-difference",
+          "positionInSection": 1,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["signed-application.baseline-difference"],
+          "handsOffSkillIds": ["signed-application.assumed-mean"],
+          "inScope": ["適切な基準を決め、実際の量との差を正負の数で表す"],
+          "outOfScope": ["仮平均の計算"],
+          "estimatedMinutes": 7,
+          "misconceptionIds": ["baseline-difference.actual-minus-baseline-reversed", "baseline-difference.omit-unit"]
+        },
+        {
+          "title": "仮平均を使って平均を求めよう",
+          "role": "application",
+          "primarySkillId": "signed-application.assumed-mean",
+          "positionInSection": 2,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["signed-application.assumed-mean"],
+          "handsOffSkillIds": ["signed-application.interpret-change"],
+          "inScope": ["基準との差の平均を使って元の平均を効率よく求める"],
+          "outOfScope": ["加重平均"],
+          "estimatedMinutes": 8,
+          "misconceptionIds": ["assumed-mean.forget-add-baseline", "assumed-mean.divide-baseline"]
+        },
+        {
+          "title": "変化量を読み解こう",
+          "role": "application",
+          "primarySkillId": "signed-application.interpret-change",
+          "positionInSection": 3,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": ["signed-application.interpret-change"],
+          "handsOffSkillIds": ["signed-number.mastery-select-method"],
+          "inScope": ["増減や移動を符号付きの変化量として表し結果を解釈する"],
+          "outOfScope": ["文字を用いた一般化"],
+          "estimatedMinutes": 8,
+          "misconceptionIds": ["change-amount.final-value-only", "change-amount.direction-sign-reversed"]
+        }
+      ]
+    },
+    {
+      "title": "マスターチェック",
+      "lessons": [
+        {
+          "title": "ことばと計算の総復習",
+          "role": "mastery",
+          "primarySkillId": "signed-number.mastery-select-method",
+          "positionInSection": 1,
+          "lessonCountInSection": 2,
+          "receivesSkillIds": ["signed-number.mastery-select-method"],
+          "handsOffSkillIds": ["signed-number.mastery-apply"],
+          "inScope": ["用語・大小・四則混合から必要な考え方を選び弱点を特定する"],
+          "outOfScope": ["長い文章題"],
+          "estimatedMinutes": 10,
+          "misconceptionIds": ["mastery.same-method-for-all", "mastery.cannot-locate-first-error"]
+        },
+        {
+          "title": "文章題で仕上げよう",
+          "role": "mastery",
+          "primarySkillId": "signed-number.mastery-apply",
+          "positionInSection": 2,
+          "lessonCountInSection": 2,
+          "receivesSkillIds": ["signed-number.mastery-apply"],
+          "handsOffSkillIds": ["algebra.signed-number-foundation"],
+          "inScope": ["基準・変化・平均を含む初見の文章題で式を選び答えを解釈する"],
+          "outOfScope": ["文字式を使う文章題"],
+          "estimatedMinutes": 10,
+          "misconceptionIds": ["word-problem.sign-from-keyword-only", "word-problem.answer-without-context"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2445 @@
+{
+  "courseTitle": "二次方程式",
+  "courseId": "1e1fd3a0cb40475db00094ffb81b4777",
+  "organizationId": "a461577a-3410-4c98-b1d5-db729f3444a1",
+  "audience": "中学3年生・高校受験",
+  "learningModes": [
+    "conceptual understanding",
+    "procedure and fluency",
+    "mixed application"
+  ],
+  "rationale": "展開・因数分解と平方根を受け取り、解法の意味、実行、選択、文章題、検算の順に進む。各レッスンは一つの診断技能に絞り、セクション末で誤答原因を特定する。",
+  "sections": [
+    {
+      "title": "平方根・因数分解の復習",
+      "sectionId": "73daac7cd81546368105573bd377e6f0",
+      "rationale": "二次方程式の新しい解法へ入る前に、平方根と因数分解のどこを使うかを分離して回復する。",
+      "lessons": [
+        {
+          "title": "平方根・因数分解の復習を理解しよう",
+          "role": "overview",
+          "primarySkillId": "quadratic-prereq.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-factor-mastery.spaced"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-prereq.map"
+          ],
+          "inScope": [
+            "二次方程式に必要な既習技能と復習順を説明する"
+          ],
+          "outOfScope": [
+            "個別計算の定着"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-prereq.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-prereq.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-prereq.map"
+            }
+          ],
+          "existingLessonId": "5c99aaa1012348b094496217d818f85c"
+        },
+        {
+          "title": "x²=aと±√aを復習しよう",
+          "role": "prerequisite",
+          "primarySkillId": "quadratic-prereq.sqrt",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-prereq.map"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-prereq.sqrt"
+          ],
+          "inScope": [
+            "x²=aから正負二つの平方根を考える"
+          ],
+          "outOfScope": [
+            "因数分解で解く"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-prereq.sqrt.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-prereq.sqrt"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-prereq.sqrt"
+            }
+          ],
+          "existingLessonId": "0e15b76dd00f490697f1494180e128b1"
+        },
+        {
+          "title": "平方の形を見分けよう",
+          "role": "prerequisite",
+          "primarySkillId": "quadratic-prereq.square-form",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-prereq.sqrt"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-prereq.square-form"
+          ],
+          "inScope": [
+            "完全平方と平方差の形を見分ける"
+          ],
+          "outOfScope": [
+            "一般の因数分解"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-prereq.square-form.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-prereq.square-form"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-prereq.square-form"
+            }
+          ],
+          "existingLessonId": "bcf88bc6d54a48ba914e210f31aa9a8c"
+        },
+        {
+          "title": "因数分解の公式を逆向きに使おう",
+          "role": "prerequisite",
+          "primarySkillId": "quadratic-prereq.factor",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-prereq.square-form"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-prereq.factor"
+          ],
+          "inScope": [
+            "二次式を積の形へ因数分解する"
+          ],
+          "outOfScope": [
+            "二次方程式の定義"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-prereq.factor.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-prereq.factor"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-prereq.factor"
+            }
+          ],
+          "existingLessonId": "f102444a33f2499dad6be0cca7a8f10b"
+        },
+        {
+          "title": "二次方程式の前提を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "quadratic-prereq.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-prereq.factor"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-prereq.diagnosis"
+          ],
+          "inScope": [
+            "平方根と因数分解の弱点を見分ける"
+          ],
+          "outOfScope": [
+            "二次方程式そのものの意味"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-prereq.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-prereq.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-prereq.diagnosis"
+            }
+          ],
+          "existingLessonId": "256ae23912d14db583dde9b8acc6edd0"
+        }
+      ]
+    },
+    {
+      "title": "二次方程式とは",
+      "sectionId": "16ae0439c77e4d4fabb4a0a2fb8af15c",
+      "rationale": "式の次数、標準形、解の意味を先に分け、計算手順だけを覚える状態を防ぐ。",
+      "lessons": [
+        {
+          "title": "二次方程式とはを理解しよう",
+          "role": "overview",
+          "primarySkillId": "quadratic-definition.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-prereq.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-definition.map"
+          ],
+          "inScope": [
+            "二次方程式の意味と学習の見取り図を説明する"
+          ],
+          "outOfScope": [
+            "具体的な判別"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-definition.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-definition.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-definition.map"
+            }
+          ],
+          "existingLessonId": "78ffa69333b142e08f22de47b0f11165"
+        },
+        {
+          "title": "二次方程式を見分けよう",
+          "role": "concept",
+          "primarySkillId": "quadratic-definition.identify",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-definition.map"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-definition.identify"
+          ],
+          "inScope": [
+            "整理後の最高次数が2の方程式を見分ける"
+          ],
+          "outOfScope": [
+            "標準形への整理"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-definition.identify.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-definition.identify"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-definition.identify"
+            }
+          ],
+          "existingLessonId": "b251905e41674a369d9188c73a08057f"
+        },
+        {
+          "title": "ax²+bx+c=0の形へ整理しよう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-definition.standardize",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-definition.identify"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-definition.standardize"
+          ],
+          "inScope": [
+            "すべての項を左辺へ移して標準形へ直す"
+          ],
+          "outOfScope": [
+            "解の判定"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-definition.standardize.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-definition.standardize"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-definition.standardize"
+            }
+          ],
+          "existingLessonId": "bf395ddba569484ea8ef85df6845ac7a"
+        },
+        {
+          "title": "値を代入して解か確かめよう",
+          "role": "concept",
+          "primarySkillId": "quadratic-definition.solution",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-definition.standardize"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-definition.solution"
+          ],
+          "inScope": [
+            "候補を代入して方程式の解か判定する"
+          ],
+          "outOfScope": [
+            "解法の実行"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-definition.solution.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-definition.solution"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-definition.solution"
+            }
+          ],
+          "existingLessonId": "6815aded3d74486e84e9b9141e682638"
+        },
+        {
+          "title": "二次方程式の意味の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "quadratic-definition.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-definition.solution"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-definition.diagnosis"
+          ],
+          "inScope": [
+            "次数・標準形・解の混同を修正する"
+          ],
+          "outOfScope": [
+            "x²=aの解法"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-definition.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-definition.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-definition.diagnosis"
+            }
+          ],
+          "existingLessonId": "7eeea59925864a31a34d810609e0b198"
+        }
+      ]
+    },
+    {
+      "title": "x²=aを解こう",
+      "sectionId": "4307322fa32c41beb7b745e862f710fc",
+      "rationale": "aの符号ごとに解の個数が変わる理由を分け、±の付け忘れを診断できるようにする。",
+      "lessons": [
+        {
+          "title": "x²=aを解こうを理解しよう",
+          "role": "overview",
+          "primarySkillId": "quadratic-square-root.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-definition.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-square-root.map"
+          ],
+          "inScope": [
+            "x²=aを平方根で解く全体像を説明する"
+          ],
+          "outOfScope": [
+            "aが正の場合の実行"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-square-root.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-square-root.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-square-root.map"
+            }
+          ],
+          "existingLessonId": "63b3c6c45b1545d38ee98b49aedfb6d7"
+        },
+        {
+          "title": "a>0で二つの解を求めよう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-square-root.positive",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-square-root.map"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-square-root.positive"
+          ],
+          "inScope": [
+            "x²=aからx=±√aを求める"
+          ],
+          "outOfScope": [
+            "a=0の場合"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-square-root.positive.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-square-root.positive"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-square-root.positive"
+            }
+          ],
+          "existingLessonId": "4f1bf8dbb1a0489ab413803c099031d5"
+        },
+        {
+          "title": "a=0で一つの解を求めよう",
+          "role": "concept",
+          "primarySkillId": "quadratic-square-root.zero",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-square-root.positive"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-square-root.zero"
+          ],
+          "inScope": [
+            "x²=0の解が0一つになる理由を説明する"
+          ],
+          "outOfScope": [
+            "a<0の場合"
+          ],
+          "estimatedMinutes": 6,
+          "misconceptionIds": [
+            "quadratic-square-root.zero.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-square-root.zero"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-square-root.zero"
+            }
+          ],
+          "existingLessonId": "a2bdff6934d04280bc71f3b5abde5817"
+        },
+        {
+          "title": "a<0で実数解がないと判断しよう",
+          "role": "concept",
+          "primarySkillId": "quadratic-square-root.negative",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-square-root.zero"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-square-root.negative"
+          ],
+          "inScope": [
+            "実数の2乗が負にならないことから解なしと判断する"
+          ],
+          "outOfScope": [
+            "三場合の統合"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-square-root.negative.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-square-root.negative"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-square-root.negative"
+            }
+          ],
+          "existingLessonId": "446c8bb182644990b7afa5ec4182e21b"
+        },
+        {
+          "title": "x²=aの解の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "quadratic-square-root.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-square-root.negative"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-square-root.diagnosis"
+          ],
+          "inScope": [
+            "±の欠落と解の個数の誤りを直す"
+          ],
+          "outOfScope": [
+            "かっこ全体の平方"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-square-root.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-square-root.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-square-root.diagnosis"
+            }
+          ],
+          "existingLessonId": "6ed9d95cd57946149741d066eeb55272"
+        }
+      ]
+    },
+    {
+      "title": "(x+p)²=qを解こう",
+      "sectionId": "867766c7c06742078f29c74775c65abf",
+      "rationale": "かっこ全体を一文字として見ること、±を付けること、最後にxへ戻すことを別技能にする。",
+      "lessons": [
+        {
+          "title": "(x+p)²=qを解こうを理解しよう",
+          "role": "overview",
+          "primarySkillId": "quadratic-shifted-square.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-square-root.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-shifted-square.map"
+          ],
+          "inScope": [
+            "かっこ全体の平方を解く順序を説明する"
+          ],
+          "outOfScope": [
+            "まとまりとして見る"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-shifted-square.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-shifted-square.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-shifted-square.map"
+            }
+          ],
+          "existingLessonId": "0e78f4b4e99543109333d04159adfc55"
+        },
+        {
+          "title": "かっこの中全体を一つの数として見よう",
+          "role": "concept",
+          "primarySkillId": "quadratic-shifted-square.chunk",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-shifted-square.map"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-shifted-square.chunk"
+          ],
+          "inScope": [
+            "x+pを一つの未知量として扱う"
+          ],
+          "outOfScope": [
+            "平方根を取る"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-shifted-square.chunk.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-shifted-square.chunk"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-shifted-square.chunk"
+            }
+          ],
+          "existingLessonId": "3b9eb4674e914e50a597bcb993dbc0cd"
+        },
+        {
+          "title": "x+p=±√qへ直そう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-shifted-square.sqrt",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-shifted-square.chunk"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-shifted-square.sqrt"
+          ],
+          "inScope": [
+            "両方の平方根を使って二本の一次方程式を作る"
+          ],
+          "outOfScope": [
+            "xを求める"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-shifted-square.sqrt.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-shifted-square.sqrt"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-shifted-square.sqrt"
+            }
+          ],
+          "existingLessonId": "87c21648f36f46109daee26cd9f36bc4"
+        },
+        {
+          "title": "二つの一次方程式からxを求めよう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-shifted-square.solve",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-shifted-square.sqrt"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-shifted-square.solve"
+          ],
+          "inScope": [
+            "正負それぞれの枝からxを求める"
+          ],
+          "outOfScope": [
+            "誤答診断"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-shifted-square.solve.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-shifted-square.solve"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-shifted-square.solve"
+            }
+          ],
+          "existingLessonId": "be9e4da951934c2d8ed00f7e9a290d72"
+        },
+        {
+          "title": "(x+p)²=qの誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "quadratic-shifted-square.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-shifted-square.solve"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-shifted-square.diagnosis"
+          ],
+          "inScope": [
+            "±・符号・かっこの扱いの誤りを直す"
+          ],
+          "outOfScope": [
+            "積が0の性質"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-shifted-square.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-shifted-square.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-shifted-square.diagnosis"
+            }
+          ],
+          "existingLessonId": "d26d703d5acd4f1cb0a1b6f090b4bbe4"
+        }
+      ]
+    },
+    {
+      "title": "積が0になるとき",
+      "sectionId": "dc957e7ad96847499430dc8748b843ee",
+      "rationale": "ゼロ積の性質を具体例から一般化し、因数ごとの一次方程式へ移る論理を明示する。",
+      "lessons": [
+        {
+          "title": "積が0になるときを理解しよう",
+          "role": "overview",
+          "primarySkillId": "zero-product.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-shifted-square.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "zero-product.map"
+          ],
+          "inScope": [
+            "積が0の性質と二次方程式への接続を説明する"
+          ],
+          "outOfScope": [
+            "具体例での確認"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "zero-product.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "zero-product.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "zero-product.map"
+            }
+          ],
+          "existingLessonId": "c7ae04f271cf40c1bc4fef7890298fb7"
+        },
+        {
+          "title": "数の積が0になる組を調べよう",
+          "role": "concept",
+          "primarySkillId": "zero-product.examples",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "zero-product.map"
+          ],
+          "handsOffSkillIds": [
+            "zero-product.examples"
+          ],
+          "inScope": [
+            "具体的な積から少なくとも一方が0と気づく"
+          ],
+          "outOfScope": [
+            "文字で一般化"
+          ],
+          "estimatedMinutes": 6,
+          "misconceptionIds": [
+            "zero-product.examples.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "zero-product.examples"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "zero-product.examples"
+            }
+          ],
+          "existingLessonId": "a769f139f3654bc9a1cc55529ed6ed93"
+        },
+        {
+          "title": "AB=0ならA=0またはB=0と説明しよう",
+          "role": "concept",
+          "primarySkillId": "zero-product.rule",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "zero-product.examples"
+          ],
+          "handsOffSkillIds": [
+            "zero-product.rule"
+          ],
+          "inScope": [
+            "ゼロ積の性質を言葉と式で説明する"
+          ],
+          "outOfScope": [
+            "一次方程式へ分ける"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "zero-product.rule.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "zero-product.rule"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "zero-product.rule"
+            }
+          ],
+          "existingLessonId": "55636f31c7e54da5b439c17781b07c86"
+        },
+        {
+          "title": "二つの因数をそれぞれ0とおこう",
+          "role": "procedure",
+          "primarySkillId": "zero-product.split",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "zero-product.rule"
+          ],
+          "handsOffSkillIds": [
+            "zero-product.split"
+          ],
+          "inScope": [
+            "積の方程式を二本の一次方程式へ分ける"
+          ],
+          "outOfScope": [
+            "因数分解との統合"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "zero-product.split.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "zero-product.split"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "zero-product.split"
+            }
+          ],
+          "existingLessonId": "f43daa239c184f9dac3ec5f331d72768"
+        },
+        {
+          "title": "積が0の性質の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "zero-product.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "zero-product.split"
+          ],
+          "handsOffSkillIds": [
+            "zero-product.diagnosis"
+          ],
+          "inScope": [
+            "A+B=0との混同や片方だけ解く誤りを直す"
+          ],
+          "outOfScope": [
+            "因数分解して解く"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "zero-product.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "zero-product.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "zero-product.diagnosis"
+            }
+          ],
+          "existingLessonId": "b48316c0bf0f49e583db709b4ef6ee52"
+        }
+      ]
+    },
+    {
+      "title": "因数分解して解こう",
+      "sectionId": "9cb3ceac92fa4aeabec527b72d0e8270",
+      "rationale": "標準形、因数分解、ゼロ積、解の確認を一段ずつ積み上げ、途中省略による誤りを特定する。",
+      "lessons": [
+        {
+          "title": "因数分解して解こうを理解しよう",
+          "role": "overview",
+          "primarySkillId": "quadratic-factor-solve.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "zero-product.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-factor-solve.map"
+          ],
+          "inScope": [
+            "因数分解で二次方程式を解く四段階を説明する"
+          ],
+          "outOfScope": [
+            "右辺を0にする"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-factor-solve.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-factor-solve.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-factor-solve.map"
+            }
+          ],
+          "existingLessonId": "d7f7a2a4a729426e90c012aa58cf7169"
+        },
+        {
+          "title": "右辺を0にして因数分解の準備をしよう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-factor-solve.zero",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-factor-solve.map"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-factor-solve.zero"
+          ],
+          "inScope": [
+            "すべての項を一方へ集めて積=0の準備をする"
+          ],
+          "outOfScope": [
+            "因数分解"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-factor-solve.zero.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-factor-solve.zero"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-factor-solve.zero"
+            }
+          ],
+          "existingLessonId": "23b95ec8cf944eb1a1f670bb30a0420c"
+        },
+        {
+          "title": "左辺を因数分解しよう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-factor-solve.factor",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-factor-solve.zero"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-factor-solve.factor"
+          ],
+          "inScope": [
+            "二次式を正しい積の形へ変える"
+          ],
+          "outOfScope": [
+            "ゼロ積で解く"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-factor-solve.factor.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-factor-solve.factor"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-factor-solve.factor"
+            }
+          ],
+          "existingLessonId": "daa5edea851f41c48d156a4e61ae2500"
+        },
+        {
+          "title": "各因数を0として二つの解を求めよう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-factor-solve.roots",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-factor-solve.factor"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-factor-solve.roots"
+          ],
+          "inScope": [
+            "ゼロ積から二つの一次方程式を解く"
+          ],
+          "outOfScope": [
+            "検算と診断"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-factor-solve.roots.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-factor-solve.roots"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-factor-solve.roots"
+            }
+          ],
+          "existingLessonId": "e78019c58dbc4cc4b4bb853a51914451"
+        },
+        {
+          "title": "因数分解による解法の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "quadratic-factor-solve.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-factor-solve.roots"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-factor-solve.diagnosis"
+          ],
+          "inScope": [
+            "標準化・因数分解・解の列挙の誤りを直す"
+          ],
+          "outOfScope": [
+            "平方完成"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "quadratic-factor-solve.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-factor-solve.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-factor-solve.diagnosis"
+            }
+          ],
+          "existingLessonId": "ee4b6c7ffec5467492f7aae5971cb99e"
+        }
+      ]
+    },
+    {
+      "title": "平方の形を作ろう",
+      "sectionId": "478a2f12ddde49fea68ff340f850988c",
+      "rationale": "平方完成を面積と式で理解し、係数の半分を平方する理由を手順から切り離して扱う。",
+      "lessons": [
+        {
+          "title": "平方の形を作ろうを理解しよう",
+          "role": "overview",
+          "primarySkillId": "completing-square.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-factor-solve.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "completing-square.map"
+          ],
+          "inScope": [
+            "平方完成の意味と学習順を説明する"
+          ],
+          "outOfScope": [
+            "面積で意味をつかむ"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "completing-square.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "completing-square.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "completing-square.map"
+            }
+          ],
+          "existingLessonId": "45bc53bebc42462b9017ed7cc23472b2"
+        },
+        {
+          "title": "面積図で不足する正方形を見つけよう",
+          "role": "concept",
+          "primarySkillId": "completing-square.area",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "completing-square.map"
+          ],
+          "handsOffSkillIds": [
+            "completing-square.area"
+          ],
+          "inScope": [
+            "x²+bxへ加える小正方形の面積を説明する"
+          ],
+          "outOfScope": [
+            "係数の半分"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "completing-square.area.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "completing-square.area"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "completing-square.area"
+            }
+          ],
+          "existingLessonId": "bced762046a34e6a9e5ee00fff2dee9f"
+        },
+        {
+          "title": "xの係数の半分を使おう",
+          "role": "concept",
+          "primarySkillId": "completing-square.half",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "completing-square.area"
+          ],
+          "handsOffSkillIds": [
+            "completing-square.half"
+          ],
+          "inScope": [
+            "x²+bxを作る平方の中の数を決める"
+          ],
+          "outOfScope": [
+            "式の変形"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "completing-square.half.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "completing-square.half"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "completing-square.half"
+            }
+          ],
+          "existingLessonId": "f6af7cbd5ffb46daa4d8bbe2b5361872"
+        },
+        {
+          "title": "二次式を平方の形へ直して解こう",
+          "role": "procedure",
+          "primarySkillId": "completing-square.solve",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "completing-square.half"
+          ],
+          "handsOffSkillIds": [
+            "completing-square.solve"
+          ],
+          "inScope": [
+            "平方完成後に平方根を使って方程式を解く"
+          ],
+          "outOfScope": [
+            "誤答診断"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "completing-square.solve.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "completing-square.solve"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "completing-square.solve"
+            }
+          ],
+          "existingLessonId": "4384b7bd2e5545049560a1ec5d4cbcc0"
+        },
+        {
+          "title": "平方完成の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "completing-square.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "completing-square.solve"
+          ],
+          "handsOffSkillIds": [
+            "completing-square.diagnosis"
+          ],
+          "inScope": [
+            "加えた数の引き忘れや半分の誤りを直す"
+          ],
+          "outOfScope": [
+            "解の公式の導出"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "completing-square.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "completing-square.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "completing-square.diagnosis"
+            }
+          ],
+          "existingLessonId": "4f21b6cf59f048659fed7393196c720a"
+        }
+      ]
+    },
+    {
+      "title": "解の公式はどう作られる？",
+      "sectionId": "556d5c42f64843068493f4407bbdaab8",
+      "rationale": "公式を丸暗記させず、aで割る、定数を移す、平方完成、平方根を取るという導出の意味を追う。",
+      "lessons": [
+        {
+          "title": "解の公式はどう作られる？を理解しよう",
+          "role": "overview",
+          "primarySkillId": "quadratic-formula-derive.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "completing-square.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-formula-derive.map"
+          ],
+          "inScope": [
+            "解の公式を導く変形の見取り図を説明する"
+          ],
+          "outOfScope": [
+            "aで割る理由"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-formula-derive.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-formula-derive.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-formula-derive.map"
+            }
+          ],
+          "existingLessonId": "3741338356a94d1c88485c3cc9147e56"
+        },
+        {
+          "title": "aで割ってx²の係数を1にしよう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-formula-derive.normalize",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-formula-derive.map"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-formula-derive.normalize"
+          ],
+          "inScope": [
+            "a≠0を確認して方程式全体をaで割る"
+          ],
+          "outOfScope": [
+            "定数項を移す"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-formula-derive.normalize.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-formula-derive.normalize"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-formula-derive.normalize"
+            }
+          ],
+          "existingLessonId": "0ff3be07843549a88fe29157506dbaa9"
+        },
+        {
+          "title": "定数項を移して平方完成しよう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-formula-derive.complete",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-formula-derive.normalize"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-formula-derive.complete"
+          ],
+          "inScope": [
+            "一般式を平方完成できる形へ変える"
+          ],
+          "outOfScope": [
+            "平方根を取る"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "quadratic-formula-derive.complete.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-formula-derive.complete"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-formula-derive.complete"
+            }
+          ],
+          "existingLessonId": "d54d407d6d7a4a46bd6ecd109cf5cc9f"
+        },
+        {
+          "title": "平方根を取って解の公式へまとめよう",
+          "role": "concept",
+          "primarySkillId": "quadratic-formula-derive.finish",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-formula-derive.complete"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-formula-derive.finish"
+          ],
+          "inScope": [
+            "平方完成した一般式から公式を導く"
+          ],
+          "outOfScope": [
+            "公式の構造理解"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "quadratic-formula-derive.finish.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-formula-derive.finish"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-formula-derive.finish"
+            }
+          ],
+          "existingLessonId": "9c715717861b4305a60ec8fcc651c061"
+        },
+        {
+          "title": "解の公式の導出を一段ずつ確かめよう",
+          "role": "mastery",
+          "primarySkillId": "quadratic-formula-derive.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-formula-derive.finish"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-formula-derive.diagnosis"
+          ],
+          "inScope": [
+            "導出中の分母・符号・平方の誤りを見つける"
+          ],
+          "outOfScope": [
+            "公式の実用"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "quadratic-formula-derive.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-formula-derive.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-formula-derive.diagnosis"
+            }
+          ],
+          "existingLessonId": "9e98b7047bb04c31b20e661b02c4729a"
+        }
+      ]
+    },
+    {
+      "title": "解の公式を使おう",
+      "sectionId": "949312b82fdb4575b601c41527c71b15",
+      "rationale": "a,b,cの読み取り、代入、根号整理を分け、公式適用時の代表的な符号ミスを診断する。",
+      "lessons": [
+        {
+          "title": "解の公式を使おうを理解しよう",
+          "role": "overview",
+          "primarySkillId": "quadratic-formula-use.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-formula-derive.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-formula-use.map"
+          ],
+          "inScope": [
+            "解の公式を使う四段階を説明する"
+          ],
+          "outOfScope": [
+            "係数を読む"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-formula-use.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-formula-use.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-formula-use.map"
+            }
+          ],
+          "existingLessonId": "61af4846fadb47b29ad37f16eef6f2c4"
+        },
+        {
+          "title": "a・b・cを符号ごと読み取ろう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-formula-use.coefficients",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-formula-use.map"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-formula-use.coefficients"
+          ],
+          "inScope": [
+            "標準形から係数を符号込みで抜き出す"
+          ],
+          "outOfScope": [
+            "公式へ代入"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-formula-use.coefficients.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-formula-use.coefficients"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-formula-use.coefficients"
+            }
+          ],
+          "existingLessonId": "40ab08179c674a8f98eb9e55172c2692"
+        },
+        {
+          "title": "解の公式へかっこを付けて代入しよう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-formula-use.substitute",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-formula-use.coefficients"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-formula-use.substitute"
+          ],
+          "inScope": [
+            "負の係数をかっこ付きで公式へ代入する"
+          ],
+          "outOfScope": [
+            "根号を整理"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-formula-use.substitute.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-formula-use.substitute"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-formula-use.substitute"
+            }
+          ],
+          "existingLessonId": "368ede5b565a4fb59e91faeb45c17940"
+        },
+        {
+          "title": "根号と分数を簡単にして答えよう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-formula-use.simplify",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-formula-use.substitute"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-formula-use.simplify"
+          ],
+          "inScope": [
+            "平方根と分数を約分して二つの解を書く"
+          ],
+          "outOfScope": [
+            "誤答診断"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "quadratic-formula-use.simplify.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-formula-use.simplify"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-formula-use.simplify"
+            }
+          ],
+          "existingLessonId": "6fd99801c66949b79628584530c1e42f"
+        },
+        {
+          "title": "解の公式の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "quadratic-formula-use.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-formula-use.simplify"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-formula-use.diagnosis"
+          ],
+          "inScope": [
+            "−b・b²・2aの誤りを特定して直す"
+          ],
+          "outOfScope": [
+            "解の個数"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "quadratic-formula-use.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-formula-use.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-formula-use.diagnosis"
+            }
+          ],
+          "existingLessonId": "94344279bc81428ab3a1141da1d74db4"
+        }
+      ]
+    },
+    {
+      "title": "解の個数と答えの形",
+      "sectionId": "0e7a8fb73aab4dea8201c9515a07e1c8",
+      "rationale": "平方根の中b²−4acの符号と実数解の個数を対応させ、答えの形を正しく整理する。",
+      "lessons": [
+        {
+          "title": "解の個数と答えの形を理解しよう",
+          "role": "overview",
+          "primarySkillId": "quadratic-root-count.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-formula-use.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-root-count.map"
+          ],
+          "inScope": [
+            "平方根の中の数と解の個数の対応を説明する"
+          ],
+          "outOfScope": [
+            "判別式を見る"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-root-count.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-root-count.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-root-count.map"
+            }
+          ],
+          "existingLessonId": "34eac53012b04e83b704a976fbfbd946"
+        },
+        {
+          "title": "b²−4acの意味を確かめよう",
+          "role": "concept",
+          "primarySkillId": "quadratic-root-count.discriminant",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-root-count.map"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-root-count.discriminant"
+          ],
+          "inScope": [
+            "解の公式で正負を分ける部分を特定する"
+          ],
+          "outOfScope": [
+            "正の場合"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-root-count.discriminant.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-root-count.discriminant"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-root-count.discriminant"
+            }
+          ],
+          "existingLessonId": "150faa4181864f788ea6452345fae25c"
+        },
+        {
+          "title": "b²−4ac>0で二つの解を判断しよう",
+          "role": "concept",
+          "primarySkillId": "quadratic-root-count.positive",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-root-count.discriminant"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-root-count.positive"
+          ],
+          "inScope": [
+            "正の平方根から二つの実数解が出ると判断する"
+          ],
+          "outOfScope": [
+            "0の場合"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-root-count.positive.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-root-count.positive"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-root-count.positive"
+            }
+          ],
+          "existingLessonId": "a3e7c06ca4494f90a8659aa2d5e25e38"
+        },
+        {
+          "title": "b²−4ac=0と<0を区別しよう",
+          "role": "concept",
+          "primarySkillId": "quadratic-root-count.zero-negative",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-root-count.positive"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-root-count.zero-negative"
+          ],
+          "inScope": [
+            "重解一つと実数解なしを区別する"
+          ],
+          "outOfScope": [
+            "統合診断"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-root-count.zero-negative.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-root-count.zero-negative"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-root-count.zero-negative"
+            }
+          ],
+          "existingLessonId": "fe469073e5354a9382ed9794db7dafbb"
+        },
+        {
+          "title": "解の個数と答えの形を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "quadratic-root-count.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-root-count.zero-negative"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-root-count.diagnosis"
+          ],
+          "inScope": [
+            "解の個数・±・根号整理の誤りを直す"
+          ],
+          "outOfScope": [
+            "解法選択"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-root-count.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-root-count.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-root-count.diagnosis"
+            }
+          ],
+          "existingLessonId": "db72623bdef844feadace7af5d017c5a"
+        }
+      ]
+    },
+    {
+      "title": "どの解き方を選ぶ？",
+      "sectionId": "118defa53baf4972b02fb013c6686f58",
+      "rationale": "式の形を見て最短の解法を選び、同じ問題を複数方法で確認できる判断力へ統合する。",
+      "lessons": [
+        {
+          "title": "どの解き方を選ぶ？を理解しよう",
+          "role": "overview",
+          "primarySkillId": "quadratic-method-choice.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-root-count.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-method-choice.map"
+          ],
+          "inScope": [
+            "四つの解法と選択基準を説明する"
+          ],
+          "outOfScope": [
+            "平方根型の選択"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-method-choice.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-method-choice.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-method-choice.map"
+            }
+          ],
+          "existingLessonId": "b1a4a583c60f453e9a7177b6951b39a2"
+        },
+        {
+          "title": "平方の形なら平方根で解こう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-method-choice.sqrt",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-method-choice.map"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-method-choice.sqrt"
+          ],
+          "inScope": [
+            "x²=aや(x+p)²=qを見分け平方根法を選ぶ"
+          ],
+          "outOfScope": [
+            "因数分解型"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-method-choice.sqrt.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-method-choice.sqrt"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-method-choice.sqrt"
+            }
+          ],
+          "existingLessonId": "01dfe99af8e94ccf937735c7be7e0725"
+        },
+        {
+          "title": "積にできるなら因数分解で解こう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-method-choice.factor",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-method-choice.sqrt"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-method-choice.factor"
+          ],
+          "inScope": [
+            "因数分解しやすい式を見分ける"
+          ],
+          "outOfScope": [
+            "公式との比較"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-method-choice.factor.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-method-choice.factor"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-method-choice.factor"
+            }
+          ],
+          "existingLessonId": "3fbbef89144640989511c4718a3dd156"
+        },
+        {
+          "title": "迷う式では解の公式を選ぼう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-method-choice.formula",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-method-choice.factor"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-method-choice.formula"
+          ],
+          "inScope": [
+            "他の形が見えない式で公式を選ぶ"
+          ],
+          "outOfScope": [
+            "混合診断"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-method-choice.formula.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-method-choice.formula"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-method-choice.formula"
+            }
+          ],
+          "existingLessonId": "8bf116e2e57e44aa803d8e59cc8aa7a1"
+        },
+        {
+          "title": "解法選択を混合問題で診断しよう",
+          "role": "mastery",
+          "primarySkillId": "quadratic-method-choice.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-method-choice.formula"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-method-choice.diagnosis"
+          ],
+          "inScope": [
+            "形と目的に合わない解法選択を修正する"
+          ],
+          "outOfScope": [
+            "文章題の立式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "quadratic-method-choice.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-method-choice.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-method-choice.diagnosis"
+            }
+          ],
+          "existingLessonId": "cbf1eee56eb44c48a497c869e8d26261"
+        }
+      ]
+    },
+    {
+      "title": "二次方程式を作って問題を解こう",
+      "sectionId": "61ecbf90a990465e9375b74f97422a7b",
+      "rationale": "数量条件、立式、解法、場面に合う解の選択を分け、文章題のどこで止まるか診断できるようにする。",
+      "lessons": [
+        {
+          "title": "二次方程式を作って問題を解こうを理解しよう",
+          "role": "overview",
+          "primarySkillId": "quadratic-word-problem.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-method-choice.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-word-problem.map"
+          ],
+          "inScope": [
+            "文章題を解く五段階を説明する"
+          ],
+          "outOfScope": [
+            "未知数と条件"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-word-problem.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-word-problem.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-word-problem.map"
+            }
+          ],
+          "existingLessonId": "ea8c4231974c4df28f607504aaaa4e37"
+        },
+        {
+          "title": "何をxとするか条件と一緒に決めよう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-word-problem.variable",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-word-problem.map"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-word-problem.variable"
+          ],
+          "inScope": [
+            "未知数の意味と取り得る範囲を決める"
+          ],
+          "outOfScope": [
+            "数量関係の整理"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-word-problem.variable.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-word-problem.variable"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-word-problem.variable"
+            }
+          ],
+          "existingLessonId": "ecc652aa5ca047039c75c03fffaf1f83"
+        },
+        {
+          "title": "面積や数の関係から方程式を作ろう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-word-problem.model",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-word-problem.variable"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-word-problem.model"
+          ],
+          "inScope": [
+            "数量関係を二次方程式として表す"
+          ],
+          "outOfScope": [
+            "方程式を解く"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "quadratic-word-problem.model.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-word-problem.model"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-word-problem.model"
+            }
+          ],
+          "existingLessonId": "2a17056a2cfe4ffb9638b3ec3233c8c7"
+        },
+        {
+          "title": "方程式を解いて条件に合う解を選ぼう",
+          "role": "application",
+          "primarySkillId": "quadratic-word-problem.select",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-word-problem.model"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-word-problem.select"
+          ],
+          "inScope": [
+            "複数の解から場面に適するものを選ぶ"
+          ],
+          "outOfScope": [
+            "誤答診断"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "quadratic-word-problem.select.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-word-problem.select"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-word-problem.select"
+            }
+          ],
+          "existingLessonId": "925075d9e1c2443ca7eb6bc22f634ceb"
+        },
+        {
+          "title": "二次方程式の文章題を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "quadratic-word-problem.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-word-problem.select"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-word-problem.diagnosis"
+          ],
+          "inScope": [
+            "立式・単位・不適切解の誤りを直す"
+          ],
+          "outOfScope": [
+            "単元総合"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "quadratic-word-problem.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-word-problem.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-word-problem.diagnosis"
+            }
+          ],
+          "existingLessonId": "0dd6ebcdc2644c328fc2752e37d51ed1"
+        }
+      ]
+    },
+    {
+      "title": "解の確かめとマスターチェック",
+      "sectionId": "7dd95ac5651941fcb45c3af9c96edf19",
+      "rationale": "代入検算、場面適合、解法選択、入試形式、間隔反復を統合してコース出口を作る。",
+      "lessons": [
+        {
+          "title": "二次方程式を総合確認しよう",
+          "role": "overview",
+          "primarySkillId": "quadratic-mastery.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-word-problem.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-mastery.map"
+          ],
+          "inScope": [
+            "単元全体の技能と戻り先を説明する"
+          ],
+          "outOfScope": [
+            "代入検算"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-mastery.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-mastery.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-mastery.map"
+            }
+          ],
+          "existingLessonId": "02bb6f38f6ec4b25b2acd95ce9931cb8"
+        },
+        {
+          "title": "求めた解を元の式へ代入しよう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-mastery.verify",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-mastery.map"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-mastery.verify"
+          ],
+          "inScope": [
+            "すべての解を元の方程式へ代入して確かめる"
+          ],
+          "outOfScope": [
+            "場面への適合"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "quadratic-mastery.verify.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-mastery.verify"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-mastery.verify"
+            }
+          ],
+          "existingLessonId": "8d21722e0bc1443d85aa828426c9bc8e"
+        },
+        {
+          "title": "文章題で不適切な解を除こう",
+          "role": "application",
+          "primarySkillId": "quadratic-mastery.context",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-mastery.verify"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-mastery.context"
+          ],
+          "inScope": [
+            "条件・単位・範囲から不適切解を除く"
+          ],
+          "outOfScope": [
+            "入試混合"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-mastery.context.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-mastery.context"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-mastery.context"
+            }
+          ],
+          "existingLessonId": "3c0c05330b4246a78e5e157e07799743"
+        },
+        {
+          "title": "高校入試の混合問題に挑戦しよう",
+          "role": "application",
+          "primarySkillId": "quadratic-mastery.exam",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-mastery.context"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-mastery.exam"
+          ],
+          "inScope": [
+            "式の形と条件から解法を選び記述する"
+          ],
+          "outOfScope": [
+            "間隔反復"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "quadratic-mastery.exam.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-mastery.exam"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-mastery.exam"
+            }
+          ],
+          "existingLessonId": "99bf1cdc6a264e73b9e9df9bf4c170cf"
+        },
+        {
+          "title": "間隔反復で二次方程式を固めよう",
+          "role": "mastery",
+          "primarySkillId": "quadratic-mastery.spaced",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-mastery.exam"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-mastery.spaced"
+          ],
+          "inScope": [
+            "弱点別の戻り先と復習日程を決める"
+          ],
+          "outOfScope": [
+            "関数y=ax²"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-mastery.spaced.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-mastery.spaced"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-mastery.spaced"
+            }
+          ],
+          "existingLessonId": "4cb2dd678ca34455bdbbc4d68917e835"
+        }
+      ]
+    }
+  ]
+}

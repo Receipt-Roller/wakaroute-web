@@ -1,0 +1,1878 @@
+{
+  "courseTitle": "式の計算",
+  "courseId": "95d17454e0034febb8000b31b8d6b4ab",
+  "audience": "中学2年生・高校受験基礎",
+  "learningModes": [
+    "conceptual understanding",
+    "procedure and fluency",
+    "integrated application"
+  ],
+  "designRationale": [
+    "中学1年の文字式を診断してから、式の構造、次数と同類項、加減、乗除へ進み、前提不足を残さない。",
+    "一つのレッスンを一つの診断技能へ対応させ、符号、指数、分配、約分の誤答原因を切り分ける。",
+    "機械的計算の後に式の値、等式変形、文字式による説明を置き、高校受験の説明問題へ転移させる。",
+    "各セクションを意味・中心技能・例・誤答診断・定着の流れにし、短い確認問題で戻り先を特定する。"
+  ],
+  "sections": [
+    {
+      "title": "中学1年の文字式を振り返ろう",
+      "sectionGoal": "中1文字式の前提を整える",
+      "lessons": [
+        {
+          "title": "中学1年の文字式を振り返ろうを理解しよう",
+          "role": "overview",
+          "primarySkillId": "expression.review-map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "literal-expression.foundation"
+          ],
+          "handsOffSkillIds": [
+            "expression.notation-review"
+          ],
+          "inScope": [
+            "中学1年の文字式を振り返ろうを理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expression.review-map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expression.review-map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expression.review-map"
+            }
+          ],
+          "existingLessonId": "4f05d0dbc1344a5894a5ae9fd94cb5aa"
+        },
+        {
+          "title": "文字式の書き方と積・商を確認しよう",
+          "existingLessonId": "2af475333e4c47c4adeec58e1d0f9b46",
+          "role": "prerequisite",
+          "primarySkillId": "expression.notation-review",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expression.notation-review"
+          ],
+          "handsOffSkillIds": [
+            "expression.negative-substitution"
+          ],
+          "inScope": [
+            "文字式の書き方と積・商を確認しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expression.notation-review.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expression.notation-review"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expression.notation-review"
+            }
+          ]
+        },
+        {
+          "title": "負の数を代入するときのかっこを確認しよう",
+          "existingLessonId": "e8eb971f96994880be971e2607ebb561",
+          "role": "prerequisite",
+          "primarySkillId": "expression.negative-substitution",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expression.negative-substitution"
+          ],
+          "handsOffSkillIds": [
+            "expression.distributive-review"
+          ],
+          "inScope": [
+            "負の数を代入するときのかっこを確認しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expression.negative-substitution.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expression.negative-substitution"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expression.negative-substitution"
+            }
+          ]
+        },
+        {
+          "title": "分配法則と式の整理を振り返ろう",
+          "existingLessonId": "f1b3fc0b10d14ddfae08bd6bf1e0a046",
+          "role": "concept",
+          "primarySkillId": "expression.distributive-review",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expression.distributive-review"
+          ],
+          "handsOffSkillIds": [
+            "expression.prerequisite-diagnosis"
+          ],
+          "inScope": [
+            "分配法則と式の整理を振り返ろうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expression.distributive-review.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expression.distributive-review"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expression.distributive-review"
+            }
+          ]
+        },
+        {
+          "title": "中学1年の文字式の前提を診断しよう",
+          "existingLessonId": "203eaf55d680498eb28c38e7f4dba15c",
+          "role": "mastery",
+          "primarySkillId": "expression.prerequisite-diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expression.prerequisite-diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.structure-overview"
+          ],
+          "inScope": [
+            "中学1年の文字式の前提を診断しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "expression.prerequisite-diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expression.prerequisite-diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expression.prerequisite-diagnosis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "単項式と多項式",
+      "sectionGoal": "式の構造を分類する",
+      "lessons": [
+        {
+          "title": "単項式と多項式を理解しよう",
+          "role": "overview",
+          "primarySkillId": "polynomial.structure-overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.structure-overview"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.split-terms"
+          ],
+          "inScope": [
+            "単項式と多項式を理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial.structure-overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.structure-overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.structure-overview"
+            }
+          ],
+          "existingLessonId": "506e65545bff4516be1a03b4f7c72ff5"
+        },
+        {
+          "title": "式を項に分けよう",
+          "existingLessonId": "deb1b07b75854db3a3d2ee40cdf2f776",
+          "role": "concept",
+          "primarySkillId": "polynomial.split-terms",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.split-terms"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.coefficient-constant"
+          ],
+          "inScope": [
+            "式を項に分けようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial.split-terms.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.split-terms"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.split-terms"
+            }
+          ]
+        },
+        {
+          "title": "係数と定数項を見分けよう",
+          "existingLessonId": "361fb300beae4fbf83f085a2fdc153cc",
+          "role": "concept",
+          "primarySkillId": "polynomial.coefficient-constant",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.coefficient-constant"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.classify"
+          ],
+          "inScope": [
+            "係数と定数項を見分けようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial.coefficient-constant.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.coefficient-constant"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.coefficient-constant"
+            }
+          ]
+        },
+        {
+          "title": "単項式と多項式を分類しよう",
+          "existingLessonId": "74e8844b72a64fc484c1d9b0ae54f817",
+          "role": "practice",
+          "primarySkillId": "polynomial.classify",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.classify"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.structure-errors"
+          ],
+          "inScope": [
+            "単項式と多項式を分類しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial.classify.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.classify"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.classify"
+            }
+          ]
+        },
+        {
+          "title": "式の構造の誤りを直そう",
+          "existingLessonId": "8dbadd72780e4cc1b8407d7fc5339ce6",
+          "role": "misconception",
+          "primarySkillId": "polynomial.structure-errors",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.structure-errors"
+          ],
+          "handsOffSkillIds": [
+            "degree.like-term-overview"
+          ],
+          "inScope": [
+            "式の構造の誤りを直そうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "polynomial.structure-errors.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.structure-errors"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.structure-errors"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "次数と同類項",
+      "sectionGoal": "次数と同類項を区別する",
+      "lessons": [
+        {
+          "title": "次数と同類項を理解しよう",
+          "role": "overview",
+          "primarySkillId": "degree.like-term-overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "degree.like-term-overview"
+          ],
+          "handsOffSkillIds": [
+            "degree.monomial"
+          ],
+          "inScope": [
+            "次数と同類項を理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "degree.like-term-overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "degree.like-term-overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "degree.like-term-overview"
+            }
+          ],
+          "existingLessonId": "2614893aa91d4f9ab6a430e475901900"
+        },
+        {
+          "title": "単項式の次数を求めよう",
+          "existingLessonId": "69e6bba58e8d4fcaba3c367c7ff43052",
+          "role": "concept",
+          "primarySkillId": "degree.monomial",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "degree.monomial"
+          ],
+          "handsOffSkillIds": [
+            "degree.polynomial"
+          ],
+          "inScope": [
+            "単項式の次数を求めようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "degree.monomial.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "degree.monomial"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "degree.monomial"
+            }
+          ]
+        },
+        {
+          "title": "多項式の次数を求めよう",
+          "existingLessonId": "4dd7138483784e469bcdb040d97a2ec3",
+          "role": "concept",
+          "primarySkillId": "degree.polynomial",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "degree.polynomial"
+          ],
+          "handsOffSkillIds": [
+            "like-terms.identify"
+          ],
+          "inScope": [
+            "多項式の次数を求めようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "degree.polynomial.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "degree.polynomial"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "degree.polynomial"
+            }
+          ]
+        },
+        {
+          "title": "文字部分から同類項を見つけよう",
+          "existingLessonId": "3931d5fcd05d48bca1c861807d96b9e3",
+          "role": "procedure",
+          "primarySkillId": "like-terms.identify",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "like-terms.identify"
+          ],
+          "handsOffSkillIds": [
+            "like-terms.combine-diagnose"
+          ],
+          "inScope": [
+            "文字部分から同類項を見つけようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "like-terms.identify.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "like-terms.identify"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "like-terms.identify"
+            }
+          ]
+        },
+        {
+          "title": "同類項をまとめる誤答を直そう",
+          "existingLessonId": "e334d56683d94b88977a5f95ea09ce14",
+          "role": "mastery",
+          "primarySkillId": "like-terms.combine-diagnose",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "like-terms.combine-diagnose"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.add-sub-overview"
+          ],
+          "inScope": [
+            "同類項をまとめる誤答を直そうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "like-terms.combine-diagnose.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "like-terms.combine-diagnose"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "like-terms.combine-diagnose"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "多項式の加法・減法",
+      "sectionGoal": "多項式の和差を正確に計算する",
+      "lessons": [
+        {
+          "title": "多項式の加法・減法を理解しよう",
+          "role": "overview",
+          "primarySkillId": "polynomial.add-sub-overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.add-sub-overview"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.addition"
+          ],
+          "inScope": [
+            "多項式の加法・減法を理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial.add-sub-overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.add-sub-overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.add-sub-overview"
+            }
+          ],
+          "existingLessonId": "3b79701044e34afeb9da5ed8c7417095"
+        },
+        {
+          "title": "多項式の加法でかっこを外そう",
+          "existingLessonId": "d4c810c12c634d54999881a6d7aaf9cb",
+          "role": "procedure",
+          "primarySkillId": "polynomial.addition",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.addition"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.subtraction-signs"
+          ],
+          "inScope": [
+            "多項式の加法でかっこを外そうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial.addition.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.addition"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.addition"
+            }
+          ]
+        },
+        {
+          "title": "多項式の減法で全項の符号を変えよう",
+          "existingLessonId": "1162b854abcf4372bc5de880c6cfb02f",
+          "role": "procedure",
+          "primarySkillId": "polynomial.subtraction-signs",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.subtraction-signs"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.horizontal-vertical"
+          ],
+          "inScope": [
+            "多項式の減法で全項の符号を変えようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial.subtraction-signs.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.subtraction-signs"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.subtraction-signs"
+            }
+          ]
+        },
+        {
+          "title": "横書きと縦書きを使い分けよう",
+          "existingLessonId": "cb0fed3f18744c11b50d676635c4a380",
+          "role": "example",
+          "primarySkillId": "polynomial.horizontal-vertical",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.horizontal-vertical"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.add-sub-diagnosis"
+          ],
+          "inScope": [
+            "横書きと縦書きを使い分けようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial.horizontal-vertical.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.horizontal-vertical"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.horizontal-vertical"
+            }
+          ]
+        },
+        {
+          "title": "多項式の加法・減法の誤答を診断しよう",
+          "existingLessonId": "50a5b6664b2a4c58b1fe506394cd9580",
+          "role": "mastery",
+          "primarySkillId": "polynomial.add-sub-diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.add-sub-diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "monomial.multiply-overview"
+          ],
+          "inScope": [
+            "多項式の加法・減法の誤答を診断しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "polynomial.add-sub-diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.add-sub-diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.add-sub-diagnosis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "単項式の乗法",
+      "sectionGoal": "係数と文字を分けて乗算する",
+      "lessons": [
+        {
+          "title": "単項式の乗法を理解しよう",
+          "role": "overview",
+          "primarySkillId": "monomial.multiply-overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "monomial.multiply-overview"
+          ],
+          "handsOffSkillIds": [
+            "monomial.multiply-parts"
+          ],
+          "inScope": [
+            "単項式の乗法を理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "monomial.multiply-overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "monomial.multiply-overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "monomial.multiply-overview"
+            }
+          ],
+          "existingLessonId": "242b3efe314848b8862ae59a2864e7b9"
+        },
+        {
+          "title": "係数と文字を分けてかけよう",
+          "existingLessonId": "a4fdfaf43d7d4db89a5fa2a2650c1a76",
+          "role": "procedure",
+          "primarySkillId": "monomial.multiply-parts",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "monomial.multiply-parts"
+          ],
+          "handsOffSkillIds": [
+            "monomial.exponent-product"
+          ],
+          "inScope": [
+            "係数と文字を分けてかけようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "monomial.multiply-parts.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "monomial.multiply-parts"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "monomial.multiply-parts"
+            }
+          ]
+        },
+        {
+          "title": "同じ文字の指数をまとめよう",
+          "existingLessonId": "20f58c291cc04679b2c046085ba9accb",
+          "role": "concept",
+          "primarySkillId": "monomial.exponent-product",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "monomial.exponent-product"
+          ],
+          "handsOffSkillIds": [
+            "monomial.multiply-multivariable"
+          ],
+          "inScope": [
+            "同じ文字の指数をまとめようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "monomial.exponent-product.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "monomial.exponent-product"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "monomial.exponent-product"
+            }
+          ]
+        },
+        {
+          "title": "複数の文字と符号を含む乗法を解こう",
+          "existingLessonId": "5928be7ac1194b03bf48cdda6ff41e8b",
+          "role": "practice",
+          "primarySkillId": "monomial.multiply-multivariable",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "monomial.multiply-multivariable"
+          ],
+          "handsOffSkillIds": [
+            "monomial.multiply-diagnosis"
+          ],
+          "inScope": [
+            "複数の文字と符号を含む乗法を解こうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "monomial.multiply-multivariable.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "monomial.multiply-multivariable"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "monomial.multiply-multivariable"
+            }
+          ]
+        },
+        {
+          "title": "単項式の乗法の誤答を直そう",
+          "existingLessonId": "7ab96cce252048bf97907e9ea7271e57",
+          "role": "mastery",
+          "primarySkillId": "monomial.multiply-diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "monomial.multiply-diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "monomial.divide-overview"
+          ],
+          "inScope": [
+            "単項式の乗法の誤答を直そうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "monomial.multiply-diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "monomial.multiply-diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "monomial.multiply-diagnosis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "単項式の除法",
+      "sectionGoal": "除法を分数と乗法で捉える",
+      "lessons": [
+        {
+          "title": "単項式の除法を理解しよう",
+          "role": "overview",
+          "primarySkillId": "monomial.divide-overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "monomial.divide-overview"
+          ],
+          "handsOffSkillIds": [
+            "monomial.divide-as-fraction"
+          ],
+          "inScope": [
+            "単項式の除法を理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "monomial.divide-overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "monomial.divide-overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "monomial.divide-overview"
+            }
+          ],
+          "existingLessonId": "086b36e77bc347299f31e2c31c97ba40"
+        },
+        {
+          "title": "除法を分数に直して考えよう",
+          "existingLessonId": "8329952f63ab4f86bc4e25418d54fa92",
+          "role": "concept",
+          "primarySkillId": "monomial.divide-as-fraction",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "monomial.divide-as-fraction"
+          ],
+          "handsOffSkillIds": [
+            "monomial.divide-coefficient"
+          ],
+          "inScope": [
+            "除法を分数に直して考えようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "monomial.divide-as-fraction.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "monomial.divide-as-fraction"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "monomial.divide-as-fraction"
+            }
+          ]
+        },
+        {
+          "title": "係数と符号を正しく割ろう",
+          "existingLessonId": "285003a9543b4faa99f74b3fc842bad7",
+          "role": "procedure",
+          "primarySkillId": "monomial.divide-coefficient",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "monomial.divide-coefficient"
+          ],
+          "handsOffSkillIds": [
+            "monomial.divide-literal"
+          ],
+          "inScope": [
+            "係数と符号を正しく割ろうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "monomial.divide-coefficient.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "monomial.divide-coefficient"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "monomial.divide-coefficient"
+            }
+          ]
+        },
+        {
+          "title": "文字と指数を約分しよう",
+          "existingLessonId": "94719578bdcf4107b978b26ea4e4c1b0",
+          "role": "procedure",
+          "primarySkillId": "monomial.divide-literal",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "monomial.divide-literal"
+          ],
+          "handsOffSkillIds": [
+            "monomial.mixed-diagnosis"
+          ],
+          "inScope": [
+            "文字と指数を約分しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "monomial.divide-literal.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "monomial.divide-literal"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "monomial.divide-literal"
+            }
+          ]
+        },
+        {
+          "title": "乗除が混ざる式の誤答を直そう",
+          "existingLessonId": "64be5ab2dc7c4e9d812f4852e28508c3",
+          "role": "mastery",
+          "primarySkillId": "monomial.mixed-diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "monomial.mixed-diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.scalar-overview"
+          ],
+          "inScope": [
+            "乗除が混ざる式の誤答を直そうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "monomial.mixed-diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "monomial.mixed-diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "monomial.mixed-diagnosis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "多項式と数・単項式の乗除",
+      "sectionGoal": "分配法則を多項式の乗除へ使う",
+      "lessons": [
+        {
+          "title": "多項式と数・単項式の乗除を理解しよう",
+          "role": "overview",
+          "primarySkillId": "polynomial.scalar-overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.scalar-overview"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.multiply-number"
+          ],
+          "inScope": [
+            "多項式と数・単項式の乗除を理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial.scalar-overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.scalar-overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.scalar-overview"
+            }
+          ],
+          "existingLessonId": "00c099b0c404472f916e047c958b49e2"
+        },
+        {
+          "title": "多項式に数をかけよう",
+          "existingLessonId": "d0e7aeffb73c437984bc1a91d23df6dc",
+          "role": "procedure",
+          "primarySkillId": "polynomial.multiply-number",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.multiply-number"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.multiply-monomial"
+          ],
+          "inScope": [
+            "多項式に数をかけようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial.multiply-number.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.multiply-number"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.multiply-number"
+            }
+          ]
+        },
+        {
+          "title": "多項式に単項式をかけよう",
+          "existingLessonId": "0c8392501aaa41989068a54f9c2cadd1",
+          "role": "procedure",
+          "primarySkillId": "polynomial.multiply-monomial",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.multiply-monomial"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.divide-termwise"
+          ],
+          "inScope": [
+            "多項式に単項式をかけようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial.multiply-monomial.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.multiply-monomial"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.multiply-monomial"
+            }
+          ]
+        },
+        {
+          "title": "多項式を数・単項式で割ろう",
+          "existingLessonId": "c6dc1455c6a84729bd1e1d2d9dd80da5",
+          "role": "procedure",
+          "primarySkillId": "polynomial.divide-termwise",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.divide-termwise"
+          ],
+          "handsOffSkillIds": [
+            "polynomial.scalar-diagnosis"
+          ],
+          "inScope": [
+            "多項式を数・単項式で割ろうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial.divide-termwise.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.divide-termwise"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.divide-termwise"
+            }
+          ]
+        },
+        {
+          "title": "分配と約分の誤答を診断しよう",
+          "existingLessonId": "0d58fe2ab05c429782cd71e53f808015",
+          "role": "mastery",
+          "primarySkillId": "polynomial.scalar-diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial.scalar-diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "value.efficiency-overview"
+          ],
+          "inScope": [
+            "分配と約分の誤答を診断しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "polynomial.scalar-diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial.scalar-diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial.scalar-diagnosis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "式の値と計算の工夫",
+      "sectionGoal": "代入と整理の順を選ぶ",
+      "lessons": [
+        {
+          "title": "式の値と計算の工夫を理解しよう",
+          "role": "overview",
+          "primarySkillId": "value.efficiency-overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "value.efficiency-overview"
+          ],
+          "handsOffSkillIds": [
+            "value.substitute-negative"
+          ],
+          "inScope": [
+            "式の値と計算の工夫を理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "value.efficiency-overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "value.efficiency-overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "value.efficiency-overview"
+            }
+          ],
+          "existingLessonId": "a5de901f22994cb4b72e1f91d9b4a3fa"
+        },
+        {
+          "title": "負の数をかっこで代入しよう",
+          "existingLessonId": "4adbf9cff3b842c29b7e3a67d696f25e",
+          "role": "procedure",
+          "primarySkillId": "value.substitute-negative",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "value.substitute-negative"
+          ],
+          "handsOffSkillIds": [
+            "value.simplify-first"
+          ],
+          "inScope": [
+            "負の数をかっこで代入しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "value.substitute-negative.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "value.substitute-negative"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "value.substitute-negative"
+            }
+          ]
+        },
+        {
+          "title": "代入前に式を整理しよう",
+          "existingLessonId": "6bba6bec7da7481fa2c1dec744caccfe",
+          "role": "procedure",
+          "primarySkillId": "value.simplify-first",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "value.simplify-first"
+          ],
+          "handsOffSkillIds": [
+            "value.choose-efficient-order"
+          ],
+          "inScope": [
+            "代入前に式を整理しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "value.simplify-first.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "value.simplify-first"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "value.simplify-first"
+            }
+          ]
+        },
+        {
+          "title": "計算しやすい順序を選ぼう",
+          "existingLessonId": "0d442c5819e5472cb80d795d82178ea9",
+          "role": "application",
+          "primarySkillId": "value.choose-efficient-order",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "value.choose-efficient-order"
+          ],
+          "handsOffSkillIds": [
+            "value.diagnosis"
+          ],
+          "inScope": [
+            "計算しやすい順序を選ぼうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "value.choose-efficient-order.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "value.choose-efficient-order"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "value.choose-efficient-order"
+            }
+          ]
+        },
+        {
+          "title": "式の値の誤答を診断しよう",
+          "existingLessonId": "0f66c1766d5f47fa80ae234fbc304bc1",
+          "role": "mastery",
+          "primarySkillId": "value.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "value.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "formula.transform-overview"
+          ],
+          "inScope": [
+            "式の値の誤答を診断しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "value.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "value.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "value.diagnosis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "等式を変形しよう",
+      "sectionGoal": "指定文字を孤立させる",
+      "lessons": [
+        {
+          "title": "等式を変形しようを理解しよう",
+          "role": "overview",
+          "primarySkillId": "formula.transform-overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "formula.transform-overview"
+          ],
+          "handsOffSkillIds": [
+            "formula.target-variable"
+          ],
+          "inScope": [
+            "等式を変形しようを理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "formula.transform-overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "formula.transform-overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "formula.transform-overview"
+            }
+          ],
+          "existingLessonId": "bf1372519b9f4f59b85a2c4bcb6ec12f"
+        },
+        {
+          "title": "何について解くかを見分けよう",
+          "existingLessonId": "ff825adae8cb401387bc56431a66afea",
+          "role": "concept",
+          "primarySkillId": "formula.target-variable",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "formula.target-variable"
+          ],
+          "handsOffSkillIds": [
+            "formula.isolate-variable"
+          ],
+          "inScope": [
+            "何について解くかを見分けようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "formula.target-variable.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "formula.target-variable"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "formula.target-variable"
+            }
+          ]
+        },
+        {
+          "title": "逆の操作で指定文字を孤立させよう",
+          "existingLessonId": "0a1894679cbd4cc099b486445d9916fc",
+          "role": "procedure",
+          "primarySkillId": "formula.isolate-variable",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "formula.isolate-variable"
+          ],
+          "handsOffSkillIds": [
+            "formula.transform-applications"
+          ],
+          "inScope": [
+            "逆の操作で指定文字を孤立させようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "formula.isolate-variable.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "formula.isolate-variable"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "formula.isolate-variable"
+            }
+          ]
+        },
+        {
+          "title": "面積・速さの公式を変形しよう",
+          "existingLessonId": "9d71c725da67458da63a069323ce5d12",
+          "role": "application",
+          "primarySkillId": "formula.transform-applications",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "formula.transform-applications"
+          ],
+          "handsOffSkillIds": [
+            "formula.verify-transformation"
+          ],
+          "inScope": [
+            "面積・速さの公式を変形しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "formula.transform-applications.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "formula.transform-applications"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "formula.transform-applications"
+            }
+          ]
+        },
+        {
+          "title": "代入で等式変形を確かめよう",
+          "existingLessonId": "738ce4ef3e134ec5aaec3c7ac663f127",
+          "role": "mastery",
+          "primarySkillId": "formula.verify-transformation",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "formula.verify-transformation"
+          ],
+          "handsOffSkillIds": [
+            "expression.course-overview"
+          ],
+          "inScope": [
+            "代入で等式変形を確かめようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "formula.verify-transformation.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "formula.verify-transformation"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "formula.verify-transformation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "文字式で説明しよう・マスターチェック",
+      "sectionGoal": "文字式で一般性を説明する",
+      "lessons": [
+        {
+          "title": "式の計算を総合確認しよう",
+          "role": "overview",
+          "primarySkillId": "expression.course-overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expression.course-overview"
+          ],
+          "handsOffSkillIds": [
+            "proof.integer-representation"
+          ],
+          "inScope": [
+            "式の計算を総合確認しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expression.course-overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expression.course-overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expression.course-overview"
+            }
+          ],
+          "existingLessonId": "6fcd1fcb9aac4b359f902e58306d61f1"
+        },
+        {
+          "title": "偶数・奇数と連続する整数を表そう",
+          "existingLessonId": "3ac16ed931a241a8b399dfe9200d2b06",
+          "role": "concept",
+          "primarySkillId": "proof.integer-representation",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "proof.integer-representation"
+          ],
+          "handsOffSkillIds": [
+            "proof.multiple-remainder"
+          ],
+          "inScope": [
+            "偶数・奇数と連続する整数を表そうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "proof.integer-representation.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "proof.integer-representation"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "proof.integer-representation"
+            }
+          ]
+        },
+        {
+          "title": "倍数と余りを文字式で説明しよう",
+          "existingLessonId": "19b0e1b025dc40b583942c56c09dcf3b",
+          "role": "application",
+          "primarySkillId": "proof.multiple-remainder",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "proof.multiple-remainder"
+          ],
+          "handsOffSkillIds": [
+            "proof.geometry-expression"
+          ],
+          "inScope": [
+            "倍数と余りを文字式で説明しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "proof.multiple-remainder.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "proof.multiple-remainder"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "proof.multiple-remainder"
+            }
+          ]
+        },
+        {
+          "title": "図形の性質を文字式で説明しよう",
+          "existingLessonId": "01e42b1b65164a838070eb151489a29f",
+          "role": "application",
+          "primarySkillId": "proof.geometry-expression",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "proof.geometry-expression"
+          ],
+          "handsOffSkillIds": [
+            "expression.course-mastery"
+          ],
+          "inScope": [
+            "図形の性質を文字式で説明しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "proof.geometry-expression.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "proof.geometry-expression"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "proof.geometry-expression"
+            }
+          ]
+        },
+        {
+          "title": "式の計算を入試問題と間隔練習で固めよう",
+          "existingLessonId": "aac57fc9296a4301b96a08fe2657c535",
+          "role": "mastery",
+          "primarySkillId": "expression.course-mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expression.course-mastery"
+          ],
+          "handsOffSkillIds": [
+            "simultaneous-equations.expression-fluency"
+          ],
+          "inScope": [
+            "式の計算を入試問題と間隔練習で固めようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "このレッスンより後の技能と、未習の展開・因数分解"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "expression.course-mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expression.course-mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expression.course-mastery"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

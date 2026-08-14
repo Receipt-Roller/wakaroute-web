@@ -11,7 +11,7 @@
             <nav class="breadcrumbs" aria-label="パンくずリスト">
                 <a asp-area="" asp-controller="Home" asp-action="Index">ホーム</a>
                 <span aria-hidden="true">/</span>
-                <span aria-current="page">@Model.Subject の理解マップ</span>
+                <span aria-current="page">@(Model.Subject)の理解マップ</span>
             </nav>
             <div class="eyebrow"><span></span>UNDERSTANDING MAP</div>
             <h1>@Model.HeroTitleFirst<br />@Model.HeroTitleSecond</h1>
@@ -173,7 +173,7 @@
                     @if (node.CourseId is not null)
                     {
                         <span class="detail-course-source">MANABU2 COURSE</span>
-                        <a class="detail-course-link" asp-action="Course" asp-route-courseId="@node.CourseId">
+                        <a class="detail-course-link" asp-action="Course" asp-route-subjectId="@Model.SubjectId" asp-route-courseId="@node.CourseId">
                             セクションを見る <span aria-hidden="true">→</span>
                         </a>
                     }

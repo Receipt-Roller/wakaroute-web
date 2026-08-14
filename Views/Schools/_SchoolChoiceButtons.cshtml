@@ -1,0 +1,11 @@
+@model SchoolCatalogItem
+<div class="school-choice-buttons" aria-label="候補校として保存・比較">
+    <button type="button" class="school-choice-button" data-school-favorite data-school-id="@Model.Id" data-school-name="@Model.Name" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.2 4.7 13A4.8 4.8 0 0 1 11.5 6.2l.5.5.5-.5A4.8 4.8 0 0 1 19.3 13Z" /></svg>
+        <span data-school-favorite-label>お気に入り</span>
+    </button>
+    <button type="button" class="school-choice-button" data-school-compare data-school-id="@Model.Id" data-school-name="@Model.Name" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h11M8 12h11M8 18h11" /><circle cx="4" cy="6" r="1" /><circle cx="4" cy="12" r="1" /><circle cx="4" cy="18" r="1" /></svg>
+        <span data-school-compare-label>比較に追加</span>
+    </button>
+</div>

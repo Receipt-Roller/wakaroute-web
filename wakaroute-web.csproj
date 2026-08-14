@@ -10,7 +10,10 @@
 
   <ItemGroup>
     <Compile Remove="tools\**\*.cs" />
+    <Compile Remove=".verify-build\**\*.cs" />
     <Content Update="Data\Schools\**\*.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Remove="Data\Schools\private\**\*.json" />
+    <None Remove="Data\Schools\private\**\*.json" />
   </ItemGroup>
 
 </Project>

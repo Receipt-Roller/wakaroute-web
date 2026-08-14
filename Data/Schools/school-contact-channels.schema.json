@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wakaroute.com/schemas/school-contact-channels.schema.json",
+  "title": "WakaRoute private school contact channels",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "asOf", "contacts"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "asOf": { "type": "string", "format": "date" },
+    "contacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "schoolId", "channelType", "value", "purpose", "organizationManaged", "sourceUrl", "verifiedAt", "publicOnOfficialSite", "doNotContact", "notes"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "schoolId": { "type": "string", "minLength": 1 },
+          "channelType": { "enum": ["email", "contact-form"] },
+          "value": { "type": "string", "minLength": 1 },
+          "purpose": { "enum": ["general", "admissions", "school-life", "public-relations", "unknown"] },
+          "organizationManaged": { "type": "boolean" },
+          "sourceUrl": { "type": "string", "format": "uri" },
+          "verifiedAt": { "type": "string", "format": "date" },
+          "publicOnOfficialSite": { "type": "boolean" },
+          "doNotContact": { "type": "boolean" },
+          "notes": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

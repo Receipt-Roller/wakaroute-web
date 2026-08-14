@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "お気に入りの高校";
+    ViewData["Description"] = "この端末に保存したお気に入りの高校を一覧で確認し、候補校比較へ進めます。";
+}
+
+<section class="school-tools-hero">
+    <div class="shell">
+        <nav class="breadcrumbs" aria-label="パンくずリスト"><a asp-controller="Home" asp-action="Index">ホーム</a><span aria-hidden="true">/</span><a asp-action="Index">高校を探す</a><span aria-hidden="true">/</span><span>お気に入り</span></nav>
+        <div class="eyebrow"><span></span>SAVED SCHOOLS</div>
+        <h1>気になる高校を、<br />あとでゆっくり比べよう。</h1>
+        <p>お気に入りとメモは、このブラウザの端末内だけに保存されます。ログインや個人情報の入力は必要ありません。</p>
+    </div>
+</section>
+
+<main class="school-tools-main" data-school-saved-page>
+    <div class="shell">
+        <div class="school-comparison-intro"><div><span>YOUR SHORTLIST</span><h2>お気に入りの高校 <strong data-school-favorite-count>0</strong>校</h2></div><div><a data-school-commute-link asp-action="Commute">通学条件を確認</a><a asp-action="Index">高校を探す</a></div></div>
+        <p class="school-saved-loading" data-saved-loading>保存した高校を読み込んでいます。</p>
+        <div class="school-tools-empty" data-saved-empty hidden><span aria-hidden="true">♡</span><h2>お気に入りはまだありません</h2><p>検索結果や学校詳細の「お気に入り」から保存できます。</p><a class="button button-primary" asp-action="Index">高校を探す</a></div>
+        <div class="school-card-grid school-saved-grid" data-saved-list></div>
+
+        <template data-saved-school-template>
+            <article class="school-card" data-saved-school-card>
+                <div class="school-card-tags"><span class="school-tag" data-saved-ownership></span><span class="school-tag school-tag-profile" data-saved-gender></span></div>
+                <h3><a data-saved-name></a></h3>
+                <p class="school-program-summary" data-saved-program></p>
+                <p class="school-location"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 18s6-5.2 6-11a6 6 0 1 0-12 0c0 5.8 6 11 6 11Z" /><circle cx="10" cy="7" r="2" /></svg><span data-saved-address></span></p>
+                <div class="school-choice-buttons"><button type="button" class="school-choice-button" data-school-favorite aria-pressed="true"><span data-school-favorite-label>お気に入り済み</span></button><button type="button" class="school-choice-button" data-school-compare aria-pressed="false"><span data-school-compare-label>比較に追加</span></button></div>
+                <div class="school-card-footer"><small data-saved-verified></small><a data-saved-details>学校情報を見る →</a></div>
+            </article>
+        </template>
+    </div>
+</main>
+
+<partial name="_SchoolCompareTray" />
+
+@section Scripts {
+    <script src="~/js/school-shortlist.js" asp-append-version="true"></script>
+}

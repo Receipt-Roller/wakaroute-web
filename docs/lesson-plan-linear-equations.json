@@ -1,0 +1,1868 @@
+{
+  "courseTitle": "一次方程式",
+  "courseId": "03ed66d50d2e41d392d33e02707948f9",
+  "audience": "中学1年生・高校受験基礎",
+  "learningModes": [
+    "conceptual understanding",
+    "procedure and fluency",
+    "integrated application"
+  ],
+  "designRationale": [
+    "方程式の意味と解の検証から始め、等式の性質、基本解法、移項、標準手順へ段階的に進む。",
+    "かっこ、小数・分数は、基本解法を成立させた後に認知負荷を一つずつ追加する。",
+    "文章題は立式の共通手順を先に固定し、代金・過不足・速さ・割合へ転移させる。",
+    "各レッスンを一つの診断技能に対応させ、誤答から戻る位置を特定できるようにする。"
+  ],
+  "sections": [
+    {
+      "title": "方程式との出会い",
+      "lessons": [
+        {
+          "title": "方程式との出会いを理解しよう",
+          "existingLessonId": "4a637db3e7be4ed89d54013020b96ba0",
+          "role": "overview",
+          "primarySkillId": "equation.encounter-overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "literal.relation-and-substitution"
+          ],
+          "handsOffSkillIds": [
+            "equation.study-balance"
+          ],
+          "inScope": [
+            "方程式との出会いを理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「等式の性質とつり合い」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.encounter-overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.encounter-overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.encounter-overview"
+            }
+          ]
+        },
+        {
+          "title": "一次方程式は暗記より「つり合い」で学ぼう",
+          "existingLessonId": "4cbd48b14da04876b05467118fae58f8",
+          "role": "overview",
+          "primarySkillId": "equation.study-balance",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.study-balance"
+          ],
+          "handsOffSkillIds": [
+            "equation.vocabulary"
+          ],
+          "inScope": [
+            "一次方程式は暗記より「つり合い」で学ぼうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「等式の性質とつり合い」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.study-balance.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.study-balance"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.study-balance"
+            }
+          ]
+        },
+        {
+          "title": "方程式・未知数・解を見分けよう",
+          "existingLessonId": "42081b5c7d774ca5ac1eda29712710a6",
+          "role": "concept",
+          "primarySkillId": "equation.vocabulary",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.vocabulary"
+          ],
+          "handsOffSkillIds": [
+            "equation.model-number-trick"
+          ],
+          "inScope": [
+            "方程式・未知数・解を見分けようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「等式の性質とつり合い」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.vocabulary.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.vocabulary"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.vocabulary"
+            }
+          ]
+        },
+        {
+          "title": "数当て問題を方程式に変えよう",
+          "existingLessonId": "b8db575149be408e807776df18b20160",
+          "role": "application",
+          "primarySkillId": "equation.model-number-trick",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.model-number-trick"
+          ],
+          "handsOffSkillIds": [
+            "equation.verify-solution"
+          ],
+          "inScope": [
+            "数当て問題を方程式に変えようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「等式の性質とつり合い」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.model-number-trick.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.model-number-trick"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.model-number-trick"
+            }
+          ]
+        },
+        {
+          "title": "解を代入して確かめる練習",
+          "existingLessonId": "285b1b05a4324f32a24b1355a0265095",
+          "role": "practice",
+          "primarySkillId": "equation.verify-solution",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.verify-solution"
+          ],
+          "handsOffSkillIds": [
+            "equality.inverse-review"
+          ],
+          "inScope": [
+            "解を代入して確かめる練習の中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「等式の性質とつり合い」で扱う発展技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "equation.verify-solution.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.verify-solution"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.verify-solution"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "等式の性質とつり合い",
+      "lessons": [
+        {
+          "title": "等式の性質とつり合いを理解しよう",
+          "existingLessonId": "6d979ccfd2434b4ab0d74cd519f06357",
+          "role": "prerequisite",
+          "primarySkillId": "equality.inverse-review",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.verify-solution"
+          ],
+          "handsOffSkillIds": [
+            "equality.balance-model"
+          ],
+          "inScope": [
+            "等式の性質とつり合いを理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「基本の一次方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equality.inverse-review.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equality.inverse-review"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equality.inverse-review"
+            }
+          ]
+        },
+        {
+          "title": "逆の計算と等号の意味を振り返ろう",
+          "existingLessonId": "7e1c4c6e2bb6442281b30f2a58e308a8",
+          "role": "concept",
+          "primarySkillId": "equality.balance-model",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equality.balance-model"
+          ],
+          "handsOffSkillIds": [
+            "equality.four-properties"
+          ],
+          "inScope": [
+            "逆の計算と等号の意味を振り返ろうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「基本の一次方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equality.balance-model.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equality.balance-model"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equality.balance-model"
+            }
+          ]
+        },
+        {
+          "title": "天びんで等式の性質を理解しよう",
+          "existingLessonId": "a626609a39c84c1788666eb0ddaa145c",
+          "role": "concept",
+          "primarySkillId": "equality.four-properties",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equality.four-properties"
+          ],
+          "handsOffSkillIds": [
+            "equality.choose-operation"
+          ],
+          "inScope": [
+            "天びんで等式の性質を理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「基本の一次方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equality.four-properties.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equality.four-properties"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equality.four-properties"
+            }
+          ]
+        },
+        {
+          "title": "四つの等式の性質を使い分けよう",
+          "existingLessonId": "cb8ff284a57b446eb20bf3591457d2c4",
+          "role": "procedure",
+          "primarySkillId": "equality.choose-operation",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equality.choose-operation"
+          ],
+          "handsOffSkillIds": [
+            "equality.balance-practice"
+          ],
+          "inScope": [
+            "四つの等式の性質を使い分けようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「基本の一次方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equality.choose-operation.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equality.choose-operation"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equality.choose-operation"
+            }
+          ]
+        },
+        {
+          "title": "つり合いを保つ操作を選ぶ練習",
+          "existingLessonId": "1a8210050b6e403ebb1a83e2f8fa3ead",
+          "role": "practice",
+          "primarySkillId": "equality.balance-practice",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equality.balance-practice"
+          ],
+          "handsOffSkillIds": [
+            "equation.signed-number-review"
+          ],
+          "inScope": [
+            "つり合いを保つ操作を選ぶ練習の中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「基本の一次方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "equality.balance-practice.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equality.balance-practice"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equality.balance-practice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "基本の一次方程式",
+      "lessons": [
+        {
+          "title": "基本の一次方程式を理解しよう",
+          "existingLessonId": "c75066d5217f4f37b42e83c801886205",
+          "role": "prerequisite",
+          "primarySkillId": "equation.signed-number-review",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equality.balance-practice"
+          ],
+          "handsOffSkillIds": [
+            "equation.solve-additive"
+          ],
+          "inScope": [
+            "基本の一次方程式を理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「移項の意味と使い方」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.signed-number-review.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.signed-number-review"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.signed-number-review"
+            }
+          ]
+        },
+        {
+          "title": "正負の数と逆算を準備しよう",
+          "existingLessonId": "9d8755aa7203403188c9f8d236a504f9",
+          "role": "procedure",
+          "primarySkillId": "equation.solve-additive",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.solve-additive"
+          ],
+          "handsOffSkillIds": [
+            "equation.solve-multiplicative"
+          ],
+          "inScope": [
+            "正負の数と逆算を準備しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「移項の意味と使い方」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.solve-additive.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.solve-additive"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.solve-additive"
+            }
+          ]
+        },
+        {
+          "title": "x+a=b型を一手で解こう",
+          "existingLessonId": "a9a32e7574994ac5bfb7dfb71a4c9afa",
+          "role": "procedure",
+          "primarySkillId": "equation.solve-multiplicative",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.solve-multiplicative"
+          ],
+          "handsOffSkillIds": [
+            "equation.basic-three-types"
+          ],
+          "inScope": [
+            "x+a=b型を一手で解こうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「移項の意味と使い方」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.solve-multiplicative.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.solve-multiplicative"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.solve-multiplicative"
+            }
+          ]
+        },
+        {
+          "title": "ax=b型とx÷a=b型を解こう",
+          "existingLessonId": "3446e21f3cce4ed69869366a812c8068",
+          "role": "practice",
+          "primarySkillId": "equation.basic-three-types",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.basic-three-types"
+          ],
+          "handsOffSkillIds": [
+            "equation.basic-mastery"
+          ],
+          "inScope": [
+            "ax=b型とx÷a=b型を解こうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「移項の意味と使い方」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.basic-three-types.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.basic-three-types"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.basic-three-types"
+            }
+          ]
+        },
+        {
+          "title": "基本三形式を混ぜて練習しよう",
+          "existingLessonId": "06fc74d1a2a2400bae411cdab485d559",
+          "role": "mastery",
+          "primarySkillId": "equation.basic-mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.basic-mastery"
+          ],
+          "handsOffSkillIds": [
+            "transposition.from-equality"
+          ],
+          "inScope": [
+            "基本三形式を混ぜて練習しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「移項の意味と使い方」で扱う発展技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "equation.basic-mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.basic-mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.basic-mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "移項の意味と使い方",
+      "lessons": [
+        {
+          "title": "移項の意味と使い方を理解しよう",
+          "existingLessonId": "64913fadfd324bf58a4c529147b9262f",
+          "role": "prerequisite",
+          "primarySkillId": "transposition.from-equality",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.basic-mastery"
+          ],
+          "handsOffSkillIds": [
+            "transposition.sign-change-reason"
+          ],
+          "inScope": [
+            "移項の意味と使い方を理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「一次方程式の解き方を整理しよう」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "transposition.from-equality.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "transposition.from-equality"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "transposition.from-equality"
+            }
+          ]
+        },
+        {
+          "title": "等式の性質から移項を準備しよう",
+          "existingLessonId": "5981ffaf83ce4e5ab147c37886718de4",
+          "role": "concept",
+          "primarySkillId": "transposition.sign-change-reason",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "transposition.sign-change-reason"
+          ],
+          "handsOffSkillIds": [
+            "transposition.organize-terms"
+          ],
+          "inScope": [
+            "等式の性質から移項を準備しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「一次方程式の解き方を整理しよう」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "transposition.sign-change-reason.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "transposition.sign-change-reason"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "transposition.sign-change-reason"
+            }
+          ]
+        },
+        {
+          "title": "移項はなぜ符号が変わるのか",
+          "existingLessonId": "90e0cdb7ba354761ab903b89e23b8398",
+          "role": "procedure",
+          "primarySkillId": "transposition.organize-terms",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "transposition.organize-terms"
+          ],
+          "handsOffSkillIds": [
+            "transposition.detect-errors"
+          ],
+          "inScope": [
+            "移項はなぜ符号が変わるのかの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「一次方程式の解き方を整理しよう」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "transposition.organize-terms.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "transposition.organize-terms"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "transposition.organize-terms"
+            }
+          ]
+        },
+        {
+          "title": "文字の項と数の項を整理しよう",
+          "existingLessonId": "e074f7d9fd7041b38053356b194f8074",
+          "role": "misconception",
+          "primarySkillId": "transposition.detect-errors",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "transposition.detect-errors"
+          ],
+          "handsOffSkillIds": [
+            "transposition.mastery"
+          ],
+          "inScope": [
+            "文字の項と数の項を整理しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「一次方程式の解き方を整理しよう」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "transposition.detect-errors.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "transposition.detect-errors"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "transposition.detect-errors"
+            }
+          ]
+        },
+        {
+          "title": "移項の誤りを見抜く練習",
+          "existingLessonId": "3c9d20d1a21142bb9ddf61a6de2935c2",
+          "role": "mastery",
+          "primarySkillId": "transposition.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "transposition.mastery"
+          ],
+          "handsOffSkillIds": [
+            "equation.combine-like-terms"
+          ],
+          "inScope": [
+            "移項の誤りを見抜く練習の中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「一次方程式の解き方を整理しよう」で扱う発展技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "transposition.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "transposition.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "transposition.mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "一次方程式の解き方を整理しよう",
+      "lessons": [
+        {
+          "title": "一次方程式の解き方を整理しようを理解しよう",
+          "existingLessonId": "087e054e847a40cdb552308a7d612b07",
+          "role": "prerequisite",
+          "primarySkillId": "equation.combine-like-terms",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "transposition.mastery"
+          ],
+          "handsOffSkillIds": [
+            "equation.standard-procedure"
+          ],
+          "inScope": [
+            "一次方程式の解き方を整理しようを理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「かっこを含む方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.combine-like-terms.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.combine-like-terms"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.combine-like-terms"
+            }
+          ]
+        },
+        {
+          "title": "同類項と計算順序を確認しよう",
+          "existingLessonId": "727ecd05e20e4f59955c0226099bb064",
+          "role": "procedure",
+          "primarySkillId": "equation.standard-procedure",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.standard-procedure"
+          ],
+          "handsOffSkillIds": [
+            "equation.explain-steps"
+          ],
+          "inScope": [
+            "同類項と計算順序を確認しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「かっこを含む方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.standard-procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.standard-procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.standard-procedure"
+            }
+          ]
+        },
+        {
+          "title": "一次方程式の標準手順を作ろう",
+          "existingLessonId": "be52bae5cb9d43a9807f333f8943c26d",
+          "role": "example",
+          "primarySkillId": "equation.explain-steps",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.explain-steps"
+          ],
+          "handsOffSkillIds": [
+            "equation.mixed-practice"
+          ],
+          "inScope": [
+            "一次方程式の標準手順を作ろうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「かっこを含む方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.explain-steps.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.explain-steps"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.explain-steps"
+            }
+          ]
+        },
+        {
+          "title": "途中式から理由を説明しよう",
+          "existingLessonId": "d8f3e917563b44d3879170ad7841fe3c",
+          "role": "practice",
+          "primarySkillId": "equation.mixed-practice",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.mixed-practice"
+          ],
+          "handsOffSkillIds": [
+            "equation.fluency-retention"
+          ],
+          "inScope": [
+            "途中式から理由を説明しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「かっこを含む方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.mixed-practice.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.mixed-practice"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.mixed-practice"
+            }
+          ]
+        },
+        {
+          "title": "一次方程式の混合練習と定着法",
+          "existingLessonId": "bd2f740a367e4198be3a3cc84091bceb",
+          "role": "mastery",
+          "primarySkillId": "equation.fluency-retention",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.fluency-retention"
+          ],
+          "handsOffSkillIds": [
+            "equation.distributive-review"
+          ],
+          "inScope": [
+            "一次方程式の混合練習と定着法の中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「かっこを含む方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "equation.fluency-retention.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.fluency-retention"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.fluency-retention"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "かっこを含む方程式",
+      "lessons": [
+        {
+          "title": "かっこを含む方程式を理解しよう",
+          "existingLessonId": "44368dd0d9524545a7ca8b49b9525308",
+          "role": "prerequisite",
+          "primarySkillId": "equation.distributive-review",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.fluency-retention"
+          ],
+          "handsOffSkillIds": [
+            "equation.expand-solve"
+          ],
+          "inScope": [
+            "かっこを含む方程式を理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「小数・分数を含む方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.distributive-review.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.distributive-review"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.distributive-review"
+            }
+          ]
+        },
+        {
+          "title": "分配法則を面積と式で振り返ろう",
+          "existingLessonId": "e57a4af87e074453867529f111caf58e",
+          "role": "procedure",
+          "primarySkillId": "equation.expand-solve",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.expand-solve"
+          ],
+          "handsOffSkillIds": [
+            "equation.negative-parentheses"
+          ],
+          "inScope": [
+            "分配法則を面積と式で振り返ろうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「小数・分数を含む方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.expand-solve.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.expand-solve"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.expand-solve"
+            }
+          ]
+        },
+        {
+          "title": "かっこを外してから解こう",
+          "existingLessonId": "c72cc421e11d4848af246daaa7dedee0",
+          "role": "misconception",
+          "primarySkillId": "equation.negative-parentheses",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.negative-parentheses"
+          ],
+          "handsOffSkillIds": [
+            "equation.parentheses-practice"
+          ],
+          "inScope": [
+            "かっこを外してから解こうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「小数・分数を含む方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.negative-parentheses.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.negative-parentheses"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.negative-parentheses"
+            }
+          ]
+        },
+        {
+          "title": "かっこの前の負号に注意しよう",
+          "existingLessonId": "3d77eaaa36b84634971affd626d9e8b1",
+          "role": "practice",
+          "primarySkillId": "equation.parentheses-practice",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.parentheses-practice"
+          ],
+          "handsOffSkillIds": [
+            "equation.parentheses-mastery"
+          ],
+          "inScope": [
+            "かっこの前の負号に注意しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「小数・分数を含む方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.parentheses-practice.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.parentheses-practice"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.parentheses-practice"
+            }
+          ]
+        },
+        {
+          "title": "かっこを含む方程式を段階練習しよう",
+          "existingLessonId": "ba0a71637bee48d8acf11d6ad641957f",
+          "role": "mastery",
+          "primarySkillId": "equation.parentheses-mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.parentheses-mastery"
+          ],
+          "handsOffSkillIds": [
+            "equation.decimal-fraction-prereq"
+          ],
+          "inScope": [
+            "かっこを含む方程式を段階練習しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「小数・分数を含む方程式」で扱う発展技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "equation.parentheses-mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.parentheses-mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.parentheses-mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "小数・分数を含む方程式",
+      "lessons": [
+        {
+          "title": "小数・分数を含む方程式を理解しよう",
+          "existingLessonId": "09c8be28d17c4fc1b5324738a69d98a7",
+          "role": "prerequisite",
+          "primarySkillId": "equation.decimal-fraction-prereq",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.parentheses-mastery"
+          ],
+          "handsOffSkillIds": [
+            "equation.clear-decimals"
+          ],
+          "inScope": [
+            "小数・分数を含む方程式を理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「方程式を作って問題を解こう」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.decimal-fraction-prereq.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.decimal-fraction-prereq"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.decimal-fraction-prereq"
+            }
+          ]
+        },
+        {
+          "title": "小数の位と分数の最小公倍数を確認しよう",
+          "existingLessonId": "57476449e1cc4409a14116042c242738",
+          "role": "procedure",
+          "primarySkillId": "equation.clear-decimals",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.clear-decimals"
+          ],
+          "handsOffSkillIds": [
+            "equation.clear-denominators"
+          ],
+          "inScope": [
+            "小数の位と分数の最小公倍数を確認しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「方程式を作って問題を解こう」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.clear-decimals.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.clear-decimals"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.clear-decimals"
+            }
+          ]
+        },
+        {
+          "title": "小数の方程式を整数に直そう",
+          "existingLessonId": "a8d436d74aba4e0aae0afe29f39b7cca",
+          "role": "procedure",
+          "primarySkillId": "equation.clear-denominators",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.clear-denominators"
+          ],
+          "handsOffSkillIds": [
+            "equation.rational-error-analysis"
+          ],
+          "inScope": [
+            "小数の方程式を整数に直そうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「方程式を作って問題を解こう」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.clear-denominators.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.clear-denominators"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.clear-denominators"
+            }
+          ]
+        },
+        {
+          "title": "分数の方程式から分母をなくそう",
+          "existingLessonId": "f0e872a663f84e06b99e3e2e747582f1",
+          "role": "misconception",
+          "primarySkillId": "equation.rational-error-analysis",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.rational-error-analysis"
+          ],
+          "handsOffSkillIds": [
+            "equation.rational-mastery"
+          ],
+          "inScope": [
+            "分数の方程式から分母をなくそうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「方程式を作って問題を解こう」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.rational-error-analysis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.rational-error-analysis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.rational-error-analysis"
+            }
+          ]
+        },
+        {
+          "title": "小数・分数方程式の誤答を直そう",
+          "existingLessonId": "93358ddfc8ce4d049eb903346964a1e6",
+          "role": "mastery",
+          "primarySkillId": "equation.rational-mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.rational-mastery"
+          ],
+          "handsOffSkillIds": [
+            "wordproblem.identify-quantities"
+          ],
+          "inScope": [
+            "小数・分数方程式の誤答を直そうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「方程式を作って問題を解こう」で扱う発展技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "equation.rational-mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.rational-mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.rational-mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "方程式を作って問題を解こう",
+      "lessons": [
+        {
+          "title": "方程式を作って問題を解こうを理解しよう",
+          "existingLessonId": "11f1414fc48344c6982feb2d2f6fda43",
+          "role": "prerequisite",
+          "primarySkillId": "wordproblem.identify-quantities",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.rational-mastery"
+          ],
+          "handsOffSkillIds": [
+            "wordproblem.find-equality"
+          ],
+          "inScope": [
+            "方程式を作って問題を解こうを理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「代金・過不足・速さ・割合の問題」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "wordproblem.identify-quantities.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "wordproblem.identify-quantities"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "wordproblem.identify-quantities"
+            }
+          ]
+        },
+        {
+          "title": "数量・単位・求めるものを整理しよう",
+          "existingLessonId": "dd507ae5cdda4af5b1eee1057aa82205",
+          "role": "concept",
+          "primarySkillId": "wordproblem.find-equality",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "wordproblem.find-equality"
+          ],
+          "handsOffSkillIds": [
+            "wordproblem.five-step-method"
+          ],
+          "inScope": [
+            "数量・単位・求めるものを整理しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「代金・過不足・速さ・割合の問題」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "wordproblem.find-equality.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "wordproblem.find-equality"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "wordproblem.find-equality"
+            }
+          ]
+        },
+        {
+          "title": "文章から等しい関係を見つけよう",
+          "existingLessonId": "5aacb030514d4b2ba0741424893b703d",
+          "role": "procedure",
+          "primarySkillId": "wordproblem.five-step-method",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "wordproblem.five-step-method"
+          ],
+          "handsOffSkillIds": [
+            "wordproblem.compare-models"
+          ],
+          "inScope": [
+            "文章から等しい関係を見つけようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「代金・過不足・速さ・割合の問題」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "wordproblem.five-step-method.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "wordproblem.five-step-method"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "wordproblem.five-step-method"
+            }
+          ]
+        },
+        {
+          "title": "文章題を五つの手順で解こう",
+          "existingLessonId": "dc0e325fd22642bfb0b7ff147945433f",
+          "role": "example",
+          "primarySkillId": "wordproblem.compare-models",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "wordproblem.compare-models"
+          ],
+          "handsOffSkillIds": [
+            "wordproblem.modeling-mastery"
+          ],
+          "inScope": [
+            "文章題を五つの手順で解こうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「代金・過不足・速さ・割合の問題」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "wordproblem.compare-models.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "wordproblem.compare-models"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "wordproblem.compare-models"
+            }
+          ]
+        },
+        {
+          "title": "立式の違いを比べて練習しよう",
+          "existingLessonId": "e22b619b374841a7b9fb2c7eef5d6baa",
+          "role": "mastery",
+          "primarySkillId": "wordproblem.modeling-mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "wordproblem.modeling-mastery"
+          ],
+          "handsOffSkillIds": [
+            "wordproblem.relationships"
+          ],
+          "inScope": [
+            "立式の違いを比べて練習しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「代金・過不足・速さ・割合の問題」で扱う発展技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "wordproblem.modeling-mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "wordproblem.modeling-mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "wordproblem.modeling-mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "代金・過不足・速さ・割合の問題",
+      "lessons": [
+        {
+          "title": "代金・過不足・速さ・割合の問題を理解しよう",
+          "existingLessonId": "a60716cb4ac144e8b22e96230c5a3c04",
+          "role": "prerequisite",
+          "primarySkillId": "wordproblem.relationships",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "wordproblem.modeling-mastery"
+          ],
+          "handsOffSkillIds": [
+            "wordproblem.visualize"
+          ],
+          "inScope": [
+            "代金・過不足・速さ・割合の問題を理解しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「解の確かめとマスターチェック」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "wordproblem.relationships.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "wordproblem.relationships"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "wordproblem.relationships"
+            }
+          ]
+        },
+        {
+          "title": "文章題で使う数量関係を整理しよう",
+          "existingLessonId": "7bde56a49b9841329816fd1ff6ec239a",
+          "role": "concept",
+          "primarySkillId": "wordproblem.visualize",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "wordproblem.visualize"
+          ],
+          "handsOffSkillIds": [
+            "wordproblem.representative-types"
+          ],
+          "inScope": [
+            "文章題で使う数量関係を整理しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「解の確かめとマスターチェック」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "wordproblem.visualize.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "wordproblem.visualize"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "wordproblem.visualize"
+            }
+          ]
+        },
+        {
+          "title": "表と線分図で関係を見える化しよう",
+          "existingLessonId": "e6c138982e304f0f8a4c7ea1502dee1c",
+          "role": "example",
+          "primarySkillId": "wordproblem.representative-types",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "wordproblem.representative-types"
+          ],
+          "handsOffSkillIds": [
+            "wordproblem.entrance-conditions"
+          ],
+          "inScope": [
+            "表と線分図で関係を見える化しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「解の確かめとマスターチェック」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "wordproblem.representative-types.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "wordproblem.representative-types"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "wordproblem.representative-types"
+            }
+          ]
+        },
+        {
+          "title": "代表的な文章題を方程式で解こう",
+          "existingLessonId": "9f37f9207a6047c0a379ff03093bbd0b",
+          "role": "application",
+          "primarySkillId": "wordproblem.entrance-conditions",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "wordproblem.entrance-conditions"
+          ],
+          "handsOffSkillIds": [
+            "wordproblem.application-mastery"
+          ],
+          "inScope": [
+            "代表的な文章題を方程式で解こうの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「解の確かめとマスターチェック」で扱う発展技能"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "wordproblem.entrance-conditions.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "wordproblem.entrance-conditions"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "wordproblem.entrance-conditions"
+            }
+          ]
+        },
+        {
+          "title": "入試文章題の条件を見抜く練習",
+          "existingLessonId": "7f115cfc73f0444b890a16cf4db6ed58",
+          "role": "mastery",
+          "primarySkillId": "wordproblem.application-mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "wordproblem.application-mastery"
+          ],
+          "handsOffSkillIds": [
+            "equation.error-taxonomy"
+          ],
+          "inScope": [
+            "入試文章題の条件を見抜く練習の中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "次のセクション「解の確かめとマスターチェック」で扱う発展技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "wordproblem.application-mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "wordproblem.application-mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "wordproblem.application-mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "解の確かめとマスターチェック",
+      "lessons": [
+        {
+          "title": "一次方程式を総合確認しよう",
+          "existingLessonId": "58a43ef83b5a4008b18b0226af2bc35b",
+          "role": "misconception",
+          "primarySkillId": "equation.error-taxonomy",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "wordproblem.application-mastery"
+          ],
+          "handsOffSkillIds": [
+            "equation.verify-context"
+          ],
+          "inScope": [
+            "一次方程式を総合確認しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "二元一次方程式や連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.error-taxonomy.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.error-taxonomy"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.error-taxonomy"
+            }
+          ]
+        },
+        {
+          "title": "一次方程式のミスを四種類に分けよう",
+          "existingLessonId": "1cfdf8e406734ed78c94a5e8909920e0",
+          "role": "practice",
+          "primarySkillId": "equation.verify-context",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.verify-context"
+          ],
+          "handsOffSkillIds": [
+            "equation.entrance-basic"
+          ],
+          "inScope": [
+            "一次方程式のミスを四種類に分けようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "二元一次方程式や連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.verify-context.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.verify-context"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.verify-context"
+            }
+          ]
+        },
+        {
+          "title": "代入で解と立式を確かめよう",
+          "existingLessonId": "d679dd6fb2c6442c9e91b8f9735ac6a1",
+          "role": "application",
+          "primarySkillId": "equation.entrance-basic",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.entrance-basic"
+          ],
+          "handsOffSkillIds": [
+            "equation.spaced-practice"
+          ],
+          "inScope": [
+            "代入で解と立式を確かめようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "二元一次方程式や連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.entrance-basic.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.entrance-basic"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.entrance-basic"
+            }
+          ]
+        },
+        {
+          "title": "一次方程式の入試基本問題に挑戦しよう",
+          "existingLessonId": "76ea243d52eb499794ee65de697d8fd3",
+          "role": "practice",
+          "primarySkillId": "equation.spaced-practice",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.spaced-practice"
+          ],
+          "handsOffSkillIds": [
+            "equation.course-mastery"
+          ],
+          "inScope": [
+            "一次方程式の入試基本問題に挑戦しようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "二元一次方程式や連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "equation.spaced-practice.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.spaced-practice"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.spaced-practice"
+            }
+          ]
+        },
+        {
+          "title": "時間を空けて基礎を固めよう",
+          "existingLessonId": "49b6ccb331ee4e7ca82ed555afee0834",
+          "role": "mastery",
+          "primarySkillId": "equation.course-mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "equation.course-mastery"
+          ],
+          "handsOffSkillIds": [
+            "equation.next-course-readiness"
+          ],
+          "inScope": [
+            "時間を空けて基礎を固めようの中心技能を、理由と途中式を伴って一人で実行する"
+          ],
+          "outOfScope": [
+            "二元一次方程式や連立方程式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "equation.course-mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "equation.course-mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "equation.course-mastery"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

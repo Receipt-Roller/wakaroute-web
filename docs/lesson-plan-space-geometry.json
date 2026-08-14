@@ -1,0 +1,2775 @@
+{
+  "courseTitle": "空間図形",
+  "courseId": "2c61d8710aae4e06831f5699cfeee0b1",
+  "organizationId": "a461577a-3410-4c98-b1d5-db729f3444a1",
+  "audience": "中学1年生・高校受験基礎",
+  "learningModes": [
+    "conceptual understanding",
+    "spatial visualization",
+    "procedure and fluency",
+    "mixed application"
+  ],
+  "sections": [
+    {
+      "title": "空間図形を表す言葉",
+      "sectionId": "a678b2d03cbb444da78e7726d8b96231",
+      "rationale": "実物・見取図・記号を往復し、頂点・辺・面から底面・側面・高さへ用語を段階的に対応させる。",
+      "lessons": [
+        {
+          "title": "空間図形を表す言葉を理解しよう",
+          "role": "overview",
+          "primarySkillId": "space-vocabulary.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-geometry-mastery.mastery"
+          ],
+          "handsOffSkillIds": [
+            "space-vocabulary.map"
+          ],
+          "inScope": [
+            "空間図形の基本用語と学習順序を説明する"
+          ],
+          "outOfScope": [
+            "頂点・辺・面を立体と見取図から数える"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "space-vocabulary.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "space-vocabulary.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "space-vocabulary.map"
+            }
+          ],
+          "existingLessonId": "08984aa50f954117995002c218b90654"
+        },
+        {
+          "title": "頂点・辺・面を数えて表そう",
+          "role": "concept",
+          "primarySkillId": "space-vocabulary.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "space-vocabulary.map"
+          ],
+          "handsOffSkillIds": [
+            "space-vocabulary.concept"
+          ],
+          "inScope": [
+            "頂点・辺・面を立体と見取図から数える"
+          ],
+          "outOfScope": [
+            "底面・側面・高さを立体ごとに示す"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "space-vocabulary.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "space-vocabulary.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "space-vocabulary.concept"
+            }
+          ],
+          "existingLessonId": "cf3210ec3ee647b8b1bb4b4d0ab008a5"
+        },
+        {
+          "title": "底面・側面・高さを対応させよう",
+          "role": "concept",
+          "primarySkillId": "space-vocabulary.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "space-vocabulary.concept"
+          ],
+          "handsOffSkillIds": [
+            "space-vocabulary.procedure"
+          ],
+          "inScope": [
+            "底面・側面・高さを立体ごとに示す"
+          ],
+          "outOfScope": [
+            "見取図から指定された部分を記号で読み取る"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "space-vocabulary.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "space-vocabulary.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "space-vocabulary.procedure"
+            }
+          ],
+          "existingLessonId": "bbe9c10acaba4141b85b3a76712dc76e"
+        },
+        {
+          "title": "見取図から立体の部分を読み取ろう",
+          "role": "application",
+          "primarySkillId": "space-vocabulary.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "space-vocabulary.procedure"
+          ],
+          "handsOffSkillIds": [
+            "space-vocabulary.application"
+          ],
+          "inScope": [
+            "見取図から指定された部分を記号で読み取る"
+          ],
+          "outOfScope": [
+            "用語・数え方・対応の誤りを修正する"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "space-vocabulary.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "space-vocabulary.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "space-vocabulary.application"
+            }
+          ],
+          "existingLessonId": "d84bb26ac0ec4095a086e93928f34386"
+        },
+        {
+          "title": "空間図形の用語を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "space-vocabulary.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "space-vocabulary.application"
+          ],
+          "handsOffSkillIds": [
+            "space-vocabulary.mastery"
+          ],
+          "inScope": [
+            "用語・数え方・対応の誤りを修正する"
+          ],
+          "outOfScope": [
+            "次の「多面体を分類しよう」へ進む準備"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "space-vocabulary.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "space-vocabulary.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "space-vocabulary.mastery"
+            }
+          ],
+          "existingLessonId": "1ef2846982b44d7f9a2b4de2411ca24a"
+        }
+      ]
+    },
+    {
+      "title": "多面体を分類しよう",
+      "sectionId": "dfbe2d5d135e42d3b1e31993734152a9",
+      "rationale": "底面・側面・面の形を分類軸にし、角柱・角錐から正多面体へ進んで、見た目ではなく条件で分類する。",
+      "lessons": [
+        {
+          "title": "多面体の分類軸を整理しよう",
+          "role": "overview",
+          "primarySkillId": "polyhedron-classification.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "space-vocabulary.mastery"
+          ],
+          "handsOffSkillIds": [
+            "polyhedron-classification.map"
+          ],
+          "inScope": [
+            "多面体の分類に使う特徴と学習順序を説明する"
+          ],
+          "outOfScope": [
+            "底面の数と形から角柱と角錐を分類する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "polyhedron-classification.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polyhedron-classification.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polyhedron-classification.map"
+            }
+          ],
+          "existingLessonId": "3a29fe22ef88472c854c9573bacb434e"
+        },
+        {
+          "title": "角柱と角錐を底面で見分けよう",
+          "role": "concept",
+          "primarySkillId": "polyhedron-classification.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polyhedron-classification.map"
+          ],
+          "handsOffSkillIds": [
+            "polyhedron-classification.concept"
+          ],
+          "inScope": [
+            "底面の数と形から角柱と角錐を分類する"
+          ],
+          "outOfScope": [
+            "多面体の頂点・辺・面を漏れなく数える"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polyhedron-classification.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polyhedron-classification.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polyhedron-classification.concept"
+            }
+          ],
+          "existingLessonId": "b4fec673dc6348278ec639ef35909c2f"
+        },
+        {
+          "title": "頂点・辺・面の数を関係づけよう",
+          "role": "procedure",
+          "primarySkillId": "polyhedron-classification.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polyhedron-classification.concept"
+          ],
+          "handsOffSkillIds": [
+            "polyhedron-classification.procedure"
+          ],
+          "inScope": [
+            "多面体の頂点・辺・面を漏れなく数える"
+          ],
+          "outOfScope": [
+            "正多面体を合同な正多角形と頂点での集まり方から分類する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polyhedron-classification.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polyhedron-classification.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polyhedron-classification.procedure"
+            }
+          ],
+          "existingLessonId": "9a493a642a0f45ad93629091d9355e49"
+        },
+        {
+          "title": "正多面体を面の形と集まり方で分類しよう",
+          "role": "application",
+          "primarySkillId": "polyhedron-classification.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polyhedron-classification.procedure"
+          ],
+          "handsOffSkillIds": [
+            "polyhedron-classification.application"
+          ],
+          "inScope": [
+            "正多面体を合同な正多角形と頂点での集まり方から分類する"
+          ],
+          "outOfScope": [
+            "分類軸と数え方の誤りを修正する"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "polyhedron-classification.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polyhedron-classification.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polyhedron-classification.application"
+            }
+          ],
+          "existingLessonId": "cee840d15cc340ddb2d0121e700434c2"
+        },
+        {
+          "title": "多面体の分類を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "polyhedron-classification.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polyhedron-classification.application"
+          ],
+          "handsOffSkillIds": [
+            "polyhedron-classification.mastery"
+          ],
+          "inScope": [
+            "分類軸と数え方の誤りを修正する"
+          ],
+          "outOfScope": [
+            "次の「円柱・円錐・球」へ進む準備"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "polyhedron-classification.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polyhedron-classification.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polyhedron-classification.mastery"
+            }
+          ],
+          "existingLessonId": "d76ca401d7d54c6190781b544b1b34b6"
+        }
+      ]
+    },
+    {
+      "title": "円柱・円錐・球",
+      "sectionId": "b3262347e04f4b22bdacd5af26cafc9c",
+      "rationale": "曲面をもつ三立体を、底面・頂点・中心・断面の違いで比較し、後の回転体と計量へ接続する。",
+      "lessons": [
+        {
+          "title": "円柱・円錐・球を理解しよう",
+          "role": "overview",
+          "primarySkillId": "round-solids.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polyhedron-classification.mastery"
+          ],
+          "handsOffSkillIds": [
+            "round-solids.map"
+          ],
+          "inScope": [
+            "円柱・円錐・球の比較軸と学習順序を説明する"
+          ],
+          "outOfScope": [
+            "底面の数と側面の形から円柱と円錐を区別する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "round-solids.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "round-solids.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "round-solids.map"
+            }
+          ],
+          "existingLessonId": "aae4aacea766421ca071eb002d2c8c45"
+        },
+        {
+          "title": "円柱と円錐の底面・側面を比べよう",
+          "role": "concept",
+          "primarySkillId": "round-solids.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "round-solids.map"
+          ],
+          "handsOffSkillIds": [
+            "round-solids.concept"
+          ],
+          "inScope": [
+            "底面の数と側面の形から円柱と円錐を区別する"
+          ],
+          "outOfScope": [
+            "球の中心・半径と中心を通る断面を説明する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "round-solids.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "round-solids.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "round-solids.concept"
+            }
+          ],
+          "existingLessonId": "cb1c9bfd9ea04b95a0fb2f446b3e55e8"
+        },
+        {
+          "title": "球の中心・半径・断面を捉えよう",
+          "role": "concept",
+          "primarySkillId": "round-solids.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "round-solids.concept"
+          ],
+          "handsOffSkillIds": [
+            "round-solids.procedure"
+          ],
+          "inScope": [
+            "球の中心・半径と中心を通る断面を説明する"
+          ],
+          "outOfScope": [
+            "平面と曲面の有無から立体を分類する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "round-solids.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "round-solids.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "round-solids.procedure"
+            }
+          ],
+          "existingLessonId": "7a246468b1a344c2a057ed90f659ac09"
+        },
+        {
+          "title": "多面体と曲面をもつ立体を分類しよう",
+          "role": "application",
+          "primarySkillId": "round-solids.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "round-solids.procedure"
+          ],
+          "handsOffSkillIds": [
+            "round-solids.application"
+          ],
+          "inScope": [
+            "平面と曲面の有無から立体を分類する"
+          ],
+          "outOfScope": [
+            "底面・側面・頂点・中心の混同を修正する"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "round-solids.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "round-solids.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "round-solids.application"
+            }
+          ],
+          "existingLessonId": "c906e9c63d7940a885ff392048fc8010"
+        },
+        {
+          "title": "円柱・円錐・球の特徴を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "round-solids.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "round-solids.application"
+          ],
+          "handsOffSkillIds": [
+            "round-solids.mastery"
+          ],
+          "inScope": [
+            "底面・側面・頂点・中心の混同を修正する"
+          ],
+          "outOfScope": [
+            "次の「直線と直線の位置関係」へ進む準備"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "round-solids.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "round-solids.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "round-solids.mastery"
+            }
+          ],
+          "existingLessonId": "73f057b873164bfeb433e74407cc337e"
+        }
+      ]
+    },
+    {
+      "title": "直線と直線の位置関係",
+      "sectionId": "87ccd6175d5a453584f5c6bc1c84db63",
+      "rationale": "同一平面上かを先に判断し、交わる・平行・ねじれの位置を立方体の辺で説明できるようにする。",
+      "lessons": [
+        {
+          "title": "直線と直線の位置関係を理解しよう",
+          "role": "overview",
+          "primarySkillId": "line-line-space.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "round-solids.mastery"
+          ],
+          "handsOffSkillIds": [
+            "line-line-space.map"
+          ],
+          "inScope": [
+            "空間内の二直線を分類する判断順序を説明する"
+          ],
+          "outOfScope": [
+            "交点と同一平面を使って交わる・平行を区別する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "line-line-space.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-line-space.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-line-space.map"
+            }
+          ],
+          "existingLessonId": "2902184a989f4e239c1ab4571678e595"
+        },
+        {
+          "title": "交わる直線と平行な直線を見分けよう",
+          "role": "concept",
+          "primarySkillId": "line-line-space.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-line-space.map"
+          ],
+          "handsOffSkillIds": [
+            "line-line-space.concept"
+          ],
+          "inScope": [
+            "交点と同一平面を使って交わる・平行を区別する"
+          ],
+          "outOfScope": [
+            "交わらず平行でもない二直線をねじれの位置と判断する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "line-line-space.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-line-space.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-line-space.concept"
+            }
+          ],
+          "existingLessonId": "b5f6b18e46b54f599439c4dfb7012be3"
+        },
+        {
+          "title": "ねじれの位置を同一平面で判断しよう",
+          "role": "concept",
+          "primarySkillId": "line-line-space.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-line-space.concept"
+          ],
+          "handsOffSkillIds": [
+            "line-line-space.procedure"
+          ],
+          "inScope": [
+            "交わらず平行でもない二直線をねじれの位置と判断する"
+          ],
+          "outOfScope": [
+            "立方体の辺を使って交わる・平行・ねじれを根拠付きで示す"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "line-line-space.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-line-space.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-line-space.procedure"
+            }
+          ],
+          "existingLessonId": "f5426b30a98241a0bfdd57673ef86341"
+        },
+        {
+          "title": "立方体の辺で三つの関係を説明しよう",
+          "role": "application",
+          "primarySkillId": "line-line-space.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-line-space.procedure"
+          ],
+          "handsOffSkillIds": [
+            "line-line-space.application"
+          ],
+          "inScope": [
+            "立方体の辺を使って交わる・平行・ねじれを根拠付きで示す"
+          ],
+          "outOfScope": [
+            "見取図の見た目による位置関係の誤りを修正する"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "line-line-space.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-line-space.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-line-space.application"
+            }
+          ],
+          "existingLessonId": "83f4f952c4bc4dc9808f3f63d2c2b309"
+        },
+        {
+          "title": "空間内の二直線を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "line-line-space.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-line-space.application"
+          ],
+          "handsOffSkillIds": [
+            "line-line-space.mastery"
+          ],
+          "inScope": [
+            "見取図の見た目による位置関係の誤りを修正する"
+          ],
+          "outOfScope": [
+            "次の「直線と平面の位置関係」へ進む準備"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "line-line-space.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-line-space.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-line-space.mastery"
+            }
+          ],
+          "existingLessonId": "84359352ccc542d59dcfdfcee02788de"
+        }
+      ]
+    },
+    {
+      "title": "直線と平面の位置関係",
+      "sectionId": "82992c6b88e04848a3d5e2429c2c756a",
+      "rationale": "直線が平面上・一点で交わる・平行という基本分類を作り、その中の垂直を条件で判断する。",
+      "lessons": [
+        {
+          "title": "直線と平面の位置関係を理解しよう",
+          "role": "overview",
+          "primarySkillId": "line-plane-space.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-line-space.mastery"
+          ],
+          "handsOffSkillIds": [
+            "line-plane-space.map"
+          ],
+          "inScope": [
+            "直線と平面の位置関係の分類順序を説明する"
+          ],
+          "outOfScope": [
+            "共有する点の数から直線と平面を分類する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "line-plane-space.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-plane-space.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-plane-space.map"
+            }
+          ],
+          "existingLessonId": "40d7cebc9c8844f59efba6424928a98e"
+        },
+        {
+          "title": "直線が平面上・交わる・平行を見分けよう",
+          "role": "concept",
+          "primarySkillId": "line-plane-space.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-plane-space.map"
+          ],
+          "handsOffSkillIds": [
+            "line-plane-space.concept"
+          ],
+          "inScope": [
+            "共有する点の数から直線と平面を分類する"
+          ],
+          "outOfScope": [
+            "平面上の交わる二直線との垂直から直線と平面の垂直を判断する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "line-plane-space.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-plane-space.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-plane-space.concept"
+            }
+          ]
+        },
+        {
+          "title": "直線と平面の垂直を判断しよう",
+          "role": "concept",
+          "primarySkillId": "line-plane-space.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-plane-space.concept"
+          ],
+          "handsOffSkillIds": [
+            "line-plane-space.procedure"
+          ],
+          "inScope": [
+            "平面上の交わる二直線との垂直から直線と平面の垂直を判断する"
+          ],
+          "outOfScope": [
+            "柱体や錐体の辺と面の関係を根拠付きで示す"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "line-plane-space.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-plane-space.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-plane-space.procedure"
+            }
+          ]
+        },
+        {
+          "title": "立体の辺と面の関係を説明しよう",
+          "role": "application",
+          "primarySkillId": "line-plane-space.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-plane-space.procedure"
+          ],
+          "handsOffSkillIds": [
+            "line-plane-space.application"
+          ],
+          "inScope": [
+            "柱体や錐体の辺と面の関係を根拠付きで示す"
+          ],
+          "outOfScope": [
+            "一方向の見た目だけで垂直・平行とする誤りを修正する"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "line-plane-space.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-plane-space.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-plane-space.application"
+            }
+          ]
+        },
+        {
+          "title": "直線と平面の関係を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "line-plane-space.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-plane-space.application"
+          ],
+          "handsOffSkillIds": [
+            "line-plane-space.mastery"
+          ],
+          "inScope": [
+            "一方向の見た目だけで垂直・平行とする誤りを修正する"
+          ],
+          "outOfScope": [
+            "次の「平面と平面の位置関係」へ進む準備"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "line-plane-space.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-plane-space.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-plane-space.mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "平面と平面の位置関係",
+      "sectionId": "86f075c21830465fa85374f0cd01bece",
+      "rationale": "二平面の交線を意識し、交わる・平行・垂直を箱の面と一般図で往復して理解する。",
+      "lessons": [
+        {
+          "title": "平面と平面の位置関係を理解しよう",
+          "role": "overview",
+          "primarySkillId": "plane-plane-space.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-plane-space.mastery"
+          ],
+          "handsOffSkillIds": [
+            "plane-plane-space.map"
+          ],
+          "inScope": [
+            "二平面を分類する判断順序を説明する"
+          ],
+          "outOfScope": [
+            "交線の有無から交わる・平行を区別する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "plane-plane-space.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-plane-space.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-plane-space.map"
+            }
+          ],
+          "existingLessonId": "bcb83c86787e4bd09b7c02f5b667c912"
+        },
+        {
+          "title": "交わる二平面と平行な二平面を見分けよう",
+          "role": "concept",
+          "primarySkillId": "plane-plane-space.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-plane-space.map"
+          ],
+          "handsOffSkillIds": [
+            "plane-plane-space.concept"
+          ],
+          "inScope": [
+            "交線の有無から交わる・平行を区別する"
+          ],
+          "outOfScope": [
+            "二平面の交線と直角になる関係を説明する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "plane-plane-space.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-plane-space.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-plane-space.concept"
+            }
+          ]
+        },
+        {
+          "title": "垂直な二平面と交線を捉えよう",
+          "role": "concept",
+          "primarySkillId": "plane-plane-space.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-plane-space.concept"
+          ],
+          "handsOffSkillIds": [
+            "plane-plane-space.procedure"
+          ],
+          "inScope": [
+            "二平面の交線と直角になる関係を説明する"
+          ],
+          "outOfScope": [
+            "立方体の面を使って平行・垂直・交線を示す"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "plane-plane-space.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-plane-space.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-plane-space.procedure"
+            }
+          ]
+        },
+        {
+          "title": "立方体の面で位置関係を説明しよう",
+          "role": "application",
+          "primarySkillId": "plane-plane-space.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-plane-space.procedure"
+          ],
+          "handsOffSkillIds": [
+            "plane-plane-space.application"
+          ],
+          "inScope": [
+            "立方体の面を使って平行・垂直・交線を示す"
+          ],
+          "outOfScope": [
+            "面の向きと交線の読み違いを修正する"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "plane-plane-space.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-plane-space.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-plane-space.application"
+            }
+          ]
+        },
+        {
+          "title": "二平面の位置関係を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "plane-plane-space.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-plane-space.application"
+          ],
+          "handsOffSkillIds": [
+            "plane-plane-space.mastery"
+          ],
+          "inScope": [
+            "面の向きと交線の読み違いを修正する"
+          ],
+          "outOfScope": [
+            "次の「見取図と見えない辺」へ進む準備"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "plane-plane-space.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-plane-space.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-plane-space.mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "見取図と見えない辺",
+      "sectionId": "60fe159f9cc2423abb3d438ea06b3b1d",
+      "rationale": "平行な辺の向き、実線と破線、頂点の対応を順に扱い、見取図を描く力と読み戻す力を分けて育てる。",
+      "lessons": [
+        {
+          "title": "見取図と見えない辺を理解しよう",
+          "role": "overview",
+          "primarySkillId": "perspective-drawing.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-plane-space.mastery"
+          ],
+          "handsOffSkillIds": [
+            "perspective-drawing.map"
+          ],
+          "inScope": [
+            "見取図の役割と描く順序を説明する"
+          ],
+          "outOfScope": [
+            "立体の平行な辺を同じ向きの線分として描く"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "perspective-drawing.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perspective-drawing.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perspective-drawing.map"
+            }
+          ],
+          "existingLessonId": "050e5f2d7ced44e29b9af409af83aac8"
+        },
+        {
+          "title": "平行な辺の向きをそろえて描こう",
+          "role": "procedure",
+          "primarySkillId": "perspective-drawing.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perspective-drawing.map"
+          ],
+          "handsOffSkillIds": [
+            "perspective-drawing.concept"
+          ],
+          "inScope": [
+            "立体の平行な辺を同じ向きの線分として描く"
+          ],
+          "outOfScope": [
+            "視点からの見え方に応じて実線と破線を使い分ける"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "perspective-drawing.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perspective-drawing.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perspective-drawing.concept"
+            }
+          ]
+        },
+        {
+          "title": "見える辺を実線・見えない辺を破線で表そう",
+          "role": "procedure",
+          "primarySkillId": "perspective-drawing.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perspective-drawing.concept"
+          ],
+          "handsOffSkillIds": [
+            "perspective-drawing.procedure"
+          ],
+          "inScope": [
+            "視点からの見え方に応じて実線と破線を使い分ける"
+          ],
+          "outOfScope": [
+            "頂点と辺のつながりから元の立体を説明する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "perspective-drawing.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perspective-drawing.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perspective-drawing.procedure"
+            }
+          ]
+        },
+        {
+          "title": "見取図から元の立体を読み戻そう",
+          "role": "application",
+          "primarySkillId": "perspective-drawing.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perspective-drawing.procedure"
+          ],
+          "handsOffSkillIds": [
+            "perspective-drawing.application"
+          ],
+          "inScope": [
+            "頂点と辺のつながりから元の立体を説明する"
+          ],
+          "outOfScope": [
+            "平行・接続・実線破線の誤りを修正する"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "perspective-drawing.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perspective-drawing.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perspective-drawing.application"
+            }
+          ]
+        },
+        {
+          "title": "見取図の誤りを診断しよう",
+          "role": "mastery",
+          "primarySkillId": "perspective-drawing.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perspective-drawing.application"
+          ],
+          "handsOffSkillIds": [
+            "perspective-drawing.mastery"
+          ],
+          "inScope": [
+            "平行・接続・実線破線の誤りを修正する"
+          ],
+          "outOfScope": [
+            "次の「投影図で立体を捉えよう」へ進む準備"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "perspective-drawing.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perspective-drawing.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perspective-drawing.mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "投影図で立体を捉えよう",
+      "sectionId": "ced36b4d092a461cb4763dedc557f0e3",
+      "rationale": "正面図と平面図を別々に読む技能を作り、二方向の情報を統合して高さ・奥行き・重なりを復元する。",
+      "lessons": [
+        {
+          "title": "投影図の読み方を整理しよう",
+          "role": "overview",
+          "primarySkillId": "projection.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perspective-drawing.mastery"
+          ],
+          "handsOffSkillIds": [
+            "projection.map"
+          ],
+          "inScope": [
+            "正面図と平面図の役割と学習順序を説明する"
+          ],
+          "outOfScope": [
+            "正面図から立体の幅と高さを読み取る"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "projection.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "projection.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "projection.map"
+            }
+          ],
+          "existingLessonId": "013360c8e7f84ea7b615f4c0f111dabf"
+        },
+        {
+          "title": "正面図から幅と高さを読み取ろう",
+          "role": "concept",
+          "primarySkillId": "projection.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "projection.map"
+          ],
+          "handsOffSkillIds": [
+            "projection.concept"
+          ],
+          "inScope": [
+            "正面図から立体の幅と高さを読み取る"
+          ],
+          "outOfScope": [
+            "平面図から立体の幅と奥行きを読み取る"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "projection.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "projection.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "projection.concept"
+            }
+          ]
+        },
+        {
+          "title": "平面図から幅と奥行きを読み取ろう",
+          "role": "concept",
+          "primarySkillId": "projection.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "projection.concept"
+          ],
+          "handsOffSkillIds": [
+            "projection.procedure"
+          ],
+          "inScope": [
+            "平面図から立体の幅と奥行きを読み取る"
+          ],
+          "outOfScope": [
+            "正面図と平面図を統合して立体を判断する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "projection.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "projection.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "projection.procedure"
+            }
+          ]
+        },
+        {
+          "title": "二つの投影図から立体を復元しよう",
+          "role": "application",
+          "primarySkillId": "projection.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "projection.procedure"
+          ],
+          "handsOffSkillIds": [
+            "projection.application"
+          ],
+          "inScope": [
+            "正面図と平面図を統合して立体を判断する"
+          ],
+          "outOfScope": [
+            "高さ・奥行き・重なりの取り違えを修正する"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "projection.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "projection.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "projection.application"
+            }
+          ]
+        },
+        {
+          "title": "投影図の読み違いを診断しよう",
+          "role": "mastery",
+          "primarySkillId": "projection.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "projection.application"
+          ],
+          "handsOffSkillIds": [
+            "projection.mastery"
+          ],
+          "inScope": [
+            "高さ・奥行き・重なりの取り違えを修正する"
+          ],
+          "outOfScope": [
+            "次の「展開図と立体の対応」へ進む準備"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "projection.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "projection.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "projection.mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "展開図と立体の対応",
+      "sectionId": "f613c64d50aa47e492d61acf25466a0b",
+      "rationale": "面の隣接、重なる辺・頂点、向かい合う面を段階化し、頭の中だけに頼らず印を保って折りたたむ。",
+      "lessons": [
+        {
+          "title": "展開図と立体の対応を理解しよう",
+          "role": "overview",
+          "primarySkillId": "net-solid.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "projection.mastery"
+          ],
+          "handsOffSkillIds": [
+            "net-solid.map"
+          ],
+          "inScope": [
+            "展開図を折りたたむ判断順序を説明する"
+          ],
+          "outOfScope": [
+            "共有する辺を追って隣接面と対向面を判断する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "net-solid.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "net-solid.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "net-solid.map"
+            }
+          ],
+          "existingLessonId": "08061cc6c3db42a78bbe1f3d120e3496"
+        },
+        {
+          "title": "隣り合う面と向かい合う面を見分けよう",
+          "role": "concept",
+          "primarySkillId": "net-solid.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "net-solid.map"
+          ],
+          "handsOffSkillIds": [
+            "net-solid.concept"
+          ],
+          "inScope": [
+            "共有する辺を追って隣接面と対向面を判断する"
+          ],
+          "outOfScope": [
+            "折りたたみ後に一致する辺と頂点へ同じ印を付ける"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "net-solid.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "net-solid.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "net-solid.concept"
+            }
+          ]
+        },
+        {
+          "title": "重なる辺と頂点を対応させよう",
+          "role": "procedure",
+          "primarySkillId": "net-solid.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "net-solid.concept"
+          ],
+          "handsOffSkillIds": [
+            "net-solid.procedure"
+          ],
+          "inScope": [
+            "折りたたみ後に一致する辺と頂点へ同じ印を付ける"
+          ],
+          "outOfScope": [
+            "面の重なりと不足を調べて有効な展開図を選ぶ"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "net-solid.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "net-solid.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "net-solid.procedure"
+            }
+          ]
+        },
+        {
+          "title": "立体になる展開図を選ぼう",
+          "role": "application",
+          "primarySkillId": "net-solid.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "net-solid.procedure"
+          ],
+          "handsOffSkillIds": [
+            "net-solid.application"
+          ],
+          "inScope": [
+            "面の重なりと不足を調べて有効な展開図を選ぶ"
+          ],
+          "outOfScope": [
+            "面・辺・頂点の対応のずれを修正する"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "net-solid.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "net-solid.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "net-solid.application"
+            }
+          ]
+        },
+        {
+          "title": "展開図の対応を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "net-solid.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "net-solid.application"
+          ],
+          "handsOffSkillIds": [
+            "net-solid.mastery"
+          ],
+          "inScope": [
+            "面・辺・頂点の対応のずれを修正する"
+          ],
+          "outOfScope": [
+            "次の「立体を切った断面」へ進む準備"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "net-solid.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "net-solid.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "net-solid.mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "立体を切った断面",
+      "sectionId": "629775dc171843cdb0028e263f670b31",
+      "rationale": "切る平面が通る辺を先に特定し、切り口の点を同一平面上で結んで断面を予想する。",
+      "lessons": [
+        {
+          "title": "立体を切った断面を理解しよう",
+          "role": "overview",
+          "primarySkillId": "cross-section.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "net-solid.mastery"
+          ],
+          "handsOffSkillIds": [
+            "cross-section.map"
+          ],
+          "inScope": [
+            "断面を予想する判断順序を説明する"
+          ],
+          "outOfScope": [
+            "切る平面と立体の辺の交点を特定する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "cross-section.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "cross-section.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "cross-section.map"
+            }
+          ],
+          "existingLessonId": "567127357a9840719016c09f8013d7cf"
+        },
+        {
+          "title": "切る平面が通る辺を見つけよう",
+          "role": "concept",
+          "primarySkillId": "cross-section.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "cross-section.map"
+          ],
+          "handsOffSkillIds": [
+            "cross-section.concept"
+          ],
+          "inScope": [
+            "切る平面と立体の辺の交点を特定する"
+          ],
+          "outOfScope": [
+            "底面に平行な断面と元の底面の関係を説明する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "cross-section.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "cross-section.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "cross-section.concept"
+            }
+          ]
+        },
+        {
+          "title": "底面に平行な断面の形を比べよう",
+          "role": "concept",
+          "primarySkillId": "cross-section.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "cross-section.concept"
+          ],
+          "handsOffSkillIds": [
+            "cross-section.procedure"
+          ],
+          "inScope": [
+            "底面に平行な断面と元の底面の関係を説明する"
+          ],
+          "outOfScope": [
+            "複数の交点を同一平面上で結んで断面を判断する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "cross-section.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "cross-section.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "cross-section.procedure"
+            }
+          ]
+        },
+        {
+          "title": "切る向きから断面の形を予想しよう",
+          "role": "application",
+          "primarySkillId": "cross-section.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "cross-section.procedure"
+          ],
+          "handsOffSkillIds": [
+            "cross-section.application"
+          ],
+          "inScope": [
+            "複数の交点を同一平面上で結んで断面を判断する"
+          ],
+          "outOfScope": [
+            "見える面だけで断面を決める誤りを修正する"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "cross-section.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "cross-section.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "cross-section.application"
+            }
+          ]
+        },
+        {
+          "title": "断面の予想を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "cross-section.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "cross-section.application"
+          ],
+          "handsOffSkillIds": [
+            "cross-section.mastery"
+          ],
+          "inScope": [
+            "見える面だけで断面を決める誤りを修正する"
+          ],
+          "outOfScope": [
+            "次の「回転させてできる立体」へ進む準備"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "cross-section.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "cross-section.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "cross-section.mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "回転させてできる立体",
+      "sectionId": "89accf87e1e9444ea38f030296e5a4c1",
+      "rationale": "回転軸からの距離を半径として捉え、長方形・直角三角形・半円と円柱・円錐・球を対応させる。",
+      "lessons": [
+        {
+          "title": "回転させてできる立体を理解しよう",
+          "role": "overview",
+          "primarySkillId": "solid-revolution.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "cross-section.mastery"
+          ],
+          "handsOffSkillIds": [
+            "solid-revolution.map"
+          ],
+          "inScope": [
+            "回転軸と元の図形から立体を考える順序を説明する"
+          ],
+          "outOfScope": [
+            "長方形の辺と円柱の半径・高さを対応させる"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "solid-revolution.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "solid-revolution.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "solid-revolution.map"
+            }
+          ],
+          "existingLessonId": "b7c06a576df94b3c8e67665aac742fd2"
+        },
+        {
+          "title": "長方形を回して円柱を作ろう",
+          "role": "concept",
+          "primarySkillId": "solid-revolution.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "solid-revolution.map"
+          ],
+          "handsOffSkillIds": [
+            "solid-revolution.concept"
+          ],
+          "inScope": [
+            "長方形の辺と円柱の半径・高さを対応させる"
+          ],
+          "outOfScope": [
+            "直角三角形の辺と円錐の半径・高さ・母線を対応させる"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "solid-revolution.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "solid-revolution.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "solid-revolution.concept"
+            }
+          ]
+        },
+        {
+          "title": "直角三角形を回して円錐を作ろう",
+          "role": "concept",
+          "primarySkillId": "solid-revolution.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "solid-revolution.concept"
+          ],
+          "handsOffSkillIds": [
+            "solid-revolution.procedure"
+          ],
+          "inScope": [
+            "直角三角形の辺と円錐の半径・高さ・母線を対応させる"
+          ],
+          "outOfScope": [
+            "半円の半径と回転後の球の半径を対応させる"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "solid-revolution.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "solid-revolution.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "solid-revolution.procedure"
+            }
+          ]
+        },
+        {
+          "title": "半円を回して球を作ろう",
+          "role": "application",
+          "primarySkillId": "solid-revolution.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "solid-revolution.procedure"
+          ],
+          "handsOffSkillIds": [
+            "solid-revolution.application"
+          ],
+          "inScope": [
+            "半円の半径と回転後の球の半径を対応させる"
+          ],
+          "outOfScope": [
+            "回転軸と半径・高さの取り違えを修正する"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "solid-revolution.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "solid-revolution.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "solid-revolution.application"
+            }
+          ]
+        },
+        {
+          "title": "回転体の対応を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "solid-revolution.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "solid-revolution.application"
+          ],
+          "handsOffSkillIds": [
+            "solid-revolution.mastery"
+          ],
+          "inScope": [
+            "回転軸と半径・高さの取り違えを修正する"
+          ],
+          "outOfScope": [
+            "次の「角柱・円柱の表面積と体積」へ進む準備"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "solid-revolution.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "solid-revolution.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "solid-revolution.mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "角柱・円柱の表面積と体積",
+      "sectionId": "00213bc562e04227a0c94428d127185a",
+      "rationale": "展開図による表面積と積み重なりによる体積を分け、底面積・底面の周・高さの役割を判断できるようにする。",
+      "lessons": [
+        {
+          "title": "角柱・円柱の表面積と体積を理解しよう",
+          "role": "overview",
+          "primarySkillId": "prism-cylinder-measure.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "solid-revolution.mastery"
+          ],
+          "handsOffSkillIds": [
+            "prism-cylinder-measure.map"
+          ],
+          "inScope": [
+            "柱体の表面積と体積の学習順序を説明する"
+          ],
+          "outOfScope": [
+            "底面二枚と側面を分けて表面積を求める"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "prism-cylinder-measure.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "prism-cylinder-measure.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "prism-cylinder-measure.map"
+            }
+          ],
+          "existingLessonId": "5c9b05ec3192459cb278f52c84230196"
+        },
+        {
+          "title": "展開図から柱体の表面積を求めよう",
+          "role": "procedure",
+          "primarySkillId": "prism-cylinder-measure.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "prism-cylinder-measure.map"
+          ],
+          "handsOffSkillIds": [
+            "prism-cylinder-measure.concept"
+          ],
+          "inScope": [
+            "底面二枚と側面を分けて表面積を求める"
+          ],
+          "outOfScope": [
+            "柱体の側面積を底面の周×高さで求める"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "prism-cylinder-measure.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "prism-cylinder-measure.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "prism-cylinder-measure.concept"
+            }
+          ]
+        },
+        {
+          "title": "底面の周と高さから側面積を求めよう",
+          "role": "procedure",
+          "primarySkillId": "prism-cylinder-measure.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "prism-cylinder-measure.concept"
+          ],
+          "handsOffSkillIds": [
+            "prism-cylinder-measure.procedure"
+          ],
+          "inScope": [
+            "柱体の側面積を底面の周×高さで求める"
+          ],
+          "outOfScope": [
+            "積み重なりから柱体の体積公式を使う"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "prism-cylinder-measure.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "prism-cylinder-measure.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "prism-cylinder-measure.procedure"
+            }
+          ]
+        },
+        {
+          "title": "底面積×高さで体積を求めよう",
+          "role": "application",
+          "primarySkillId": "prism-cylinder-measure.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "prism-cylinder-measure.procedure"
+          ],
+          "handsOffSkillIds": [
+            "prism-cylinder-measure.application"
+          ],
+          "inScope": [
+            "積み重なりから柱体の体積公式を使う"
+          ],
+          "outOfScope": [
+            "底面・側面・単位の取り違えを修正する"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "prism-cylinder-measure.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "prism-cylinder-measure.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "prism-cylinder-measure.application"
+            }
+          ]
+        },
+        {
+          "title": "柱体の表面積と体積を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "prism-cylinder-measure.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "prism-cylinder-measure.application"
+          ],
+          "handsOffSkillIds": [
+            "prism-cylinder-measure.mastery"
+          ],
+          "inScope": [
+            "底面・側面・単位の取り違えを修正する"
+          ],
+          "outOfScope": [
+            "次の「角錐・円錐の表面積と体積」へ進む準備"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "prism-cylinder-measure.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "prism-cylinder-measure.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "prism-cylinder-measure.mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "角錐・円錐の表面積と体積",
+      "sectionId": "4a3618ebac124dd5900471b205527b77",
+      "rationale": "錐体の側面積を展開図で扱い、体積の1/3を同じ底面と高さの柱体との比較で理解する。",
+      "lessons": [
+        {
+          "title": "角錐・円錐の表面積と体積を理解しよう",
+          "role": "overview",
+          "primarySkillId": "pyramid-cone-measure.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "prism-cylinder-measure.mastery"
+          ],
+          "handsOffSkillIds": [
+            "pyramid-cone-measure.map"
+          ],
+          "inScope": [
+            "錐体の表面積と体積の学習順序を説明する"
+          ],
+          "outOfScope": [
+            "底面と三角形の側面を分けて角錐の表面積を求める"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "pyramid-cone-measure.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "pyramid-cone-measure.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "pyramid-cone-measure.map"
+            }
+          ],
+          "existingLessonId": "b8010aa73af04f2689ecad0afdf237fa"
+        },
+        {
+          "title": "角錐の展開図から表面積を求めよう",
+          "role": "procedure",
+          "primarySkillId": "pyramid-cone-measure.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "pyramid-cone-measure.map"
+          ],
+          "handsOffSkillIds": [
+            "pyramid-cone-measure.concept"
+          ],
+          "inScope": [
+            "底面と三角形の側面を分けて角錐の表面積を求める"
+          ],
+          "outOfScope": [
+            "母線と弧長を使って円錐の側面積を求める"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "pyramid-cone-measure.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "pyramid-cone-measure.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "pyramid-cone-measure.concept"
+            }
+          ]
+        },
+        {
+          "title": "おうぎ形から円錐の側面積を求めよう",
+          "role": "procedure",
+          "primarySkillId": "pyramid-cone-measure.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "pyramid-cone-measure.concept"
+          ],
+          "handsOffSkillIds": [
+            "pyramid-cone-measure.procedure"
+          ],
+          "inScope": [
+            "母線と弧長を使って円錐の側面積を求める"
+          ],
+          "outOfScope": [
+            "同じ底面と高さの柱体との比較から錐体の体積を求める"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "pyramid-cone-measure.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "pyramid-cone-measure.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "pyramid-cone-measure.procedure"
+            }
+          ]
+        },
+        {
+          "title": "底面積×高さ×1/3で体積を求めよう",
+          "role": "application",
+          "primarySkillId": "pyramid-cone-measure.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "pyramid-cone-measure.procedure"
+          ],
+          "handsOffSkillIds": [
+            "pyramid-cone-measure.application"
+          ],
+          "inScope": [
+            "同じ底面と高さの柱体との比較から錐体の体積を求める"
+          ],
+          "outOfScope": [
+            "母線・高さ・1/3・単位の誤りを修正する"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "pyramid-cone-measure.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "pyramid-cone-measure.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "pyramid-cone-measure.application"
+            }
+          ]
+        },
+        {
+          "title": "錐体の表面積と体積を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "pyramid-cone-measure.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "pyramid-cone-measure.application"
+          ],
+          "handsOffSkillIds": [
+            "pyramid-cone-measure.mastery"
+          ],
+          "inScope": [
+            "母線・高さ・1/3・単位の誤りを修正する"
+          ],
+          "outOfScope": [
+            "次の「球の表面積と体積」へ進む準備"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "pyramid-cone-measure.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "pyramid-cone-measure.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "pyramid-cone-measure.mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "球の表面積と体積",
+      "sectionId": "6ab51c2597d84704ad4682a08f3dd9ee",
+      "rationale": "半径を図から正しく取り出し、表面積と体積の公式を次元・円柱との比較・逆算で区別する。",
+      "lessons": [
+        {
+          "title": "球の表面積と体積を理解しよう",
+          "role": "overview",
+          "primarySkillId": "sphere-measure.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "pyramid-cone-measure.mastery"
+          ],
+          "handsOffSkillIds": [
+            "sphere-measure.map"
+          ],
+          "inScope": [
+            "球の半径・表面積・体積の学習順序を説明する"
+          ],
+          "outOfScope": [
+            "半径を確認して球の表面積を求める"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "sphere-measure.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "sphere-measure.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "sphere-measure.map"
+            }
+          ],
+          "existingLessonId": "ef48fc11d722489baf2f9f9b3f1c538d"
+        },
+        {
+          "title": "4πr²で球の表面積を求めよう",
+          "role": "procedure",
+          "primarySkillId": "sphere-measure.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "sphere-measure.map"
+          ],
+          "handsOffSkillIds": [
+            "sphere-measure.concept"
+          ],
+          "inScope": [
+            "半径を確認して球の表面積を求める"
+          ],
+          "outOfScope": [
+            "半径を確認して球の体積を求める"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "sphere-measure.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "sphere-measure.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "sphere-measure.concept"
+            }
+          ]
+        },
+        {
+          "title": "4/3πr³で球の体積を求めよう",
+          "role": "procedure",
+          "primarySkillId": "sphere-measure.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "sphere-measure.concept"
+          ],
+          "handsOffSkillIds": [
+            "sphere-measure.procedure"
+          ],
+          "inScope": [
+            "半径を確認して球の体積を求める"
+          ],
+          "outOfScope": [
+            "直径や半球を含む図から必要な量を選ぶ"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "sphere-measure.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "sphere-measure.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "sphere-measure.procedure"
+            }
+          ]
+        },
+        {
+          "title": "直径・半球・複合図で公式を使い分けよう",
+          "role": "application",
+          "primarySkillId": "sphere-measure.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "sphere-measure.procedure"
+          ],
+          "handsOffSkillIds": [
+            "sphere-measure.application"
+          ],
+          "inScope": [
+            "直径や半球を含む図から必要な量を選ぶ"
+          ],
+          "outOfScope": [
+            "半径・直径・平方・立方・単位の誤りを修正する"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "sphere-measure.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "sphere-measure.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "sphere-measure.application"
+            }
+          ]
+        },
+        {
+          "title": "球の計量を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "sphere-measure.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "sphere-measure.application"
+          ],
+          "handsOffSkillIds": [
+            "sphere-measure.mastery"
+          ],
+          "inScope": [
+            "半径・直径・平方・立方・単位の誤りを修正する"
+          ],
+          "outOfScope": [
+            "次の「複合立体とマスターチェック」へ進む準備"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "sphere-measure.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "sphere-measure.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "sphere-measure.mastery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "複合立体とマスターチェック",
+      "sectionId": "6d6059c292c44700844afad295edeca9",
+      "rationale": "分ける・付け足す・くり抜くを選び、体積と露出面を区別しながら位置関係・立体表現も入試形式で統合する。",
+      "lessons": [
+        {
+          "title": "空間図形を総合確認しよう",
+          "role": "overview",
+          "primarySkillId": "space-mastery.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "sphere-measure.mastery"
+          ],
+          "handsOffSkillIds": [
+            "space-mastery.map"
+          ],
+          "inScope": [
+            "空間図形の五領域と弱点の戻り先を整理する"
+          ],
+          "outOfScope": [
+            "分割・加法・減法を選んで複合立体の体積を求める"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "space-mastery.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "space-mastery.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "space-mastery.map"
+            }
+          ],
+          "existingLessonId": "ec81060b6d9c43afa088a319aa5870d4"
+        },
+        {
+          "title": "複合立体の体積を分けて求めよう",
+          "role": "application",
+          "primarySkillId": "space-mastery.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "space-mastery.map"
+          ],
+          "handsOffSkillIds": [
+            "space-mastery.concept"
+          ],
+          "inScope": [
+            "分割・加法・減法を選んで複合立体の体積を求める"
+          ],
+          "outOfScope": [
+            "接合面とくり抜き面を区別して表面積を求める"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "space-mastery.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "space-mastery.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "space-mastery.concept"
+            }
+          ]
+        },
+        {
+          "title": "表面に出ている面だけを数えよう",
+          "role": "application",
+          "primarySkillId": "space-mastery.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "space-mastery.concept"
+          ],
+          "handsOffSkillIds": [
+            "space-mastery.procedure"
+          ],
+          "inScope": [
+            "接合面とくり抜き面を区別して表面積を求める"
+          ],
+          "outOfScope": [
+            "位置関係・立体表現・計量から必要な技能を選ぶ"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "space-mastery.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "space-mastery.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "space-mastery.procedure"
+            }
+          ]
+        },
+        {
+          "title": "空間図形の入試混合問題に挑戦しよう",
+          "role": "application",
+          "primarySkillId": "space-mastery.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "space-mastery.procedure"
+          ],
+          "handsOffSkillIds": [
+            "space-mastery.application"
+          ],
+          "inScope": [
+            "位置関係・立体表現・計量から必要な技能を選ぶ"
+          ],
+          "outOfScope": [
+            "誤答の原因と戻り先と復習日を決める"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "space-mastery.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "space-mastery.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "space-mastery.application"
+            }
+          ]
+        },
+        {
+          "title": "間隔反復で空間図形を固めよう",
+          "role": "mastery",
+          "primarySkillId": "space-mastery.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "space-mastery.application"
+          ],
+          "handsOffSkillIds": [
+            "space-mastery.mastery"
+          ],
+          "inScope": [
+            "誤答の原因と戻り先と復習日を決める"
+          ],
+          "outOfScope": [
+            "高校入試へ向けた空間図形の復習計画を立てる"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "space-mastery.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "space-mastery.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "space-mastery.mastery"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

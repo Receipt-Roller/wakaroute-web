@@ -9,12 +9,12 @@
         <nav class="breadcrumbs" aria-label="パンくずリスト">
             <a asp-area="" asp-controller="Home" asp-action="Index">ホーム</a>
             <span aria-hidden="true">/</span>
-            <a asp-action="Math">数学の理解マップ</a>
+            <a asp-action="@Model.SubjectMapAction">@(Model.Subject)の理解マップ</a>
             <span aria-hidden="true">/</span>
             <span aria-current="page">@Model.Title</span>
         </nav>
         <div class="eyebrow"><span></span>COURSE ROADMAP</div>
-        <p class="course-sections-kicker">中学数学 · 数と式</p>
+        <p class="course-sections-kicker">中学@(Model.Subject) · @Model.AreaName</p>
         <h1>@Model.Title</h1>
         @if (!string.IsNullOrWhiteSpace(Model.Description))
         {
@@ -34,7 +34,7 @@
                 <span>LEARNING STEPS</span>
                 <h2>この順番で進めよう</h2>
             </div>
-            <p>意味をつかむところから始めて、計算、活用、仕上げへ。前のステップを土台にしながら進みます。</p>
+            <p>意味をつかむところから始めて、理解、活用、仕上げへ。前のステップを土台にしながら進みます。</p>
         </header>
 
         @if (Model.Sections.Count == 0)
@@ -68,7 +68,7 @@
                                     @foreach (var lesson in step.Lessons)
                                     {
                                         <li>
-                                            <a asp-action="Lesson" asp-route-courseId="@Model.CourseId" asp-route-lessonId="@lesson.Id">
+                                            <a asp-action="Lesson" asp-route-subjectId="@Model.SubjectId" asp-route-courseId="@Model.CourseId" asp-route-lessonId="@lesson.Id">
                                                 <span>@(lesson.OrderIndex + 1)</span>
                                                 <div>
                                                     <strong>@lesson.Title</strong>
@@ -89,6 +89,6 @@
             </ol>
         }
 
-        <a class="course-sections-back" asp-action="Math">← 数学の理解マップに戻る</a>
+        <a class="course-sections-back" asp-action="@Model.SubjectMapAction">← @(Model.Subject)の理解マップに戻る</a>
     </div>
 </main>

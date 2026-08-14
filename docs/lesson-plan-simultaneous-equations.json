@@ -1,0 +1,2238 @@
+{
+  "courseTitle": "連立方程式",
+  "courseId": "2690bf0af90245eba4189530266907c2",
+  "audience": "中学2年生・高校受験基礎",
+  "learningModes": [
+    "conceptual understanding",
+    "procedure and fluency",
+    "integrated application"
+  ],
+  "designRationale": [
+    "一次方程式の前提を診断してから、二元一次方程式の解、連立の意味、加減法、代入法へ段階的に進む。",
+    "加減法を係数一致と係数調整に分け、代入法も孤立・代入・解き戻しへ分けて誤答位置を特定する。",
+    "方法選択を独立技能とし、文章題では変数設定・数量表・二つの等式を分離する。",
+    "最終セクションで計算・立式・検算を統合し、高校入試と間隔反復へ接続する。"
+  ],
+  "sections": [
+    {
+      "title": "一次方程式の復習と準備",
+      "lessons": [
+        {
+          "title": "一次方程式の復習と準備を理解しよう",
+          "role": "overview",
+          "primarySkillId": "simul.prereq-map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "linear-equation.mastery"
+          ],
+          "handsOffSkillIds": [
+            "simul.prereq-sign-like"
+          ],
+          "inScope": [
+            "一次方程式の復習と準備を理解しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "simul.prereq-map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "simul.prereq-map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "simul.prereq-map"
+            }
+          ],
+          "existingLessonId": "7fe44a1184e34d44977e6663cde78827"
+        },
+        {
+          "title": "正負の数と同類項を確認しよう",
+          "existingLessonId": "79e9a50b6f6f47b2baae54568b16b5ef",
+          "role": "prerequisite",
+          "primarySkillId": "simul.prereq-sign-like",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "simul.prereq-sign-like"
+          ],
+          "handsOffSkillIds": [
+            "simul.prereq-distribute-transpose"
+          ],
+          "inScope": [
+            "正負の数と同類項を確認しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "simul.prereq-sign-like.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "simul.prereq-sign-like"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "simul.prereq-sign-like"
+            }
+          ]
+        },
+        {
+          "title": "分配法則と移項を確認しよう",
+          "existingLessonId": "28764cc9340349c5b5386ad872a9b50c",
+          "role": "prerequisite",
+          "primarySkillId": "simul.prereq-distribute-transpose",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "simul.prereq-distribute-transpose"
+          ],
+          "handsOffSkillIds": [
+            "simul.prereq-rational-equation"
+          ],
+          "inScope": [
+            "分配法則と移項を確認しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "simul.prereq-distribute-transpose.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "simul.prereq-distribute-transpose"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "simul.prereq-distribute-transpose"
+            }
+          ]
+        },
+        {
+          "title": "小数・分数の一次方程式を確認しよう",
+          "existingLessonId": "d10228662a9149878b018543aedbed2c",
+          "role": "prerequisite",
+          "primarySkillId": "simul.prereq-rational-equation",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "simul.prereq-rational-equation"
+          ],
+          "handsOffSkillIds": [
+            "simul.prereq-diagnosis"
+          ],
+          "inScope": [
+            "小数・分数の一次方程式を確認しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "simul.prereq-rational-equation.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "simul.prereq-rational-equation"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "simul.prereq-rational-equation"
+            }
+          ]
+        },
+        {
+          "title": "連立方程式の前提を診断しよう",
+          "existingLessonId": "f06cf10f610845f783d8d40ece4a61e7",
+          "role": "mastery",
+          "primarySkillId": "simul.prereq-diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "simul.prereq-diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "bivariate.overview"
+          ],
+          "inScope": [
+            "連立方程式の前提を診断しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "simul.prereq-diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "simul.prereq-diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "simul.prereq-diagnosis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "二元一次方程式とは",
+      "lessons": [
+        {
+          "title": "二元一次方程式とはを理解しよう",
+          "role": "overview",
+          "primarySkillId": "bivariate.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "bivariate.overview"
+          ],
+          "handsOffSkillIds": [
+            "bivariate.parts"
+          ],
+          "inScope": [
+            "二元一次方程式とはを理解しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "bivariate.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "bivariate.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "bivariate.overview"
+            }
+          ],
+          "existingLessonId": "3e4b549f75d44668bc97e50ef415ab62"
+        },
+        {
+          "title": "二つの文字・係数・定数を見分けよう",
+          "existingLessonId": "4d03bcdd99e2435e833da6856eb2536a",
+          "role": "concept",
+          "primarySkillId": "bivariate.parts",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "bivariate.parts"
+          ],
+          "handsOffSkillIds": [
+            "bivariate.model-relation"
+          ],
+          "inScope": [
+            "二つの文字・係数・定数を見分けようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "bivariate.parts.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "bivariate.parts"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "bivariate.parts"
+            }
+          ]
+        },
+        {
+          "title": "一つの数量関係を二文字で表そう",
+          "existingLessonId": "5f2285af167f40a28ce1b2d8e99a32d7",
+          "role": "concept",
+          "primarySkillId": "bivariate.model-relation",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "bivariate.model-relation"
+          ],
+          "handsOffSkillIds": [
+            "bivariate.classify"
+          ],
+          "inScope": [
+            "一つの数量関係を二文字で表そうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "bivariate.model-relation.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "bivariate.model-relation"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "bivariate.model-relation"
+            }
+          ]
+        },
+        {
+          "title": "二元一次方程式を式から見分けよう",
+          "existingLessonId": "bd781d669660477f83d16c8795d6cbf8",
+          "role": "practice",
+          "primarySkillId": "bivariate.classify",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "bivariate.classify"
+          ],
+          "handsOffSkillIds": [
+            "bivariate.diagnosis"
+          ],
+          "inScope": [
+            "二元一次方程式を式から見分けようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "bivariate.classify.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "bivariate.classify"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "bivariate.classify"
+            }
+          ]
+        },
+        {
+          "title": "二元一次方程式の読み違いを直そう",
+          "existingLessonId": "161d087b6b4b42feb874cd568d7feffd",
+          "role": "misconception",
+          "primarySkillId": "bivariate.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "bivariate.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "bivariate.solution-overview"
+          ],
+          "inScope": [
+            "二元一次方程式の読み違いを直そうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "bivariate.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "bivariate.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "bivariate.diagnosis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "二元一次方程式の解を探そう",
+      "lessons": [
+        {
+          "title": "二元一次方程式の解を探そうを理解しよう",
+          "role": "overview",
+          "primarySkillId": "bivariate.solution-overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "bivariate.solution-overview"
+          ],
+          "handsOffSkillIds": [
+            "bivariate.substitute-pair"
+          ],
+          "inScope": [
+            "二元一次方程式の解を探そうを理解しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "bivariate.solution-overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "bivariate.solution-overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "bivariate.solution-overview"
+            }
+          ],
+          "existingLessonId": "e4a7b3a354e54a5baf64661ed15ced03"
+        },
+        {
+          "title": "数の組を代入して確かめよう",
+          "existingLessonId": "7ee8a47352ac4f10baf2ccdf7044d092",
+          "role": "procedure",
+          "primarySkillId": "bivariate.substitute-pair",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "bivariate.substitute-pair"
+          ],
+          "handsOffSkillIds": [
+            "bivariate.solution-table"
+          ],
+          "inScope": [
+            "数の組を代入して確かめようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "bivariate.substitute-pair.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "bivariate.substitute-pair"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "bivariate.substitute-pair"
+            }
+          ]
+        },
+        {
+          "title": "解の組を表で見つけよう",
+          "existingLessonId": "b14f75aa108040dfaf87f1f472d63067",
+          "role": "example",
+          "primarySkillId": "bivariate.solution-table",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "bivariate.solution-table"
+          ],
+          "handsOffSkillIds": [
+            "bivariate.many-solutions"
+          ],
+          "inScope": [
+            "解の組を表で見つけようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "bivariate.solution-table.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "bivariate.solution-table"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "bivariate.solution-table"
+            }
+          ]
+        },
+        {
+          "title": "一つの式に多くの解がある理由を考えよう",
+          "existingLessonId": "b23e99d69a964f9286e9692815c8f571",
+          "role": "concept",
+          "primarySkillId": "bivariate.many-solutions",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "bivariate.many-solutions"
+          ],
+          "handsOffSkillIds": [
+            "bivariate.solution-diagnosis"
+          ],
+          "inScope": [
+            "一つの式に多くの解がある理由を考えようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "bivariate.many-solutions.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "bivariate.many-solutions"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "bivariate.many-solutions"
+            }
+          ]
+        },
+        {
+          "title": "二元一次方程式の解を診断しよう",
+          "existingLessonId": "6010cc084fac4050a22fa006394249b4",
+          "role": "mastery",
+          "primarySkillId": "bivariate.solution-diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "bivariate.solution-diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "system.overview"
+          ],
+          "inScope": [
+            "二元一次方程式の解を診断しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "bivariate.solution-diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "bivariate.solution-diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "bivariate.solution-diagnosis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "連立方程式とは",
+      "lessons": [
+        {
+          "title": "連立方程式とはを理解しよう",
+          "role": "overview",
+          "primarySkillId": "system.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system.overview"
+          ],
+          "handsOffSkillIds": [
+            "system.two-conditions"
+          ],
+          "inScope": [
+            "連立方程式とはを理解しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system.overview"
+            }
+          ],
+          "existingLessonId": "394bf6be31894a71b0756ead17e78619"
+        },
+        {
+          "title": "二つの条件を同時に読む",
+          "existingLessonId": "3a715c0481c5478090edc3d020028b8d",
+          "role": "concept",
+          "primarySkillId": "system.two-conditions",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system.two-conditions"
+          ],
+          "handsOffSkillIds": [
+            "system.common-pair"
+          ],
+          "inScope": [
+            "二つの条件を同時に読むの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system.two-conditions.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system.two-conditions"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system.two-conditions"
+            }
+          ]
+        },
+        {
+          "title": "二つの解の表から共通の組を探そう",
+          "existingLessonId": "6aebfa45d6aa4bc79ab7e014f3509e4e",
+          "role": "example",
+          "primarySkillId": "system.common-pair",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system.common-pair"
+          ],
+          "handsOffSkillIds": [
+            "system.verify-both"
+          ],
+          "inScope": [
+            "二つの解の表から共通の組を探そうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system.common-pair.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system.common-pair"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system.common-pair"
+            }
+          ]
+        },
+        {
+          "title": "連立方程式の解を式に代入しよう",
+          "existingLessonId": "69ddb1bc90ab4f6a9d34e123a281e64f",
+          "role": "procedure",
+          "primarySkillId": "system.verify-both",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system.verify-both"
+          ],
+          "handsOffSkillIds": [
+            "system.concept-diagnosis"
+          ],
+          "inScope": [
+            "連立方程式の解を式に代入しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system.verify-both.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system.verify-both"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system.verify-both"
+            }
+          ]
+        },
+        {
+          "title": "一つだけ満たす誤答を見抜こう",
+          "existingLessonId": "9f6eaa8a2b8945f5b83218bb8b35f45e",
+          "role": "mastery",
+          "primarySkillId": "system.concept-diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system.concept-diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "elimination.aligned-overview"
+          ],
+          "inScope": [
+            "一つだけ満たす誤答を見抜こうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "system.concept-diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system.concept-diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system.concept-diagnosis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "係数がそろっている加減法",
+      "lessons": [
+        {
+          "title": "係数がそろっている加減法を理解しよう",
+          "role": "overview",
+          "primarySkillId": "elimination.aligned-overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "elimination.aligned-overview"
+          ],
+          "handsOffSkillIds": [
+            "elimination.choose-add"
+          ],
+          "inScope": [
+            "係数がそろっている加減法を理解しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "elimination.aligned-overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "elimination.aligned-overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "elimination.aligned-overview"
+            }
+          ],
+          "existingLessonId": "358c4723c8804b588978e0160b092caf"
+        },
+        {
+          "title": "足して文字を消す条件を見つけよう",
+          "existingLessonId": "e6033fa01ef14efbbe078e11af328b8b",
+          "role": "concept",
+          "primarySkillId": "elimination.choose-add",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "elimination.choose-add"
+          ],
+          "handsOffSkillIds": [
+            "elimination.choose-subtract"
+          ],
+          "inScope": [
+            "足して文字を消す条件を見つけようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "elimination.choose-add.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "elimination.choose-add"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "elimination.choose-add"
+            }
+          ]
+        },
+        {
+          "title": "引いて文字を消す条件を見つけよう",
+          "existingLessonId": "ca9243c9409f47b0bbe61b546ae671ab",
+          "role": "concept",
+          "primarySkillId": "elimination.choose-subtract",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "elimination.choose-subtract"
+          ],
+          "handsOffSkillIds": [
+            "elimination.solve-aligned"
+          ],
+          "inScope": [
+            "引いて文字を消す条件を見つけようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "elimination.choose-subtract.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "elimination.choose-subtract"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "elimination.choose-subtract"
+            }
+          ]
+        },
+        {
+          "title": "一文字を消して解き戻そう",
+          "existingLessonId": "83aa6481ab924cc69a2be082fc57efda",
+          "role": "procedure",
+          "primarySkillId": "elimination.solve-aligned",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "elimination.solve-aligned"
+          ],
+          "handsOffSkillIds": [
+            "elimination.aligned-diagnosis"
+          ],
+          "inScope": [
+            "一文字を消して解き戻そうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "elimination.solve-aligned.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "elimination.solve-aligned"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "elimination.solve-aligned"
+            }
+          ]
+        },
+        {
+          "title": "加減法の符号ミスを診断しよう",
+          "existingLessonId": "984fe04501de481887e96cb913f83e23",
+          "role": "mastery",
+          "primarySkillId": "elimination.aligned-diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "elimination.aligned-diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "elimination.scale-overview"
+          ],
+          "inScope": [
+            "加減法の符号ミスを診断しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "elimination.aligned-diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "elimination.aligned-diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "elimination.aligned-diagnosis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "係数をそろえる加減法",
+      "lessons": [
+        {
+          "title": "係数をそろえる加減法を理解しよう",
+          "role": "overview",
+          "primarySkillId": "elimination.scale-overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "elimination.scale-overview"
+          ],
+          "handsOffSkillIds": [
+            "elimination.choose-lcm"
+          ],
+          "inScope": [
+            "係数をそろえる加減法を理解しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "elimination.scale-overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "elimination.scale-overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "elimination.scale-overview"
+            }
+          ],
+          "existingLessonId": "13b26c678bcd403e9c6d11330feaca60"
+        },
+        {
+          "title": "消す文字と最小公倍数を選ぼう",
+          "existingLessonId": "94f49eb405c24ca6af2dc234c824e8ab",
+          "role": "concept",
+          "primarySkillId": "elimination.choose-lcm",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "elimination.choose-lcm"
+          ],
+          "handsOffSkillIds": [
+            "elimination.scale-equation"
+          ],
+          "inScope": [
+            "消す文字と最小公倍数を選ぼうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "elimination.choose-lcm.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "elimination.choose-lcm"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "elimination.choose-lcm"
+            }
+          ]
+        },
+        {
+          "title": "方程式全体を同じ数倍しよう",
+          "existingLessonId": "85f1f9dde5794d98a9796458b9dd0e67",
+          "role": "procedure",
+          "primarySkillId": "elimination.scale-equation",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "elimination.scale-equation"
+          ],
+          "handsOffSkillIds": [
+            "elimination.solve-scaled"
+          ],
+          "inScope": [
+            "方程式全体を同じ数倍しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "elimination.scale-equation.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "elimination.scale-equation"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "elimination.scale-equation"
+            }
+          ]
+        },
+        {
+          "title": "係数をそろえて加減法で解こう",
+          "existingLessonId": "c63f0d84f059403fa0f0d0ef9f55b4a3",
+          "role": "procedure",
+          "primarySkillId": "elimination.solve-scaled",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "elimination.solve-scaled"
+          ],
+          "handsOffSkillIds": [
+            "elimination.scale-diagnosis"
+          ],
+          "inScope": [
+            "係数をそろえて加減法で解こうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "elimination.solve-scaled.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "elimination.solve-scaled"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "elimination.solve-scaled"
+            }
+          ]
+        },
+        {
+          "title": "係数合わせの誤答を診断しよう",
+          "existingLessonId": "3bcc7f46f93b40aa916b154172648e2d",
+          "role": "mastery",
+          "primarySkillId": "elimination.scale-diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "elimination.scale-diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "substitution.overview"
+          ],
+          "inScope": [
+            "係数合わせの誤答を診断しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "elimination.scale-diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "elimination.scale-diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "elimination.scale-diagnosis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "代入法",
+      "lessons": [
+        {
+          "title": "代入法を理解しよう",
+          "role": "overview",
+          "primarySkillId": "substitution.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "substitution.overview"
+          ],
+          "handsOffSkillIds": [
+            "substitution.isolate"
+          ],
+          "inScope": [
+            "代入法を理解しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "substitution.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "substitution.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "substitution.overview"
+            }
+          ],
+          "existingLessonId": "5c7f92640b324b3ea7d4da064304ef55"
+        },
+        {
+          "title": "一方の文字を表そう",
+          "role": "procedure",
+          "primarySkillId": "substitution.isolate",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "substitution.isolate"
+          ],
+          "handsOffSkillIds": [
+            "substitution.replace"
+          ],
+          "inScope": [
+            "一方の文字を表そうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "substitution.isolate.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "substitution.isolate"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "substitution.isolate"
+            }
+          ],
+          "existingLessonId": "294f4a93e7814d419d352f8375aad055"
+        },
+        {
+          "title": "式をもう一方の方程式へ代入しよう",
+          "role": "procedure",
+          "primarySkillId": "substitution.replace",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "substitution.replace"
+          ],
+          "handsOffSkillIds": [
+            "substitution.solve-back"
+          ],
+          "inScope": [
+            "式をもう一方の方程式へ代入しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "substitution.replace.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "substitution.replace"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "substitution.replace"
+            }
+          ],
+          "existingLessonId": "db6293d4882d4290919328695ac9842c"
+        },
+        {
+          "title": "一文字を解いて元へ戻そう",
+          "role": "procedure",
+          "primarySkillId": "substitution.solve-back",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "substitution.solve-back"
+          ],
+          "handsOffSkillIds": [
+            "substitution.diagnosis"
+          ],
+          "inScope": [
+            "一文字を解いて元へ戻そうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "substitution.solve-back.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "substitution.solve-back"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "substitution.solve-back"
+            }
+          ],
+          "existingLessonId": "0eb6d1bd1b6545c9bc5211d9f04fbb8c"
+        },
+        {
+          "title": "代入範囲の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "substitution.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "substitution.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "method.overview"
+          ],
+          "inScope": [
+            "代入範囲の誤答を診断しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "substitution.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "substitution.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "substitution.diagnosis"
+            }
+          ],
+          "existingLessonId": "7d42c6672e9740f9989bac68e778fa15"
+        }
+      ]
+    },
+    {
+      "title": "加減法と代入法を選ぼう",
+      "lessons": [
+        {
+          "title": "加減法と代入法を選ぼうを理解しよう",
+          "role": "overview",
+          "primarySkillId": "method.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "method.overview"
+          ],
+          "handsOffSkillIds": [
+            "method.choose-elimination"
+          ],
+          "inScope": [
+            "加減法と代入法を選ぼうを理解しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "method.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "method.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "method.overview"
+            }
+          ],
+          "existingLessonId": "c5c5a8f86c344fdda772ed59fb05f332"
+        },
+        {
+          "title": "加減法が向く式を見分けよう",
+          "role": "concept",
+          "primarySkillId": "method.choose-elimination",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "method.choose-elimination"
+          ],
+          "handsOffSkillIds": [
+            "method.choose-substitution"
+          ],
+          "inScope": [
+            "加減法が向く式を見分けようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "method.choose-elimination.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "method.choose-elimination"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "method.choose-elimination"
+            }
+          ],
+          "existingLessonId": "aab8008bf40347e28e1447c87f81a8a6"
+        },
+        {
+          "title": "代入法が向く式を見分けよう",
+          "role": "concept",
+          "primarySkillId": "method.choose-substitution",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "method.choose-substitution"
+          ],
+          "handsOffSkillIds": [
+            "method.compare"
+          ],
+          "inScope": [
+            "代入法が向く式を見分けようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "method.choose-substitution.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "method.choose-substitution"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "method.choose-substitution"
+            }
+          ],
+          "existingLessonId": "9e8137fe27804126b2d7fdd4d9ab2a0b"
+        },
+        {
+          "title": "二つの方法で同じ解を確かめよう",
+          "role": "example",
+          "primarySkillId": "method.compare",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "method.compare"
+          ],
+          "handsOffSkillIds": [
+            "method.selection-mastery"
+          ],
+          "inScope": [
+            "二つの方法で同じ解を確かめようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "method.compare.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "method.compare"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "method.compare"
+            }
+          ],
+          "existingLessonId": "6c84fd3ec4834b8caea430ebfa0e1a30"
+        },
+        {
+          "title": "解法選択を混合問題で練習しよう",
+          "role": "mastery",
+          "primarySkillId": "method.selection-mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "method.selection-mastery"
+          ],
+          "handsOffSkillIds": [
+            "complex-system.overview"
+          ],
+          "inScope": [
+            "解法選択を混合問題で練習しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "method.selection-mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "method.selection-mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "method.selection-mastery"
+            }
+          ],
+          "existingLessonId": "1bbc5272c5d24d089e7eb30f7b91d8e8"
+        }
+      ]
+    },
+    {
+      "title": "かっこ・小数・分数を含む連立方程式",
+      "lessons": [
+        {
+          "title": "かっこ・小数・分数を含む連立方程式を理解しよう",
+          "role": "overview",
+          "primarySkillId": "complex-system.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "complex-system.overview"
+          ],
+          "handsOffSkillIds": [
+            "complex-system.parentheses"
+          ],
+          "inScope": [
+            "かっこ・小数・分数を含む連立方程式を理解しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "complex-system.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "complex-system.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "complex-system.overview"
+            }
+          ],
+          "existingLessonId": "9f7013f66af240b3a827e79be89a20e7"
+        },
+        {
+          "title": "かっこを外して基本形へ直そう",
+          "role": "procedure",
+          "primarySkillId": "complex-system.parentheses",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "complex-system.parentheses"
+          ],
+          "handsOffSkillIds": [
+            "complex-system.decimals"
+          ],
+          "inScope": [
+            "かっこを外して基本形へ直そうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "complex-system.parentheses.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "complex-system.parentheses"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "complex-system.parentheses"
+            }
+          ],
+          "existingLessonId": "0c9d0f8310c740789ec7fae7c7f2ed85"
+        },
+        {
+          "title": "小数を整数の式へ直そう",
+          "role": "procedure",
+          "primarySkillId": "complex-system.decimals",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "complex-system.decimals"
+          ],
+          "handsOffSkillIds": [
+            "complex-system.fractions"
+          ],
+          "inScope": [
+            "小数を整数の式へ直そうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "complex-system.decimals.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "complex-system.decimals"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "complex-system.decimals"
+            }
+          ],
+          "existingLessonId": "ea099a3e1795408cb817f8f2ae5a16aa"
+        },
+        {
+          "title": "分数の分母をなくそう",
+          "role": "procedure",
+          "primarySkillId": "complex-system.fractions",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "complex-system.fractions"
+          ],
+          "handsOffSkillIds": [
+            "complex-system.diagnosis"
+          ],
+          "inScope": [
+            "分数の分母をなくそうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "complex-system.fractions.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "complex-system.fractions"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "complex-system.fractions"
+            }
+          ],
+          "existingLessonId": "e914d37c0e444556bfe64d106d3dafd0"
+        },
+        {
+          "title": "複雑な連立方程式の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "complex-system.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "complex-system.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "system-word.overview"
+          ],
+          "inScope": [
+            "複雑な連立方程式の誤答を診断しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "complex-system.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "complex-system.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "complex-system.diagnosis"
+            }
+          ],
+          "existingLessonId": "e631317e93584b66a15254e40bf99425"
+        }
+      ]
+    },
+    {
+      "title": "文章から二つの式を作ろう",
+      "lessons": [
+        {
+          "title": "文章から二つの式を作ろうを理解しよう",
+          "role": "overview",
+          "primarySkillId": "system-word.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-word.overview"
+          ],
+          "handsOffSkillIds": [
+            "system-word.define-variables"
+          ],
+          "inScope": [
+            "文章から二つの式を作ろうを理解しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system-word.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-word.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-word.overview"
+            }
+          ],
+          "existingLessonId": "7efb09d60e6f40a6bbde6d7db269b0be"
+        },
+        {
+          "title": "何をx・yとするか決めよう",
+          "role": "concept",
+          "primarySkillId": "system-word.define-variables",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-word.define-variables"
+          ],
+          "handsOffSkillIds": [
+            "system-word.quantity-table"
+          ],
+          "inScope": [
+            "何をx・yとするか決めようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system-word.define-variables.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-word.define-variables"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-word.define-variables"
+            }
+          ],
+          "existingLessonId": "79a5786c54fd48d0a4a9d189b98f7ec6"
+        },
+        {
+          "title": "数量と単位を表へ整理しよう",
+          "role": "procedure",
+          "primarySkillId": "system-word.quantity-table",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-word.quantity-table"
+          ],
+          "handsOffSkillIds": [
+            "system-word.two-equations"
+          ],
+          "inScope": [
+            "数量と単位を表へ整理しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system-word.quantity-table.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-word.quantity-table"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-word.quantity-table"
+            }
+          ],
+          "existingLessonId": "f5f45c0054e146f4b9de3abaa738a3a4"
+        },
+        {
+          "title": "二つの等しい関係を式にしよう",
+          "role": "procedure",
+          "primarySkillId": "system-word.two-equations",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-word.two-equations"
+          ],
+          "handsOffSkillIds": [
+            "system-word.model-diagnosis"
+          ],
+          "inScope": [
+            "二つの等しい関係を式にしようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system-word.two-equations.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-word.two-equations"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-word.two-equations"
+            }
+          ],
+          "existingLessonId": "1aed19c2f6ff4dc4a6eea14d3c68cab3"
+        },
+        {
+          "title": "立式の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "system-word.model-diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-word.model-diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "system-app.overview"
+          ],
+          "inScope": [
+            "立式の誤答を診断しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "system-word.model-diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-word.model-diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-word.model-diagnosis"
+            }
+          ],
+          "existingLessonId": "5e1f116eb4324c7781b8ac3c676c359e"
+        }
+      ]
+    },
+    {
+      "title": "代金・個数・速さ・割合の問題",
+      "lessons": [
+        {
+          "title": "代金・個数・速さ・割合の問題を理解しよう",
+          "role": "overview",
+          "primarySkillId": "system-app.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-app.overview"
+          ],
+          "handsOffSkillIds": [
+            "system-app.money-count"
+          ],
+          "inScope": [
+            "代金・個数・速さ・割合の問題を理解しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system-app.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-app.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-app.overview"
+            }
+          ],
+          "existingLessonId": "4921e82e2bd0466a841ab697fc4fbca8"
+        },
+        {
+          "title": "代金と個数の問題を解こう",
+          "role": "application",
+          "primarySkillId": "system-app.money-count",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-app.money-count"
+          ],
+          "handsOffSkillIds": [
+            "system-app.people-shortage"
+          ],
+          "inScope": [
+            "代金と個数の問題を解こうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system-app.money-count.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-app.money-count"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-app.money-count"
+            }
+          ],
+          "existingLessonId": "a1df47a4fd4748fbb29855e151a2de8a"
+        },
+        {
+          "title": "人数と過不足の問題を解こう",
+          "role": "application",
+          "primarySkillId": "system-app.people-shortage",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-app.people-shortage"
+          ],
+          "handsOffSkillIds": [
+            "system-app.speed-time"
+          ],
+          "inScope": [
+            "人数と過不足の問題を解こうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system-app.people-shortage.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-app.people-shortage"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-app.people-shortage"
+            }
+          ],
+          "existingLessonId": "7845e6a777d74f27ad0dea923b16df49"
+        },
+        {
+          "title": "速さと時間の問題を解こう",
+          "role": "application",
+          "primarySkillId": "system-app.speed-time",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-app.speed-time"
+          ],
+          "handsOffSkillIds": [
+            "system-app.percent-entrance"
+          ],
+          "inScope": [
+            "速さと時間の問題を解こうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system-app.speed-time.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-app.speed-time"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-app.speed-time"
+            }
+          ],
+          "existingLessonId": "f074ab27766d44fb9ce8cd992c3f37b1"
+        },
+        {
+          "title": "割合と入試文章題を解こう",
+          "role": "mastery",
+          "primarySkillId": "system-app.percent-entrance",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-app.percent-entrance"
+          ],
+          "handsOffSkillIds": [
+            "system-mastery.overview"
+          ],
+          "inScope": [
+            "割合と入試文章題を解こうの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "system-app.percent-entrance.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-app.percent-entrance"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-app.percent-entrance"
+            }
+          ],
+          "existingLessonId": "bf5bd0cf4dc84f9c995df9bcc8059933"
+        }
+      ]
+    },
+    {
+      "title": "解の確かめとマスターチェック",
+      "lessons": [
+        {
+          "title": "連立方程式を総合確認しよう",
+          "role": "overview",
+          "primarySkillId": "system-mastery.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-mastery.overview"
+          ],
+          "handsOffSkillIds": [
+            "system-mastery.error-taxonomy"
+          ],
+          "inScope": [
+            "連立方程式を総合確認しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system-mastery.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-mastery.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-mastery.overview"
+            }
+          ],
+          "existingLessonId": "8180cf3d798342cbbc6a89bb3a265c85"
+        },
+        {
+          "title": "連立方程式のミスを分類しよう",
+          "role": "misconception",
+          "primarySkillId": "system-mastery.error-taxonomy",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-mastery.error-taxonomy"
+          ],
+          "handsOffSkillIds": [
+            "system-mastery.verify-context"
+          ],
+          "inScope": [
+            "連立方程式のミスを分類しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system-mastery.error-taxonomy.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-mastery.error-taxonomy"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-mastery.error-taxonomy"
+            }
+          ],
+          "existingLessonId": "c2adef7ee1de4517af391eb71c885661"
+        },
+        {
+          "title": "二つの式と場面へ代入しよう",
+          "role": "procedure",
+          "primarySkillId": "system-mastery.verify-context",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-mastery.verify-context"
+          ],
+          "handsOffSkillIds": [
+            "system-mastery.entrance-basic"
+          ],
+          "inScope": [
+            "二つの式と場面へ代入しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system-mastery.verify-context.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-mastery.verify-context"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-mastery.verify-context"
+            }
+          ],
+          "existingLessonId": "c832e21e88f24980a56aa336f349cd61"
+        },
+        {
+          "title": "連立方程式の入試基本問題に挑戦しよう",
+          "role": "application",
+          "primarySkillId": "system-mastery.entrance-basic",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-mastery.entrance-basic"
+          ],
+          "handsOffSkillIds": [
+            "system-mastery.spaced"
+          ],
+          "inScope": [
+            "連立方程式の入試基本問題に挑戦しようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "system-mastery.entrance-basic.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-mastery.entrance-basic"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-mastery.entrance-basic"
+            }
+          ],
+          "existingLessonId": "b9d27ebc118a468cb3896f1740c8b3f5"
+        },
+        {
+          "title": "時間を空けて連立方程式を固めよう",
+          "role": "mastery",
+          "primarySkillId": "system-mastery.spaced",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "system-mastery.spaced"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-equation.system-thinking"
+          ],
+          "inScope": [
+            "時間を空けて連立方程式を固めようの中心技能を理由と途中式付きで実行する"
+          ],
+          "outOfScope": [
+            "後続レッスンの技能と三元以上の連立方程式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "system-mastery.spaced.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "system-mastery.spaced"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "system-mastery.spaced"
+            }
+          ],
+          "existingLessonId": "dc31677e733240edaf04d8ffa13841c1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wakaroute.com/schemas/school-life.schema.json",
+  "title": "WakaRoute school life data",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "asOf", "schools"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "asOf": { "type": "string", "format": "date" },
+    "schools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["schoolId", "verifiedAt", "uniform", "rulesSummary", "lunch", "events", "clubs", "sources"],
+        "properties": {
+          "schoolId": { "type": "string", "minLength": 1 },
+          "verifiedAt": { "type": "string", "format": "date" },
+          "uniform": { "$ref": "#/$defs/statusSummary" },
+          "rulesSummary": { "type": "string" },
+          "lunch": { "$ref": "#/$defs/statusSummary" },
+          "events": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["name", "season"],
+              "properties": { "name": { "type": "string" }, "season": { "type": "string" } }
+            }
+          },
+          "clubs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["name", "category", "gender", "activityDays", "activityPlace"],
+              "properties": {
+                "name": { "type": "string" },
+                "category": { "enum": ["sports", "culture"] },
+                "gender": { "enum": ["boys", "girls", "mixed", "unknown"] },
+                "activityDays": { "type": "string" },
+                "activityPlace": { "type": ["string", "null"] }
+              }
+            }
+          },
+          "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "statusSummary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "summary"],
+      "properties": { "status": { "type": "string" }, "summary": { "type": "string" } }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url", "publishedAt", "verifiedAt"],
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "publishedAt": { "type": ["string", "null"] },
+        "verifiedAt": { "type": "string", "format": "date" }
+      }
+    }
+  }
+}

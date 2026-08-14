@@ -9,7 +9,11 @@
 - `school-exams/YYYY.json`: 次年度入試の出願期間、検査日、発表日と、共通日程発表済み・学校別詳細待ちなどの公開状態を管理します。複数校に同じ日程を適用する場合は `sharedSchedules` の `schoolIds` に対象校をまとめ、学校固有の日程は `schedules` に記録します。
 - `school-admissions/YYYY.json`: 年度・選抜区分ごとの募集人員、志願者、受検者、合格者、入学手続者と出典です。未公表の値は推測せず `null` にします。
 - `school-difficulty.json`: 外部提供元から許諾を得た偏差値データです。提供元、年度、母集団、出典URL、ライセンスを必須とし、入試倍率とは分けて管理します。
-- `school-id.schema.json` / `schools.schema.json`: 各JSONの基本構造を示すJSON Schemaです。
+- `school-access.json`: 国土交通省の学校位置・鉄道駅データを学校コードで結合し、各校から近い3駅までの直線距離を保持します。徒歩距離や所要時間ではありません。
+- `school-life.json`: 部活動、制服、校則、行事、昼食等を、確認日と学校公式出典付きで管理します。確認できない項目は推測せず `unknown` と説明文を残します。
+- `school-contact-channels.example.json`: 非公開で管理する学校代表窓口データの空テンプレートです。実データは公開リポジトリ外の `../wakaroute-private-data/` または将来のアクセス制御された保存先で管理します。
+- `school-outreach.example.json`: 未確認項目に関する問い合わせ下書き・承認・送信・回答履歴の空テンプレートです。
+- `school-id.schema.json` / `schools.schema.json` / `school-access.schema.json` / `school-life.schema.json` / `school-contact-channels.schema.json` / `school-outreach.schema.json`: 各JSONの基本構造を示すJSON Schemaです。
 
 ## 再生成
 
@@ -26,6 +30,22 @@ dotnet run --project tools/SchoolCatalogGenerator/SchoolCatalogGenerator.csproj 
 
 学校名、住所、郵便番号、設置区分など公式CSV由来の項目は、再生成時に最新の公式値で更新されます。出典CSVを変更する場合は `--east-url`、`--west-url`、`--as-of` を指定してください。
 
+位置・最寄り駅データは、リポジトリのルートで次を実行して再生成します。初回は国土交通省の公式ZIPを`tmp/access-data`へダウンロードします。
+
+```powershell
+dotnet run --project tools/SchoolAccessGenerator/SchoolAccessGenerator.csproj
+```
+
+このツールは、2021年度学校データの学校コードと現行カタログを厳密結合して`schools.json`の未入力座標を補完し、2025年度鉄道データの駅グループ重心との直線距離を算出します。既存の手動座標は上書きしません。学校の移転・新設等により結合できないIDは`unmatchedSchoolIds`へ残し、推測で補完しません。
+
+学校生活データは、公式URLを持つ学校について、全国用収集ツールで事実項目だけを差分収集します。文章・画像・取得HTMLは保存しません。同一ホストには1秒以上の間隔を置き、robots.txt、共有URL、既知のサイトポリシー、ページ形式を確認します。
+
+```powershell
+dotnet run --project tools/NationwideSchoolLifeCollector/NationwideSchoolLifeCollector.csproj -- --all true --acknowledge-facts-only true --prefectures 北海道
+```
+
+確認済み学校は非公開マニフェストを使って再取得を省きます。意図的に再確認する場合だけ `--refresh-existing true` を指定します。抽出後は `--sanitize-only true` で記事タイトル等の部活名異常候補を除去できます。2026年8月14日の初回全国確認では、公式URLのある4,901校を確認し、抽出条件を満たした1,636校を `school-life.json` に収録しました。未収録は「情報なし」を意味せず、未確認として公式情報を優先します。
+
 ## 件数について
 
 令和7年度学校基本統計の学校数は4,761校ですが、学校コード一覧は統計表とは集計目的が異なります。本カタログは検索漏れを防ぐため、学校コード一覧で廃止年月日が空の高校コードを掲載し、分校も独立した検索結果として扱います。
@@ -35,6 +55,7 @@ dotnet run --project tools/SchoolCatalogGenerator/SchoolCatalogGenerator.csproj 
 このディレクトリのJSONとJSON Schemaは、GitHubから直接参照したり、別のアプリケーションや調査で再利用したりできることを意識して管理します。
 
 - 文部科学省由来の項目は、「文部科学省 学校コード」をWakaRouteが高校に絞り、正規化・加工したデータです。出典表示と加工内容はリポジトリの`NOTICE`を保持してください。
+- 学校位置と駅情報は、国土交通省「国土数値情報（学校）2021年度」「国土数値情報（鉄道）2025年度」をWakaRouteが学校コードで結合・距離計算した加工データです。`school-access.json`の出典・算出方法とリポジトリの`NOTICE`を保持してください。
 - WakaRoute独自のID、構造、要約、判断観点、注釈は、個別に別条件を示していない限りApache License 2.0の対象です。
 - `sources`に記録したURLは出典への参照であり、参照先の文章、写真、ロゴ、PDF等を再配布する許諾を意味しません。参照先コンテンツを利用する場合は、その提供元の利用条件を別途確認してください。
 - JSONを加工・再配布する場合は、WakaRouteおよび元の公的データの出典を保持し、変更した旨が分かるようにしてください。
@@ -52,3 +73,15 @@ dotnet run --project tools/SchoolCatalogGenerator/SchoolCatalogGenerator.csproj 
 - 学校紹介の要約は公式情報から確認できる範囲に限定し、WakaRouteの要約であることと確認日を表示してください。
 - 偏差値は模試提供元ごとの指標です。権利、対象年度、母集団を確認できない数値は追加せず、入試倍率から推定しないでください。
 - 学校紹介文や画像など、権利や出典を確認できない情報は追加しないでください。
+- `nearestStations`の距離は駅グループの代表位置までの直線距離です。徒歩距離、入口までの距離、所要時間として表示しないでください。
+- 部活動の活動日、施設、初心者参加、実績、推薦等は年度途中でも変わり得ます。公式ページで確認できた項目だけを記録し、未確認項目を「なし」と扱わないでください。
+
+## 学校への問い合わせ
+
+学校公式ページの収集時に代表メールアドレスまたは問い合わせフォームを確認できた場合は、学校情報とは分離して、リポジトリと同じ階層の `../wakaroute-private-data/school-contact-channels.local.json` に保存します。送信履歴も同じ外部ディレクトリで管理し、公開Git・ビルド・Web公開の対象にしません。公開リポジトリ内の `Data/Schools/private/*.json` も、誤配置に備えてGitとpublishから除外しています。
+
+- 学校・教育委員会が公式サイトで公開している組織窓口だけを対象にし、個人教員のアドレスは収集しません。
+- 連絡先には学校ID、窓口種別、用途、出典URL、確認日、連絡停止状態を記録します。
+- 未確認項目から作る問い合わせは最初に `draft` として保存し、人が宛先と本文を承認するまで送信しません。
+- 同じ学校・同じ項目への重複送信と、連絡不要の申し出を受けた学校への再送を禁止します。
+- 学校からの回答を公開データへ反映する際は、回答内容の公開可否を確認し、確認日と出典種別を残します。

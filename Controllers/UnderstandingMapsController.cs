@@ -8,6 +8,9 @@ namespace wakaroute_web.Controllers;
 [Route("understanding-map")]
 public sealed class UnderstandingMapsController : Controller
 {
+    private static readonly string[] SubjectIds =
+        ["math", "japanese", "english", "science", "social-studies"];
+
     private readonly IUnderstandingMapCatalog _catalog;
     private readonly Manabu2CatalogClient _manabu2;
 
@@ -37,9 +40,25 @@ public sealed class UnderstandingMapsController : Controller
     public async Task<IActionResult> SocialStudies(CancellationToken cancellationToken) =>
         View("Math", await _catalog.GetMapAsync("social-studies", cancellationToken));
 
-    [HttpGet("math/courses/{courseId}")]
-    public async Task<IActionResult> Course(string courseId, CancellationToken cancellationToken)
+    [HttpGet("{subjectId}/courses/{courseId}")]
+    public async Task<IActionResult> Course(
+        string subjectId,
+        string courseId,
+        CancellationToken cancellationToken)
     {
+        var subjectContext = await GetSubjectContextAsync(subjectId, courseId, cancellationToken);
+        if (subjectContext is null)
+        {
+            var canonicalContext = await FindSubjectContextAsync(courseId, cancellationToken);
+            return canonicalContext is null
+                ? NotFound()
+                : RedirectToActionPermanent(nameof(Course), new
+                {
+                    subjectId = canonicalContext.SubjectId,
+                    courseId
+                });
+        }
+
         var course = await _manabu2.GetCourseAsync(courseId, cancellationToken);
         if (course is null)
         {
@@ -47,6 +66,10 @@ public sealed class UnderstandingMapsController : Controller
         }
 
         var model = new CourseSectionsViewModel(
+            subjectContext.SubjectId,
+            subjectContext.Subject,
+            subjectContext.SubjectMapAction,
+            subjectContext.AreaName,
             course.Id,
             course.Title,
             course.Description,
@@ -70,19 +93,54 @@ public sealed class UnderstandingMapsController : Controller
         return View("Course", model);
     }
 
-    [HttpGet("math/courses/{courseId}/lessons/{lessonId}")]
+    [HttpGet("{subjectId}/courses/{courseId}/lessons/{lessonId}")]
     public async Task<IActionResult> Lesson(
+        string subjectId,
         string courseId,
         string lessonId,
         CancellationToken cancellationToken)
     {
-        var lesson = await _manabu2.GetLessonAsync(lessonId, cancellationToken);
-        if (lesson is null || !string.Equals(lesson.CourseId, courseId, StringComparison.OrdinalIgnoreCase))
+        var subjectContext = await GetSubjectContextAsync(subjectId, courseId, cancellationToken);
+        if (subjectContext is null)
+        {
+            var canonicalContext = await FindSubjectContextAsync(courseId, cancellationToken);
+            return canonicalContext is null
+                ? NotFound()
+                : RedirectToActionPermanent(nameof(Lesson), new
+                {
+                    subjectId = canonicalContext.SubjectId,
+                    courseId,
+                    lessonId
+                });
+        }
+
+        var courseTask = _manabu2.GetCourseAsync(courseId, cancellationToken);
+        var lessonTask = _manabu2.GetLessonAsync(lessonId, cancellationToken);
+        await Task.WhenAll(courseTask, lessonTask);
+
+        var course = await courseTask;
+        var lesson = await lessonTask;
+        if (course is null ||
+            lesson is null ||
+            !string.Equals(lesson.CourseId, courseId, StringComparison.OrdinalIgnoreCase))
+        {
+            return NotFound();
+        }
+
+        var section = course.Sections.FirstOrDefault(candidate =>
+            string.Equals(candidate.Id, lesson.SectionId, StringComparison.OrdinalIgnoreCase));
+        if (section is null)
         {
             return NotFound();
         }
 
         return View("Lesson", new LessonDetailViewModel(
+            subjectContext.SubjectId,
+            subjectContext.Subject,
+            subjectContext.SubjectMapAction,
+            subjectContext.AreaName,
+            course.Title,
+            section.Title,
             lesson.Id,
             lesson.CourseId,
             lesson.SectionId,
@@ -121,6 +179,59 @@ public sealed class UnderstandingMapsController : Controller
                                     option.OrderIndex))
                                 .ToArray()))
                         .ToArray())));
+    }
+
+    private async Task<SubjectContext?> GetSubjectContextAsync(
+        string subjectId,
+        string courseId,
+        CancellationToken cancellationToken)
+    {
+        UnderstandingMapViewModel map;
+        try
+        {
+            map = await _catalog.GetMapAsync(subjectId, cancellationToken);
+        }
+        catch (KeyNotFoundException)
+        {
+            return null;
+        }
+
+        var area = map.Areas.FirstOrDefault(candidate =>
+            candidate.Nodes.Any(node =>
+                string.Equals(node.CourseId, courseId, StringComparison.OrdinalIgnoreCase)));
+
+        var subjectMapAction = subjectId.ToLowerInvariant() switch
+        {
+            "math" => nameof(Math),
+            "japanese" => nameof(Japanese),
+            "english" => nameof(English),
+            "science" => nameof(Science),
+            "social-studies" => nameof(SocialStudies),
+            _ => null
+        };
+
+        return area is null || subjectMapAction is null
+            ? null
+            : new SubjectContext(map.SubjectId, map.Subject, subjectMapAction, area.Name);
+    }
+
+    private async Task<SubjectContext?> FindSubjectContextAsync(
+        string courseId,
+        CancellationToken cancellationToken)
+    {
+        foreach (var candidateSubjectId in SubjectIds)
+        {
+            var context = await GetSubjectContextAsync(
+                candidateSubjectId,
+                courseId,
+                cancellationToken);
+            if (context is not null)
+            {
+                return context;
+            }
+        }
+
+        return null;
     }
 
     private static LessonQuizViewModel? CreateQuizPreview(string lessonId)
@@ -162,4 +273,10 @@ public sealed class UnderstandingMapsController : Controller
                     option,
                     index + 1))
                 .ToArray());
+
+    private sealed record SubjectContext(
+        string SubjectId,
+        string Subject,
+        string SubjectMapAction,
+        string AreaName);
 }

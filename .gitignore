@@ -5,6 +5,8 @@ publish/
 artifacts/
 TestResults/
 coverage/
+.verify-build/
+tmp/
 
 ## Visual Studio / Rider / VS Code
 .vs/
@@ -32,6 +34,9 @@ Properties/PublishProfiles/
 *.pem
 *.snk
 secrets.json
+
+## School contact and outreach operations (never publish)
+Data/Schools/private/*.json
 
 ## OS files
 .DS_Store

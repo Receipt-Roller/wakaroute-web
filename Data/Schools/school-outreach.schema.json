@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wakaroute.com/schemas/school-outreach.schema.json",
+  "title": "WakaRoute private school outreach queue",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "updatedAt", "inquiries"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "inquiries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "schoolId", "contactId", "status", "unverifiedFields", "subject", "body", "createdAt", "approvedAt", "sentAt", "repliedAt", "responseSummary"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "schoolId": { "type": "string", "minLength": 1 },
+          "contactId": { "type": "string", "minLength": 1 },
+          "status": { "enum": ["draft", "approved", "sent", "replied", "closed", "do-not-contact"] },
+          "unverifiedFields": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 },
+          "subject": { "type": "string" },
+          "body": { "type": "string" },
+          "createdAt": { "type": "string", "format": "date-time" },
+          "approvedAt": { "type": ["string", "null"], "format": "date-time" },
+          "sentAt": { "type": ["string", "null"], "format": "date-time" },
+          "repliedAt": { "type": ["string", "null"], "format": "date-time" },
+          "responseSummary": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1498 @@
+{
+  "courseTitle": "文字を用いた式",
+  "courseId": "7fd1e08eb7074b28885840ce380412c4",
+  "audience": "中学1年生・高校受験基礎",
+  "learningModes": [
+    "conceptual understanding",
+    "procedure and fluency",
+    "integrated application"
+  ],
+  "designRationale": [
+    "意味を読む→書き方→場面の式化→代入→式の構造→計算→関係式→利用の順に、前の技能を次の前提として積み上げる。",
+    "一つのレッスンの中心技能を一つに絞り、小テストの誤答から復習先を特定できるようにする。",
+    "公式や省略規則より先に、数量・面積・単位などの意味を扱い、手順だけの暗記を防ぐ。",
+    "最後は高校受験で必要な式による説明と技能選択へ統合する。"
+  ],
+  "sections": [
+    {
+      "title": "文字との出会い",
+      "lessons": [
+        {
+          "title": "文字は数の「入れもの」",
+          "role": "concept",
+          "primarySkillId": "literal.number-placeholder",
+          "positionInSection": 1,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": [
+            "小学校で□を使って未知の数を表す"
+          ],
+          "handsOffSkillIds": [
+            "文字が変わると式の値が変わることを説明する"
+          ],
+          "inScope": [
+            "文字でいろいろな数を表せる意味を説明する"
+          ],
+          "outOfScope": [
+            "文字式の計算規則"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "literal.letter-is-label"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.number-placeholder"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.number-placeholder"
+            }
+          ]
+        },
+        {
+          "title": "文字を使うと何が便利？",
+          "role": "concept",
+          "primarySkillId": "literal.generalize-quantity",
+          "positionInSection": 2,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": [
+            "文字が変わると式の値が変わることを説明する"
+          ],
+          "handsOffSkillIds": [
+            "文字を使って数量の共通点を一つの式にまとめる"
+          ],
+          "inScope": [
+            "文字を使う利点を一般化として説明する"
+          ],
+          "outOfScope": [
+            "文字式の書き方の規則"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "literal.only-one-number"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.generalize-quantity"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.generalize-quantity"
+            }
+          ]
+        },
+        {
+          "title": "文字式が表す数量を読み取ろう",
+          "role": "basic",
+          "primarySkillId": "literal.read-expression",
+          "positionInSection": 3,
+          "lessonCountInSection": 3,
+          "receivesSkillIds": [
+            "文字を使って数量の共通点を一つの式にまとめる"
+          ],
+          "handsOffSkillIds": [
+            "文字式を言葉や場面へ戻して意味を読む"
+          ],
+          "inScope": [
+            "文字式が表す数量を単位とともに読む"
+          ],
+          "outOfScope": [
+            "複雑な文章題を文字式にする"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "literal.read-as-calculation-only"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.read-expression"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.read-expression"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "文字式の書き方",
+      "lessons": [
+        {
+          "title": "積の記号×を省こう",
+          "role": "procedure",
+          "primarySkillId": "literal.omit-multiplication-sign",
+          "positionInSection": 1,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": [
+            "文字式を言葉や場面へ戻して意味を読む"
+          ],
+          "handsOffSkillIds": [
+            "数と文字の積で×を省略する規則を使う"
+          ],
+          "inScope": [
+            "×を省略して積を書く"
+          ],
+          "outOfScope": [
+            "複数文字の順序と係数1の省略"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "literal.keep-times-sign"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.omit-multiplication-sign"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.omit-multiplication-sign"
+            }
+          ]
+        },
+        {
+          "title": "数と文字・文字どうしを順に並べよう",
+          "role": "procedure",
+          "primarySkillId": "literal.standard-order",
+          "positionInSection": 2,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": [
+            "数と文字の積で×を省略する規則を使う"
+          ],
+          "handsOffSkillIds": [
+            "係数・文字・アルファベット順に並べる"
+          ],
+          "inScope": [
+            "積を標準的な順序で書く"
+          ],
+          "outOfScope": [
+            "係数1と−1の省略"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "literal.order-changes-product"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.standard-order"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.standard-order"
+            }
+          ]
+        },
+        {
+          "title": "係数1と−1を正しく省こう",
+          "role": "procedure",
+          "primarySkillId": "literal.omit-unit-coefficient",
+          "positionInSection": 3,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": [
+            "係数・文字・アルファベット順に並べる"
+          ],
+          "handsOffSkillIds": [
+            "係数1と−1を省略して符号を正しく残す"
+          ],
+          "inScope": [
+            "1xと−1xをxと−xで表す"
+          ],
+          "outOfScope": [
+            "除法の分数化"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "literal.drop-minus-with-one"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.omit-unit-coefficient"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.omit-unit-coefficient"
+            }
+          ]
+        },
+        {
+          "title": "わり算を分数で表そう",
+          "role": "procedure",
+          "primarySkillId": "literal.write-division-as-fraction",
+          "positionInSection": 4,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": [
+            "係数1と−1を省略して符号を正しく残す"
+          ],
+          "handsOffSkillIds": [
+            "文字を含む除法を分数の形で書く"
+          ],
+          "inScope": [
+            "除法記号を使わず分数で表す"
+          ],
+          "outOfScope": [
+            "分数を含む文字式の計算"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "literal.reverse-fraction-order"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.write-division-as-fraction"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.write-division-as-fraction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "数量を文字式で表そう",
+      "lessons": [
+        {
+          "title": "代金とおつりを文字式で表そう",
+          "role": "application",
+          "primarySkillId": "literal.model-money",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "文字を含む除法を分数の形で書く"
+          ],
+          "handsOffSkillIds": [
+            "単価・個数・支払額から代金やおつりの式を作る"
+          ],
+          "inScope": [
+            "買い物の数量関係を文字式にする"
+          ],
+          "outOfScope": [
+            "割合を含む代金"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "literal.money-add-instead-multiply"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.model-money"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.model-money"
+            }
+          ]
+        },
+        {
+          "title": "速さ・時間・道のりを文字式で表そう",
+          "role": "application",
+          "primarySkillId": "literal.model-rate",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "単価・個数・支払額から代金やおつりの式を作る"
+          ],
+          "handsOffSkillIds": [
+            "速さ・時間・道のりの関係から式を作る"
+          ],
+          "inScope": [
+            "速さの三つの量を文字式にする"
+          ],
+          "outOfScope": [
+            "単位換算を含む複雑な速さ"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "literal.rate-formula-mixup"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.model-rate"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.model-rate"
+            }
+          ]
+        },
+        {
+          "title": "周の長さと面積を文字式で表そう",
+          "role": "application",
+          "primarySkillId": "literal.model-geometry",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "速さ・時間・道のりの関係から式を作る"
+          ],
+          "handsOffSkillIds": [
+            "図形の辺や面積の関係から式を作る"
+          ],
+          "inScope": [
+            "図から周長・面積の文字式を作る"
+          ],
+          "outOfScope": [
+            "証明を伴う図形問題"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "literal.perimeter-area-confusion"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.model-geometry"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.model-geometry"
+            }
+          ]
+        },
+        {
+          "title": "割合を含む数量を文字式で表そう",
+          "role": "application",
+          "primarySkillId": "literal.model-percentage",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "図形の辺や面積の関係から式を作る"
+          ],
+          "handsOffSkillIds": [
+            "割合・増減・割引を小数や分数で式にする"
+          ],
+          "inScope": [
+            "割合を含む数量を文字式にする"
+          ],
+          "outOfScope": [
+            "連続する割合変化"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "literal.percent-as-whole-number"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.model-percentage"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.model-percentage"
+            }
+          ]
+        },
+        {
+          "title": "単位と式の意味で検算しよう",
+          "role": "misconception",
+          "primarySkillId": "literal.validate-model",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "割合・増減・割引を小数や分数で式にする"
+          ],
+          "handsOffSkillIds": [
+            "単位と言葉への戻しで文字式の妥当性を確かめる"
+          ],
+          "inScope": [
+            "作った式を単位と意味で検算する"
+          ],
+          "outOfScope": [
+            "式の値の計算"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "literal.ignore-units"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.validate-model"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.validate-model"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "代入と式の値",
+      "lessons": [
+        {
+          "title": "代入と式の値の意味を知ろう",
+          "role": "concept",
+          "primarySkillId": "substitution.meaning",
+          "positionInSection": 1,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": [
+            "単位と言葉への戻しで文字式の妥当性を確かめる"
+          ],
+          "handsOffSkillIds": [
+            "文字を決まった数に置き換える意味を説明する"
+          ],
+          "inScope": [
+            "代入と式の値を区別する"
+          ],
+          "outOfScope": [
+            "複雑な式の計算"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "substitution.answer-is-input"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "substitution.meaning"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "substitution.meaning"
+            }
+          ]
+        },
+        {
+          "title": "正の数と0を代入しよう",
+          "role": "procedure",
+          "primarySkillId": "substitution.positive-zero",
+          "positionInSection": 2,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": [
+            "文字を決まった数に置き換える意味を説明する"
+          ],
+          "handsOffSkillIds": [
+            "正の数と0を代入して式の値を求める"
+          ],
+          "inScope": [
+            "演算順序を守って式の値を求める"
+          ],
+          "outOfScope": [
+            "負の数の代入"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "substitution.replace-partially"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "substitution.positive-zero"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "substitution.positive-zero"
+            }
+          ]
+        },
+        {
+          "title": "負の数はかっこで代入しよう",
+          "role": "procedure",
+          "primarySkillId": "substitution.negative-parentheses",
+          "positionInSection": 3,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": [
+            "正の数と0を代入して式の値を求める"
+          ],
+          "handsOffSkillIds": [
+            "負の数をかっこに入れて代入する"
+          ],
+          "inScope": [
+            "負の数の代入で符号を保つ"
+          ],
+          "outOfScope": [
+            "複数文字の代入"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "substitution.drop-parentheses"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "substitution.negative-parentheses"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "substitution.negative-parentheses"
+            }
+          ]
+        },
+        {
+          "title": "複数の文字へ代入して検算しよう",
+          "role": "practice",
+          "primarySkillId": "substitution.multivariable-check",
+          "positionInSection": 4,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": [
+            "負の数をかっこに入れて代入する"
+          ],
+          "handsOffSkillIds": [
+            "複数文字へ代入し場面と照らして検算する"
+          ],
+          "inScope": [
+            "複数文字の式の値を正確に求める"
+          ],
+          "outOfScope": [
+            "関数としての見方"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "substitution.swap-values"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "substitution.multivariable-check"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "substitution.multivariable-check"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "一次式のしくみ",
+      "lessons": [
+        {
+          "title": "項を符号ごとに分けよう",
+          "role": "concept",
+          "primarySkillId": "linear-expression.identify-terms",
+          "positionInSection": 1,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": [
+            "複数文字へ代入し場面と照らして検算する"
+          ],
+          "handsOffSkillIds": [
+            "加法の形として項を符号ごとに分ける"
+          ],
+          "inScope": [
+            "式を項へ正しく分解する"
+          ],
+          "outOfScope": [
+            "同類項の計算"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "linear-expression.detach-sign"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "linear-expression.identify-terms"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "linear-expression.identify-terms"
+            }
+          ]
+        },
+        {
+          "title": "係数と定数項を見つけよう",
+          "role": "basic",
+          "primarySkillId": "linear-expression.coefficient-constant",
+          "positionInSection": 2,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": [
+            "加法の形として項を符号ごとに分ける"
+          ],
+          "handsOffSkillIds": [
+            "文字の係数と定数項を見分ける"
+          ],
+          "inScope": [
+            "係数と定数項を答える"
+          ],
+          "outOfScope": [
+            "次数の一般論"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "linear-expression.coefficient-includes-variable"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "linear-expression.coefficient-constant"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "linear-expression.coefficient-constant"
+            }
+          ]
+        },
+        {
+          "title": "一次式を見分けよう",
+          "role": "basic",
+          "primarySkillId": "linear-expression.classify-linear",
+          "positionInSection": 3,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": [
+            "文字の係数と定数項を見分ける"
+          ],
+          "handsOffSkillIds": [
+            "文字の次数から一次式を見分ける"
+          ],
+          "inScope": [
+            "一次式とそうでない式を分類する"
+          ],
+          "outOfScope": [
+            "多項式の正式な次数"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "linear-expression.two-terms-means-linear"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "linear-expression.classify-linear"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "linear-expression.classify-linear"
+            }
+          ]
+        },
+        {
+          "title": "式のパーツから意味を読もう",
+          "role": "application",
+          "primarySkillId": "linear-expression.interpret-parts",
+          "positionInSection": 4,
+          "lessonCountInSection": 4,
+          "receivesSkillIds": [
+            "文字の次数から一次式を見分ける"
+          ],
+          "handsOffSkillIds": [
+            "係数・文字・定数項を場面の数量へ結びつける"
+          ],
+          "inScope": [
+            "一次式の各部分の意味を説明する"
+          ],
+          "outOfScope": [
+            "一次関数の変化の割合"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "linear-expression.parts-have-no-context"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "linear-expression.interpret-parts"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "linear-expression.interpret-parts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "一次式の加法・減法",
+      "lessons": [
+        {
+          "title": "同類項をまとめられる理由",
+          "role": "concept",
+          "primarySkillId": "linear-addition.like-terms-meaning",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "係数・文字・定数項を場面の数量へ結びつける"
+          ],
+          "handsOffSkillIds": [
+            "同じ種類の量だけをまとめられる理由を説明する"
+          ],
+          "inScope": [
+            "同類項の意味を図や数量で理解する"
+          ],
+          "outOfScope": [
+            "異なる文字の項をまとめる"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "linear-addition.combine-unlike"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "linear-addition.like-terms-meaning"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "linear-addition.like-terms-meaning"
+            }
+          ]
+        },
+        {
+          "title": "一次式と数をたし引きしよう",
+          "role": "procedure",
+          "primarySkillId": "linear-addition.expression-number",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "同じ種類の量だけをまとめられる理由を説明する"
+          ],
+          "handsOffSkillIds": [
+            "文字の項と数の項を区別して加減する"
+          ],
+          "inScope": [
+            "一次式と数の加減を行う"
+          ],
+          "outOfScope": [
+            "一次式どうしの減法"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "linear-addition.combine-constant-with-variable"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "linear-addition.expression-number"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "linear-addition.expression-number"
+            }
+          ]
+        },
+        {
+          "title": "一次式どうしをたそう",
+          "role": "procedure",
+          "primarySkillId": "linear-addition.add-expressions",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "文字の項と数の項を区別して加減する"
+          ],
+          "handsOffSkillIds": [
+            "同類項をそろえて一次式どうしを加える"
+          ],
+          "inScope": [
+            "一次式の加法を正確に行う"
+          ],
+          "outOfScope": [
+            "減法でかっこを外す"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "linear-addition.add-all-coefficients"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "linear-addition.add-expressions"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "linear-addition.add-expressions"
+            }
+          ]
+        },
+        {
+          "title": "一次式どうしを引こう",
+          "role": "procedure",
+          "primarySkillId": "linear-addition.subtract-expressions",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "同類項をそろえて一次式どうしを加える"
+          ],
+          "handsOffSkillIds": [
+            "引く式全体の符号を変えて減法する"
+          ],
+          "inScope": [
+            "一次式の減法でかっこを正しく外す"
+          ],
+          "outOfScope": [
+            "加減混合の式"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "linear-addition.change-first-expression-sign"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "linear-addition.subtract-expressions"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "linear-addition.subtract-expressions"
+            }
+          ]
+        },
+        {
+          "title": "加減混合の誤りを見つけよう",
+          "role": "misconception",
+          "primarySkillId": "linear-addition.diagnose-mixed",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "引く式全体の符号を変えて減法する"
+          ],
+          "handsOffSkillIds": [
+            "途中式から符号と同類項の誤りを特定して直す"
+          ],
+          "inScope": [
+            "一次式の加減を検算し誤答を修正する"
+          ],
+          "outOfScope": [
+            "乗法・除法"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "linear-addition.skip-structure"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "linear-addition.diagnose-mixed"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "linear-addition.diagnose-mixed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "一次式と数の乗法・除法",
+      "lessons": [
+        {
+          "title": "分配法則を面積で理解しよう",
+          "role": "concept",
+          "primarySkillId": "linear-multiplication.distributive-meaning",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "途中式から符号と同類項の誤りを特定して直す"
+          ],
+          "handsOffSkillIds": [
+            "長方形の面積から分配法則を説明する"
+          ],
+          "inScope": [
+            "分配法則の意味を視覚的に理解する"
+          ],
+          "outOfScope": [
+            "公式だけの暗記"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "linear-multiplication.multiply-one-term-only"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "linear-multiplication.distributive-meaning"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "linear-multiplication.distributive-meaning"
+            }
+          ]
+        },
+        {
+          "title": "一次式に数をかけよう",
+          "role": "procedure",
+          "primarySkillId": "linear-multiplication.multiply-number",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "長方形の面積から分配法則を説明する"
+          ],
+          "handsOffSkillIds": [
+            "一次式の各項へ数をかける"
+          ],
+          "inScope": [
+            "正の数による分配を正確に行う"
+          ],
+          "outOfScope": [
+            "負の数による分配"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "linear-multiplication.forget-constant"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "linear-multiplication.multiply-number"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "linear-multiplication.multiply-number"
+            }
+          ]
+        },
+        {
+          "title": "負の数をかけよう",
+          "role": "procedure",
+          "primarySkillId": "linear-multiplication.multiply-negative",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "一次式の各項へ数をかける"
+          ],
+          "handsOffSkillIds": [
+            "負の数を各項へ分配し符号を処理する"
+          ],
+          "inScope": [
+            "負の数による分配を正確に行う"
+          ],
+          "outOfScope": [
+            "一次式の除法"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "linear-multiplication.sign-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "linear-multiplication.multiply-negative"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "linear-multiplication.multiply-negative"
+            }
+          ]
+        },
+        {
+          "title": "一次式を数で割ろう",
+          "role": "procedure",
+          "primarySkillId": "linear-division.divide-number",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "負の数を各項へ分配し符号を処理する"
+          ],
+          "handsOffSkillIds": [
+            "一次式の各項を同じ数で割る"
+          ],
+          "inScope": [
+            "一次式の除法を分配として行う"
+          ],
+          "outOfScope": [
+            "文字式どうしの除法"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "linear-division.divide-one-term-only"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "linear-division.divide-number"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "linear-division.divide-number"
+            }
+          ]
+        },
+        {
+          "title": "乗除混合を代入で確かめよう",
+          "role": "practice",
+          "primarySkillId": "linear-mixed.validate-substitution",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "一次式の各項を同じ数で割る"
+          ],
+          "handsOffSkillIds": [
+            "乗除を整理し代入で元の式との一致を確かめる"
+          ],
+          "inScope": [
+            "一次式の乗除を検算する"
+          ],
+          "outOfScope": [
+            "方程式を解く操作"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "linear-mixed.no-check"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "linear-mixed.validate-substitution"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "linear-mixed.validate-substitution"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "等式・不等式で関係を表そう",
+      "lessons": [
+        {
+          "title": "等式の左辺・右辺を読もう",
+          "role": "concept",
+          "primarySkillId": "relation.equality-sides",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "乗除を整理し代入で元の式との一致を確かめる"
+          ],
+          "handsOffSkillIds": [
+            "等号と左辺・右辺が表す関係を説明する"
+          ],
+          "inScope": [
+            "等式を関係として読む"
+          ],
+          "outOfScope": [
+            "方程式を解く"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "relation.equal-means-answer"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "relation.equality-sides"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "relation.equality-sides"
+            }
+          ]
+        },
+        {
+          "title": "場面を等式で表そう",
+          "role": "application",
+          "primarySkillId": "relation.model-equality",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "等号と左辺・右辺が表す関係を説明する"
+          ],
+          "handsOffSkillIds": [
+            "二つの数量が等しい場面を等式にする"
+          ],
+          "inScope": [
+            "文章から等式を作る"
+          ],
+          "outOfScope": [
+            "未知数を解く"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "relation.reverse-sides-as-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "relation.model-equality"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "relation.model-equality"
+            }
+          ]
+        },
+        {
+          "title": "不等号の向きと意味を知ろう",
+          "role": "concept",
+          "primarySkillId": "relation.inequality-symbols",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "二つの数量が等しい場面を等式にする"
+          ],
+          "handsOffSkillIds": [
+            "不等号を大小と以上・以下・未満の言葉へ対応させる"
+          ],
+          "inScope": [
+            "不等号の向きを数量関係から選ぶ"
+          ],
+          "outOfScope": [
+            "不等式を解く"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "relation.arrow-as-reading-order"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "relation.inequality-symbols"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "relation.inequality-symbols"
+            }
+          ]
+        },
+        {
+          "title": "場面を不等式で表そう",
+          "role": "application",
+          "primarySkillId": "relation.model-inequality",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "不等号を大小と以上・以下・未満の言葉へ対応させる"
+          ],
+          "handsOffSkillIds": [
+            "範囲や条件を不等式で表す"
+          ],
+          "inScope": [
+            "文章から不等式を作る"
+          ],
+          "outOfScope": [
+            "連立不等式"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "relation.include-boundary-wrongly"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "relation.model-inequality"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "relation.model-inequality"
+            }
+          ]
+        },
+        {
+          "title": "式を言葉へ戻して確かめよう",
+          "role": "misconception",
+          "primarySkillId": "relation.translate-back",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "範囲や条件を不等式で表す"
+          ],
+          "handsOffSkillIds": [
+            "等式・不等式を言葉へ戻して妥当性を確かめる"
+          ],
+          "inScope": [
+            "数量関係を式と言葉の両方向で表す"
+          ],
+          "outOfScope": [
+            "方程式の解法"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "relation.one-way-translation"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "relation.translate-back"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "relation.translate-back"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "文字式の利用とマスターチェック",
+      "lessons": [
+        {
+          "title": "偶数・奇数を文字式で表そう",
+          "role": "application",
+          "primarySkillId": "literal.proof-even-odd",
+          "positionInSection": 1,
+          "lessonCountInSection": 6,
+          "receivesSkillIds": [
+            "等式・不等式を言葉へ戻して妥当性を確かめる"
+          ],
+          "handsOffSkillIds": [
+            "偶数と奇数を文字式で一般的に表す"
+          ],
+          "inScope": [
+            "2nと2n+1の意味を説明する"
+          ],
+          "outOfScope": [
+            "整数の性質の証明"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "literal.even-is-n"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.proof-even-odd"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.proof-even-odd"
+            }
+          ]
+        },
+        {
+          "title": "連続する整数を文字式で表そう",
+          "role": "application",
+          "primarySkillId": "literal.model-consecutive-integers",
+          "positionInSection": 2,
+          "lessonCountInSection": 6,
+          "receivesSkillIds": [
+            "偶数と奇数を文字式で一般的に表す"
+          ],
+          "handsOffSkillIds": [
+            "連続する整数を基準の文字から表す"
+          ],
+          "inScope": [
+            "連続する数を一つの文字で表す"
+          ],
+          "outOfScope": [
+            "三つ以上の複雑な整数条件"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "literal.use-separate-letters"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.model-consecutive-integers"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.model-consecutive-integers"
+            }
+          ]
+        },
+        {
+          "title": "図形や数の規則を式にしよう",
+          "role": "application",
+          "primarySkillId": "literal.model-pattern",
+          "positionInSection": 3,
+          "lessonCountInSection": 6,
+          "receivesSkillIds": [
+            "連続する整数を基準の文字から表す"
+          ],
+          "handsOffSkillIds": [
+            "図や数列の増え方を文字式にする"
+          ],
+          "inScope": [
+            "規則の変わる部分と変わらない部分を式にする"
+          ],
+          "outOfScope": [
+            "数列の一般項の形式論"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "literal.pattern-from-one-case"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.model-pattern"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.model-pattern"
+            }
+          ]
+        },
+        {
+          "title": "文字式を使って説明しよう",
+          "role": "example",
+          "primarySkillId": "literal.explain-property",
+          "positionInSection": 4,
+          "lessonCountInSection": 6,
+          "receivesSkillIds": [
+            "図や数列の増え方を文字式にする"
+          ],
+          "handsOffSkillIds": [
+            "予想を文字式で一般化して根拠を説明する"
+          ],
+          "inScope": [
+            "式の変形を言葉でつないで説明する"
+          ],
+          "outOfScope": [
+            "形式的な証明記法"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "literal.calculation-without-conclusion"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.explain-property"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.explain-property"
+            }
+          ]
+        },
+        {
+          "title": "混合問題で弱点を見つけよう",
+          "role": "practice",
+          "primarySkillId": "literal.mixed-diagnostic",
+          "positionInSection": 5,
+          "lessonCountInSection": 6,
+          "receivesSkillIds": [
+            "予想を文字式で一般化して根拠を説明する"
+          ],
+          "handsOffSkillIds": [
+            "表現・代入・計算・関係式から必要な技能を選ぶ"
+          ],
+          "inScope": [
+            "誤答の種類から戻るレッスンを判断する"
+          ],
+          "outOfScope": [
+            "新しい内容の導入"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "literal.choose-operation-by-keyword"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.mixed-diagnostic"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.mixed-diagnostic"
+            }
+          ]
+        },
+        {
+          "title": "高校受験につながる文字式マスター",
+          "role": "mastery",
+          "primarySkillId": "literal.entrance-exam-mastery",
+          "positionInSection": 6,
+          "lessonCountInSection": 6,
+          "receivesSkillIds": [
+            "表現・代入・計算・関係式から必要な技能を選ぶ"
+          ],
+          "handsOffSkillIds": [
+            "複数の技能を組み合わせて根拠付きで解く"
+          ],
+          "inScope": [
+            "文字式単元の到達度と復習先を判定する"
+          ],
+          "outOfScope": [
+            "一次方程式の解法"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "literal.answer-only"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "literal.entrance-exam-mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "literal.entrance-exam-mastery"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

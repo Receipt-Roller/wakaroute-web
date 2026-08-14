@@ -1,6 +1,10 @@
 namespace wakaroute_web.Models;
 
 public sealed record CourseSectionsViewModel(
+    string SubjectId,
+    string Subject,
+    string SubjectMapAction,
+    string AreaName,
     string CourseId,
     string Title,
     string? Description,
@@ -23,6 +27,12 @@ public sealed record CourseLessonViewModel(
     int OrderIndex);
 
 public sealed record LessonDetailViewModel(
+    string SubjectId,
+    string Subject,
+    string SubjectMapAction,
+    string AreaName,
+    string CourseTitle,
+    string SectionTitle,
     string Id,
     string CourseId,
     string SectionId,

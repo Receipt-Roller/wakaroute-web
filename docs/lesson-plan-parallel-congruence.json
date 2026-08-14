@@ -1,0 +1,2445 @@
+{
+  "courseTitle": "平行線と合同",
+  "courseId": "1299f799eb7c450080237a805bf0b638",
+  "organizationId": "a461577a-3410-4c98-b1d5-db729f3444a1",
+  "audience": "中学2年生・高校受験基礎〜標準",
+  "learningModes": [
+    "conceptual understanding",
+    "procedure and fluency",
+    "reading and interpretation",
+    "integrated application"
+  ],
+  "sections": [
+    {
+      "title": "角と図形の記号を読み直そう",
+      "sectionId": "2aee597992ab4dbca24603ecbd14222c",
+      "existingOverviewId": "2d4033547adc4dd09dfc7cf05492c967",
+      "lessons": [
+        {
+          "title": "角の名前を3文字で読もう",
+          "role": "prerequisite",
+          "primarySkillId": "angle.notation.read",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-geometry.angle-and-symbol-basics",
+            "angle.notation.read"
+          ],
+          "handsOffSkillIds": [
+            "geometry.symbol.write"
+          ],
+          "inScope": [
+            "角の頂点を中央に置き、3文字の記号から角を特定する"
+          ],
+          "outOfScope": [
+            "次の中心技能「geometry.symbol.write」の詳しい学習"
+          ],
+          "estimatedMinutes": 6,
+          "misconceptionIds": [
+            "中央の文字ではなく見た目の向きだけで角を決める"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-01-01-direct",
+              "type": "direct",
+              "skillId": "angle.notation.read"
+            },
+            {
+              "questionId": "pc-01-01-misconception",
+              "type": "misconception",
+              "skillId": "angle.notation.read"
+            }
+          ]
+        },
+        {
+          "title": "頂点・辺・角を記号で書こう",
+          "role": "basic",
+          "primarySkillId": "geometry.symbol.write",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle.notation.read",
+            "geometry.symbol.write"
+          ],
+          "handsOffSkillIds": [
+            "line.relation.notation"
+          ],
+          "inScope": [
+            "点・線分・角を、それぞれ正しい記号で書き分ける"
+          ],
+          "outOfScope": [
+            "次の中心技能「line.relation.notation」の詳しい学習"
+          ],
+          "estimatedMinutes": 6,
+          "misconceptionIds": [
+            "線分と直線、角と頂点の記号を混同する"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-01-02-direct",
+              "type": "direct",
+              "skillId": "geometry.symbol.write"
+            },
+            {
+              "questionId": "pc-01-02-misconception",
+              "type": "misconception",
+              "skillId": "geometry.symbol.write"
+            }
+          ]
+        },
+        {
+          "title": "平行・垂直の記号を読もう",
+          "role": "concept",
+          "primarySkillId": "line.relation.notation",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "geometry.symbol.write",
+            "line.relation.notation"
+          ],
+          "handsOffSkillIds": [
+            "geometry.mark.interpret"
+          ],
+          "inScope": [
+            "平行記号と垂直記号を、二直線の関係として言葉に直す"
+          ],
+          "outOfScope": [
+            "次の中心技能「geometry.mark.interpret」の詳しい学習"
+          ],
+          "estimatedMinutes": 6,
+          "misconceptionIds": [
+            "平行記号を等号、垂直記号を直角そのものと読む"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-01-03-direct",
+              "type": "direct",
+              "skillId": "line.relation.notation"
+            },
+            {
+              "questionId": "pc-01-03-misconception",
+              "type": "misconception",
+              "skillId": "line.relation.notation"
+            }
+          ]
+        },
+        {
+          "title": "図の印から等しい辺・角を読み取ろう",
+          "role": "application",
+          "primarySkillId": "geometry.mark.interpret",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line.relation.notation",
+            "geometry.mark.interpret"
+          ],
+          "handsOffSkillIds": [
+            "geometry.notation.diagnose"
+          ],
+          "inScope": [
+            "辺のしるしと角の弧から、等しい対象を対応させる"
+          ],
+          "outOfScope": [
+            "次の中心技能「geometry.notation.diagnose」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "同じ色や近い位置だけで等しいと判断する"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-01-04-direct",
+              "type": "direct",
+              "skillId": "geometry.mark.interpret"
+            },
+            {
+              "questionId": "pc-01-04-misconception",
+              "type": "misconception",
+              "skillId": "geometry.mark.interpret"
+            }
+          ]
+        },
+        {
+          "title": "角と図形の記号を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "geometry.notation.diagnose",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "geometry.mark.interpret",
+            "geometry.notation.diagnose"
+          ],
+          "handsOffSkillIds": [
+            "angle.straight.sum"
+          ],
+          "inScope": [
+            "記号の誤読を頂点・対象・関係の三種類へ分けて直す"
+          ],
+          "outOfScope": [
+            "次の中心技能「angle.straight.sum」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "記号の順序が違っても同じ対象だと決める"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-01-05-direct",
+              "type": "direct",
+              "skillId": "geometry.notation.diagnose"
+            },
+            {
+              "questionId": "pc-01-05-misconception",
+              "type": "misconception",
+              "skillId": "geometry.notation.diagnose"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "対頂角と一直線上の角",
+      "sectionId": "7ebdac9e83bd4160a2f76389cf536db5",
+      "existingOverviewId": "9c0877c8b4e046b4b06f9bb9075d1558",
+      "lessons": [
+        {
+          "title": "一直線上の角の和180°を使おう",
+          "role": "concept",
+          "primarySkillId": "angle.straight.sum",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "geometry.notation.diagnose",
+            "angle.straight.sum"
+          ],
+          "handsOffSkillIds": [
+            "angle.vertical.explain"
+          ],
+          "inScope": [
+            "一直線を半回転と捉え、隣り合う角の和を180°にする"
+          ],
+          "outOfScope": [
+            "次の中心技能「angle.vertical.explain」の詳しい学習"
+          ],
+          "estimatedMinutes": 6,
+          "misconceptionIds": [
+            "一直線上にない二角まで180°とする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-02-01-direct",
+              "type": "direct",
+              "skillId": "angle.straight.sum"
+            },
+            {
+              "questionId": "pc-02-01-misconception",
+              "type": "misconception",
+              "skillId": "angle.straight.sum"
+            }
+          ]
+        },
+        {
+          "title": "対頂角が等しい理由を説明しよう",
+          "role": "concept",
+          "primarySkillId": "angle.vertical.explain",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle.straight.sum",
+            "angle.vertical.explain"
+          ],
+          "handsOffSkillIds": [
+            "angle.vertical.identify"
+          ],
+          "inScope": [
+            "一直線上の角の和を使い、対頂角が等しい理由を説明する"
+          ],
+          "outOfScope": [
+            "次の中心技能「angle.vertical.identify」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "対頂角が等しいことを図の見た目だけで覚える"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-02-02-direct",
+              "type": "direct",
+              "skillId": "angle.vertical.explain"
+            },
+            {
+              "questionId": "pc-02-02-misconception",
+              "type": "misconception",
+              "skillId": "angle.vertical.explain"
+            }
+          ]
+        },
+        {
+          "title": "交差する直線から対頂角を見つけよう",
+          "role": "basic",
+          "primarySkillId": "angle.vertical.identify",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle.vertical.explain",
+            "angle.vertical.identify"
+          ],
+          "handsOffSkillIds": [
+            "angle.vertical.equation"
+          ],
+          "inScope": [
+            "共通の頂点をもち向かい合う二角を対頂角として選ぶ"
+          ],
+          "outOfScope": [
+            "次の中心技能「angle.vertical.equation」の詳しい学習"
+          ],
+          "estimatedMinutes": 6,
+          "misconceptionIds": [
+            "隣り合う角を対頂角と取り違える"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-02-03-direct",
+              "type": "direct",
+              "skillId": "angle.vertical.identify"
+            },
+            {
+              "questionId": "pc-02-03-misconception",
+              "type": "misconception",
+              "skillId": "angle.vertical.identify"
+            }
+          ]
+        },
+        {
+          "title": "方程式で交差点の角を求めよう",
+          "role": "procedure",
+          "primarySkillId": "angle.vertical.equation",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle.vertical.identify",
+            "angle.vertical.equation"
+          ],
+          "handsOffSkillIds": [
+            "angle.vertical.diagnose"
+          ],
+          "inScope": [
+            "対頂角または一直線上の角を式にして未知の角を求める"
+          ],
+          "outOfScope": [
+            "次の中心技能「angle.vertical.diagnose」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "等しい関係と180°の関係を同じ式にする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-02-04-direct",
+              "type": "direct",
+              "skillId": "angle.vertical.equation"
+            },
+            {
+              "questionId": "pc-02-04-misconception",
+              "type": "misconception",
+              "skillId": "angle.vertical.equation"
+            }
+          ]
+        },
+        {
+          "title": "対頂角と一直線上の角を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "angle.vertical.diagnose",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle.vertical.equation",
+            "angle.vertical.diagnose"
+          ],
+          "handsOffSkillIds": [
+            "transversal.angle.map"
+          ],
+          "inScope": [
+            "角の位置から使う関係を選び、誤った式を修正する"
+          ],
+          "outOfScope": [
+            "次の中心技能「transversal.angle.map」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "角度の数値だけを見て関係を後付けする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-02-05-direct",
+              "type": "direct",
+              "skillId": "angle.vertical.diagnose"
+            },
+            {
+              "questionId": "pc-02-05-misconception",
+              "type": "misconception",
+              "skillId": "angle.vertical.diagnose"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "同位角と錯角",
+      "sectionId": "ddb674f0052842b5af9fea3ad6d42b28",
+      "existingOverviewId": "bfca1071e0b3470c86dceec4fa0e5bad",
+      "lessons": [
+        {
+          "title": "横切る直線と8つの角を整理しよう",
+          "role": "overview",
+          "primarySkillId": "transversal.angle.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle.vertical.diagnose",
+            "transversal.angle.map"
+          ],
+          "handsOffSkillIds": [
+            "angle.corresponding.identify"
+          ],
+          "inScope": [
+            "二直線を横切る直線が作る8つの角を、二つの交点ごとに整理する"
+          ],
+          "outOfScope": [
+            "次の中心技能「angle.corresponding.identify」の詳しい学習"
+          ],
+          "estimatedMinutes": 6,
+          "misconceptionIds": [
+            "一つの交点の対頂角と二交点の角の組を混同する"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-03-01-direct",
+              "type": "direct",
+              "skillId": "transversal.angle.map"
+            },
+            {
+              "questionId": "pc-03-01-misconception",
+              "type": "misconception",
+              "skillId": "transversal.angle.map"
+            }
+          ]
+        },
+        {
+          "title": "同じ位置にある同位角を見つけよう",
+          "role": "basic",
+          "primarySkillId": "angle.corresponding.identify",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "transversal.angle.map",
+            "angle.corresponding.identify"
+          ],
+          "handsOffSkillIds": [
+            "angle.alternate.identify"
+          ],
+          "inScope": [
+            "二つの交点で同じ位置にある角を同位角として選ぶ"
+          ],
+          "outOfScope": [
+            "次の中心技能「angle.alternate.identify」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "同じ向きに開いているだけで同位角とする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-03-02-direct",
+              "type": "direct",
+              "skillId": "angle.corresponding.identify"
+            },
+            {
+              "questionId": "pc-03-02-misconception",
+              "type": "misconception",
+              "skillId": "angle.corresponding.identify"
+            }
+          ]
+        },
+        {
+          "title": "内側で交互にある錯角を見つけよう",
+          "role": "basic",
+          "primarySkillId": "angle.alternate.identify",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle.corresponding.identify",
+            "angle.alternate.identify"
+          ],
+          "handsOffSkillIds": [
+            "angle.transversal.select"
+          ],
+          "inScope": [
+            "二直線の内側で横切る直線の反対側にある角を錯角として選ぶ"
+          ],
+          "outOfScope": [
+            "次の中心技能「angle.transversal.select」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "同じ側の内角を錯角とする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-03-03-direct",
+              "type": "direct",
+              "skillId": "angle.alternate.identify"
+            },
+            {
+              "questionId": "pc-03-03-misconception",
+              "type": "misconception",
+              "skillId": "angle.alternate.identify"
+            }
+          ]
+        },
+        {
+          "title": "同位角と錯角を選び分けよう",
+          "role": "application",
+          "primarySkillId": "angle.transversal.select",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle.alternate.identify",
+            "angle.transversal.select"
+          ],
+          "handsOffSkillIds": [
+            "angle.transversal.diagnose"
+          ],
+          "inScope": [
+            "角の位置を二つの判断軸で調べ、同位角か錯角かを選ぶ"
+          ],
+          "outOfScope": [
+            "次の中心技能「angle.transversal.diagnose」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "角の大きさが同じなら名称も同じと考える"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-03-04-direct",
+              "type": "direct",
+              "skillId": "angle.transversal.select"
+            },
+            {
+              "questionId": "pc-03-04-misconception",
+              "type": "misconception",
+              "skillId": "angle.transversal.select"
+            }
+          ]
+        },
+        {
+          "title": "同位角と錯角の読み取りを診断しよう",
+          "role": "mastery",
+          "primarySkillId": "angle.transversal.diagnose",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle.transversal.select",
+            "angle.transversal.diagnose"
+          ],
+          "handsOffSkillIds": [
+            "parallel.angle.map"
+          ],
+          "inScope": [
+            "対頂角・同位角・錯角の誤分類を交点数と位置から直す"
+          ],
+          "outOfScope": [
+            "次の中心技能「parallel.angle.map」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "平行線でない図では同位角や錯角が存在しないと考える"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-03-05-direct",
+              "type": "direct",
+              "skillId": "angle.transversal.diagnose"
+            },
+            {
+              "questionId": "pc-03-05-misconception",
+              "type": "misconception",
+              "skillId": "angle.transversal.diagnose"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "平行線と角の関係",
+      "sectionId": "58bbfd3835954602bda8dde7573ca50a",
+      "existingOverviewId": "ae5a2e60bffa453e82e95e8639c556bf",
+      "lessons": [
+        {
+          "title": "平行線が作る角の全体像をつかもう",
+          "role": "overview",
+          "primarySkillId": "parallel.angle.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle.transversal.diagnose",
+            "parallel.angle.map"
+          ],
+          "handsOffSkillIds": [
+            "parallel.corresponding.use"
+          ],
+          "inScope": [
+            "平行線を横切るときの等しい角と和が180°の角を一枚の図で整理する"
+          ],
+          "outOfScope": [
+            "次の中心技能「parallel.corresponding.use」の詳しい学習"
+          ],
+          "estimatedMinutes": 6,
+          "misconceptionIds": [
+            "すべての角が等しいと考える"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-04-01-direct",
+              "type": "direct",
+              "skillId": "parallel.angle.map"
+            },
+            {
+              "questionId": "pc-04-01-misconception",
+              "type": "misconception",
+              "skillId": "parallel.angle.map"
+            }
+          ]
+        },
+        {
+          "title": "平行線の同位角が等しいことを使おう",
+          "role": "basic",
+          "primarySkillId": "parallel.corresponding.use",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "parallel.angle.map",
+            "parallel.corresponding.use"
+          ],
+          "handsOffSkillIds": [
+            "parallel.alternate.use"
+          ],
+          "inScope": [
+            "平行線の同位角が等しい性質で未知の角を求める"
+          ],
+          "outOfScope": [
+            "次の中心技能「parallel.alternate.use」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "平行の印を確認せず同位角を等しいとする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-04-02-direct",
+              "type": "direct",
+              "skillId": "parallel.corresponding.use"
+            },
+            {
+              "questionId": "pc-04-02-misconception",
+              "type": "misconception",
+              "skillId": "parallel.corresponding.use"
+            }
+          ]
+        },
+        {
+          "title": "平行線の錯角が等しいことを使おう",
+          "role": "basic",
+          "primarySkillId": "parallel.alternate.use",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "parallel.corresponding.use",
+            "parallel.alternate.use"
+          ],
+          "handsOffSkillIds": [
+            "parallel.co-interior.use"
+          ],
+          "inScope": [
+            "平行線の錯角が等しい性質で未知の角を求める"
+          ],
+          "outOfScope": [
+            "次の中心技能「parallel.co-interior.use」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "錯角の位置を確認せず離れた角を結ぶ"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-04-03-direct",
+              "type": "direct",
+              "skillId": "parallel.alternate.use"
+            },
+            {
+              "questionId": "pc-04-03-misconception",
+              "type": "misconception",
+              "skillId": "parallel.alternate.use"
+            }
+          ]
+        },
+        {
+          "title": "同じ側の内角の和180°を使おう",
+          "role": "concept",
+          "primarySkillId": "parallel.co-interior.use",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "parallel.alternate.use",
+            "parallel.co-interior.use"
+          ],
+          "handsOffSkillIds": [
+            "parallel.angle.chase"
+          ],
+          "inScope": [
+            "平行線の同じ側の内角が補角になることを使う"
+          ],
+          "outOfScope": [
+            "次の中心技能「parallel.angle.chase」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "同じ側の内角も等しいとする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-04-04-direct",
+              "type": "direct",
+              "skillId": "parallel.co-interior.use"
+            },
+            {
+              "questionId": "pc-04-04-misconception",
+              "type": "misconception",
+              "skillId": "parallel.co-interior.use"
+            }
+          ]
+        },
+        {
+          "title": "折れ線を含む角を平行線で求めよう",
+          "role": "application",
+          "primarySkillId": "parallel.angle.chase",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "parallel.co-interior.use",
+            "parallel.angle.chase"
+          ],
+          "handsOffSkillIds": [
+            "parallel.converse.explain"
+          ],
+          "inScope": [
+            "補助の平行線を引き、同位角・錯角・一直線上の角をつないで求める"
+          ],
+          "outOfScope": [
+            "次の中心技能「parallel.converse.explain」の詳しい学習"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "一度に複数の角を飛ばして等しいとする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-04-05-direct",
+              "type": "direct",
+              "skillId": "parallel.angle.chase"
+            },
+            {
+              "questionId": "pc-04-05-misconception",
+              "type": "misconception",
+              "skillId": "parallel.angle.chase"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "平行線であることを確かめよう",
+      "sectionId": "07b1429aa24d4cc7b5d86f5ee7b2a7d6",
+      "existingOverviewId": "eac455c1d277457fab4a16beac6ec203",
+      "lessons": [
+        {
+          "title": "平行線の性質の逆を理解しよう",
+          "role": "concept",
+          "primarySkillId": "parallel.converse.explain",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "parallel.angle.chase",
+            "parallel.converse.explain"
+          ],
+          "handsOffSkillIds": [
+            "parallel.converse.corresponding"
+          ],
+          "inScope": [
+            "平行なら角が等しい性質と、角が等しければ平行という逆を区別する"
+          ],
+          "outOfScope": [
+            "次の中心技能「parallel.converse.corresponding」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "命題とその逆がいつも両方正しいと考える"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-05-01-direct",
+              "type": "direct",
+              "skillId": "parallel.converse.explain"
+            },
+            {
+              "questionId": "pc-05-01-misconception",
+              "type": "misconception",
+              "skillId": "parallel.converse.explain"
+            }
+          ]
+        },
+        {
+          "title": "同位角が等しいことから平行を示そう",
+          "role": "basic",
+          "primarySkillId": "parallel.converse.corresponding",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "parallel.converse.explain",
+            "parallel.converse.corresponding"
+          ],
+          "handsOffSkillIds": [
+            "parallel.converse.alternate"
+          ],
+          "inScope": [
+            "一組の同位角が等しいことを根拠に二直線の平行を示す"
+          ],
+          "outOfScope": [
+            "次の中心技能「parallel.converse.alternate」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "同位角でない二角の等しさを使う"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-05-02-direct",
+              "type": "direct",
+              "skillId": "parallel.converse.corresponding"
+            },
+            {
+              "questionId": "pc-05-02-misconception",
+              "type": "misconception",
+              "skillId": "parallel.converse.corresponding"
+            }
+          ]
+        },
+        {
+          "title": "錯角が等しいことから平行を示そう",
+          "role": "basic",
+          "primarySkillId": "parallel.converse.alternate",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "parallel.converse.corresponding",
+            "parallel.converse.alternate"
+          ],
+          "handsOffSkillIds": [
+            "parallel.converse.cointerior"
+          ],
+          "inScope": [
+            "一組の錯角が等しいことを根拠に二直線の平行を示す"
+          ],
+          "outOfScope": [
+            "次の中心技能「parallel.converse.cointerior」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "角の位置を示さず数値だけで平行とする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-05-03-direct",
+              "type": "direct",
+              "skillId": "parallel.converse.alternate"
+            },
+            {
+              "questionId": "pc-05-03-misconception",
+              "type": "misconception",
+              "skillId": "parallel.converse.alternate"
+            }
+          ]
+        },
+        {
+          "title": "同じ側の内角の和から平行を示そう",
+          "role": "basic",
+          "primarySkillId": "parallel.converse.cointerior",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "parallel.converse.alternate",
+            "parallel.converse.cointerior"
+          ],
+          "handsOffSkillIds": [
+            "parallel.converse.select"
+          ],
+          "inScope": [
+            "同じ側の内角の和が180°であることから平行を示す"
+          ],
+          "outOfScope": [
+            "次の中心技能「parallel.converse.select」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "和が180°になる任意の二角を使う"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-05-04-direct",
+              "type": "direct",
+              "skillId": "parallel.converse.cointerior"
+            },
+            {
+              "questionId": "pc-05-04-misconception",
+              "type": "misconception",
+              "skillId": "parallel.converse.cointerior"
+            }
+          ]
+        },
+        {
+          "title": "平行を示す条件を選び分けよう",
+          "role": "mastery",
+          "primarySkillId": "parallel.converse.select",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "parallel.converse.cointerior",
+            "parallel.converse.select"
+          ],
+          "handsOffSkillIds": [
+            "triangle.angle-sum.explain"
+          ],
+          "inScope": [
+            "図の与条件から三つの平行判定のうち使えるものを選ぶ"
+          ],
+          "outOfScope": [
+            "次の中心技能「triangle.angle-sum.explain」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "結論の平行を前提として角の性質を使う"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-05-05-direct",
+              "type": "direct",
+              "skillId": "parallel.converse.select"
+            },
+            {
+              "questionId": "pc-05-05-misconception",
+              "type": "misconception",
+              "skillId": "parallel.converse.select"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "三角形の内角と外角",
+      "sectionId": "6edb1845fa174727b84c6fcd20f517ba",
+      "existingOverviewId": "06ccc91d7e76493fbd2f53edc3e6ab4f",
+      "lessons": [
+        {
+          "title": "三角形の内角の和180°を平行線で説明しよう",
+          "role": "concept",
+          "primarySkillId": "triangle.angle-sum.explain",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "parallel.converse.select",
+            "triangle.angle-sum.explain"
+          ],
+          "handsOffSkillIds": [
+            "triangle.interior.solve"
+          ],
+          "inScope": [
+            "頂点を通る平行線を使い、三角形の内角の和が180°になる理由を説明する"
+          ],
+          "outOfScope": [
+            "次の中心技能「triangle.interior.solve」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "公式だけを覚え、平行線との接続を失う"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-06-01-direct",
+              "type": "direct",
+              "skillId": "triangle.angle-sum.explain"
+            },
+            {
+              "questionId": "pc-06-01-misconception",
+              "type": "misconception",
+              "skillId": "triangle.angle-sum.explain"
+            }
+          ]
+        },
+        {
+          "title": "三角形の残りの内角を求めよう",
+          "role": "procedure",
+          "primarySkillId": "triangle.interior.solve",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "triangle.angle-sum.explain",
+            "triangle.interior.solve"
+          ],
+          "handsOffSkillIds": [
+            "triangle.exterior.theorem"
+          ],
+          "inScope": [
+            "二つの内角から残りの一角を求め、和で検算する"
+          ],
+          "outOfScope": [
+            "次の中心技能「triangle.exterior.theorem」の詳しい学習"
+          ],
+          "estimatedMinutes": 6,
+          "misconceptionIds": [
+            "180°から一角だけを引いて終える"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-06-02-direct",
+              "type": "direct",
+              "skillId": "triangle.interior.solve"
+            },
+            {
+              "questionId": "pc-06-02-misconception",
+              "type": "misconception",
+              "skillId": "triangle.interior.solve"
+            }
+          ]
+        },
+        {
+          "title": "外角は離れた二内角の和と説明しよう",
+          "role": "concept",
+          "primarySkillId": "triangle.exterior.theorem",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "triangle.interior.solve",
+            "triangle.exterior.theorem"
+          ],
+          "handsOffSkillIds": [
+            "triangle.exterior.solve"
+          ],
+          "inScope": [
+            "外角が隣り合わない二内角の和になる理由を示す"
+          ],
+          "outOfScope": [
+            "次の中心技能「triangle.exterior.solve」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "隣の内角を二内角の一つに含める"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-06-03-direct",
+              "type": "direct",
+              "skillId": "triangle.exterior.theorem"
+            },
+            {
+              "questionId": "pc-06-03-misconception",
+              "type": "misconception",
+              "skillId": "triangle.exterior.theorem"
+            }
+          ]
+        },
+        {
+          "title": "三角形の外角を使って角を求めよう",
+          "role": "application",
+          "primarySkillId": "triangle.exterior.solve",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "triangle.exterior.theorem",
+            "triangle.exterior.solve"
+          ],
+          "handsOffSkillIds": [
+            "triangle.angle.diagnose"
+          ],
+          "inScope": [
+            "外角の性質と一直線上の角を選び分けて未知角を求める"
+          ],
+          "outOfScope": [
+            "次の中心技能「triangle.angle.diagnose」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "外角の式と内角和の式を混ぜる"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-06-04-direct",
+              "type": "direct",
+              "skillId": "triangle.exterior.solve"
+            },
+            {
+              "questionId": "pc-06-04-misconception",
+              "type": "misconception",
+              "skillId": "triangle.exterior.solve"
+            }
+          ]
+        },
+        {
+          "title": "三角形の内角・外角を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "triangle.angle.diagnose",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "triangle.exterior.solve",
+            "triangle.angle.diagnose"
+          ],
+          "handsOffSkillIds": [
+            "polygon.triangulate"
+          ],
+          "inScope": [
+            "内角和・外角・一直線のどの関係を使うか選び、誤式を直す"
+          ],
+          "outOfScope": [
+            "次の中心技能「polygon.triangulate」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "図の形が違うと180°の性質が変わると考える"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-06-05-direct",
+              "type": "direct",
+              "skillId": "triangle.angle.diagnose"
+            },
+            {
+              "questionId": "pc-06-05-misconception",
+              "type": "misconception",
+              "skillId": "triangle.angle.diagnose"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "多角形の内角・外角",
+      "sectionId": "b3d6bcf8de92453ab8b1d2d7357e1073",
+      "existingOverviewId": "a4e4749003394ee1a09d0e77c1b08276",
+      "lessons": [
+        {
+          "title": "多角形を三角形に分けよう",
+          "role": "concept",
+          "primarySkillId": "polygon.triangulate",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "triangle.angle.diagnose",
+            "polygon.triangulate"
+          ],
+          "handsOffSkillIds": [
+            "polygon.interior.sum"
+          ],
+          "inScope": [
+            "一つの頂点から対角線を引き、n角形をn-2個の三角形に分ける"
+          ],
+          "outOfScope": [
+            "次の中心技能「polygon.interior.sum」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "対角線の本数と三角形の個数を混同する"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-07-01-direct",
+              "type": "direct",
+              "skillId": "polygon.triangulate"
+            },
+            {
+              "questionId": "pc-07-01-misconception",
+              "type": "misconception",
+              "skillId": "polygon.triangulate"
+            }
+          ]
+        },
+        {
+          "title": "多角形の内角の和を式で求めよう",
+          "role": "procedure",
+          "primarySkillId": "polygon.interior.sum",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polygon.triangulate",
+            "polygon.interior.sum"
+          ],
+          "handsOffSkillIds": [
+            "polygon.exterior.sum"
+          ],
+          "inScope": [
+            "n角形の内角の和を180°×(n-2)で求める"
+          ],
+          "outOfScope": [
+            "次の中心技能「polygon.exterior.sum」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "nをそのまま180°に掛ける"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-07-02-direct",
+              "type": "direct",
+              "skillId": "polygon.interior.sum"
+            },
+            {
+              "questionId": "pc-07-02-misconception",
+              "type": "misconception",
+              "skillId": "polygon.interior.sum"
+            }
+          ]
+        },
+        {
+          "title": "多角形の外角の和360°を説明しよう",
+          "role": "concept",
+          "primarySkillId": "polygon.exterior.sum",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polygon.interior.sum",
+            "polygon.exterior.sum"
+          ],
+          "handsOffSkillIds": [
+            "polygon.regular.angle"
+          ],
+          "inScope": [
+            "一周の回転として、一つずつ取った外角の和が360°になることを説明する"
+          ],
+          "outOfScope": [
+            "次の中心技能「polygon.regular.angle」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "一つの頂点で複数の外角を数える"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-07-03-direct",
+              "type": "direct",
+              "skillId": "polygon.exterior.sum"
+            },
+            {
+              "questionId": "pc-07-03-misconception",
+              "type": "misconception",
+              "skillId": "polygon.exterior.sum"
+            }
+          ]
+        },
+        {
+          "title": "正多角形の一つの角を求めよう",
+          "role": "application",
+          "primarySkillId": "polygon.regular.angle",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polygon.exterior.sum",
+            "polygon.regular.angle"
+          ],
+          "handsOffSkillIds": [
+            "polygon.angle.diagnose"
+          ],
+          "inScope": [
+            "内角和または外角和を辺の数で割り、正多角形の一角を求める"
+          ],
+          "outOfScope": [
+            "次の中心技能「polygon.angle.diagnose」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "正多角形でない図でも等分する"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-07-04-direct",
+              "type": "direct",
+              "skillId": "polygon.regular.angle"
+            },
+            {
+              "questionId": "pc-07-04-misconception",
+              "type": "misconception",
+              "skillId": "polygon.regular.angle"
+            }
+          ]
+        },
+        {
+          "title": "多角形の角を総合診断しよう",
+          "role": "mastery",
+          "primarySkillId": "polygon.angle.diagnose",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polygon.regular.angle",
+            "polygon.angle.diagnose"
+          ],
+          "handsOffSkillIds": [
+            "congruence.meaning"
+          ],
+          "inScope": [
+            "内角和・外角和・正多角形の条件を選び分けて未知量を求める"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.meaning」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "内角と外角のどちらを求めたか確認しない"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-07-05-direct",
+              "type": "direct",
+              "skillId": "polygon.angle.diagnose"
+            },
+            {
+              "questionId": "pc-07-05-misconception",
+              "type": "misconception",
+              "skillId": "polygon.angle.diagnose"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "合同な図形とは",
+      "sectionId": "8263f5ad4813497dbe3ae451931052ee",
+      "existingOverviewId": "8bb86688b4ae46aa9f0aeb683beb7eb4",
+      "lessons": [
+        {
+          "title": "ぴったり重なる合同の意味をつかもう",
+          "role": "concept",
+          "primarySkillId": "congruence.meaning",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polygon.angle.diagnose",
+            "congruence.meaning"
+          ],
+          "handsOffSkillIds": [
+            "congruence.correspondence"
+          ],
+          "inScope": [
+            "移動・回転・裏返しでぴったり重なる図形を合同と判断する"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.correspondence」の詳しい学習"
+          ],
+          "estimatedMinutes": 6,
+          "misconceptionIds": [
+            "向きが同じでなければ合同でないと考える"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-08-01-direct",
+              "type": "direct",
+              "skillId": "congruence.meaning"
+            },
+            {
+              "questionId": "pc-08-01-misconception",
+              "type": "misconception",
+              "skillId": "congruence.meaning"
+            }
+          ]
+        },
+        {
+          "title": "対応する頂点・辺・角を見つけよう",
+          "role": "basic",
+          "primarySkillId": "congruence.correspondence",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.meaning",
+            "congruence.correspondence"
+          ],
+          "handsOffSkillIds": [
+            "congruence.notation"
+          ],
+          "inScope": [
+            "形の並びをたどり、二図形の対応する要素を正しく組にする"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.notation」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "近くに描かれた頂点どうしを対応させる"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-08-02-direct",
+              "type": "direct",
+              "skillId": "congruence.correspondence"
+            },
+            {
+              "questionId": "pc-08-02-misconception",
+              "type": "misconception",
+              "skillId": "congruence.correspondence"
+            }
+          ]
+        },
+        {
+          "title": "合同を記号で正しい順序に書こう",
+          "role": "procedure",
+          "primarySkillId": "congruence.notation",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.correspondence",
+            "congruence.notation"
+          ],
+          "handsOffSkillIds": [
+            "congruence.properties"
+          ],
+          "inScope": [
+            "対応順をそろえて三角形の合同を記号で表す"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.properties」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "対応しない頂点順で合同記号を書く"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-08-03-direct",
+              "type": "direct",
+              "skillId": "congruence.notation"
+            },
+            {
+              "questionId": "pc-08-03-misconception",
+              "type": "misconception",
+              "skillId": "congruence.notation"
+            }
+          ]
+        },
+        {
+          "title": "合同から等しい辺と角を読み取ろう",
+          "role": "application",
+          "primarySkillId": "congruence.properties",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.notation",
+            "congruence.properties"
+          ],
+          "handsOffSkillIds": [
+            "congruence.diagnose"
+          ],
+          "inScope": [
+            "合同な図形の対応する辺と角がそれぞれ等しいことを使う"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.diagnose」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "合同条件と合同後に分かる性質を混同する"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-08-04-direct",
+              "type": "direct",
+              "skillId": "congruence.properties"
+            },
+            {
+              "questionId": "pc-08-04-misconception",
+              "type": "misconception",
+              "skillId": "congruence.properties"
+            }
+          ]
+        },
+        {
+          "title": "合同と対応関係を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "congruence.diagnose",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.properties",
+            "congruence.diagnose"
+          ],
+          "handsOffSkillIds": [
+            "congruence.sss.meaning"
+          ],
+          "inScope": [
+            "合同の意味・対応順・等しい要素の誤りを分類して直す"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.sss.meaning」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "面積が等しいだけで合同とする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-08-05-direct",
+              "type": "direct",
+              "skillId": "congruence.diagnose"
+            },
+            {
+              "questionId": "pc-08-05-misconception",
+              "type": "misconception",
+              "skillId": "congruence.diagnose"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "三辺がそれぞれ等しい合同条件",
+      "sectionId": "a75300e49184430eadbe7dd98718642b",
+      "existingOverviewId": "2869e32d03f2465e881ef8096069d188",
+      "lessons": [
+        {
+          "title": "三辺が等しいと三角形が決まることを確かめよう",
+          "role": "concept",
+          "primarySkillId": "congruence.sss.meaning",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.diagnose",
+            "congruence.sss.meaning"
+          ],
+          "handsOffSkillIds": [
+            "congruence.sss.construct"
+          ],
+          "inScope": [
+            "三辺の長さが決まると三角形の形と大きさが一つに決まることを説明する"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.sss.construct」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "三辺の合計が同じなら合同とする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-09-01-direct",
+              "type": "direct",
+              "skillId": "congruence.sss.meaning"
+            },
+            {
+              "questionId": "pc-09-01-misconception",
+              "type": "misconception",
+              "skillId": "congruence.sss.meaning"
+            }
+          ]
+        },
+        {
+          "title": "コンパスの円からSSSをイメージしよう",
+          "role": "concept",
+          "primarySkillId": "congruence.sss.construct",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.sss.meaning",
+            "congruence.sss.construct"
+          ],
+          "handsOffSkillIds": [
+            "congruence.sss.identify"
+          ],
+          "inScope": [
+            "二つの円の交点で第三頂点が決まる構成からSSSを理解する"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.sss.identify」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "辺の長さが三角形を作れる条件を無視する"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-09-02-direct",
+              "type": "direct",
+              "skillId": "congruence.sss.construct"
+            },
+            {
+              "questionId": "pc-09-02-misconception",
+              "type": "misconception",
+              "skillId": "congruence.sss.construct"
+            }
+          ]
+        },
+        {
+          "title": "図から等しい三辺の組をそろえよう",
+          "role": "basic",
+          "primarySkillId": "congruence.sss.identify",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.sss.construct",
+            "congruence.sss.identify"
+          ],
+          "handsOffSkillIds": [
+            "congruence.sss.proof"
+          ],
+          "inScope": [
+            "対応を守りながら三組の等しい辺を抽出する"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.sss.proof」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "同じ三辺を重複して数える"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-09-03-direct",
+              "type": "direct",
+              "skillId": "congruence.sss.identify"
+            },
+            {
+              "questionId": "pc-09-03-misconception",
+              "type": "misconception",
+              "skillId": "congruence.sss.identify"
+            }
+          ]
+        },
+        {
+          "title": "SSSで合同を示す短い証明を書こう",
+          "role": "procedure",
+          "primarySkillId": "congruence.sss.proof",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.sss.identify",
+            "congruence.sss.proof"
+          ],
+          "handsOffSkillIds": [
+            "congruence.sss.diagnose"
+          ],
+          "inScope": [
+            "仮定から三組の辺の等しさを並べ、SSSで合同と結論する"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.sss.diagnose」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "合同を先に結論し、辺の等しさを後から書く"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-09-04-direct",
+              "type": "direct",
+              "skillId": "congruence.sss.proof"
+            },
+            {
+              "questionId": "pc-09-04-misconception",
+              "type": "misconception",
+              "skillId": "congruence.sss.proof"
+            }
+          ]
+        },
+        {
+          "title": "SSSを使える図か診断しよう",
+          "role": "mastery",
+          "primarySkillId": "congruence.sss.diagnose",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.sss.proof",
+            "congruence.sss.diagnose"
+          ],
+          "handsOffSkillIds": [
+            "congruence.sas.meaning"
+          ],
+          "inScope": [
+            "三組そろっているかを確認し、不足条件を特定する"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.sas.meaning」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "二組の辺だけでSSSを使う"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-09-05-direct",
+              "type": "direct",
+              "skillId": "congruence.sss.diagnose"
+            },
+            {
+              "questionId": "pc-09-05-misconception",
+              "type": "misconception",
+              "skillId": "congruence.sss.diagnose"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "二辺とその間の角が等しい合同条件",
+      "sectionId": "73be54b4fcf8437091ec2cb2f7e6ced9",
+      "existingOverviewId": "77cd2ee31f114cb9892867c6f15006e9",
+      "lessons": [
+        {
+          "title": "二辺とその間の角で三角形が決まる理由をつかもう",
+          "role": "concept",
+          "primarySkillId": "congruence.sas.meaning",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.sss.diagnose",
+            "congruence.sas.meaning"
+          ],
+          "handsOffSkillIds": [
+            "congruence.sas.included-angle"
+          ],
+          "inScope": [
+            "二辺とその間の角が決まると三角形が一つに決まることを説明する"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.sas.included-angle」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "二辺と任意の一角で合同とする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-10-01-direct",
+              "type": "direct",
+              "skillId": "congruence.sas.meaning"
+            },
+            {
+              "questionId": "pc-10-01-misconception",
+              "type": "misconception",
+              "skillId": "congruence.sas.meaning"
+            }
+          ]
+        },
+        {
+          "title": "二辺の間にある角を見つけよう",
+          "role": "basic",
+          "primarySkillId": "congruence.sas.included-angle",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.sas.meaning",
+            "congruence.sas.included-angle"
+          ],
+          "handsOffSkillIds": [
+            "congruence.sas.identify"
+          ],
+          "inScope": [
+            "指定された二辺が共有する頂点の角を、その間の角として選ぶ"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.sas.identify」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "二辺のどちらかに接する角ならよいと考える"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-10-02-direct",
+              "type": "direct",
+              "skillId": "congruence.sas.included-angle"
+            },
+            {
+              "questionId": "pc-10-02-misconception",
+              "type": "misconception",
+              "skillId": "congruence.sas.included-angle"
+            }
+          ]
+        },
+        {
+          "title": "図からSASの三条件をそろえよう",
+          "role": "basic",
+          "primarySkillId": "congruence.sas.identify",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.sas.included-angle",
+            "congruence.sas.identify"
+          ],
+          "handsOffSkillIds": [
+            "congruence.sas.proof"
+          ],
+          "inScope": [
+            "二辺・その間の角の順に対応する三条件を抽出する"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.sas.proof」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "角を先に選び、その両側の辺を確認しない"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-10-03-direct",
+              "type": "direct",
+              "skillId": "congruence.sas.identify"
+            },
+            {
+              "questionId": "pc-10-03-misconception",
+              "type": "misconception",
+              "skillId": "congruence.sas.identify"
+            }
+          ]
+        },
+        {
+          "title": "SASで合同を示す証明を書こう",
+          "role": "procedure",
+          "primarySkillId": "congruence.sas.proof",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.sas.identify",
+            "congruence.sas.proof"
+          ],
+          "handsOffSkillIds": [
+            "congruence.sas.reject-ssa"
+          ],
+          "inScope": [
+            "仮定と共通辺などからSASの条件をそろえ、対応順で合同を書く"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.sas.reject-ssa」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "その間の角である理由を省略する"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-10-04-direct",
+              "type": "direct",
+              "skillId": "congruence.sas.proof"
+            },
+            {
+              "questionId": "pc-10-04-misconception",
+              "type": "misconception",
+              "skillId": "congruence.sas.proof"
+            }
+          ]
+        },
+        {
+          "title": "SSAが合同条件でないことを見抜こう",
+          "role": "misconception",
+          "primarySkillId": "congruence.sas.reject-ssa",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.sas.proof",
+            "congruence.sas.reject-ssa"
+          ],
+          "handsOffSkillIds": [
+            "congruence.asa.meaning"
+          ],
+          "inScope": [
+            "二辺とその間でない角では複数の三角形ができる場合を説明する"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.asa.meaning」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "SASとSSAを同じ条件として扱う"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-10-05-direct",
+              "type": "direct",
+              "skillId": "congruence.sas.reject-ssa"
+            },
+            {
+              "questionId": "pc-10-05-misconception",
+              "type": "misconception",
+              "skillId": "congruence.sas.reject-ssa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "一辺とその両端の角が等しい合同条件",
+      "sectionId": "7d29011ad3514e24b905c19c30aed63b",
+      "existingOverviewId": "dc6ba22e1e6f4546aefdb13a8d0d9016",
+      "lessons": [
+        {
+          "title": "一辺とその両端の角で三角形が決まる理由をつかもう",
+          "role": "concept",
+          "primarySkillId": "congruence.asa.meaning",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.sas.reject-ssa",
+            "congruence.asa.meaning"
+          ],
+          "handsOffSkillIds": [
+            "congruence.asa.endpoint-angles"
+          ],
+          "inScope": [
+            "一辺とその両端の角が決まると残る頂点が一つに決まることを説明する"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.asa.endpoint-angles」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "一辺と任意の二角で無条件に合同とする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-11-01-direct",
+              "type": "direct",
+              "skillId": "congruence.asa.meaning"
+            },
+            {
+              "questionId": "pc-11-01-misconception",
+              "type": "misconception",
+              "skillId": "congruence.asa.meaning"
+            }
+          ]
+        },
+        {
+          "title": "一辺の両端にある角を見つけよう",
+          "role": "basic",
+          "primarySkillId": "congruence.asa.endpoint-angles",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.asa.meaning",
+            "congruence.asa.endpoint-angles"
+          ],
+          "handsOffSkillIds": [
+            "congruence.asa.identify"
+          ],
+          "inScope": [
+            "指定された辺の二つの端点にある角を選ぶ"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.asa.identify」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "辺から離れた角を条件に含める"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-11-02-direct",
+              "type": "direct",
+              "skillId": "congruence.asa.endpoint-angles"
+            },
+            {
+              "questionId": "pc-11-02-misconception",
+              "type": "misconception",
+              "skillId": "congruence.asa.endpoint-angles"
+            }
+          ]
+        },
+        {
+          "title": "図からASAの三条件をそろえよう",
+          "role": "basic",
+          "primarySkillId": "congruence.asa.identify",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.asa.endpoint-angles",
+            "congruence.asa.identify"
+          ],
+          "handsOffSkillIds": [
+            "congruence.asa.proof"
+          ],
+          "inScope": [
+            "一辺とその両端の角を対応順に抽出する"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.asa.proof」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "等しい二角に挟まれていない辺をそのまま使う"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-11-03-direct",
+              "type": "direct",
+              "skillId": "congruence.asa.identify"
+            },
+            {
+              "questionId": "pc-11-03-misconception",
+              "type": "misconception",
+              "skillId": "congruence.asa.identify"
+            }
+          ]
+        },
+        {
+          "title": "ASAで合同を示す証明を書こう",
+          "role": "procedure",
+          "primarySkillId": "congruence.asa.proof",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.asa.identify",
+            "congruence.asa.proof"
+          ],
+          "handsOffSkillIds": [
+            "congruence.conditions.compare"
+          ],
+          "inScope": [
+            "平行線の角や共通辺を根拠にASAの条件をそろえて合同を示す"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.conditions.compare」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "同位角・錯角の位置を確認せず等しいとする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-11-04-direct",
+              "type": "direct",
+              "skillId": "congruence.asa.proof"
+            },
+            {
+              "questionId": "pc-11-04-misconception",
+              "type": "misconception",
+              "skillId": "congruence.asa.proof"
+            }
+          ]
+        },
+        {
+          "title": "三つの合同条件を比較しよう",
+          "role": "mastery",
+          "primarySkillId": "congruence.conditions.compare",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.asa.proof",
+            "congruence.conditions.compare"
+          ],
+          "handsOffSkillIds": [
+            "congruence.given.extract"
+          ],
+          "inScope": [
+            "SSS・SAS・ASAを、必要な辺と角の位置で区別する"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.given.extract」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "数が三つそろえばどの組合せでも合同とする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-11-05-direct",
+              "type": "direct",
+              "skillId": "congruence.conditions.compare"
+            },
+            {
+              "questionId": "pc-11-05-misconception",
+              "type": "misconception",
+              "skillId": "congruence.conditions.compare"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "合同条件を選び、合同な三角形を見つけよう",
+      "sectionId": "b1c897ea9d31443c8119b05983b77fa8",
+      "existingOverviewId": "dcce738c4d8647f3babdbce9d685bb74",
+      "lessons": [
+        {
+          "title": "仮定と図の印から与条件を抜き出そう",
+          "role": "prerequisite",
+          "primarySkillId": "congruence.given.extract",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.conditions.compare",
+            "congruence.given.extract"
+          ],
+          "handsOffSkillIds": [
+            "congruence.common-element"
+          ],
+          "inScope": [
+            "仮定・図の印・既知の性質を分けて合同に使える条件を列挙する"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.common-element」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "図の見た目を与条件として使う"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-12-01-direct",
+              "type": "direct",
+              "skillId": "congruence.given.extract"
+            },
+            {
+              "questionId": "pc-12-01-misconception",
+              "type": "misconception",
+              "skillId": "congruence.given.extract"
+            }
+          ]
+        },
+        {
+          "title": "共通な辺と角を合同条件に加えよう",
+          "role": "basic",
+          "primarySkillId": "congruence.common-element",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.given.extract",
+            "congruence.common-element"
+          ],
+          "handsOffSkillIds": [
+            "congruence.angle-evidence"
+          ],
+          "inScope": [
+            "二三角形が共有する辺や角を等しい条件として言葉にする"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.angle-evidence」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "共通部分は書かなくても伝わると考える"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-12-02-direct",
+              "type": "direct",
+              "skillId": "congruence.common-element"
+            },
+            {
+              "questionId": "pc-12-02-misconception",
+              "type": "misconception",
+              "skillId": "congruence.common-element"
+            }
+          ]
+        },
+        {
+          "title": "対頂角・平行線から等しい角を作ろう",
+          "role": "application",
+          "primarySkillId": "congruence.angle-evidence",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.common-element",
+            "congruence.angle-evidence"
+          ],
+          "handsOffSkillIds": [
+            "congruence.condition.select"
+          ],
+          "inScope": [
+            "対頂角や平行線の性質から合同条件に必要な角の等しさを導く"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.condition.select」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "根拠を書かず角が等しいとする"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-12-03-direct",
+              "type": "direct",
+              "skillId": "congruence.angle-evidence"
+            },
+            {
+              "questionId": "pc-12-03-misconception",
+              "type": "misconception",
+              "skillId": "congruence.angle-evidence"
+            }
+          ]
+        },
+        {
+          "title": "そろった条件から合同条件を選ぼう",
+          "role": "application",
+          "primarySkillId": "congruence.condition.select",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.angle-evidence",
+            "congruence.condition.select"
+          ],
+          "handsOffSkillIds": [
+            "congruence.triangle.find"
+          ],
+          "inScope": [
+            "辺と角の位置を照合し、SSS・SAS・ASAから使える条件を選ぶ"
+          ],
+          "outOfScope": [
+            "次の中心技能「congruence.triangle.find」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "先に使いたい条件を決めて図を合わせる"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-12-04-direct",
+              "type": "direct",
+              "skillId": "congruence.condition.select"
+            },
+            {
+              "questionId": "pc-12-04-misconception",
+              "type": "misconception",
+              "skillId": "congruence.condition.select"
+            }
+          ]
+        },
+        {
+          "title": "図の中から合同な三角形を見つけよう",
+          "role": "mastery",
+          "primarySkillId": "congruence.triangle.find",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.condition.select",
+            "congruence.triangle.find"
+          ],
+          "handsOffSkillIds": [
+            "proof.parts.identify"
+          ],
+          "inScope": [
+            "複数の三角形から対応と条件がそろう組を見つけ、合同を正しい順で書く"
+          ],
+          "outOfScope": [
+            "次の中心技能「proof.parts.identify」の詳しい学習"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "形が似て見える三角形を選ぶ"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-12-05-direct",
+              "type": "direct",
+              "skillId": "congruence.triangle.find"
+            },
+            {
+              "questionId": "pc-12-05-misconception",
+              "type": "misconception",
+              "skillId": "congruence.triangle.find"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "根拠をつないで説明しよう・マスターチェック",
+      "sectionId": "17bc15d1ec7841389b5eb8eee7076406",
+      "existingOverviewId": "7141ddacca8a4a2796ce69c9e0421a66",
+      "lessons": [
+        {
+          "title": "仮定・結論・根拠を分けて読もう",
+          "role": "overview",
+          "primarySkillId": "proof.parts.identify",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "congruence.triangle.find",
+            "proof.parts.identify"
+          ],
+          "handsOffSkillIds": [
+            "proof.reason.write"
+          ],
+          "inScope": [
+            "証明問題を仮定・結論・使える根拠に分解する"
+          ],
+          "outOfScope": [
+            "次の中心技能「proof.reason.write」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "証明すべき結論を途中の根拠として使う"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-13-01-direct",
+              "type": "direct",
+              "skillId": "proof.parts.identify"
+            },
+            {
+              "questionId": "pc-13-01-misconception",
+              "type": "misconception",
+              "skillId": "proof.parts.identify"
+            }
+          ]
+        },
+        {
+          "title": "角や辺が等しい理由を一文で書こう",
+          "role": "basic",
+          "primarySkillId": "proof.reason.write",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "proof.parts.identify",
+            "proof.reason.write"
+          ],
+          "handsOffSkillIds": [
+            "proof.chain.build"
+          ],
+          "inScope": [
+            "仮定・対頂角・平行線・共通部分を根拠付きの等式として書く"
+          ],
+          "outOfScope": [
+            "次の中心技能「proof.chain.build」の詳しい学習"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "理由を「見れば分かる」で済ませる"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-13-02-direct",
+              "type": "direct",
+              "skillId": "proof.reason.write"
+            },
+            {
+              "questionId": "pc-13-02-misconception",
+              "type": "misconception",
+              "skillId": "proof.reason.write"
+            }
+          ]
+        },
+        {
+          "title": "合同までの根拠を順番につなごう",
+          "role": "procedure",
+          "primarySkillId": "proof.chain.build",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "proof.reason.write",
+            "proof.chain.build"
+          ],
+          "handsOffSkillIds": [
+            "proof.error.diagnose"
+          ],
+          "inScope": [
+            "与条件から三条件、合同条件、結論へ論理を順に接続する"
+          ],
+          "outOfScope": [
+            "次の中心技能「proof.error.diagnose」の詳しい学習"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "合同後に分かる性質を合同前の条件として使う"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-13-03-direct",
+              "type": "direct",
+              "skillId": "proof.chain.build"
+            },
+            {
+              "questionId": "pc-13-03-misconception",
+              "type": "misconception",
+              "skillId": "proof.chain.build"
+            }
+          ]
+        },
+        {
+          "title": "誤った証明の最初の行を直そう",
+          "role": "misconception",
+          "primarySkillId": "proof.error.diagnose",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "proof.chain.build",
+            "proof.error.diagnose"
+          ],
+          "handsOffSkillIds": [
+            "parallel-congruence.mastery"
+          ],
+          "inScope": [
+            "循環論法・対応違い・根拠不足の最初の誤りを特定して修正する"
+          ],
+          "outOfScope": [
+            "次の中心技能「parallel-congruence.mastery」の詳しい学習"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "最後の結論だけを直せばよいと考える"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-13-04-direct",
+              "type": "direct",
+              "skillId": "proof.error.diagnose"
+            },
+            {
+              "questionId": "pc-13-04-misconception",
+              "type": "misconception",
+              "skillId": "proof.error.diagnose"
+            }
+          ]
+        },
+        {
+          "title": "平行線と合同を入試形式で総合確認しよう",
+          "role": "mastery",
+          "primarySkillId": "parallel-congruence.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "proof.error.diagnose",
+            "parallel-congruence.mastery"
+          ],
+          "handsOffSkillIds": [
+            "triangle-quadrilateral-proof.entry"
+          ],
+          "inScope": [
+            "角の関係から合同条件を選び、根拠付きで証明して弱点の戻り先を決める"
+          ],
+          "outOfScope": [
+            "次の中心技能「triangle-quadrilateral-proof.entry」の詳しい学習"
+          ],
+          "estimatedMinutes": 10,
+          "misconceptionIds": [
+            "計算正答だけで証明技能も身についたと判断する"
+          ],
+          "quiz": [
+            {
+              "questionId": "pc-13-05-direct",
+              "type": "direct",
+              "skillId": "parallel-congruence.mastery"
+            },
+            {
+              "questionId": "pc-13-05-misconception",
+              "type": "misconception",
+              "skillId": "parallel-congruence.mastery"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

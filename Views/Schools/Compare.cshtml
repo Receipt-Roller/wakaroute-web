@@ -1,0 +1,55 @@
+@model SchoolComparisonViewModel
+@{
+    ViewData["Title"] = "候補校を比較する";
+    ViewData["Description"] = "保存した候補校を、学び、通学、入試、見学情報などの同じ判断軸で比較できます。";
+    var comparisonIds = string.Join(',', Model.Schools.Select(item => item.School.Id));
+}
+
+<section class="school-tools-hero">
+    <div class="shell">
+        <nav class="breadcrumbs" aria-label="パンくずリスト"><a asp-controller="Home" asp-action="Index">ホーム</a><span aria-hidden="true">/</span><a asp-action="Index">高校を探す</a><span aria-hidden="true">/</span><span>候補校を比較</span></nav>
+        <div class="eyebrow"><span></span>SCHOOL COMPARISON</div>
+        <h1>候補校の違いを、<br />同じ軸で確かめよう。</h1>
+        <p>数字だけで決めず、「通えるか」「学びたいか」「学校生活が合いそうか」を並べて考えるための比較表です。</p>
+    </div>
+</section>
+
+<main class="school-tools-main" data-school-comparison-page data-comparison-ids="@comparisonIds">
+    <div class="shell">
+        @if (Model.Schools.Count == 0)
+        {
+            <div class="school-tools-empty"><span aria-hidden="true">＋</span><h2>比較する高校を選びましょう</h2><p>高校検索の「比較に追加」から、最大3校まで選べます。</p><a class="button button-primary" asp-action="Index">高校を探す</a></div>
+        }
+        else
+        {
+            <div class="school-comparison-intro">
+                <div><span>SELECTED SCHOOLS</span><h2>@Model.Schools.Count 校を比較しています</h2></div>
+                <div><a asp-action="Commute" asp-route-ids="@comparisonIds">通学条件を確認</a><a asp-action="Saved">お気に入りを見る</a><a asp-action="Index">学校を追加する</a></div>
+            </div>
+
+            <div class="school-comparison-scroll" tabindex="0" aria-label="候補校比較表。横にスクロールできます">
+                <table class="school-comparison-table">
+                    <thead><tr><th scope="col">比較すること</th>@foreach (var item in Model.Schools) { <th scope="col"><a asp-action="Details" asp-route-id="@item.School.Id">@item.School.Name</a><partial name="_SchoolChoiceButtons" model="item.School" /></th> }</tr></thead>
+                    <tbody>
+                        <tr><th scope="row">学校区分</th>@foreach (var item in Model.Schools) { <td>@item.School.OwnershipLabel<br /><span>@item.School.GenderLabel</span></td> }</tr>
+                        <tr><th scope="row">課程・学科</th>@foreach (var item in Model.Schools) { <td>@item.School.ProgramSummary</td> }</tr>
+                        <tr><th scope="row">所在地</th>@foreach (var item in Model.Schools) { <td>@item.School.Address</td> }</tr>
+                        <tr><th scope="row">位置データから近い駅<small>直線距離の目安</small></th>@foreach (var item in Model.Schools) { <td>@if (item.School.AccessInfo?.NearestStations.Count > 0) { <ul>@foreach (var station in item.School.AccessInfo.NearestStations) { <li><strong>@station.Name 駅</strong><br /><small>@station.LinesSummary・@station.DistanceLabel</small></li> }</ul> } else { <text>位置情報を確認中です。</text> }</td> }</tr>
+                        <tr><th scope="row">最初に知りたい特徴</th>@foreach (var item in Model.Schools) { <td>@(item.DecisionGuide?.Summary ?? "学校紹介を確認中です。")</td> }</tr>
+                        <tr><th scope="row">こんな人に合いそう</th>@foreach (var item in Model.Schools) { <td>@if (item.DecisionGuide?.GoodFit.Count is > 0) { <ul>@foreach (var fit in item.DecisionGuide.GoodFit.Take(4)) { <li>@fit</li> }</ul> } else { <text>確認中です。</text> }</td> }</tr>
+                        <tr><th scope="row">入試情報</th>@foreach (var item in Model.Schools) { <td><span>@(item.Admissions.Count > 0 ? "入試実績あり" : "実績を確認中")</span><br /><span>@(item.ExamSchedules.Count > 0 ? "次年度日程あり" : "日程を確認中")</span></td> }</tr>
+                        <tr><th scope="row">最新年度の最大志願倍率</th>@foreach (var item in Model.Schools) { <td>@(item.School.LatestApplicationRatio?.ToString("0.00") ?? "確認中")<small>倍率だけで難易度や合格可能性は判断できません。</small></td> }</tr>
+                        <tr><th scope="row">学校見学</th>@foreach (var item in Model.Schools) { <td>@(item.DecisionGuide?.VisitEvents.Count is > 0 ? "見学・説明会情報あり" : "日程を確認中")</td> }</tr>
+                        <tr><th scope="row">情報確認日</th>@foreach (var item in Model.Schools) { <td>@item.School.LastVerifiedAt</td> }</tr>
+                        <tr class="school-comparison-notes"><th scope="row">自分用メモ<small>この端末だけに保存されます</small></th>@foreach (var item in Model.Schools) { <td><label class="sr-only" for="note-@item.School.Id">@item.School.Name の自分用メモ</label><textarea id="note-@item.School.Id" maxlength="500" data-school-note data-school-id="@item.School.Id" placeholder="見学で確認したいこと、気になった点など"></textarea><small data-school-note-status>未入力</small></td> }</tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="school-comparison-policy">比較URLには学校IDだけが含まれます。自分用メモやお気に入り情報はURLやサーバーへ送信されません。</p>
+        }
+    </div>
+</main>
+
+@section Scripts {
+    <script src="~/js/school-shortlist.js" asp-append-version="true"></script>
+}

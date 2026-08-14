@@ -1,0 +1,2244 @@
+{
+  "courseTitle": "展開・因数分解",
+  "courseId": "09f2d050591f485bb6b0111018174141",
+  "audience": "中学3年生・高校受験基礎から標準",
+  "learningModes": [
+    "conceptual understanding",
+    "procedure and fluency",
+    "integrated application"
+  ],
+  "sections": [
+    {
+      "title": "分配法則を振り返ろう",
+      "sectionId": "61d29167558a47f4a53227afd7dcb6dd",
+      "lessons": [
+        {
+          "title": "分配法則を振り返ろうを理解しよう",
+          "role": "overview",
+          "primarySkillId": "distribution.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "distribution.overview"
+          ],
+          "handsOffSkillIds": [
+            "distribution.area-model"
+          ],
+          "inScope": [
+            "分配法則と展開の学習順を説明する"
+          ],
+          "outOfScope": [
+            "後続レッスンの面積図による説明"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "distribution.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "distribution.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "distribution.overview"
+            }
+          ],
+          "existingLessonId": "dbff251db9dc43afa622b9fd9bdec97c"
+        },
+        {
+          "title": "面積図でa(b+c)=ab+acを確かめよう",
+          "role": "concept",
+          "primarySkillId": "distribution.area-model",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "distribution.area-model"
+          ],
+          "handsOffSkillIds": [
+            "distribution.monomial"
+          ],
+          "inScope": [
+            "長方形の面積を二つに分けて分配法則を説明する"
+          ],
+          "outOfScope": [
+            "単項式を多項式へ掛ける手順"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "distribution.area-model.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "distribution.area-model"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "distribution.area-model"
+            }
+          ],
+          "existingLessonId": "3fc69a633c70464fb0359a2f98f7793b"
+        },
+        {
+          "title": "単項式を多項式へ掛けよう",
+          "role": "procedure",
+          "primarySkillId": "distribution.monomial",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "distribution.monomial"
+          ],
+          "handsOffSkillIds": [
+            "distribution.negative"
+          ],
+          "inScope": [
+            "単項式を多項式の各項へ漏れなく掛ける"
+          ],
+          "outOfScope": [
+            "負の係数を含む分配法則"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "distribution.monomial.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "distribution.monomial"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "distribution.monomial"
+            }
+          ],
+          "existingLessonId": "f015c6dca37b4ddcba2109aab01ad89e"
+        },
+        {
+          "title": "負の数を含む分配法則を使おう",
+          "role": "procedure",
+          "primarySkillId": "distribution.negative",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "distribution.negative"
+          ],
+          "handsOffSkillIds": [
+            "distribution.diagnosis"
+          ],
+          "inScope": [
+            "負の係数を符号ごと各項へ分配する"
+          ],
+          "outOfScope": [
+            "分配法則の誤答診断"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "distribution.negative.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "distribution.negative"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "distribution.negative"
+            }
+          ],
+          "existingLessonId": "48adcedd85cc49e383b4edb9ae5cfe10"
+        },
+        {
+          "title": "分配法則の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "distribution.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "distribution.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "expansion-meaning.overview"
+          ],
+          "inScope": [
+            "掛け忘れと符号誤りを分類して直す"
+          ],
+          "outOfScope": [
+            "展開の意味"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "distribution.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "distribution.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "distribution.diagnosis"
+            }
+          ],
+          "existingLessonId": "26cf7bd4d7ef497f88339d1ed3f5fcd8"
+        }
+      ]
+    },
+    {
+      "title": "展開とは何をすること？",
+      "sectionId": "2e1b4561e9c04937a0a3cc54a01314ab",
+      "lessons": [
+        {
+          "title": "展開とは何をすること？を理解しよう",
+          "role": "overview",
+          "primarySkillId": "expansion-meaning.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-meaning.overview"
+          ],
+          "handsOffSkillIds": [
+            "expansion-meaning.identify"
+          ],
+          "inScope": [
+            "積の形を和の形へ変える展開の意味を説明する"
+          ],
+          "outOfScope": [
+            "積と和の形の識別"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expansion-meaning.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-meaning.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-meaning.overview"
+            }
+          ],
+          "existingLessonId": "b6421133c3a34ea2b4ad70b4f3e75af9"
+        },
+        {
+          "title": "積の形と和の形を見分けよう",
+          "role": "concept",
+          "primarySkillId": "expansion-meaning.identify",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-meaning.identify"
+          ],
+          "handsOffSkillIds": [
+            "expansion-meaning.area-terms"
+          ],
+          "inScope": [
+            "式が積の形か和の形かを見分ける"
+          ],
+          "outOfScope": [
+            "面積図と項の対応"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expansion-meaning.identify.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-meaning.identify"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-meaning.identify"
+            }
+          ],
+          "existingLessonId": "6fb363b06750450c8cee6a7129f2408b"
+        },
+        {
+          "title": "面積図の部分と展開後の項を対応させよう",
+          "role": "concept",
+          "primarySkillId": "expansion-meaning.area-terms",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-meaning.area-terms"
+          ],
+          "handsOffSkillIds": [
+            "expansion-meaning.combine"
+          ],
+          "inScope": [
+            "面積図の各部分を展開後の項と対応させる"
+          ],
+          "outOfScope": [
+            "展開後の同類項整理"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expansion-meaning.area-terms.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-meaning.area-terms"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-meaning.area-terms"
+            }
+          ],
+          "existingLessonId": "6eb218d37faa4930ab28826356d7a4d0"
+        },
+        {
+          "title": "展開して同類項をまとめよう",
+          "role": "procedure",
+          "primarySkillId": "expansion-meaning.combine",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-meaning.combine"
+          ],
+          "handsOffSkillIds": [
+            "expansion-meaning.diagnosis"
+          ],
+          "inScope": [
+            "分配後に同類項をまとめて完成させる"
+          ],
+          "outOfScope": [
+            "展開の意味の誤答診断"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expansion-meaning.combine.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-meaning.combine"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-meaning.combine"
+            }
+          ],
+          "existingLessonId": "52bd29fcbd6e47c7b181b04af5b0bfa8"
+        },
+        {
+          "title": "展開の意味の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "expansion-meaning.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-meaning.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "polynomial-product.overview"
+          ],
+          "inScope": [
+            "展開と式の値の変更を混同する誤りを直す"
+          ],
+          "outOfScope": [
+            "多項式どうしの乗法"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "expansion-meaning.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-meaning.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-meaning.diagnosis"
+            }
+          ],
+          "existingLessonId": "277a835857ec4db3be896794eb4e64ca"
+        }
+      ]
+    },
+    {
+      "title": "多項式どうしを掛けよう",
+      "sectionId": "d0cd4168228647edb4e4b83f32e89fbd",
+      "lessons": [
+        {
+          "title": "多項式どうしを掛けようを理解しよう",
+          "role": "overview",
+          "primarySkillId": "polynomial-product.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial-product.overview"
+          ],
+          "handsOffSkillIds": [
+            "polynomial-product.four-products"
+          ],
+          "inScope": [
+            "二つの多項式から生まれる積の全体像を説明する"
+          ],
+          "outOfScope": [
+            "四つの積の生成"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial-product.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial-product.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial-product.overview"
+            }
+          ],
+          "existingLessonId": "89711a4e2daf400d9f23ec7f1bbf0eb5"
+        },
+        {
+          "title": "四つの積を漏れなく作ろう",
+          "role": "procedure",
+          "primarySkillId": "polynomial-product.four-products",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial-product.four-products"
+          ],
+          "handsOffSkillIds": [
+            "polynomial-product.table"
+          ],
+          "inScope": [
+            "二項式どうしの四つの積を漏れなく作る"
+          ],
+          "outOfScope": [
+            "表による対応確認"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial-product.four-products.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial-product.four-products"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial-product.four-products"
+            }
+          ],
+          "existingLessonId": "7f4caf5a729a4368aa7bc923c648d32c"
+        },
+        {
+          "title": "表で多項式の積を整理しよう",
+          "role": "concept",
+          "primarySkillId": "polynomial-product.table",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial-product.table"
+          ],
+          "handsOffSkillIds": [
+            "polynomial-product.combine"
+          ],
+          "inScope": [
+            "縦横の表で掛ける項の対応を可視化する"
+          ],
+          "outOfScope": [
+            "同類項整理"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial-product.table.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial-product.table"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial-product.table"
+            }
+          ],
+          "existingLessonId": "4f698b6807b647ca96e8bbfa08d3a36d"
+        },
+        {
+          "title": "積を作って同類項をまとめよう",
+          "role": "procedure",
+          "primarySkillId": "polynomial-product.combine",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial-product.combine"
+          ],
+          "handsOffSkillIds": [
+            "polynomial-product.diagnosis"
+          ],
+          "inScope": [
+            "四つの積を作った後に同類項をまとめる"
+          ],
+          "outOfScope": [
+            "符号と漏れの誤答診断"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "polynomial-product.combine.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial-product.combine"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial-product.combine"
+            }
+          ],
+          "existingLessonId": "0b45c35523354b8b860c038d06ac3592"
+        },
+        {
+          "title": "多項式の乗法の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "polynomial-product.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "polynomial-product.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "xab.overview"
+          ],
+          "inScope": [
+            "掛け漏れ・符号・同類項の誤りを分類する"
+          ],
+          "outOfScope": [
+            "(x+a)(x+b)の公式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "polynomial-product.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "polynomial-product.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "polynomial-product.diagnosis"
+            }
+          ],
+          "existingLessonId": "0264275121cf40369d8f8bc55ce51fda"
+        }
+      ]
+    },
+    {
+      "title": "(x+a)(x+b)の展開",
+      "sectionId": "ac97d5ad210c4041895b5cecb6e29a23",
+      "lessons": [
+        {
+          "title": "(x+a)(x+b)の展開を理解しよう",
+          "role": "overview",
+          "primarySkillId": "xab.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "xab.overview"
+          ],
+          "handsOffSkillIds": [
+            "xab.square-term"
+          ],
+          "inScope": [
+            "公式の三項がどの積から生まれるか説明する"
+          ],
+          "outOfScope": [
+            "x²項の生成"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "xab.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "xab.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "xab.overview"
+            }
+          ],
+          "existingLessonId": "901ae23c15724e599f4a9eed379fe8d8"
+        },
+        {
+          "title": "x²の項が生まれる理由を確かめよう",
+          "role": "concept",
+          "primarySkillId": "xab.square-term",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "xab.square-term"
+          ],
+          "handsOffSkillIds": [
+            "xab.linear-term"
+          ],
+          "inScope": [
+            "xとxの積がx²になることを説明する"
+          ],
+          "outOfScope": [
+            "xの係数の生成"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "xab.square-term.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "xab.square-term"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "xab.square-term"
+            }
+          ],
+          "existingLessonId": "00a1fe0ecb094896af970149ac67c982"
+        },
+        {
+          "title": "xの係数がa+bになる理由を確かめよう",
+          "role": "concept",
+          "primarySkillId": "xab.linear-term",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "xab.linear-term"
+          ],
+          "handsOffSkillIds": [
+            "xab.constant-sign"
+          ],
+          "inScope": [
+            "axとbxをまとめて(a+b)xとする"
+          ],
+          "outOfScope": [
+            "定数項の生成"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "xab.linear-term.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "xab.linear-term"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "xab.linear-term"
+            }
+          ],
+          "existingLessonId": "4c78d14de988413d8ce0309639961db9"
+        },
+        {
+          "title": "定数項abと符号を確かめよう",
+          "role": "procedure",
+          "primarySkillId": "xab.constant-sign",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "xab.constant-sign"
+          ],
+          "handsOffSkillIds": [
+            "xab.mixed-signs"
+          ],
+          "inScope": [
+            "定数項abの積と正負を正確に決める"
+          ],
+          "outOfScope": [
+            "混合符号の公式適用"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "xab.constant-sign.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "xab.constant-sign"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "xab.constant-sign"
+            }
+          ],
+          "existingLessonId": "927ae6b0242b48f395a3df9884422c9c"
+        },
+        {
+          "title": "符号が混ざる(x+a)(x+b)を展開しよう",
+          "role": "mastery",
+          "primarySkillId": "xab.mixed-signs",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "xab.mixed-signs"
+          ],
+          "handsOffSkillIds": [
+            "square-formula.overview"
+          ],
+          "inScope": [
+            "aとbの正負から中項と定数項を決める"
+          ],
+          "outOfScope": [
+            "平方の公式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "xab.mixed-signs.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "xab.mixed-signs"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "xab.mixed-signs"
+            }
+          ],
+          "existingLessonId": "3970a8453297440296c032489eb9ce1e"
+        }
+      ]
+    },
+    {
+      "title": "平方の公式",
+      "sectionId": "e5b52828c1384c12b2aafa1ee0c6cb42",
+      "lessons": [
+        {
+          "title": "平方の公式を理解しよう",
+          "role": "overview",
+          "primarySkillId": "square-formula.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "square-formula.overview"
+          ],
+          "handsOffSkillIds": [
+            "square-formula.plus-area"
+          ],
+          "inScope": [
+            "和と差の平方公式の構造を説明する"
+          ],
+          "outOfScope": [
+            "和の平方の面積図"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "square-formula.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "square-formula.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "square-formula.overview"
+            }
+          ],
+          "existingLessonId": "ddf4a41c1acd497cb69cdd2a58788c7a"
+        },
+        {
+          "title": "面積図から(a+b)²を導こう",
+          "role": "concept",
+          "primarySkillId": "square-formula.plus-area",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "square-formula.plus-area"
+          ],
+          "handsOffSkillIds": [
+            "square-formula.minus-sign"
+          ],
+          "inScope": [
+            "面積図の四部分から和の平方を導く"
+          ],
+          "outOfScope": [
+            "差の平方"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "square-formula.plus-area.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "square-formula.plus-area"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "square-formula.plus-area"
+            }
+          ],
+          "existingLessonId": "00561701be044ef3b3b05b1d8767627a"
+        },
+        {
+          "title": "(a−b)²の中央項の符号を確かめよう",
+          "role": "concept",
+          "primarySkillId": "square-formula.minus-sign",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "square-formula.minus-sign"
+          ],
+          "handsOffSkillIds": [
+            "square-formula.coefficients"
+          ],
+          "inScope": [
+            "差の平方で中央項だけが負になる理由を説明する"
+          ],
+          "outOfScope": [
+            "係数を含む平方"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "square-formula.minus-sign.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "square-formula.minus-sign"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "square-formula.minus-sign"
+            }
+          ],
+          "existingLessonId": "ce2fc038e0dd4fc680d9ccaa132d16ff"
+        },
+        {
+          "title": "係数を含む二項式を平方しよう",
+          "role": "procedure",
+          "primarySkillId": "square-formula.coefficients",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "square-formula.coefficients"
+          ],
+          "handsOffSkillIds": [
+            "square-formula.diagnosis"
+          ],
+          "inScope": [
+            "(px+q)²を三項へ正確に展開する"
+          ],
+          "outOfScope": [
+            "平方公式の誤答診断"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "square-formula.coefficients.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "square-formula.coefficients"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "square-formula.coefficients"
+            }
+          ],
+          "existingLessonId": "18a1e726c38f41a1bb6566b16ba20acb"
+        },
+        {
+          "title": "平方公式の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "square-formula.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "square-formula.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "difference-squares.overview"
+          ],
+          "inScope": [
+            "中央項の欠落と符号誤りを分類する"
+          ],
+          "outOfScope": [
+            "和と差の積"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "square-formula.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "square-formula.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "square-formula.diagnosis"
+            }
+          ],
+          "existingLessonId": "73542fcec1b848819e16a7ce226c4ae1"
+        }
+      ]
+    },
+    {
+      "title": "和と差の積",
+      "sectionId": "723a9e9b97d046cfa986f94c69c68634",
+      "lessons": [
+        {
+          "title": "和と差の積を理解しよう",
+          "role": "overview",
+          "primarySkillId": "difference-squares.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "difference-squares.overview"
+          ],
+          "handsOffSkillIds": [
+            "difference-squares.cancel"
+          ],
+          "inScope": [
+            "和と差の積で中央項が消える全体像を説明する"
+          ],
+          "outOfScope": [
+            "中央項の打ち消し"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "difference-squares.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "difference-squares.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "difference-squares.overview"
+            }
+          ],
+          "existingLessonId": "28c697a4031647d6af481585afa53bd4"
+        },
+        {
+          "title": "中央の項が打ち消し合う理由を確かめよう",
+          "role": "concept",
+          "primarySkillId": "difference-squares.cancel",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "difference-squares.cancel"
+          ],
+          "handsOffSkillIds": [
+            "difference-squares.basic"
+          ],
+          "inScope": [
+            "展開した+abと−abが打ち消し合うことを説明する"
+          ],
+          "outOfScope": [
+            "公式の基本適用"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "difference-squares.cancel.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "difference-squares.cancel"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "difference-squares.cancel"
+            }
+          ],
+          "existingLessonId": "8f5dac9583c64498a9f0ae1b534e9bfc"
+        },
+        {
+          "title": "(a+b)(a−b)=a²−b²を使おう",
+          "role": "procedure",
+          "primarySkillId": "difference-squares.basic",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "difference-squares.basic"
+          ],
+          "handsOffSkillIds": [
+            "difference-squares.coefficients"
+          ],
+          "inScope": [
+            "和と差の積を平方差へ変える"
+          ],
+          "outOfScope": [
+            "係数を含む適用"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "difference-squares.basic.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "difference-squares.basic"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "difference-squares.basic"
+            }
+          ],
+          "existingLessonId": "1aed418a54bf4dd5bf2ae996a970bea0"
+        },
+        {
+          "title": "係数を含む和と差の積を計算しよう",
+          "role": "procedure",
+          "primarySkillId": "difference-squares.coefficients",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "difference-squares.coefficients"
+          ],
+          "handsOffSkillIds": [
+            "difference-squares.diagnosis"
+          ],
+          "inScope": [
+            "共通する二項を見抜き係数込みで計算する"
+          ],
+          "outOfScope": [
+            "和と差の積の誤答診断"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "difference-squares.coefficients.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "difference-squares.coefficients"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "difference-squares.coefficients"
+            }
+          ],
+          "existingLessonId": "ce58867526a547cab873174aea6c655a"
+        },
+        {
+          "title": "和と差の積の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "difference-squares.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "difference-squares.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "expansion-choice.overview"
+          ],
+          "inScope": [
+            "符号・項対応・公式選択の誤りを直す"
+          ],
+          "outOfScope": [
+            "展開公式の選択"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "difference-squares.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "difference-squares.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "difference-squares.diagnosis"
+            }
+          ],
+          "existingLessonId": "71f85b12427b4f4a962bec04abc8568f"
+        }
+      ]
+    },
+    {
+      "title": "どの展開公式を使う？",
+      "sectionId": "1c627df0381f48f1b1eb3bfe24936395",
+      "lessons": [
+        {
+          "title": "どの展開公式を使う？を理解しよう",
+          "role": "overview",
+          "primarySkillId": "expansion-choice.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-choice.overview"
+          ],
+          "handsOffSkillIds": [
+            "expansion-choice.classify"
+          ],
+          "inScope": [
+            "展開前の式の形から方法を選ぶ観点を説明する"
+          ],
+          "outOfScope": [
+            "式の形の分類"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expansion-choice.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-choice.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-choice.overview"
+            }
+          ],
+          "existingLessonId": "751e67fd56e948878a603ea4c4f95949"
+        },
+        {
+          "title": "式の形を四つに分類しよう",
+          "role": "concept",
+          "primarySkillId": "expansion-choice.classify",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-choice.classify"
+          ],
+          "handsOffSkillIds": [
+            "expansion-choice.apply"
+          ],
+          "inScope": [
+            "一般の分配・x共通・平方・和差を分類する"
+          ],
+          "outOfScope": [
+            "公式選択の実行"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expansion-choice.classify.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-choice.classify"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-choice.classify"
+            }
+          ],
+          "existingLessonId": "57f2b68ed91b406793792023ce201a2c"
+        },
+        {
+          "title": "展開公式を選んで計算しよう",
+          "role": "procedure",
+          "primarySkillId": "expansion-choice.apply",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-choice.apply"
+          ],
+          "handsOffSkillIds": [
+            "expansion-choice.verify"
+          ],
+          "inScope": [
+            "分類に合う公式を選んで展開する"
+          ],
+          "outOfScope": [
+            "分配法則による検算"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expansion-choice.apply.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-choice.apply"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-choice.apply"
+            }
+          ],
+          "existingLessonId": "28b8b06cea3e4465af3dde87916399e0"
+        },
+        {
+          "title": "分配法則で公式の答えを確かめよう",
+          "role": "application",
+          "primarySkillId": "expansion-choice.verify",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-choice.verify"
+          ],
+          "handsOffSkillIds": [
+            "expansion-choice.diagnosis"
+          ],
+          "inScope": [
+            "公式の結果を分配法則で検算する"
+          ],
+          "outOfScope": [
+            "入試型の方法選択"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expansion-choice.verify.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-choice.verify"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-choice.verify"
+            }
+          ],
+          "existingLessonId": "cb0cf05b787e484095102d6310a923f6"
+        },
+        {
+          "title": "展開公式の選択ミスを診断しよう",
+          "role": "mastery",
+          "primarySkillId": "expansion-choice.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-choice.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "factorization-meaning.overview"
+          ],
+          "inScope": [
+            "似た式での公式選択ミスを分類する"
+          ],
+          "outOfScope": [
+            "因数分解の意味"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "expansion-choice.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-choice.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-choice.diagnosis"
+            }
+          ],
+          "existingLessonId": "a8493e1619254736bccefdead290b202"
+        }
+      ]
+    },
+    {
+      "title": "因数分解とは何をすること？",
+      "sectionId": "ecb5133ea3dd4dcf84f8989bbdd6ff7d",
+      "lessons": [
+        {
+          "title": "因数分解とは何をすること？を理解しよう",
+          "role": "overview",
+          "primarySkillId": "factorization-meaning.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "factorization-meaning.overview"
+          ],
+          "handsOffSkillIds": [
+            "factorization-meaning.common-factor"
+          ],
+          "inScope": [
+            "展開の逆として和を積へ戻す意味を説明する"
+          ],
+          "outOfScope": [
+            "因数と共通因数"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "factorization-meaning.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "factorization-meaning.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "factorization-meaning.overview"
+            }
+          ],
+          "existingLessonId": "7bc67386f1e2485c8f7462ffb6dd77a9"
+        },
+        {
+          "title": "因数と共通因数を見つけよう",
+          "role": "concept",
+          "primarySkillId": "factorization-meaning.common-factor",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "factorization-meaning.common-factor"
+          ],
+          "handsOffSkillIds": [
+            "factorization-meaning.factor-out"
+          ],
+          "inScope": [
+            "各項に共通して掛かる因数を見つける"
+          ],
+          "outOfScope": [
+            "共通因数でくくる手順"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "factorization-meaning.common-factor.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "factorization-meaning.common-factor"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "factorization-meaning.common-factor"
+            }
+          ],
+          "existingLessonId": "7cbe250927f746e491550869f84a4cdc"
+        },
+        {
+          "title": "共通因数でくくろう",
+          "role": "procedure",
+          "primarySkillId": "factorization-meaning.factor-out",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "factorization-meaning.factor-out"
+          ],
+          "handsOffSkillIds": [
+            "factorization-meaning.verify"
+          ],
+          "inScope": [
+            "共通因数をかっこの外へくくる"
+          ],
+          "outOfScope": [
+            "展開による検算"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "factorization-meaning.factor-out.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "factorization-meaning.factor-out"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "factorization-meaning.factor-out"
+            }
+          ],
+          "existingLessonId": "859c4e0dce054a43a5a0d7fadd1ae976"
+        },
+        {
+          "title": "展開して因数分解を確かめよう",
+          "role": "application",
+          "primarySkillId": "factorization-meaning.verify",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "factorization-meaning.verify"
+          ],
+          "handsOffSkillIds": [
+            "factorization-meaning.diagnosis"
+          ],
+          "inScope": [
+            "因数分解後を展開して元の式へ戻す"
+          ],
+          "outOfScope": [
+            "因数分解の誤答診断"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "factorization-meaning.verify.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "factorization-meaning.verify"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "factorization-meaning.verify"
+            }
+          ],
+          "existingLessonId": "1c95b115eb714cb88398b15aa9d3dc93"
+        },
+        {
+          "title": "因数分解の意味の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "factorization-meaning.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "factorization-meaning.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-factor.overview"
+          ],
+          "inScope": [
+            "共通因数の取り残しと逆操作の誤解を直す"
+          ],
+          "outOfScope": [
+            "二数を探す因数分解"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "factorization-meaning.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "factorization-meaning.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "factorization-meaning.diagnosis"
+            }
+          ],
+          "existingLessonId": "0d5336455640411eb0efda84442e2387"
+        }
+      ]
+    },
+    {
+      "title": "x²+(a+b)x+abの因数分解",
+      "sectionId": "787819ff82b64bdaa9d835577bbe4267",
+      "lessons": [
+        {
+          "title": "x²+(a+b)x+abの因数分解を理解しよう",
+          "role": "overview",
+          "primarySkillId": "quadratic-factor.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-factor.overview"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-factor.positive"
+          ],
+          "inScope": [
+            "和と積から二数を探す理由を説明する"
+          ],
+          "outOfScope": [
+            "正の二数の探索"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-factor.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-factor.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-factor.overview"
+            }
+          ],
+          "existingLessonId": "579db7b21bef42dba6332c71438dc560"
+        },
+        {
+          "title": "和と積が正になる二数を探そう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-factor.positive",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-factor.positive"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-factor.both-negative"
+          ],
+          "inScope": [
+            "和と積がともに正の二数を探す"
+          ],
+          "outOfScope": [
+            "負の二数の探索"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-factor.positive.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-factor.positive"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-factor.positive"
+            }
+          ],
+          "existingLessonId": "41ee3128e8a445b38dcfca2686aff08e"
+        },
+        {
+          "title": "二つとも負の数になる組を探そう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-factor.both-negative",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-factor.both-negative"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-factor.mixed-signs"
+          ],
+          "inScope": [
+            "和が負で積が正の二数を探す"
+          ],
+          "outOfScope": [
+            "符号が異なる二数の探索"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-factor.both-negative.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-factor.both-negative"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-factor.both-negative"
+            }
+          ],
+          "existingLessonId": "31061474b5024ccbbbb8fca5fd9e5890"
+        },
+        {
+          "title": "符号が異なる二数を探そう",
+          "role": "procedure",
+          "primarySkillId": "quadratic-factor.mixed-signs",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-factor.mixed-signs"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-factor.diagnosis"
+          ],
+          "inScope": [
+            "積が負のとき差から二数を決める"
+          ],
+          "outOfScope": [
+            "二数探索の誤答診断"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "quadratic-factor.mixed-signs.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-factor.mixed-signs"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-factor.mixed-signs"
+            }
+          ],
+          "existingLessonId": "0931b2b10e4f43408d852f0ea5fc7f1e"
+        },
+        {
+          "title": "和と積を使う因数分解の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "quadratic-factor.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-factor.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "special-factor.overview"
+          ],
+          "inScope": [
+            "和と積の取り違えや符号ミスを直す"
+          ],
+          "outOfScope": [
+            "平方公式・平方差の逆利用"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "quadratic-factor.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "quadratic-factor.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "quadratic-factor.diagnosis"
+            }
+          ],
+          "existingLessonId": "3e099148ff384799ad73747d8e4d06df"
+        }
+      ]
+    },
+    {
+      "title": "平方公式・平方差を使う因数分解",
+      "sectionId": "adf1a0abce634464ab2186e13b7c8ba3",
+      "lessons": [
+        {
+          "title": "平方公式・平方差を使う因数分解を理解しよう",
+          "role": "overview",
+          "primarySkillId": "special-factor.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "special-factor.overview"
+          ],
+          "handsOffSkillIds": [
+            "special-factor.plus-square"
+          ],
+          "inScope": [
+            "完全平方と平方差を見抜く観点を説明する"
+          ],
+          "outOfScope": [
+            "和の完全平方"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "special-factor.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "special-factor.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "special-factor.overview"
+            }
+          ],
+          "existingLessonId": "e5a9a84869a94eb392692d66534e1617"
+        },
+        {
+          "title": "a²+2ab+b²を平方へ戻そう",
+          "role": "procedure",
+          "primarySkillId": "special-factor.plus-square",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "special-factor.plus-square"
+          ],
+          "handsOffSkillIds": [
+            "special-factor.minus-square"
+          ],
+          "inScope": [
+            "和の完全平方を(a+b)²へ戻す"
+          ],
+          "outOfScope": [
+            "差の完全平方"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "special-factor.plus-square.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "special-factor.plus-square"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "special-factor.plus-square"
+            }
+          ],
+          "existingLessonId": "0b0364391f5949f1b2494544fecaafdb"
+        },
+        {
+          "title": "a²−2ab+b²を平方へ戻そう",
+          "role": "procedure",
+          "primarySkillId": "special-factor.minus-square",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "special-factor.minus-square"
+          ],
+          "handsOffSkillIds": [
+            "special-factor.difference"
+          ],
+          "inScope": [
+            "差の完全平方を(a−b)²へ戻す"
+          ],
+          "outOfScope": [
+            "平方差"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "special-factor.minus-square.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "special-factor.minus-square"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "special-factor.minus-square"
+            }
+          ],
+          "existingLessonId": "3d80a73e03574490b435d80d0c51e059"
+        },
+        {
+          "title": "a²−b²を和と差の積へ戻そう",
+          "role": "procedure",
+          "primarySkillId": "special-factor.difference",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "special-factor.difference"
+          ],
+          "handsOffSkillIds": [
+            "special-factor.diagnosis"
+          ],
+          "inScope": [
+            "平方差を(a+b)(a−b)へ戻す"
+          ],
+          "outOfScope": [
+            "特殊因数分解の選択"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "special-factor.difference.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "special-factor.difference"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "special-factor.difference"
+            }
+          ],
+          "existingLessonId": "3c76b8148c8642f7b2d5ed984155b29e"
+        },
+        {
+          "title": "特殊な因数分解の形を見分けよう",
+          "role": "mastery",
+          "primarySkillId": "special-factor.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "special-factor.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "advanced-factor.overview"
+          ],
+          "inScope": [
+            "完全平方・平方差・一般形を選び分ける"
+          ],
+          "outOfScope": [
+            "複雑な因数分解"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "special-factor.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "special-factor.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "special-factor.diagnosis"
+            }
+          ],
+          "existingLessonId": "f1e4c32ea5c946b8a6fa642a14fc2496"
+        }
+      ]
+    },
+    {
+      "title": "複雑な因数分解と置き換え",
+      "sectionId": "15e7dc2a76bf416eb063a7be17d90e32",
+      "lessons": [
+        {
+          "title": "複雑な因数分解と置き換えを理解しよう",
+          "role": "overview",
+          "primarySkillId": "advanced-factor.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "advanced-factor.overview"
+          ],
+          "handsOffSkillIds": [
+            "advanced-factor.common-first"
+          ],
+          "inScope": [
+            "共通因数と置き換えを使う学習順を説明する"
+          ],
+          "outOfScope": [
+            "共通因数優先"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "advanced-factor.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "advanced-factor.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "advanced-factor.overview"
+            }
+          ],
+          "existingLessonId": "e884749962c744ccb0877deabae3a70f"
+        },
+        {
+          "title": "共通因数を先にくくろう",
+          "role": "procedure",
+          "primarySkillId": "advanced-factor.common-first",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "advanced-factor.common-first"
+          ],
+          "handsOffSkillIds": [
+            "advanced-factor.substitute"
+          ],
+          "inScope": [
+            "全項の共通因数を先にくくる"
+          ],
+          "outOfScope": [
+            "同じ式のまとまりの発見"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "advanced-factor.common-first.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "advanced-factor.common-first"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "advanced-factor.common-first"
+            }
+          ],
+          "existingLessonId": "627de60286f54858ad0b0daef6abef08"
+        },
+        {
+          "title": "同じ式のまとまりを文字に置き換えよう",
+          "role": "concept",
+          "primarySkillId": "advanced-factor.substitute",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "advanced-factor.substitute"
+          ],
+          "handsOffSkillIds": [
+            "advanced-factor.two-stage"
+          ],
+          "inScope": [
+            "繰り返す式を一文字に置いて構造を単純化する"
+          ],
+          "outOfScope": [
+            "二段階因数分解"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "advanced-factor.substitute.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "advanced-factor.substitute"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "advanced-factor.substitute"
+            }
+          ],
+          "existingLessonId": "02f17cf02002441a85cfb31dcb1944e7"
+        },
+        {
+          "title": "二段階で因数分解しよう",
+          "role": "procedure",
+          "primarySkillId": "advanced-factor.two-stage",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "advanced-factor.two-stage"
+          ],
+          "handsOffSkillIds": [
+            "advanced-factor.diagnosis"
+          ],
+          "inScope": [
+            "共通因数と公式を順に使って完全に因数分解する"
+          ],
+          "outOfScope": [
+            "複雑な因数分解の誤答診断"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "advanced-factor.two-stage.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "advanced-factor.two-stage"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "advanced-factor.two-stage"
+            }
+          ],
+          "existingLessonId": "e85d110ad86c4090be4ee5a59e3c53f7"
+        },
+        {
+          "title": "複雑な因数分解の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "advanced-factor.diagnosis",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "advanced-factor.diagnosis"
+          ],
+          "handsOffSkillIds": [
+            "expansion-factor-mastery.overview"
+          ],
+          "inScope": [
+            "途中で止める・置換を戻さない誤りを直す"
+          ],
+          "outOfScope": [
+            "利用と総合確認"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "advanced-factor.diagnosis.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "advanced-factor.diagnosis"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "advanced-factor.diagnosis"
+            }
+          ],
+          "existingLessonId": "d0c6f46d6d9a48d192eed403d31cde1e"
+        }
+      ]
+    },
+    {
+      "title": "計算・数の性質・図形への利用とマスターチェック",
+      "sectionId": "b645ed6f04444d0a899fc94e43faca4d",
+      "lessons": [
+        {
+          "title": "展開・因数分解を総合確認しよう",
+          "role": "overview",
+          "primarySkillId": "expansion-factor-mastery.overview",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-factor-mastery.overview"
+          ],
+          "handsOffSkillIds": [
+            "expansion-factor-mastery.mental"
+          ],
+          "inScope": [
+            "展開と因数分解を目的に応じて選ぶ全体像を説明する"
+          ],
+          "outOfScope": [
+            "計算の工夫"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expansion-factor-mastery.overview.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-factor-mastery.overview"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-factor-mastery.overview"
+            }
+          ],
+          "existingLessonId": "e61b49150b8b42cda73655d415a29c75"
+        },
+        {
+          "title": "展開公式で計算を工夫しよう",
+          "role": "application",
+          "primarySkillId": "expansion-factor-mastery.mental",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-factor-mastery.mental"
+          ],
+          "handsOffSkillIds": [
+            "expansion-factor-mastery.number-proof"
+          ],
+          "inScope": [
+            "公式を使って数の積や平方を工夫して計算する"
+          ],
+          "outOfScope": [
+            "数の性質の説明"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expansion-factor-mastery.mental.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-factor-mastery.mental"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-factor-mastery.mental"
+            }
+          ],
+          "existingLessonId": "77a01ecdaa564b40a7ee2d36c5060feb"
+        },
+        {
+          "title": "因数分解で数の性質を説明しよう",
+          "role": "application",
+          "primarySkillId": "expansion-factor-mastery.number-proof",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-factor-mastery.number-proof"
+          ],
+          "handsOffSkillIds": [
+            "expansion-factor-mastery.geometry"
+          ],
+          "inScope": [
+            "式を因数分解して整数の性質を説明する"
+          ],
+          "outOfScope": [
+            "図形の面積への利用"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expansion-factor-mastery.number-proof.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-factor-mastery.number-proof"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-factor-mastery.number-proof"
+            }
+          ],
+          "existingLessonId": "2bcd0b61d4074d66839f776da0b45f6d"
+        },
+        {
+          "title": "面積を展開・因数分解で表そう",
+          "role": "application",
+          "primarySkillId": "expansion-factor-mastery.geometry",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-factor-mastery.geometry"
+          ],
+          "handsOffSkillIds": [
+            "expansion-factor-mastery.spaced"
+          ],
+          "inScope": [
+            "図形の面積を二通りの式で表し関係を説明する"
+          ],
+          "outOfScope": [
+            "入試総合と定着"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "expansion-factor-mastery.geometry.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-factor-mastery.geometry"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-factor-mastery.geometry"
+            }
+          ],
+          "existingLessonId": "2d6dfe0ba1934035b45012ecd5abd5ba"
+        },
+        {
+          "title": "入試問題と間隔反復で単元を固めよう",
+          "role": "mastery",
+          "primarySkillId": "expansion-factor-mastery.spaced",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "expansion-factor-mastery.spaced"
+          ],
+          "handsOffSkillIds": [
+            "quadratic-equation.entry"
+          ],
+          "inScope": [
+            "混合問題から方法を選び復習計画を作る"
+          ],
+          "outOfScope": [
+            "二次方程式"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "expansion-factor-mastery.spaced.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "expansion-factor-mastery.spaced"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "expansion-factor-mastery.spaced"
+            }
+          ],
+          "existingLessonId": "a3ae32d512d24c7d96c743a4b07c1783"
+        }
+      ]
+    }
+  ]
+}

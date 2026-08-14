@@ -1,0 +1,2631 @@
+{
+  "courseTitle": "平面図形・作図",
+  "courseId": "8f6766a7d13d434aa215647d4148bd5f",
+  "audience": "中学1年生・高校受験基礎",
+  "learningModes": [
+    "conceptual understanding",
+    "procedure and fluency",
+    "visual reasoning",
+    "mixed application"
+  ],
+  "sections": [
+    {
+      "title": "図形を表す言葉",
+      "sectionId": "88f908d0148d4f0290d65a43e6039b70",
+      "rationale": "図と言葉と記号を一対一で対応させ、以後の移動・作図の説明で対象を取り違えない土台を作る。",
+      "lessons": [
+        {
+          "title": "図形を表す言葉を理解しよう",
+          "role": "overview",
+          "primarySkillId": "plane-terms.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "quadratic-mastery.spaced"
+          ],
+          "handsOffSkillIds": [
+            "plane-terms.map"
+          ],
+          "inScope": [
+            "基本用語を学ぶ順序と使う目的を説明する"
+          ],
+          "outOfScope": [
+            "端点と延び方から点・直線・線分・半直線を見分ける"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "plane-terms.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-terms.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-terms.map"
+            }
+          ],
+          "existingLessonId": "080857c9c25d4c878d1a79053f0c2fb3"
+        },
+        {
+          "title": "点・直線・線分・半直線を見分けよう",
+          "role": "concept",
+          "primarySkillId": "plane-terms.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-terms.map"
+          ],
+          "handsOffSkillIds": [
+            "plane-terms.concept"
+          ],
+          "inScope": [
+            "端点と延び方から点・直線・線分・半直線を見分ける"
+          ],
+          "outOfScope": [
+            "角の頂点を中央に置いて記号で表す"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "plane-terms.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-terms.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-terms.concept"
+            }
+          ],
+          "existingLessonId": "c891eda98b1d42a8a1a4f7d1172cfdb4"
+        },
+        {
+          "title": "角・頂点・辺を記号で表そう",
+          "role": "procedure",
+          "primarySkillId": "plane-terms.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-terms.concept"
+          ],
+          "handsOffSkillIds": [
+            "plane-terms.procedure"
+          ],
+          "inScope": [
+            "角の頂点を中央に置いて記号で表す"
+          ],
+          "outOfScope": [
+            "複合図形から指定された部分を言葉と記号で読む"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "plane-terms.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-terms.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-terms.procedure"
+            }
+          ],
+          "existingLessonId": "7a497ae8f4c248b0bb84e1cbe679a099"
+        },
+        {
+          "title": "図から対応する名前と記号を読み取ろう",
+          "role": "application",
+          "primarySkillId": "plane-terms.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-terms.procedure"
+          ],
+          "handsOffSkillIds": [
+            "plane-terms.application"
+          ],
+          "inScope": [
+            "複合図形から指定された部分を言葉と記号で読む"
+          ],
+          "outOfScope": [
+            "端点・頂点・記号順の取り違えを修正する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "plane-terms.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-terms.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-terms.application"
+            }
+          ],
+          "existingLessonId": "1c455c0f72ff4d99be704e48fb15b6fd"
+        },
+        {
+          "title": "図形の用語の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "plane-terms.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-terms.application"
+          ],
+          "handsOffSkillIds": [
+            "plane-terms.mastery"
+          ],
+          "inScope": [
+            "端点・頂点・記号順の取り違えを修正する"
+          ],
+          "outOfScope": [
+            "次のセクションの新しい中心技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "plane-terms.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-terms.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-terms.mastery"
+            }
+          ],
+          "existingLessonId": "28f368e414d5473ea0afc4e655970809"
+        }
+      ]
+    },
+    {
+      "title": "直線の位置関係と距離",
+      "sectionId": "2f4f68f9756d45b181fb684e157247bb",
+      "rationale": "平行・垂直・交点を見分けた後、距離を最短の垂線として定義し、作図へ必要な見方を作る。",
+      "lessons": [
+        {
+          "title": "直線の位置関係と距離を理解しよう",
+          "role": "overview",
+          "primarySkillId": "line-relation.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-terms.mastery"
+          ],
+          "handsOffSkillIds": [
+            "line-relation.map"
+          ],
+          "inScope": [
+            "位置関係と距離を学ぶ見取り図を説明する"
+          ],
+          "outOfScope": [
+            "直線の位置関係を図と記号から分類する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "line-relation.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-relation.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-relation.map"
+            }
+          ],
+          "existingLessonId": "704f81fc6da64148b4bf0bb899d680af"
+        },
+        {
+          "title": "平行・垂直・交わる直線を見分けよう",
+          "role": "concept",
+          "primarySkillId": "line-relation.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-relation.map"
+          ],
+          "handsOffSkillIds": [
+            "line-relation.concept"
+          ],
+          "inScope": [
+            "直線の位置関係を図と記号から分類する"
+          ],
+          "outOfScope": [
+            "点から直線への最短距離が垂線の長さだと説明する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "line-relation.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-relation.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-relation.concept"
+            }
+          ],
+          "existingLessonId": "261589b178f943ba8c4738701bc10ded"
+        },
+        {
+          "title": "点と直線の距離を垂線で測ろう",
+          "role": "concept",
+          "primarySkillId": "line-relation.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-relation.concept"
+          ],
+          "handsOffSkillIds": [
+            "line-relation.procedure"
+          ],
+          "inScope": [
+            "点から直線への最短距離が垂線の長さだと説明する"
+          ],
+          "outOfScope": [
+            "平行線間の垂線の長さが一定だと使う"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "line-relation.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-relation.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-relation.procedure"
+            }
+          ],
+          "existingLessonId": "496f52da778541a4a669b995b990af77"
+        },
+        {
+          "title": "平行な二直線の距離を確かめよう",
+          "role": "application",
+          "primarySkillId": "line-relation.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-relation.procedure"
+          ],
+          "handsOffSkillIds": [
+            "line-relation.application"
+          ],
+          "inScope": [
+            "平行線間の垂線の長さが一定だと使う"
+          ],
+          "outOfScope": [
+            "見た目の傾きと最短距離の誤解を修正する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "line-relation.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-relation.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-relation.application"
+            }
+          ],
+          "existingLessonId": "af33c41bb500494188e669f91d595adc"
+        },
+        {
+          "title": "位置関係と距離の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "line-relation.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-relation.application"
+          ],
+          "handsOffSkillIds": [
+            "line-relation.mastery"
+          ],
+          "inScope": [
+            "見た目の傾きと最短距離の誤解を修正する"
+          ],
+          "outOfScope": [
+            "次のセクションの新しい中心技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "line-relation.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "line-relation.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "line-relation.mastery"
+            }
+          ],
+          "existingLessonId": "49f6dad4981443778dcd703015a4a107"
+        }
+      ]
+    },
+    {
+      "title": "平行移動",
+      "sectionId": "e8c16e6ed01d4a7981852514722a6aeb",
+      "rationale": "対応点を同じ向き・同じ距離だけ動かし、形・向き・長さ・角が保存されることを段階的に捉える。",
+      "lessons": [
+        {
+          "title": "平行移動を理解しよう",
+          "role": "overview",
+          "primarySkillId": "translation.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "line-relation.mastery"
+          ],
+          "handsOffSkillIds": [
+            "translation.map"
+          ],
+          "inScope": [
+            "平行移動の条件と学ぶ順序を説明する"
+          ],
+          "outOfScope": [
+            "移動を向きと距離の組で表す"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "translation.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "translation.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "translation.map"
+            }
+          ],
+          "existingLessonId": "a4ded8bd816e4c45b59db25b432a16ea"
+        },
+        {
+          "title": "同じ向き・同じ距離を読み取ろう",
+          "role": "concept",
+          "primarySkillId": "translation.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "translation.map"
+          ],
+          "handsOffSkillIds": [
+            "translation.concept"
+          ],
+          "inScope": [
+            "移動を向きと距離の組で表す"
+          ],
+          "outOfScope": [
+            "各頂点を同じベクトルで移して像を作る"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "translation.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "translation.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "translation.concept"
+            }
+          ],
+          "existingLessonId": "c765380fb0964088bc694821d559d878"
+        },
+        {
+          "title": "対応する点を平行移動で作図しよう",
+          "role": "procedure",
+          "primarySkillId": "translation.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "translation.concept"
+          ],
+          "handsOffSkillIds": [
+            "translation.procedure"
+          ],
+          "inScope": [
+            "各頂点を同じベクトルで移して像を作る"
+          ],
+          "outOfScope": [
+            "長さ・角・形・向きの保存を説明する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "translation.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "translation.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "translation.procedure"
+            }
+          ],
+          "existingLessonId": "a25823244a654aefa9ff4eadce17ae1e"
+        },
+        {
+          "title": "平行移動で変わらないものを確かめよう",
+          "role": "application",
+          "primarySkillId": "translation.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "translation.procedure"
+          ],
+          "handsOffSkillIds": [
+            "translation.application"
+          ],
+          "inScope": [
+            "長さ・角・形・向きの保存を説明する"
+          ],
+          "outOfScope": [
+            "点ごとの向きや距離の不一致を修正する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "translation.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "translation.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "translation.application"
+            }
+          ],
+          "existingLessonId": "10490005fc174f8caf53b671aa9d21a0"
+        },
+        {
+          "title": "平行移動の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "translation.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "translation.application"
+          ],
+          "handsOffSkillIds": [
+            "translation.mastery"
+          ],
+          "inScope": [
+            "点ごとの向きや距離の不一致を修正する"
+          ],
+          "outOfScope": [
+            "次のセクションの新しい中心技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "translation.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "translation.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "translation.mastery"
+            }
+          ],
+          "existingLessonId": "e1e3bc41b4c845e69ddc55240d481455"
+        }
+      ]
+    },
+    {
+      "title": "回転移動",
+      "sectionId": "92c5c95e979f4ffab61eed75e117aa13",
+      "rationale": "中心・向き・角度を分け、中心からの距離を保って対応点を作ることで回転の構造を理解する。",
+      "lessons": [
+        {
+          "title": "回転移動を理解しよう",
+          "role": "overview",
+          "primarySkillId": "rotation.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "translation.mastery"
+          ],
+          "handsOffSkillIds": [
+            "rotation.map"
+          ],
+          "inScope": [
+            "回転の中心・向き・角度の役割を説明する"
+          ],
+          "outOfScope": [
+            "図から回転を決める三条件を読む"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "rotation.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "rotation.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "rotation.map"
+            }
+          ],
+          "existingLessonId": "0b3d55f4d46d43c5943d620408fb9029"
+        },
+        {
+          "title": "回転の中心・向き・角度を読み取ろう",
+          "role": "concept",
+          "primarySkillId": "rotation.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "rotation.map"
+          ],
+          "handsOffSkillIds": [
+            "rotation.concept"
+          ],
+          "inScope": [
+            "図から回転を決める三条件を読む"
+          ],
+          "outOfScope": [
+            "中心からの距離と回転角で対応点を作る"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "rotation.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "rotation.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "rotation.concept"
+            }
+          ],
+          "existingLessonId": "060212844fdb4600889e825b73f7e3d0"
+        },
+        {
+          "title": "コンパスで回転後の点を作図しよう",
+          "role": "procedure",
+          "primarySkillId": "rotation.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "rotation.concept"
+          ],
+          "handsOffSkillIds": [
+            "rotation.procedure"
+          ],
+          "inScope": [
+            "中心からの距離と回転角で対応点を作る"
+          ],
+          "outOfScope": [
+            "長さ・角・形が保存されると説明する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "rotation.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "rotation.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "rotation.procedure"
+            }
+          ],
+          "existingLessonId": "c5f658d2dc3b49359b728de661e632f2"
+        },
+        {
+          "title": "回転移動で変わらないものを確かめよう",
+          "role": "application",
+          "primarySkillId": "rotation.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "rotation.procedure"
+          ],
+          "handsOffSkillIds": [
+            "rotation.application"
+          ],
+          "inScope": [
+            "長さ・角・形が保存されると説明する"
+          ],
+          "outOfScope": [
+            "中心・向き・角度の取り違えを修正する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "rotation.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "rotation.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "rotation.application"
+            }
+          ],
+          "existingLessonId": "7f7a6477418443ec94f24f9320a7cae2"
+        },
+        {
+          "title": "回転移動の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "rotation.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "rotation.application"
+          ],
+          "handsOffSkillIds": [
+            "rotation.mastery"
+          ],
+          "inScope": [
+            "中心・向き・角度の取り違えを修正する"
+          ],
+          "outOfScope": [
+            "次のセクションの新しい中心技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "rotation.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "rotation.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "rotation.mastery"
+            }
+          ],
+          "existingLessonId": "6dd5d75ec57546158cdb4b0f15266e0d"
+        }
+      ]
+    },
+    {
+      "title": "対称移動",
+      "sectionId": "9d8842bfbcc645acbe77368ad7c2b53d",
+      "rationale": "対称の軸が対応点を結ぶ線分の垂直二等分線になることを使い、像の作図と保存性へつなげる。",
+      "lessons": [
+        {
+          "title": "対称移動を理解しよう",
+          "role": "overview",
+          "primarySkillId": "reflection.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "rotation.mastery"
+          ],
+          "handsOffSkillIds": [
+            "reflection.map"
+          ],
+          "inScope": [
+            "対称の軸と対応点の関係を説明する"
+          ],
+          "outOfScope": [
+            "軸と対応点を結ぶ線分の関係を説明する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "reflection.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "reflection.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "reflection.map"
+            }
+          ],
+          "existingLessonId": "00fd869ea26a43a7ba35fa85064a4ba2"
+        },
+        {
+          "title": "対称の軸が垂直二等分することを確かめよう",
+          "role": "concept",
+          "primarySkillId": "reflection.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "reflection.map"
+          ],
+          "handsOffSkillIds": [
+            "reflection.concept"
+          ],
+          "inScope": [
+            "軸と対応点を結ぶ線分の関係を説明する"
+          ],
+          "outOfScope": [
+            "軸から等距離の反対側へ対応点を作る"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "reflection.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "reflection.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "reflection.concept"
+            }
+          ],
+          "existingLessonId": "19951078cf4c4443977e918d9149ec5e"
+        },
+        {
+          "title": "対称移動した点と図形を作図しよう",
+          "role": "procedure",
+          "primarySkillId": "reflection.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "reflection.concept"
+          ],
+          "handsOffSkillIds": [
+            "reflection.procedure"
+          ],
+          "inScope": [
+            "軸から等距離の反対側へ対応点を作る"
+          ],
+          "outOfScope": [
+            "向きの反転と長さ・角の保存を区別する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "reflection.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "reflection.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "reflection.procedure"
+            }
+          ],
+          "existingLessonId": "96fdc784e53341be96450dbff2cd4134"
+        },
+        {
+          "title": "対称移動で変わる向きと変わらない形を比べよう",
+          "role": "application",
+          "primarySkillId": "reflection.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "reflection.procedure"
+          ],
+          "handsOffSkillIds": [
+            "reflection.application"
+          ],
+          "inScope": [
+            "向きの反転と長さ・角の保存を区別する"
+          ],
+          "outOfScope": [
+            "垂直・等距離・反対側の条件漏れを修正する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "reflection.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "reflection.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "reflection.application"
+            }
+          ],
+          "existingLessonId": "3b66fbae03fb433ca4da75e6c60880a1"
+        },
+        {
+          "title": "対称移動の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "reflection.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "reflection.application"
+          ],
+          "handsOffSkillIds": [
+            "reflection.mastery"
+          ],
+          "inScope": [
+            "垂直・等距離・反対側の条件漏れを修正する"
+          ],
+          "outOfScope": [
+            "次のセクションの新しい中心技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "reflection.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "reflection.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "reflection.mastery"
+            }
+          ],
+          "existingLessonId": "55ac972b340a4dec87c4114647f67ee4"
+        }
+      ]
+    },
+    {
+      "title": "三つの移動を見分けよう",
+      "sectionId": "5076ca2a92c948afa627ea9d1e020de2",
+      "rationale": "三つの移動を対応点の軌跡と向きの変化で比較し、単独・合成・逆向きの判断へ統合する。",
+      "lessons": [
+        {
+          "title": "三つの移動の見分け方を整理しよう",
+          "role": "overview",
+          "primarySkillId": "transformation-choice.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "reflection.mastery"
+          ],
+          "handsOffSkillIds": [
+            "transformation-choice.map"
+          ],
+          "inScope": [
+            "平行・回転・対称移動の比較軸を説明する"
+          ],
+          "outOfScope": [
+            "対応点の線分・円弧・軸対称から種類を判断する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "transformation-choice.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "transformation-choice.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "transformation-choice.map"
+            }
+          ],
+          "existingLessonId": "57536cc97e7c4382b958997ce3072676"
+        },
+        {
+          "title": "対応点の動きから移動を見分けよう",
+          "role": "concept",
+          "primarySkillId": "transformation-choice.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "transformation-choice.map"
+          ],
+          "handsOffSkillIds": [
+            "transformation-choice.concept"
+          ],
+          "inScope": [
+            "対応点の線分・円弧・軸対称から種類を判断する"
+          ],
+          "outOfScope": [
+            "向きの変化と保存される性質を比較する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "transformation-choice.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "transformation-choice.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "transformation-choice.concept"
+            }
+          ],
+          "existingLessonId": "058742b603ae4fc1b2e588f492b50675"
+        },
+        {
+          "title": "図形の向きと保存性を比較しよう",
+          "role": "application",
+          "primarySkillId": "transformation-choice.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "transformation-choice.concept"
+          ],
+          "handsOffSkillIds": [
+            "transformation-choice.procedure"
+          ],
+          "inScope": [
+            "向きの変化と保存される性質を比較する"
+          ],
+          "outOfScope": [
+            "二つの移動を順番どおり実行して像を求める"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "transformation-choice.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "transformation-choice.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "transformation-choice.procedure"
+            }
+          ],
+          "existingLessonId": "d9024a10c9304487b39331f0342a147f"
+        },
+        {
+          "title": "複数の移動を順番に組み合わせよう",
+          "role": "procedure",
+          "primarySkillId": "transformation-choice.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "transformation-choice.procedure"
+          ],
+          "handsOffSkillIds": [
+            "transformation-choice.application"
+          ],
+          "inScope": [
+            "二つの移動を順番どおり実行して像を求める"
+          ],
+          "outOfScope": [
+            "対応点と向きに合わない移動選択を修正する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "transformation-choice.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "transformation-choice.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "transformation-choice.application"
+            }
+          ],
+          "existingLessonId": "104d6103aa1f4a1f9047034fbce5536d"
+        },
+        {
+          "title": "移動の選択を混合図で診断しよう",
+          "role": "mastery",
+          "primarySkillId": "transformation-choice.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "transformation-choice.application"
+          ],
+          "handsOffSkillIds": [
+            "transformation-choice.mastery"
+          ],
+          "inScope": [
+            "対応点と向きに合わない移動選択を修正する"
+          ],
+          "outOfScope": [
+            "次のセクションの新しい中心技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "transformation-choice.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "transformation-choice.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "transformation-choice.mastery"
+            }
+          ],
+          "existingLessonId": "246316d87878410e8557fe68ab5f90bd"
+        }
+      ]
+    },
+    {
+      "title": "作図とは何をすること？",
+      "sectionId": "52205f6ac2dc4141a0f3431606b5ae6d",
+      "rationale": "測定ではなく性質を再現する作図の意味を押さえ、定規とコンパスの役割、手順の理由説明へつなげる。",
+      "lessons": [
+        {
+          "title": "作図の目的と学ぶ順序をつかもう",
+          "role": "overview",
+          "primarySkillId": "construction-meaning.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "transformation-choice.mastery"
+          ],
+          "handsOffSkillIds": [
+            "construction-meaning.map"
+          ],
+          "inScope": [
+            "作図の目的と学ぶ順序を説明する"
+          ],
+          "outOfScope": [
+            "直線を引く役割と等距離を写す役割を区別する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "construction-meaning.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "construction-meaning.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "construction-meaning.map"
+            }
+          ],
+          "existingLessonId": "7435dda7097f4d5c90d9b299db6727e8"
+        },
+        {
+          "title": "定規とコンパスの役割を区別しよう",
+          "role": "concept",
+          "primarySkillId": "construction-meaning.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "construction-meaning.map"
+          ],
+          "handsOffSkillIds": [
+            "construction-meaning.concept"
+          ],
+          "inScope": [
+            "直線を引く役割と等距離を写す役割を区別する"
+          ],
+          "outOfScope": [
+            "図形の性質で条件を満たす点を作ると説明する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "construction-meaning.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "construction-meaning.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "construction-meaning.concept"
+            }
+          ],
+          "existingLessonId": "4304b812a9694f128ea5c435fd15ff5c"
+        },
+        {
+          "title": "測らずに条件を再現する意味を考えよう",
+          "role": "concept",
+          "primarySkillId": "construction-meaning.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "construction-meaning.concept"
+          ],
+          "handsOffSkillIds": [
+            "construction-meaning.procedure"
+          ],
+          "inScope": [
+            "図形の性質で条件を満たす点を作ると説明する"
+          ],
+          "outOfScope": [
+            "各操作が保証する条件を言葉で記述する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "construction-meaning.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "construction-meaning.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "construction-meaning.procedure"
+            }
+          ],
+          "existingLessonId": "3d6422b1bbef44549befb00e9f94e75e"
+        },
+        {
+          "title": "作図の手順と理由を対にして書こう",
+          "role": "procedure",
+          "primarySkillId": "construction-meaning.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "construction-meaning.procedure"
+          ],
+          "handsOffSkillIds": [
+            "construction-meaning.application"
+          ],
+          "inScope": [
+            "各操作が保証する条件を言葉で記述する"
+          ],
+          "outOfScope": [
+            "目盛測定や根拠のない手順を修正する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "construction-meaning.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "construction-meaning.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "construction-meaning.application"
+            }
+          ],
+          "existingLessonId": "20fdce522c614b78baa2e6a35d1c07d4"
+        },
+        {
+          "title": "作図の考え方の誤答を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "construction-meaning.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "construction-meaning.application"
+          ],
+          "handsOffSkillIds": [
+            "construction-meaning.mastery"
+          ],
+          "inScope": [
+            "目盛測定や根拠のない手順を修正する"
+          ],
+          "outOfScope": [
+            "次のセクションの新しい中心技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "construction-meaning.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "construction-meaning.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "construction-meaning.mastery"
+            }
+          ],
+          "existingLessonId": "82bd24739c554388af8a7303fa5a6c5f"
+        }
+      ]
+    },
+    {
+      "title": "線分の垂直二等分線",
+      "sectionId": "736692a9c6a24d9eacd9ba6e39b020ea",
+      "rationale": "両端から等距離の点の集まりという意味を先に理解し、作図手順・理由・条件問題へ接続する。",
+      "lessons": [
+        {
+          "title": "線分の垂直二等分線を理解しよう",
+          "role": "overview",
+          "primarySkillId": "perp-bisector.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "construction-meaning.mastery"
+          ],
+          "handsOffSkillIds": [
+            "perp-bisector.map"
+          ],
+          "inScope": [
+            "垂直二等分線の意味と用途を説明する"
+          ],
+          "outOfScope": [
+            "垂直二等分線上の点が両端から等距離だと説明する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "perp-bisector.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perp-bisector.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perp-bisector.map"
+            }
+          ],
+          "existingLessonId": "8fda9d25a9a541e4b1599f4d737b2d6d"
+        },
+        {
+          "title": "二点から等距離の点を確かめよう",
+          "role": "concept",
+          "primarySkillId": "perp-bisector.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perp-bisector.map"
+          ],
+          "handsOffSkillIds": [
+            "perp-bisector.concept"
+          ],
+          "inScope": [
+            "垂直二等分線上の点が両端から等距離だと説明する"
+          ],
+          "outOfScope": [
+            "等しい半径の円弧の交点を使って作図する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "perp-bisector.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perp-bisector.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perp-bisector.concept"
+            }
+          ],
+          "existingLessonId": "42c7b73c12454429bc980f68720f0b8a"
+        },
+        {
+          "title": "垂直二等分線をコンパスで作図しよう",
+          "role": "procedure",
+          "primarySkillId": "perp-bisector.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perp-bisector.concept"
+          ],
+          "handsOffSkillIds": [
+            "perp-bisector.procedure"
+          ],
+          "inScope": [
+            "等しい半径の円弧の交点を使って作図する"
+          ],
+          "outOfScope": [
+            "二つの交点が両端から等距離であることから証明する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "perp-bisector.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perp-bisector.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perp-bisector.procedure"
+            }
+          ],
+          "existingLessonId": "b01e45f5649d493dad1fe9099b8f92cb"
+        },
+        {
+          "title": "作図手順が正しい理由を説明しよう",
+          "role": "application",
+          "primarySkillId": "perp-bisector.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perp-bisector.procedure"
+          ],
+          "handsOffSkillIds": [
+            "perp-bisector.application"
+          ],
+          "inScope": [
+            "二つの交点が両端から等距離であることから証明する"
+          ],
+          "outOfScope": [
+            "半径・中心・交点の手順誤りを修正する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "perp-bisector.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perp-bisector.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perp-bisector.application"
+            }
+          ],
+          "existingLessonId": "44477138152240abbd303ce254dde304"
+        },
+        {
+          "title": "垂直二等分線の作図を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "perp-bisector.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perp-bisector.application"
+          ],
+          "handsOffSkillIds": [
+            "perp-bisector.mastery"
+          ],
+          "inScope": [
+            "半径・中心・交点の手順誤りを修正する"
+          ],
+          "outOfScope": [
+            "次のセクションの新しい中心技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "perp-bisector.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perp-bisector.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perp-bisector.mastery"
+            }
+          ],
+          "existingLessonId": "d23da5becb8e40089916dd73a2a18185"
+        }
+      ]
+    },
+    {
+      "title": "角の二等分線",
+      "sectionId": "7d486746407847e89a2475cf5a2b7674",
+      "rationale": "角の二辺から等距離の点という意味を理解し、作図・理由・条件問題へ段階的につなげる。",
+      "lessons": [
+        {
+          "title": "角の二等分線を理解しよう",
+          "role": "overview",
+          "primarySkillId": "angle-bisector.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perp-bisector.mastery"
+          ],
+          "handsOffSkillIds": [
+            "angle-bisector.map"
+          ],
+          "inScope": [
+            "角の二等分線の意味と用途を説明する"
+          ],
+          "outOfScope": [
+            "二等分線上の点と二辺までの距離を対応させる"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "angle-bisector.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "angle-bisector.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "angle-bisector.map"
+            }
+          ],
+          "existingLessonId": "b349e5acaac941b584801f5bf3961077"
+        },
+        {
+          "title": "角の二辺から等距離の点を確かめよう",
+          "role": "concept",
+          "primarySkillId": "angle-bisector.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle-bisector.map"
+          ],
+          "handsOffSkillIds": [
+            "angle-bisector.concept"
+          ],
+          "inScope": [
+            "二等分線上の点と二辺までの距離を対応させる"
+          ],
+          "outOfScope": [
+            "頂点と二辺上の点を使って作図する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "angle-bisector.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "angle-bisector.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "angle-bisector.concept"
+            }
+          ],
+          "existingLessonId": "3f1678b2b662435cb00243a51f99eccd"
+        },
+        {
+          "title": "角の二等分線をコンパスで作図しよう",
+          "role": "procedure",
+          "primarySkillId": "angle-bisector.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle-bisector.concept"
+          ],
+          "handsOffSkillIds": [
+            "angle-bisector.procedure"
+          ],
+          "inScope": [
+            "頂点と二辺上の点を使って作図する"
+          ],
+          "outOfScope": [
+            "合同な三角形の直感を用いて等角を説明する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "angle-bisector.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "angle-bisector.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "angle-bisector.procedure"
+            }
+          ],
+          "existingLessonId": "872da7183abe43c1b9c31bca77c8ccd4"
+        },
+        {
+          "title": "作図した線が角を二等分する理由を説明しよう",
+          "role": "application",
+          "primarySkillId": "angle-bisector.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle-bisector.procedure"
+          ],
+          "handsOffSkillIds": [
+            "angle-bisector.application"
+          ],
+          "inScope": [
+            "合同な三角形の直感を用いて等角を説明する"
+          ],
+          "outOfScope": [
+            "円弧の中心・半径・結ぶ点の誤りを修正する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "angle-bisector.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "angle-bisector.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "angle-bisector.application"
+            }
+          ],
+          "existingLessonId": "7caf520b9edd4e8abadae921b819a21e"
+        },
+        {
+          "title": "角の二等分線の作図を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "angle-bisector.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle-bisector.application"
+          ],
+          "handsOffSkillIds": [
+            "angle-bisector.mastery"
+          ],
+          "inScope": [
+            "円弧の中心・半径・結ぶ点の誤りを修正する"
+          ],
+          "outOfScope": [
+            "次のセクションの新しい中心技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "angle-bisector.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "angle-bisector.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "angle-bisector.mastery"
+            }
+          ],
+          "existingLessonId": "55fc306f4ba74e21b64d848bb79d6e52"
+        }
+      ]
+    },
+    {
+      "title": "垂線を作図しよう",
+      "sectionId": "375770fe459e402bb2f14db98327c9b9",
+      "rationale": "直線上と直線外の二場合を分け、垂直二等分線の原理から垂線作図の理由を説明できるようにする。",
+      "lessons": [
+        {
+          "title": "垂線の二つの作図を整理しよう",
+          "role": "overview",
+          "primarySkillId": "perpendicular-construction.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "angle-bisector.mastery"
+          ],
+          "handsOffSkillIds": [
+            "perpendicular-construction.map"
+          ],
+          "inScope": [
+            "垂線作図の二場合と共通原理を説明する"
+          ],
+          "outOfScope": [
+            "指定点から等距離の二点を作り垂線を引く"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "perpendicular-construction.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perpendicular-construction.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perpendicular-construction.map"
+            }
+          ],
+          "existingLessonId": "47c03cb6009344a2b59b49c49f744235"
+        },
+        {
+          "title": "直線上の点を通る垂線を作図しよう",
+          "role": "procedure",
+          "primarySkillId": "perpendicular-construction.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perpendicular-construction.map"
+          ],
+          "handsOffSkillIds": [
+            "perpendicular-construction.concept"
+          ],
+          "inScope": [
+            "指定点から等距離の二点を作り垂線を引く"
+          ],
+          "outOfScope": [
+            "外部点から直線上の等距離二点を作り垂線を引く"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "perpendicular-construction.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perpendicular-construction.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perpendicular-construction.concept"
+            }
+          ],
+          "existingLessonId": "f09b1772527f49ac9f5fb90242e8724f"
+        },
+        {
+          "title": "直線外の点を通る垂線を作図しよう",
+          "role": "procedure",
+          "primarySkillId": "perpendicular-construction.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perpendicular-construction.concept"
+          ],
+          "handsOffSkillIds": [
+            "perpendicular-construction.procedure"
+          ],
+          "inScope": [
+            "外部点から直線上の等距離二点を作り垂線を引く"
+          ],
+          "outOfScope": [
+            "作図した垂線で点と直線の距離を求める"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "perpendicular-construction.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perpendicular-construction.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perpendicular-construction.procedure"
+            }
+          ],
+          "existingLessonId": "96b512f915f34e4a9118d0267d38b19b"
+        },
+        {
+          "title": "垂線と最短距離を結び付けよう",
+          "role": "application",
+          "primarySkillId": "perpendicular-construction.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perpendicular-construction.procedure"
+          ],
+          "handsOffSkillIds": [
+            "perpendicular-construction.application"
+          ],
+          "inScope": [
+            "作図した垂線で点と直線の距離を求める"
+          ],
+          "outOfScope": [
+            "二場合の手順混同と指定点を通らない誤りを修正する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "perpendicular-construction.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perpendicular-construction.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perpendicular-construction.application"
+            }
+          ],
+          "existingLessonId": "72a3d637654e4a12923bb448bd0533fc"
+        },
+        {
+          "title": "垂線の作図を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "perpendicular-construction.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perpendicular-construction.application"
+          ],
+          "handsOffSkillIds": [
+            "perpendicular-construction.mastery"
+          ],
+          "inScope": [
+            "二場合の手順混同と指定点を通らない誤りを修正する"
+          ],
+          "outOfScope": [
+            "次のセクションの新しい中心技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "perpendicular-construction.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "perpendicular-construction.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "perpendicular-construction.mastery"
+            }
+          ],
+          "existingLessonId": "6d248085c85f4712bfde0d812bcab547"
+        }
+      ]
+    },
+    {
+      "title": "条件を満たす点を作図しよう",
+      "sectionId": "f5f659f14570444d87f1ebc6fdf94713",
+      "rationale": "条件を点の集まりとして読み、基本作図を選び、その交点を求める入試型の判断へ統合する。",
+      "lessons": [
+        {
+          "title": "条件を基本作図へ翻訳しよう",
+          "role": "overview",
+          "primarySkillId": "locus-construction.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "perpendicular-construction.mastery"
+          ],
+          "handsOffSkillIds": [
+            "locus-construction.map"
+          ],
+          "inScope": [
+            "条件から基本作図を選ぶ見取り図を説明する"
+          ],
+          "outOfScope": [
+            "二点等距離の条件を垂直二等分線へ変換する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "locus-construction.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "locus-construction.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "locus-construction.map"
+            }
+          ],
+          "existingLessonId": "c8ac16b8e33f43659405f5ec32f03336"
+        },
+        {
+          "title": "二点から等距離なら垂直二等分線を選ぼう",
+          "role": "concept",
+          "primarySkillId": "locus-construction.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "locus-construction.map"
+          ],
+          "handsOffSkillIds": [
+            "locus-construction.concept"
+          ],
+          "inScope": [
+            "二点等距離の条件を垂直二等分線へ変換する"
+          ],
+          "outOfScope": [
+            "二直線等距離の条件を角の二等分線へ変換する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "locus-construction.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "locus-construction.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "locus-construction.concept"
+            }
+          ],
+          "existingLessonId": "7611f1af3de74d4ca8e0228438fd7376"
+        },
+        {
+          "title": "二直線から等距離なら角の二等分線を選ぼう",
+          "role": "concept",
+          "primarySkillId": "locus-construction.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "locus-construction.concept"
+          ],
+          "handsOffSkillIds": [
+            "locus-construction.procedure"
+          ],
+          "inScope": [
+            "二直線等距離の条件を角の二等分線へ変換する"
+          ],
+          "outOfScope": [
+            "二つの軌跡の交点として目的の点を求める"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "locus-construction.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "locus-construction.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "locus-construction.procedure"
+            }
+          ],
+          "existingLessonId": "d362767c213b4ea781d42449cd38331c"
+        },
+        {
+          "title": "二つの条件の交点を作図しよう",
+          "role": "application",
+          "primarySkillId": "locus-construction.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "locus-construction.procedure"
+          ],
+          "handsOffSkillIds": [
+            "locus-construction.application"
+          ],
+          "inScope": [
+            "二つの軌跡の交点として目的の点を求める"
+          ],
+          "outOfScope": [
+            "条件と基本作図の不一致や交点漏れを修正する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "locus-construction.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "locus-construction.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "locus-construction.application"
+            }
+          ],
+          "existingLessonId": "2a1b333c36c245d19484ecf7255b7f6c"
+        },
+        {
+          "title": "条件作図の選択を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "locus-construction.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "locus-construction.application"
+          ],
+          "handsOffSkillIds": [
+            "locus-construction.mastery"
+          ],
+          "inScope": [
+            "条件と基本作図の不一致や交点漏れを修正する"
+          ],
+          "outOfScope": [
+            "次のセクションの新しい中心技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "locus-construction.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "locus-construction.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "locus-construction.mastery"
+            }
+          ],
+          "existingLessonId": "bf372f918843437aa0f77049a3ccf8fe"
+        }
+      ]
+    },
+    {
+      "title": "円とおうぎ形",
+      "sectionId": "3ea8228df3b74c82a991a8cc14282cc1",
+      "rationale": "円の部位を図と用語で対応させ、中心角・弧・おうぎ形の関係を比例計算の前提として整える。",
+      "lessons": [
+        {
+          "title": "円とおうぎ形を理解しよう",
+          "role": "overview",
+          "primarySkillId": "circle-sector.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "locus-construction.mastery"
+          ],
+          "handsOffSkillIds": [
+            "circle-sector.map"
+          ],
+          "inScope": [
+            "円とおうぎ形の用語を学ぶ見取り図を説明する"
+          ],
+          "outOfScope": [
+            "線分の位置と端点から円の部位を見分ける"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "circle-sector.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "circle-sector.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "circle-sector.map"
+            }
+          ],
+          "existingLessonId": "7751038cfb2f4549bb871bf88d9330ca"
+        },
+        {
+          "title": "中心・半径・直径・弦を見分けよう",
+          "role": "concept",
+          "primarySkillId": "circle-sector.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "circle-sector.map"
+          ],
+          "handsOffSkillIds": [
+            "circle-sector.concept"
+          ],
+          "inScope": [
+            "線分の位置と端点から円の部位を見分ける"
+          ],
+          "outOfScope": [
+            "同じ二半径で弧・中心角・おうぎ形を対応させる"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "circle-sector.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "circle-sector.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "circle-sector.concept"
+            }
+          ],
+          "existingLessonId": "900561e96359460bb9af7dd38853cc77"
+        },
+        {
+          "title": "弧・中心角・おうぎ形を対応させよう",
+          "role": "concept",
+          "primarySkillId": "circle-sector.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "circle-sector.concept"
+          ],
+          "handsOffSkillIds": [
+            "circle-sector.procedure"
+          ],
+          "inScope": [
+            "同じ二半径で弧・中心角・おうぎ形を対応させる"
+          ],
+          "outOfScope": [
+            "複合図から指定された弦・弧・中心角を読む"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "circle-sector.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "circle-sector.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "circle-sector.procedure"
+            }
+          ],
+          "existingLessonId": "080d4ab9af1b43cb985b643abc5a52b1"
+        },
+        {
+          "title": "円の用語を図と記号で読み取ろう",
+          "role": "application",
+          "primarySkillId": "circle-sector.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "circle-sector.procedure"
+          ],
+          "handsOffSkillIds": [
+            "circle-sector.application"
+          ],
+          "inScope": [
+            "複合図から指定された弦・弧・中心角を読む"
+          ],
+          "outOfScope": [
+            "半径・弦・弧・中心角の取り違えを修正する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "circle-sector.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "circle-sector.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "circle-sector.application"
+            }
+          ],
+          "existingLessonId": "5e85a3c0f7d542ea925ed14d45c0d6f8"
+        },
+        {
+          "title": "円とおうぎ形の用語を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "circle-sector.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "circle-sector.application"
+          ],
+          "handsOffSkillIds": [
+            "circle-sector.mastery"
+          ],
+          "inScope": [
+            "半径・弦・弧・中心角の取り違えを修正する"
+          ],
+          "outOfScope": [
+            "次のセクションの新しい中心技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "circle-sector.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "circle-sector.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "circle-sector.mastery"
+            }
+          ],
+          "existingLessonId": "b7f73e05aadf4e2c8651d7f1e7fb671d"
+        }
+      ]
+    },
+    {
+      "title": "弧の長さとおうぎ形の面積",
+      "sectionId": "ee633eb30ec048918455db98b12955d9",
+      "rationale": "中心角を360度に対する割合として捉え、弧長と面積の公式を意味から使い、逆算や混合問題へ進む。",
+      "lessons": [
+        {
+          "title": "弧の長さとおうぎ形の面積を理解しよう",
+          "role": "overview",
+          "primarySkillId": "sector-measure.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "circle-sector.mastery"
+          ],
+          "handsOffSkillIds": [
+            "sector-measure.map"
+          ],
+          "inScope": [
+            "中心角の割合で求める見取り図を説明する"
+          ],
+          "outOfScope": [
+            "中心角を360度に対する分数へ直す"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "sector-measure.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "sector-measure.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "sector-measure.map"
+            }
+          ],
+          "existingLessonId": "d235d783af0f4174ab6c6f9782b2e91b"
+        },
+        {
+          "title": "中心角を円全体の割合で表そう",
+          "role": "concept",
+          "primarySkillId": "sector-measure.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "sector-measure.map"
+          ],
+          "handsOffSkillIds": [
+            "sector-measure.concept"
+          ],
+          "inScope": [
+            "中心角を360度に対する分数へ直す"
+          ],
+          "outOfScope": [
+            "円周に中心角の割合を掛けて弧長を求める"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "sector-measure.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "sector-measure.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "sector-measure.concept"
+            }
+          ],
+          "existingLessonId": "2eb300f92951458a945f4f0150848cb8"
+        },
+        {
+          "title": "弧の長さを求めよう",
+          "role": "procedure",
+          "primarySkillId": "sector-measure.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "sector-measure.concept"
+          ],
+          "handsOffSkillIds": [
+            "sector-measure.procedure"
+          ],
+          "inScope": [
+            "円周に中心角の割合を掛けて弧長を求める"
+          ],
+          "outOfScope": [
+            "円の面積に中心角の割合を掛けて面積を求める"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "sector-measure.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "sector-measure.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "sector-measure.procedure"
+            }
+          ],
+          "existingLessonId": "a8fec19f1230449daa4e8fb72a290700"
+        },
+        {
+          "title": "おうぎ形の面積を求めよう",
+          "role": "procedure",
+          "primarySkillId": "sector-measure.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "sector-measure.procedure"
+          ],
+          "handsOffSkillIds": [
+            "sector-measure.application"
+          ],
+          "inScope": [
+            "円の面積に中心角の割合を掛けて面積を求める"
+          ],
+          "outOfScope": [
+            "半径・直径・割合・単位の誤りを修正する"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "sector-measure.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "sector-measure.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "sector-measure.application"
+            }
+          ],
+          "existingLessonId": "2aa544a43b634b05bd8387bba52e15e9"
+        },
+        {
+          "title": "弧とおうぎ形の計算を診断しよう",
+          "role": "mastery",
+          "primarySkillId": "sector-measure.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "sector-measure.application"
+          ],
+          "handsOffSkillIds": [
+            "sector-measure.mastery"
+          ],
+          "inScope": [
+            "半径・直径・割合・単位の誤りを修正する"
+          ],
+          "outOfScope": [
+            "次のセクションの新しい中心技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "sector-measure.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "sector-measure.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "sector-measure.mastery"
+            }
+          ],
+          "existingLessonId": "204266c969a84a3fb2093ab46e4277b6"
+        }
+      ]
+    },
+    {
+      "title": "平面図形・作図マスターチェック",
+      "sectionId": "6bac769ebfda4c75a7f35e30dc1cab38",
+      "rationale": "用語・移動・作図・円の計算を混合し、条件を読む力、方法選択、理由説明、復習計画をコース出口で確認する。",
+      "lessons": [
+        {
+          "title": "平面図形・作図を総合確認しよう",
+          "role": "overview",
+          "primarySkillId": "plane-geometry-mastery.map",
+          "positionInSection": 1,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "sector-measure.mastery"
+          ],
+          "handsOffSkillIds": [
+            "plane-geometry-mastery.map"
+          ],
+          "inScope": [
+            "コース全体の技能と弱点の戻り先を説明する"
+          ],
+          "outOfScope": [
+            "対応点と保存性から移動を選び説明する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "plane-geometry-mastery.map.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-geometry-mastery.map"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-geometry-mastery.map"
+            }
+          ],
+          "existingLessonId": "9e0cf3fdc0384b319b4dbd1b55d3ae12"
+        },
+        {
+          "title": "三つの移動を入試図で見分けよう",
+          "role": "application",
+          "primarySkillId": "plane-geometry-mastery.concept",
+          "positionInSection": 2,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-geometry-mastery.map"
+          ],
+          "handsOffSkillIds": [
+            "plane-geometry-mastery.concept"
+          ],
+          "inScope": [
+            "対応点と保存性から移動を選び説明する"
+          ],
+          "outOfScope": [
+            "条件から作図を選び手順と理由を記述する"
+          ],
+          "estimatedMinutes": 7,
+          "misconceptionIds": [
+            "plane-geometry-mastery.concept.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-geometry-mastery.concept"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-geometry-mastery.concept"
+            }
+          ],
+          "existingLessonId": "7909e2186e4c41b9856e1991d2dd0c1e"
+        },
+        {
+          "title": "条件に合う基本作図を選んで説明しよう",
+          "role": "application",
+          "primarySkillId": "plane-geometry-mastery.procedure",
+          "positionInSection": 3,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-geometry-mastery.concept"
+          ],
+          "handsOffSkillIds": [
+            "plane-geometry-mastery.procedure"
+          ],
+          "inScope": [
+            "条件から作図を選び手順と理由を記述する"
+          ],
+          "outOfScope": [
+            "図の読解と比例計算を組み合わせる"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "plane-geometry-mastery.procedure.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-geometry-mastery.procedure"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-geometry-mastery.procedure"
+            }
+          ],
+          "existingLessonId": "4094dce3131e4751bd598c457b7cba08"
+        },
+        {
+          "title": "円とおうぎ形の入試問題に挑戦しよう",
+          "role": "application",
+          "primarySkillId": "plane-geometry-mastery.application",
+          "positionInSection": 4,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-geometry-mastery.procedure"
+          ],
+          "handsOffSkillIds": [
+            "plane-geometry-mastery.application"
+          ],
+          "inScope": [
+            "図の読解と比例計算を組み合わせる"
+          ],
+          "outOfScope": [
+            "弱点別の戻り先と復習日程を決める"
+          ],
+          "estimatedMinutes": 8,
+          "misconceptionIds": [
+            "plane-geometry-mastery.application.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-geometry-mastery.application"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-geometry-mastery.application"
+            }
+          ],
+          "existingLessonId": "2998eb38aa004ddf8c7555ea29154940"
+        },
+        {
+          "title": "間隔反復で平面図形・作図を固めよう",
+          "role": "mastery",
+          "primarySkillId": "plane-geometry-mastery.mastery",
+          "positionInSection": 5,
+          "lessonCountInSection": 5,
+          "receivesSkillIds": [
+            "plane-geometry-mastery.application"
+          ],
+          "handsOffSkillIds": [
+            "plane-geometry-mastery.mastery"
+          ],
+          "inScope": [
+            "弱点別の戻り先と復習日程を決める"
+          ],
+          "outOfScope": [
+            "次のセクションの新しい中心技能"
+          ],
+          "estimatedMinutes": 9,
+          "misconceptionIds": [
+            "plane-geometry-mastery.mastery.typical-error"
+          ],
+          "quiz": [
+            {
+              "questionId": "q1",
+              "type": "direct",
+              "skillId": "plane-geometry-mastery.mastery"
+            },
+            {
+              "questionId": "q2",
+              "type": "misconception",
+              "skillId": "plane-geometry-mastery.mastery"
+            }
+          ],
+          "existingLessonId": "f6eed9ed98fb4e4abc36f73cf29c5446"
+        }
+      ]
+    }
+  ]
+}

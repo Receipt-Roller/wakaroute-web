@@ -1,213 +1,51 @@
 @{
-    ViewData["Title"] = "高校受験の学習コーチ";
+    ViewData["Title"] = "ワカルートとは";
+    ViewData["Description"] = "高校受験の学びを細かく整理し、一人ひとりの次の一歩を示すワカルートについて説明します。";
 }
 
-<section class="hero">
-    <div class="shell hero-grid">
-        <div class="hero-copy">
-            <div class="eyebrow"><span></span>高校受験のための学習コーチ</div>
-            <h1>わからないを見つけて、<br /><em>合格まで導く。</em></h1>
-            <p class="hero-lead">ワカルートは、苦手を小さな要素に分けて、本当のつまずきを発見。志望校と残り時間に合わせて、今日やるべき学習を一つずつ案内します。</p>
-            <div class="hero-actions">
-                <a class="button button-primary" href="#how-it-works">
-                    学習のしくみを見る
-                    <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg>
-                </a>
-                <a class="button button-quiet" asp-controller="Home" asp-action="ForParents">保護者の方へ</a>
-            </div>
-            <div class="hero-points" aria-label="サービスの特徴">
-                <span><svg viewBox="0 0 20 20"><path d="m5 10 3 3 7-7" /></svg>5教科の理解を整理</span>
-                <span><svg viewBox="0 0 20 20"><path d="m5 10 3 3 7-7" /></svg>一人ひとりに学習ルート</span>
-            </div>
-        </div>
+<section class="legal-page">
+    <div class="shell legal-shell">
+        <header class="legal-header">
+            <div class="eyebrow"><span></span>ABOUT WAKAROUTE</div>
+            <h1>ワカルートとは</h1>
+            <p>高校受験までに学ぶことを細かく分け、今できることと、次に取り組むことを分かりやすくする学習サービスです。</p>
+            <small>最終改定日：2026年8月4日</small>
+        </header>
 
-        <div class="hero-visual" aria-label="ワカルートの学習画面イメージ" data-hero-visual>
-            <div class="orbit orbit-one"></div>
-            <div class="orbit orbit-two"></div>
-            <div class="dashboard-card">
-                <div class="dashboard-top">
-                    <div>
-                        <span class="dashboard-label">今日のルート</span>
-                        <strong>あと 3 ステップ</strong>
-                    </div>
-                    <div class="progress-ring" aria-label="今日の学習進捗 64パーセント" data-progress-ring data-progress-value="64"><span><b data-progress-number>64</b><small>%</small></span></div>
-                </div>
-                <div class="route-line">
-                    <div class="route-step is-done" data-route-step>
-                        <span class="route-node"><svg viewBox="0 0 20 20"><path d="m5 10 3 3 7-7" /></svg></span>
-                        <div><small>完了</small><strong>一次関数の基本</strong></div>
-                        <span class="step-time">12分</span>
-                    </div>
-                    <div class="route-step is-current" data-route-step>
-                        <span class="route-node">2</span>
-                        <div><small>いまここ</small><strong>グラフから式をつくる</strong></div>
-                        <span class="step-time">15分</span>
-                    </div>
-                    <div class="route-step" data-route-step>
-                        <span class="route-node">3</span>
-                        <div><small>つぎに</small><strong>文章題で確かめる</strong></div>
-                        <span class="step-time">10分</span>
-                    </div>
-                </div>
-                <div class="dashboard-note" data-dashboard-note>
-                    <span class="note-icon">!</span>
-                    <p><strong>つまずきを発見</strong>「変化の割合」の理解をもう一度確認すると、次へ進みやすくなります。</p>
-                </div>
-            </div>
-            <div class="floating-chip chip-top" data-parallax-chip="forward"><span>英語</span>長文読解 <strong>+12</strong></div>
-            <div class="floating-chip chip-bottom" data-parallax-chip="reverse"><svg viewBox="0 0 20 20"><path d="m5 10 3 3 7-7" /></svg>今日も一歩前進！</div>
+        <div class="legal-content">
+            <section>
+                <h2>高校受験までの道を見えるようにする</h2>
+                <p>「数学が苦手」のような大きな言葉だけでは、どこから学び直せばよいか分からないことがあります。ワカルートは、教科や単元を、理解する必要がある小さな項目に分けます。</p>
+                <p>問題への解答や学習の記録から、できること、まだ確かめたいこと、先に戻って学ぶことを整理し、一人ひとりに合う次の一歩を示します。</p>
+            </section>
+            <section>
+                <h2>ワカルートでできること</h2>
+                <ul>
+                    <li>高校の特徴や入試情報を調べ、志望校の候補を考える</li>
+                    <li>教科ごとの理解を、単元より細かな項目で確かめる</li>
+                    <li>つまずいた理由に合わせて、必要なところまで戻る</li>
+                    <li>志望校、理解状況、入試までの時間に合わせて学習の順番を考える</li>
+                    <li>一度できた内容を時間を空けて確かめ、入試で使える力につなげる</li>
+                </ul>
+            </section>
+            <section>
+                <h2>大切にしていること</h2>
+                <p>勉強した時間や問題の数だけでなく、「何ができるようになったか」を大切にします。不正解は責めるものではなく、次にどこを確かめるかを知るための手がかりとして扱います。</p>
+                <p>利用する本人が、自分の現在地と次の一歩を理解できる言葉で伝えます。保護者には、監視ではなく、努力を認めて必要なときに支えるための情報を届けることを目指します。</p>
+            </section>
+            <section>
+                <h2>できないこと</h2>
+                <p>ワカルートは、学校や塾の先生、保護者に代わるものではありません。また、表示される学習ルートや判定によって、成績の向上や特定の高校への合格を保証するものではありません。</p>
+                <p>高校や入試の情報は公式情報を確認して整理しますが、公開後に変更される場合があります。出願や進路を決める前に、必ず高校や教育委員会の公式ページで最新情報を確認してください。</p>
+            </section>
+            <section>
+                <h2>現在の提供状況</h2>
+                <p>ワカルートは正式提供に向けて開発中です。画面に表示されていても、利用できない機能や、内容を整備している途中の教科・地域があります。</p>
+            </section>
+            <section>
+                <h2>運営者とお問い合わせ</h2>
+                <p>ワカルートは株式会社レシートローラーが運営しています。お問い合わせは <a href="mailto:support@wakaroute.com">support@wakaroute.com</a> へご連絡ください。会社サイトは <a href="https://receiptroller.co" target="_blank" rel="noopener noreferrer">receiptroller.co</a> です。</p>
+            </section>
         </div>
-    </div>
-</section>
-
-<section class="truth-strip" aria-label="ワカルートが大切にすること">
-    <div class="shell truth-grid">
-        <p>勉強時間だけではなく、<br /><strong>「何ができるようになったか」</strong>を大切に。</p>
-        <div class="truth-items">
-            <span><b>01</b>つまずきを発見</span>
-            <span><b>02</b>順番に理解</span>
-            <span><b>03</b>入試で使える力へ</span>
-        </div>
-    </div>
-</section>
-
-<section class="section section-intro" id="why">
-    <div class="shell">
-        <div class="section-heading centered">
-            <div class="eyebrow"><span></span>WHY WAKAROUTE?</div>
-            <h2>「苦手」には、<br />ちゃんと理由がある。</h2>
-            <p>問題をたくさん解くだけでは、同じところでまたつまずくことがあります。ワカルートは、正解・不正解の奥にある原因まで見つけます。</p>
-        </div>
-
-        <div class="compare-grid">
-            <article class="compare-card muted-card">
-                <span class="card-kicker">よくある勉強</span>
-                <h3>「一次関数が苦手」で<br />終わってしまう</h3>
-                <div class="tangled-path" aria-hidden="true">
-                    <span>公式</span><span>グラフ</span><span>文章題</span><span>計算</span>
-                    <svg viewBox="0 0 380 130"><path d="M38 67c55-90 99 85 155 0s105 74 151-9" /><path d="M38 67c50 73 108-74 158 5s96-73 148-14" /></svg>
-                </div>
-                <p>どこから復習すればよいかわからず、問題を繰り返すだけになりがち。</p>
-            </article>
-
-            <article class="compare-card route-card">
-                <span class="card-kicker">ワカルートの勉強</span>
-                <h3>できない理由を分けて、<br />戻る場所がわかる</h3>
-                <div class="clear-path" aria-hidden="true">
-                    <div><span class="mini-node done">✓</span><small>計算</small></div>
-                    <i></i>
-                    <div><span class="mini-node current">2</span><small>傾き</small></div>
-                    <i></i>
-                    <div><span class="mini-node">3</span><small>式とグラフ</small></div>
-                    <i></i>
-                    <div><span class="mini-node">4</span><small>文章題</small></div>
-                </div>
-                <p>前提となる力まで戻り、理解できたことを確認してから次へ進みます。</p>
-            </article>
-        </div>
-    </div>
-</section>
-
-<section class="section process-section" id="how-it-works">
-    <div class="shell">
-        <div class="section-heading split-heading">
-            <div>
-                <div class="eyebrow light"><span></span>HOW IT WORKS</div>
-                <h2>合格まで迷わない、<br />3つのステップ。</h2>
-            </div>
-            <p>志望校と今の実力の差を、ただの偏差値ではなく「身につけるべき力」に変換します。</p>
-        </div>
-
-        <div class="process-grid">
-            <article class="process-card">
-                <span class="process-number">01</span>
-                <div class="process-icon">
-                    <svg viewBox="0 0 48 48"><circle cx="21" cy="21" r="11" /><path d="m29 29 8 8M17 21l3 3 6-7" /></svg>
-                </div>
-                <h3>つまずきを見つける</h3>
-                <p>短い診断と日々の解答から、単元名だけでは見えない理解の穴を特定します。</p>
-            </article>
-            <article class="process-card featured">
-                <span class="process-number">02</span>
-                <div class="process-icon">
-                    <svg viewBox="0 0 48 48"><path d="M10 36V13l11 7 8-7 9 6v23l-9-6-8 7-11-7Z" /><path d="M21 20v23M29 13v23" /></svg>
-                </div>
-                <h3>自分だけのルートをつくる</h3>
-                <p>志望校、残り日数、得意・苦手に合わせて、優先する学習を毎日組み立てます。</p>
-            </article>
-            <article class="process-card">
-                <span class="process-number">03</span>
-                <div class="process-icon">
-                    <svg viewBox="0 0 48 48"><path d="M9 37h30M13 37V24h8v13M27 37V17h8v20" /><path d="m12 18 9-7 7 5 9-9" /></svg>
-                </div>
-                <h3>できるまで確かめる</h3>
-                <p>基本、応用、時間制限のある問題へ。入試本番で使える力になるまで確認します。</p>
-            </article>
-        </div>
-    </div>
-</section>
-
-<section class="section feature-section">
-    <div class="shell feature-grid">
-        <div class="feature-visual">
-            <div class="map-card" data-learning-map aria-label="数学の理解マップ。項目を選ぶと、次に確認する内容が変わります。">
-                <div class="map-card-head"><span>数学の理解マップ</span><b>中学2年</b></div>
-                <p class="map-card-hint">項目を選ぶと、次の一歩が変わります</p>
-                <button class="skill-row" type="button" data-recommendation="連立方程式の文章題で、計算を使えるか確かめよう" aria-pressed="false"><span>式の計算</span><span class="skill-meter" aria-hidden="true"><i style="--skill-progress:92%"></i></span><b>92%</b></button>
-                <button class="skill-row" type="button" data-recommendation="代入法と加減法の使い分けを確認しよう" aria-pressed="false"><span>連立方程式</span><span class="skill-meter" aria-hidden="true"><i style="--skill-progress:78%"></i></span><b>78%</b></button>
-                <button class="skill-row focus" type="button" data-recommendation="一次関数の「傾き」から確認しよう" aria-pressed="true"><span>一次関数</span><span class="skill-meter" aria-hidden="true"><i style="--skill-progress:46%"></i></span><b>46%</b></button>
-                <button class="skill-row" type="button" data-recommendation="根拠を言葉にしながら、証明の流れを確認しよう" aria-pressed="false"><span>図形の性質</span><span class="skill-meter" aria-hidden="true"><i style="--skill-progress:71%"></i></span><b>71%</b></button>
-                <button class="skill-row" type="button" data-recommendation="樹形図を使って、数え漏れがないか確かめよう" aria-pressed="false"><span>確率</span><span class="skill-meter" aria-hidden="true"><i style="--skill-progress:85%"></i></span><b>85%</b></button>
-                <div class="map-message"><span>次の一歩</span><p data-learning-map-message aria-live="polite">一次関数の「傾き」から確認しよう</p></div>
-            </div>
-        </div>
-        <div class="feature-copy">
-            <div class="eyebrow"><span></span>LEARNING MAP</div>
-            <h2>がんばりを、<br />理解の地図にする。</h2>
-            <p>「何時間勉強したか」だけでなく、どの力が身につき、どこに助けが必要なのかを見えるようにします。</p>
-            <ul class="check-list">
-                <li><span>✓</span><div><strong>できることが見える</strong><small>成長が具体的にわかるから、次の一歩を踏み出せます。</small></div></li>
-                <li><span>✓</span><div><strong>復習のタイミングがわかる</strong><small>忘れかけたころに、必要な内容をもう一度確認します。</small></div></li>
-                <li><span>✓</span><div><strong>優先順位がわかる</strong><small>限られた時間を、得点につながる学習から使えます。</small></div></li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<section class="section parents-section" id="for-parents">
-    <div class="shell parents-grid">
-        <div class="parents-copy">
-            <div class="eyebrow"><span></span>FOR PARENTS</div>
-            <h2>見守るために必要なことを、<br />わかりやすく。</h2>
-            <p>学習時間だけでは、お子さまの頑張りや悩みは見えにくいもの。ワカルートは、理解の変化と今週の取り組みを整理してお伝えします。</p>
-            <div class="parent-benefits">
-                <div><span>01</span><p><strong>今週の成長</strong>できるようになった内容を確認</p></div>
-                <div><span>02</span><p><strong>学習の進み具合</strong>志望校までの現在地を確認</p></div>
-                <div><span>03</span><p><strong>必要なサポート</strong>見守り方のヒントをお知らせ</p></div>
-            </div>
-            <a class="text-link" asp-controller="Home" asp-action="ForParents">保護者向けの詳しいご案内を見る <span aria-hidden="true">→</span></a>
-        </div>
-        <div class="report-card" aria-label="保護者向けレポート画面イメージ">
-            <div class="report-head"><div><small>今週の学習レポート</small><strong>7月27日 — 8月2日</strong></div><span>保護者用</span></div>
-            <div class="report-summary">
-                <div class="weekly-ring"><span><b>5</b><small>日学習</small></span></div>
-                <div><small>今週できるようになったこと</small><strong>12<span>項目</span></strong><p>先週より <b>+4項目</b></p></div>
-            </div>
-            <div class="report-box">
-                <span class="report-icon">↗</span>
-                <div><strong>数学が一歩前進しました</strong><p>一次関数のグラフを読み取る力が安定してきました。</p></div>
-            </div>
-            <div class="report-quote">「今週は毎日少しずつ進められています。結果だけでなく、取り組みを認めてあげましょう。」</div>
-        </div>
-    </div>
-</section>
-
-<section class="final-cta" id="coming-soon">
-    <div class="shell final-cta-inner">
-        <div class="cta-route" aria-hidden="true"><i></i><span></span><i></i><span></span><i></i></div>
-        <div class="eyebrow light centered-eyebrow"><span></span>COMING SOON<span></span></div>
-        <h2>理解をひとつずつ、<br />合格へ。</h2>
-        <p>ワカルートは現在、高校受験に向けて頑張る中学生とご家族のために開発中です。</p>
-        <a class="button button-light" href="#why">ワカルートについて知る<svg viewBox="0 0 20 20"><path d="M4 10h11M11 6l4 4-4 4" /></svg></a>
     </div>
 </section>
