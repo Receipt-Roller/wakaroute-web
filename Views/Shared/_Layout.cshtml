@@ -1,5 +1,7 @@
 @inject Microsoft.AspNetCore.Routing.LinkGenerator LinkGenerator
 @inject Microsoft.Extensions.Configuration.IConfiguration Configuration
+@using System.Text.Json
+@using wakaroute_web.Models
 @{
     var pageTitle = ViewData["Title"]?.ToString() ?? "高校受験の学習コーチ";
     var pageDescription = ViewData["Description"]?.ToString()
@@ -11,6 +13,51 @@
     var siteBaseUrl = (Configuration["Site:BaseUrl"] ?? "https://wakaroute.com").TrimEnd('/');
     var canonicalUrl = $"{siteBaseUrl}{canonicalPath}";
     var fullPageTitle = $"{pageTitle} | ワカルート";
+    var robots = ViewData["Robots"]?.ToString();
+    var socialImageUrl = $"{siteBaseUrl}/images/wakaroute-app-icon.jpg";
+    var structuredDataGraph = new List<object>
+    {
+        new Dictionary<string, object?>
+        {
+            ["@type"] = "Organization",
+            ["@id"] = $"{siteBaseUrl}/#organization",
+            ["name"] = "株式会社レシートローラー",
+            ["url"] = $"{siteBaseUrl}/company",
+            ["logo"] = socialImageUrl
+        },
+        new Dictionary<string, object?>
+        {
+            ["@type"] = "WebSite",
+            ["@id"] = $"{siteBaseUrl}/#website",
+            ["name"] = "ワカルート",
+            ["url"] = $"{siteBaseUrl}/",
+            ["inLanguage"] = "ja-JP",
+            ["publisher"] = new Dictionary<string, object?> { ["@id"] = $"{siteBaseUrl}/#organization" }
+        }
+    };
+    if (ViewData["Breadcrumbs"] is IReadOnlyList<SeoBreadcrumb> breadcrumbs && breadcrumbs.Count > 0)
+    {
+        structuredDataGraph.Add(new Dictionary<string, object?>
+        {
+            ["@type"] = "BreadcrumbList",
+            ["itemListElement"] = breadcrumbs.Select((breadcrumb, index) => new Dictionary<string, object?>
+            {
+                ["@type"] = "ListItem",
+                ["position"] = index + 1,
+                ["name"] = breadcrumb.Name,
+                ["item"] = $"{siteBaseUrl}{breadcrumb.Path}"
+            }).ToArray()
+        });
+    }
+    if (ViewData["StructuredData"] is IEnumerable<object> pageStructuredData)
+    {
+        structuredDataGraph.AddRange(pageStructuredData);
+    }
+    var structuredDataJson = JsonSerializer.Serialize(new Dictionary<string, object?>
+    {
+        ["@context"] = "https://schema.org",
+        ["@graph"] = structuredDataGraph
+    });
 }
 <!DOCTYPE html>
 <html lang="ja">
@@ -18,6 +65,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="@pageDescription" />
+    @if (!string.IsNullOrWhiteSpace(robots))
+    {
+        <meta name="robots" content="@robots" />
+    }
     <meta name="theme-color" content="#173f3a" />
     <link rel="canonical" href="@canonicalUrl" />
     <meta property="og:locale" content="ja_JP" />
@@ -26,10 +77,14 @@
     <meta property="og:title" content="@fullPageTitle" />
     <meta property="og:description" content="@pageDescription" />
     <meta property="og:url" content="@canonicalUrl" />
+    <meta property="og:image" content="@socialImageUrl" />
+    <meta property="og:image:alt" content="ワカルートのアプリアイコン" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="@fullPageTitle" />
     <meta name="twitter:description" content="@pageDescription" />
+    <meta name="twitter:image" content="@socialImageUrl" />
     <title>@fullPageTitle</title>
+    <script type="application/ld+json">@Html.Raw(structuredDataJson)</script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LQ03Y8487B"></script>
     <script>
@@ -99,13 +154,36 @@
                     <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 5h8v8M15 5l-9 9" /></svg>
                     <span class="sr-only">（新しいタブで開きます）</span>
                 </a>
-                <a class="footer-repository-link" href="https://github.com/Receipt-Roller/wakaroute-web" target="_blank" rel="noopener noreferrer">
-                    <svg viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M12 .7a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.2.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.4 3.6 1 .1-.8.4-1.4.8-1.7-2.7-.3-5.5-1.3-5.5-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C14.5 5 15.5 5 15.5 5c.6 1.5.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.8 5.4-5.5 5.7.4.4.8 1.1.8 2.1v3.5c0 .4.2.7.8.6A11.5 11.5 0 0 0 12 .7Z" />
-                    </svg>
-                    <span>GitHubでソースを見る</span>
-                    <span class="sr-only">（新しいタブで開きます）</span>
-                </a>
+                <div class="footer-resource-links" aria-label="ワカルートの関連リンク">
+                    <a class="footer-resource-link" href="https://podcasts.apple.com/us/podcast/高校受験の学習コーチの「ワカルート」/id6801457019" target="_blank" rel="noopener noreferrer">
+                        <svg class="footer-resource-icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="12" cy="9" r="2.5" /><path d="M8.4 15.8a6 6 0 1 1 7.2 0M10 13.2a4 4 0 1 1 4 0M10.5 16.5h3l.8 5h-4.6l.8-5Z" />
+                        </svg>
+                        <span>Apple Podcastsで聴く</span>
+                        <span class="sr-only">（新しいタブで開きます）</span>
+                    </a>
+                    <a class="footer-resource-link" href="https://open.spotify.com/show/0346TyJvhQVBGsKk8T0gyA?si=i9LA1ToWT1Kf7NvpvrvHtw" target="_blank" rel="noopener noreferrer">
+                        <svg class="footer-resource-icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="12" cy="12" r="9" /><path d="M7.5 10a13 13 0 0 1 9.4.8M8.2 13a10.6 10.6 0 0 1 8 .7M8.8 16a8 8 0 0 1 6.4.5" />
+                        </svg>
+                        <span>Spotifyで聴く</span>
+                        <span class="sr-only">（新しいタブで開きます）</span>
+                    </a>
+                    <a class="footer-resource-link" href="https://github.com/Receipt-Roller/wakaroute-web" target="_blank" rel="noopener noreferrer">
+                        <svg class="footer-github-icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 .7a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.2.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.4 3.6 1 .1-.8.4-1.4.8-1.7-2.7-.3-5.5-1.3-5.5-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C14.5 5 15.5 5 15.5 5c.6 1.5.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.8 5.4-5.5 5.7.4.4.8 1.1.8 2.1v3.5c0 .4.2.7.8.6A11.5 11.5 0 0 0 12 .7Z" />
+                        </svg>
+                        <span>Web版の公開リポジトリ</span>
+                        <span class="sr-only">（新しいタブで開きます）</span>
+                    </a>
+                    <a class="footer-resource-link" href="https://github.com/Receipt-Roller/wakaroute-ios" target="_blank" rel="noopener noreferrer">
+                        <svg class="footer-github-icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 .7a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.2.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.8-1.8-1.8-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.4 3.6 1 .1-.8.4-1.4.8-1.7-2.7-.3-5.5-1.3-5.5-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C14.5 5 15.5 5 15.5 5c.6 1.5.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.8 5.4-5.5 5.7.4.4.8 1.1.8 2.1v3.5c0 .4.2.7.8.6A11.5 11.5 0 0 0 12 .7Z" />
+                        </svg>
+                        <span>iOSアプリの公開リポジトリ</span>
+                        <span class="sr-only">（新しいタブで開きます）</span>
+                    </a>
+                </div>
             </div>
             <div class="footer-links">
                 <a asp-area="" asp-controller="Home" asp-action="HighSchoolExam">高校受験とは</a>

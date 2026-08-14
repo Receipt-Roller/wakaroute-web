@@ -2,6 +2,8 @@
 @{
     ViewData["Title"] = "候補校を比較する";
     ViewData["Description"] = "保存した候補校を、学び、通学、入試、見学情報などの同じ判断軸で比較できます。";
+    ViewData["Robots"] = "noindex,follow";
+    ViewData["Breadcrumbs"] = new SeoBreadcrumb[] { new("ホーム", "/"), new("高校を探す", "/schools"), new("候補校を比較", "/schools/compare") };
     var comparisonIds = string.Join(',', Model.Schools.Select(item => item.School.Id));
 }
 
@@ -14,7 +16,7 @@
     </div>
 </section>
 
-<main class="school-tools-main" data-school-comparison-page data-comparison-ids="@comparisonIds">
+<div class="school-tools-main" data-school-comparison-page data-comparison-ids="@comparisonIds">
     <div class="shell">
         @if (Model.Schools.Count == 0)
         {
@@ -48,7 +50,7 @@
             <p class="school-comparison-policy">比較URLには学校IDだけが含まれます。自分用メモやお気に入り情報はURLやサーバーへ送信されません。</p>
         }
     </div>
-</main>
+</div>
 
 @section Scripts {
     <script src="~/js/school-shortlist.js" asp-append-version="true"></script>

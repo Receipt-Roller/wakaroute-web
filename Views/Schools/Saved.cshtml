@@ -1,6 +1,8 @@
 @{
     ViewData["Title"] = "お気に入りの高校";
     ViewData["Description"] = "この端末に保存したお気に入りの高校を一覧で確認し、候補校比較へ進めます。";
+    ViewData["Robots"] = "noindex,follow";
+    ViewData["Breadcrumbs"] = new SeoBreadcrumb[] { new("ホーム", "/"), new("高校を探す", "/schools"), new("お気に入り", "/schools/saved") };
 }
 
 <section class="school-tools-hero">
@@ -12,7 +14,7 @@
     </div>
 </section>
 
-<main class="school-tools-main" data-school-saved-page>
+<div class="school-tools-main" data-school-saved-page>
     <div class="shell">
         <div class="school-comparison-intro"><div><span>YOUR SHORTLIST</span><h2>お気に入りの高校 <strong data-school-favorite-count>0</strong>校</h2></div><div><a data-school-commute-link asp-action="Commute">通学条件を確認</a><a asp-action="Index">高校を探す</a></div></div>
         <p class="school-saved-loading" data-saved-loading>保存した高校を読み込んでいます。</p>
@@ -30,7 +32,7 @@
             </article>
         </template>
     </div>
-</main>
+</div>
 
 <partial name="_SchoolCompareTray" />
 

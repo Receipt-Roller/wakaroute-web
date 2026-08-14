@@ -2,6 +2,8 @@
 @{
     ViewData["Title"] = "候補校への通学条件を確認する";
     ViewData["Description"] = "自宅の正確な住所を登録せず、最寄り駅から候補校までの通学時間・乗換・徒歩・交通費を端末内に記録して比較できます。";
+    ViewData["Robots"] = "noindex,follow";
+    ViewData["Breadcrumbs"] = new SeoBreadcrumb[] { new("ホーム", "/"), new("高校を探す", "/schools"), new("通学条件を確認", "/schools/commute") };
     var schoolIds = string.Join(',', Model.Schools.Select(item => item.School.Id));
 }
 
@@ -14,7 +16,7 @@
     </div>
 </section>
 
-<main class="school-tools-main commute-main" data-school-commute-page data-school-ids="@schoolIds">
+<div class="school-tools-main commute-main" data-school-commute-page data-school-ids="@schoolIds">
     <div class="shell">
         <aside class="commute-privacy-note">
             <span aria-hidden="true">○</span>
@@ -76,7 +78,7 @@
             <aside class="commute-method-note"><div><span>HOW TO CHECK</span><h2>一度だけで決めず、平日の朝で確認</h2></div><ol><li><strong>登校時刻に合わせる</strong><span>8時台に学校へ着く経路で調べます。</span></li><li><strong>駅から学校まで歩く</strong><span>坂道、混雑、バスの待ち時間も確かめます。</span></li><li><strong>費用と遅延時も考える</strong><span>定期代や別経路を保護者と確認します。</span></li></ol></aside>
         }
     </div>
-</main>
+</div>
 
 @section Scripts {
     <script src="~/js/school-commute.js" asp-append-version="true"></script>

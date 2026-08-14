@@ -2,6 +2,8 @@
 @{
     ViewData["Title"] = "高校を探す";
     ViewData["Description"] = "全国の高校を、地域、学校区分、共学区分、課程・学科、入試・見学情報から検索できます。自分に合う高校を知るための最初の一歩を始めましょう。";
+    ViewData["Breadcrumbs"] = new SeoBreadcrumb[] { new("ホーム", "/"), new("高校を探す", "/schools") };
+    if (Model.HasAnyFilters || Model.Results.Page > 1) ViewData["Robots"] = "noindex,follow";
 
     string OptionLabel(IReadOnlyList<SchoolFilterOption> options, string value) =>
         options.FirstOrDefault(option => option.Value == value)?.Label ?? value;

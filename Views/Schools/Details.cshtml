@@ -1,7 +1,45 @@
 @model SchoolDetailsViewModel
+@inject Microsoft.Extensions.Configuration.IConfiguration Configuration
 @{
+    var siteBaseUrl = (Configuration["Site:BaseUrl"] ?? "https://wakaroute.com").TrimEnd('/');
     ViewData["Title"] = $"{Model.School.Name}｜自分に合う高校か調べる";
-    ViewData["Description"] = $"{Model.School.Name}の学び、校風、通学、入試日程、過去の入試実績を、公式情報の出典・確認日付きで整理しています。";
+    var descriptionTopics = new List<string> { "学び", "校風", "通学" };
+    if (Model.School.HasSchoolLife) descriptionTopics.Add("部活・学校生活");
+    if (Model.ExamSchedules.Count > 0) descriptionTopics.Add("入試日程");
+    if (Model.Admissions.Count > 0) descriptionTopics.Add("過去の入試実績");
+    ViewData["Description"] = $"{Model.School.Name}の{string.Join("、", descriptionTopics)}を、公式情報の出典・確認日付きで整理しています。";
+    ViewData["Breadcrumbs"] = new SeoBreadcrumb[]
+    {
+        new("ホーム", "/"),
+        new("高校を探す", "/schools"),
+        new(Model.School.Name, $"/schools/{Model.School.Id}")
+    };
+    var schoolStructuredData = new Dictionary<string, object?>
+    {
+        ["@type"] = "EducationalOrganization",
+        ["@id"] = $"{siteBaseUrl}/schools/{Model.School.Id}#school",
+        ["name"] = Model.School.Name,
+        ["url"] = $"{siteBaseUrl}/schools/{Model.School.Id}",
+        ["address"] = new Dictionary<string, object?>
+        {
+            ["@type"] = "PostalAddress",
+            ["postalCode"] = Model.School.PostalCode,
+            ["addressRegion"] = Model.School.Prefecture,
+            ["streetAddress"] = Model.School.Address,
+            ["addressCountry"] = "JP"
+        }
+    };
+    if (!string.IsNullOrWhiteSpace(Model.School.OfficialUrl)) schoolStructuredData["sameAs"] = Model.School.OfficialUrl;
+    if (Model.School.Latitude is { } latitude && Model.School.Longitude is { } longitude)
+    {
+        schoolStructuredData["geo"] = new Dictionary<string, object?>
+        {
+            ["@type"] = "GeoCoordinates",
+            ["latitude"] = latitude,
+            ["longitude"] = longitude
+        };
+    }
+    ViewData["StructuredData"] = new object[] { schoolStructuredData };
     var guide = Model.DecisionGuide;
     var latestExamYear = Model.ExamSchedules.Count > 0 ? Model.ExamSchedules.Max(schedule => schedule.AcademicYear) : (int?)null;
     var latestExamSchedules = latestExamYear.HasValue
@@ -44,7 +82,7 @@
     </div>
 </section>
 
-<main class="school-detail-main">
+<div class="school-detail-main">
     <div class="shell">
         @if (guide is not null)
         {
@@ -255,7 +293,7 @@
             </aside>
         </div>
     </div>
-</main>
+</div>
 
 <partial name="_SchoolCompareTray" />
 

@@ -219,6 +219,7 @@ public sealed class JsonSchoolCatalog : ISchoolCatalog
     }
 
     public SchoolCatalogMetadata Metadata { get; }
+    public IReadOnlyList<SchoolCatalogItem> Schools => _schools;
     public IReadOnlyList<SchoolFilterOption> Prefectures { get; }
     public IReadOnlyList<SchoolFilterOption> Genders { get; }
     public IReadOnlyList<SchoolFilterOption> AttendanceTypes { get; }

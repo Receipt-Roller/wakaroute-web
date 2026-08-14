@@ -2,6 +2,13 @@
 @{
     ViewData["Title"] = Model.Title;
     ViewData["Description"] = Model.Summary;
+    ViewData["Breadcrumbs"] = new SeoBreadcrumb[]
+    {
+        new("ホーム", "/"),
+        new($"{Model.Subject}の理解マップ", $"/understanding-map/{Model.SubjectId}"),
+        new(Model.CourseTitle, $"/understanding-map/{Model.SubjectId}/courses/{Model.CourseId}"),
+        new(Model.Title, $"/understanding-map/{Model.SubjectId}/courses/{Model.CourseId}/lessons/{Model.Id}")
+    };
     var heroImage = Model.Materials.FirstOrDefault(material => material.IsDisplayableImage);
 }
 
@@ -47,7 +54,7 @@
     </div>
 </section>
 
-<main class="lesson-main" data-math-content>
+<div class="lesson-main" data-math-content>
     <div class="shell lesson-layout">
         <article class="lesson-body">
             @Html.Raw(Model.BodyHtml)
@@ -109,7 +116,7 @@
             <p class="lesson-quiz-note">まずは自分で選んでみましょう。採点・学習履歴への記録は、回答APIとの連携時に追加します。</p>
         </section>
     }
-</main>
+</div>
 
 @section Scripts {
     <script src="~/lib/katex/katex.min.js" asp-append-version="true"></script>

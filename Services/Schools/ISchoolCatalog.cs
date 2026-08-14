@@ -5,6 +5,7 @@ namespace wakaroute_web.Services.Schools;
 public interface ISchoolCatalog
 {
     SchoolCatalogMetadata Metadata { get; }
+    IReadOnlyList<SchoolCatalogItem> Schools { get; }
     IReadOnlyList<SchoolFilterOption> Prefectures { get; }
     IReadOnlyList<SchoolFilterOption> Genders { get; }
     IReadOnlyList<SchoolFilterOption> AttendanceTypes { get; }

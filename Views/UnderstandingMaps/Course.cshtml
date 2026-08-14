@@ -2,6 +2,12 @@
 @{
     ViewData["Title"] = $"{Model.Title}の学習ステップ";
     ViewData["Description"] = Model.Description;
+    ViewData["Breadcrumbs"] = new SeoBreadcrumb[]
+    {
+        new("ホーム", "/"),
+        new($"{Model.Subject}の理解マップ", $"/understanding-map/{Model.SubjectId}"),
+        new(Model.Title, $"/understanding-map/{Model.SubjectId}/courses/{Model.CourseId}")
+    };
 }
 
 <section class="course-sections-hero">
@@ -27,7 +33,7 @@
     </div>
 </section>
 
-<main class="course-sections-main">
+<div class="course-sections-main">
     <div class="shell course-sections-layout">
         <header class="course-sections-heading">
             <div>
@@ -91,4 +97,4 @@
 
         <a class="course-sections-back" asp-action="@Model.SubjectMapAction">← @(Model.Subject)の理解マップに戻る</a>
     </div>
-</main>
+</div>
