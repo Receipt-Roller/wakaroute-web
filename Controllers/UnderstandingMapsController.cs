@@ -178,7 +178,60 @@ public sealed class UnderstandingMapsController : Controller
                                     option.Text,
                                     option.OrderIndex))
                                 .ToArray()))
-                        .ToArray())));
+                .ToArray())));
+    }
+
+    [HttpGet("{subjectId}/tests/{testId}")]
+    public async Task<IActionResult> Test(
+        string subjectId,
+        string testId,
+        CancellationToken cancellationToken)
+    {
+        var testContext = await GetTestContextAsync(subjectId, testId, cancellationToken);
+        if (testContext is null)
+        {
+            var canonicalContext = await FindTestContextAsync(testId, cancellationToken);
+            return canonicalContext is null
+                ? NotFound()
+                : RedirectToActionPermanent(nameof(Test), new
+                {
+                    subjectId = canonicalContext.SubjectId,
+                    testId
+                });
+        }
+
+        var test = await _manabu2.GetTestAsync(testId, cancellationToken);
+        if (test is null ||
+            !string.Equals(test.PathId, testContext.Test.PathId, StringComparison.OrdinalIgnoreCase))
+        {
+            return NotFound();
+        }
+
+        return View("Test", new UnderstandingTestViewModel(
+            testContext.SubjectId,
+            testContext.Subject,
+            testContext.SubjectMapAction,
+            testContext.AreaName,
+            test.Id,
+            test.Title,
+            test.Description,
+            test.PassingScorePercent,
+            test.TimeLimitSeconds,
+            test.Questions
+                .OrderBy(question => question.OrderIndex)
+                .Select(question => new UnderstandingTestQuestionViewModel(
+                    question.Id,
+                    question.QuestionText,
+                    question.OrderIndex,
+                    question.Options
+                        .OrderBy(option => option.OrderIndex)
+                        .Select(option => new UnderstandingTestOptionViewModel(
+                            option.Id,
+                            option.OptionText,
+                            option.ImageUrl,
+                            option.OrderIndex))
+                        .ToArray()))
+                .ToArray()));
     }
 
     private async Task<SubjectContext?> GetSubjectContextAsync(
@@ -234,6 +287,65 @@ public sealed class UnderstandingMapsController : Controller
         return null;
     }
 
+    private async Task<TestContext?> GetTestContextAsync(
+        string subjectId,
+        string testId,
+        CancellationToken cancellationToken)
+    {
+        UnderstandingMapViewModel map;
+        try
+        {
+            map = await _catalog.GetMapAsync(subjectId, cancellationToken);
+        }
+        catch (KeyNotFoundException)
+        {
+            return null;
+        }
+
+        var area = map.Areas.FirstOrDefault(candidate =>
+            candidate.Tests.Any(test =>
+                string.Equals(test.Id, testId, StringComparison.OrdinalIgnoreCase)));
+        var test = area?.Tests.FirstOrDefault(candidate =>
+            string.Equals(candidate.Id, testId, StringComparison.OrdinalIgnoreCase));
+        var subjectMapAction = subjectId.ToLowerInvariant() switch
+        {
+            "math" => nameof(Math),
+            "japanese" => nameof(Japanese),
+            "english" => nameof(English),
+            "science" => nameof(Science),
+            "social-studies" => nameof(SocialStudies),
+            _ => null
+        };
+
+        return area is null || test is null || subjectMapAction is null
+            ? null
+            : new TestContext(
+                map.SubjectId,
+                map.Subject,
+                subjectMapAction,
+                area.Name,
+                test);
+    }
+
+    private async Task<TestContext?> FindTestContextAsync(
+        string testId,
+        CancellationToken cancellationToken)
+    {
+        foreach (var candidateSubjectId in SubjectIds)
+        {
+            var context = await GetTestContextAsync(
+                candidateSubjectId,
+                testId,
+                cancellationToken);
+            if (context is not null)
+            {
+                return context;
+            }
+        }
+
+        return null;
+    }
+
     private static LessonQuizViewModel? CreateQuizPreview(string lessonId)
     {
         if (!string.Equals(lessonId, "7725e3a466ec41389f4216a26d2795c7", StringComparison.OrdinalIgnoreCase))
@@ -279,4 +391,11 @@ public sealed class UnderstandingMapsController : Controller
         string Subject,
         string SubjectMapAction,
         string AreaName);
+
+    private sealed record TestContext(
+        string SubjectId,
+        string Subject,
+        string SubjectMapAction,
+        string AreaName,
+        UnderstandingTest Test);
 }

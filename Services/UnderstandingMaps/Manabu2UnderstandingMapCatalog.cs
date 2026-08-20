@@ -7,7 +7,7 @@ namespace wakaroute_web.Services.UnderstandingMaps;
 
 public sealed class Manabu2UnderstandingMapCatalog : IUnderstandingMapCatalog
 {
-    private const string CacheKey = "manabu2-understanding-maps-v1";
+    private const string CacheKey = "manabu2-understanding-maps-v2";
 
     private readonly IReadOnlyDictionary<string, UnderstandingMapViewModel> _templates;
     private readonly Manabu2CatalogClient _client;
@@ -64,20 +64,26 @@ public sealed class Manabu2UnderstandingMapCatalog : IUnderstandingMapCatalog
 
             try
             {
-                var paths = await _client.GetPathsAsync(cancellationToken);
+                var pathsTask = _client.GetPathsAsync(cancellationToken);
+                var testsTask = GetTestsSafelyAsync(cancellationToken);
+                await Task.WhenAll(pathsTask, testsTask);
+
+                var paths = await pathsTask;
+                var tests = await testsTask;
                 var fetchedAt = DateTimeOffset.UtcNow;
                 var liveMaps = _templates.ToDictionary(
                     pair => pair.Key,
-                    pair => Merge(pair.Value, paths, fetchedAt),
+                    pair => Merge(pair.Value, paths, tests, fetchedAt),
                     StringComparer.OrdinalIgnoreCase);
 
                 var cacheMinutes = Math.Clamp(_options.CacheMinutes, 1, 60);
                 _cache.Set(CacheKey, liveMaps, TimeSpan.FromMinutes(cacheMinutes));
 
                 _logger.LogInformation(
-                    "Loaded {PathCount} learning paths and {CourseCount} courses from Manabu2.",
+                    "Loaded {PathCount} learning paths, {CourseCount} courses, and {TestCount} tests from Manabu2.",
                     paths.Count,
-                    paths.Sum(path => path.Courses.Count));
+                    paths.Sum(path => path.Courses.Count),
+                    tests.Count);
 
                 return liveMaps[subjectId];
             }
@@ -93,9 +99,26 @@ public sealed class Manabu2UnderstandingMapCatalog : IUnderstandingMapCatalog
         }
     }
 
+    private async Task<IReadOnlyList<Manabu2TestSummary>> GetTestsSafelyAsync(
+        CancellationToken cancellationToken)
+    {
+        try
+        {
+            return await _client.GetTestsAsync(cancellationToken);
+        }
+        catch (Exception exception) when (exception is not OperationCanceledException)
+        {
+            _logger.LogWarning(
+                exception,
+                "Could not load Manabu2 tests; continuing with the learning path catalog.");
+            return [];
+        }
+    }
+
     private static UnderstandingMapViewModel Merge(
         UnderstandingMapViewModel template,
         IReadOnlyList<Manabu2Path> paths,
+        IReadOnlyList<Manabu2TestSummary> tests,
         DateTimeOffset fetchedAt)
     {
         var pathsByName = paths.ToDictionary(path => path.Name, StringComparer.Ordinal);
@@ -126,7 +149,20 @@ public sealed class Manabu2UnderstandingMapCatalog : IUnderstandingMapCatalog
             return area with
             {
                 Description = string.IsNullOrWhiteSpace(path.Description) ? area.Description : path.Description,
-                Nodes = nodes.Length > 0 ? nodes : area.Nodes
+                Nodes = nodes.Length > 0 ? nodes : area.Nodes,
+                Tests = tests
+                    .Where(test =>
+                        test.QuestionCount > 0 &&
+                        string.Equals(test.PathId, path.Id, StringComparison.OrdinalIgnoreCase))
+                    .Select(test => new UnderstandingTest(
+                        test.Id,
+                        path.Id,
+                        test.Title,
+                        test.Description,
+                        test.QuestionCount,
+                        test.PassingScorePercent,
+                        test.TimeLimitSeconds))
+                    .ToArray()
             };
         }).ToArray();
 

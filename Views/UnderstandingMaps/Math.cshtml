@@ -3,7 +3,12 @@
     ViewData["Title"] = $"{Model.Subject}の理解マップ";
     ViewData["Description"] = Model.Description;
     ViewData["Breadcrumbs"] = new SeoBreadcrumb[] { new("ホーム", "/"), new($"{Model.Subject}の理解マップ", $"/understanding-map/{Model.SubjectId}") };
-    var firstNode = Model.Areas.First().Nodes.First();
+    var firstArea = Model.Areas.First();
+    var firstNode = firstArea.Nodes.First();
+    var subjectTests = Model.Areas
+        .SelectMany(area => area.Tests.Select(test => new { Area = area, Test = test }))
+        .ToArray();
+    const string appStoreUrl = "https://apps.apple.com/us/app/%E3%83%AF%E3%82%AB%E3%83%AB%E3%83%BC%E3%83%88/id6797358439";
 }
 
 <section class="map-hero">
@@ -40,6 +45,58 @@
         <a href="#understanding-levels">「理解した」の5段階を見る →</a>
     </div>
 </section>
+
+@if (subjectTests.Length > 0)
+{
+    <section class="map-tests" id="diagnostic-tests" aria-labelledby="diagnostic-tests-title">
+        <div class="shell">
+            <header class="map-tests-heading">
+                <div>
+                    <div class="eyebrow"><span></span>START DIAGNOSTIC</div>
+                    <h2 id="diagnostic-tests-title">まず、いまの理解を確かめよう。</h2>
+                    <p>テストは合否を決めるためではなく、どこから学び始めるかを見つけるためのものです。</p>
+                </div>
+                <div class="map-tests-app-note">
+                    <img src="~/images/wakaroute-app-icon.jpg" alt="" loading="lazy" decoding="async" />
+                    <p><strong>受験・採点・結果の記録はアプリで</strong><span>ウェブではテストの内容と目的を確認できます。</span></p>
+                </div>
+            </header>
+
+            <div class="map-test-grid">
+                @foreach (var item in subjectTests)
+                {
+                    <article class="map-test-card">
+                        <div class="map-test-card-top">
+                            <span>@item.Area.Code · @item.Area.Name</span>
+                            <div class="map-test-meta" aria-label="テスト情報">
+                                <b>@item.Test.QuestionCount 問</b>
+                                @if (item.Test.TimeLimitMinutes is int minutes)
+                                {
+                                    <b>@minutes 分</b>
+                                }
+                            </div>
+                        </div>
+                        <h3>@item.Test.Title</h3>
+                        @if (!string.IsNullOrWhiteSpace(item.Test.Description))
+                        {
+                            <p>@item.Test.Description</p>
+                        }
+                        <div class="map-test-action">
+                            <a class="map-test-preview-link" asp-action="Test" asp-route-subjectId="@Model.SubjectId" asp-route-testId="@item.Test.Id">
+                                問題を見る <span aria-hidden="true">→</span>
+                            </a>
+                            <a class="map-test-app-link" href="@appStoreUrl" target="_blank" rel="noopener noreferrer">
+                                アプリで受ける
+                                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 5h8v8M15 5l-9 9" /></svg>
+                                <span class="sr-only">（App Storeを新しいタブで開きます）</span>
+                            </a>
+                        </div>
+                    </article>
+                }
+            </div>
+        </div>
+    </section>
+}
 
 <section class="map-section" id="map-board">
     <div class="shell map-shell">
@@ -119,7 +176,30 @@
             </div>
 
             <aside class="map-detail" id="map-detail" aria-live="polite">
-                <div data-detail-content></div>
+                <div data-detail-content>
+                    <div class="detail-heading">
+                        <span class="detail-area detail-area-@firstArea.Id detail-index-0">@firstArea.Code · @firstArea.Name</span>
+                        <small>中学@(firstNode.Grade)年</small>
+                        <h3>@firstNode.Title</h3>
+                        <p>@firstNode.Summary</p>
+                        @if (firstNode.CourseId is not null)
+                        {
+                            <span class="detail-course-source">MANABU2 COURSE</span>
+                            <a class="detail-course-link" asp-action="Course" asp-route-subjectId="@Model.SubjectId" asp-route-courseId="@firstNode.CourseId">
+                                セクションを見る <span aria-hidden="true">→</span>
+                            </a>
+                        }
+                    </div>
+                    <div class="detail-reason"><span>なぜ大切？</span><p>@firstNode.WhyItMatters</p></div>
+                    <div class="detail-list">
+                        <h4><span>✓</span>理解できたと言えること</h4>
+                        <ul>@foreach (var item in firstNode.CanDo) { <li>@item</li> }</ul>
+                    </div>
+                    <div class="detail-links">
+                        <div><h4>ここまでに必要</h4>@foreach (var item in firstNode.Prerequisites) { <span>← @item</span> }</div>
+                        <div><h4>この先につながる</h4>@foreach (var item in firstNode.LeadsTo) { <span>@item →</span> }</div>
+                    </div>
+                </div>
             </aside>
         </div>
 

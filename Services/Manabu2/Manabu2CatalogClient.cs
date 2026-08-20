@@ -43,6 +43,22 @@ public sealed class Manabu2CatalogClient
             .ToArray();
     }
 
+    public async Task<IReadOnlyList<Manabu2TestSummary>> GetTestsAsync(
+        CancellationToken cancellationToken)
+    {
+        if (!IsConfigured)
+        {
+            return [];
+        }
+
+        var httpClient = CreateClient();
+        var organizationId = Uri.EscapeDataString(_options.OrganizationId);
+
+        return await httpClient.GetFromJsonAsync<IReadOnlyList<Manabu2TestSummary>>(
+            $"api/v1/organizations/{organizationId}/tests",
+            cancellationToken) ?? [];
+    }
+
     public async Task<Manabu2CourseDetail?> GetCourseAsync(
         string courseId,
         CancellationToken cancellationToken)
@@ -64,6 +80,29 @@ public sealed class Manabu2CatalogClient
         }
 
         return course;
+    }
+
+    public async Task<Manabu2TestDetail?> GetTestAsync(
+        string testId,
+        CancellationToken cancellationToken)
+    {
+        if (!IsConfigured)
+        {
+            return null;
+        }
+
+        var httpClient = CreateClient();
+        var test = await httpClient.GetFromJsonAsync<Manabu2TestDetail>(
+            $"api/v1/tests/{Uri.EscapeDataString(testId)}",
+            cancellationToken);
+
+        if (test is not null &&
+            !string.Equals(test.OrganizationId, _options.OrganizationId, StringComparison.OrdinalIgnoreCase))
+        {
+            throw new InvalidOperationException("The requested test does not belong to the configured organization.");
+        }
+
+        return test;
     }
 
     public async Task<Manabu2LessonDetail?> GetLessonAsync(
@@ -129,6 +168,43 @@ public sealed record Manabu2Course(
     string? Description,
     int SectionCount,
     int LessonCount);
+
+public sealed record Manabu2TestSummary(
+    string Id,
+    string OrganizationId,
+    string? PathId,
+    string Title,
+    string? Description,
+    int PassingScorePercent,
+    bool IsRequired,
+    string Culture,
+    int QuestionCount,
+    int? TimeLimitSeconds);
+
+public sealed record Manabu2TestDetail(
+    string Id,
+    string OrganizationId,
+    string? PathId,
+    string Title,
+    string? Description,
+    int PassingScorePercent,
+    bool IsRequired,
+    string Culture,
+    int? TimeLimitSeconds,
+    IReadOnlyList<Manabu2TestQuestion> Questions);
+
+public sealed record Manabu2TestQuestion(
+    string Id,
+    string QuestionText,
+    string QuestionType,
+    int OrderIndex,
+    IReadOnlyList<Manabu2TestOption> Options);
+
+public sealed record Manabu2TestOption(
+    string Id,
+    string OptionText,
+    string? ImageUrl,
+    int OrderIndex);
 
 public sealed record Manabu2CourseDetail(
     string Id,

@@ -137,7 +137,7 @@
 
     <footer class="site-footer">
         <div class="shell footer-grid">
-            <div>
+            <div class="footer-brand-column">
                 <a class="brand brand-footer" asp-area="" asp-controller="Home" asp-action="Index">
                     <span class="brand-mark" aria-hidden="true">
                         <svg viewBox="0 0 38 38"><path d="M8 28.5V12.2c0-2.1 2.4-3.4 4.2-2.2l5.4 3.6c.9.6 2 .6 2.9 0l5.4-3.6c1.8-1.2 4.2.1 4.2 2.2v16.3" /><path d="M8 27.7l8.8-5.9c1.3-.9 3-.9 4.3 0l8.9 5.9" /><circle cx="19" cy="7" r="2.5" /></svg>
@@ -154,54 +154,75 @@
                     <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 5h8v8M15 5l-9 9" /></svg>
                     <span class="sr-only">（新しいタブで開きます）</span>
                 </a>
-                <div class="footer-resource-links" aria-label="ワカルートの関連リンク">
-                    <a class="footer-resource-link" href="https://podcasts.apple.com/us/podcast/高校受験の学習コーチの「ワカルート」/id6801457019" target="_blank" rel="noopener noreferrer">
-                        <svg class="footer-resource-icon" viewBox="0 0 24 24" aria-hidden="true">
-                            <circle cx="12" cy="9" r="2.5" /><path d="M8.4 15.8a6 6 0 1 1 7.2 0M10 13.2a4 4 0 1 1 4 0M10.5 16.5h3l.8 5h-4.6l.8-5Z" />
-                        </svg>
-                        <span>Apple Podcastsで聴く</span>
-                        <span class="sr-only">（新しいタブで開きます）</span>
-                    </a>
-                    <a class="footer-resource-link" href="https://open.spotify.com/show/0346TyJvhQVBGsKk8T0gyA?si=i9LA1ToWT1Kf7NvpvrvHtw" target="_blank" rel="noopener noreferrer">
-                        <svg class="footer-resource-icon" viewBox="0 0 24 24" aria-hidden="true">
-                            <circle cx="12" cy="12" r="9" /><path d="M7.5 10a13 13 0 0 1 9.4.8M8.2 13a10.6 10.6 0 0 1 8 .7M8.8 16a8 8 0 0 1 6.4.5" />
-                        </svg>
-                        <span>Spotifyで聴く</span>
-                        <span class="sr-only">（新しいタブで開きます）</span>
-                    </a>
-                    <a class="footer-resource-link" href="https://github.com/Receipt-Roller/wakaroute-web" target="_blank" rel="noopener noreferrer">
-                        <svg class="footer-github-icon" viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M12 .7a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.2.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.4 3.6 1 .1-.8.4-1.4.8-1.7-2.7-.3-5.5-1.3-5.5-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C14.5 5 15.5 5 15.5 5c.6 1.5.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.8 5.4-5.5 5.7.4.4.8 1.1.8 2.1v3.5c0 .4.2.7.8.6A11.5 11.5 0 0 0 12 .7Z" />
-                        </svg>
-                        <span>Web版の公開リポジトリ</span>
-                        <span class="sr-only">（新しいタブで開きます）</span>
-                    </a>
-                    <a class="footer-resource-link" href="https://github.com/Receipt-Roller/wakaroute-ios" target="_blank" rel="noopener noreferrer">
-                        <svg class="footer-github-icon" viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M12 .7a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.2.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.8-1.8-1.8-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.4 3.6 1 .1-.8.4-1.4.8-1.7-2.7-.3-5.5-1.3-5.5-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C14.5 5 15.5 5 15.5 5c.6 1.5.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.8 5.4-5.5 5.7.4.4.8 1.1.8 2.1v3.5c0 .4.2.7.8.6A11.5 11.5 0 0 0 12 .7Z" />
-                        </svg>
-                        <span>iOSアプリの公開リポジトリ</span>
-                        <span class="sr-only">（新しいタブで開きます）</span>
-                    </a>
-                </div>
             </div>
-            <div class="footer-links">
-                <a asp-area="" asp-controller="Home" asp-action="HighSchoolExam">高校受験とは</a>
-                <a asp-area="" asp-controller="Schools" asp-action="Index">高校を探す</a>
-                <a asp-area="" asp-controller="Schools" asp-action="Saved">お気に入りの高校</a>
-                <a asp-area="" asp-controller="Schools" asp-action="Commute">通学条件を確認</a>
-                <a asp-area="" asp-controller="UnderstandingMaps" asp-action="Math">数学の理解マップ</a>
-                <a asp-area="" asp-controller="UnderstandingMaps" asp-action="Japanese">国語の理解マップ</a>
-                <a asp-area="" asp-controller="UnderstandingMaps" asp-action="English">英語の理解マップ</a>
-                <a asp-area="" asp-controller="UnderstandingMaps" asp-action="Science">理科の理解マップ</a>
-                <a asp-area="" asp-controller="UnderstandingMaps" asp-action="SocialStudies">社会の理解マップ</a>
-                <a href="/#how-it-works">学習のしくみ</a>
-                <a asp-area="" asp-controller="Home" asp-action="ForParents">保護者の方へ</a>
-                <a asp-area="" asp-controller="Home" asp-action="Company">会社概要</a>
-                <a asp-area="" asp-controller="Home" asp-action="Terms">利用規約</a>
-                <a asp-area="" asp-controller="Home" asp-action="Privacy">プライバシーポリシー</a>
+            <div class="footer-link-groups">
+                <section class="footer-link-group">
+                    <h2>ワカルートを使う</h2>
+                    <nav aria-label="ワカルートを使う">
+                        <a asp-area="" asp-controller="Home" asp-action="HighSchoolExam">高校受験とは</a>
+                        <a asp-area="" asp-controller="Schools" asp-action="Index">高校を探す</a>
+                        <a asp-area="" asp-controller="Schools" asp-action="Saved">お気に入りの高校</a>
+                        <a asp-area="" asp-controller="Schools" asp-action="Commute">通学条件を確認</a>
+                        <a href="/#how-it-works">学習のしくみ</a>
+                        <a asp-area="" asp-controller="Home" asp-action="ForParents">保護者の方へ</a>
+                    </nav>
+                </section>
+                <section class="footer-link-group">
+                    <h2>教科別の理解マップ</h2>
+                    <nav aria-label="教科別の理解マップ">
+                        <a asp-area="" asp-controller="UnderstandingMaps" asp-action="Math">数学</a>
+                        <a asp-area="" asp-controller="UnderstandingMaps" asp-action="Japanese">国語</a>
+                        <a asp-area="" asp-controller="UnderstandingMaps" asp-action="English">英語</a>
+                        <a asp-area="" asp-controller="UnderstandingMaps" asp-action="Science">理科</a>
+                        <a asp-area="" asp-controller="UnderstandingMaps" asp-action="SocialStudies">社会</a>
+                    </nav>
+                </section>
+                <section class="footer-link-group">
+                    <h2>運営・サポート</h2>
+                    <nav aria-label="運営・サポート">
+                        <a asp-area="" asp-controller="Home" asp-action="Company">会社概要</a>
+                        <a asp-area="" asp-controller="Home" asp-action="Terms">利用規約</a>
+                        <a asp-area="" asp-controller="Home" asp-action="Privacy">プライバシーポリシー</a>
+                    </nav>
+                </section>
             </div>
         </div>
+        <section class="shell footer-resource-section" aria-labelledby="footer-resource-title">
+            <div class="footer-resource-heading">
+                <h2 id="footer-resource-title">音声とオープンソース</h2>
+                <p>耳で学ぶコンテンツと、公開中の開発情報です。</p>
+            </div>
+            <div class="footer-resource-links">
+                <a class="footer-resource-link" href="https://podcasts.apple.com/us/podcast/高校受験の学習コーチの「ワカルート」/id6801457019" target="_blank" rel="noopener noreferrer">
+                    <svg class="footer-resource-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <circle cx="12" cy="9" r="2.5" /><path d="M8.4 15.8a6 6 0 1 1 7.2 0M10 13.2a4 4 0 1 1 4 0M10.5 16.5h3l.8 5h-4.6l.8-5Z" />
+                    </svg>
+                    <span><small>AUDIO</small>Apple Podcasts</span>
+                    <span class="sr-only">（新しいタブで開きます）</span>
+                </a>
+                <a class="footer-resource-link" href="https://open.spotify.com/show/0346TyJvhQVBGsKk8T0gyA?si=i9LA1ToWT1Kf7NvpvrvHtw" target="_blank" rel="noopener noreferrer">
+                    <svg class="footer-resource-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <circle cx="12" cy="12" r="9" /><path d="M7.5 10a13 13 0 0 1 9.4.8M8.2 13a10.6 10.6 0 0 1 8 .7M8.8 16a8 8 0 0 1 6.4.5" />
+                    </svg>
+                    <span><small>AUDIO</small>Spotify</span>
+                    <span class="sr-only">（新しいタブで開きます）</span>
+                </a>
+                <a class="footer-resource-link" href="https://github.com/Receipt-Roller/wakaroute-web" target="_blank" rel="noopener noreferrer">
+                    <svg class="footer-github-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 .7a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.2.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.4 3.6 1 .1-.8.4-1.4.8-1.7-2.7-.3-5.5-1.3-5.5-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C14.5 5 15.5 5 15.5 5c.6 1.5.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.8 5.4-5.5 5.7.4.4.8 1.1.8 2.1v3.5c0 .4.2.7.8.6A11.5 11.5 0 0 0 12 .7Z" />
+                    </svg>
+                    <span><small>GITHUB</small>Web版</span>
+                    <span class="sr-only">（新しいタブで開きます）</span>
+                </a>
+                <a class="footer-resource-link" href="https://github.com/Receipt-Roller/wakaroute-ios" target="_blank" rel="noopener noreferrer">
+                    <svg class="footer-github-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 .7a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.2.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.8-1.8-1.8-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.4 3.6 1 .1-.8.4-1.4.8-1.7-2.7-.3-5.5-1.3-5.5-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C14.5 5 15.5 5 15.5 5c.6 1.5.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.8 5.4-5.5 5.7.4.4.8 1.1.8 2.1v3.5c0 .4.2.7.8.6A11.5 11.5 0 0 0 12 .7Z" />
+                    </svg>
+                    <span><small>GITHUB</small>iOS版</span>
+                    <span class="sr-only">（新しいタブで開きます）</span>
+                </a>
+            </div>
+        </section>
         <div class="shell platform-note">
             <div class="platform-note-copy">
                 <span class="platform-note-label">LEARNING PLATFORM</span>

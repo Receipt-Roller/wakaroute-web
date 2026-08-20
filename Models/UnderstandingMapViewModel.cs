@@ -24,7 +24,24 @@ public sealed record UnderstandingArea(
     string Code,
     string Name,
     string Description,
-    IReadOnlyList<UnderstandingNode> Nodes);
+    IReadOnlyList<UnderstandingNode> Nodes)
+{
+    public IReadOnlyList<UnderstandingTest> Tests { get; init; } = [];
+}
+
+public sealed record UnderstandingTest(
+    string Id,
+    string PathId,
+    string Title,
+    string? Description,
+    int QuestionCount,
+    int PassingScorePercent,
+    int? TimeLimitSeconds)
+{
+    public int? TimeLimitMinutes => TimeLimitSeconds is > 0
+        ? (int)Math.Ceiling(TimeLimitSeconds.Value / 60d)
+        : null;
+}
 
 public sealed record UnderstandingNode(
     string Id,

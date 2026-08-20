@@ -1,0 +1,99 @@
+@model UnderstandingTestViewModel
+@{
+    ViewData["Title"] = Model.Title;
+    ViewData["Description"] = Model.Description;
+    ViewData["Breadcrumbs"] = new SeoBreadcrumb[]
+    {
+        new("ホーム", "/"),
+        new($"{Model.Subject}の理解マップ", $"/understanding-map/{Model.SubjectId}"),
+        new(Model.Title, $"/understanding-map/{Model.SubjectId}/tests/{Model.Id}")
+    };
+    const string appStoreUrl = "https://apps.apple.com/us/app/%E3%83%AF%E3%82%AB%E3%83%AB%E3%83%BC%E3%83%88/id6797358439";
+}
+
+<section class="test-preview-hero">
+    <div class="shell test-preview-hero-inner">
+        <nav class="breadcrumbs" aria-label="パンくずリスト">
+            <a asp-area="" asp-controller="Home" asp-action="Index">ホーム</a>
+            <span aria-hidden="true">/</span>
+            <a asp-action="@Model.SubjectMapAction">@(Model.Subject)の理解マップ</a>
+            <span aria-hidden="true">/</span>
+            <span aria-current="page">@Model.Title</span>
+        </nav>
+        <div class="test-preview-hero-grid">
+            <div>
+                <div class="eyebrow light"><span></span>TEST PREVIEW</div>
+                <p class="test-preview-area">中学@(Model.Subject) · @Model.AreaName</p>
+                <h1>@Model.Title</h1>
+                @if (!string.IsNullOrWhiteSpace(Model.Description))
+                {
+                    <p class="test-preview-description">@Model.Description</p>
+                }
+                <div class="test-preview-meta" aria-label="テスト情報">
+                    <span><strong>@Model.Questions.Count</strong>問</span>
+                    @if (Model.TimeLimitMinutes is int minutes)
+                    {
+                        <span><strong>@minutes</strong>分</span>
+                    }
+                </div>
+            </div>
+            <aside class="test-preview-app-card">
+                <img src="~/images/wakaroute-app-icon.jpg" alt="" />
+                <span>APP ONLY</span>
+                <h2>採点と学習記録は<br />アプリで行います。</h2>
+                <p>ウェブでは問題文と選択肢を確認できます。実際に回答して結果を残すには、iPhone版ワカルートをご利用ください。</p>
+                <a href="@appStoreUrl" target="_blank" rel="noopener noreferrer">
+                    App Storeでダウンロード
+                    <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 5h8v8M15 5l-9 9" /></svg>
+                    <span class="sr-only">（新しいタブで開きます）</span>
+                </a>
+            </aside>
+        </div>
+    </div>
+</section>
+
+<div class="test-preview-main">
+    <div class="shell test-preview-layout">
+        <header class="test-preview-heading">
+            <div><span>QUESTION PREVIEW</span><h2>問題を確認する</h2></div>
+            <p>選択肢を考えながら読むことはできますが、このページでは回答・採点されません。正答と解説も表示していません。</p>
+        </header>
+
+        <ol class="test-preview-questions">
+            @foreach (var question in Model.Questions)
+            {
+                <li>
+                    <article aria-labelledby="test-question-@question.Id">
+                        <header>
+                            <span>Q@(question.OrderIndex)</span>
+                            <h3 id="test-question-@question.Id">@question.QuestionText</h3>
+                        </header>
+                        <ol class="test-preview-options">
+                            @for (var optionIndex = 0; optionIndex < question.Options.Count; optionIndex++)
+                            {
+                                var option = question.Options[optionIndex];
+                                <li>
+                                    <span>@((char)('A' + optionIndex))</span>
+                                    <p>@option.OptionText</p>
+                                    @if (Uri.TryCreate(option.ImageUrl, UriKind.Absolute, out var imageUri) &&
+                                         (imageUri.Scheme == Uri.UriSchemeHttps || imageUri.Scheme == Uri.UriSchemeHttp))
+                                    {
+                                        <img src="@option.ImageUrl" alt="選択肢 @((char)('A' + optionIndex)) の画像" loading="lazy" decoding="async" />
+                                    }
+                                </li>
+                            }
+                        </ol>
+                    </article>
+                </li>
+            }
+        </ol>
+
+        <section class="test-preview-bottom-cta">
+            <img src="~/images/wakaroute-app-icon.jpg" alt="" loading="lazy" decoding="async" />
+            <div><span>READY TO START?</span><h2>答えが決まったら、アプリで受けよう。</h2><p>採点結果を保存し、次に復習するコースを見つけられます。</p></div>
+            <a href="@appStoreUrl" target="_blank" rel="noopener noreferrer">アプリをダウンロード <span aria-hidden="true">↗</span></a>
+        </section>
+
+        <a class="test-preview-back" asp-action="@Model.SubjectMapAction">← @(Model.Subject)の理解マップへ戻る</a>
+    </div>
+</div>
