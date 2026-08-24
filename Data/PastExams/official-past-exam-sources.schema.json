@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wakaroute.com/schemas/official-past-exam-sources.schema.json",
+  "title": "WakaRoute official past exam source catalog",
+  "type": "object",
+  "required": ["schemaVersion", "asOf", "sources"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "asOf": { "type": "string", "format": "date" },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "prefectureCode", "prefecture", "authorityName", "title", "officialPageUrl", "academicYears", "examScopes", "materials", "verifiedAt", "usageNote"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "prefectureCode": { "type": "string", "pattern": "^[0-9]{2}$" },
+          "prefecture": { "type": "string", "minLength": 1 },
+          "authorityName": { "type": "string", "minLength": 1 },
+          "title": { "type": "string", "minLength": 1 },
+          "officialPageUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+          "academicYears": { "type": "array", "minItems": 1, "items": { "type": "integer", "minimum": 2000 } },
+          "examScopes": { "type": "array", "items": { "type": "string" } },
+          "materials": {
+            "type": "array",
+            "items": { "enum": ["questions", "answers", "answer-sheets", "listening-scripts", "listening-audio", "scoring-guidance"] }
+          },
+          "verifiedAt": { "type": "string", "format": "date" },
+          "usageNote": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

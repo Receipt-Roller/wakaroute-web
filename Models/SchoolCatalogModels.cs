@@ -26,6 +26,7 @@ public sealed record SchoolCatalogItem(
     public decimal? LatestApplicationRatio { get; init; }
     public SchoolAccessInfo? AccessInfo { get; init; }
     public SchoolLifeInfo? SchoolLife { get; init; }
+    public IReadOnlyList<string> PastExamSourceIds { get; init; } = [];
 
     public string OwnershipLabel => Ownership switch
     {
@@ -203,7 +204,10 @@ public sealed record SchoolDetailsViewModel(
     SchoolLifeInfo? SchoolLife,
     IReadOnlyList<SchoolExamSchedule> ExamSchedules,
     IReadOnlyList<SchoolAdmissionResult> Admissions,
-    IReadOnlyList<SchoolDeviationScore> DeviationScores);
+    IReadOnlyList<SchoolDeviationScore> DeviationScores)
+{
+    public IReadOnlyList<OfficialPastExamSource> PastExamSources { get; init; } = [];
+}
 
 public sealed record SchoolLifeStatus(string Status, string Summary)
 {

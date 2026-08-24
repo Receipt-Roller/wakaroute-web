@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-08-25",
+  "rules": [
+    {
+      "pastExamSourceIds": [
+        "hokkaido-official"
+      ],
+      "prefectureCode": "01",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "aomori-2026-official"
+      ],
+      "prefectureCode": "02",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "iwate-official-selection"
+      ],
+      "prefectureCode": "03",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "miyagi-2026-official"
+      ],
+      "prefectureCode": "04",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "akita-official"
+      ],
+      "prefectureCode": "05",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "yamagata-2026-official"
+      ],
+      "prefectureCode": "06",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "fukushima-2026-official"
+      ],
+      "prefectureCode": "07",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "ibaraki-2026-official"
+      ],
+      "prefectureCode": "08",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "tochigi-2026-official"
+      ],
+      "prefectureCode": "09",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "gunma-2026-official"
+      ],
+      "prefectureCode": "10",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "saitama-2026-public-selection"
+      ],
+      "prefectureCode": "11",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "chiba-2026-official"
+      ],
+      "prefectureCode": "12",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "tokyo-metropolitan-official"
+      ],
+      "prefectureCode": "13",
+      "ownership": "public",
+      "schoolNamePrefix": "東京都立"
+    },
+    {
+      "pastExamSourceIds": [
+        "kanagawa-2026-common-selection"
+      ],
+      "prefectureCode": "14",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "niigata-2026-official"
+      ],
+      "prefectureCode": "15",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "toyama-2026-official"
+      ],
+      "prefectureCode": "16",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "ishikawa-official-selection"
+      ],
+      "prefectureCode": "17",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "fukui-2026-official"
+      ],
+      "prefectureCode": "18",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "yamanashi-official-selection"
+      ],
+      "prefectureCode": "19",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "nagano-2026-official"
+      ],
+      "prefectureCode": "20",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "gifu-2026-official"
+      ],
+      "prefectureCode": "21",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "shizuoka-2025-official"
+      ],
+      "prefectureCode": "22",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "aichi-2026-official"
+      ],
+      "prefectureCode": "23",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "mie-2025-official"
+      ],
+      "prefectureCode": "24",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "shiga-2026-official"
+      ],
+      "prefectureCode": "25",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "kyoto-2026-official"
+      ],
+      "prefectureCode": "26",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "osaka-2026-general-selection"
+      ],
+      "prefectureCode": "27",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "hyogo-official-selection"
+      ],
+      "prefectureCode": "28",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "nara-2025-official"
+      ],
+      "prefectureCode": "29",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "wakayama-2026-official"
+      ],
+      "prefectureCode": "30",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "tottori-2026-official"
+      ],
+      "prefectureCode": "31",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "shimane-official-selection"
+      ],
+      "prefectureCode": "32",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "okayama-official-selection"
+      ],
+      "prefectureCode": "33",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "hiroshima-2026-official"
+      ],
+      "prefectureCode": "34",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "yamaguchi-2026-official"
+      ],
+      "prefectureCode": "35",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "tokushima-official-selection"
+      ],
+      "prefectureCode": "36",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "kagawa-official-access"
+      ],
+      "prefectureCode": "37",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "ehime-official-selection"
+      ],
+      "prefectureCode": "38",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "kochi-2026-official"
+      ],
+      "prefectureCode": "39",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "fukuoka-2026-official"
+      ],
+      "prefectureCode": "40",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "saga-2026-official"
+      ],
+      "prefectureCode": "41",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "nagasaki-2026-official"
+      ],
+      "prefectureCode": "42",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "kumamoto-2026-official"
+      ],
+      "prefectureCode": "43",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "oita-2026-official"
+      ],
+      "prefectureCode": "44",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "miyazaki-2026-official"
+      ],
+      "prefectureCode": "45",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "kagoshima-2026-official"
+      ],
+      "prefectureCode": "46",
+      "ownership": "public"
+    },
+    {
+      "pastExamSourceIds": [
+        "okinawa-2026-official"
+      ],
+      "prefectureCode": "47",
+      "ownership": "public"
+    }
+  ]
+}

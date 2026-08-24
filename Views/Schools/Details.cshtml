@@ -207,6 +207,33 @@
                     }
                 </section>
 
+                @if (Model.PastExamSources.Count > 0)
+                {
+                    <section class="school-detail-section school-past-exams" aria-labelledby="past-exam-heading">
+                        <div class="school-detail-heading">
+                            <div><span>OFFICIAL PAST EXAMS</span><h2 id="past-exam-heading">この学校に関係する公式過去問</h2></div>
+                            <p>問題は転載せず、教育委員会の公式掲載ページへ案内します。学校・学科・選抜区分によって共通問題を使用しない場合があるため、志望校の最新募集要項でも確認してください。</p>
+                        </div>
+                        @foreach (var source in Model.PastExamSources)
+                        {
+                            <article class="school-past-exam-card">
+                                <div>
+                                    <span>@source.AuthorityName・@source.VerifiedAt 確認</span>
+                                    <h3>@source.Title</h3>
+                                    <p>@string.Join(" ／ ", source.ExamScopes)</p>
+                                    <div>
+                                        @if (source.MaterialLabelsForDisplay.Count == 0) { <small>公開方法を公式案内で確認</small> }
+                                        else { @foreach (var material in source.MaterialLabelsForDisplay) { <small>@material</small> } }
+                                    </div>
+                                </div>
+                                <a class="button button-primary" href="@source.OfficialPageUrl" target="_blank" rel="noopener noreferrer">@(source.HasOnlineQuestions ? "公式過去問を見る ↗" : "公式入試情報を見る ↗")</a>
+                            </article>
+                            <p class="school-past-exam-note">@source.UsageNote</p>
+                        }
+                        <a class="school-past-exam-index-link" asp-controller="PastExams" asp-action="Index">都道府県別の公式過去問一覧を見る →</a>
+                    </section>
+                }
+
                 @if (guide?.VisitEvents.Count > 0)
                 {
                     <section class="school-detail-section" aria-labelledby="visit-heading">
@@ -286,6 +313,10 @@
                     @if (!string.IsNullOrEmpty(officialEducationAuthorityUrl))
                     {
                         <a href="@officialEducationAuthorityUrl" target="_blank" rel="noopener noreferrer">@Model.School.Prefecture の入試情報 ↗</a>
+                    }
+                    @if (Model.PastExamSources.Count > 0)
+                    {
+                        <a href="#past-exam-heading">この学校に関係する公式過去問 ↓</a>
                     }
                 </div>
                 <p class="school-important-note"><strong>最新情報は公式ページで確認してください。</strong>募集人員、試験日、出願条件、説明会等は変更される場合があります。出願や申込みの前には、必ず学校・教育委員会の最新情報をご確認ください。</p>

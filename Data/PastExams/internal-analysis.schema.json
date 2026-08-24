@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wakaroute.com/schemas/internal-past-exam-analysis.schema.json",
+  "title": "WakaRoute private past exam skill analysis",
+  "description": "公開問題の原文、図、画像、音源を保存せず、出題技能と構造だけを内部分析するためのスキーマです。実データはGit管理外に置きます。",
+  "type": "object",
+  "required": ["schemaVersion", "analyses"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "analyses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sourceId", "academicYear", "subject", "questionNumber", "skills", "format", "requiredSteps", "misconceptions", "officialSourceUrl", "originalContentStored"],
+        "properties": {
+          "sourceId": { "type": "string" },
+          "academicYear": { "type": "integer" },
+          "subject": { "type": "string" },
+          "questionNumber": { "type": "string" },
+          "skills": { "type": "array", "items": { "type": "string" } },
+          "format": { "type": "string" },
+          "difficulty": { "type": ["integer", "null"], "minimum": 1, "maximum": 5 },
+          "requiredSteps": { "type": "array", "items": { "type": "string" } },
+          "misconceptions": { "type": "array", "items": { "type": "string" } },
+          "officialSourceUrl": { "type": "string", "format": "uri" },
+          "originalContentStored": { "const": false }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

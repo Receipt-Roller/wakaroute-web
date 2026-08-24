@@ -1866,6 +1866,73 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--lime-strong); o
   .floating-chip { transform: none !important; }
 }
 
+/* Official past exam links */
+.past-exam-hero { overflow: hidden; background: #143d36; color: #fff; }
+.past-exam-hero-grid { display: grid; grid-template-columns: minmax(0,1.15fr) minmax(320px,.85fr); gap: 70px; align-items: center; min-height: 620px; padding-block: 55px 75px; }
+.past-exam-hero .breadcrumbs a, .past-exam-hero .breadcrumbs span { color: #bed7d0; }
+.past-exam-eyebrow, .past-exam-heading span, .past-exam-policy span { color: #e9cf6b; font-size: 11px; font-weight: 850; letter-spacing: .18em; }
+.past-exam-hero h1 { max-width: 780px; margin: 20px 0 24px; font-size: clamp(46px,6vw,82px); line-height: 1.08; letter-spacing: -.045em; }
+.past-exam-hero-grid > div:first-child > p { max-width: 690px; margin: 0; color: #c8ddd7; font-size: 16px; line-height: 2; }
+.past-exam-steps { display: grid; gap: 14px; }
+.past-exam-steps > div { display: grid; grid-template-columns: 52px 1fr; gap: 18px; align-items: center; padding: 22px; border: 1px solid rgba(255,255,255,.15); border-radius: 18px; background: rgba(255,255,255,.06); }
+.past-exam-steps span { display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: #e9cf6b; color: #143d36; font-size: 18px; font-weight: 900; }
+.past-exam-steps p { margin: 0; color: #bfd4ce; font-size: 13px; line-height: 1.65; }
+.past-exam-steps strong { display: block; margin-bottom: 3px; color: #fff; font-size: 15px; }
+.past-exam-main { padding-block: 100px 120px; background: #f3f7f5; }
+.past-exam-heading { display: grid; grid-template-columns: 1fr minmax(300px,.7fr); gap: 60px; align-items: end; margin-bottom: 42px; }
+.past-exam-heading h2 { margin: 8px 0 0; color: #173f3a; font-size: clamp(34px,4vw,54px); letter-spacing: -.035em; }
+.past-exam-heading p { margin: 0; color: #60716b; font-size: 14px; line-height: 1.85; }
+.past-exam-prefecture-nav { display: flex; flex-wrap: wrap; gap: 8px; margin: -12px 0 38px; }
+.past-exam-prefecture-nav a { padding: 7px 10px; border: 1px solid #cadbd5; border-radius: 999px; background: #fff; color: #245f50; font-size: 11px; font-weight: 750; }
+.past-exam-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; }
+.past-exam-card { display: flex; flex-direction: column; min-height: 520px; padding: 30px; border: 1px solid #d5e2de; border-radius: 22px; background: #fff; box-shadow: 0 14px 35px rgba(20,61,54,.06); }
+.past-exam-card > header { display: flex; justify-content: space-between; align-items: start; gap: 18px; }
+.past-exam-card > header > div { display: flex; align-items: center; gap: 12px; }
+.past-exam-card > header span { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; background: #173f3a; color: #fff; font-weight: 850; }
+.past-exam-card h3 { margin: 0; color: #173f3a; font-size: 25px; }
+.past-exam-card > header small { padding: 6px 10px; border-radius: 999px; background: #edf5f2; color: #26745d; font-weight: 800; }
+.past-exam-authority { margin: 25px 0 5px; color: #26745d; font-size: 12px; font-weight: 800; }
+.past-exam-card h4 { margin: 0 0 18px; color: #1d332e; font-size: 18px; line-height: 1.55; }
+.past-exam-tags { display: flex; flex-wrap: wrap; gap: 7px; }
+.past-exam-tags span, .school-past-exam-card small { padding: 5px 9px; border-radius: 999px; background: #e8f4ef; color: #1d6a52; font-size: 11px; font-weight: 750; }
+.past-exam-card dl { display: grid; gap: 10px; margin: 25px 0 18px; }
+.past-exam-card dl div { display: grid; grid-template-columns: 72px 1fr; gap: 12px; }
+.past-exam-card dt { color: #77837f; font-size: 12px; }
+.past-exam-card dd { margin: 0; color: #40534d; font-size: 12px; line-height: 1.65; }
+.past-exam-usage-note { margin: auto 0 20px; padding: 13px 15px; border-radius: 12px; background: #fff9e8; color: #665b3f; font-size: 11px; line-height: 1.7; }
+.past-exam-card .button { align-self: flex-start; }
+.past-exam-applicability-note { margin: 30px 0 0; padding: 16px 18px; border-left: 4px solid #d2b94e; background: #fff9e8; color: #665b3f; font-size: 12px; line-height: 1.8; }
+.past-exam-policy { display: grid; grid-template-columns: minmax(240px,.75fr) 1.2fr auto; gap: 45px; align-items: center; margin-top: 55px; padding: 36px 40px; border-radius: 22px; background: #173f3a; color: #fff; }
+.past-exam-policy h2 { margin: 7px 0 0; font-size: 28px; }
+.past-exam-policy p { margin: 0; color: #c4d9d3; font-size: 13px; line-height: 1.85; }
+.past-exam-policy a { color: #f1d974; font-size: 13px; font-weight: 800; white-space: nowrap; }
+.school-past-exam-card { display: grid; grid-template-columns: 1fr auto; gap: 25px; align-items: center; padding: 24px; border: 1px solid #cfe0da; border-radius: 17px; background: #f2f8f6; }
+.school-past-exam-card > div > span { color: #26745d; font-size: 11px; font-weight: 800; }
+.school-past-exam-card h3 { margin: 6px 0; color: #173f3a; font-size: 18px; }
+.school-past-exam-card p { margin: 0 0 12px; color: #5b6d67; font-size: 12px; }
+.school-past-exam-card > div > div { display: flex; flex-wrap: wrap; gap: 6px; }
+.school-past-exam-note { margin: 12px 0 0; color: #6b6047; font-size: 11px; line-height: 1.7; }
+.school-past-exam-index-link { display: inline-block; margin-top: 18px; color: #17684f; font-size: 12px; font-weight: 800; }
+
+@media (max-width: 860px) {
+  .past-exam-hero-grid, .past-exam-heading, .past-exam-policy { grid-template-columns: 1fr; }
+  .past-exam-hero-grid { min-height: auto; gap: 42px; padding-block: 40px 65px; }
+  .past-exam-grid { grid-template-columns: 1fr; }
+  .past-exam-policy { gap: 20px; }
+}
+
+@media (max-width: 560px) {
+  .past-exam-hero h1 { font-size: 43px; }
+  .past-exam-steps > div { grid-template-columns: 42px 1fr; padding: 17px; }
+  .past-exam-steps span { width: 42px; height: 42px; }
+  .past-exam-main { padding-block: 70px 85px; }
+  .past-exam-card { min-height: 0; padding: 22px 19px; }
+  .past-exam-card dl div { grid-template-columns: 1fr; gap: 3px; }
+  .past-exam-policy { padding: 27px 22px; }
+  .school-past-exam-card { grid-template-columns: 1fr; padding: 19px; }
+  .school-past-exam-card .button { justify-self: start; }
+}
+
 /* School life details */
 .school-life-section { overflow: hidden; }
 .school-life-overview { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1.5rem 0; }

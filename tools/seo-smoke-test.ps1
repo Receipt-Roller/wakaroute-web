@@ -31,12 +31,20 @@ $indexHtml = Get-Page "/"
 $filteredSchoolsHtml = Get-Page "/schools?q=東京"
 $savedSchoolsHtml = Get-Page "/schools/saved"
 $schoolDetailHtml = Get-Page "/schools/wk_d113299901022"
+$pastExamsHtml = Get-Page "/past-exams"
+$decodedPastExamsHtml = [System.Net.WebUtility]::HtmlDecode($pastExamsHtml)
 
 Assert-Contains $indexHtml "高校受験の学習コーチ" "The home title does not include the primary search intent."
 Assert-Contains $filteredSchoolsHtml 'name="robots" content="noindex,follow"' "Filtered school results must be noindex,follow."
 Assert-Contains $savedSchoolsHtml 'name="robots" content="noindex,follow"' "Saved schools must be noindex,follow."
 Assert-Contains $schoolDetailHtml "EducationalOrganization" "School structured data is missing."
 Assert-Contains $schoolDetailHtml "BreadcrumbList" "Breadcrumb structured data is missing."
+Assert-Contains $schoolDetailHtml "この学校に関係する公式過去問" "Tokyo metropolitan school past exam link is missing."
+Assert-Contains $pastExamsHtml "公式過去問を探す" "Official past exam index content is missing."
+Assert-Contains $decodedPastExamsHtml "東京都教育委員会" "Tokyo official past exam source is missing."
+Assert-Contains $decodedPastExamsHtml "47都道府県を掲載" "The past exam index must explain nationwide coverage."
+$pastExamCardCount = [regex]::Matches($pastExamsHtml, 'class="past-exam-card"').Count
+if ($pastExamCardCount -ne 47) { throw "Expected 47 prefecture past exam cards; found $pastExamCardCount." }
 Assert-Contains $indexHtml 'property="og:image"' "Open Graph image is missing."
 
 $decodedSchoolDetailHtml = [System.Net.WebUtility]::HtmlDecode($schoolDetailHtml)

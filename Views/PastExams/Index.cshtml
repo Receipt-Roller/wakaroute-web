@@ -1,0 +1,86 @@
+@model PastExamIndexViewModel
+@{
+    ViewData["Title"] = "都道府県別 公立高校入試の公式過去問";
+    ViewData["Description"] = "都道府県教育委員会が公開する公立高校入試の問題・正答・解答用紙・リスニング音源への公式リンクを、確認日付きで案内します。";
+    ViewData["Breadcrumbs"] = new SeoBreadcrumb[]
+    {
+        new("ホーム", "/"),
+        new("公式過去問", "/past-exams")
+    };
+}
+
+<section class="past-exam-hero">
+    <div class="shell past-exam-hero-grid">
+        <div>
+            <nav class="breadcrumbs" aria-label="パンくずリスト">
+                <a asp-controller="Home" asp-action="Index">ホーム</a><span aria-hidden="true">/</span><span>公式過去問</span>
+            </nav>
+            <span class="past-exam-eyebrow">OFFICIAL PAST EXAMS</span>
+            <h1>入試問題は、<br />公式ページで確かめる。</h1>
+            <p>都道府県教育委員会が公開する問題・正答・リスニング資料への入口をまとめています。WakaRouteは問題そのものを転載せず、公式掲載ページへ案内します。</p>
+        </div>
+        <div class="past-exam-steps" aria-label="過去問の使い方">
+            <div><span>1</span><p><strong>自分の都道府県を選ぶ</strong>まず受検予定地域の出題形式を知ります。</p></div>
+            <div><span>2</span><p><strong>時間を計って解く</strong>最初は点数より、止まった場所を記録します。</p></div>
+            <div><span>3</span><p><strong>理解マップへ戻る</strong>解けなかった原因を技能まで分けて学び直します。</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="past-exam-main">
+    <div class="shell">
+        <header class="past-exam-heading">
+            <div><span>VERIFIED LINKS</span><h2>公式過去問を探す</h2></div>
+            <p>@Model.AsOf 時点で公式ページを確認しています。47都道府県を掲載し、オンライン公開・窓口配布など地域ごとの公開方法も区別しています。</p>
+        </header>
+
+        <nav class="past-exam-prefecture-nav" aria-label="都道府県へ移動">
+            @foreach (var source in Model.Sources)
+            {
+                <a href="#prefecture-@source.PrefectureCode">@source.Prefecture</a>
+            }
+        </nav>
+
+        <div class="past-exam-grid">
+            @foreach (var source in Model.Sources)
+            {
+                <article class="past-exam-card" id="prefecture-@source.PrefectureCode">
+                    <header>
+                        <div><span>@source.PrefectureCode</span><h3>@source.Prefecture</h3></div>
+                        <small>@source.LatestAcademicYear 年度</small>
+                    </header>
+                    <p class="past-exam-authority">@source.AuthorityName</p>
+                    <h4>@source.Title</h4>
+                    <div class="past-exam-tags" aria-label="掲載資料">
+                        @if (source.MaterialLabelsForDisplay.Count == 0)
+                        {
+                            <span>公開方法を公式案内で確認</span>
+                        }
+                        else
+                        {
+                            @foreach (var material in source.MaterialLabelsForDisplay)
+                            {
+                                <span>@material</span>
+                            }
+                        }
+                    </div>
+                    <dl>
+                        <div><dt>対象</dt><dd>@string.Join(" ／ ", source.ExamScopes)</dd></div>
+                        <div><dt>掲載年度</dt><dd>@string.Join("・", source.AcademicYears.Select(year => $"{year}年度"))</dd></div>
+                        <div><dt>確認日</dt><dd>@source.VerifiedAt</dd></div>
+                    </dl>
+                    <p class="past-exam-usage-note">@source.UsageNote</p>
+                    <a class="button button-primary" href="@source.OfficialPageUrl" target="_blank" rel="noopener noreferrer">@(source.HasOnlineQuestions ? "公式ページで過去問を見る ↗" : "公式の入試情報を確認する ↗")</a>
+                </article>
+            }
+        </div>
+
+        <p class="past-exam-applicability-note">公立高校でも、学校・学科・選抜区分によって共通問題を使用しない場合があります。実際の受検科目と問題は、志望校の最新募集要項で必ず確認してください。</p>
+
+        <aside class="past-exam-policy" aria-labelledby="past-exam-policy-heading">
+            <div><span>WAKAROUTE POLICY</span><h2 id="past-exam-policy-heading">練習問題は、独自に作ります。</h2></div>
+            <p>公式過去問からは「どの技能を、どんな手順で使うか」を分析します。文章や図を写したり、数字だけを変えたりせず、新しい場面・条件・問い・解説でWakaRoute独自の問題を設計します。</p>
+            <a asp-controller="UnderstandingMaps" asp-action="Math">理解マップを見る →</a>
+        </aside>
+    </div>
+</section>

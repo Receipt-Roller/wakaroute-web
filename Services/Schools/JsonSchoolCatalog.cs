@@ -2,6 +2,7 @@ using System.Text;
 using System.Text.Json;
 using System.Globalization;
 using wakaroute_web.Models;
+using wakaroute_web.Services.PastExams;
 
 namespace wakaroute_web.Services.Schools;
 
@@ -35,8 +36,11 @@ public sealed class JsonSchoolCatalog : ISchoolCatalog
     private readonly Dictionary<string, SchoolAccessInfo> _accessById;
     private readonly Dictionary<string, SchoolLifeInfo> _schoolLifeById;
 
-    public JsonSchoolCatalog(IHostEnvironment environment)
+    private readonly IPastExamCatalog _pastExamCatalog;
+
+    public JsonSchoolCatalog(IHostEnvironment environment, IPastExamCatalog pastExamCatalog)
     {
+        _pastExamCatalog = pastExamCatalog;
         var dataDirectory = Path.Combine(environment.ContentRootPath, "Data", "Schools");
         var schoolDocument = Read<SchoolDocument>(Path.Combine(dataDirectory, "schools.json"));
         var identityDocument = Read<IdentityDocument>(Path.Combine(dataDirectory, "school-id.json"));
@@ -45,6 +49,7 @@ public sealed class JsonSchoolCatalog : ISchoolCatalog
         var difficultyDocument = Read<DifficultyDocument>(Path.Combine(dataDirectory, "school-difficulty.json"));
         var accessDocument = Read<AccessDocument>(Path.Combine(dataDirectory, "school-access.json"));
         var schoolLifeDocument = Read<SchoolLifeDocument>(Path.Combine(dataDirectory, "school-life.json"));
+        var schoolPastExamDocument = Read<SchoolPastExamDocument>(Path.Combine(dataDirectory, "school-past-exams.json"));
         var admissionDocuments = Directory
             .EnumerateFiles(Path.Combine(dataDirectory, "school-admissions"), "*.json")
             .OrderBy(path => path, StringComparer.Ordinal)
@@ -56,7 +61,7 @@ public sealed class JsonSchoolCatalog : ISchoolCatalog
             .Select(Read<ExamDocument>)
             .ToArray();
 
-        Validate(schoolDocument, identityDocument, profileDocument, guideDocument, admissionDocuments, examDocuments, difficultyDocument, accessDocument, schoolLifeDocument);
+        Validate(schoolDocument, identityDocument, profileDocument, guideDocument, admissionDocuments, examDocuments, difficultyDocument, accessDocument, schoolLifeDocument, schoolPastExamDocument, pastExamCatalog.Sources);
 
         _schoolLifeById = schoolLifeDocument.Schools.ToDictionary(
             item => item.SchoolId,
@@ -156,6 +161,11 @@ public sealed class JsonSchoolCatalog : ISchoolCatalog
                 _decisionGuidesById.TryGetValue(school.Id, out var guide);
                 _accessById.TryGetValue(school.Id, out var accessInfo);
                 _schoolLifeById.TryGetValue(school.Id, out var schoolLife);
+                var pastExamSourceIds = schoolPastExamDocument.Rules
+                    .Where(rule => MatchesPastExamRule(school, rule))
+                    .SelectMany(rule => rule.PastExamSourceIds)
+                    .Distinct(StringComparer.Ordinal)
+                    .ToArray();
                 var latestYear = admissions?.MaxBy(result => result.AcademicYear)?.AcademicYear;
                 var latestRatio = latestYear.HasValue
                     ? admissions!
@@ -180,7 +190,8 @@ public sealed class JsonSchoolCatalog : ISchoolCatalog
                     HasSchoolLife = schoolLife is not null,
                     LatestApplicationRatio = latestRatio > 0 ? latestRatio : null,
                     AccessInfo = accessInfo,
-                    SchoolLife = schoolLife
+                    SchoolLife = schoolLife,
+                    PastExamSourceIds = pastExamSourceIds
                 };
             })
             .ToArray();
@@ -286,7 +297,10 @@ public sealed class JsonSchoolCatalog : ISchoolCatalog
         _examSchedulesById.TryGetValue(id, out var examSchedules);
         _admissionsById.TryGetValue(id, out var admissions);
         _deviationScoresById.TryGetValue(id, out var deviationScores);
-        return new SchoolDetailsViewModel(school, profile, decisionGuide, schoolLife, examSchedules ?? [], admissions ?? [], deviationScores ?? []);
+        return new SchoolDetailsViewModel(school, profile, decisionGuide, schoolLife, examSchedules ?? [], admissions ?? [], deviationScores ?? [])
+        {
+            PastExamSources = _pastExamCatalog.GetByIds(school.PastExamSourceIds)
+        };
     }
 
     public IReadOnlyList<SchoolDetailsViewModel> GetByIds(IEnumerable<string> ids, int maximumCount)
@@ -357,6 +371,11 @@ public sealed class JsonSchoolCatalog : ISchoolCatalog
 
     private static string Normalize(string? value) => (value ?? string.Empty).Trim().Normalize(NormalizationForm.FormKC).ToLowerInvariant();
 
+    private static bool MatchesPastExamRule(SchoolEntry school, SchoolPastExamRuleEntry rule) =>
+        (string.IsNullOrWhiteSpace(rule.PrefectureCode) || school.PrefectureCode == rule.PrefectureCode) &&
+        (string.IsNullOrWhiteSpace(rule.Ownership) || school.Ownership == rule.Ownership) &&
+        (string.IsNullOrWhiteSpace(rule.SchoolNamePrefix) || school.Name.StartsWith(rule.SchoolNamePrefix, StringComparison.Ordinal));
+
     private static T Read<T>(string path)
     {
         if (!File.Exists(path)) throw new InvalidOperationException($"School catalog file was not found: {path}");
@@ -378,10 +397,12 @@ public sealed class JsonSchoolCatalog : ISchoolCatalog
         IReadOnlyList<ExamDocument> exams,
         DifficultyDocument difficulty,
         AccessDocument access,
-        SchoolLifeDocument schoolLife)
+        SchoolLifeDocument schoolLife,
+        SchoolPastExamDocument schoolPastExams,
+        IReadOnlyList<OfficialPastExamSource> pastExamSources)
     {
         if (schools.SchemaVersion != 1 || identities.SchemaVersion != 1 || profiles.SchemaVersion != 1 || guides.SchemaVersion != 1 ||
-            admissions.Any(document => document.SchemaVersion != 1) || exams.Any(document => document.SchemaVersion != 1) || difficulty.SchemaVersion != 1 || access.SchemaVersion != 1 || schoolLife.SchemaVersion != 1)
+            admissions.Any(document => document.SchemaVersion != 1) || exams.Any(document => document.SchemaVersion != 1) || difficulty.SchemaVersion != 1 || access.SchemaVersion != 1 || schoolLife.SchemaVersion != 1 || schoolPastExams.SchemaVersion != 1)
             throw new InvalidOperationException("Unsupported school catalog schema version.");
         if (!string.Equals(schools.AsOf, identities.AsOf, StringComparison.Ordinal))
             throw new InvalidOperationException("School catalog files use different snapshot dates.");
@@ -426,6 +447,17 @@ public sealed class JsonSchoolCatalog : ISchoolCatalog
         if (unknownSchoolLifeId is not null) throw new InvalidOperationException($"School life data references an unknown school ID: {unknownSchoolLifeId}");
         if (schoolLife.Schools.Any(item => item.Clubs.Any(club => club.Category is not ("sports" or "culture") || club.Gender is not ("boys" or "girls" or "mixed" or "unknown"))))
             throw new InvalidOperationException("School life data contains an invalid club category or gender.");
+
+        var knownPastExamSourceIds = pastExamSources.Select(source => source.Id).ToHashSet(StringComparer.Ordinal);
+        var unknownPastExamSourceId = schoolPastExams.Rules
+            .SelectMany(rule => rule.PastExamSourceIds)
+            .FirstOrDefault(id => !knownPastExamSourceIds.Contains(id));
+        if (unknownPastExamSourceId is not null)
+            throw new InvalidOperationException($"School past exam rule references an unknown source ID: {unknownPastExamSourceId}");
+        if (schoolPastExams.Rules.Any(rule => string.IsNullOrWhiteSpace(rule.PrefectureCode) && string.IsNullOrWhiteSpace(rule.Ownership) && string.IsNullOrWhiteSpace(rule.SchoolNamePrefix)))
+            throw new InvalidOperationException("School past exam rule must contain at least one school selector.");
+        if (schoolPastExams.Rules.Any(rule => !schools.Schools.Any(school => MatchesPastExamRule(school, rule))))
+            throw new InvalidOperationException("School past exam rule does not match any current school.");
 
         var admissionResults = admissions.SelectMany(document => document.Results).ToArray();
         if (admissions.Any(document => document.Results.Any(result => result.AcademicYear != document.AcademicYear)))
@@ -506,6 +538,21 @@ public sealed class JsonSchoolCatalog : ISchoolCatalog
         public int SchemaVersion { get; init; }
         public string AsOf { get; init; } = string.Empty;
         public SchoolLifeEntry[] Schools { get; init; } = [];
+    }
+
+    private sealed class SchoolPastExamDocument
+    {
+        public int SchemaVersion { get; init; }
+        public string AsOf { get; init; } = string.Empty;
+        public SchoolPastExamRuleEntry[] Rules { get; init; } = [];
+    }
+
+    private sealed class SchoolPastExamRuleEntry
+    {
+        public string[] PastExamSourceIds { get; init; } = [];
+        public string? PrefectureCode { get; init; }
+        public string? Ownership { get; init; }
+        public string? SchoolNamePrefix { get; init; }
     }
 
     private sealed class SchoolLifeEntry

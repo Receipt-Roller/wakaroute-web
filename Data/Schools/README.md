@@ -11,9 +11,10 @@
 - `school-difficulty.json`: 外部提供元から許諾を得た偏差値データです。提供元、年度、母集団、出典URL、ライセンスを必須とし、入試倍率とは分けて管理します。
 - `school-access.json`: 国土交通省の学校位置・鉄道駅データを学校コードで結合し、各校から近い3駅までの直線距離を保持します。徒歩距離や所要時間ではありません。
 - `school-life.json`: 部活動、制服、校則、行事、昼食等を、確認日と学校公式出典付きで管理します。確認できない項目は推測せず `unknown` と説明文を残します。
+- `school-past-exams.json`: 学校の設置地域・設置区分・名称条件と、`Data/PastExams/official-past-exam-sources.json` の公式過去問リンクを関連付けます。同じ都道府県の多数校に共通するリンクを各校へ重複保存しません。
 - `school-contact-channels.example.json`: 非公開で管理する学校代表窓口データの空テンプレートです。実データは公開リポジトリ外の `../wakaroute-private-data/` または将来のアクセス制御された保存先で管理します。
 - `school-outreach.example.json`: 未確認項目に関する問い合わせ下書き・承認・送信・回答履歴の空テンプレートです。
-- `school-id.schema.json` / `schools.schema.json` / `school-access.schema.json` / `school-life.schema.json` / `school-contact-channels.schema.json` / `school-outreach.schema.json`: 各JSONの基本構造を示すJSON Schemaです。
+- `school-id.schema.json` / `schools.schema.json` / `school-access.schema.json` / `school-life.schema.json` / `school-past-exams.schema.json` / `school-contact-channels.schema.json` / `school-outreach.schema.json`: 各JSONの基本構造を示すJSON Schemaです。
 
 ## 再生成
 

@@ -25,6 +25,7 @@ public sealed class SeoController(
         "/",
         "/high-school-exam",
         "/schools",
+        "/past-exams",
         "/understanding-map/math",
         "/understanding-map/japanese",
         "/understanding-map/english",

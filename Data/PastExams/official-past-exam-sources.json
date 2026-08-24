@@ -1,0 +1,969 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-08-25",
+  "sources": [
+    {
+      "id": "hokkaido-official",
+      "prefectureCode": "01",
+      "prefecture": "北海道",
+      "authorityName": "北海道教育委員会",
+      "title": "公立高等学校入学者選抜 学力検査問題等",
+      "officialPageUrl": "https://www.koukou.hokkaido-c.ed.jp/gakuryokukensa/gakuryoku.html",
+      "academicYears": [
+        2026,
+        2025,
+        2024
+      ],
+      "examScopes": [
+        "一般入学者選抜",
+        "追検査"
+      ],
+      "materials": [
+        "questions",
+        "answer-sheets",
+        "listening-audio"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "英語音源を含む資料の閲覧条件と最新年度は公式ページで確認してください。"
+    },
+    {
+      "id": "aomori-2026-official",
+      "prefectureCode": "02",
+      "prefecture": "青森県",
+      "authorityName": "青森県教育委員会",
+      "title": "令和8年度 県立高等学校入学者選抜 学力検査問題等",
+      "officialPageUrl": "https://www.pref.aomori.lg.jp/soshiki/kyoiku/e-gakyo/sembatsu26_nyuusenmondai_00.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般選抜"
+      ],
+      "materials": [
+        "questions",
+        "answers",
+        "answer-sheets",
+        "listening-scripts"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "著作権の関係で省略される文章・画像があります。資料は転載せず公式ページを案内します。"
+    },
+    {
+      "id": "iwate-official-selection",
+      "prefectureCode": "03",
+      "prefecture": "岩手県",
+      "authorityName": "岩手県教育委員会",
+      "title": "県立高等学校入学者選抜情報",
+      "officialPageUrl": "https://www.pref.iwate.jp/kyouikubunka/kyouiku/gakkou/senbatsu/index.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般入試",
+        "特色入試"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・正答一式のオンライン公開を確認できなかったため、公式の選抜情報を案内します。"
+    },
+    {
+      "id": "miyagi-2026-official",
+      "prefectureCode": "04",
+      "prefecture": "宮城県",
+      "authorityName": "宮城県教育委員会",
+      "title": "令和8年度 宮城県公立高等学校入試問題",
+      "officialPageUrl": "https://www.pref.miyagi.jp/soshiki/koukyou/kakomon-ko-nyushi-r8.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "第一次募集",
+        "追試験"
+      ],
+      "materials": [
+        "questions",
+        "answers",
+        "answer-sheets",
+        "listening-scripts"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "著作権により一部が省略されます。再利用条件は公式案内を確認してください。"
+    },
+    {
+      "id": "akita-official",
+      "prefectureCode": "05",
+      "prefecture": "秋田県",
+      "authorityName": "秋田県教育委員会",
+      "title": "秋田県公立高等学校入学者選抜 学力検査問題",
+      "officialPageUrl": "https://www.pref.akita.lg.jp/pages/genre/15419",
+      "academicYears": [
+        2026,
+        2025,
+        2024
+      ],
+      "examScopes": [
+        "一般選抜"
+      ],
+      "materials": [
+        "questions"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "掲載資料と利用条件は公式ページで確認してください。"
+    },
+    {
+      "id": "yamagata-2026-official",
+      "prefectureCode": "06",
+      "prefecture": "山形県",
+      "authorityName": "山形県教育委員会",
+      "title": "令和8年度 県立高等学校入学者選抜情報",
+      "officialPageUrl": "https://www.pref.yamagata.jp/700013/koko/r8nyusengoukaku.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般入学者選抜"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・正答一式のオンライン公開を確認できなかったため、公式の入試情報を案内します。"
+    },
+    {
+      "id": "fukushima-2026-official",
+      "prefectureCode": "07",
+      "prefecture": "福島県",
+      "authorityName": "福島県教育委員会",
+      "title": "令和8年度 県立高等学校入学者選抜関連情報",
+      "officialPageUrl": "https://www.pref.fukushima.lg.jp/site/edu/r8koukounyushi.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "前期選抜",
+        "追検査"
+      ],
+      "materials": [
+        "answers",
+        "scoring-guidance"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "正答・標準配点等を確認できます。問題冊子の公開状況は公式ページで確認してください。"
+    },
+    {
+      "id": "ibaraki-2026-official",
+      "prefectureCode": "08",
+      "prefecture": "茨城県",
+      "authorityName": "茨城県教育委員会",
+      "title": "県立高等学校入学者選抜 最新情報",
+      "officialPageUrl": "https://kyoiku.pref.ibaraki.jp/category/news-nyushi/",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "共通選抜",
+        "追検査"
+      ],
+      "materials": [
+        "answers",
+        "scoring-guidance"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "標準解答等の掲載記事を公式一覧から確認できます。"
+    },
+    {
+      "id": "tochigi-2026-official",
+      "prefectureCode": "09",
+      "prefecture": "栃木県",
+      "authorityName": "栃木県教育委員会",
+      "title": "令和8年度 県立高等学校入学者選抜に関するお知らせ",
+      "officialPageUrl": "https://www.pref.tochigi.lg.jp/m04/r08/r08_kennritukoutougakkounyuugakushasennbatunikannsuruosirase.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般選抜",
+        "特色選抜"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・正答一式のオンライン公開を確認できなかったため、公式の選抜情報を案内します。"
+    },
+    {
+      "id": "gunma-2026-official",
+      "prefectureCode": "10",
+      "prefecture": "群馬県",
+      "authorityName": "群馬県教育委員会",
+      "title": "令和8年度 公立高等学校入学者選抜 学力検査問題",
+      "officialPageUrl": "https://www.pref.gunma.jp/site/kyouiku/754286.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "本検査",
+        "追検査"
+      ],
+      "materials": [
+        "questions",
+        "answers",
+        "answer-sheets"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "公式掲載ページの注意事項を確認し、資料の転載・再配布は行わないでください。"
+    },
+    {
+      "id": "saitama-2026-public-selection",
+      "prefectureCode": "11",
+      "prefecture": "埼玉県",
+      "authorityName": "埼玉県教育委員会",
+      "title": "令和8年度 埼玉県公立高等学校入学者選抜学力検査問題等",
+      "officialPageUrl": "https://www.pref.saitama.lg.jp/f2208/r8nyuushi-mondai.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "学力検査",
+        "学校選択問題",
+        "追検査"
+      ],
+      "materials": [
+        "questions",
+        "answers",
+        "answer-sheets",
+        "listening-scripts",
+        "listening-audio"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "リスニング音声には商業目的での使用制限が明記されています。WakaRouteは資料を再配布せず公式ページを案内します。"
+    },
+    {
+      "id": "chiba-2026-official",
+      "prefectureCode": "12",
+      "prefecture": "千葉県",
+      "authorityName": "千葉県教育委員会",
+      "title": "令和8年度 高等学校入学者選抜情報",
+      "officialPageUrl": "https://www.pref.chiba.lg.jp/kyouiku/shidou/nyuushi/koukou/r8/",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般入学者選抜",
+        "追検査"
+      ],
+      "materials": [
+        "answers"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "正答表等を確認できます。問題冊子の閲覧方法は公式ページで確認してください。"
+    },
+    {
+      "id": "tokyo-metropolitan-official",
+      "prefectureCode": "13",
+      "prefecture": "東京都",
+      "authorityName": "東京都教育委員会",
+      "title": "都立高等学校入学者選抜 学力検査問題及び正答表等",
+      "officialPageUrl": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/ability_test/problem_and_answer",
+      "academicYears": [
+        2026,
+        2025,
+        2024,
+        2023,
+        2022,
+        2021,
+        2020
+      ],
+      "examScopes": [
+        "第一次募集・分割前期募集",
+        "分割後期募集・全日制第二次募集",
+        "自校作成問題を含む年度別資料"
+      ],
+      "materials": [
+        "questions",
+        "answers",
+        "answer-sheets",
+        "scoring-guidance"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・文章・図・解答等は転載せず、東京都教育委員会の公式掲載ページを案内します。利用条件と最新資料は公式ページで確認してください。"
+    },
+    {
+      "id": "kanagawa-2026-common-selection",
+      "prefectureCode": "14",
+      "prefecture": "神奈川県",
+      "authorityName": "神奈川県教育委員会",
+      "title": "令和8年度 共通選抜 学力検査問題",
+      "officialPageUrl": "https://www.pref.kanagawa.jp/docs/dc4/nyusen/nyusen/gakuryokukensa/r8.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "共通選抜",
+        "追検査",
+        "全日制・定時制"
+      ],
+      "materials": [
+        "questions",
+        "answers",
+        "answer-sheets",
+        "listening-scripts",
+        "listening-audio"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "リスニング音源を含め、複写・配布には公式ページ記載の注意事項があります。WakaRouteは資料を再配布せず公式ページを案内します。"
+    },
+    {
+      "id": "niigata-2026-official",
+      "prefectureCode": "15",
+      "prefecture": "新潟県",
+      "authorityName": "新潟県教育委員会",
+      "title": "令和8年度 県立高等学校入学者選抜 学力検査結果",
+      "officialPageUrl": "https://www.pref.niigata.lg.jp/sec/kotogakko/r8senbatsukekka.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般選抜"
+      ],
+      "materials": [
+        "scoring-guidance"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "教科別の結果・分析を確認できます。問題冊子の公開状況は公式ページで確認してください。"
+    },
+    {
+      "id": "toyama-2026-official",
+      "prefectureCode": "16",
+      "prefecture": "富山県",
+      "authorityName": "富山県教育委員会",
+      "title": "令和8年度 県立高等学校入学者選抜情報",
+      "officialPageUrl": "https://www.pref.toyama.jp/300201/kyouiku/kenritsukoukou/08senbatsu.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般入学者選抜",
+        "推薦入学者選抜"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・正答一式のオンライン公開を確認できなかったため、公式の選抜情報を案内します。"
+    },
+    {
+      "id": "ishikawa-official-selection",
+      "prefectureCode": "17",
+      "prefecture": "石川県",
+      "authorityName": "石川県教育委員会",
+      "title": "公立高等学校入学者選抜情報",
+      "officialPageUrl": "https://www.pref.ishikawa.lg.jp/kyoiku/gakkou/senbatu/senbatu.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般入学",
+        "推薦入学"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・正答の公開方法を含む最新情報は公式ページで確認してください。"
+    },
+    {
+      "id": "fukui-2026-official",
+      "prefectureCode": "18",
+      "prefecture": "福井県",
+      "authorityName": "福井県教育委員会",
+      "title": "福井県立高等学校入学者選抜情報",
+      "officialPageUrl": "https://www.pref.fukui.lg.jp/doc/koukou/nyugaku/koukounyushi.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般入学者選抜",
+        "特色選抜"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "一部資料のみ掲載される場合があります。公開方法は公式ページで確認してください。"
+    },
+    {
+      "id": "yamanashi-official-selection",
+      "prefectureCode": "19",
+      "prefecture": "山梨県",
+      "authorityName": "山梨県教育委員会",
+      "title": "公立高等学校 最新の入試情報",
+      "officialPageUrl": "https://www.pref.yamanashi.jp/kyouiku-kikaku/nyuusi/saishinnonyuusijouhou.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "全日制後期募集",
+        "定時制"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・正答一式のオンライン公開を確認できなかったため、公式の最新入試情報を案内します。"
+    },
+    {
+      "id": "nagano-2026-official",
+      "prefectureCode": "20",
+      "prefecture": "長野県",
+      "authorityName": "長野県教育委員会",
+      "title": "令和8年度 後期選抜学力検査問題等",
+      "officialPageUrl": "https://www.pref.nagano.lg.jp/kyoiku/kyogaku/saiyo-nyuushi/shiken/ko/r8koukigakuryokukensa.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "後期選抜",
+        "追検査"
+      ],
+      "materials": [
+        "questions",
+        "answers",
+        "answer-sheets",
+        "listening-scripts"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "資料の掲載範囲と利用条件は公式ページで確認してください。"
+    },
+    {
+      "id": "gifu-2026-official",
+      "prefectureCode": "21",
+      "prefecture": "岐阜県",
+      "authorityName": "岐阜県教育委員会",
+      "title": "令和8年度 第一次選抜 学力検査問題等",
+      "officialPageUrl": "https://www.pref.gifu.lg.jp/site/edu/379617.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "第一次選抜",
+        "追検査"
+      ],
+      "materials": [
+        "questions",
+        "answers",
+        "answer-sheets",
+        "listening-scripts"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "著作権上の注意を確認し、資料の転載・再配布は行わないでください。"
+    },
+    {
+      "id": "shizuoka-2025-official",
+      "prefectureCode": "22",
+      "prefecture": "静岡県",
+      "authorityName": "静岡県教育委員会",
+      "title": "令和7年度 公立高等学校入学者選抜 学力検査問題",
+      "officialPageUrl": "https://www.pref.shizuoka.jp/kodomokyoiku/school/kyoiku/1003764/1003891/1063460.html",
+      "academicYears": [
+        2025
+      ],
+      "examScopes": [
+        "一般選抜"
+      ],
+      "materials": [
+        "questions"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "確認できた公式掲載年度を表示しています。最新年度は県教育委員会で確認してください。"
+    },
+    {
+      "id": "aichi-2026-official",
+      "prefectureCode": "23",
+      "prefecture": "愛知県",
+      "authorityName": "愛知県教育委員会",
+      "title": "令和8年度 公立高等学校入学者選抜 学力検査問題等",
+      "officialPageUrl": "https://www.pref.aichi.jp/soshiki/kotogakko/r08nyuushimonndai.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般選抜",
+        "全日制・定時制"
+      ],
+      "materials": [
+        "questions",
+        "answers",
+        "answer-sheets",
+        "listening-scripts",
+        "listening-audio"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "音源を含む掲載資料の利用条件は公式ページで確認してください。"
+    },
+    {
+      "id": "mie-2025-official",
+      "prefectureCode": "24",
+      "prefecture": "三重県",
+      "authorityName": "三重県教育委員会",
+      "title": "令和7年度 県立高等学校入学者選抜 学力検査問題等",
+      "officialPageUrl": "https://www.pref.mie.lg.jp/KOKOKYO/HP/m0204200029_00074.htm",
+      "academicYears": [
+        2025
+      ],
+      "examScopes": [
+        "前期選抜",
+        "後期選抜"
+      ],
+      "materials": [
+        "questions",
+        "answers",
+        "answer-sheets",
+        "scoring-guidance"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "確認できた公式掲載年度を表示しています。最新年度は県教育委員会で確認してください。"
+    },
+    {
+      "id": "shiga-2026-official",
+      "prefectureCode": "25",
+      "prefecture": "滋賀県",
+      "authorityName": "滋賀県教育委員会",
+      "title": "令和8年度 県立高等学校入学者選抜 学力検査問題等",
+      "officialPageUrl": "https://www.pref.shiga.lg.jp/edu/nyuushi/high/senbatsu/105597.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般型選抜",
+        "学校独自型選抜"
+      ],
+      "materials": [
+        "questions",
+        "answers"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "選抜制度・年度別の掲載範囲を公式ページで確認してください。"
+    },
+    {
+      "id": "kyoto-2026-official",
+      "prefectureCode": "26",
+      "prefecture": "京都府",
+      "authorityName": "京都府教育委員会",
+      "title": "令和8年度 公立高等学校入学者選抜 学力検査問題等",
+      "officialPageUrl": "https://www.kyoto-be.ne.jp/koukyou/cms/?p=1456",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "前期選抜",
+        "中期選抜"
+      ],
+      "materials": [
+        "questions",
+        "answers"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "二次利用・転載には許諾が必要な場合があります。公式ページを確認してください。"
+    },
+    {
+      "id": "osaka-2026-general-selection",
+      "prefectureCode": "27",
+      "prefecture": "大阪府",
+      "authorityName": "大阪府教育庁",
+      "title": "令和8年度 一般入学者選抜 学力検査問題及び採点資料等",
+      "officialPageUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/gakuji-g3/r08_ippan_mondai.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般入学者選抜",
+        "A・B・C問題",
+        "英語リスニング"
+      ],
+      "materials": [
+        "questions",
+        "answers",
+        "listening-scripts",
+        "listening-audio"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "大阪府は複写配布・別サイトへの転載が著作権法に違反する場合があると案内しています。WakaRouteは資料を再配布せず公式ページを案内します。"
+    },
+    {
+      "id": "hyogo-official-selection",
+      "prefectureCode": "28",
+      "prefecture": "兵庫県",
+      "authorityName": "兵庫県教育委員会",
+      "title": "兵庫県公立高等学校入学者選抜情報",
+      "officialPageUrl": "https://www2.hyogo-c.ed.jp/hpe/koko/nyuushi/",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般選抜",
+        "推薦入学・特色選抜"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・正答一式のオンライン公開を確認できなかったため、公式入試情報を案内します。"
+    },
+    {
+      "id": "nara-2025-official",
+      "prefectureCode": "29",
+      "prefecture": "奈良県",
+      "authorityName": "奈良県教育委員会",
+      "title": "令和7年度 公立高等学校入学者選抜 学力検査問題",
+      "officialPageUrl": "https://www.pref.nara.jp/68874.htm",
+      "academicYears": [
+        2025
+      ],
+      "examScopes": [
+        "特色選抜",
+        "一般選抜"
+      ],
+      "materials": [
+        "questions",
+        "answers"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "確認できた公式掲載年度を表示しています。最新年度は県教育委員会で確認してください。"
+    },
+    {
+      "id": "wakayama-2026-official",
+      "prefectureCode": "30",
+      "prefecture": "和歌山県",
+      "authorityName": "和歌山県教育委員会",
+      "title": "令和8年度 県立高等学校入学者選抜 学力検査問題",
+      "officialPageUrl": "https://www.pref.wakayama.lg.jp/prefg/500200/d00221870.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般選抜"
+      ],
+      "materials": [
+        "questions",
+        "answer-sheets",
+        "answers",
+        "listening-scripts"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "国語等は著作権の関係で問題が掲載されない場合があります。"
+    },
+    {
+      "id": "tottori-2026-official",
+      "prefectureCode": "31",
+      "prefecture": "鳥取県",
+      "authorityName": "鳥取県教育委員会",
+      "title": "令和8年度 県立高等学校入学者選抜 学力検査分析",
+      "officialPageUrl": "https://www.pref.tottori.lg.jp/secure/1425005/r8kenritukoutougakkougakuryoku.pdf",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般入学者選抜"
+      ],
+      "materials": [
+        "scoring-guidance"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "正答率等の公式分析資料です。問題冊子の配布・閲覧方法は公式窓口で確認してください。"
+    },
+    {
+      "id": "shimane-official-selection",
+      "prefectureCode": "32",
+      "prefecture": "島根県",
+      "authorityName": "島根県教育委員会",
+      "title": "島根県公立高等学校入学者選抜情報",
+      "officialPageUrl": "https://www.pref.shimane.lg.jp/education/kyoiku/senbatsu/",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般選抜",
+        "特色選抜"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・正答一式のオンライン公開を確認できなかったため、公式の選抜情報を案内します。"
+    },
+    {
+      "id": "okayama-official-selection",
+      "prefectureCode": "33",
+      "prefecture": "岡山県",
+      "authorityName": "岡山県教育委員会",
+      "title": "県立高等学校の入学者選抜",
+      "officialPageUrl": "https://www.pref.okayama.jp/soshiki/348/",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般入学者選抜",
+        "特別入学者選抜",
+        "自校作成問題実施校あり"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "自校作成問題を実施する学校があります。志望校の募集要項も確認してください。"
+    },
+    {
+      "id": "hiroshima-2026-official",
+      "prefectureCode": "34",
+      "prefecture": "広島県",
+      "authorityName": "広島県教育委員会",
+      "title": "令和8年度 公立高等学校入学者選抜 一般学力検査用紙",
+      "officialPageUrl": "https://www.pref.hiroshima.lg.jp/site/kyouiku/08senior-2nd-r8-nyuushi-r8-kou-kennsayoushi.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一次選抜等"
+      ],
+      "materials": [
+        "questions",
+        "answer-sheets",
+        "answers",
+        "listening-scripts"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "著作物を含む問題の無断複製はできません。資料は転載せず公式ページを案内します。"
+    },
+    {
+      "id": "yamaguchi-2026-official",
+      "prefectureCode": "35",
+      "prefecture": "山口県",
+      "authorityName": "山口県教育委員会",
+      "title": "令和8年度 公立高等学校入学者選抜情報",
+      "officialPageUrl": "https://www.pref.yamaguchi.lg.jp/soshiki/180/344705.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "第一次募集",
+        "特色選抜",
+        "第二次募集"
+      ],
+      "materials": [
+        "scoring-guidance"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "学力検査の実施状況・得点状況等を確認できます。"
+    },
+    {
+      "id": "tokushima-official-selection",
+      "prefectureCode": "36",
+      "prefecture": "徳島県",
+      "authorityName": "徳島県教育委員会",
+      "title": "徳島県公立高等学校入学者選抜情報",
+      "officialPageUrl": "https://www.pref.tokushima.lg.jp/ippannokata/kyoiku/gakkokyoiku/",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般選抜",
+        "特色選抜"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・正答一式のオンライン公開を確認できなかったため、県の公式学校教育情報を案内します。"
+    },
+    {
+      "id": "kagawa-official-access",
+      "prefectureCode": "37",
+      "prefecture": "香川県",
+      "authorityName": "香川県教育委員会",
+      "title": "県民室等で公表している県立高等学校入学者選抜試験問題",
+      "officialPageUrl": "https://www.pref.kagawa.lg.jp/kocho/shiryo/shikenmondai.html",
+      "academicYears": [
+        2026,
+        2025,
+        2024
+      ],
+      "examScopes": [
+        "一般選抜"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "過去問と解答は県民室等で閲覧できます。場所・対象年度は公式案内で確認してください。"
+    },
+    {
+      "id": "ehime-official-selection",
+      "prefectureCode": "38",
+      "prefecture": "愛媛県",
+      "authorityName": "愛媛県教育委員会",
+      "title": "愛媛県県立高等学校入学者選抜情報",
+      "officialPageUrl": "https://www.pref.ehime.jp/soshiki/140/index.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般入学者選抜",
+        "特色入学者選抜"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・正答の公開方法を含む最新情報は、高校教育課の公式ページで確認してください。"
+    },
+    {
+      "id": "kochi-2026-official",
+      "prefectureCode": "39",
+      "prefecture": "高知県",
+      "authorityName": "高知県教育委員会",
+      "title": "令和8年度 公立高等学校入学者選抜 学力検査問題",
+      "officialPageUrl": "https://www.pref.kochi.lg.jp/doc/r8_gakuryokukensa_mondai/",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "A日程",
+        "B日程"
+      ],
+      "materials": [
+        "questions",
+        "answers",
+        "listening-scripts"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "著作権保護のため引用箇所を掲載しない教科があります。"
+    },
+    {
+      "id": "fukuoka-2026-official",
+      "prefectureCode": "40",
+      "prefecture": "福岡県",
+      "authorityName": "福岡県教育委員会",
+      "title": "令和8年度 県立高等学校入学者選抜 学力検査問題",
+      "officialPageUrl": "https://www.pref.fukuoka.lg.jp/site/kyouiku/mondaikoukai080310.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般入学者選抜"
+      ],
+      "materials": [
+        "questions",
+        "answers",
+        "answer-sheets",
+        "listening-scripts",
+        "listening-audio"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "無断転載や営利利用は禁止され、塾等での利用には許諾申請が必要です。"
+    },
+    {
+      "id": "saga-2026-official",
+      "prefectureCode": "41",
+      "prefecture": "佐賀県",
+      "authorityName": "佐賀県教育委員会",
+      "title": "令和8年度 県立高等学校入学者選抜実施要項",
+      "officialPageUrl": "https://www.pref.saga.lg.jp/kyouiku/kiji003115881/index.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般選抜",
+        "特別選抜"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・正答一式のオンライン公開を確認できなかったため、公式の実施要項を案内します。"
+    },
+    {
+      "id": "nagasaki-2026-official",
+      "prefectureCode": "42",
+      "prefecture": "長崎県",
+      "authorityName": "長崎県教育委員会",
+      "title": "令和8年度 公立高等学校入学者選抜実施要領",
+      "officialPageUrl": "https://www.pref.nagasaki.jp/doc/page-746842.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般選抜",
+        "特別選抜"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・正答一式のオンライン公開を確認できなかったため、公式の実施要領を案内します。"
+    },
+    {
+      "id": "kumamoto-2026-official",
+      "prefectureCode": "43",
+      "prefecture": "熊本県",
+      "authorityName": "熊本県教育委員会",
+      "title": "令和8年度 県立高等学校入学者選抜要項",
+      "officialPageUrl": "https://www.pref.kumamoto.jp/site/kyouiku/244675.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "前期（特色）選抜",
+        "後期（一般）選抜"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・正答一式のオンライン公開を確認できなかったため、公式の選抜要項を案内します。"
+    },
+    {
+      "id": "oita-2026-official",
+      "prefectureCode": "44",
+      "prefecture": "大分県",
+      "authorityName": "大分県教育委員会",
+      "title": "令和8年度 県立高等学校入学者選抜 教科分析",
+      "officialPageUrl": "https://www.pref.oita.jp/site/kyoiku/r08kyoukabunnseki.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "第一次入学者選抜"
+      ],
+      "materials": [
+        "scoring-guidance"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題別の正答率・出題方針等を確認できます。"
+    },
+    {
+      "id": "miyazaki-2026-official",
+      "prefectureCode": "45",
+      "prefecture": "宮崎県",
+      "authorityName": "宮崎県教育委員会",
+      "title": "令和8年度 県立高等学校生徒募集情報",
+      "officialPageUrl": "https://www.pref.miyazaki.lg.jp/kokokyoiku/kyoikukosodate/kyoiku/20250618193442.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般入学者選抜",
+        "推薦・連携型入学者選抜"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・正答一式のオンライン公開を確認できなかったため、公式の募集・選抜情報を案内します。"
+    },
+    {
+      "id": "kagoshima-2026-official",
+      "prefectureCode": "46",
+      "prefecture": "鹿児島県",
+      "authorityName": "鹿児島県教育委員会",
+      "title": "令和8年度 公立高等学校入学者選抜 学力検査結果の概要",
+      "officialPageUrl": "https://www.pref.kagoshima.jp/kyoiku-bunka/school/koukou/nyushi/r5/r8gaiyo.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般入学者選抜"
+      ],
+      "materials": [
+        "scoring-guidance"
+      ],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題・解答例と正答率を含む公式分析を確認できます。"
+    },
+    {
+      "id": "okinawa-2026-official",
+      "prefectureCode": "47",
+      "prefecture": "沖縄県",
+      "authorityName": "沖縄県教育委員会",
+      "title": "令和8年度 県立高等学校入学者選抜 学力検査問題の配布案内",
+      "officialPageUrl": "https://www.pref.okinawa.jp/kyoiku/gakko/1008883/1008887/1035054.html",
+      "academicYears": [
+        2026
+      ],
+      "examScopes": [
+        "一般選抜"
+      ],
+      "materials": [],
+      "verifiedAt": "2026-08-25",
+      "usageNote": "問題は県教育庁で部数限定配布、リスニングCDは貸出と案内されています。"
+    }
+  ]
+}

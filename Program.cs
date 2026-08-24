@@ -1,6 +1,7 @@
 using wakaroute_web.Services.UnderstandingMaps;
 using wakaroute_web.Services.Schools;
 using wakaroute_web.Services.Manabu2;
+using wakaroute_web.Services.PastExams;
 using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +23,7 @@ builder.Services.AddMemoryCache();
 builder.Services.AddHttpClient(Manabu2CatalogClient.HttpClientName);
 builder.Services.AddSingleton<Manabu2CatalogClient>();
 builder.Services.AddSingleton<IUnderstandingMapCatalog, Manabu2UnderstandingMapCatalog>();
+builder.Services.AddSingleton<IPastExamCatalog, JsonPastExamCatalog>();
 builder.Services.AddSingleton<ISchoolCatalog, JsonSchoolCatalog>();
 
 var app = builder.Build();

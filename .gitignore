@@ -38,6 +38,9 @@ secrets.json
 ## School contact and outreach operations (never publish)
 Data/Schools/private/*.json
 
+## Past exam skill analysis (never publish)
+Data/PastExams/private/*.json
+
 ## OS files
 .DS_Store
 Thumbs.db
