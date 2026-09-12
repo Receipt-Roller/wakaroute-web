@@ -11,6 +11,10 @@
     const string appStoreUrl = "https://apps.apple.com/us/app/%E3%83%AF%E3%82%AB%E3%83%AB%E3%83%BC%E3%83%88/id6797358439";
 }
 
+@section Styles {
+    <link rel="stylesheet" href="~/lib/katex/katex.min.css" asp-append-version="true" />
+}
+
 <section class="test-preview-hero">
     <div class="shell test-preview-hero-inner">
         <nav class="breadcrumbs" aria-label="パンくずリスト">
@@ -52,7 +56,7 @@
     </div>
 </section>
 
-<div class="test-preview-main">
+<div class="test-preview-main" data-math-content>
     <div class="shell test-preview-layout">
         <header class="test-preview-heading">
             <div><span>QUESTION PREVIEW</span><h2>問題を確認する</h2></div>
@@ -97,3 +101,9 @@
         <a class="test-preview-back" asp-action="@Model.SubjectMapAction">← @(Model.Subject)の理解マップへ戻る</a>
     </div>
 </div>
+
+@section Scripts {
+    <script src="~/lib/katex/katex.min.js" asp-append-version="true"></script>
+    <script src="~/lib/katex/contrib/auto-render.min.js" asp-append-version="true"></script>
+    <script src="~/js/lesson-math.js" asp-append-version="true"></script>
+}
