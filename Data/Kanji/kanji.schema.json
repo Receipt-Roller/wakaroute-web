@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wakaroute.com/schemas/kanji.schema.json",
+  "title": "WakaRoute junior-high kanji dataset",
+  "type": "object",
+  "required": ["schemaVersion", "datasetVersion", "asOf", "language", "license", "sources", "assignment", "officialLearningGoals", "items"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "datasetVersion": { "type": "string", "minLength": 1 },
+    "asOf": { "type": "string", "format": "date" },
+    "language": { "const": "ja-JP" },
+    "license": {
+      "type": "object",
+      "required": ["name", "spdxId", "url", "attribution"]
+    },
+    "sources": { "type": "array", "minItems": 2 },
+    "assignment": {
+      "type": "object",
+      "required": ["classification", "officialGradeAssignment", "method", "gradeCounts"],
+      "properties": {
+        "classification": { "const": "wakaroute-editorial" },
+        "officialGradeAssignment": { "const": false },
+        "gradeCounts": {
+          "type": "object",
+          "properties": {
+            "1": { "const": 350 },
+            "2": { "const": 400 },
+            "3": { "const": 360 }
+          },
+          "required": ["1", "2", "3"]
+        }
+      }
+    },
+    "officialLearningGoals": { "type": "object", "required": ["reading", "writing"] },
+    "items": {
+      "type": "array",
+      "minItems": 1110,
+      "maxItems": 1110,
+      "items": {
+        "type": "object",
+        "required": ["id", "character", "officialStage", "recommendedGrade", "sequence", "strokeCount", "onReadings", "kunReadings"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^jhs-u[0-9a-f]+$" },
+          "character": { "type": "string", "minLength": 1 },
+          "officialStage": { "const": "junior-high" },
+          "recommendedGrade": { "type": "integer", "minimum": 1, "maximum": 3 },
+          "sequence": { "type": "integer", "minimum": 1, "maximum": 1110 },
+          "strokeCount": { "type": "integer", "minimum": 1 },
+          "frequencyRank": { "type": "integer", "minimum": 1 },
+          "onReadings": { "type": "array", "items": { "type": "string" } },
+          "kunReadings": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

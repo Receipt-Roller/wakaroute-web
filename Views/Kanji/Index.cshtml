@@ -1,0 +1,87 @@
+@model KanjiIndexViewModel
+@{
+    ViewData["Title"] = "中学校で学ぶ漢字1,110字";
+    ViewData["Description"] = "中学校修了までに読むことが求められる常用漢字1,110字を、ワカルート独自の中1・中2・中3学習順で確認できます。";
+    ViewData["Breadcrumbs"] = new SeoBreadcrumb[]
+    {
+        new("ホーム", "/"),
+        new("中学校の漢字", "/kanji")
+    };
+}
+
+<section class="kanji-hero">
+    <div class="shell kanji-hero-grid">
+        <div>
+            <nav class="breadcrumbs" aria-label="パンくずリスト">
+                <a asp-controller="Home" asp-action="Index">ホーム</a><span aria-hidden="true">/</span><span>中学校の漢字</span>
+            </nav>
+            <span class="kanji-eyebrow">JUNIOR HIGH KANJI</span>
+            <h1>1,110字を、<br />読める言葉に変えていく。</h1>
+            <p>中学校では、新しい漢字を一字ずつ書けるようにするだけでなく、語句や文章の中で読み、意味と使い方を理解することが大切です。</p>
+        </div>
+        <dl class="kanji-overview-stats">
+            <div><dt>常用漢字</dt><dd>2,136<small>字</small></dd></div>
+            <div><dt>小学校配当</dt><dd>1,026<small>字</small></dd></div>
+            <div class="is-primary"><dt>中学校段階</dt><dd>1,110<small>字</small></dd></div>
+        </dl>
+    </div>
+</section>
+
+<div class="kanji-main">
+    <div class="shell kanji-shell">
+        <section class="kanji-intro" aria-labelledby="kanji-intro-title">
+            <div>
+                <span>HOW TO READ THIS LIST</span>
+                <h2 id="kanji-intro-title">公式の目標と、学ぶ順番を分けています。</h2>
+            </div>
+            <div>
+                <p>文部科学省は学年ごとの「読む字数」を示していますが、中1・中2・中3の個別の漢字配当表は定めていません。</p>
+                <p>この一覧では、使用頻度と画数を基にワカルート独自の学習順を作っています。「中1で必ず習う漢字」という意味ではありません。</p>
+            </div>
+        </section>
+
+        <section class="kanji-grade-grid" aria-label="学年別の漢字一覧">
+            @for (var grade = 1; grade <= 3; grade++)
+            {
+                var count = Model.Dataset.Assignment.GradeCounts[grade.ToString()];
+                <article class="kanji-grade-card grade-@grade">
+                    <span>RECOMMENDED GRADE @grade</span>
+                    <div><strong>中@(grade)</strong><b>@count<small>字</small></b></div>
+                    <p>@Model.Dataset.OfficialLearningGoals.Reading[grade.ToString()]</p>
+                    <a asp-action="Grade" asp-route-grade="@grade">中学@(grade)年の一覧を見る <span aria-hidden="true">→</span></a>
+                </article>
+            }
+        </section>
+
+        <section class="kanji-read-write" aria-labelledby="kanji-read-write-title">
+            <header><span>READ / WRITE</span><h2 id="kanji-read-write-title">「読める」と「書ける」は、別々に考える。</h2></header>
+            <div>
+                <article><span aria-hidden="true">読</span><div><h3>中学校の新しい1,110字</h3><p>まずは文章の中で読み、語句の意味と使い方を理解することが中心です。</p></div></article>
+                <article><span aria-hidden="true">書</span><div><h3>小学校配当の1,026字</h3><p>中2までに文章の中で使い、中3では状況に合わせて使い慣れることが目標です。</p></div></article>
+            </div>
+        </section>
+
+        <aside class="kanji-data-note" aria-labelledby="kanji-data-title">
+            <div><span>OPEN LEARNING DATA</span><h2 id="kanji-data-title">Webとアプリで、同じデータを使います。</h2></div>
+            <div>
+                <p>データセット v@(Model.Dataset.DatasetVersion)（@Model.Dataset.AsOf 更新）を、検索APIと一括取得APIで公開しています。</p>
+                <nav aria-label="漢字API">
+                    <a href="/api/v1/kanji?recommendedGrade=1">中1 API</a>
+                    <a href="/api/v1/kanji/dataset">全データ</a>
+                </nav>
+            </div>
+        </aside>
+
+        <section class="kanji-sources" aria-labelledby="kanji-sources-title">
+            <h2 id="kanji-sources-title">出典とデータの扱い</h2>
+            <p>@Model.Dataset.Assignment.Method</p>
+            <ul>
+                @foreach (var source in Model.Dataset.Sources)
+                {
+                    <li><a href="@source.Url" target="_blank" rel="noopener noreferrer">@source.Name <span aria-hidden="true">↗</span></a><span>@source.Role</span></li>
+                }
+            </ul>
+            <p class="kanji-license">KANJIDIC2由来データは <a href="@Model.Dataset.License.Url" target="_blank" rel="noopener noreferrer">@Model.Dataset.License.SpdxId</a> で提供しています。</p>
+        </section>
+    </div>
+</div>

@@ -46,6 +46,26 @@
     </div>
 </section>
 
+@if (Model.SubjectId == "japanese")
+{
+    <aside class="subject-resource-link">
+        <div class="shell">
+            <div><span>KANJI CATALOG</span><strong>中学校で読みたい漢字1,110字</strong><p>公式の到達目標と、ワカルート独自の中1・中2・中3学習順を確認できます。</p></div>
+            <a asp-controller="Kanji" asp-action="Index">漢字一覧をひらく <span aria-hidden="true">→</span></a>
+        </div>
+    </aside>
+}
+
+@if (Model.SubjectId == "english")
+{
+    <aside class="subject-resource-link">
+        <div class="shell">
+            <div><span>WORD CATALOG</span><strong>中学校で身につけたい英単語1,800語</strong><p>小学校の復習650語と、ワカルート独自の中1・中2・中3学習順を確認できます。</p></div>
+            <a asp-controller="EnglishWords" asp-action="Index">英単語一覧をひらく <span aria-hidden="true">→</span></a>
+        </div>
+    </aside>
+}
+
 @if (subjectTests.Length > 0)
 {
     <section class="map-tests" id="diagnostic-tests" aria-labelledby="diagnostic-tests-title">

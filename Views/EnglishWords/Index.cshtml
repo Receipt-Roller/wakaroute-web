@@ -1,0 +1,49 @@
+@model EnglishWordsIndexViewModel
+@{
+    ViewData["Title"] = "中学校で身につけたい英単語1,800語";
+    ViewData["Description"] = "小学校の復習650語と中学校で身につけたい1,800語を、ワカルート独自の中1・中2・中3学習順で確認できます。";
+    ViewData["Breadcrumbs"] = new SeoBreadcrumb[] { new("ホーム", "/"), new("中学校の英単語", "/english-words") };
+}
+
+<section class="words-hero">
+    <div class="shell words-hero-grid">
+        <div>
+            <nav class="breadcrumbs" aria-label="パンくずリスト"><a asp-controller="Home" asp-action="Index">ホーム</a><span aria-hidden="true">/</span><span>中学校の英単語</span></nav>
+            <span class="words-eyebrow">JUNIOR HIGH ENGLISH WORDS</span>
+            <h1>1,800語を、<br />使える言葉に変えていく。</h1>
+            <p>英単語は、日本語の意味を覚えるだけでは足りません。聞く・読む・意味を選ぶ・書く・文で使う、の5つに分けて身につけます。</p>
+        </div>
+        <dl class="words-overview-stats">
+            <div><dt>小学校の復習</dt><dd>650<small>語</small></dd></div>
+            <div class="is-primary"><dt>中学校の新出語</dt><dd>1,800<small>語</small></dd></div>
+            <div><dt>累計</dt><dd>2,450<small>語</small></dd></div>
+        </dl>
+    </div>
+</section>
+
+<div class="words-main"><div class="shell words-shell">
+    <section class="words-intro">
+        <div><span>HOW TO READ THIS LIST</span><h2>公式の語数と、学ぶ単語を分けています。</h2></div>
+        <div><p>文部科学省は、小学校で600〜700語程度、中学校で新たに1,600〜1,800語程度という目標を示しています。ただし、全国共通の「中1の単語一覧」はありません。</p><p>この一覧は、一般英語での使用頻度を基にしたワカルートの初版です。教科書や学校によって学ぶ語と時期は異なります。</p></div>
+    </section>
+
+    <section class="words-grade-grid" aria-label="学年別の英単語一覧">
+        @for (var grade = 1; grade <= 3; grade++)
+        {
+            <article class="words-grade-card grade-@grade">
+                <span>RECOMMENDED GRADE @grade</span><div><strong>中@(grade)</strong><b>600<small>語</small></b></div>
+                <p>頻度順を土台にした、ワカルート独自の学習順です。</p>
+                <a asp-action="Grade" asp-route-grade="@grade">中学@(grade)年の一覧を見る <span aria-hidden="true">→</span></a>
+            </article>
+        }
+    </section>
+
+    <section class="words-skills" aria-labelledby="words-skills-title">
+        <header><span>FIVE SKILLS</span><h2 id="words-skills-title">1語を、5つの力で確かめる。</h2></header>
+        <ol>@foreach (var skill in Model.Dataset.LearningSkills) { <li><span>@skill.Name</span><p>@skill.Description</p></li> }</ol>
+    </section>
+
+    <aside class="words-data-note"><div><span>OPEN LEARNING DATA</span><h2>Webとアプリで、同じデータを使います。</h2></div><div><p>データセット v@(Model.Dataset.DatasetVersion)（@Model.Dataset.AsOf 更新）をAPIで公開しています。</p><nav aria-label="英単語API"><a href="/api/v1/english-words?stage=junior-high&amp;recommendedGrade=1">中1 API</a><a href="/api/v1/english-words/dataset">全データ</a></nav></div></aside>
+
+    <section class="words-sources"><h2>出典とデータの扱い</h2><p>@Model.Dataset.Assignment.Method</p><ul>@foreach (var source in Model.Dataset.Sources) { <li><a href="@source.Url" target="_blank" rel="noopener noreferrer">@source.Name <span aria-hidden="true">↗</span></a><span>@source.Role</span></li> }</ul><p class="words-license">語彙リストはCC BY-SA 4.0、日本語の語義はCC0のデータを利用しています。詳しくはリポジトリ内のNOTICEをご覧ください。</p></section>
+</div></div>

@@ -1,0 +1,92 @@
+@model KanjiGradeViewModel
+@{
+    ViewData["Title"] = $"中学{Model.Grade}年で読みたい漢字 {Model.Dataset.Assignment.GradeCounts[Model.Grade.ToString()]}字";
+    ViewData["Description"] = $"ワカルートが提案する中学{Model.Grade}年向けの漢字{Model.Dataset.Assignment.GradeCounts[Model.Grade.ToString()]}字を、音読み・訓読み・画数とともに確認できます。";
+    ViewData["Breadcrumbs"] = new SeoBreadcrumb[]
+    {
+        new("ホーム", "/"),
+        new("中学校の漢字", "/kanji"),
+        new($"中学{Model.Grade}年", $"/kanji/junior-high/grade-{Model.Grade}")
+    };
+}
+
+<section class="kanji-grade-hero grade-@Model.Grade">
+    <div class="shell">
+        <nav class="breadcrumbs" aria-label="パンくずリスト">
+            <a asp-controller="Home" asp-action="Index">ホーム</a><span aria-hidden="true">/</span><a asp-action="Index">中学校の漢字</a><span aria-hidden="true">/</span><span>中学@(Model.Grade)年</span>
+        </nav>
+        <span class="kanji-eyebrow">WAKAROUTE RECOMMENDED</span>
+        <div class="kanji-grade-title">
+            <div><h1>中学@(Model.Grade)年で<br />読みたい漢字</h1><p>国の公式配当ではなく、使用頻度と画数を基にしたワカルート独自の学習順です。</p></div>
+            <strong>@Model.Dataset.Assignment.GradeCounts[Model.Grade.ToString()]<small>字</small></strong>
+        </div>
+    </div>
+</section>
+
+<div class="kanji-main">
+    <div class="shell kanji-shell">
+        <nav class="kanji-grade-tabs" aria-label="学年を選ぶ">
+            @for (var grade = 1; grade <= 3; grade++)
+            {
+                <a class="@(grade == Model.Grade ? "is-current" : null)" asp-action="Grade" asp-route-grade="@grade" aria-current="@(grade == Model.Grade ? "page" : null)">中@(grade) <span>@Model.Dataset.Assignment.GradeCounts[grade.ToString()]字</span></a>
+            }
+        </nav>
+
+        <section class="kanji-goals" aria-label="学習指導要領の目標">
+            <article><span>読む目標</span><p>@Model.ReadingGoal</p></article>
+            <article><span>書く目標</span><p>@Model.WritingGoal</p></article>
+        </section>
+
+        <form class="kanji-search" method="get" asp-action="Grade" asp-route-grade="@Model.Grade">
+            <label for="kanji-query">漢字または読みで探す</label>
+            <div><input id="kanji-query" name="q" value="@Model.Query" placeholder="例：援、エン、たすける" /><button type="submit">検索</button></div>
+            @if (!string.IsNullOrWhiteSpace(Model.Query))
+            {
+                <p>「@Model.Query」の検索結果：@Model.Result.TotalCount 字 <a asp-action="Grade" asp-route-grade="@Model.Grade">検索を解除</a></p>
+            }
+        </form>
+
+        @if (Model.Result.Items.Count == 0)
+        {
+            <div class="kanji-empty"><h2>該当する漢字がありません。</h2><p>漢字一字、音読み、訓読みのいずれかで検索してください。</p></div>
+        }
+        else
+        {
+            <ol class="kanji-list" start="@((Model.Result.Page - 1) * Model.Result.PageSize + 1)">
+                @foreach (var item in Model.Result.Items)
+                {
+                    <li>
+                        <article class="kanji-card">
+                            <header><span>#@item.Sequence.ToString("0000")</span><strong lang="ja">@item.Character</strong><small>@item.StrokeCount 画</small></header>
+                            <dl>
+                                <div><dt>音読み</dt><dd>@(item.OnReadingsForDisplay.Count > 0 ? string.Join("・", item.OnReadingsForDisplay) : "—")</dd></div>
+                                <div><dt>訓読み</dt><dd>@(item.KunReadingsForDisplay.Count > 0 ? string.Join("・", item.KunReadingsForDisplay) : "—")</dd></div>
+                            </dl>
+                        </article>
+                    </li>
+                }
+            </ol>
+
+            @if (Model.Result.TotalPages > 1)
+            {
+                <nav class="kanji-pagination" aria-label="漢字一覧のページ">
+                    @if (Model.Result.Page > 1)
+                    {
+                        <a asp-action="Grade" asp-route-grade="@Model.Grade" asp-route-q="@Model.Query" asp-route-page="@(Model.Result.Page - 1)">← 前へ</a>
+                    }
+                    <span>@Model.Result.Page / @Model.Result.TotalPages</span>
+                    @if (Model.Result.Page < Model.Result.TotalPages)
+                    {
+                        <a asp-action="Grade" asp-route-grade="@Model.Grade" asp-route-q="@Model.Query" asp-route-page="@(Model.Result.Page + 1)">次へ →</a>
+                    }
+                </nav>
+            }
+        }
+
+        <aside class="kanji-grade-note">
+            <strong>この学年分けについて</strong>
+            <p>@Model.Dataset.Assignment.Method 教科書や学校によって学ぶ時期は異なります。</p>
+            <a asp-action="Index">出典と全体方針を見る →</a>
+        </aside>
+    </div>
+</div>

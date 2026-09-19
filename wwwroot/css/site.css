@@ -1985,3 +1985,278 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--lime-strong); o
   .school-club-card dl div { grid-template-columns: 1fr; gap: .15rem; }
   .school-life-verification { flex-direction: column; }
 }
+
+/* Junior high kanji catalog */
+.subject-resource-link { border-bottom: 1px solid #d8e4df; background: #edf5f1; }
+.subject-resource-link > .shell { display: grid; grid-template-columns: 1fr auto; gap: 38px; align-items: center; min-height: 128px; padding-block: 24px; }
+.subject-resource-link > .shell > div { display: grid; grid-template-columns: auto 1fr; column-gap: 18px; align-items: baseline; }
+.subject-resource-link > .shell > div > span { color: #27705d; font-size: 9px; font-weight: 850; letter-spacing: .14em; }
+.subject-resource-link strong { color: var(--green); font-size: 18px; }
+.subject-resource-link p { grid-column: 2; margin: 2px 0 0; color: #64756f; font-size: 11px; }
+.subject-resource-link > .shell > a { padding: 10px 16px; border-radius: 999px; background: var(--green); color: #fff; font-size: 11px; font-weight: 800; white-space: nowrap; }
+.kanji-hero, .kanji-grade-hero { overflow: hidden; background: var(--green); color: var(--white); }
+.kanji-hero-grid { display: grid; grid-template-columns: minmax(0,1.25fr) minmax(340px,.75fr); gap: 80px; align-items: end; min-height: 610px; padding-block: 52px 82px; }
+.kanji-hero .breadcrumbs, .kanji-grade-hero .breadcrumbs { margin-bottom: 58px; }
+.kanji-hero .breadcrumbs a, .kanji-hero .breadcrumbs span, .kanji-grade-hero .breadcrumbs a, .kanji-grade-hero .breadcrumbs span { color: #c0d8d1; }
+.kanji-eyebrow, .kanji-intro > div:first-child > span, .kanji-read-write > header > span, .kanji-data-note > div:first-child > span { color: var(--lime); font-size: 11px; font-weight: 850; letter-spacing: .17em; }
+.kanji-hero h1 { max-width: 760px; margin: 17px 0 24px; font-size: clamp(48px,6.3vw,82px); line-height: 1.08; letter-spacing: -.055em; }
+.kanji-hero-grid > div:first-child > p { max-width: 680px; margin: 0; color: #c9ddd7; font-size: 16px; line-height: 2; }
+.kanji-overview-stats { display: grid; gap: 12px; margin: 0; }
+.kanji-overview-stats > div { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding: 19px 23px; border: 1px solid rgba(255,255,255,.14); border-radius: 16px; background: rgba(255,255,255,.055); }
+.kanji-overview-stats > div.is-primary { border-color: rgba(215,240,109,.58); background: rgba(215,240,109,.12); }
+.kanji-overview-stats dt { color: #bed5ce; font-size: 12px; font-weight: 700; }
+.kanji-overview-stats dd { margin: 0; font-size: 34px; font-weight: 850; line-height: 1; letter-spacing: -.04em; }
+.kanji-overview-stats dd small { margin-left: 4px; font-size: 12px; }
+.kanji-main { padding-block: 100px 120px; background: #f3f7f5; }
+.kanji-shell { max-width: 1080px; }
+.kanji-intro { display: grid; grid-template-columns: minmax(260px,.8fr) 1.2fr; gap: 80px; align-items: start; }
+.kanji-intro > div:first-child > span, .kanji-read-write > header > span, .kanji-data-note > div:first-child > span { color: #28705d; }
+.kanji-intro h2, .kanji-read-write h2, .kanji-data-note h2 { margin: 8px 0 0; color: var(--green); font-size: clamp(31px,4vw,48px); line-height: 1.3; letter-spacing: -.035em; }
+.kanji-intro p { margin: 0 0 16px; color: #586b65; font-size: 14px; line-height: 1.95; }
+.kanji-grade-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; margin-top: 58px; }
+.kanji-grade-card { display: flex; flex-direction: column; min-height: 350px; padding: 28px; border: 1px solid #d4e2dd; border-radius: 22px; background: #fff; box-shadow: 0 14px 38px rgba(20,61,54,.055); }
+.kanji-grade-card > span { color: #4f756b; font-size: 10px; font-weight: 850; letter-spacing: .12em; }
+.kanji-grade-card > div { display: flex; align-items: baseline; justify-content: space-between; gap: 18px; margin: 26px 0 18px; }
+.kanji-grade-card > div strong { color: var(--green); font-size: 34px; }
+.kanji-grade-card > div b { color: #28705d; font-size: 28px; }
+.kanji-grade-card > div small { margin-left: 3px; font-size: 11px; }
+.kanji-grade-card p { margin: 0 0 24px; color: #61716c; font-size: 12px; line-height: 1.8; }
+.kanji-grade-card a { display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 18px; border-top: 1px solid #e2ebe7; color: #17664f; font-size: 12px; font-weight: 800; }
+.kanji-grade-card a:hover { color: #0e4938; }
+.kanji-read-write { margin-top: 90px; }
+.kanji-read-write > header { display: grid; grid-template-columns: 150px 1fr; gap: 35px; align-items: start; }
+.kanji-read-write > header > span { margin-top: 18px; }
+.kanji-read-write > div { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; margin-top: 35px; }
+.kanji-read-write article { display: grid; grid-template-columns: 68px 1fr; gap: 20px; padding: 30px; border-radius: 20px; background: #fff; }
+.kanji-read-write article > span { display: grid; place-items: center; width: 68px; height: 68px; border-radius: 50%; background: var(--green); color: var(--lime); font-size: 27px; font-weight: 850; }
+.kanji-read-write h3 { margin: 2px 0 7px; color: var(--green); font-size: 19px; }
+.kanji-read-write p { margin: 0; color: #62726d; font-size: 12px; line-height: 1.8; }
+.kanji-data-note { display: grid; grid-template-columns: 1fr 1fr; gap: 65px; align-items: center; margin-top: 80px; padding: 40px; border-radius: 24px; background: var(--green); color: #fff; }
+.kanji-data-note > div:first-child > span { color: var(--lime); }
+.kanji-data-note h2 { color: #fff; font-size: 31px; }
+.kanji-data-note p { margin: 0 0 19px; color: #c5dad4; font-size: 13px; line-height: 1.85; }
+.kanji-data-note nav { display: flex; flex-wrap: wrap; gap: 9px; }
+.kanji-data-note nav a { padding: 8px 13px; border: 1px solid rgba(255,255,255,.22); border-radius: 999px; color: #f0dc7b; font-size: 11px; font-weight: 800; }
+.kanji-sources { margin-top: 55px; }
+.kanji-sources h2 { margin: 0 0 8px; color: var(--green); font-size: 24px; }
+.kanji-sources > p { color: #687873; font-size: 12px; line-height: 1.8; }
+.kanji-sources ul { margin: 20px 0; padding: 0; border-top: 1px solid #d4e0dc; list-style: none; }
+.kanji-sources li { display: grid; grid-template-columns: 1fr 1.2fr; gap: 25px; padding: 16px 4px; border-bottom: 1px solid #d4e0dc; }
+.kanji-sources li a { color: #17664f; font-size: 12px; font-weight: 800; }
+.kanji-sources li > span { color: #687873; font-size: 11px; }
+.kanji-license a { text-decoration: underline; text-underline-offset: 3px; }
+
+.kanji-grade-hero > .shell { padding-block: 48px 78px; }
+.kanji-grade-title { display: grid; grid-template-columns: 1fr auto; gap: 55px; align-items: end; }
+.kanji-grade-title h1 { margin: 15px 0 20px; font-size: clamp(45px,6vw,72px); line-height: 1.12; letter-spacing: -.05em; }
+.kanji-grade-title p { max-width: 650px; margin: 0; color: #c4d9d3; font-size: 14px; line-height: 1.9; }
+.kanji-grade-title > strong { color: var(--lime); font-size: clamp(66px,9vw,112px); line-height: 1; letter-spacing: -.07em; }
+.kanji-grade-title > strong small { margin-left: 6px; font-size: 15px; letter-spacing: 0; }
+.kanji-grade-tabs { display: grid; grid-template-columns: repeat(3,1fr); margin: -132px 0 50px; padding: 8px; border: 1px solid #d5e1dd; border-radius: 18px; background: #fff; box-shadow: 0 15px 38px rgba(20,61,54,.08); }
+.kanji-grade-tabs a { display: flex; align-items: baseline; justify-content: center; gap: 7px; padding: 15px; border-radius: 12px; color: #667771; font-size: 14px; font-weight: 850; }
+.kanji-grade-tabs a.is-current { background: var(--green); color: #fff; }
+.kanji-grade-tabs a span { font-size: 10px; opacity: .72; }
+.kanji-goals { display: grid; grid-template-columns: repeat(2,1fr); gap: 16px; }
+.kanji-goals article { display: grid; grid-template-columns: 82px 1fr; gap: 18px; align-items: start; padding: 22px; border: 1px solid #d5e2de; border-radius: 16px; background: #fff; }
+.kanji-goals article > span { color: #27705d; font-size: 11px; font-weight: 850; }
+.kanji-goals p { margin: 0; color: #5e706a; font-size: 12px; line-height: 1.75; }
+.kanji-search { margin: 42px 0 30px; padding: 28px; border-radius: 19px; background: #e3eee9; }
+.kanji-search label { display: block; margin-bottom: 9px; color: var(--green); font-size: 13px; font-weight: 850; }
+.kanji-search > div { display: grid; grid-template-columns: 1fr auto; gap: 9px; }
+.kanji-search input { width: 100%; min-width: 0; padding: 13px 15px; border: 1px solid #becfc9; border-radius: 11px; background: #fff; color: var(--text); font-size: 14px; }
+.kanji-search input:focus { outline: 3px solid rgba(190,223,57,.48); border-color: #5b796f; }
+.kanji-search button { padding: 10px 25px; border: 0; border-radius: 11px; background: var(--green); color: #fff; font-size: 12px; font-weight: 850; cursor: pointer; }
+.kanji-search > p { margin: 12px 0 0; color: #5d6f69; font-size: 11px; }
+.kanji-search > p a { margin-left: 8px; color: #17664f; font-weight: 800; text-decoration: underline; }
+.kanji-list { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; margin: 0; padding: 0; list-style: none; }
+.kanji-card { height: 100%; overflow: hidden; border: 1px solid #d7e2de; border-radius: 17px; background: #fff; }
+.kanji-card header { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; min-height: 112px; padding: 14px 18px; background: #f8fbf9; border-bottom: 1px solid #e0e9e5; }
+.kanji-card header > span { color: #82908c; font-size: 9px; font-weight: 800; }
+.kanji-card header strong { color: var(--green); font-family: "Noto Sans JP",sans-serif; font-size: 54px; line-height: 1; }
+.kanji-card header small { justify-self: end; color: #667872; font-size: 10px; }
+.kanji-card dl { display: grid; gap: 9px; margin: 0; padding: 18px; }
+.kanji-card dl > div { display: grid; grid-template-columns: 51px 1fr; gap: 10px; }
+.kanji-card dt { color: #6b7d77; font-size: 10px; font-weight: 750; }
+.kanji-card dd { min-width: 0; margin: 0; overflow-wrap: anywhere; color: #263d37; font-size: 11px; line-height: 1.65; }
+.kanji-pagination { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; margin-top: 35px; }
+.kanji-pagination a { width: fit-content; padding: 9px 14px; border: 1px solid #bed1ca; border-radius: 999px; color: #17664f; font-size: 11px; font-weight: 800; }
+.kanji-pagination a:last-child { justify-self: end; }
+.kanji-pagination span { color: #6a7b76; font-size: 11px; }
+.kanji-empty { padding: 50px 30px; border: 1px dashed #bdcec8; border-radius: 18px; text-align: center; }
+.kanji-empty h2 { margin: 0; color: var(--green); font-size: 21px; }
+.kanji-empty p { margin: 8px 0 0; color: #6b7b76; font-size: 12px; }
+.kanji-grade-note { margin-top: 58px; padding: 27px 30px; border-left: 4px solid #d0b748; border-radius: 0 14px 14px 0; background: #fff9e8; }
+.kanji-grade-note strong { color: #6d571e; font-size: 13px; }
+.kanji-grade-note p { margin: 7px 0 12px; color: #6c6248; font-size: 12px; line-height: 1.8; }
+.kanji-grade-note a { color: #17664f; font-size: 11px; font-weight: 800; }
+
+@media (max-width: 880px) {
+  .kanji-hero-grid { grid-template-columns: 1fr; gap: 42px; min-height: auto; }
+  .kanji-overview-stats { grid-template-columns: repeat(3,1fr); }
+  .kanji-overview-stats > div { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .kanji-intro { gap: 42px; }
+  .kanji-grade-grid, .kanji-list { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .kanji-read-write > header { grid-template-columns: 1fr; gap: 5px; }
+  .kanji-read-write > header > span { margin-top: 0; }
+  .kanji-grade-title > strong { font-size: 72px; }
+}
+
+@media (max-width: 620px) {
+  .subject-resource-link > .shell { grid-template-columns: 1fr; gap: 15px; padding-block: 25px; }
+  .subject-resource-link > .shell > div { grid-template-columns: 1fr; }
+  .subject-resource-link p { grid-column: 1; }
+  .subject-resource-link > .shell > a { justify-self: start; }
+  .kanji-hero-grid { padding-block: 38px 62px; }
+  .kanji-hero .breadcrumbs, .kanji-grade-hero .breadcrumbs { margin-bottom: 42px; }
+  .kanji-hero h1 { font-size: 45px; }
+  .kanji-hero-grid > div:first-child > p { font-size: 13px; }
+  .kanji-overview-stats { grid-template-columns: 1fr; }
+  .kanji-overview-stats > div { align-items: baseline; flex-direction: row; }
+  .kanji-main { padding-block: 70px 90px; }
+  .kanji-intro, .kanji-data-note { grid-template-columns: 1fr; gap: 24px; }
+  .kanji-grade-grid, .kanji-read-write > div, .kanji-list, .kanji-goals { grid-template-columns: 1fr; }
+  .kanji-grade-card { min-height: 300px; }
+  .kanji-read-write { margin-top: 70px; }
+  .kanji-read-write article { grid-template-columns: 54px 1fr; padding: 22px 19px; }
+  .kanji-read-write article > span { width: 54px; height: 54px; font-size: 22px; }
+  .kanji-data-note { margin-top: 65px; padding: 28px 23px; }
+  .kanji-sources li { grid-template-columns: 1fr; gap: 5px; }
+  .kanji-grade-hero > .shell { padding-block: 38px 64px; }
+  .kanji-grade-title { grid-template-columns: 1fr; gap: 34px; }
+  .kanji-grade-title h1 { font-size: 43px; }
+  .kanji-grade-title > strong { font-size: 64px; }
+  .kanji-grade-tabs { margin-top: -98px; }
+  .kanji-grade-tabs a { flex-direction: column; gap: 0; padding: 12px 5px; }
+  .kanji-goals article { grid-template-columns: 70px 1fr; }
+  .kanji-search { padding: 21px 18px; }
+  .kanji-search > div { grid-template-columns: 1fr; }
+  .kanji-search button { min-height: 44px; }
+  .kanji-pagination { grid-template-columns: 1fr 1fr; gap: 15px; }
+  .kanji-pagination span { grid-column: 1 / 3; grid-row: 1; text-align: center; }
+  .kanji-pagination a { grid-row: 2; }
+  .kanji-grade-note { padding: 23px 20px; }
+}
+
+/* Junior high English vocabulary */
+.words-hero, .words-grade-hero { overflow: hidden; background: #173f53; color: #fff; }
+.words-hero-grid { display: grid; grid-template-columns: minmax(0,1.25fr) minmax(340px,.75fr); gap: 80px; align-items: end; min-height: 610px; padding-block: 52px 82px; }
+.words-hero .breadcrumbs, .words-grade-hero .breadcrumbs { margin-bottom: 58px; }
+.words-hero .breadcrumbs a, .words-hero .breadcrumbs span, .words-grade-hero .breadcrumbs a, .words-grade-hero .breadcrumbs span { color: #c5dae4; }
+.words-eyebrow, .words-intro > div:first-child > span, .words-skills > header > span, .words-data-note > div:first-child > span { color: #f0dc7b; font-size: 11px; font-weight: 850; letter-spacing: .17em; }
+.words-hero h1 { max-width: 760px; margin: 17px 0 24px; font-size: clamp(48px,6.3vw,82px); line-height: 1.08; letter-spacing: -.055em; }
+.words-hero-grid > div:first-child > p { max-width: 680px; margin: 0; color: #d1e1e8; font-size: 16px; line-height: 2; }
+.words-overview-stats { display: grid; gap: 12px; margin: 0; }
+.words-overview-stats > div { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding: 19px 23px; border: 1px solid rgba(255,255,255,.16); border-radius: 16px; background: rgba(255,255,255,.055); }
+.words-overview-stats > div.is-primary { border-color: rgba(240,220,123,.65); background: rgba(240,220,123,.12); }
+.words-overview-stats dt { color: #c4dbe5; font-size: 12px; font-weight: 700; }
+.words-overview-stats dd { margin: 0; font-size: 34px; font-weight: 850; line-height: 1; letter-spacing: -.04em; }
+.words-overview-stats dd small { margin-left: 4px; font-size: 12px; }
+.words-main { padding-block: 100px 120px; background: #f2f6f8; }
+.words-shell { max-width: 1080px; }
+.words-intro { display: grid; grid-template-columns: minmax(260px,.8fr) 1.2fr; gap: 80px; align-items: start; }
+.words-intro > div:first-child > span, .words-skills > header > span, .words-data-note > div:first-child > span { color: #2d708c; }
+.words-intro h2, .words-skills h2, .words-data-note h2 { margin: 8px 0 0; color: #173f53; font-size: clamp(31px,4vw,48px); line-height: 1.3; letter-spacing: -.035em; }
+.words-intro p { margin: 0 0 16px; color: #5c6f78; font-size: 14px; line-height: 1.95; }
+.words-grade-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; margin-top: 58px; }
+.words-grade-card { display: flex; flex-direction: column; min-height: 310px; padding: 28px; border: 1px solid #d4e1e6; border-radius: 22px; background: #fff; box-shadow: 0 14px 38px rgba(23,63,83,.055); }
+.words-grade-card > span { color: #567785; font-size: 10px; font-weight: 850; letter-spacing: .12em; }
+.words-grade-card > div { display: flex; align-items: baseline; justify-content: space-between; gap: 18px; margin: 26px 0 18px; }
+.words-grade-card > div strong { color: #173f53; font-size: 34px; }
+.words-grade-card > div b { color: #2d708c; font-size: 28px; }
+.words-grade-card > div small { margin-left: 3px; font-size: 11px; }
+.words-grade-card p { margin: 0 0 24px; color: #61727a; font-size: 12px; line-height: 1.8; }
+.words-grade-card a { display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 18px; border-top: 1px solid #e2eaed; color: #176078; font-size: 12px; font-weight: 800; }
+.words-skills { margin-top: 90px; }
+.words-skills > header { display: grid; grid-template-columns: 150px 1fr; gap: 35px; align-items: start; }
+.words-skills > header > span { margin-top: 18px; }
+.words-skills ol { display: grid; grid-template-columns: repeat(5,1fr); gap: 10px; margin: 35px 0 0; padding: 0; list-style: none; }
+.words-skills li { padding: 24px 18px; border-radius: 17px; background: #fff; }
+.words-skills li span { color: #173f53; font-size: 18px; font-weight: 850; }
+.words-skills li p { margin: 8px 0 0; color: #65767d; font-size: 11px; line-height: 1.7; }
+.words-data-note { display: grid; grid-template-columns: 1fr 1fr; gap: 65px; align-items: center; margin-top: 80px; padding: 40px; border-radius: 24px; background: #173f53; color: #fff; }
+.words-data-note > div:first-child > span { color: #f0dc7b; }
+.words-data-note h2 { color: #fff; font-size: 31px; }
+.words-data-note p { margin: 0 0 19px; color: #c8dce5; font-size: 13px; line-height: 1.85; }
+.words-data-note nav { display: flex; flex-wrap: wrap; gap: 9px; }
+.words-data-note nav a { padding: 8px 13px; border: 1px solid rgba(255,255,255,.22); border-radius: 999px; color: #f0dc7b; font-size: 11px; font-weight: 800; }
+.words-sources { margin-top: 55px; }
+.words-sources h2 { margin: 0 0 8px; color: #173f53; font-size: 24px; }
+.words-sources > p { color: #687a82; font-size: 12px; line-height: 1.8; }
+.words-sources ul { margin: 20px 0; padding: 0; border-top: 1px solid #d4e0e5; list-style: none; }
+.words-sources li { display: grid; grid-template-columns: 1fr 1.2fr; gap: 25px; padding: 16px 4px; border-bottom: 1px solid #d4e0e5; }
+.words-sources li a { color: #176078; font-size: 12px; font-weight: 800; }
+.words-sources li > span { color: #687a82; font-size: 11px; }
+.words-grade-hero > .shell { padding-block: 48px 78px; }
+.words-grade-title { display: grid; grid-template-columns: 1fr auto; gap: 55px; align-items: end; }
+.words-grade-title h1 { margin: 15px 0 20px; font-size: clamp(45px,6vw,72px); line-height: 1.12; letter-spacing: -.05em; }
+.words-grade-title p { max-width: 650px; margin: 0; color: #c9dce5; font-size: 14px; line-height: 1.9; }
+.words-grade-title > strong { color: #f0dc7b; font-size: clamp(66px,9vw,112px); line-height: 1; letter-spacing: -.07em; }
+.words-grade-title > strong small { margin-left: 6px; font-size: 15px; letter-spacing: 0; }
+.words-grade-tabs { display: grid; grid-template-columns: repeat(3,1fr); margin: -132px 0 50px; padding: 8px; border: 1px solid #d5e1e6; border-radius: 18px; background: #fff; box-shadow: 0 15px 38px rgba(23,63,83,.08); }
+.words-grade-tabs a { display: flex; align-items: baseline; justify-content: center; gap: 7px; padding: 15px; border-radius: 12px; color: #687980; font-size: 14px; font-weight: 850; }
+.words-grade-tabs a.is-current { background: #173f53; color: #fff; }
+.words-grade-tabs a span { font-size: 10px; opacity: .72; }
+.words-search { margin: 0 0 30px; padding: 28px; border-radius: 19px; background: #e1edf1; }
+.words-search label { display: block; margin-bottom: 9px; color: #173f53; font-size: 13px; font-weight: 850; }
+.words-search > div { display: grid; grid-template-columns: 1fr auto; gap: 9px; }
+.words-search input { width: 100%; min-width: 0; padding: 13px 15px; border: 1px solid #b9ced7; border-radius: 11px; background: #fff; color: var(--text); font-size: 14px; }
+.words-search input:focus { outline: 3px solid rgba(240,220,123,.58); border-color: #477487; }
+.words-search button { padding: 10px 25px; border: 0; border-radius: 11px; background: #173f53; color: #fff; font-size: 12px; font-weight: 850; cursor: pointer; }
+.words-search > p { margin: 12px 0 0; color: #5d7078; font-size: 11px; }
+.words-search > p a { margin-left: 8px; color: #176078; font-weight: 800; text-decoration: underline; }
+.words-list { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; margin: 0; padding: 0; list-style: none; }
+.word-card { height: 100%; padding: 21px; border: 1px solid #d7e2e7; border-radius: 17px; background: #fff; }
+.word-card header { display: flex; align-items: baseline; gap: 12px; }
+.word-card header span { color: #85949a; font-size: 9px; font-weight: 800; }
+.word-card header strong { min-width: 0; overflow-wrap: anywhere; color: #173f53; font-size: 24px; line-height: 1.2; }
+.word-card p { margin: 13px 0 0; color: #536971; font-size: 11px; line-height: 1.75; }
+.words-pagination { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; margin-top: 35px; }
+.words-pagination a { width: fit-content; padding: 9px 14px; border: 1px solid #b9ced7; border-radius: 999px; color: #176078; font-size: 11px; font-weight: 800; }
+.words-pagination a:last-child { justify-self: end; }
+.words-pagination span { color: #6a7c83; font-size: 11px; }
+.words-empty { padding: 50px 30px; border: 1px dashed #bdced5; border-radius: 18px; text-align: center; }
+.words-empty h2 { margin: 0; color: #173f53; font-size: 21px; }
+.words-empty p { margin: 8px 0 0; color: #6b7c83; font-size: 12px; }
+.words-grade-note { margin-top: 58px; padding: 27px 30px; border-left: 4px solid #d0b748; border-radius: 0 14px 14px 0; background: #fff9e8; }
+.words-grade-note strong { color: #6d571e; font-size: 13px; }
+.words-grade-note p { margin: 7px 0 12px; color: #6c6248; font-size: 12px; line-height: 1.8; }
+.words-grade-note a { color: #176078; font-size: 11px; font-weight: 800; }
+
+@media (max-width: 880px) {
+  .words-hero-grid { grid-template-columns: 1fr; gap: 42px; min-height: auto; }
+  .words-overview-stats { grid-template-columns: repeat(3,1fr); }
+  .words-overview-stats > div { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .words-intro { gap: 42px; }
+  .words-grade-grid, .words-list { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .words-skills ol { grid-template-columns: repeat(3,1fr); }
+  .words-grade-title > strong { font-size: 72px; }
+}
+
+@media (max-width: 620px) {
+  .words-hero-grid { padding-block: 38px 62px; }
+  .words-hero .breadcrumbs, .words-grade-hero .breadcrumbs { margin-bottom: 42px; }
+  .words-hero h1 { font-size: 43px; }
+  .words-hero-grid > div:first-child > p { font-size: 13px; }
+  .words-overview-stats, .words-grade-grid, .words-list, .words-skills ol { grid-template-columns: 1fr; }
+  .words-overview-stats > div { align-items: baseline; flex-direction: row; }
+  .words-main { padding-block: 70px 90px; }
+  .words-intro, .words-data-note { grid-template-columns: 1fr; gap: 24px; }
+  .words-skills { margin-top: 70px; }
+  .words-skills > header { grid-template-columns: 1fr; gap: 5px; }
+  .words-skills > header > span { margin-top: 0; }
+  .words-data-note { margin-top: 65px; padding: 28px 23px; }
+  .words-sources li { grid-template-columns: 1fr; gap: 5px; }
+  .words-grade-hero > .shell { padding-block: 38px 64px; }
+  .words-grade-title { grid-template-columns: 1fr; gap: 34px; }
+  .words-grade-title h1 { font-size: 41px; }
+  .words-grade-title > strong { font-size: 64px; }
+  .words-grade-tabs { margin-top: -98px; }
+  .words-grade-tabs a { flex-direction: column; gap: 0; padding: 12px 5px; }
+  .words-search { padding: 21px 18px; }
+  .words-search > div { grid-template-columns: 1fr; }
+  .words-search button { min-height: 44px; }
+  .words-pagination { grid-template-columns: 1fr 1fr; gap: 15px; }
+  .words-pagination span { grid-column: 1 / 3; grid-row: 1; text-align: center; }
+  .words-pagination a { grid-row: 2; }
+  .words-grade-note { padding: 23px 20px; }
+}

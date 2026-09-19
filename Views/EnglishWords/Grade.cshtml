@@ -1,0 +1,28 @@
+@model EnglishWordsGradeViewModel
+@{
+    ViewData["Title"] = $"中学{Model.Grade}年で身につけたい英単語600語";
+    ViewData["Description"] = $"ワカルートが提案する中学{Model.Grade}年向け英単語600語を、日本語の意味とともに検索・確認できます。";
+    ViewData["Breadcrumbs"] = new SeoBreadcrumb[] { new("ホーム", "/"), new("中学校の英単語", "/english-words"), new($"中学{Model.Grade}年", $"/english-words/junior-high/grade-{Model.Grade}") };
+}
+
+<section class="words-grade-hero grade-@Model.Grade"><div class="shell">
+    <nav class="breadcrumbs" aria-label="パンくずリスト"><a asp-controller="Home" asp-action="Index">ホーム</a><span aria-hidden="true">/</span><a asp-action="Index">中学校の英単語</a><span aria-hidden="true">/</span><span>中学@(Model.Grade)年</span></nav>
+    <span class="words-eyebrow">WAKAROUTE RECOMMENDED</span>
+    <div class="words-grade-title"><div><h1>中学@(Model.Grade)年で<br />身につけたい英単語</h1><p>国や教科書の公式配当ではなく、使用頻度を基にしたワカルート独自の学習順です。</p></div><strong>600<small>語</small></strong></div>
+</div></section>
+
+<div class="words-main"><div class="shell words-shell">
+    <nav class="words-grade-tabs" aria-label="学年を選ぶ">@for (var grade = 1; grade <= 3; grade++) { <a class="@(grade == Model.Grade ? "is-current" : null)" asp-action="Grade" asp-route-grade="@grade" aria-current="@(grade == Model.Grade ? "page" : null)">中@(grade) <span>600語</span></a> }</nav>
+    <form class="words-search" method="get" asp-action="Grade" asp-route-grade="@Model.Grade">
+        <label for="word-query">英単語または日本語の意味で探す</label><div><input id="word-query" name="q" value="@Model.Query" placeholder="例：help、助ける" autocomplete="off" /><button type="submit">検索</button></div>
+        @if (!string.IsNullOrWhiteSpace(Model.Query)) { <p>「@Model.Query」の検索結果：@Model.Result.TotalCount 語 <a asp-action="Grade" asp-route-grade="@Model.Grade">検索を解除</a></p> }
+    </form>
+
+    @if (Model.Result.Items.Count == 0) { <div class="words-empty"><h2>該当する英単語がありません。</h2><p>英語または日本語で、短い言葉を入力してみてください。</p></div> }
+    else
+    {
+        <ol class="words-list" start="@((Model.Result.Page - 1) * Model.Result.PageSize + 1)">@foreach (var item in Model.Result.Items) { <li><article class="word-card"><header><span>#@item.Sequence.ToString("0000")</span><strong lang="en">@item.Lemma</strong></header><p>@(item.MeaningsJa.Count > 0 ? string.Join(" / ", item.MeaningsJa) : "日本語の意味は確認中です")</p></article></li> }</ol>
+        @if (Model.Result.TotalPages > 1) { <nav class="words-pagination" aria-label="英単語一覧のページ">@if (Model.Result.Page > 1) { <a asp-action="Grade" asp-route-grade="@Model.Grade" asp-route-q="@Model.Query" asp-route-page="@(Model.Result.Page - 1)">← 前へ</a> }<span>@Model.Result.Page / @Model.Result.TotalPages</span>@if (Model.Result.Page < Model.Result.TotalPages) { <a asp-action="Grade" asp-route-grade="@Model.Grade" asp-route-q="@Model.Query" asp-route-page="@(Model.Result.Page + 1)">次へ →</a> }</nav> }
+    }
+    <aside class="words-grade-note"><strong>この学年分けについて</strong><p>@Model.Dataset.Assignment.Method 教科書や学校によって学ぶ時期は異なります。</p><a asp-action="Index">出典と全体方針を見る →</a></aside>
+</div></div>

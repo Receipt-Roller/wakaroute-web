@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wakaroute.com/schemas/english-words.schema.json",
+  "title": "WakaRoute English vocabulary dataset",
+  "type": "object",
+  "required": ["schemaVersion", "datasetVersion", "asOf", "language", "licenses", "sources", "assignment", "officialLearningGoals", "learningSkills", "quality", "items"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "datasetVersion": { "type": "string", "minLength": 1 },
+    "asOf": { "type": "string", "format": "date" },
+    "language": { "const": "ja-JP" },
+    "licenses": { "type": "array", "minItems": 2 },
+    "sources": { "type": "array", "minItems": 3 },
+    "assignment": {
+      "type": "object",
+      "required": ["classification", "officialGradeAssignment", "elementaryBaselineCount", "juniorHighNewWordCount", "method", "gradeCounts"],
+      "properties": {
+        "officialGradeAssignment": { "const": false },
+        "elementaryBaselineCount": { "const": 650 },
+        "juniorHighNewWordCount": { "const": 1800 },
+        "gradeCounts": { "type": "object", "properties": { "1": { "const": 600 }, "2": { "const": 600 }, "3": { "const": 600 } }, "required": ["1", "2", "3"] }
+      }
+    },
+    "officialLearningGoals": { "type": "object" },
+    "learningSkills": { "type": "array", "minItems": 5, "maxItems": 5 },
+    "quality": { "type": "object" },
+    "items": {
+      "type": "array",
+      "minItems": 2450,
+      "maxItems": 2450,
+      "items": {
+        "type": "object",
+        "required": ["id", "lemma", "stage", "sequence", "frequencyRank", "partsOfSpeech", "meaningsJa", "pronunciations"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^en-" },
+          "lemma": { "type": "string", "minLength": 1 },
+          "stage": { "enum": ["elementary-review", "junior-high"] },
+          "recommendedGrade": { "type": "integer", "minimum": 1, "maximum": 3 },
+          "sequence": { "type": "integer", "minimum": 1, "maximum": 2450 },
+          "frequencyRank": { "type": "integer", "minimum": 1 },
+          "partsOfSpeech": { "type": "array", "items": { "type": "string" } },
+          "meaningsJa": { "type": "array", "items": { "type": "string" } },
+          "pronunciations": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}
