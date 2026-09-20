@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wakaroute.com/schemas/study-cards.schema.json",
+  "title": "WakaRoute science and social studies cards",
+  "type": "object",
+  "required": ["schemaVersion","datasetVersion","asOf","language","license","subjects","classification","officialGradeAssignment","editorialNote","items"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "asOf": { "type": "string", "format": "date" },
+    "language": { "const": "ja-JP" },
+    "officialGradeAssignment": { "const": false },
+    "items": {
+      "type": "array", "minItems": 64,
+      "items": {
+        "type": "object",
+        "required": ["id","subject","domain","recommendedGrade","cardType","prompt","answer","explanation","tags","sourceRefs"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "subject": { "enum": ["science","social-studies"] },
+          "domain": { "type": "string", "minLength": 1 },
+          "recommendedGrade": { "type": "integer", "minimum": 1, "maximum": 3 },
+          "cardType": { "type": "string", "minLength": 1 },
+          "prompt": { "type": "string", "minLength": 1 },
+          "answer": { "type": "string", "minLength": 1 },
+          "explanation": { "type": "string", "minLength": 1 },
+          "tags": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+          "sourceRefs": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

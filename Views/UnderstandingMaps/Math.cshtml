@@ -8,6 +8,13 @@
     var subjectTests = Model.Areas
         .SelectMany(area => area.Tests.Select(test => new { Area = area, Test = test }))
         .ToArray();
+    var englishWordNodeIds = new HashSet<string>(StringComparer.Ordinal)
+    {
+        "core-vocabulary",
+        "word-building",
+        "chunks-collocations",
+        "context-vocabulary"
+    };
     const string appStoreUrl = "https://apps.apple.com/us/app/%E3%83%AF%E3%82%AB%E3%83%AB%E3%83%BC%E3%83%88/id6797358439";
 }
 
@@ -62,6 +69,18 @@
         <div class="shell">
             <div><span>WORD CATALOG</span><strong>中学校で身につけたい英単語1,800語</strong><p>小学校の復習650語と、ワカルート独自の中1・中2・中3学習順を確認できます。</p></div>
             <a asp-controller="EnglishWords" asp-action="Index">英単語一覧をひらく <span aria-hidden="true">→</span></a>
+        </div>
+    </aside>
+}
+
+@if (Model.SubjectId is "math" or "science" or "social-studies")
+{
+    var isScience = Model.SubjectId == "science";
+    var isMath = Model.SubjectId == "math";
+    <aside class="subject-resource-link">
+        <div class="shell">
+            <div><span>@(isMath ? "MATHEMATICS CARDS" : isScience ? "SCIENCE CARDS" : "SOCIAL STUDIES CARDS")</span><strong>@(isMath ? "数学を公式・図・理由で理解する学習カード" : isScience ? "理科を現象と実験で覚える学習カード" : "社会を地図・時系列・資料で覚える学習カード")</strong><p>用語だけでなく、公式・理由・資料の読み方までカード形式で確認できます。</p></div>
+            <a asp-controller="StudyCards" asp-action="Index" asp-route-subject="@Model.SubjectId">学習カードをひらく <span aria-hidden="true">→</span></a>
         </div>
     </aside>
 }
@@ -209,6 +228,24 @@
                                 セクションを見る <span aria-hidden="true">→</span>
                             </a>
                         }
+                        @if (Model.SubjectId == "japanese" && firstNode.Id == "kanji")
+                        {
+                            <a class="detail-resource-link" asp-controller="Kanji" asp-action="Index">
+                                漢字1,110字の一覧を見る <span aria-hidden="true">→</span>
+                            </a>
+                        }
+                        @if (Model.SubjectId == "english" && englishWordNodeIds.Contains(firstNode.Id))
+                        {
+                            <a class="detail-resource-link" asp-controller="EnglishWords" asp-action="Index">
+                                英単語1,800語の一覧を見る <span aria-hidden="true">→</span>
+                            </a>
+                        }
+                        @if (Model.SubjectId is "math" or "science" or "social-studies")
+                        {
+                            <a class="detail-resource-link" asp-controller="StudyCards" asp-action="Cards" asp-route-subject="@Model.SubjectId" asp-route-domain="@firstArea.Id" asp-route-grade="@firstNode.Grade">
+                                @firstArea.Name・中@(firstNode.Grade)の学習カードを見る <span aria-hidden="true">→</span>
+                            </a>
+                        }
                     </div>
                     <div class="detail-reason"><span>なぜ大切？</span><p>@firstNode.WhyItMatters</p></div>
                     <div class="detail-list">
@@ -276,6 +313,24 @@
                         <span class="detail-course-source">MANABU2 COURSE</span>
                         <a class="detail-course-link" asp-action="Course" asp-route-subjectId="@Model.SubjectId" asp-route-courseId="@node.CourseId">
                             セクションを見る <span aria-hidden="true">→</span>
+                        </a>
+                    }
+                    @if (Model.SubjectId == "japanese" && node.Id == "kanji")
+                    {
+                        <a class="detail-resource-link" asp-controller="Kanji" asp-action="Index">
+                            漢字1,110字の一覧を見る <span aria-hidden="true">→</span>
+                        </a>
+                    }
+                    @if (Model.SubjectId == "english" && englishWordNodeIds.Contains(node.Id))
+                    {
+                        <a class="detail-resource-link" asp-controller="EnglishWords" asp-action="Index">
+                            英単語1,800語の一覧を見る <span aria-hidden="true">→</span>
+                        </a>
+                    }
+                    @if (Model.SubjectId is "math" or "science" or "social-studies")
+                    {
+                        <a class="detail-resource-link" asp-controller="StudyCards" asp-action="Cards" asp-route-subject="@Model.SubjectId" asp-route-domain="@area.Id" asp-route-grade="@node.Grade">
+                            @area.Name・中@(node.Grade)の学習カードを見る <span aria-hidden="true">→</span>
                         </a>
                     }
                 </div>

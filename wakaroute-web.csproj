@@ -15,6 +15,7 @@
     <Content Update="Data\PastExams\**\*.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
     <Content Update="Data\Kanji\**\*.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
     <Content Update="Data\EnglishVocabulary\**\*.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Update="Data\StudyCards\**\*.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
     <Content Remove="Data\Schools\private\**\*.json" />
     <None Remove="Data\Schools\private\**\*.json" />
     <Content Remove="Data\PastExams\private\**\*.json" />

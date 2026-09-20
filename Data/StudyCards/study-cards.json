@@ -1,0 +1,1722 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "2026.2",
+  "asOf": "2026-09-20",
+  "language": "ja-JP",
+  "license": {
+    "name": "WakaRoute original study cards",
+    "spdxId": "Apache-2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "attribution": "Copyright Receipt Roller, Inc."
+  },
+  "subjects": [
+    {
+      "id": "math",
+      "name": "数学",
+      "domains": [
+        {
+          "id": "numbers",
+          "name": "数と式"
+        },
+        {
+          "id": "geometry",
+          "name": "図形"
+        },
+        {
+          "id": "functions",
+          "name": "関数"
+        },
+        {
+          "id": "data",
+          "name": "データの活用"
+        }
+      ],
+      "curriculumSourceUrl": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_004.pdf"
+    },
+    {
+      "id": "science",
+      "name": "理科",
+      "domains": [
+        {
+          "id": "energy",
+          "name": "エネルギー"
+        },
+        {
+          "id": "particles",
+          "name": "粒子"
+        },
+        {
+          "id": "life",
+          "name": "生命"
+        },
+        {
+          "id": "earth",
+          "name": "地球"
+        }
+      ],
+      "curriculumSourceUrl": "https://www.mext.go.jp/content/20230522-mxt_kyoikujinzai02-000033060_04.pdf"
+    },
+    {
+      "id": "social-studies",
+      "name": "社会",
+      "domains": [
+        {
+          "id": "geography",
+          "name": "地理"
+        },
+        {
+          "id": "history",
+          "name": "歴史"
+        },
+        {
+          "id": "civics",
+          "name": "公民"
+        },
+        {
+          "id": "inquiry",
+          "name": "資料と考察"
+        }
+      ],
+      "curriculumSourceUrl": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_003.pdf"
+    }
+  ],
+  "classification": "wakaroute-editorial",
+  "officialGradeAssignment": false,
+  "editorialNote": "学習指導要領の領域を参照し、教科書本文を転載せずに作成したワカルート独自の初版です。推奨学年は公式配当ではありません。",
+  "items": [
+    {
+      "id": "math-numbers-absolute-value",
+      "subject": "math",
+      "domain": "numbers",
+      "recommendedGrade": 1,
+      "cardType": "term",
+      "prompt": "絶対値とは何？",
+      "answer": "数直線上で0からその数までの距離。",
+      "explanation": "距離なので絶対値は0以上になる。たとえば−5の絶対値は5。",
+      "tags": [
+        "正負の数",
+        "絶対値"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-numbers-negative-subtraction",
+      "subject": "math",
+      "domain": "numbers",
+      "recommendedGrade": 1,
+      "cardType": "pitfall",
+      "prompt": "−3−(−5)を計算すると？",
+      "answer": "2",
+      "explanation": "負の数を引くことは、その数の反対の数を足すこと。−3＋5と考える。",
+      "tags": [
+        "正負の数",
+        "符号"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-numbers-distributive-law",
+      "subject": "math",
+      "domain": "numbers",
+      "recommendedGrade": 1,
+      "cardType": "reasoning",
+      "prompt": "3(x＋2)が3x＋6になるのはなぜ？",
+      "answer": "3を括弧内のxと2の両方へ掛けるから。",
+      "explanation": "分配法則 a(b＋c)=ab＋ac を使っている。",
+      "tags": [
+        "文字式",
+        "分配法則"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-numbers-equation-balance",
+      "subject": "math",
+      "domain": "numbers",
+      "recommendedGrade": 1,
+      "cardType": "reasoning",
+      "prompt": "方程式の両辺に同じ数を加えてもよいのはなぜ？",
+      "answer": "等しい二つの量へ同じ操作をしても、等しい関係が保たれるから。",
+      "explanation": "天びんの左右へ同じ重さを加えるイメージで考えられる。",
+      "tags": [
+        "一次方程式",
+        "等式"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-numbers-simultaneous-solution",
+      "subject": "math",
+      "domain": "numbers",
+      "recommendedGrade": 2,
+      "cardType": "pitfall",
+      "prompt": "連立方程式の解が満たす条件は？",
+      "answer": "二つの方程式を同時に満たすこと。",
+      "explanation": "一方の式だけを満たす値は連立方程式の解ではない。",
+      "tags": [
+        "連立方程式",
+        "解"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-numbers-square-root",
+      "subject": "math",
+      "domain": "numbers",
+      "recommendedGrade": 3,
+      "cardType": "term",
+      "prompt": "√a（a＞0）はどんな数を表す？",
+      "answer": "二乗するとaになる正の数。",
+      "explanation": "aの平方根は正負の二つで、√a自体はそのうち正の方を表す。",
+      "tags": [
+        "平方根",
+        "根号"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-numbers-expansion-square",
+      "subject": "math",
+      "domain": "numbers",
+      "recommendedGrade": 3,
+      "cardType": "formula-unit",
+      "prompt": "(a＋b)²の展開公式は？",
+      "answer": "a²＋2ab＋b²",
+      "explanation": "中央の2abを忘れない。正方形の面積としても説明できる。",
+      "tags": [
+        "展開",
+        "公式"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-numbers-zero-product",
+      "subject": "math",
+      "domain": "numbers",
+      "recommendedGrade": 3,
+      "cardType": "reasoning",
+      "prompt": "(x−2)(x＋3)=0からx=2または−3と分かるのはなぜ？",
+      "answer": "積が0なら、少なくとも一方の因数が0だから。",
+      "explanation": "零積の法則を使い、二つの一次方程式へ分けている。",
+      "tags": [
+        "二次方程式",
+        "因数分解"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-geometry-perpendicular-bisector",
+      "subject": "math",
+      "domain": "geometry",
+      "recommendedGrade": 1,
+      "cardType": "diagram",
+      "prompt": "線分ABの垂直二等分線上の点には、どんな性質がある？",
+      "answer": "点Aと点Bからの距離が等しい。",
+      "explanation": "コンパスで同じ半径の円弧を描く基本作図の根拠になる。",
+      "tags": [
+        "作図",
+        "垂直二等分線"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-geometry-prism-volume",
+      "subject": "math",
+      "domain": "geometry",
+      "recommendedGrade": 1,
+      "cardType": "formula-unit",
+      "prompt": "柱体の体積を求める式は？",
+      "answer": "底面積×高さ",
+      "explanation": "高さは底面に垂直な長さを使う。斜めの辺とは限らない。",
+      "tags": [
+        "空間図形",
+        "体積"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-geometry-polygon-angle-sum",
+      "subject": "math",
+      "domain": "geometry",
+      "recommendedGrade": 2,
+      "cardType": "formula-unit",
+      "prompt": "n角形の内角の和は？",
+      "answer": "180°×(n−2)",
+      "explanation": "一つの頂点から対角線を引くと、n−2個の三角形に分けられる。",
+      "tags": [
+        "多角形",
+        "角"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-geometry-congruence-sas",
+      "subject": "math",
+      "domain": "geometry",
+      "recommendedGrade": 2,
+      "cardType": "term",
+      "prompt": "三角形の合同条件『二辺とその間の角』とは？",
+      "answer": "二組の辺と、その二辺にはさまれた角がそれぞれ等しいこと。",
+      "explanation": "二辺と、間ではない角が等しいだけでは合同とは限らない。",
+      "tags": [
+        "合同",
+        "合同条件"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-geometry-proof-order",
+      "subject": "math",
+      "domain": "geometry",
+      "recommendedGrade": 2,
+      "cardType": "reasoning",
+      "prompt": "図形の証明で最初に整理する二つは？",
+      "answer": "仮定と結論",
+      "explanation": "与えられた条件と、最終的に示すことを分けると必要な根拠を選びやすい。",
+      "tags": [
+        "証明",
+        "根拠"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-geometry-similar-area-ratio",
+      "subject": "math",
+      "domain": "geometry",
+      "recommendedGrade": 3,
+      "cardType": "pitfall",
+      "prompt": "相似比が2:3の図形の面積比は？",
+      "answer": "4:9",
+      "explanation": "面積比は相似比の二乗、体積比は三乗になる。",
+      "tags": [
+        "相似",
+        "面積比"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-geometry-inscribed-angle",
+      "subject": "math",
+      "domain": "geometry",
+      "recommendedGrade": 3,
+      "cardType": "formula-unit",
+      "prompt": "同じ弧に対する円周角と中心角の関係は？",
+      "answer": "円周角は中心角の半分。",
+      "explanation": "同じ弧を見ている角であることを確認して使う。",
+      "tags": [
+        "円",
+        "円周角"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-geometry-pythagorean",
+      "subject": "math",
+      "domain": "geometry",
+      "recommendedGrade": 3,
+      "cardType": "formula-unit",
+      "prompt": "直角三角形の三平方の定理は？",
+      "answer": "a²＋b²=c²（cは斜辺）",
+      "explanation": "斜辺は直角の向かい側にあり、三辺のうち最も長い。",
+      "tags": [
+        "三平方の定理",
+        "直角三角形"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-functions-function",
+      "subject": "math",
+      "domain": "functions",
+      "recommendedGrade": 1,
+      "cardType": "term",
+      "prompt": "yがxの関数であるとは？",
+      "answer": "xの値を決めると、対応するyの値がただ一つに決まること。",
+      "explanation": "同じxに複数のyが対応する関係は関数ではない。",
+      "tags": [
+        "関数",
+        "変数"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-functions-proportion",
+      "subject": "math",
+      "domain": "functions",
+      "recommendedGrade": 1,
+      "cardType": "formula-unit",
+      "prompt": "比例の式は？",
+      "answer": "y=ax",
+      "explanation": "aは比例定数で、xが0でなければy÷xで求められる。",
+      "tags": [
+        "比例",
+        "比例定数"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-functions-inverse-proportion",
+      "subject": "math",
+      "domain": "functions",
+      "recommendedGrade": 1,
+      "cardType": "formula-unit",
+      "prompt": "反比例の式は？",
+      "answer": "y=a/x、またはxy=a",
+      "explanation": "xとyの積が一定になる関係として確認できる。",
+      "tags": [
+        "反比例",
+        "比例定数"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-functions-slope",
+      "subject": "math",
+      "domain": "functions",
+      "recommendedGrade": 2,
+      "cardType": "term",
+      "prompt": "一次関数y=ax+bのaは何を表す？",
+      "answer": "変化の割合、グラフでは直線の傾き。",
+      "explanation": "xの増加量に対するyの増加量の割合を表す。",
+      "tags": [
+        "一次関数",
+        "傾き"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-functions-intercept",
+      "subject": "math",
+      "domain": "functions",
+      "recommendedGrade": 2,
+      "cardType": "term",
+      "prompt": "一次関数y=ax+bのbは何を表す？",
+      "answer": "y切片。x=0のときのyの値。",
+      "explanation": "グラフがy軸と交わる点のy座標になる。",
+      "tags": [
+        "一次関数",
+        "切片"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-functions-intersection",
+      "subject": "math",
+      "domain": "functions",
+      "recommendedGrade": 2,
+      "cardType": "reasoning",
+      "prompt": "二直線の交点が連立方程式の解になるのはなぜ？",
+      "answer": "交点の座標は二つの直線の式を同時に満たすから。",
+      "explanation": "式の解とグラフ上の点を対応させている。",
+      "tags": [
+        "一次関数",
+        "連立方程式"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-functions-quadratic-change",
+      "subject": "math",
+      "domain": "functions",
+      "recommendedGrade": 3,
+      "cardType": "pitfall",
+      "prompt": "y=ax²では変化の割合は一定？",
+      "answer": "一定ではない。",
+      "explanation": "xが同じ量だけ増えても、yの増加量は場所によって変わる。",
+      "tags": [
+        "二次関数",
+        "変化の割合"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-functions-quadratic-coefficient",
+      "subject": "math",
+      "domain": "functions",
+      "recommendedGrade": 3,
+      "cardType": "diagram",
+      "prompt": "y=ax²で|a|が大きくなると放物線はどうなる？",
+      "answer": "開き方が狭くなる。",
+      "explanation": "aの符号は開く向きを、絶対値は開き方を決める。",
+      "tags": [
+        "二次関数",
+        "グラフ"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-data-relative-frequency",
+      "subject": "math",
+      "domain": "data",
+      "recommendedGrade": 1,
+      "cardType": "formula-unit",
+      "prompt": "相対度数を求める式は？",
+      "answer": "その階級の度数÷度数の合計",
+      "explanation": "異なる大きさの集団でも割合として比較できる。",
+      "tags": [
+        "データ",
+        "相対度数"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-data-histogram",
+      "subject": "math",
+      "domain": "data",
+      "recommendedGrade": 1,
+      "cardType": "diagram",
+      "prompt": "ヒストグラムの横軸と縦軸は何を表す？",
+      "answer": "横軸は階級、縦軸は度数。",
+      "explanation": "棒の間を空けず、連続する数値データの分布を表す。",
+      "tags": [
+        "ヒストグラム",
+        "分布"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-data-experimental-probability",
+      "subject": "math",
+      "domain": "data",
+      "recommendedGrade": 1,
+      "cardType": "reasoning",
+      "prompt": "試行回数を増やすと相対度数はどうなる？",
+      "answer": "ある一定の値に近づく傾向がある。",
+      "explanation": "少ない回数ではばらつくため、結果が必ず理論値と一致するわけではない。",
+      "tags": [
+        "確率",
+        "相対度数"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-data-tree-diagram",
+      "subject": "math",
+      "domain": "data",
+      "recommendedGrade": 2,
+      "cardType": "diagram",
+      "prompt": "樹形図を使う目的は？",
+      "answer": "起こり得る場合を漏れや重複なく整理するため。",
+      "explanation": "順序のある選択を枝分かれで表すと、全ての場合を数えやすい。",
+      "tags": [
+        "確率",
+        "樹形図"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-data-complement",
+      "subject": "math",
+      "domain": "data",
+      "recommendedGrade": 2,
+      "cardType": "formula-unit",
+      "prompt": "事象Aが起こらない確率は？",
+      "answer": "1−P(A)",
+      "explanation": "全ての結果の確率の和が1であることを使う。",
+      "tags": [
+        "確率",
+        "余事象"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-data-interquartile-range",
+      "subject": "math",
+      "domain": "data",
+      "recommendedGrade": 2,
+      "cardType": "term",
+      "prompt": "四分位範囲とは？",
+      "answer": "第3四分位数−第1四分位数",
+      "explanation": "中央の50%のデータがどれくらい散らばっているかを表す。",
+      "tags": [
+        "箱ひげ図",
+        "四分位範囲"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-data-box-plot-mean",
+      "subject": "math",
+      "domain": "data",
+      "recommendedGrade": 2,
+      "cardType": "pitfall",
+      "prompt": "箱ひげ図だけから平均値は分かる？",
+      "answer": "通常は分からない。",
+      "explanation": "箱ひげ図が示すのは最小値、四分位数、中央値、最大値で、平均値とは別。",
+      "tags": [
+        "箱ひげ図",
+        "代表値"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "math-data-random-sampling",
+      "subject": "math",
+      "domain": "data",
+      "recommendedGrade": 3,
+      "cardType": "reasoning",
+      "prompt": "標本を無作為に選ぶのはなぜ？",
+      "answer": "特定の特徴をもつ人や物に偏るのを避けるため。",
+      "explanation": "偏った標本では、母集団全体を正しく推測できない。",
+      "tags": [
+        "標本調査",
+        "無作為抽出"
+      ],
+      "sourceRefs": [
+        "mext-math-2017"
+      ]
+    },
+    {
+      "id": "science-energy-reflection",
+      "subject": "science",
+      "domain": "energy",
+      "recommendedGrade": 1,
+      "cardType": "term",
+      "prompt": "光の反射で、入射角と反射角にはどんな関係がある？",
+      "answer": "入射角と反射角は等しい。",
+      "explanation": "角度は鏡の面ではなく、鏡に垂直な法線から測る。",
+      "tags": [
+        "光",
+        "反射"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-energy-convex-lens",
+      "subject": "science",
+      "domain": "energy",
+      "recommendedGrade": 1,
+      "cardType": "diagram",
+      "prompt": "凸レンズでスクリーンに映せる像を何という？",
+      "answer": "実像",
+      "explanation": "物体が焦点より外側にあると、光が実際に集まる位置へ倒立した実像ができる。",
+      "tags": [
+        "光",
+        "凸レンズ"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-energy-sound-height",
+      "subject": "science",
+      "domain": "energy",
+      "recommendedGrade": 1,
+      "cardType": "reasoning",
+      "prompt": "弦を短くすると音が高くなるのはなぜ？",
+      "answer": "弦の振動数が大きくなるから。",
+      "explanation": "音の高さは振動の速さ、つまり振動数で決まる。",
+      "tags": [
+        "音",
+        "振動"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-energy-pressure",
+      "subject": "science",
+      "domain": "energy",
+      "recommendedGrade": 1,
+      "cardType": "formula-unit",
+      "prompt": "圧力を求める式と単位は？",
+      "answer": "圧力＝力÷面積、単位はPa（パスカル）",
+      "explanation": "同じ力でも、力が働く面積が小さいほど圧力は大きい。",
+      "tags": [
+        "力",
+        "圧力",
+        "Pa"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-energy-ohms-law",
+      "subject": "science",
+      "domain": "energy",
+      "recommendedGrade": 2,
+      "cardType": "formula-unit",
+      "prompt": "電圧・電流・抵抗の関係は？",
+      "answer": "電圧＝電流×抵抗（V＝I×R）",
+      "explanation": "単位は電圧V、電流A、抵抗Ωを使う。",
+      "tags": [
+        "電流",
+        "オームの法則"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-energy-ammeter",
+      "subject": "science",
+      "domain": "energy",
+      "recommendedGrade": 2,
+      "cardType": "experiment",
+      "prompt": "電流計は回路へどのようにつなぐ？",
+      "answer": "測りたい部分に直列につなぐ。",
+      "explanation": "電流計を並列につなぐと大きな電流が流れ、故障の原因になる。",
+      "tags": [
+        "回路",
+        "測定"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-energy-electric-power",
+      "subject": "science",
+      "domain": "energy",
+      "recommendedGrade": 2,
+      "cardType": "formula-unit",
+      "prompt": "電力を求める式と単位は？",
+      "answer": "電力＝電圧×電流、単位はW（ワット）",
+      "explanation": "1 Wは1秒あたり1 Jのエネルギーを使う割合を表す。",
+      "tags": [
+        "電力",
+        "W"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-energy-energy-conservation",
+      "subject": "science",
+      "domain": "energy",
+      "recommendedGrade": 3,
+      "cardType": "reasoning",
+      "prompt": "摩擦がなければ、運動中の力学的エネルギーはどうなる？",
+      "answer": "位置エネルギーと運動エネルギーの和が一定に保たれる。",
+      "explanation": "高さが下がると位置エネルギーが減り、その分運動エネルギーが増える。",
+      "tags": [
+        "運動",
+        "エネルギー"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-particles-density",
+      "subject": "science",
+      "domain": "particles",
+      "recommendedGrade": 1,
+      "cardType": "term",
+      "prompt": "密度とはどんな量？",
+      "answer": "一定体積あたりの質量",
+      "explanation": "密度＝質量÷体積で、物質を見分ける手掛かりになる。",
+      "tags": [
+        "物質",
+        "密度"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-particles-carbon-dioxide",
+      "subject": "science",
+      "domain": "particles",
+      "recommendedGrade": 1,
+      "cardType": "experiment",
+      "prompt": "二酸化炭素を確認する方法は？",
+      "answer": "石灰水を加え、白く濁るか確かめる。",
+      "explanation": "二酸化炭素と石灰水が反応して炭酸カルシウムができる。",
+      "tags": [
+        "気体",
+        "実験"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-particles-oxygen-collection",
+      "subject": "science",
+      "domain": "particles",
+      "recommendedGrade": 1,
+      "cardType": "experiment",
+      "prompt": "水に溶けにくい酸素を集めるのに適した方法は？",
+      "answer": "水上置換法",
+      "explanation": "水と置き換えて集めるため、空気と混ざりにくい。",
+      "tags": [
+        "気体",
+        "実験"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-particles-state-change-mass",
+      "subject": "science",
+      "domain": "particles",
+      "recommendedGrade": 1,
+      "cardType": "reasoning",
+      "prompt": "状態変化の前後で質量が変わらないのはなぜ？",
+      "answer": "物質をつくる粒子の種類と数が変わらないから。",
+      "explanation": "粒子の間隔や並び方が変わっても、粒子そのものは保存される。",
+      "tags": [
+        "状態変化",
+        "粒子"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-particles-atom-molecule",
+      "subject": "science",
+      "domain": "particles",
+      "recommendedGrade": 2,
+      "cardType": "term",
+      "prompt": "原子と分子の違いは？",
+      "answer": "原子は物質をつくる基本粒子、分子は複数の原子が結び付いた粒子。",
+      "explanation": "分子をつくらない物質もあるため、両者を同じものとして扱わない。",
+      "tags": [
+        "原子",
+        "分子"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-particles-reaction-equation",
+      "subject": "science",
+      "domain": "particles",
+      "recommendedGrade": 2,
+      "cardType": "diagram",
+      "prompt": "化学反応式の係数を合わせる理由は？",
+      "answer": "反応前後で原子の種類と数を等しくするため。",
+      "explanation": "化学変化では原子がなくなったり新しく生じたりせず、組み替わる。",
+      "tags": [
+        "化学反応式",
+        "質量保存"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-particles-ion",
+      "subject": "science",
+      "domain": "particles",
+      "recommendedGrade": 3,
+      "cardType": "term",
+      "prompt": "イオンとは何？",
+      "answer": "原子や原子の集まりが電気を帯びた粒子。",
+      "explanation": "電子を失うと陽イオン、受け取ると陰イオンになる。",
+      "tags": [
+        "イオン",
+        "電子"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-particles-neutralization",
+      "subject": "science",
+      "domain": "particles",
+      "recommendedGrade": 3,
+      "cardType": "reasoning",
+      "prompt": "酸とアルカリの中和で水をつくるイオンは？",
+      "answer": "水素イオンと水酸化物イオン",
+      "explanation": "H⁺とOH⁻が結び付き、H₂Oになる。",
+      "tags": [
+        "酸",
+        "アルカリ",
+        "中和"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-life-classification",
+      "subject": "science",
+      "domain": "life",
+      "recommendedGrade": 1,
+      "cardType": "term",
+      "prompt": "生物を分類するとき、何を基準にする？",
+      "answer": "観察できる共通点と相違点",
+      "explanation": "名前や印象ではなく、体のつくりや増え方など同じ観点で比べる。",
+      "tags": [
+        "分類",
+        "観察"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-life-microscope",
+      "subject": "science",
+      "domain": "life",
+      "recommendedGrade": 1,
+      "cardType": "experiment",
+      "prompt": "顕微鏡で最初に使う対物レンズは？",
+      "answer": "最も低倍率の対物レンズ",
+      "explanation": "視野が広く明るいため、観察物を見つけやすい。",
+      "tags": [
+        "顕微鏡",
+        "観察"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-life-plant-cell",
+      "subject": "science",
+      "domain": "life",
+      "recommendedGrade": 2,
+      "cardType": "diagram",
+      "prompt": "植物細胞にあり、動物細胞にはない代表的なつくりは？",
+      "answer": "細胞壁、葉緑体、液胞",
+      "explanation": "すべての植物細胞で葉緑体が目立つとは限らない。",
+      "tags": [
+        "細胞",
+        "植物"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-life-photosynthesis",
+      "subject": "science",
+      "domain": "life",
+      "recommendedGrade": 2,
+      "cardType": "term",
+      "prompt": "光合成で植物が取り入れる気体と放出する気体は？",
+      "answer": "二酸化炭素を取り入れ、酸素を放出する。",
+      "explanation": "光エネルギーを使って養分をつくる過程である。",
+      "tags": [
+        "植物",
+        "光合成"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-life-photosynthesis-control",
+      "subject": "science",
+      "domain": "life",
+      "recommendedGrade": 2,
+      "cardType": "experiment",
+      "prompt": "光合成の実験で、葉の一部をアルミニウム箔で覆う目的は？",
+      "answer": "光がある場合とない場合を比較するため。",
+      "explanation": "調べたい条件だけを変える対照実験にする。",
+      "tags": [
+        "光合成",
+        "対照実験"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-life-blood-circulation",
+      "subject": "science",
+      "domain": "life",
+      "recommendedGrade": 2,
+      "cardType": "reasoning",
+      "prompt": "小腸で吸収された養分が全身へ届くのはなぜ？",
+      "answer": "血液によって運ばれるから。",
+      "explanation": "消化器官と循環器官は、物質の受渡しでつながっている。",
+      "tags": [
+        "消化",
+        "循環"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-life-gene",
+      "subject": "science",
+      "domain": "life",
+      "recommendedGrade": 3,
+      "cardType": "term",
+      "prompt": "遺伝子とは何？",
+      "answer": "形質を決めるもとになる遺伝情報の単位。",
+      "explanation": "遺伝情報は染色体に含まれ、細胞分裂を通じて受け継がれる。",
+      "tags": [
+        "遺伝",
+        "染色体"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-life-food-web",
+      "subject": "science",
+      "domain": "life",
+      "recommendedGrade": 3,
+      "cardType": "reasoning",
+      "prompt": "食物網で生物が減ると他の生物にも影響するのはなぜ？",
+      "answer": "複数の生物が食べる・食べられる関係で結ばれているから。",
+      "explanation": "一つの種の変化が、生態系全体の個体数や物質循環へ広がる。",
+      "tags": [
+        "生態系",
+        "食物網"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-earth-epicenter",
+      "subject": "science",
+      "domain": "earth",
+      "recommendedGrade": 1,
+      "cardType": "term",
+      "prompt": "震源と震央の違いは？",
+      "answer": "震源は地震が始まった地下の地点、震央はその真上の地表の地点。",
+      "explanation": "立体的な位置と地表上の位置を区別する。",
+      "tags": [
+        "地震",
+        "震源"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-earth-p-s-wave",
+      "subject": "science",
+      "domain": "earth",
+      "recommendedGrade": 1,
+      "cardType": "diagram",
+      "prompt": "地震で先に到着する波は？",
+      "answer": "P波",
+      "explanation": "P波による初期微動の後、S波による主要動が到着する。",
+      "tags": [
+        "地震波",
+        "初期微動"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-earth-index-fossil",
+      "subject": "science",
+      "domain": "earth",
+      "recommendedGrade": 1,
+      "cardType": "term",
+      "prompt": "示準化石は何を知る手掛かり？",
+      "answer": "地層ができた年代",
+      "explanation": "短い期間に広い範囲で栄えた生物の化石が適している。",
+      "tags": [
+        "地層",
+        "化石"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-earth-sediment-size",
+      "subject": "science",
+      "domain": "earth",
+      "recommendedGrade": 1,
+      "cardType": "reasoning",
+      "prompt": "河口から遠いほど小さな粒が堆積しやすいのはなぜ？",
+      "answer": "水の流れが弱まり、小さな粒も沈むようになるから。",
+      "explanation": "運搬する力と粒の大きさを結び付けて考える。",
+      "tags": [
+        "地層",
+        "堆積"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-earth-humidity",
+      "subject": "science",
+      "domain": "earth",
+      "recommendedGrade": 2,
+      "cardType": "formula-unit",
+      "prompt": "湿度を求める式は？",
+      "answer": "湿度＝実際の水蒸気量÷飽和水蒸気量×100",
+      "explanation": "気温によって飽和水蒸気量が変わる点に注意する。",
+      "tags": [
+        "気象",
+        "湿度"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-earth-pressure",
+      "subject": "science",
+      "domain": "earth",
+      "recommendedGrade": 2,
+      "cardType": "experiment",
+      "prompt": "気圧を測る器具は？",
+      "answer": "気圧計",
+      "explanation": "気圧・風向・気温など複数の観測値から天気を考える。",
+      "tags": [
+        "気象観測",
+        "気圧"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-earth-front-rain",
+      "subject": "science",
+      "domain": "earth",
+      "recommendedGrade": 2,
+      "cardType": "reasoning",
+      "prompt": "前線付近で雨が降りやすいのはなぜ？",
+      "answer": "暖かい空気が押し上げられて冷え、水蒸気が凝結するから。",
+      "explanation": "空気の上昇、温度低下、雲の発生を因果でつなぐ。",
+      "tags": [
+        "前線",
+        "雲"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "science-earth-moon-phase",
+      "subject": "science",
+      "domain": "earth",
+      "recommendedGrade": 3,
+      "cardType": "diagram",
+      "prompt": "月の満ち欠けを決める三つの位置関係は？",
+      "answer": "太陽・地球・月の位置関係",
+      "explanation": "月自身が光るのではなく、太陽に照らされた部分を地球から見ている。",
+      "tags": [
+        "月",
+        "天体"
+      ],
+      "sourceRefs": [
+        "mext-science-2017"
+      ]
+    },
+    {
+      "id": "social-studies-geography-latitude-longitude",
+      "subject": "social-studies",
+      "domain": "geography",
+      "recommendedGrade": 1,
+      "cardType": "map",
+      "prompt": "緯度と経度はそれぞれ何を表す？",
+      "answer": "緯度は赤道から南北、経度は本初子午線から東西の位置。",
+      "explanation": "緯線と経線を組み合わせると地球上の位置を表せる。",
+      "tags": [
+        "地図",
+        "位置"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-geography-scale",
+      "subject": "social-studies",
+      "domain": "geography",
+      "recommendedGrade": 1,
+      "cardType": "term",
+      "prompt": "地図の縮尺とは？",
+      "answer": "実際の距離を地図上でどれだけ縮めたかを示す割合。",
+      "explanation": "縮尺が大きい地図ほど、狭い範囲を詳しく表す。",
+      "tags": [
+        "地図",
+        "縮尺"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-geography-climograph",
+      "subject": "social-studies",
+      "domain": "geography",
+      "recommendedGrade": 1,
+      "cardType": "source",
+      "prompt": "雨温図を読むとき最初に確認するものは？",
+      "answer": "気温と降水量の目盛り・単位、観測地点。",
+      "explanation": "形だけで判断せず、数値と季節の違いを確かめる。",
+      "tags": [
+        "気候",
+        "資料"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-geography-monsoon-life",
+      "subject": "social-studies",
+      "domain": "geography",
+      "recommendedGrade": 1,
+      "cardType": "reasoning",
+      "prompt": "季節風が人々の生活や産業に影響するのはなぜ？",
+      "answer": "季節によって風向や降水量が変わるから。",
+      "explanation": "自然条件と農業・住居・災害対策を関係付ける。",
+      "tags": [
+        "気候",
+        "生活"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-geography-contour-lines",
+      "subject": "social-studies",
+      "domain": "geography",
+      "recommendedGrade": 2,
+      "cardType": "map",
+      "prompt": "等高線の間隔が狭い場所はどんな斜面？",
+      "answer": "傾きが急な斜面",
+      "explanation": "短い水平距離で高度が大きく変わることを表す。",
+      "tags": [
+        "地形図",
+        "等高線"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-geography-depopulation",
+      "subject": "social-studies",
+      "domain": "geography",
+      "recommendedGrade": 2,
+      "cardType": "term",
+      "prompt": "過疎とはどんな状態？",
+      "answer": "人口流出などで地域人口が減り、生活や産業の維持が難しくなる状態。",
+      "explanation": "単なる人口減少ではなく、地域機能への影響も考える。",
+      "tags": [
+        "人口",
+        "地域"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-geography-industry-location",
+      "subject": "social-studies",
+      "domain": "geography",
+      "recommendedGrade": 2,
+      "cardType": "reasoning",
+      "prompt": "工場の立地を考える主な条件は？",
+      "answer": "原料、用水、交通、市場、労働力など。",
+      "explanation": "産業の種類や時代によって重視される条件は変化する。",
+      "tags": [
+        "工業",
+        "立地"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-geography-population-pyramid",
+      "subject": "social-studies",
+      "domain": "geography",
+      "recommendedGrade": 2,
+      "cardType": "source",
+      "prompt": "人口ピラミッドから読み取れることは？",
+      "answer": "年齢別・男女別の人口構成。",
+      "explanation": "出生数や高齢化、過去の人口変化を考える手掛かりになる。",
+      "tags": [
+        "人口",
+        "資料"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-history-century",
+      "subject": "social-studies",
+      "domain": "history",
+      "recommendedGrade": 1,
+      "cardType": "chronology",
+      "prompt": "西暦645年は何世紀？",
+      "answer": "7世紀",
+      "explanation": "1年から100年までが1世紀で、年を100で割って切り上げる。",
+      "tags": [
+        "年代",
+        "世紀"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-history-ritsuryo",
+      "subject": "social-studies",
+      "domain": "history",
+      "recommendedGrade": 1,
+      "cardType": "term",
+      "prompt": "律令国家とはどのような国家？",
+      "answer": "律と令という法に基づき、中央集権的に統治する国家。",
+      "explanation": "土地・人民や税の仕組みを中央政府が整えた。",
+      "tags": [
+        "古代",
+        "政治"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-history-samurai-rise",
+      "subject": "social-studies",
+      "domain": "history",
+      "recommendedGrade": 1,
+      "cardType": "cause-effect",
+      "prompt": "武士が成長した背景は？",
+      "answer": "地方の土地や治安を自ら守る必要が高まったこと。",
+      "explanation": "荘園の拡大や地方政治の変化と結び付けて考える。",
+      "tags": [
+        "中世",
+        "武士"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-history-kamakura-muromachi",
+      "subject": "social-studies",
+      "domain": "history",
+      "recommendedGrade": 1,
+      "cardType": "comparison",
+      "prompt": "鎌倉幕府と室町幕府の共通点は？",
+      "answer": "武士を基盤に将軍が政治を行ったこと。",
+      "explanation": "仕組みや支配の範囲、守護の役割の違いも比較する。",
+      "tags": [
+        "幕府",
+        "比較"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-history-unification",
+      "subject": "social-studies",
+      "domain": "history",
+      "recommendedGrade": 2,
+      "cardType": "chronology",
+      "prompt": "全国統一へ進んだ順番は？",
+      "answer": "織田信長、豊臣秀吉、徳川家康",
+      "explanation": "人物名だけでなく、政策が次の政権へどう受け継がれたかを見る。",
+      "tags": [
+        "近世",
+        "統一"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-history-meiji-restoration",
+      "subject": "social-studies",
+      "domain": "history",
+      "recommendedGrade": 2,
+      "cardType": "cause-effect",
+      "prompt": "明治政府が中央集権化を進めた目的は？",
+      "answer": "国内を統一して近代国家をつくり、外国に対抗するため。",
+      "explanation": "廃藩置県、徴兵令、地租改正などを目的と結ぶ。",
+      "tags": [
+        "明治維新",
+        "近代化"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-history-historical-source",
+      "subject": "social-studies",
+      "domain": "history",
+      "recommendedGrade": 2,
+      "cardType": "source",
+      "prompt": "歴史資料を読むとき、内容以外に確認することは？",
+      "answer": "誰が、いつ、どんな目的で作った資料か。",
+      "explanation": "資料の立場や限界を確認して、分かることを判断する。",
+      "tags": [
+        "史料",
+        "信頼性"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-history-cold-war",
+      "subject": "social-studies",
+      "domain": "history",
+      "recommendedGrade": 3,
+      "cardType": "cause-effect",
+      "prompt": "冷戦とはどのような対立？",
+      "answer": "アメリカを中心とする陣営とソ連を中心とする陣営の対立。",
+      "explanation": "大国同士の直接戦争を避けつつ、世界各地へ対立が広がった。",
+      "tags": [
+        "戦後",
+        "国際関係"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-civics-popular-sovereignty",
+      "subject": "social-studies",
+      "domain": "civics",
+      "recommendedGrade": 3,
+      "cardType": "term",
+      "prompt": "国民主権とは？",
+      "answer": "国の政治を最終的に決める権力が国民にあること。",
+      "explanation": "選挙や世論、政治参加を通して具体化される。",
+      "tags": [
+        "憲法",
+        "主権"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-civics-three-powers",
+      "subject": "social-studies",
+      "domain": "civics",
+      "recommendedGrade": 3,
+      "cardType": "comparison",
+      "prompt": "三権分立で権力を分ける目的は？",
+      "answer": "権力の集中を防ぎ、互いに抑制・均衡させるため。",
+      "explanation": "立法・行政・司法の関係として理解する。",
+      "tags": [
+        "政治",
+        "三権分立"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-civics-judicial-review",
+      "subject": "social-studies",
+      "domain": "civics",
+      "recommendedGrade": 3,
+      "cardType": "term",
+      "prompt": "違憲審査権とは？",
+      "answer": "法令などが憲法に違反しないか裁判所が判断する権限。",
+      "explanation": "憲法を最高法規として守る仕組みの一つ。",
+      "tags": [
+        "司法",
+        "憲法"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-civics-price",
+      "subject": "social-studies",
+      "domain": "civics",
+      "recommendedGrade": 3,
+      "cardType": "cause-effect",
+      "prompt": "需要が増え、供給が変わらないと価格はどうなりやすい？",
+      "answer": "上がりやすい。",
+      "explanation": "欲しい人が増える一方、商品の量が同じなら競争が強まる。",
+      "tags": [
+        "市場",
+        "価格"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-civics-social-security",
+      "subject": "social-studies",
+      "domain": "civics",
+      "recommendedGrade": 3,
+      "cardType": "term",
+      "prompt": "社会保障の主な目的は？",
+      "answer": "生活上のリスクに社会全体で備え、生活の安定を支えること。",
+      "explanation": "年金・医療・福祉など、受益と負担の両面を考える。",
+      "tags": [
+        "社会保障",
+        "財政"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-civics-direct-indirect-tax",
+      "subject": "social-studies",
+      "domain": "civics",
+      "recommendedGrade": 3,
+      "cardType": "comparison",
+      "prompt": "直接税と間接税の違いは？",
+      "answer": "納める人と負担する人が同じか、異なるか。",
+      "explanation": "所得税は直接税、消費税は間接税の代表例。",
+      "tags": [
+        "税",
+        "財政"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-civics-local-autonomy",
+      "subject": "social-studies",
+      "domain": "civics",
+      "recommendedGrade": 3,
+      "cardType": "term",
+      "prompt": "地方自治が『民主主義の学校』と呼ばれるのはなぜ？",
+      "answer": "住民が身近な政治へ参加し、自治を経験できるから。",
+      "explanation": "首長・議会の選挙、直接請求などの仕組みがある。",
+      "tags": [
+        "地方自治",
+        "政治参加"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-civics-sustainability",
+      "subject": "social-studies",
+      "domain": "civics",
+      "recommendedGrade": 3,
+      "cardType": "reasoning",
+      "prompt": "持続可能な政策を考えるとき必要な視点は？",
+      "answer": "現在と将来、環境・経済・社会への影響を合わせて考えること。",
+      "explanation": "一つの効果だけでなく、負担や副作用も比較する。",
+      "tags": [
+        "持続可能性",
+        "政策"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-inquiry-graph-unit",
+      "subject": "social-studies",
+      "domain": "inquiry",
+      "recommendedGrade": 1,
+      "cardType": "source",
+      "prompt": "統計グラフで最初に確認する三点は？",
+      "answer": "表題、単位、出典",
+      "explanation": "何を、どの尺度で、誰が調べた資料かを確かめる。",
+      "tags": [
+        "統計",
+        "資料"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-inquiry-percentage-number",
+      "subject": "social-studies",
+      "domain": "inquiry",
+      "recommendedGrade": 1,
+      "cardType": "source",
+      "prompt": "割合が増えていても実数が減ることはある？",
+      "answer": "ある。",
+      "explanation": "全体の大きさが変われば、割合と実数は同じ動きをしない。",
+      "tags": [
+        "割合",
+        "統計"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-inquiry-background-trigger",
+      "subject": "social-studies",
+      "domain": "inquiry",
+      "recommendedGrade": 1,
+      "cardType": "chronology",
+      "prompt": "歴史の『背景』と『きっかけ』の違いは？",
+      "answer": "背景は長期的な条件、きっかけは出来事を直接動かした契機。",
+      "explanation": "原因を一つに決めず、時間の長さを分けて考える。",
+      "tags": [
+        "因果関係",
+        "歴史"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-inquiry-fair-comparison",
+      "subject": "social-studies",
+      "domain": "inquiry",
+      "recommendedGrade": 2,
+      "cardType": "comparison",
+      "prompt": "二つの地域を公平に比較するには？",
+      "answer": "同じ指標・時期・単位を使う。",
+      "explanation": "比較条件をそろえないと、差の原因を正しく判断できない。",
+      "tags": [
+        "比較",
+        "地理"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-inquiry-primary-secondary",
+      "subject": "social-studies",
+      "domain": "inquiry",
+      "recommendedGrade": 2,
+      "cardType": "source",
+      "prompt": "一次資料と二次資料の違いは？",
+      "answer": "一次資料は当時の記録や現物、二次資料は後から分析・説明したもの。",
+      "explanation": "どちらにも役割と限界があり、目的に応じて使い分ける。",
+      "tags": [
+        "史料",
+        "信頼性"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-inquiry-multiple-perspectives",
+      "subject": "social-studies",
+      "domain": "inquiry",
+      "recommendedGrade": 3,
+      "cardType": "reasoning",
+      "prompt": "多面的・多角的に考えるとは？",
+      "answer": "複数の側面と異なる立場から事象を考えること。",
+      "explanation": "政治・経済・社会・文化や、利益を受ける人と負担する人を分けて見る。",
+      "tags": [
+        "考察",
+        "立場"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-inquiry-correlation-causation",
+      "subject": "social-studies",
+      "domain": "inquiry",
+      "recommendedGrade": 3,
+      "cardType": "source",
+      "prompt": "二つの数値が同時に増えれば、必ず因果関係がある？",
+      "answer": "必ずしもない。",
+      "explanation": "共通する別の要因や偶然の一致もあるため、追加資料が必要。",
+      "tags": [
+        "統計",
+        "因果関係"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    },
+    {
+      "id": "social-studies-inquiry-claim-evidence",
+      "subject": "social-studies",
+      "domain": "inquiry",
+      "recommendedGrade": 3,
+      "cardType": "reasoning",
+      "prompt": "根拠ある説明の基本構成は？",
+      "answer": "主張・根拠・理由付け",
+      "explanation": "資料の事実を示し、それがなぜ主張を支えるかを説明する。",
+      "tags": [
+        "記述",
+        "根拠"
+      ],
+      "sourceRefs": [
+        "mext-social-studies-2017"
+      ]
+    }
+  ]
+}

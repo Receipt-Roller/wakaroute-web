@@ -4,6 +4,7 @@ using wakaroute_web.Services.Manabu2;
 using wakaroute_web.Services.PastExams;
 using wakaroute_web.Services.Kanji;
 using wakaroute_web.Services.EnglishVocabulary;
+using wakaroute_web.Services.StudyCards;
 using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,6 +29,7 @@ builder.Services.AddSingleton<IUnderstandingMapCatalog, Manabu2UnderstandingMapC
 builder.Services.AddSingleton<IPastExamCatalog, JsonPastExamCatalog>();
 builder.Services.AddSingleton<IKanjiCatalog, JsonKanjiCatalog>();
 builder.Services.AddSingleton<IEnglishVocabularyCatalog, JsonEnglishVocabularyCatalog>();
+builder.Services.AddSingleton<IStudyCardCatalog, JsonStudyCardCatalog>();
 builder.Services.AddSingleton<ISchoolCatalog, JsonSchoolCatalog>();
 
 var app = builder.Build();

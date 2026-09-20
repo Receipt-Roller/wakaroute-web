@@ -1,0 +1,38 @@
+@model StudyCardIndexViewModel
+@{
+    var subjectName = Model.Subject.Name;
+    var subjectClass = $"is-{Model.Subject.Id}";
+    ViewData["Title"] = $"中学校{subjectName}の学習カード";
+    ViewData["Description"] = Model.Subject.Id switch
+    {
+        "math" => "中学校数学の定義・公式・図・理由・注意点を短い問いで確認できる、ワカルート独自の学習カードです。",
+        "science" => "中学校理科の用語・公式・実験・図・理由を短い問いで確認できる、ワカルート独自の学習カードです。",
+        _ => "中学校社会の用語・地図・時系列・因果・資料読解を短い問いで確認できる、ワカルート独自の学習カードです。"
+    };
+    ViewData["Breadcrumbs"] = new SeoBreadcrumb[]{new("ホーム","/"),new($"{subjectName}の理解マップ",$"/understanding-map/{Model.Subject.Id}"),new($"{subjectName}の学習カード",$"/study-cards/{Model.Subject.Id}")};
+    var typeNames = Model.Subject.Id switch
+    {
+        "math" => new[]{("term","用語・定義"),("formula-unit","公式"),("diagram","図と表現"),("reasoning","理由を説明"),("pitfall","注意点")},
+        "science" => new[]{("term","用語"),("formula-unit","公式・単位"),("experiment","実験"),("diagram","図とモデル"),("reasoning","理由を説明")},
+        _ => new[]{("term","用語"),("map","地図"),("chronology","時系列"),("cause-effect","原因と結果"),("source","資料読解")}
+    };
+    var mapAction = Model.Subject.Id switch { "math" => "Math", "science" => "Science", _ => "SocialStudies" };
+    var eyebrow = Model.Subject.Id switch { "math" => "MATHEMATICS CARDS", "science" => "SCIENCE CARDS", _ => "SOCIAL STUDIES CARDS" };
+    var lead = Model.Subject.Id switch
+    {
+        "math" => "定義・公式・図・理由をつなぎ、解き方を自分で選べる知識へ進みます。",
+        "science" => "現象・実験・法則をつなぎ、なぜそうなるかまで確かめます。",
+        _ => "場所・時間・仕組みと資料をつなぎ、根拠をもって説明する力へ進みます。"
+    };
+}
+<section class="study-card-hero @subjectClass"><div class="shell">
+    <nav class="breadcrumbs" aria-label="パンくずリスト"><a asp-controller="Home" asp-action="Index">ホーム</a><span>/</span><a asp-controller="UnderstandingMaps" asp-action="@mapAction">@subjectName</a><span>/</span><span>学習カード</span></nav>
+    <span class="study-card-eyebrow">@eyebrow</span><h1>覚えるだけでなく、<br />説明できる知識へ。</h1><p>@lead</p>
+    <div class="study-card-hero-actions"><a asp-action="Cards" asp-route-subject="@Model.Subject.Id">@Model.CardCount 枚のカードを見る</a><span>初版 v@(Model.Dataset.DatasetVersion)</span></div>
+</div></section>
+<div class="study-card-main"><div class="shell study-card-shell">
+    <section class="study-card-domains"><header><span>4 DOMAINS</span><h2>@(subjectName)を4つの領域に整理</h2></header><div>@foreach(var domain in Model.Subject.Domains){var count=Model.Dataset.Items.Count(x=>x.Subject==Model.Subject.Id&&x.Domain==domain.Id);<a asp-action="Cards" asp-route-subject="@Model.Subject.Id" asp-route-domain="@domain.Id"><strong>@domain.Name</strong><span>@count 枚 →</span></a>}</div></section>
+    <section class="study-card-types"><header><span>CARD TYPES</span><h2>問い方を変えて、本当に分かるか確かめる。</h2></header><div>@foreach(var type in typeNames){var count=Model.Dataset.Items.Count(x=>x.Subject==Model.Subject.Id&&x.CardType==type.Item1);<a asp-action="Cards" asp-route-subject="@Model.Subject.Id" asp-route-cardType="@type.Item1"><strong>@type.Item2</strong><span>@count 枚</span></a>}</div></section>
+    <aside class="study-card-open-data"><div><span>OPEN LEARNING DATA</span><h2>アプリでも使える共通データ</h2></div><div><p>@Model.Dataset.EditorialNote</p><nav><a href="/api/v1/study-cards?subject=@Model.Subject.Id">教科API</a><a href="/api/v1/study-cards/dataset">全データ</a></nav></div></aside>
+    <section class="study-card-source"><h2>出典と位置付け</h2><p>学習範囲は文部科学省の学習指導要領解説を参照し、問い・答え・解説はワカルートが独自に作成しています。</p><a href="@Model.Subject.CurriculumSourceUrl" target="_blank" rel="noopener noreferrer">@(subjectName)編の公式資料を見る ↗</a></section>
+</div></div>
