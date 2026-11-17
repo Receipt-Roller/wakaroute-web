@@ -243,7 +243,10 @@
     "https://www.dokyoi.pref.hokkaido.lg.jp/hk/gks/184082.html",
     "https://www.pref.hokkaido.lg.jp/sm/gkj/allschoolseach.html",
     "https://www.pref.hokkaido.lg.jp/sm/gkj/syotyukosonota.html",
-    "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P29-v2_0.html"
+    "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P29-v2_0.html",
+    "https://www.mext.go.jp/content/20260825-mxt_chousa01-000011635_2-1.csv",
+    "https://www.kyoiku.metro.tokyo.lg.jp/ja/school/high_school/list",
+    "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/20261023_bo_16"
   ],
   "schools": [
     {
@@ -28678,7 +28681,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-04",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/hibiya-h/",
       "tags": [],
       "latitude": 35.676043,
@@ -28696,7 +28699,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.652379,
       "longitude": 139.743019
@@ -28735,11 +28738,11 @@
       "prefecture": "東京都",
       "address": "東京都品川区東品川３－２７－２２",
       "postalCode": "140-0002",
-      "officialUrl": "https://yashio-h.metro.ed.jp/",
+      "officialUrl": "https://yashio-h.metro.ed.jp/site/zen/",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -28765,7 +28768,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-04",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/koyamadai-h/",
       "tags": [],
       "latitude": 35.621187,
@@ -28783,7 +28786,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/yukigaya-h/",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -28833,7 +28836,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつでんえんちょうふこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/den-enchofu-h/",
       "tags": [
@@ -28860,7 +28863,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.557584,
       "longitude": 139.715137
@@ -28877,7 +28880,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-04",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.547003,
       "longitude": 139.738691
@@ -28950,7 +28953,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/mihara-h/",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -28977,7 +28980,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/sibasyogyo-h/",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -29027,7 +29030,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-04",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/toyama-h/",
       "tags": [],
       "latitude": 35.707122,
@@ -29061,7 +29064,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/meguro-h/",
       "tags": [
         "都立",
@@ -29086,7 +29089,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-04",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/shinjuku-h/",
       "tags": [],
       "latitude": 35.688478,
@@ -29103,7 +29106,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/aoyama-h/",
       "tags": [],
       "latitude": 35.672848,
@@ -29121,7 +29124,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -29201,7 +29204,7 @@
       "openedOn": "2020/12/22",
       "nameKana": "とうきょうとりつちとせがおかこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/chitosegaoka-h/",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -29227,7 +29230,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつふかさわこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/fukasawa-h/",
       "tags": [
@@ -29281,7 +29284,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -29333,7 +29336,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/roka-h/",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -29359,7 +29362,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/daiichishogyo-h/",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -29487,7 +29490,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/saginomiya-h/",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -29538,7 +29541,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつむさしがおかこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/musashigaoka-h/",
       "tags": [
@@ -29582,7 +29585,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/nishi-h/",
       "tags": [],
       "latitude": 35.691676,
@@ -29600,7 +29603,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.689122,
       "longitude": 139.629
@@ -29616,7 +29619,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/suginami-h/",
       "tags": [
         "都立",
@@ -29642,7 +29645,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/shakujii-h/",
       "tags": [
         "都立",
@@ -29668,7 +29671,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-04",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.727339,
       "longitude": 139.598445
@@ -29711,7 +29714,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/nerima-h/",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -29737,7 +29740,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -29762,7 +29765,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつたがらこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/tagara-h/",
       "tags": [
@@ -29787,7 +29790,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/suginamisogo-h/",
       "tags": [
         "都立",
@@ -29841,7 +29844,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/oizumisakura-h/",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -29867,7 +29870,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/daiyonsyogyo-h/",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -30002,7 +30005,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.712872,
       "longitude": 139.743961
@@ -30019,7 +30022,7 @@
       "openedOn": "2020/12/22",
       "nameKana": "とうきょうとりつむこうがおかこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/mukogaoka-h/",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -30064,7 +30067,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/bunkyo-h/",
       "tags": [
         "都立",
@@ -30091,7 +30094,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.750839,
       "longitude": 139.715934
@@ -30106,7 +30109,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりついたばしこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/itabashi-h/",
       "tags": [
@@ -30162,7 +30165,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/takashima-h/",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -30352,7 +30355,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつおうじそうごうこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/oujisogo-h/",
       "tags": [
@@ -30448,7 +30451,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-04",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.71865,
       "longitude": 139.769904
@@ -30465,7 +30468,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/takenodai-h/",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -30507,7 +30510,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつこうほくこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/kohoku-h/",
       "tags": [
@@ -30534,7 +30537,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつふちえこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/fuchie-h/",
       "tags": [
@@ -30560,7 +30563,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.776421,
       "longitude": 139.768151
@@ -30577,7 +30580,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.781339,
       "longitude": 139.845339
@@ -30594,7 +30597,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/aoi-h/",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -30620,7 +30623,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.770171,
       "longitude": 139.741459
@@ -30636,7 +30639,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/harumisogo-h/",
       "tags": [
         "都立",
@@ -30779,7 +30782,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-04",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/sumidagawa-h/",
       "tags": [],
       "latitude": 35.722041,
@@ -30796,7 +30799,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/honjo-h/",
       "tags": [
         "都立",
@@ -30823,7 +30826,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.755898,
       "longitude": 139.845812
@@ -30867,7 +30870,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/nihonbashi-h/",
       "tags": [
         "都立",
@@ -30917,7 +30920,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつひがしこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/higashi-h/",
       "tags": [
@@ -30944,7 +30947,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-04",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/joto-h/",
       "tags": [],
       "latitude": 35.692876,
@@ -30962,7 +30965,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.702625,
       "longitude": 139.85187
@@ -31004,7 +31007,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -31047,7 +31050,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/shinozaki-h/",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -31073,7 +31076,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/momijigawa-h/",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -31127,7 +31130,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.777701,
       "longitude": 139.865234
@@ -31159,7 +31162,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつこうとうしょうぎょうこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/kotosyogyo-h/",
       "tags": [
@@ -31365,7 +31368,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/fujimori-h/",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -31415,7 +31418,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-04",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/hachiojihigashi-h/",
       "tags": [],
       "latitude": 35.662035,
@@ -31433,7 +31436,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -31485,7 +31488,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/hino-h/",
       "tags": [
         "都立",
@@ -31511,7 +31514,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/hinodai-h/",
       "tags": [
         "都立",
@@ -31538,7 +31541,7 @@
       "openedOn": "2020/12/22",
       "nameKana": "とうきょうとりつみなみだいらこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/minamidaira-h/",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -31566,7 +31569,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-04",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/machida-h/",
       "tags": [],
       "latitude": 35.553521,
@@ -31609,7 +31612,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/naruse-h/",
       "tags": [
         "都立",
@@ -31636,7 +31639,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -31662,7 +31665,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -31713,7 +31716,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/shoyo-h/",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -31852,7 +31855,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/showa-h/",
       "tags": [
         "都立",
@@ -31878,7 +31881,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/haijima-h/",
       "tags": [
         "都立",
@@ -31904,7 +31907,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/higashiyamato-h/",
       "tags": [
         "都立",
@@ -31929,7 +31932,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつむさしむらやまこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/musashimurayama-h/",
       "tags": [
@@ -31951,12 +31954,12 @@
       "nameKana": "とうきょうとりつひがしやまとみなみこうとうがっこう",
       "prefectureCode": "13",
       "prefecture": "東京都",
-      "address": "東京都東大和市桜ヶ丘３－４４－８",
+      "address": "東京都東大和市桜が丘３－４４－８",
       "postalCode": "207-0022",
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/higashiyamatominami-h/",
       "tags": [
         "都立",
@@ -31983,7 +31986,7 @@
       "openedOn": "2020/12/22",
       "nameKana": "とうきょうとりつたまこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/tama-h/",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -32028,7 +32031,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.732192,
       "longitude": 139.30086
@@ -32045,7 +32048,7 @@
       "campusType": "main",
       "openedOn": "2020/12/22",
       "officialUrl": "https://www.metro.ed.jp/hamura-h/",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -32125,7 +32128,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -32258,7 +32261,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2025-05-01",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.720394,
       "longitude": 139.557671
@@ -32275,7 +32278,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -32301,7 +32304,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -32328,7 +32331,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -32353,7 +32356,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつたなしこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/tanashi-h/",
       "tags": [
@@ -32406,7 +32409,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -32430,7 +32433,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつひがしむらやまこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/higashimurayama-h/",
       "tags": [
@@ -32457,7 +32460,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-04",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/kokubunji-h/",
       "tags": [],
       "latitude": 35.712309,
@@ -32473,7 +32476,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつきよせこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/kiyose-h/",
       "tags": [
@@ -32500,7 +32503,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -32524,7 +32527,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつひがしむらやまにしこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/higashimurayamanishi-h/",
       "tags": [
@@ -32666,7 +32669,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.680148,
       "longitude": 139.548868
@@ -32683,7 +32686,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-10",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [],
       "latitude": 35.643959,
       "longitude": 139.539538
@@ -32698,7 +32701,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつこまえこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/komae-h/",
       "tags": [
@@ -32724,7 +32727,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/fuchu-h/",
       "tags": [
         "都立",
@@ -32751,7 +32754,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -32777,7 +32780,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "tags": [
         "都立",
         "共学校",
@@ -32802,7 +32805,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-04",
+      "lastVerifiedAt": "2026-11-16",
       "officialUrl": "https://www.metro.ed.jp/kunitachi-h/",
       "tags": [],
       "latitude": 35.68809,
@@ -32818,7 +32821,7 @@
       "ownership": "public",
       "campusType": "main",
       "openedOn": "2020/12/22",
-      "lastVerifiedAt": "2026-08-05",
+      "lastVerifiedAt": "2026-11-16",
       "nameKana": "とうきょうとりつながやまこうとうがっこう",
       "officialUrl": "https://www.metro.ed.jp/nagayama-h/",
       "tags": [
@@ -61296,7 +61299,7 @@
     },
     {
       "id": "wk_d124210050463",
-      "name": "三重県立南伊勢高等学校\u3000度会校舎",
+      "name": "三重県立南伊勢高等学校　度会校舎",
       "prefectureCode": "24",
       "prefecture": "三重県",
       "address": "三重県度会郡度会町大野木２８３１",

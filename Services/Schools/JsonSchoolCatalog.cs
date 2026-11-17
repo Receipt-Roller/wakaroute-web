@@ -131,6 +131,7 @@ public sealed class JsonSchoolCatalog : ISchoolCatalog
                 group => group.OrderByDescending(schedule => schedule.AcademicYear).ThenBy(schedule => schedule.Selection, StringComparer.Ordinal).ToArray(),
                 StringComparer.Ordinal);
         _admissionsById = admissionDocuments
+            .Where(document => document.Kind != "capacity-announcement")
             .SelectMany(document => document.Results)
             .Select(result => new SchoolAdmissionResult(
                 result.SchoolId, result.AcademicYear, result.Selection, result.SelectionLabel,
@@ -501,6 +502,7 @@ public sealed class JsonSchoolCatalog : ISchoolCatalog
     {
         public int SchemaVersion { get; init; }
         public int AcademicYear { get; init; }
+        public string? Kind { get; init; }
         public AdmissionEntry[] Results { get; init; } = [];
     }
 

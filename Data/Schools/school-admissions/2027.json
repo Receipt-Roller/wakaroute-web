@@ -1,0 +1,4825 @@
+{
+  "schemaVersion": 1,
+  "academicYear": 2027,
+  "kind": "capacity-announcement",
+  "results": [
+    {
+      "schoolId": "wk_d113299901022",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 317,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901022",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901031",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 256,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901031",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 52,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901031",
+      "academicYear": 2027,
+      "selection": "returnee",
+      "selectionLabel": "海外帰国生徒対象（4月入学）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 18,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "都教委公表の対象枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901031",
+      "academicYear": 2027,
+      "selection": "returnee-september",
+      "selectionLabel": "海外帰国生徒対象（9月入学）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 2,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集欄と別掲の枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.6）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=6",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901059",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 196,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901059",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 40,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901068",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901068",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901077",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 277,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901077",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901095",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 236,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901095",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901102",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 157,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901102",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901111",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "総合学科",
+      "capacity": 236,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.5）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=5",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901111",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "総合学科",
+      "capacity": 72,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.5）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=5",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901148",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 156,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901148",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 32,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901157",
+      "academicYear": 2027,
+      "selection": "linked",
+      "selectionLabel": "連携型入学者選抜（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "ビジネス科",
+      "capacity": 10,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.6）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=6",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901157",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "ビジネス科",
+      "capacity": 175,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.4）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=4",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299901157",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "ビジネス科",
+      "capacity": 70,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.4）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=4",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902012",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902012",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902030",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 237,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902030",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902049",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902049",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 32,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902058",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 277,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902058",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902067",
+      "academicYear": 2027,
+      "selection": "linked",
+      "selectionLabel": "連携型入学者選抜（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 5,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.6）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=6",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902067",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 197,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902067",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 40,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902094",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 277,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902094",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902101",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 156,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902101",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 32,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902129",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "総合学科",
+      "capacity": 236,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.5）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=5",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902129",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "総合学科",
+      "capacity": 72,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.5）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=5",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902147",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 276,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902147",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902156",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "ビジネス科",
+      "capacity": 140,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.4）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=4",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299902156",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "ビジネス科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.4）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=4",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903011",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 276,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903011",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903039",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 317,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903039",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903057",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903057",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903066",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903066",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903075",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 317,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903075",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903084",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 276,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903084",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903093",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 277,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903093",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903119",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 237,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903119",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903128",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 191,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903128",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 38,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903128",
+      "academicYear": 2027,
+      "selection": "repatriate",
+      "selectionLabel": "引揚生徒対象（4月入学）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 6,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "都教委公表の対象枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903137",
+      "academicYear": 2027,
+      "selection": "foreign",
+      "selectionLabel": "在京外国人生徒等対象（4月入学）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 25,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "都教委公表の対象枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903137",
+      "academicYear": 2027,
+      "selection": "foreign-september",
+      "selectionLabel": "在京外国人生徒等対象（9月入学）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 3,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集欄と別掲の枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.6）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=6",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903137",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 171,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903137",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 34,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903146",
+      "academicYear": 2027,
+      "selection": "foreign",
+      "selectionLabel": "在京外国人生徒等対象（4月入学）",
+      "attendanceType": "full-time",
+      "department": "総合学科",
+      "capacity": 20,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "都教委公表の対象枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.5）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=5",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903146",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "総合学科",
+      "capacity": 216,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.5）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=5",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903146",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "総合学科",
+      "capacity": 66,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.5）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=5",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903164",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 196,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903164",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 40,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903173",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "ビジネス科",
+      "capacity": 175,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.4）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=4",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299903173",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "ビジネス科",
+      "capacity": 70,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.4）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=4",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904010",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 222,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904010",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 45,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904010",
+      "academicYear": 2027,
+      "selection": "returnee",
+      "selectionLabel": "海外帰国生徒対象（4月入学）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 13,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "都教委公表の対象枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904010",
+      "academicYear": 2027,
+      "selection": "returnee-september",
+      "selectionLabel": "海外帰国生徒対象（9月入学）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 2,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集欄と別掲の枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.6）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=6",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904029",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 276,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904029",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904047",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 356,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904047",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 72,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904056",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 317,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904056",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904065",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 277,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904065",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904083",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904083",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904154",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "総合学科",
+      "capacity": 236,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.5）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=5",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299904154",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "総合学科",
+      "capacity": 72,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.5）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=5",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905037",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905037",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905046",
+      "academicYear": 2027,
+      "selection": "foreign",
+      "selectionLabel": "在京外国人生徒等対象（4月入学）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 20,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "都教委公表の対象枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905046",
+      "academicYear": 2027,
+      "selection": "foreign-september",
+      "selectionLabel": "在京外国人生徒等対象（9月入学）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 3,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集欄と別掲の枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.6）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=6",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905046",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 214,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905046",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 43,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905064",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905064",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905073",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 237,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905073",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905082",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 196,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905082",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 40,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905091",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 198,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905091",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 60,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905108",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 157,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905108",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 32,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905117",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 278,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905117",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 61,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905126",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "総合学科",
+      "capacity": 276,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.5）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=5",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299905126",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "総合学科",
+      "capacity": 84,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.5）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=5",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906027",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906027",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906036",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 237,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906036",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906045",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 317,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906045",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906063",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 237,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906063",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906081",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 237,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906081",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906090",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906090",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906107",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 317,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906107",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906125",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 356,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906125",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 72,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906143",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 278,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906143",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 61,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906152",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 237,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906152",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906170",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "総合学科",
+      "capacity": 196,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.5）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=5",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906170",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "総合学科",
+      "capacity": 60,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.5）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=5",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906198",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "ビジネス科",
+      "capacity": 175,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.4）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=4",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299906198",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "ビジネス科",
+      "capacity": 70,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.4）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=4",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907017",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 311,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907017",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 62,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907017",
+      "academicYear": 2027,
+      "selection": "repatriate",
+      "selectionLabel": "引揚生徒対象（4月入学）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 6,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "都教委公表の対象枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907035",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907035",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907044",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 198,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907044",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 40,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907062",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 317,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907062",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 70,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907071",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 302,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907071",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 61,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907071",
+      "academicYear": 2027,
+      "selection": "returnee",
+      "selectionLabel": "海外帰国生徒対象（4月入学）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 13,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "都教委公表の対象枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907071",
+      "academicYear": 2027,
+      "selection": "returnee-september",
+      "selectionLabel": "海外帰国生徒対象（9月入学）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 2,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集欄と別掲の枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.6）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=6",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907080",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 317,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907080",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907099",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委公表）",
+      "attendanceType": "part-time",
+      "department": "普通科",
+      "capacity": 30,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "定時制・学年制。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.12）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=12",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907099",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 317,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907099",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907115",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 277,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907115",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907124",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907124",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907133",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 157,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907133",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 32,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907151",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 236,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299907151",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908034",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908034",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908043",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 277,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908043",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908052",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 277,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908052",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 61,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908061",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 277,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908061",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908070",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 276,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908070",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 61,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908089",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 157,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908089",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 32,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908105",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 238,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908105",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 72,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908114",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 197,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908114",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 40,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908141",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 236,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299908141",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909024",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 237,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909024",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909033",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 237,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909033",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909042",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 317,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909042",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909051",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 236,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909051",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909060",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909060",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909088",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 278,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909088",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 61,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909097",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 196,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909097",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 60,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909104",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909104",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909113",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 276,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909113",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909122",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 277,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909122",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 56,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909131",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 197,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299909131",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 40,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910021",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 236,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910021",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910030",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 237,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910030",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 48,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910049",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 317,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910049",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910058",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910058",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910067",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 317,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910067",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 70,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910076",
+      "academicYear": 2027,
+      "selection": "foreign",
+      "selectionLabel": "在京外国人生徒等対象（4月入学）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 20,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "都教委公表の対象枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.3）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=3",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910076",
+      "academicYear": 2027,
+      "selection": "foreign-september",
+      "selectionLabel": "在京外国人生徒等対象（9月入学）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 3,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集欄と別掲の枠。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.6）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=6",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910076",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 294,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910076",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 65,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910085",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 316,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910085",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910094",
+      "academicYear": 2027,
+      "selection": "linked",
+      "selectionLabel": "連携型入学者選抜（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 30,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.6）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=6",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910094",
+      "academicYear": 2027,
+      "selection": "published-capacity",
+      "selectionLabel": "第1学年募集人員（都教委「一般募集」欄）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 318,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "「一般募集」欄の公表値。推薦入学対象人員を含みます。第一次募集の最終募集人員とは区別してください。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "schoolId": "wk_d113299910094",
+      "academicYear": 2027,
+      "selection": "recommendation",
+      "selectionLabel": "推薦入学対象人員（一般募集の内数）",
+      "attendanceType": "full-time",
+      "department": "普通科",
+      "capacity": 64,
+      "applicants": null,
+      "examinees": null,
+      "admitted": null,
+      "enrolled": null,
+      "note": "一般募集の内数。文化・スポーツ等特別推薦がある場合はその枠を含みます。",
+      "sources": [
+        {
+          "title": "都教委 令和9年度第一学年生徒募集人員（p.2）",
+          "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/release20261008_01-pdf-1#page=2",
+          "publishedAt": "2026-10-08",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    }
+  ]
+}
